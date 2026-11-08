@@ -205,7 +205,7 @@ export const ITALY_CATALOG = [
     plants: [
       { name: "Vite", wiki: "Vitis vinifera", description: "Sulle colline di Conegliano e Valdobbiadene i filari di Glera producono il Prosecco. Il paesaggio è patrimonio dell'umanità." },
       { name: "Cipresso", wiki: "Cupressus sempervirens", description: "Albero snello dei colli euganei e dei giardini delle ville. Il suo profilo scuro segna viali e cimiteri storici." },
-      { name: "Salicornia", wiki: "Salicornia", description: "Pianta grassa delle barene, che vive con i piedi nell'acqua salata. In laguna si raccoglie e si cucina come asparago di mare." },
+      { name: "Salicornia", wiki: "Salicornia", file: "Salicornia europaea MS 0802.JPG", description: "Pianta grassa delle barene, che vive con i piedi nell'acqua salata. In laguna si raccoglie e si cucina come asparago di mare." },
     ],
     animals: [
       { name: "Fenicottero", wiki: "Phoenicopterus roseus", description: "Uccello rosa che filtra il fango con il becco. In laguna di Venezia e nel Delta se ne vedono grandi stormi." },
@@ -251,7 +251,7 @@ export const ITALY_CATALOG = [
       { name: "Orso bruno", wiki: "Ursus arctos", description: "Dalle Alpi Giulie ogni tanto scende verso i boschi del Tarvisiano. È protetto e vive lontano dai paesi." },
     ],
     foods: [
-      { name: "Frico", wiki: "Frico", description: "Frittella croccante di Montasio, a volte con patate. Si mangia come antipasto o come piatto unico di malga." },
+      { name: "Frico", wiki: "Frico", file: "Fricoepolenta.jpg", description: "Frittella croccante di Montasio, a volte con patate. Si mangia come antipasto o come piatto unico di malga." },
       { name: "Prosciutto di San Daniele", wiki: "Prosciutto di San Daniele", description: "Coscia stagionata nell'aria delle colline di San Daniele. Si taglia a mano e si riconosce dalla zampa con lo zoccolo." },
       { name: "Gubana", wiki: "Gubana", description: "Dolce a spirale ripieno di noci, uvetta e scorze, tipico delle Valli del Natisone. Si porta in tavola nelle feste." },
     ],
@@ -470,7 +470,7 @@ export const ITALY_CATALOG = [
       "L'Abruzzo ha circa un milione e trecentomila abitanti. Un terzo del territorio è protetto da parchi: Gran Sasso, Majella, Sirente-Velino e il Parco d'Abruzzo, Lazio e Molise.\nÈ famoso per l'orso marsicano, gli arrosticini, i borghi come Santo Stefano di Sessanio e una costa adriatica ancora fatta di spiagge e trabocchi.",
     plants: [
       { name: "Faggio", wiki: "Fagus sylvatica", description: "Forma boschi immensi sulla Majella e nel Parco d'Abruzzo. Sono tra le faggete più antiche d'Europa, patrimonio dell'umanità." },
-      { name: "Zafferano", wiki: "Crocus sativus", description: "Fiore viola che si raccoglie all'alba a Navelli, in autunno. Dai tre stimmi rossi si ricava la spezia più preziosa della cucina." },
+      { name: "Zafferano", wiki: "Crocus sativus", file: "Crocus sativus - Saffron crocus - Safran 02.JPG", description: "Fiore viola che si raccoglie all'alba a Navelli, in autunno. Dai tre stimmi rossi si ricava la spezia più preziosa della cucina." },
       { name: "Genziana", wiki: "Gentiana lutea", description: "Pianta alta dei pascoli, con fiori gialli. Dalle radici, in passato, si preparava un liquore amaro di montagna." },
     ],
     animals: [
@@ -480,7 +480,7 @@ export const ITALY_CATALOG = [
     ],
     foods: [
       { name: "Arrosticini", wiki: "Arrosticini", description: "Spiedini di pecora cotti sulla brace, in una canalina lunga chiamata furnacella. Si mangiano con le mani, uno dopo l'altro." },
-      { name: "Spaghetti alla chitarra", wiki: "Spaghetti alla chitarra", description: "Pasta a sezione quadrata, tagliata su un telaio di fili detto chitarra. Si condiscono con ragù di agnello o pallottine." },
+      { name: "Spaghetti alla chitarra", wiki: "Spaghetti alla chitarra", file: "Spaghetti alla chitarra con pallottine (Teramo).jpg", description: "Pasta a sezione quadrata, tagliata su un telaio di fili detto chitarra. Si condiscono con ragù di agnello o pallottine." },
       { name: "Confetti di Sulmona", wiki: "Confetto", description: "Mandorle ricoperte di zucchero, nate a Sulmona e legate ai festeggiamenti. I mazzi colorati sono un'arte locale." },
     ],
     tourism: [
@@ -697,7 +697,7 @@ export const ITALY_CATALOG = [
     spotlight:
       "La Sicilia ha circa quattro milioni e ottocentomila abitanti. Palermo è il capoluogo; Catania sta ai piedi dell'Etna, sull'altra costa.\nGreci, Romani, Arabi, Normanni e Spagnoli hanno lasciato templi, mercati, dolci e parole. L'isola è famosa per l'Etna, la Valle dei Templi, Taormina e una cucina ricchissima.",
     plants: [
-      { name: "Arancio", wiki: "Arancia", description: "Nella Piana di Catania e intorno a Ribera gli aranceti profumano in primavera. I frutti, dolci o amari, entrano in insalate e dolci." },
+      { name: "Arancio", wiki: "Arancia", file: "Sicilian oranges.jpg", description: "Nella Piana di Catania e intorno a Ribera gli aranceti profumano in primavera. I frutti, dolci o amari, entrano in insalate e dolci." },
       { name: "Fico d'India", wiki: "Opuntia ficus-indica", description: "Pianta dei muretti e delle lave vecchie. In Sicilia il frutto si chiama anche ficodindia e si sbuccia a strada." },
       { name: "Papiro", wiki: "Cyperus papyrus", description: "Cresce lungo il fiume Ciane, vicino a Siracusa, e in pochi altri posti d'Europa. Gli Arabi e gli antichi lo usavano per scrivere." },
     ],
@@ -741,7 +741,7 @@ export const ITALY_CATALOG = [
     ],
     animals: [
       { name: "Muflone", wiki: "Ovis aries musimon", description: "Pecora selvatica con corna a spirale, tipica delle rocce sarde. Vive in piccoli gruppi sulle creste." },
-      { name: "Cervo sardo", wiki: "Cervus elaphus corsicanus", description: "Sottospecie piccola di cervo, salvata dall'estinzione. Oggi si vede nelle foreste del Sulcis e dell'Arburese." },
+      { name: "Cervo sardo", wiki: "Cervus elaphus corsicanus", file: "Cervus elaphus corsicanus 177947667.jpg", description: "Sottospecie piccola di cervo, salvata dall'estinzione. Oggi si vede nelle foreste del Sulcis e dell'Arburese." },
       { name: "Fenicottero", wiki: "Phoenicopterus roseus", description: "Negli stagni di Cagliari e di Oristano forma colonie enormi. Il rosa acceso viene dai crostacei di cui si nutre." },
     ],
     foods: [

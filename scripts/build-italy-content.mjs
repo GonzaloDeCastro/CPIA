@@ -123,6 +123,11 @@ async function commonsThumb(query) {
   return "";
 }
 
+/** Foto elegida a mano de Wikimedia Commons (campo `file` del catálogo). */
+function commonsFileUrl(file) {
+  return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file.replace(/ /g, "_"))}?width=960`;
+}
+
 const categories = ["plants", "animals", "foods", "tourism", "history"];
 
 const jobs = [];
@@ -160,7 +165,7 @@ const resolved = ITALY_CATALOG.map((region) => {
   for (const key of categories) {
     const items = [];
     for (const item of region[key]) {
-      const image = imageByWiki.get(item.wiki) ?? "";
+      const image = (item.file ? commonsFileUrl(item.file) : imageByWiki.get(item.wiki) ?? "");
       const status = image ? "OK" : "MISS";
       console.log(`${status}  ${region.slug} / ${key} / ${item.name}`);
       if (image) {

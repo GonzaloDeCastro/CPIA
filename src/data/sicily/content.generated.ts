@@ -223,12 +223,12 @@ export const SICILY_CONTENT: Record<SicilyProvinceSlug, SicilyProvinceContent> =
       },
       {
         "name": "Arancino",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Arancini_002.jpg/960px-Arancini_002.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arancini_messinesi.JPG?width=960",
         "description": "Riso allo zafferano, ragù e piselli, impanato e fritto. A Catania si dice arancino, al maschile, e spesso ha la forma a punta."
       },
       {
         "name": "Granita",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Tris_di_granite.JPG/960px-Tris_di_granite.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Granita_brioche.JPG?width=960",
         "description": "Ghiaccio granuloso al limone, mandorla o caffè, mangiato a colazione con la brioche col tuppo. D'estate è il rito della città."
       }
     ],
@@ -363,7 +363,7 @@ export const SICILY_CONTENT: Record<SicilyProvinceSlug, SicilyProvinceContent> =
       },
       {
         "name": "Limone",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Citrus_x_limon_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-041.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lemon_tree_-_Syracuse.jpg?width=960",
         "description": "Gli agrumeti della costa ionica profumano in fiore, tra febbraio e marzo. Il succo entra nella ghiotta di pesce spada e nella granita."
       },
       {
@@ -375,7 +375,7 @@ export const SICILY_CONTENT: Record<SicilyProvinceSlug, SicilyProvinceContent> =
     "animals": [
       {
         "name": "Pesce spada",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Xiphias_gladius1.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Xiphias_gladius_stuffed.jpg?width=960",
         "description": "Attraversa lo stretto in primavera e in estate. I pescatori lo cercavano con le feluche, barche alte da cui si avvista la pinna."
       },
       {
@@ -392,7 +392,7 @@ export const SICILY_CONTENT: Record<SicilyProvinceSlug, SicilyProvinceContent> =
     "foods": [
       {
         "name": "Pasta 'ncasciata",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Pasta_con_le_melanzane-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eggplant_and_Pasta_Incaciata_%288595676584%29.jpg?width=960",
         "description": "Pasta al forno con ragù, uova sode, melanzane, caciocavallo e, spesso, piselli. È il piatto della domenica messinese."
       },
       {
@@ -401,8 +401,8 @@ export const SICILY_CONTENT: Record<SicilyProvinceSlug, SicilyProvinceContent> =
         "description": "Mezzelune fritte, ripiene di verdure, acciughe o tuma. A Messina si comprano calde, in strada, come spuntino."
       },
       {
-        "name": "Granita",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Tris_di_granite.JPG/960px-Tris_di_granite.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "name": "Granita con panna",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Granita_Caff%C3%A8_e_Panna..jpg?width=500",
         "description": "A Messina la granita al caffè si copre di panna e si mangia a colazione. Il ghiaccio si raschia fine, e non è un sorbetto liscio."
       }
     ],
@@ -445,7 +445,7 @@ export const SICILY_CONTENT: Record<SicilyProvinceSlug, SicilyProvinceContent> =
     "plants": [
       {
         "name": "Arancio amaro",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Citrus_aurantium_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-042.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bitter_orange_-_Citrus_aurantium_10.JPG?width=960",
         "description": "La Conca d'Oro, la piana di Palermo, era un giardino di agrumi. L'arancio amaro profuma le strade a primavera e la scorza si candisce."
       },
       {
@@ -479,7 +479,7 @@ export const SICILY_CONTENT: Record<SicilyProvinceSlug, SicilyProvinceContent> =
     "foods": [
       {
         "name": "Panelle",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Panelle_in_Caltanissetta.jpg/960px-Panelle_in_Caltanissetta.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pane_e_panelle.jpg?width=960",
         "description": "Frittelle sottili di farina di ceci, salate e pepate. Si mangiano nella mafalda, un panino, insieme alle crocchè di patate."
       },
       {
@@ -491,6 +491,11 @@ export const SICILY_CONTENT: Record<SicilyProvinceSlug, SicilyProvinceContent> =
         "name": "Pasta con le sarde",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Pasta_con_le_sarde_2.jpg/960px-Pasta_con_le_sarde_2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "description": "Pasta con sarde fresche, finocchietto selvatico, uvetta e pinoli. Unisce il mare e l'orto, e si prepara da marzo a settembre."
+      },
+      {
+        "name": "Arancina",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arancini_002.jpg?width=960",
+        "description": "Palla di riso allo zafferano con ragù e piselli, impanata e fritta. A Palermo si dice arancina, al femminile, ed è tonda come un'arancia: la grande rivale dell'arancino di Catania."
       }
     ],
     "tourism": [
@@ -559,7 +564,7 @@ export const SICILY_CONTENT: Record<SicilyProvinceSlug, SicilyProvinceContent> =
       },
       {
         "name": "Averla capirossa",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Woodchat.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lanius_senator01_new.jpg?width=960",
         "description": "Uccello con la testa rossiccia che infilza grilli e lucertole sulle spine, come in una dispensa. Nidifica tra gli ulivi e parte in autunno."
       }
     ],
@@ -711,7 +716,7 @@ export const SICILY_CONTENT: Record<SicilyProvinceSlug, SicilyProvinceContent> =
       },
       {
         "name": "Zibibbo",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Muscat_d%27Alexandrie_Viala_et_Vermorel.jpg/960px-Muscat_d%27Alexandrie_Viala_et_Vermorel.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Uva_Moscatel_de_Alejandr%C3%ADa.jpg?width=960",
         "description": "Uva dolce di Pantelleria, allevata bassa contro il vento. Diventa passito: un vino d'uva appassita al sole."
       },
       {

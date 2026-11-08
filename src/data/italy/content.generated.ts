@@ -455,7 +455,7 @@ export const ITALY_CONTENT: Record<ItalyRegionSlug, ItalyRegionContent> = {
       },
       {
         "name": "Salicornia",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Illustration_Salicornia_europaea0.jpg/960px-Illustration_Salicornia_europaea0.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Salicornia_europaea_MS_0802.JPG?width=960",
         "description": "Pianta grassa delle barene, che vive con i piedi nell'acqua salata. In laguna si raccoglie e si cucina come asparago di mare."
       }
     ],
@@ -566,7 +566,7 @@ export const ITALY_CONTENT: Record<ItalyRegionSlug, ItalyRegionContent> = {
     "foods": [
       {
         "name": "Frico",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Fricotenero.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fricoepolenta.jpg?width=960",
         "description": "Frittella croccante di Montasio, a volte con patate. Si mangia come antipasto o come piatto unico di malga."
       },
       {
@@ -1059,7 +1059,7 @@ export const ITALY_CONTENT: Record<ItalyRegionSlug, ItalyRegionContent> = {
       },
       {
         "name": "Zafferano",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Illustration_Crocus_vernus0.jpg/960px-Illustration_Crocus_vernus0.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Crocus_sativus_-_Saffron_crocus_-_Safran_02.JPG?width=960",
         "description": "Fiore viola che si raccoglie all'alba a Navelli, in autunno. Dai tre stimmi rossi si ricava la spezia più preziosa della cucina."
       },
       {
@@ -1093,7 +1093,7 @@ export const ITALY_CONTENT: Record<ItalyRegionSlug, ItalyRegionContent> = {
       },
       {
         "name": "Spaghetti alla chitarra",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Spaghetti_chitarra.png/960px-Spaghetti_chitarra.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Spaghetti_alla_chitarra_con_pallottine_%28Teramo%29.jpg?width=960",
         "description": "Pasta a sezione quadrata, tagliata su un telaio di fili detto chitarra. Si condiscono con ragù di agnello o pallottine."
       },
       {
@@ -1576,7 +1576,7 @@ export const ITALY_CONTENT: Record<ItalyRegionSlug, ItalyRegionContent> = {
     "plants": [
       {
         "name": "Arancio",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Histoire_et_culture_des_orangers_A._Risso_et_A._Poiteau._--_Paris_Henri_Plon%2C_Editeur%2C_1872.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sicilian_oranges.jpg?width=960",
         "description": "Nella Piana di Catania e intorno a Ribera gli aranceti profumano in primavera. I frutti, dolci o amari, entrano in insalate e dolci."
       },
       {
@@ -1685,7 +1685,7 @@ export const ITALY_CONTENT: Record<ItalyRegionSlug, ItalyRegionContent> = {
       },
       {
         "name": "Cervo sardo",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cervus_elaphus_corsicanus_-_Gallica_-_ark_12148-btv1b2300253d-f13.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cervus_elaphus_corsicanus_177947667.jpg?width=960",
         "description": "Sottospecie piccola di cervo, salvata dall'estinzione. Oggi si vede nelle foreste del Sulcis e dell'Arburese."
       },
       {

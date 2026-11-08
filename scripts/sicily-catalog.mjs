@@ -301,12 +301,14 @@ export const SICILY_CATALOG = [
       {
         name: "Arancino",
         wiki: "Arancina",
+        file: "Arancini messinesi.JPG",
         description:
           "Riso allo zafferano, ragù e piselli, impanato e fritto. A Catania si dice arancino, al maschile, e spesso ha la forma a punta.",
       },
       {
         name: "Granita",
         wiki: "Granita",
+        file: "Granita brioche.JPG",
         description:
           "Ghiaccio granuloso al limone, mandorla o caffè, mangiato a colazione con la brioche col tuppo. D'estate è il rito della città.",
       },
@@ -493,6 +495,7 @@ export const SICILY_CATALOG = [
       {
         name: "Limone",
         wiki: "Citrus limon",
+        file: "Lemon tree - Syracuse.jpg",
         description:
           "Gli agrumeti della costa ionica profumano in fiore, tra febbraio e marzo. Il succo entra nella ghiotta di pesce spada e nella granita.",
       },
@@ -507,6 +510,7 @@ export const SICILY_CATALOG = [
       {
         name: "Pesce spada",
         wiki: "Xiphias gladius",
+        file: "Xiphias gladius stuffed.jpg",
         description:
           "Attraversa lo stretto in primavera e in estate. I pescatori lo cercavano con le feluche, barche alte da cui si avvista la pinna.",
       },
@@ -527,6 +531,7 @@ export const SICILY_CATALOG = [
       {
         name: "Pasta 'ncasciata",
         wiki: "Pasta 'ncasciata",
+        file: "Eggplant and Pasta Incaciata (8595676584).jpg",
         description:
           "Pasta al forno con ragù, uova sode, melanzane, caciocavallo e, spesso, piselli. È il piatto della domenica messinese.",
       },
@@ -537,8 +542,9 @@ export const SICILY_CATALOG = [
           "Mezzelune fritte, ripiene di verdure, acciughe o tuma. A Messina si comprano calde, in strada, come spuntino.",
       },
       {
-        name: "Granita",
+        name: "Granita con panna",
         wiki: "Granita",
+        file: "Granita Caffè e Panna..jpg",
         description:
           "A Messina la granita al caffè si copre di panna e si mangia a colazione. Il ghiaccio si raschia fine, e non è un sorbetto liscio.",
       },
@@ -603,6 +609,7 @@ export const SICILY_CATALOG = [
       {
         name: "Arancio amaro",
         wiki: "Citrus × aurantium",
+        file: "Bitter orange - Citrus aurantium 10.JPG",
         description:
           "La Conca d'Oro, la piana di Palermo, era un giardino di agrumi. L'arancio amaro profuma le strade a primavera e la scorza si candisce.",
       },
@@ -643,6 +650,7 @@ export const SICILY_CATALOG = [
       {
         name: "Panelle",
         wiki: "Panelle",
+        file: "Pane e panelle.jpg",
         description:
           "Frittelle sottili di farina di ceci, salate e pepate. Si mangiano nella mafalda, un panino, insieme alle crocchè di patate.",
       },
@@ -657,6 +665,13 @@ export const SICILY_CATALOG = [
         wiki: "Pasta con le sarde",
         description:
           "Pasta con sarde fresche, finocchietto selvatico, uvetta e pinoli. Unisce il mare e l'orto, e si prepara da marzo a settembre.",
+      },
+      {
+        name: "Arancina",
+        wiki: "Arancina",
+        file: "Arancini 002.jpg",
+        description:
+          "Palla di riso allo zafferano con ragù e piselli, impanata e fritta. A Palermo si dice arancina, al femminile, ed è tonda come un'arancia: la grande rivale dell'arancino di Catania.",
       },
     ],
     tourism: [
@@ -751,6 +766,7 @@ export const SICILY_CATALOG = [
       {
         name: "Averla capirossa",
         wiki: "Lanius senator",
+        file: "Lanius senator01 new.jpg",
         description:
           "Uccello con la testa rossiccia che infilza grilli e lucertole sulle spine, come in una dispensa. Nidifica tra gli ulivi e parte in autunno.",
       },
@@ -957,6 +973,7 @@ export const SICILY_CATALOG = [
       {
         name: "Zibibbo",
         wiki: "Zibibbo",
+        file: "Uva Moscatel de Alejandría.jpg",
         description:
           "Uva dolce di Pantelleria, allevata bassa contro il vento. Diventa passito: un vino d'uva appassita al sole.",
       },

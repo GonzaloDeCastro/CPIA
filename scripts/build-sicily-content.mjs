@@ -137,6 +137,11 @@ const IMAGE_OVERRIDE = {
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Modica_-_Castello_dei_conti_di_Modica_-_2024-09-21_13-00-15_001.jpg/960px-Modica_-_Castello_dei_conti_di_Modica_-_2024-09-21_13-00-15_001.jpg",
 };
 
+/** Foto elegida a mano de Wikimedia Commons (campo `file` del catálogo). */
+function commonsFileUrl(file) {
+  return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file.replace(/ /g, "_"))}?width=960`;
+}
+
 const categories = ["plants", "animals", "foods", "tourism", "history"];
 
 const jobs = [];
@@ -174,7 +179,7 @@ const resolved = SICILY_CATALOG.map((region) => {
   for (const key of categories) {
     const items = [];
     for (const item of region[key]) {
-      const image = IMAGE_OVERRIDE[item.wiki] ?? imageByWiki.get(item.wiki) ?? "";
+      const image = (item.file ? commonsFileUrl(item.file) : IMAGE_OVERRIDE[item.wiki] ?? imageByWiki.get(item.wiki) ?? "");
       const status = image ? "OK" : "MISS";
       console.log(`${status}  ${region.slug} / ${key} / ${item.name}`);
       if (image) {
