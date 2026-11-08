@@ -1,10 +1,8 @@
-import type { ProvinceSlug } from "@/types/province";
-
 export type TriviaCategory = "fauna" | "flora" | "food" | "tourism" | "history";
 
 export type TriviaQuestion = {
   id: string;
-  provinceSlug: ProvinceSlug;
+  provinceSlug: string;
   category: TriviaCategory;
   prompt: string;
   choices: [string, string, string, string];
@@ -37,5 +35,5 @@ export type TriviaGameState = {
     correct: boolean;
     timeMs: number;
   } | null;
-  provincesInGame: ProvinceSlug[];
+  provincesInGame: string[];
 };

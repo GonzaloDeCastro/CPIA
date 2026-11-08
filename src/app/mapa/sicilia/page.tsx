@@ -15,10 +15,11 @@ export default function SicilyMapPage() {
     <MapExplorerFrame
       variant="fullPage"
       map={<InteractiveSicilyMap className="min-h-0 sm:flex-1 sm:min-h-0" />}
-      showTrivia={false}
+      triviaHref="/trivia/sicilia"
       chooserHref="/mapa"
       chooserLabel="Paesi"
       labels={{
+        trivia: "Quiz",
         fullscreenEnter: "Schermo intero",
         fullscreenExit: "Esci da schermo intero",
       }}

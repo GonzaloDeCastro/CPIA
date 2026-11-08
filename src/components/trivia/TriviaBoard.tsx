@@ -1,5 +1,6 @@
 "use client";
 
+import { TRIVIA_COPY_ES, type TriviaCopy } from "@/lib/trivia/copy";
 import type { TriviaQuestion } from "@/lib/trivia/types";
 
 const CATEGORY_EMOJI: Record<TriviaQuestion["category"], string> = {
@@ -17,6 +18,7 @@ type Props = {
   questionShownAt: number;
   disabled?: boolean;
   onAnswer: (index: number) => void;
+  copy?: TriviaCopy;
 };
 
 export function TriviaBoard({
@@ -26,6 +28,7 @@ export function TriviaBoard({
   questionShownAt,
   disabled,
   onAnswer,
+  copy = TRIVIA_COPY_ES,
 }: Props) {
   const elapsed = Math.max(0, Date.now() - questionShownAt);
 
@@ -34,7 +37,7 @@ export function TriviaBoard({
       <div className="flex flex-wrap items-center justify-between gap-2">
         <p className="text-sm font-extrabold uppercase tracking-wide text-water">{turnLabel}</p>
         <p className="rounded-full bg-sun/25 px-3 py-1 text-sm font-bold text-heading">
-          Turno de {playerName}
+          {copy.turnOf(playerName)}
         </p>
       </div>
 
@@ -44,7 +47,7 @@ export function TriviaBoard({
         </p>
         <p className="text-lg font-bold leading-snug text-heading sm:text-xl">{question.prompt}</p>
         <p className="mt-2 text-xs font-semibold text-foreground-muted" aria-live="polite">
-          Tiempo: {(elapsed / 1000).toFixed(1)} s
+          {copy.time((elapsed / 1000).toFixed(1))}
         </p>
       </div>
 

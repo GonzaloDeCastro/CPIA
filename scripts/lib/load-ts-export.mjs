@@ -13,7 +13,7 @@ export async function loadTsNamedExport(relativePath, exportName) {
   const absPath = resolve(root, relativePath);
   const src = readFileSync(absPath, "utf8")
     .replace(/^import type .*$/gm, "")
-    .replace(/export const (\w+):\s*[\s\S]*?=\s*/, "export const $1 = ");
+    .replace(/export const (\w+):\s*[\s\S]*?=\s*/g, "export const $1 = ");
 
   const dir = mkdtempSync(join(tmpdir(), "mapajugar-ts-"));
   const modPath = join(dir, "module.mjs");

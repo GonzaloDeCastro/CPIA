@@ -15,6 +15,7 @@ type Props = {
   mapMinHeightClass?: string;
   map?: ReactNode;
   showTrivia?: boolean;
+  triviaHref?: string;
   chooserHref?: string;
   chooserLabel?: string;
   largeMapHref?: string;
@@ -32,6 +33,7 @@ export function MapExplorerFrame({
   mapMinHeightClass = "min-h-[min(68vh,540px)] sm:min-h-[min(72vh,620px)]",
   map,
   showTrivia = true,
+  triviaHref = "/trivia",
   chooserHref,
   chooserLabel,
   largeMapHref = "/mapa/argentina",
@@ -66,7 +68,7 @@ export function MapExplorerFrame({
       ) : null}
       {showTrivia ? (
         <Link
-          href="/trivia"
+          href={triviaHref}
           className={`inline-flex min-h-12 cursor-pointer items-center justify-center rounded-full border-2 px-5 text-sm font-extrabold transition-[filter,transform,box-shadow,border-color] hover:shadow-[var(--shadow-elevated)] active:scale-[0.98] ${
             variant === "fullPage"
               ? "border-celeste/60 bg-surface-elevated text-heading hover:border-water"

@@ -65,12 +65,24 @@ export default function CountryPickerPage() {
             </li>
           ))}
         </ul>
-        <p className="mt-8">
+        <p className="mt-8 flex flex-wrap gap-x-6 gap-y-2">
           <Link
             href="/trivia"
             className="text-sm font-bold text-sun underline-offset-2 hover:underline"
           >
             Trivia de Argentina
+          </Link>
+          <Link
+            href="/trivia/italia"
+            className="text-sm font-bold text-sun underline-offset-2 hover:underline"
+          >
+            Quiz dell&apos;Italia
+          </Link>
+          <Link
+            href="/trivia/sicilia"
+            className="text-sm font-bold text-sun underline-offset-2 hover:underline"
+          >
+            Quiz della Sicilia
           </Link>
         </p>
       </main>

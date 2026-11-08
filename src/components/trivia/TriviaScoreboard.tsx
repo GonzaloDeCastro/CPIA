@@ -1,11 +1,13 @@
+import { TRIVIA_COPY_ES, type TriviaCopy } from "@/lib/trivia/copy";
 import type { TriviaPlayer } from "@/lib/trivia/types";
 
 type Props = {
   players: TriviaPlayer[];
   activePlayerId?: string;
+  copy?: TriviaCopy;
 };
 
-export function TriviaScoreboard({ players, activePlayerId }: Props) {
+export function TriviaScoreboard({ players, activePlayerId, copy = TRIVIA_COPY_ES }: Props) {
   const sorted = [...players].sort((a, b) => {
     if (b.score !== a.score) return b.score - a.score;
     return a.totalCorrectTimeMs - b.totalCorrectTimeMs;
@@ -14,7 +16,7 @@ export function TriviaScoreboard({ players, activePlayerId }: Props) {
   return (
     <div className="rounded-2xl border-2 border-heading/15 bg-background-warm/80 p-4">
       <h3 className="mb-3 text-sm font-extrabold uppercase tracking-wide text-heading">
-        Puntajes
+        {copy.scores}
       </h3>
       <ul className="space-y-2">
         {sorted.map((p) => {
@@ -28,7 +30,7 @@ export function TriviaScoreboard({ players, activePlayerId }: Props) {
             >
               <span className="truncate text-heading">{p.name}</span>
               <span className="shrink-0 text-foreground-muted">
-                {p.score} pt{p.score === 1 ? "" : "s"}
+                {copy.points(p.score)}
                 {p.score > 0 ? (
                   <span className="ml-2 text-xs">({(p.totalCorrectTimeMs / 1000).toFixed(1)}s)</span>
                 ) : null}

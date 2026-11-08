@@ -1,3 +1,4 @@
+import { TRIVIA_COPY_ES } from "./copy";
 import type {
   TriviaGameState,
   TriviaPlayer,
@@ -163,7 +164,9 @@ export function resolveWinners(state: TriviaGameState): TriviaWinner[] {
   return [{ players: winners, shared: winners.length > 1 }];
 }
 
-export function getTurnLabel(state: TriviaGameState): string {
-  const turn = state.currentTurnIndex + 1;
-  return `Turno ${turn} de ${state.totalTurns}`;
+export function getTurnLabel(
+  state: TriviaGameState,
+  format: (turn: number, total: number) => string = TRIVIA_COPY_ES.turn,
+): string {
+  return format(state.currentTurnIndex + 1, state.totalTurns);
 }

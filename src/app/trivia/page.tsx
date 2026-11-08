@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { SiteHeader } from "@/components/layout/SiteHeader";
+import { TRIVIA_QUESTIONS } from "@/data/trivia/trivia-questions.generated";
 import { TriviaGame } from "@/components/trivia/TriviaGame";
 
 export const metadata: Metadata = {
@@ -14,7 +15,7 @@ export default function TriviaPage() {
     <>
       <SiteHeader />
       <main className="min-h-dvh bg-background">
-        <TriviaGame />
+        <TriviaGame questions={TRIVIA_QUESTIONS} />
       </main>
     </>
   );

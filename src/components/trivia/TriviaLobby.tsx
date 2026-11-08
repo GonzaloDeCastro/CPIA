@@ -2,14 +2,16 @@
 
 import { useState } from "react";
 
+import { TRIVIA_COPY_ES, type TriviaCopy } from "@/lib/trivia/copy";
 import { createPlayer } from "@/lib/trivia/game-state";
 import type { TriviaRoundsPerPlayer } from "@/lib/trivia/types";
 
 type Props = {
   onStart: (players: ReturnType<typeof createPlayer>[], rounds: TriviaRoundsPerPlayer) => void;
+  copy?: TriviaCopy;
 };
 
-export function TriviaLobby({ onStart }: Props) {
+export function TriviaLobby({ onStart, copy = TRIVIA_COPY_ES }: Props) {
   const [count, setCount] = useState(2);
   const [names, setNames] = useState(["", ""]);
   const [rounds, setRounds] = useState<TriviaRoundsPerPlayer>(3);
@@ -28,12 +30,12 @@ export function TriviaLobby({ onStart }: Props) {
   const handleStart = () => {
     const trimmed = names.map((n) => n.trim());
     if (trimmed.some((n) => !n)) {
-      setError("Escribí el nombre de cada jugador.");
+      setError(copy.errorNames);
       return;
     }
     const lower = trimmed.map((n) => n.toLowerCase());
     if (new Set(lower).size !== lower.length) {
-      setError("Los nombres tienen que ser distintos.");
+      setError(copy.errorDuplicates);
       return;
     }
     onStart(
@@ -45,14 +47,14 @@ export function TriviaLobby({ onStart }: Props) {
   return (
     <div className="mx-auto max-w-lg space-y-6 rounded-3xl border-2 border-sun/40 bg-surface-elevated p-6 shadow-[var(--shadow-card)]">
       <div>
-        <h2 className="font-display text-2xl font-bold text-heading">¿Quiénes juegan?</h2>
+        <h2 className="font-display text-2xl font-bold text-heading">{copy.lobbyTitle}</h2>
         <p className="mt-1 text-sm font-medium text-foreground-muted">
-          De 1 a 4 jugadores en el mismo monitor. Cada turno, una pregunta nueva.
+          {copy.lobbyHint}
         </p>
       </div>
 
       <div>
-        <p className="mb-2 text-sm font-bold text-heading">Cantidad de jugadores</p>
+        <p className="mb-2 text-sm font-bold text-heading">{copy.playerCount}</p>
         <div className="flex flex-wrap gap-2">
           {[1, 2, 3, 4].map((n) => (
             <button
@@ -75,7 +77,7 @@ export function TriviaLobby({ onStart }: Props) {
         {names.map((name, i) => (
           <li key={i}>
             <label className="mb-1 block text-sm font-bold text-heading">
-              Jugador {i + 1}
+              {copy.playerLabel(i + 1)}
             </label>
             <input
               type="text"
@@ -87,7 +89,7 @@ export function TriviaLobby({ onStart }: Props) {
                 setNames(next);
                 setError("");
               }}
-              placeholder={`Nombre del jugador ${i + 1}`}
+              placeholder={copy.playerPlaceholder(i + 1)}
               className="w-full rounded-2xl border-2 border-heading/15 bg-background px-4 py-3 text-base font-semibold text-foreground outline-none focus:border-celeste"
             />
           </li>
@@ -95,7 +97,7 @@ export function TriviaLobby({ onStart }: Props) {
       </ul>
 
       <div>
-        <p className="mb-2 text-sm font-bold text-heading">Preguntas por jugador</p>
+        <p className="mb-2 text-sm font-bold text-heading">{copy.questionsPerPlayer}</p>
         <div className="flex gap-2">
           {([3, 5] as const).map((n) => (
             <button
@@ -108,7 +110,7 @@ export function TriviaLobby({ onStart }: Props) {
                   : "border-2 border-heading/20 bg-background-warm text-heading"
               }`}
             >
-              {n} preguntas
+              {copy.questionsOption(n)}
             </button>
           ))}
         </div>
@@ -125,7 +127,7 @@ export function TriviaLobby({ onStart }: Props) {
         onClick={handleStart}
         className="w-full min-h-14 rounded-2xl bg-sun text-lg font-extrabold text-sun-ink shadow-[var(--shadow-card)] transition hover:brightness-110 active:scale-[0.99]"
       >
-        ¡Empezar trivia!
+        {copy.start}
       </button>
     </div>
   );

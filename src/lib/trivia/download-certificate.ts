@@ -1,4 +1,5 @@
 import { withBasePath } from "@/lib/routing/base-path";
+import { TRIVIA_COPY_ES, type TriviaCopy } from "@/lib/trivia/copy";
 import type { TriviaReward } from "@/data/trivia/reward-manifest";
 import type { TriviaPlayer } from "@/lib/trivia/types";
 
@@ -15,6 +16,7 @@ function loadImage(src: string): Promise<HTMLImageElement> {
 export async function downloadTriviaCertificate(
   player: TriviaPlayer,
   reward: TriviaReward,
+  texts: TriviaCopy["certificate"] = TRIVIA_COPY_ES.certificate,
 ): Promise<void> {
   const width = 900;
   const height = 1200;
@@ -33,7 +35,7 @@ export async function downloadTriviaCertificate(
   ctx.fillStyle = "#156f94";
   ctx.font = "bold 52px sans-serif";
   ctx.textAlign = "center";
-  ctx.fillText("¡Ganaste!", width / 2, 100);
+  ctx.fillText(texts.headline, width / 2, 100);
 
   ctx.fillStyle = "#1a2e3b";
   ctx.font = "bold 40px sans-serif";
@@ -41,7 +43,7 @@ export async function downloadTriviaCertificate(
 
   ctx.font = "28px sans-serif";
   ctx.fillStyle = "#4a6572";
-  ctx.fillText(`${player.score} punto${player.score === 1 ? "" : "s"} en Mapa Jugar`, width / 2, 220);
+  ctx.fillText(texts.points(player.score), width / 2, 220);
 
   try {
     const img = await loadImage(withBasePath(reward.imagePath));
@@ -61,7 +63,7 @@ export async function downloadTriviaCertificate(
 
   ctx.fillStyle = "#4a6572";
   ctx.font = "22px sans-serif";
-  ctx.fillText("Explorá Argentina con Mapa Jugar", width / 2, 860);
+  ctx.fillText(texts.footer, width / 2, 860);
 
   ctx.strokeStyle = "#f9a825";
   ctx.lineWidth = 12;

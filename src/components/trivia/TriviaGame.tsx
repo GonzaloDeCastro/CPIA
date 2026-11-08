@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useCallback, useEffect, useReducer, useState } from "react";
 
-import { TRIVIA_QUESTIONS } from "@/data/trivia/trivia-questions.generated";
 import {
   INITIAL_TRIVIA_STATE,
   advanceAfterReveal,
@@ -14,12 +13,21 @@ import {
   startGame,
   submitAnswer,
 } from "@/lib/trivia/game-state";
-import type { TriviaGameState, TriviaPlayer, TriviaRoundsPerPlayer } from "@/lib/trivia/types";
+import type { TriviaPrizeSet } from "@/data/trivia/reward-manifest";
+import { TRIVIA_COPY_ES, TRIVIA_COPY_IT } from "@/lib/trivia/copy";
+import type { TriviaGameState, TriviaQuestion, TriviaPlayer, TriviaRoundsPerPlayer } from "@/lib/trivia/types";
 
 import { TriviaBoard } from "./TriviaBoard";
 import { TriviaLobby } from "./TriviaLobby";
 import { TriviaScoreboard } from "./TriviaScoreboard";
 import { TriviaWinner } from "./TriviaWinner";
+
+type Props = {
+  questions: TriviaQuestion[];
+  locale?: "es" | "it";
+  prizeSet?: TriviaPrizeSet;
+  backHref?: string;
+};
 
 type Action =
   | { type: "START"; players: TriviaPlayer[]; rounds: TriviaRoundsPerPlayer }
@@ -28,10 +36,14 @@ type Action =
   | { type: "ADVANCE" }
   | { type: "RESET" };
 
-function reducer(state: TriviaGameState, action: Action): TriviaGameState {
+function reducer(
+  state: TriviaGameState,
+  action: Action,
+  questions: TriviaQuestion[],
+): TriviaGameState {
   switch (action.type) {
     case "START":
-      return startGame(INITIAL_TRIVIA_STATE, action.players, action.rounds, TRIVIA_QUESTIONS);
+      return startGame(INITIAL_TRIVIA_STATE, action.players, action.rounds, questions);
     case "BEGIN_TURN":
       return beginTurn(state);
     case "ANSWER":
@@ -45,8 +57,12 @@ function reducer(state: TriviaGameState, action: Action): TriviaGameState {
   }
 }
 
-export function TriviaGame() {
-  const [state, dispatch] = useReducer(reducer, INITIAL_TRIVIA_STATE);
+export function TriviaGame({ questions, locale = "es", prizeSet = "argentina", backHref = "/mapa/argentina" }: Props) {
+  const copy = locale === "it" ? TRIVIA_COPY_IT : TRIVIA_COPY_ES;
+  const [state, dispatch] = useReducer(
+    (s: TriviaGameState, a: Action) => reducer(s, a, questions),
+    INITIAL_TRIVIA_STATE,
+  );
   const [, tick] = useState(0);
 
   useEffect(() => {
@@ -77,14 +93,14 @@ export function TriviaGame() {
     <div className="mx-auto flex w-full max-w-4xl flex-col gap-6 px-4 py-8">
       <header className="text-center">
         <h1 className="font-display text-3xl font-bold text-heading sm:text-4xl">
-          Trivia de provincias
+          {copy.title}
         </h1>
         <p className="mt-2 text-base font-medium text-foreground-muted">
-          Preguntas al azar sobre flora, fauna, comidas, turismo e historia.
+          {copy.subtitle}
         </p>
       </header>
 
-      {state.phase === "lobby" ? <TriviaLobby onStart={handleStart} /> : null}
+      {state.phase === "lobby" ? <TriviaLobby onStart={handleStart} copy={copy} /> : null}
 
       {state.phase === "handoff" && active ? (
         <div
@@ -96,10 +112,10 @@ export function TriviaGame() {
             👋
           </p>
           <p className="mt-4 font-display text-2xl font-bold text-heading">
-            ¡Le toca a {active.name}!
+            {copy.handoff(active.name)}
           </p>
           <p className="mt-2 text-sm font-medium text-foreground-muted">
-            {getTurnLabel(state)}
+            {getTurnLabel(state, copy.turn)}
           </p>
         </div>
       ) : null}
@@ -108,12 +124,13 @@ export function TriviaGame() {
         <div className="grid gap-6 lg:grid-cols-[1fr_minmax(12rem,16rem)]">
           <TriviaBoard
             playerName={active.name}
-            turnLabel={getTurnLabel(state)}
+            turnLabel={getTurnLabel(state, copy.turn)}
             question={state.currentQuestion}
             questionShownAt={state.questionShownAt}
             onAnswer={(choiceIndex) => dispatch({ type: "ANSWER", choiceIndex })}
+            copy={copy}
           />
-          <TriviaScoreboard players={state.players} activePlayerId={active.id} />
+          <TriviaScoreboard players={state.players} activePlayerId={active.id} copy={copy} />
         </div>
       ) : null}
 
@@ -128,8 +145,8 @@ export function TriviaGame() {
           </p>
           <p className="mt-4 text-xl font-extrabold text-heading">
             {state.lastAnswer.correct
-              ? `¡Correcto! +1 punto (${(state.lastAnswer.timeMs / 1000).toFixed(1)} s)`
-              : "¡Casi! La respuesta correcta era:"}
+              ? copy.correct((state.lastAnswer.timeMs / 1000).toFixed(1))
+              : copy.wrong}
           </p>
           {!state.lastAnswer.correct ? (
             <p className="mt-2 text-lg font-bold text-water">
@@ -149,19 +166,21 @@ export function TriviaGame() {
           winners={winners[0].players}
           shared={winners[0].shared}
           onPlayAgain={() => dispatch({ type: "RESET" })}
+          copy={copy}
+          prizeSet={prizeSet}
         />
       ) : null}
 
       {state.phase === "reveal" || state.phase === "handoff" ? (
-        <TriviaScoreboard players={state.players} activePlayerId={active?.id} />
+        <TriviaScoreboard players={state.players} activePlayerId={active?.id} copy={copy} />
       ) : null}
 
       <p className="text-center">
         <Link
-          href="/mapa/argentina"
+          href={backHref}
           className="text-sm font-bold text-water underline-offset-2 hover:underline"
         >
-          Volver al mapa
+          {copy.back}
         </Link>
       </p>
     </div>

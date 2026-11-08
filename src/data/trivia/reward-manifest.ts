@@ -123,7 +123,67 @@ export const TRIVIA_ANIMAL_PRIZES: TriviaReward[] = [
   },
 ];
 
-export function pickRandomTriviaPrize(): TriviaReward {
-  const index = Math.floor(Math.random() * TRIVIA_ANIMAL_PRIZES.length);
-  return TRIVIA_ANIMAL_PRIZES[index] ?? TRIVIA_ANIMAL_PRIZES[0];
+/** Fichas de fauna (animals-italia) que se pueden ganar en la trivia. */
+export const TRIVIA_ANIMAL_PRIZES_ITALY: TriviaReward[] = [
+  { speciesName: "Stambecco", label: "Stambecco", imagePath: "/images/awareness/animals-italia/stambecco.png" },
+  { speciesName: "Camoscio alpino", label: "Camoscio alpino", imagePath: "/images/awareness/animals-italia/camoscio-alpino.png" },
+  { speciesName: "Camoscio d'Abruzzo", label: "Camoscio d'Abruzzo", imagePath: "/images/awareness/animals-italia/camoscio-d-abruzzo.png" },
+  { speciesName: "Aquila reale", label: "Aquila reale", imagePath: "/images/awareness/animals-italia/aquila-reale.png" },
+  { speciesName: "Airone cenerino", label: "Airone cenerino", imagePath: "/images/awareness/animals-italia/airone-cenerino.png" },
+  { speciesName: "Lupo", label: "Lupo", imagePath: "/images/awareness/animals-italia/lupo.png" },
+  { speciesName: "Lupo appenninico", label: "Lupo appenninico", imagePath: "/images/awareness/animals-italia/lupo-appenninico.png" },
+  { speciesName: "Cinghiale", label: "Cinghiale", imagePath: "/images/awareness/animals-italia/cinghiale.png" },
+  { speciesName: "Gabbiano reale", label: "Gabbiano reale", imagePath: "/images/awareness/animals-italia/gabbiano-reale.png" },
+  { speciesName: "Tursiope", label: "Tursiope", imagePath: "/images/awareness/animals-italia/tursiope.png" },
+  { speciesName: "Falco pellegrino", label: "Falco pellegrino", imagePath: "/images/awareness/animals-italia/falco-pellegrino.png" },
+  { speciesName: "Cigno reale", label: "Cigno reale", imagePath: "/images/awareness/animals-italia/cigno-reale.png" },
+  { speciesName: "Orso bruno", label: "Orso bruno", imagePath: "/images/awareness/animals-italia/orso-bruno.png" },
+  { speciesName: "Orso marsicano", label: "Orso marsicano", imagePath: "/images/awareness/animals-italia/orso-marsicano.png" },
+  { speciesName: "Cervo nobile", label: "Cervo nobile", imagePath: "/images/awareness/animals-italia/cervo-nobile.png" },
+  { speciesName: "Cervo", label: "Cervo", imagePath: "/images/awareness/animals-italia/cervo.png" },
+  { speciesName: "Cervo sardo", label: "Cervo sardo", imagePath: "/images/awareness/animals-italia/cervo-sardo.png" },
+  { speciesName: "Capriolo", label: "Capriolo", imagePath: "/images/awareness/animals-italia/capriolo.png" },
+  { speciesName: "Fenicottero", label: "Fenicottero", imagePath: "/images/awareness/animals-italia/fenicottero.png" },
+  { speciesName: "Tartaruga marina", label: "Tartaruga marina", imagePath: "/images/awareness/animals-italia/tartaruga-marina.png" },
+  { speciesName: "Grillaio", label: "Grillaio", imagePath: "/images/awareness/animals-italia/grillaio.png" },
+  { speciesName: "Grifone", label: "Grifone", imagePath: "/images/awareness/animals-italia/grifone.png" },
+  { speciesName: "Muflone", label: "Muflone", imagePath: "/images/awareness/animals-italia/muflone.png" },
+];
+
+/** Fichas de fauna (animals-sicilia) que se pueden ganar en la trivia. */
+export const TRIVIA_ANIMAL_PRIZES_SICILY: TriviaReward[] = [
+  { speciesName: "Grillaio", label: "Grillaio", imagePath: "/images/awareness/animals-sicilia/grillaio.png" },
+  { speciesName: "Tartaruga marina", label: "Tartaruga marina", imagePath: "/images/awareness/animals-sicilia/tartaruga-marina.png" },
+  { speciesName: "Gabbiano corso", label: "Gabbiano corso", imagePath: "/images/awareness/animals-sicilia/gabbiano-corso.png" },
+  { speciesName: "Istrice", label: "Istrice", imagePath: "/images/awareness/animals-sicilia/istrice.png" },
+  { speciesName: "Volpe", label: "Volpe", imagePath: "/images/awareness/animals-sicilia/volpe.png" },
+  { speciesName: "Poiana", label: "Poiana", imagePath: "/images/awareness/animals-sicilia/poiana.png" },
+  { speciesName: "Coturnice siciliana", label: "Coturnice siciliana", imagePath: "/images/awareness/animals-sicilia/coturnice-siciliana.png" },
+  { speciesName: "Riccio", label: "Riccio", imagePath: "/images/awareness/animals-sicilia/riccio.png" },
+  { speciesName: "Gheppio", label: "Gheppio", imagePath: "/images/awareness/animals-sicilia/gheppio.png" },
+  { speciesName: "Pesce spada", label: "Pesce spada", imagePath: "/images/awareness/animals-sicilia/pesce-spada.png" },
+  { speciesName: "Falco della regina", label: "Falco della regina", imagePath: "/images/awareness/animals-sicilia/falco-della-regina.png" },
+  { speciesName: "Delfino striato", label: "Delfino striato", imagePath: "/images/awareness/animals-sicilia/delfino-striato.png" },
+  { speciesName: "Falco pellegrino", label: "Falco pellegrino", imagePath: "/images/awareness/animals-sicilia/falco-pellegrino.png" },
+  { speciesName: "Civetta", label: "Civetta", imagePath: "/images/awareness/animals-sicilia/civetta.png" },
+  { speciesName: "Lucertola siciliana", label: "Lucertola siciliana", imagePath: "/images/awareness/animals-sicilia/lucertola-siciliana.png" },
+  { speciesName: "Ghiandaia marina", label: "Ghiandaia marina", imagePath: "/images/awareness/animals-sicilia/ghiandaia-marina.png" },
+  { speciesName: "Averla capirossa", label: "Averla capirossa", imagePath: "/images/awareness/animals-sicilia/averla-capirossa.png" },
+  { speciesName: "Fenicottero", label: "Fenicottero", imagePath: "/images/awareness/animals-sicilia/fenicottero.png" },
+  { speciesName: "Avocetta", label: "Avocetta", imagePath: "/images/awareness/animals-sicilia/avocetta.png" },
+  { speciesName: "Tonno rosso", label: "Tonno rosso", imagePath: "/images/awareness/animals-sicilia/tonno-rosso.png" },
+];
+
+export type TriviaPrizeSet = "argentina" | "italia" | "sicilia";
+
+const PRIZES_BY_SET: Record<TriviaPrizeSet, TriviaReward[]> = {
+  argentina: TRIVIA_ANIMAL_PRIZES,
+  italia: TRIVIA_ANIMAL_PRIZES_ITALY,
+  sicilia: TRIVIA_ANIMAL_PRIZES_SICILY,
+};
+
+export function pickRandomTriviaPrize(set: TriviaPrizeSet = "argentina"): TriviaReward {
+  const list = PRIZES_BY_SET[set];
+  const index = Math.floor(Math.random() * list.length);
+  return list[index] ?? list[0];
 }
