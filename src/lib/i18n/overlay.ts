@@ -24,7 +24,11 @@ export type ZoneTr = {
   curiosities?: ItemTr[];
 };
 
-export type DatasetTr = { zones: Record<string, ZoneTr> };
+export type DatasetTr = {
+  zones: Record<string, ZoneTr>;
+  /** Traducciones compartidas por nombre original, con clave "categoría|nombre" (ej. "animals|Vicuña"). */
+  byName?: Record<string, ItemTr>;
+};
 
 export type LocalizedZone = {
   content: Record<Locale, ExploreContent>;
@@ -35,11 +39,12 @@ const CATEGORIES = ["plants", "animals", "foods", "tourism", "curiosities"] as c
 
 function overlayItems(
   items: ProvinceContentItem[],
+  cat: (typeof CATEGORIES)[number],
   tr: ItemTr[] | undefined,
+  byName: DatasetTr["byName"],
 ): ProvinceContentItem[] {
-  if (!tr) return items;
   return items.map((item, i) => {
-    const t = tr[i];
+    const t = tr?.[i] ?? byName?.[`${cat}|${item.name}`];
     return t ? { ...item, name: t.name || item.name, description: t.description || item.description } : item;
   });
 }
@@ -60,9 +65,10 @@ export function localizeZone(
   const outContent = {} as Record<Locale, ExploreContent>;
   const outSpot = {} as Record<Locale, string>;
   for (const locale of locales) {
-    const tr = locale === sourceLocale ? undefined : translations[locale]?.zones[slug];
+    const dataset = locale === sourceLocale ? undefined : translations[locale];
+    const tr = dataset?.zones[slug];
     const c: ExploreContent = { ...content };
-    for (const cat of CATEGORIES) c[cat] = overlayItems(content[cat], tr?.[cat]);
+    for (const cat of CATEGORIES) c[cat] = overlayItems(content[cat], cat, tr?.[cat], dataset?.byName);
     outContent[locale] = c;
     outSpot[locale] = tr?.spotlight || spotlight;
   }

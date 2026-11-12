@@ -1,1 +1,1505 @@
-{ "zones": {} }
+{
+ "zones": {
+  "buenos-aires": {
+   "spotlight": "The province of Buenos Aires is the demographic and economic heart of the country: it holds most of the national population and an urban network that orbits around the port and industry. Its colonial and republican history is tied to grain, cattle ranching and the immigration that settled the humid Pampa and the coast.\n\nAbout 17.5 million people live in the province (2022 census), the highest figure in Argentina.\n\nIt is known for Mar del Plata and the Atlantic coast, the delta and the Paraná river, the farming and cattle tradition and a strong culture of sport, radio and food that reaches the whole country.",
+   "plants": [
+    {
+     "name": "Pampas grass",
+     "description": "A native grass of wet grasslands and marsh edges of the Pampas plain."
+    },
+    {
+     "name": "Sombra de toro",
+     "description": "A thorny shrub typical of the Pampas thorn scrub, historically used as natural shelter for cattle."
+    },
+    {
+     "name": "Red sarandí",
+     "description": "A riverside shrub very common on the shores of lagoons and streams of Buenos Aires."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Buenos Aires asado",
+     "description": "Cuts of young beef on the grill or the spit: short ribs, flank, skirt, matambre and offal (chorizo, blood sausage, small intestines, kidneys). Coarse salt, embers, and chimichurri, mixed salad or provoleta on the side."
+    },
+    {
+     "name": "Milanesa napolitana",
+     "description": "Fillets of beef round, breaded (egg and breadcrumbs), fried and covered with tomato sauce, ham and plenty of mozzarella, gratinated in the oven. A main dish of the province's taverns and eateries and the Greater Buenos Aires area."
+    },
+    {
+     "name": "Dulce de leche",
+     "description": "Milk and sugar slowly reduced over low heat until toasty in colour and creamy in texture. The base of alfajores, pastries, 'postre vigilante' and sweet-bread fillings in Buenos Aires baking."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Mar del Plata and the Atlantic Coast",
+     "description": "Beaches, a seafront promenade and one of the most visited seaside cities in the country."
+    },
+    {
+     "name": "Sierra de la Ventana (Ernesto Tornquist Provincial Park)",
+     "description": "Hills, trails and Cerro Tres Picos in a park of unique rock formations."
+    },
+    {
+     "name": "Paraná Delta at Tigre",
+     "description": "Islands, streams and boat trips through the Paraná delta, a few kilometres from the capital."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Vuelta de Obligado and sovereignty",
+     "description": "In San Pedro, in 1845, the battle of Vuelta de Obligado was fought. Although a military defeat, it remained a symbol of the defence of national sovereignty."
+    },
+    {
+     "name": "A historic frontier territory",
+     "description": "For much of the 19th century the province was the scene of forts and frontier advances. This history explains many towns that arose around stations, posts and roads."
+    }
+   ]
+  },
+  "catamarca": {
+   "spotlight": "Catamarca joins an ancient history —native peoples, the Inca road and mining— with the development of the Calchaquí valleys and the Puna. It was one of the first colonial governorships of present-day Argentine territory.\n\nAbout 430,000 people live there.\n\nIt is known for high-altitude landscapes, vineyards in the valleys, mountain tourism and sites such as the Campo de Piedra Pómez or the Seismiles Route, plus a well-marked northwestern cultural identity.",
+   "plants": [
+    {
+     "name": "Cardón",
+     "description": "A columnar cactus typical of arid high-altitude environments, adapted to large temperature swings."
+    },
+    {
+     "name": "Chañar",
+     "description": "A tree of the arid Cuyo and northwestern scrub, with yellow flowers and sweet fruits used since pre-Hispanic times."
+    },
+    {
+     "name": "Pichana or tola",
+     "description": "A Puna shrub traditionally used as fuel and for protecting soils at altitude."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Catamarca empanadas",
+     "description": "A filling of knife-cut minced beef with diced potato, hard-boiled egg, cumin, sweet paprika and sometimes chilli; with a snail-shaped or braided edge. They are baked in an adobe or home oven until the fat of the pastry turns golden."
+    },
+    {
+     "name": "Northwestern locro",
+     "description": "A thick stew of cracked white corn, beans, squash, trotters and tripe, red chorizo and skin; seasoned with cumin, paprika and chilli. The central dish of 25 de Mayo and family gatherings in the Northwest."
+    },
+    {
+     "name": "Tamales",
+     "description": "A dough of corn flour with fat and broth, filled with pork or beef with onion and spices, wrapped in corn husks and steamed or boiled in a stew pot."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Campo de Piedra Pómez (Antofagasta de la Sierra)",
+     "description": "An emblematic place to get to know the province: Campo de Piedra Pómez. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Seismiles Route and San Francisco Pass",
+     "description": "An emblematic place to get to know the province: the Seismiles Route and San Francisco Pass. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Cuesta del Portezuelo and El Rodeo",
+     "description": "An emblematic place to get to know the province: Cuesta del Portezuelo and El Rodeo. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Fiambalá and the Andean route",
+     "description": "Catamarca was a historic route to Upper Peru and Chile through mountain passes. The Fiambalá region keeps that memory of Andean traffic."
+    },
+    {
+     "name": "The Valley and Marian devotion",
+     "description": "Devotion to the Virgen del Valle is part of Catamarca's identity and has drawn pilgrimages from all over the country for generations."
+    }
+   ]
+  },
+  "chaco": {
+   "spotlight": "The Chaco was the scene of 19th-century military campaigns and of the spread of the railway and cotton; today it combines mid-sized cities, native scrub and wetlands. Resistencia grew as a regional centre with a strong artistic stamp.\n\nIts population is around 1.1 million.\n\nIt is important for El Impenetrable National Park, the biodiversity of the humid Chaco, farming and livestock, and nature and urban-sculpture tourism.",
+   "plants": [
+    {
+     "name": "Red quebracho of the Chaco",
+     "description": "An emblematic tree of the Chaco scrub, with very hard wood and great ecological value."
+    },
+    {
+     "name": "White quebracho",
+     "description": "A key species of the Chaco, with pale bark and great importance in the structure of the forest."
+    },
+    {
+     "name": "Caranday palm",
+     "description": "A palm typical of Chaco palm groves, a refuge for birds and wildlife associated with warm environments."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Chipá",
+     "description": "Little rolls of cassava starch, grated hard cheese, milk and egg; baked until puffed with a golden crust and elastic crumb. They come out of the ovens at breakfasts, afternoon snacks and after mate."
+    },
+    {
+     "name": "Grilled pacú",
+     "description": "Fillets of the big fish of the Paraná and its tributaries, marinated with lemon, garlic and parsley, cooked on the grill or the disc. Firm white flesh, often served with salad or boiled cassava."
+    },
+    {
+     "name": "Boiled cassava",
+     "description": "Cassava root cooked in salted water until soft; it is cut into pieces and spread with fresh cheese or eaten alongside the asado and chipá as a side dish of the littoral and the Northeast."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "El Impenetrable National Park",
+     "description": "An emblematic place to get to know the province: El Impenetrable National Park. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Resistencia, City of Sculptures",
+     "description": "An emblematic place to get to know the province: Resistencia, City of Sculptures. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Chaco National Park",
+     "description": "An emblematic place to get to know the province: Chaco National Park. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Resistencia, an open-air museum",
+     "description": "The Chaco capital is known for its large number of sculptures in public space. That cultural bet made it a unique city in Latin America."
+    },
+    {
+     "name": "The Chaco scrub, a historic key",
+     "description": "For centuries the Gran Chaco was a territory of enormous indigenous cultural diversity. Its history can't be understood without the Qom, Wichí and Moqoit peoples, among others."
+    }
+   ]
+  },
+  "chubut": {
+   "spotlight": "Chubut includes the Welsh colonisation of the lower valley, the exploitation of wool and oil, and the growth of Comodoro Rivadavia as a Patagonian energy hub. The Atlantic coast and the mountain range live together in one province.\n\nAbout 600,000 people live there.\n\nIt is known worldwide for Península Valdés and the southern right whales, the steppe and the Alerce forests; it combines nature tourism, energy and Patagonian tradition.",
+   "plants": [
+    {
+     "name": "Patagonian coirón",
+     "description": "The dominant grass of the steppe, key for ground cover in windy areas."
+    },
+    {
+     "name": "Calafate",
+     "description": "A thorny shrub with bluish fruits, well known for legends and Patagonian culinary uses."
+    },
+    {
+     "name": "Maitén",
+     "description": "A medium-sized tree found in Andean-Patagonian forests, valued as a shade tree in fields and farms."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Patagonian lamb",
+     "description": "Whole suckling lamb on the spit with the skin on ('a la cruz' or on a low grill), coarse salt and slow fire for several hours. The skin turns crisp and the meat pink, a typical aroma of the steppe and the Chubut mountains."
+    },
+    {
+     "name": "Welsh cake",
+     "description": "A layered cake of sponge with dried fruit, walnuts, raisins and candied fruit, soaked in liqueur or cognac. A legacy of the Welsh colony in the lower Chubut valley (Gaiman, Trelew, Rawson)."
+    },
+    {
+     "name": "River trout",
+     "description": "Rainbow or brook trout from mountain rivers and streams; fillets pan-seared with lemon and parsley, in butter with almonds or baked. Catch-and-release fishing in many local rules."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Península Valdés",
+     "description": "An emblematic place to get to know the province: Península Valdés. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Los Alerces National Park",
+     "description": "An emblematic place to get to know the province: Los Alerces National Park. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Punta Tombo (penguin reserve)",
+     "description": "An emblematic place to get to know the province: Punta Tombo. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Welsh colonisation in the valley",
+     "description": "From 1865 Welsh settlers established themselves in the Chubut river valley and left a mark on the architecture, the chapels and the tradition of Welsh tea."
+    },
+    {
+     "name": "A Patagonia of two worlds",
+     "description": "Chubut brings together steppe, mountains and Atlantic coast. That combination made it a key province for studies of marine wildlife and arid environments."
+    }
+   ]
+  },
+  "cordoba": {
+   "spotlight": "Córdoba was a viceregal centre, then 'la Docta' for its university founded in 1613, and a cultural engine of the interior. The railway and industry consolidated the capital as the country's second city.\n\nIt has almost 3.9 million inhabitants.\n\nIt is famous for the Sierras Grandes, student and hill tourism, cuarteto music and a cuisine of its own; the Jesuit legacy in the estancias and missions is a World Heritage Site.",
+   "plants": [
+    {
+     "name": "Molle de beber",
+     "description": "A native hill tree, frequent in ravines and slopes of the centre of the country."
+    },
+    {
+     "name": "Espinillo",
+     "description": "A small tree with very fragrant yellow flowers, representative of the hill thorn scrub."
+    },
+    {
+     "name": "Peperina serrana",
+     "description": "An aromatic herb typical of the Córdoba hills, associated with infusions and local traditions."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Hill kid goat",
+     "description": "Suckling kid opened on the spit or in an adobe oven, with a marinade of garlic, rosemary, salt and sometimes white wine. A dish for celebrations in Calamuchita, Traslasierra and towns of the Sierras Grandes."
+    },
+    {
+     "name": "Córdoba choripán",
+     "description": "A criollo chorizo split down the middle ('al V') in crusty French bread, with chimichurri, salsa criolla or homemade mayonnaise. A classic of fairs, concerts and football grounds; in Córdoba city it is often paired with 'vacío' or blood sausage at the stalls."
+    },
+    {
+     "name": "Córdoba alfajor",
+     "description": "Two soft sponge-like layers filled with plenty of dulce de leche and coated in bittersweet chocolate; often with walnuts or coconut. An emblematic version of the hill tourist route."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Calamuchita Valley (Villa General Belgrano and La Cumbrecita)",
+     "description": "An emblematic place to get to know the province: Calamuchita Valley. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Camino de las Altas Cumbres",
+     "description": "An emblematic place to get to know the province: Camino de las Altas Cumbres. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Quebrada del Condorito National Park",
+     "description": "An emblematic place to get to know the province: Quebrada del Condorito National Park. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "A historic university",
+     "description": "Córdoba is home to one of the oldest universities in South America. Its student life shaped political and cultural debates from colonial times to today."
+    },
+    {
+     "name": "The University Reform of 1918",
+     "description": "The reform movement born in Córdoba transformed higher education across Latin America, with ideas of autonomy and student co-government."
+    }
+   ]
+  },
+  "corrientes": {
+   "spotlight": "Corrientes, on the Paraná, was key in the colonial layout and in the wars with Paraguay; its culture blends Guaraní and littoral traditions. Navigation and the yerba mate groves defined a good part of its economy.\n\nMore than 1.1 million people live there.\n\nIt stands out for the Esteros del Iberá —one of the great wetlands of South America—, the carnival and chamamé music, a cultural heritage of humanity.",
+   "plants": [
+    {
+     "name": "Irupé",
+     "description": "An aquatic plant with large floating leaves, characteristic of lagoons and marshes of the littoral."
+    },
+    {
+     "name": "Camalote",
+     "description": "A floating plant that forms green rafts on rivers and lagoons, habitat for insects, fish and birds."
+    },
+    {
+     "name": "Black lapacho",
+     "description": "A native tree with pink or violet flowers that blooms spectacularly at the end of summer."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Mbaipy",
+     "description": "A thick purée of ground corn cooked with milk, creamy cheese and sometimes onion; it can be sweet (with sugar and cinnamon) or more savoury. A deeply rooted Guaraní legacy in Corrientes cooking."
+    },
+    {
+     "name": "Sopa correntina",
+     "description": "A moist savoury cake of corn flour, fresh cheese, egg, milk and onion, without yeast, baked until it forms a golden crust. A close relative of Paraguayan sopa paraguaya, often served at country lunches."
+    },
+    {
+     "name": "Grilled dorado",
+     "description": "Dorado (Salminus brasiliensis) whole or in skin-on fillets on the grill, with lemon and oil; pink, firm flesh. A fish that symbolises the Paraná and the marshes, served with cassava or salad."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Esteros del Iberá",
+     "description": "An emblematic place to get to know the province: Esteros del Iberá. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Riverfront and historic centre of Corrientes city",
+     "description": "An emblematic place to get to know the province: the riverfront and historic centre of Corrientes city. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Mburucuyá National Park",
+     "description": "An emblematic place to get to know the province: Mburucuyá National Park. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "A living Guaraní heritage",
+     "description": "Guaraní is still present in Corrientes words, music and customs. It is one of the provinces where that cultural root remains strongest."
+    },
+    {
+     "name": "Iberá and the recovery of wildlife",
+     "description": "The Esteros del Iberá are an example of environmental restoration: programmes to reintroduce emblematic species were driven there."
+    }
+   ]
+  },
+  "entre-rios": {
+   "spotlight": "Entre Ríos, between the Paraná and the Uruguay, was a land of frontier, colonies and railway; Concordia and Concepción del Uruguay hold republican and wine-making history. The Pampas agro-export model shows in its fields and river ports.\n\nIts population exceeds 1.4 million.\n\nIt is known for thermal tourism, the Entre Ríos delta, citrus growers and cities such as Paraná and Concordia, with a strong link to the river and the wetlands.",
+   "plants": [
+    {
+     "name": "Criollo willow",
+     "description": "A riverside tree typical of the banks of rivers and streams of the Paraná-Uruguay system."
+    },
+    {
+     "name": "Timbó",
+     "description": "A large tree with dense foliage, very frequent in gallery forests on the banks of watercourses."
+    },
+    {
+     "name": "Espinillo del río",
+     "description": "A native subshrub often used for firewood and as a refuge for birds on banks and marshes."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Fish of the Paraná and the Uruguay",
+     "description": "Surubí, pacú, boga and other species as fried fillets, battered, baked with vegetables or in chupín with white wine and paprika. Entre Ríos cooking revolves around what comes in fresh from both rivers."
+    },
+    {
+     "name": "Fish empanadas",
+     "description": "Homemade dough shells filled with shredded surubí or pacú, red pepper, onion, paprika and sometimes olives; baked or fried depending on the family. A very widespread variant in river cities."
+    },
+    {
+     "name": "Asado con cuero",
+     "description": "A rack of ribs or half an animal with the skin toward the fire, staked on crosses or tied to the grill, with coarse salt and slow wood cooking. A technique of the countryside and patron-saint festivals in the province."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "El Palmar National Park",
+     "description": "An emblematic place to get to know the province: El Palmar National Park. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Federación Hot Springs",
+     "description": "An emblematic place to get to know the province: Federación Hot Springs. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Palacio San José (Concepción del Uruguay)",
+     "description": "An emblematic place to get to know the province: Palacio San José. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Capital of the Confederation",
+     "description": "Paraná was the capital of the Argentine Confederation between 1854 and 1861. In that period fundamental institutions of the country were organised."
+    },
+    {
+     "name": "Palacio San José and Urquiza",
+     "description": "The residence of Justo José de Urquiza is a key piece for understanding 19th-century Argentine politics and the building of the national state."
+    }
+   ]
+  },
+  "formosa": {
+   "spotlight": "Formosa, in the northeast, had a missionary and military presence and today is a gateway to the humid Chaco and the Paraguay basin. The capital grew as administration and services in a region of marshes and scrub.\n\nAbout 610,000 people live there.\n\nIt is identified with the Laguna Oca Reserve, the Pilcomayo River, native peoples and a biodiversity of gallery forest and grasslands that draws birdwatching and nature visitors.",
+   "plants": [
+    {
+     "name": "Palo santo",
+     "description": "A Chaco species adapted to warm, dry climates, of great importance for the native forest."
+    },
+    {
+     "name": "Caranday",
+     "description": "A native palm that forms characteristic palm groves in parts of the humid Chaco."
+    },
+    {
+     "name": "Guayacán",
+     "description": "A tree of very hard wood and showy flowers, part of the Formosa Chaco forest."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Sopa paraguaya",
+     "description": "A thick mixture of corn flour, fresh cheese, milk, egg and roasted onion, baked in a tray like a savoury corn bread; a golden square portion, not a broth despite the name."
+    },
+    {
+     "name": "Baked pacú",
+     "description": "Pacú whole or in thick slices with lemon, tomato, red pepper and potatoes around it; baked covered to keep the juices. A main fishing dish of the Paraguay River and Formosa tributaries."
+    },
+    {
+     "name": "Chipá cuerito",
+     "description": "A starch-and-cheese chipá with added pieces of crispy pork skin or fat, or wrapped in fatty tripe before baking. A heartier variant of the Chaco and northeast chipá."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Bañado La Estrella",
+     "description": "An emblematic place to get to know the province: Bañado La Estrella. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Río Pilcomayo National Park",
+     "description": "An emblematic place to get to know the province: Río Pilcomayo National Park. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Laguna Oca Biosphere Reserve (Formosa city)",
+     "description": "An emblematic place to get to know the province: Laguna Oca Biosphere Reserve. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Rivers and native peoples",
+     "description": "Formosa's history is deeply tied to the Pilcomayo, the Bermejo and indigenous communities with knowledge adapted to the scrub and the water."
+    },
+    {
+     "name": "Bañado La Estrella",
+     "description": "It is one of the largest wetlands in Argentina and changes its landscape with the floods, creating natural scenes of enormous richness."
+    }
+   ]
+  },
+  "jujuy": {
+   "spotlight": "Jujuy brings together the Quebrada de Humahuaca —a World Heritage Site—, the Puna and the Yungas: an ancient Andean corridor of caravans and highland cultures. Mining and tourism complement valley farming economies.\n\nIts population is around 810,000.\n\nIt is famous for the Humahuaca Carnival, the Quebrada, the Salinas Grandes and the contrast between the highlands and the mountain forest within a few kilometres.",
+   "plants": [
+    {
+     "name": "Queñoa",
+     "description": "A high-altitude Andean tree resistant to cold, found in parts of the Puna and pre-Puna."
+    },
+    {
+     "name": "Puna tola",
+     "description": "A cushion-shaped shrub well adapted to strong radiation and high-altitude wind."
+    },
+    {
+     "name": "Cebil",
+     "description": "A tree of the Jujuy Yungas, a protagonist of the humid montane forests of the northwest."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Humita en chala",
+     "description": "Grated corn sautéed with onion, red pepper, cheese and spices, wrapped in corn husks and tied with husk strips; steamed or boiled. A strong presence at carnivals and fairs of the Quebrada."
+    },
+    {
+     "name": "Jujuy tamales",
+     "description": "A thick corn dough filled with goat or pork, onion, cumin and ground chilli, assembled in husks and cooked long in water with herbs. A more intense flavour than the pampas tamal."
+    },
+    {
+     "name": "Calapurca",
+     "description": "A highland soup with squash, corn, potatoes and llama or beef; traditionally a red-hot stone is dropped into the pot to keep it boiling (a pre-Columbian technique still named at festivals)."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Purmamarca and the Hill of Seven Colours",
+     "description": "An emblematic place to get to know the province: Purmamarca and the Hill of Seven Colours. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Quebrada de Humahuaca (Tilcara and Humahuaca)",
+     "description": "An emblematic place to get to know the province: Quebrada de Humahuaca. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Salinas Grandes and Cuesta de Lipán",
+     "description": "An emblematic place to get to know the province: Salinas Grandes and Cuesta de Lipán. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Ancient Quebrada de Humahuaca",
+     "description": "The Quebrada was a human and trade corridor for more than ten thousand years. It is a cultural landscape where indigenous, colonial and republican memory live together."
+    },
+    {
+     "name": "Belgrano and the Flag in Jujuy",
+     "description": "In 1813 Manuel Belgrano had the National Flag blessed and sworn in Jujuy territory, a central episode of the independence story."
+    }
+   ]
+  },
+  "la-pampa": {
+   "spotlight": "La Pampa was organised around grassland and the railway; Santa Rosa took on administrative functions in a province that is eminently farming and ranching. Its name evokes the Pampas' immensity.\n\nAbout 370,000 people live in a very large area, with low density.\n\nIt is known for the steppe, farmland and ranching, parks like Lihué Calel and the literary imagination of the plain.",
+   "plants": [
+    {
+     "name": "Caldén",
+     "description": "A characteristic tree of the Pampas thorn scrub, forming open woodlands in the centre of the country."
+    },
+    {
+     "name": "Pampas jarilla",
+     "description": "An aromatic shrub that resists drought and frost, common in the Pampas west."
+    },
+    {
+     "name": "Olivo de burro",
+     "description": "A native shrub with silvery foliage, found in semi-arid environments of the centre of the country."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Pampas asado criollo",
+     "description": "A mixed grill where offal (small intestines, kidneys, sweetbreads), chorizo and blood sausage come before the main cuts; quebracho or mesquite fire and a long after-meal ritual on ranches and in towns."
+    },
+    {
+     "name": "Chivito al asador",
+     "description": "Young kid skinned and opened in a cross over low embers, brushed with brine or lemon; slow-cooked until the skin curls. A country dish at livestock fairs and rural gatherings in La Pampa."
+    },
+    {
+     "name": "Torta frita",
+     "description": "Discs of flour, fat, salt and baking powder, rolled out and fried in butter or fat; they puff on contact and are eaten hot with mate cocido or tea. A classic snack after work in the field."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Lihué Calel National Park",
+     "description": "An emblematic place to get to know the province: Lihué Calel National Park. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Parque Luro Provincial Reserve",
+     "description": "An emblematic place to get to know the province: Parque Luro Provincial Reserve. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Laguna de Utracán and Guatraché area",
+     "description": "An emblematic place to get to know the province: Laguna de Utracán and the Guatraché area. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "The caldén, emblem tree",
+     "description": "La Pampa protects a unique ecoregion of caldén woods, a species adapted to the semi-arid climate that forms landscapes found nowhere else in the country."
+    },
+    {
+     "name": "A crossroads of historic routes",
+     "description": "Because of its central location, the Pampas territory was a place of passage in military campaigns, cattle drives and trade networks between Cuyo, Buenos Aires and Patagonia."
+    }
+   ]
+  },
+  "la-rioja": {
+   "spotlight": "La Rioja links Cuyo valleys, the history of Independence —with Chilecito and the mining cable car— and a mountain range that ties it to Route 40. Wine and olive trees mark its productive profile.\n\nIt has about 380,000 inhabitants.\n\nIt is famous for Talampaya —a Natural World Heritage Site together with Ischigualasto in neighbouring San Juan—, the Cuesta de Miranda and landscapes of mountain and semi-desert.",
+   "plants": [
+    {
+     "name": "Jarilla",
+     "description": "The dominant shrub of arid, stony areas of western Argentina."
+    },
+    {
+     "name": "Retortuño",
+     "description": "A thorny shrub very resistant to drought, typical of hills and La Rioja foothills."
+    },
+    {
+     "name": "White algarrobo",
+     "description": "A tree that gives shade and edible fruit, found in valleys and scrub areas of the region."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Chanfaina riojana",
+     "description": "A rice stew with offal: liver, lung, testicles and cooked blood, onion, red pepper and paprika; creamy texture and deep flavour. Served in a pot or casserole in winter and at family celebrations."
+    },
+    {
+     "name": "La Rioja empanadas",
+     "description": "A filling of matambre and/or minced beef with lots of onion, cumin, paprika and olives; thin dough and a marked edge. They are distinguished by the balance of meat and seasonings of the La Rioja scrub."
+    },
+    {
+     "name": "La Rioja locro",
+     "description": "The local version with cracked corn, squash, beans, red chorizo and sometimes tripe; less brothy than an ordinary stew, rather thick to eat with a spoon. A dish for May and Sundays."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Talampaya National Park",
+     "description": "An emblematic place to get to know the province: Talampaya National Park. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Cuesta de Miranda",
+     "description": "An emblematic place to get to know the province: Cuesta de Miranda. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Laguna Brava National Park",
+     "description": "An emblematic place to get to know the province: Laguna Brava National Park. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Land of federal caudillos",
+     "description": "La Rioja is inseparable from the figure of Facundo Quiroga and 19th-century federalism, a key stage for understanding the Argentine civil wars."
+    },
+    {
+     "name": "Talampaya and deep time",
+     "description": "Its geological landscapes show millions of years of Earth's history and fossils essential for studying ancient eras of the planet."
+    }
+   ]
+  },
+  "mendoza": {
+   "spotlight": "Mendoza was reorganised after the 1861 earthquake and became the capital of wine and Andean irrigation. San Martín crossed the Andes toward Chile from these valleys.\n\nIt exceeds 2.2 million inhabitants.\n\nIt is synonymous with Malbec, high mountains and Aconcagua; wine tourism, skiing and oasis culture make it one of the most visited provinces in the country.",
+   "plants": [
+    {
+     "name": "Ajarilla",
+     "description": "A native shrub of arid Andean environments, adapted to dry soils and strong sunlight."
+    },
+    {
+     "name": "Resinous jarillas",
+     "description": "A group of resinous shrubs very frequent in the Mendoza Monte, adapted to wind and scarce water."
+    },
+    {
+     "name": "Mendoza chañar",
+     "description": "A native tree of arid zones, with sweet fruits used in traditional preparations."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Tortitas mendocinas",
+     "description": "Little cakes of flour, egg, milk, sugar and butter, fried in clarified butter and dusted with brown or white sugar. A typical sweet breakfast of bakeries in Mendoza city and the oasis."
+    },
+    {
+     "name": "Chivo a la llama",
+     "description": "Kid or mountain goat cooked over very low heat, sometimes between hot stones or embers, with aromatic herbs; dark, smoky meat. Associated with festivities in high areas of southern Mendoza."
+    },
+    {
+     "name": "Mendoza empanadas",
+     "description": "Minced beef with plenty of white onion, red pepper, paprika, cumin, olives and raisins; baked in an adobe oven until the dough is crisp. Half-moon shaped and medium-sized."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Aconcagua Provincial Park",
+     "description": "An emblematic place to get to know the province: Aconcagua Provincial Park. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Wine Route in Luján de Cuyo and Uco Valley",
+     "description": "An emblematic place to get to know the province: the Wine Route in Luján de Cuyo and Uco Valley. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Puente del Inca and Atuel Canyon Provincial Park",
+     "description": "An emblematic place to get to know the province: Puente del Inca and Atuel Canyon Provincial Park. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Cradle of the Army of the Andes",
+     "description": "In Mendoza, San Martín organised the Army of the Andes before the 1817 crossing of the mountains, one of the most significant campaigns in the Americas."
+    },
+    {
+     "name": "Oases built by irrigation channels",
+     "description": "The province developed a historic irrigation system to turn arid areas into productive oases. That water engineering is part of its identity."
+    }
+   ]
+  },
+  "misiones": {
+   "spotlight": "Misiones preserves the legacy of the Jesuit-Guaraní reductions —a World Heritage Site— and the forest of the Misiones rainforest. Yerba mate groves and timber sustained its development; Posadas is the provincial centre.\n\nMore than 1.2 million people live there.\n\nIt is known worldwide for the Iguazú Falls —a natural wonder— and for the subtropical biodiversity that sets it apart from the rest of Argentina.",
+   "plants": [
+    {
+     "name": "Misiones palm heart",
+     "description": "A native palm of the Paranaense rainforest, associated with humid subtropical environments."
+    },
+    {
+     "name": "Pink lapacho",
+     "description": "A tree with intense pink flowers that mark the end of summer in many Misiones landscapes."
+    },
+    {
+     "name": "Misiones araucaria",
+     "description": "A conifer native to Misiones and Brazil, part of the high canopy of the Paranaense rainforest."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Reviro",
+     "description": "A dough of wheat flour with fat (butter or oil) and liquid, cut into irregular pieces and fried or cooked; it can be mixed with cheese or served with tomato sauce. A humble dish very present in everyday Misiones life."
+    },
+    {
+     "name": "Misiones chipá",
+     "description": "A bread of fine cassava starch, hard cheese and egg; baked in small ring or ball shapes. A characteristic aroma in bakeries of Posadas, Oberá and rainforest roads."
+    },
+    {
+     "name": "Mbejú",
+     "description": "A yeast-free cake of cassava starch, grated fresh cheese, butter and anise, cooked on a griddle or in the oven until crisp layers form on the outside. A base of Guaraní-Paraguayan cooking in Misiones."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Iguazú Falls",
+     "description": "An emblematic place to get to know the province: Iguazú Falls. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Jesuit ruins of San Ignacio Miní",
+     "description": "An emblematic place to get to know the province: the Jesuit ruins of San Ignacio Miní. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Moconá Falls",
+     "description": "An emblematic place to get to know the province: Moconá Falls. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "The Jesuit Missions",
+     "description": "San Ignacio Miní and other sites recall the Jesuit-Guaraní experience of the 17th and 18th centuries, a central chapter of the colonial northeast."
+    },
+    {
+     "name": "The rainforest and yerba mate",
+     "description": "Misiones concentrates a large part of Argentine yerba mate production, tied to a regional tradition that combines Guaraní and immigrant knowledge."
+    }
+   ]
+  },
+  "neuquen": {
+   "spotlight": "Neuquén grew with oil, gas and the fruit growing of the Alto Valle; the mountains bring tourism and hydroelectric power. Mapuche peoples and the steppe mark its cultural diversity.\n\nIts population is around 730,000.\n\nIt is known for Nahuel Huapi, Villa La Angostura, the oil basin and the landscape of lakes and volcanoes it shares with Andean Patagonia.",
+   "plants": [
+    {
+     "name": "Pehuén (monkey puzzle tree)",
+     "description": "A native Andean conifer, a symbol of the high-altitude forests of northern Patagonia."
+    },
+    {
+     "name": "Ñire",
+     "description": "A dwarf or shrubby lenga species that colonises cold, exposed slopes in the Neuquén mountains."
+    },
+    {
+     "name": "Mountain maitén",
+     "description": "A tree with a light crown that accompanies watercourses and humid slopes in the region."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Neuquén chivito",
+     "description": "Patagonian kid on the spit or in an adobe oven, with coarse salt and herbs; lean meat from steppe grazing. A dish for gatherings in Junín de los Andes, Aluminé and mountain fairs."
+    },
+    {
+     "name": "Patagonian trout",
+     "description": "Trout from lakes and rivers such as Nahuel Huapi, Aluminé or Traful; fillets en papillote with lemon and herbs, or smoked in mountain tea houses. Fine texture and the clean taste of cold water."
+    },
+    {
+     "name": "Patagonian torta frita",
+     "description": "The same base as in the rest of the country but eaten with mate cocido in colder climates; sometimes thicker to go with homemade valley berry jam."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Villa La Angostura and Nahuel Huapi National Park",
+     "description": "An emblematic place to get to know the province: Villa La Angostura and Nahuel Huapi National Park. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "San Martín de los Andes and the Seven Lakes Road",
+     "description": "An emblematic place to get to know the province: San Martín de los Andes and the Seven Lakes Road. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Lanín Volcano and Lanín National Park",
+     "description": "An emblematic place to get to know the province: Lanín Volcano and Lanín National Park. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Mapuche and mountain territory",
+     "description": "Neuquén's history is crossed by the Mapuche presence, transhumance and a geography of valleys, lakes and volcanoes."
+    },
+    {
+     "name": "Vaca Muerta and energy",
+     "description": "Neuquén today holds a strategic place in Argentina's energy mix thanks to the development of Vaca Muerta, with national economic impact."
+    }
+   ]
+  },
+  "rio-negro": {
+   "spotlight": "Río Negro joins the fruit-growing Alto Valle, the steppe plateau and the mountain range. Bariloche and 'Andean Patagonia' have been icons of national tourism since the 20th century.\n\nAbout 760,000 people live there.\n\nIt combines pear and apple production, cities such as Viedma (legislative capital for part of the province's history) and General Roca, and the mountain and lake tourism that makes it emblematic.",
+   "plants": [
+    {
+     "name": "Neneo",
+     "description": "A shrub typical of the Patagonian steppe, resistant to wind and low humidity."
+    },
+    {
+     "name": "Patagonian molle",
+     "description": "An aromatic shrub with dense foliage that shelters birds and small mammals."
+    },
+    {
+     "name": "Andean coihue",
+     "description": "The dominant tree of humid forests in the mountain strip of Río Negro."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Patagonian trout",
+     "description": "Fish from the Limay, Collón Curá or Andean lakes; simple preparation pan-seared with olive oil and lemon, or pickled. Regulated sport fishing along many stretches."
+    },
+    {
+     "name": "Spit-roasted lamb",
+     "description": "Whole or medium lamb on a vertical spit, salted skin and steppe firewood; a ritual on ranches of the Alto Valle and the Río Negro plateau."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Bariloche and Circuito Chico",
+     "description": "An emblematic place to get to know the province: Bariloche and Circuito Chico. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "El Bolsón and Lago Puelo (Andean district)",
+     "description": "An emblematic place to get to know the province: El Bolsón and Lago Puelo. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Las Grutas and the San Matías Gulf coast",
+     "description": "An emblematic place to get to know the province: Las Grutas and the San Matías Gulf coast. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "The fruit-growing Alto Valle",
+     "description": "The Alto Valle of Río Negro was consolidated with irrigation works and internal and external migration, becoming a pear and apple producing hub."
+    },
+    {
+     "name": "Atlantic coast and palaeontology",
+     "description": "Its coast and plateaus are the setting for palaeontological finds and a marine fauna that attracts research and nature tourism."
+    }
+   ]
+  },
+  "salta": {
+   "spotlight": "Salta, 'la Linda', was a colonial and loyalist centre during the wars of independence; its architecture and Andean culture are a reference for the Northwest. The Train to the Clouds symbolises ingenuity in the Puna.\n\nIt has more than 1.4 million inhabitants.\n\nIt is famous for Cafayate, the Quebradas, the Salta Puna and a folk and religious identity very visible in festivities and food.",
+   "plants": [
+    {
+     "name": "Yuchán",
+     "description": "A tree with a swollen trunk, common in dry areas of the northwest, adapted to seasonal droughts."
+    },
+    {
+     "name": "Pink floss silk tree",
+     "description": "A close relative of the yuchán, with spectacular pink flowers and a bottle-shaped trunk."
+    },
+    {
+     "name": "White tipa",
+     "description": "A large tree typical of the Salta Yungas, with dense foliage and generous shade."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Salta empanadas",
+     "description": "A juicy filling of knife-cut beef with onion, paprika, cumin, hard-boiled egg, diced potato and sometimes chilli; thin dough and a 'twisted' edge. They are baked in adobe or on a tray until the broth drips out."
+    },
+    {
+     "name": "Salta tamales",
+     "description": "Corn dough with beef fat, filled with meat and onion with red chilli, wrapped in corn husk; long cooking in a pot. Wetter and redder than those of the littoral."
+    },
+    {
+     "name": "Humita",
+     "description": "In Salta it is often made in a casserole: grated corn cooked with milk, cheese and onion until it forms a thick cream (humita en olla), besides the husk-wrapped version on festive dates."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Train to the Clouds (San Antonio de los Cobres)",
+     "description": "An emblematic place to get to know the province: the Train to the Clouds. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Cafayate and Quebrada de las Conchas",
+     "description": "An emblematic place to get to know the province: Cafayate and Quebrada de las Conchas. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Cachi and Los Cardones National Park",
+     "description": "An emblematic place to get to know the province: Cachi and Los Cardones National Park. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Güemes and the war of independence",
+     "description": "The figure of Martín Miguel de Güemes and his gaucho militias is central to understanding the defence of the north during independence."
+    },
+    {
+     "name": "A mosaic of landscapes",
+     "description": "In one province live together Yungas, valleys, ravines and puna. That diversity made Salta a great historic and cultural Andean corridor."
+    }
+   ]
+  },
+  "san-juan": {
+   "spotlight": "San Juan combines desert, oasis and mountains; Ischigualasto and Barreal speak of geology and astronomy. The 1944 earthquake marked the rebuilding of the modern capital.\n\nAbout 820,000 people live there.\n\nIt is known for the Valley of the Moon, wine and sun, adventure tourism and a mountain landscape that links it to Chile through high passes.",
+   "plants": [
+    {
+     "name": "Retamo",
+     "description": "A native shrub of arid Cuyo zones, very present on slopes and foothills."
+    },
+    {
+     "name": "San Juan jarilla",
+     "description": "An aromatic shrub that dominates wide areas of the province's arid scrub."
+    },
+    {
+     "name": "Black algarrobo",
+     "description": "A key tree for arid soils, with fruit historically used by local communities."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Punta de espalda",
+     "description": "A cut from the forequarter of the steer (shoulder area), marinated or salted and cooked on the grill in thick pieces; a fibrous texture that calls for medium or medium-well cooking."
+    },
+    {
+     "name": "Tomaticán",
+     "description": "Peeled, chopped tomatoes sautéed with onion, sometimes zucchini, and eggs scrambled in at the end; a quick Cuyo summer stew served with homemade bread."
+    },
+    {
+     "name": "Sopaipillas",
+     "description": "Dough with cooked yellow squash, flour, fat and salt, rolled out and fried in discs; they are eaten hot with cane molasses, melted chancaca or mustard."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Ischigualasto Provincial Park (Valley of the Moon)",
+     "description": "An emblematic place to get to know the province: Ischigualasto Provincial Park. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Cuesta del Viento Dam (Rodeo)",
+     "description": "An emblematic place to get to know the province: Cuesta del Viento Dam. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "El Leoncito National Park (Barreal)",
+     "description": "An emblematic place to get to know the province: El Leoncito National Park. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Sarmiento and education",
+     "description": "San Juan is the birthplace of Domingo F. Sarmiento, a key figure in the expansion of Argentina's education system in the 19th century."
+    },
+    {
+     "name": "Ischigualasto and unique fossils",
+     "description": "The San Juan Valley of the Moon preserves palaeontological records of enormous value for studying the first dinosaurs."
+    }
+   ]
+  },
+  "san-luis": {
+   "spotlight": "San Luis links central hills and Pampas plains; its capital was designed on a rational grid in the 19th century. Education and hill tourism gained weight in recent decades.\n\nIts population is about 540,000.\n\nIt stands out for Potrero de los Funes, Merlo, national parks and a way of life tied to nature and outdoor sport.",
+   "plants": [
+    {
+     "name": "Sweet algarrobo",
+     "description": "A tree of the thorn scrub and open woodland, of great importance for wildlife and local communities."
+    },
+    {
+     "name": "San Luis espinillo",
+     "description": "A small tree with yellow flowers that is part of the landscape of hills and plains of San Luis."
+    },
+    {
+     "name": "Hill white quebracho",
+     "description": "A species that appears in transitions between scrub and thorn woodland in the centre of the country."
+    }
+   ],
+   "foods": [
+    {
+     "name": "San Luis chivito",
+     "description": "Kid from the San Luis hills (Comechingones) on the spit, with a simple marinade of garlic and herbs; aromatic meat from hill grazing. A dish of fairs in Villa de Merlo and hill towns."
+    },
+    {
+     "name": "San Luis empanadas",
+     "description": "Minced beef with lots of onion, cumin, paprika and pastry fat; some versions include potato or egg. Baked with crisp dough and a tight edge."
+    },
+    {
+     "name": "Carbonada",
+     "description": "A stew of meat, corn, squash, rice and red chorizo; in San Luis it is also cooked 'en zapallo': the filling goes inside a whole squash baked as an edible pot."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Sierra de las Quijadas National Park",
+     "description": "An emblematic place to get to know the province: Sierra de las Quijadas National Park. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Potrero de los Funes",
+     "description": "An emblematic place to get to know the province: Potrero de los Funes. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Merlo and Rincón del Este Flora and Fauna Reserve",
+     "description": "An emblematic place to get to know the province: Merlo and the Rincón del Este Flora and Fauna Reserve. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "A staging post of inland roads",
+     "description": "San Luis was historically a place of passage between Cuyo, Córdoba and the littoral, with routes that linked regional economies."
+    },
+    {
+     "name": "A landscape of hills and salt flats",
+     "description": "The combination of hills, plains and salt flats gave the province a distinctive geographic identity within central Argentina."
+    }
+   ]
+  },
+  "santa-cruz": {
+   "spotlight": "Santa Cruz is the southernmost mainland province; the discovery of oil at Cerro Dragón and glacier tourism transformed its profile. El Chaltén and El Calafate are global centres of trekking and ice.\n\nAbout 330,000 people live there in a huge, sparsely populated territory.\n\nIt is known worldwide for the Perito Moreno Glacier, the Fitz Roy and southern Patagonia; also for the guardianship of the Beagle Channel in the national imagination.",
+   "plants": [
+    {
+     "name": "Mata negra",
+     "description": "A Patagonian shrub frequent in the cold steppe, adapted to frost and intense wind."
+    },
+    {
+     "name": "Fuegian coirón",
+     "description": "A hard grass that forms compact tufts and resists snowfalls and southern winds."
+    },
+    {
+     "name": "Southern neneo",
+     "description": "A low, very hardy shrub that protects the soil and shelters wildlife."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Seafood casserole",
+     "description": "A pot with king crab, mussels, clams, squid and sometimes white fish, in a broth with white wine, paprika and cream or tomato; a dish of ports like Río Gallegos or the Atlantic coast."
+    },
+    {
+     "name": "Santa Cruz lamb",
+     "description": "Patagonian lamb from light young, slow-roasted with skin on or on a low grill; mild flavour from southern steppe pastures and cold wind."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Perito Moreno Glacier (Los Glaciares National Park)",
+     "description": "An emblematic place to get to know the province: the Perito Moreno Glacier. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "El Chaltén and the Fitz Roy trails",
+     "description": "An emblematic place to get to know the province: El Chaltén and the Fitz Roy trails. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Cueva de las Manos (Pinturas river)",
+     "description": "An emblematic place to get to know the province: Cueva de las Manos. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Continental ice fields",
+     "description": "Santa Cruz is part of the great Patagonian ice system, one of the largest freshwater reserves on the planet outside the polar zones."
+    },
+    {
+     "name": "Cueva de las Manos",
+     "description": "The rock paintings of the Pinturas river, thousands of years old, are exceptional testimony of the region's first inhabitants."
+    }
+   ]
+  },
+  "santa-fe": {
+   "spotlight": "Santa Fe was the heart of the agro-industrial littoral: Rosario, the Paraná port and the National Flag Memorial symbolise trade and national memory. The province links the humid Pampa and wetlands.\n\nIt exceeds 3.5 million inhabitants, one of the highest totals in the country.\n\nIt is known for Rosario, Santa Fe city, the river, industry and farming, and for a historical legacy tied to the Confederation and the organisation of the modern state.",
+   "plants": [
+    {
+     "name": "Ceibo",
+     "description": "A riverside tree with red flowers, common in wetlands and riverbanks of the littoral."
+    },
+    {
+     "name": "White sarandí",
+     "description": "A shrub typical of the shores of lagoons and rivers, associated with waterbirds and amphibians."
+    },
+    {
+     "name": "Littoral timbó",
+     "description": "A large tree with wide shade, a characteristic member of the gallery forests of the Paraná."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Grilled dorado",
+     "description": "Dorado from the Paraná and the delta, whole and scaled or as supremes, skin over the flame with lemon; firm texture. A classic of Rosario's riverfronts and river towns."
+    },
+    {
+     "name": "Baked surubí",
+     "description": "Surubí in fillets or pieces with roast potatoes, red pepper, onion and white wine; baked covered so the white flesh doesn't dry out. A river dish in great demand in the central littoral."
+    },
+    {
+     "name": "Santa Fe empanada",
+     "description": "A filling of ground beef with plenty of pastry fat, lots of white onion, green pepper and paprika; thin dough and a characteristic edge. It differs from the Salta empanada in its broth and fat profile."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "National Flag Memorial (Rosario)",
+     "description": "An emblematic place to get to know the province: the National Flag Memorial. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Independencia Park (Rosario)",
+     "description": "An emblematic place to get to know the province: Independencia Park. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Suspension Bridge and Riverfront of Santa Fe city",
+     "description": "An emblematic place to get to know the province: the Suspension Bridge and Riverfront of Santa Fe city. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Cradle of the Flag",
+     "description": "In Rosario, Manuel Belgrano first raised the Argentine flag in 1812, an event remembered at the National Flag Memorial."
+    },
+    {
+     "name": "Port, rivers and immigration",
+     "description": "Santa Fe grew strongly through its river and rail network. European immigration left deep marks on farming colonies and cities."
+    }
+   ]
+  },
+  "santiago-del-estero": {
+   "spotlight": "Santiago del Estero is the oldest city founded by the Spanish in what is now Argentina (1553). The province combines dry Chaco, scrub and criollo and native traditions.\n\nIt has around 1 million inhabitants.\n\nIt is famous for folklore, the Río Hondo hot springs —a therapeutic and tourist destination— and a deeply rooted identity of the inland north.",
+   "plants": [
+    {
+     "name": "Itín",
+     "description": "A native species of the dry Chaco forest, adapted to high temperatures."
+    },
+    {
+     "name": "Vinal",
+     "description": "A thorny tree that adapts to saline soils and very dry environments of the Santiago del Estero Chaco."
+    },
+    {
+     "name": "Santiago red quebracho",
+     "description": "A robust tree whose wood was heavily exploited in the region, now protected in several areas."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Santiago locro",
+     "description": "Cracked white corn with squash, beans, beef and pork, red chorizo, trotters and tripe; seasoned with cumin and paprika. A very thick texture, almost 'enough to stand the mate spoon in'."
+    },
+    {
+     "name": "Santiago empanadas",
+     "description": "Lots of cooked onion ('cebollera'), minced beef, cumin, fat and sometimes potato; baked until the lid turns golden and the inside stays moist. Served with homemade hot sauce."
+    },
+    {
+     "name": "Santiago rosquete",
+     "description": "A sweet ring or bun with flour, fat, egg and anise, bathed in syrup or honey; a fried version at carnivals ('hojuelas'). Found in bakeries of La Banda and Santiago city."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Termas de Río Hondo",
+     "description": "An emblematic place to get to know the province: Termas de Río Hondo. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Río Hondo Dam",
+     "description": "An emblematic place to get to know the province: the Río Hondo Dam. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Copo National Park",
+     "description": "An emblematic place to get to know the province: Copo National Park. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Mother of cities",
+     "description": "Santiago del Estero, founded in 1553, is one of the oldest cities in present-day Argentine territory, and so it receives that historic title."
+    },
+    {
+     "name": "Santiago Quichua",
+     "description": "The province keeps a strong linguistic tradition: Santiago Quichua is still alive in many communities."
+    }
+   ]
+  },
+  "tierra-del-fuego": {
+   "spotlight": "The province of Tierra del Fuego, Antarctica and South Atlantic Islands includes the big island and claims over the Malvinas and Antarctica under Argentine law. Ushuaia is the southernmost city in the country and grew with the prison, the navy and tourism.\n\nAbout 190,000 people live in the actually urbanised part of the island.\n\nIt is known as the 'end of the world', for the Beagle Channel, the Magellanic forests and Antarctic and mountain tourism.",
+   "plants": [
+    {
+     "name": "Fuegian lenga",
+     "description": "A characteristic tree of the subantarctic forests of Argentina's far south."
+    },
+    {
+     "name": "Guindo or Magellanic coihue",
+     "description": "A tree of cold, humid forests, with dense foliage that forms true green roofs."
+    },
+    {
+     "name": "Fuegian canelo",
+     "description": "A tree sacred to the southern native peoples, associated with very humid, cold environments."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Patagonian toothfish",
+     "description": "Patagonian toothfish (Dissostichus eleginoides), a deep-water fish; firm fillets pan-seared, breaded or baked with lemon. Catches are regulated by international quotas."
+    },
+    {
+     "name": "Fuegian lamb",
+     "description": "Lamb from small flocks on the Isla Grande; slow-roasted over lenga or coihue wood, with a marked smoky flavour. Less known than mainland Patagonian lamb but very local."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Tierra del Fuego National Park",
+     "description": "An emblematic place to get to know the province: Tierra del Fuego National Park. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Beagle Channel and Les Eclaireurs Lighthouse",
+     "description": "An emblematic place to get to know the province: the Beagle Channel and Les Eclaireurs Lighthouse. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "End of the World Train (Ushuaia)",
+     "description": "An emblematic place to get to know the province: the End of the World Train. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "An inhabited end of the world",
+     "description": "Ushuaia is internationally recognised as the southernmost city in the world, a gateway to Antarctic expeditions."
+    },
+    {
+     "name": "Selk'nam and Yámana history",
+     "description": "Fuegian territory keeps the memory of native peoples such as the Selk'nam and Yámana, essential to understanding the history of the far south."
+    }
+   ]
+  },
+  "tucuman": {
+   "spotlight": "Tucumán was the scene of the 1816 Congress and is called the 'Garden of the Republic' for the greenery of its valleys. Sugar marked its economy and social history in the 20th century.\n\nIt has almost 1.7 million inhabitants.\n\nIt is famous for the Casa Histórica, Cerro San Javier, the Tucumán Yungas and a widely loved gastronomic and musical culture of the Northwest.",
+   "plants": [
+    {
+     "name": "Mountain alder",
+     "description": "A tree of the montane Yungas, important for water regulation in hill basins."
+    },
+    {
+     "name": "Yellow lapacho",
+     "description": "A tree with showy yellow flowering, very present at forest edges and in transition zones."
+    },
+    {
+     "name": "Horco molle",
+     "description": "A tree typical of the Tucumán Yungas, part of the mosaic of montane forest species."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Milanesa sandwich",
+     "description": "A big breaded and fried beef milanesa in French bread with tomato, lettuce, fried egg and mayonnaise; sometimes ham and cheese. An icon of downtown San Miguel de Tucumán and student bars."
+    },
+    {
+     "name": "Tucumán empanadas",
+     "description": "Baked in an adobe oven, with a juicy filling of knife-cut beef, onion, cumin, paprika and diced matambre; a fine edge. Friendly competition with the Salta ones at food fairs."
+    },
+    {
+     "name": "Tucumán humita",
+     "description": "Grated corn with onion, fresh cheese and cream, reduced in a saucepan until thick, or wrapped in husk on celebration dates. The natural sweetness of Tucumán valley corn."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Casa Histórica de la Independencia (San Miguel de Tucumán)",
+     "description": "An emblematic place to get to know the province: the Casa Histórica de la Independencia. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Tafí del Valle and La Angostura Dam",
+     "description": "An emblematic place to get to know the province: Tafí del Valle and the La Angostura Dam. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Quilmes Ruins",
+     "description": "An emblematic place to get to know the province: the Quilmes Ruins. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "The House of Independence",
+     "description": "In San Miguel de Tucumán Argentine independence was declared in 1816. The Casa Histórica is one of the most significant sites in the country."
+    },
+    {
+     "name": "Sugar industry",
+     "description": "Tucumán's economic history was strongly tied to sugar mills, which marked its social and urban development."
+    }
+   ]
+  },
+  "ciudad-autonoma-buenos-aires": {
+   "spotlight": "The Autonomous City of Buenos Aires was twice the capital of the Viceroyalty and is today the federal capital: port, finance, culture and politics in one metropolis. The street layout and the Riachuelo tell centuries of transformation.\n\nMore than 3.1 million inhabitants live there (2022 census); Greater Buenos Aires adds several million more in the neighbouring province.\n\nIt is known worldwide for tango, theatre, bookshops, eclectic architecture and intense urban life on the banks of the Río de la Plata.",
+   "plants": [
+    {
+     "name": "Riverside tala",
+     "description": "A native tree of the Pampas and riverside area, representative of the original local vegetation."
+    },
+    {
+     "name": "Riverbank espinillo",
+     "description": "A small native tree that survives in urban reserves and on the bluffs of the Río de la Plata."
+    },
+    {
+     "name": "Coastal criollo willow",
+     "description": "A tree of riverside wetlands, now preserved in green spaces and ecological reserves."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Porteño pizza",
+     "description": "A medium or pan dough, crisp edge, a generous layer of sauce and mozzarella that forms 'strings' when cut; the style of historic pizzerias (Guerrín, Banchero, El Cuartito)."
+    },
+    {
+     "name": "Stuffed fugazzeta",
+     "description": "Pizza dough filled between two layers with ham and mozzarella, topped with caramelised onion and gratinated cheese; born in pizzerias of the centre and Villa Crespo."
+    },
+    {
+     "name": "Artisan ice cream",
+     "description": "Rich in milk and cream, classic flavours (dulce de leche granizado, tramontana, sambayón) and fruits; served in a cup or two scoops in a wafer. A culture of neighbourhood and porteño-chain ice-cream shops."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Caminito and the La Boca neighbourhood",
+     "description": "An emblematic place to get to know the city: Caminito and the La Boca neighbourhood. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Plaza de Mayo and Metropolitan Cathedral",
+     "description": "An emblematic place to get to know the city: Plaza de Mayo and the Metropolitan Cathedral. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Teatro Colón and Recoleta",
+     "description": "An emblematic place to get to know the city: the Teatro Colón and Recoleta. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Plaza de Mayo and political life",
+     "description": "The Plaza de Mayo was and is the setting of decisive episodes of Argentine history: revolutions, popular celebrations and social demands."
+    },
+    {
+     "name": "Port and mass immigration",
+     "description": "Between the late 19th and early 20th century the city received great waves of immigration that transformed its culture, language and architecture."
+    }
+   ]
+  },
+  "islas-malvinas": {
+   "spotlight": "The Malvinas Islands were inhabited by a gaucho population and then militarily occupied by the United Kingdom in the 19th century; the 1982 war reaffirmed in Argentina the sovereignty claim, backed by United Nations resolutions.\n\nThe resident population is about three thousand, mainly engaged in sheep farming and local services.\n\nThey are known for their military and political history, their marine and subantarctic biodiversity, and for holding a central place in Argentine foreign policy and national identity.",
+   "plants": [
+    {
+     "name": "Tussac grass",
+     "description": "A grass typical of subantarctic coastal environments, key as shelter for marine wildlife."
+    },
+    {
+     "name": "Fuegian fescue",
+     "description": "A hard grass of cold, windy climates that carpets large expanses of plains."
+    },
+    {
+     "name": "Cushion plants",
+     "description": "A group of small cushion-shaped plants adapted to poor soils, low temperatures and constant winds."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Fish and chips",
+     "description": "Fillets of hake or other local species battered or breaded, fried and served with 'chips'-style potatoes; a legacy of British cooking in the archipelago."
+    },
+    {
+     "name": "Local hake and seafood",
+     "description": "Preparations with southern hake, pollock or seafood from the cold waters of the South Atlantic: baked, in a stew or as 'smokie' (smoked) fish at country breakfasts."
+    },
+    {
+     "name": "Island lamb",
+     "description": "Grazing lamb from grasslands of a cold oceanic climate; Sunday oven roast with roast potatoes and root vegetables, similar to the British 'Sunday roast' adapted to the south."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Puerto Argentino/Stanley and its waterfront",
+     "description": "An emblematic place to get to know the province: Puerto Argentino/Stanley and its waterfront. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Darwin Cemetery",
+     "description": "An emblematic place to get to know the province: Darwin Cemetery. Ideal to explore with time and a camera."
+    },
+    {
+     "name": "Voluntario Hill / Mount Longdon (historic sites)",
+     "description": "An emblematic place to get to know the province: Voluntario Hill / Mount Longdon. Ideal to explore with time and a camera."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Strategic South Atlantic",
+     "description": "The islands lie in a key area of the South Atlantic because of their maritime, fishing and geopolitical reach."
+    },
+    {
+     "name": "Memory of 1982",
+     "description": "The 1982 war left a deep mark on recent Argentine history. The Malvinas remain a cause of memory and sovereignty."
+    }
+   ]
+  }
+ },
+ "byName": {
+  "animals|Hornero": {
+   "name": "Rufous hornero",
+   "description": "A passerine bird that builds a mud nest shaped like an oven, hence its name. It feeds mainly on insects and arthropods on the ground. It adapts to cities, parks and open fields; in Argentina it is the national bird."
+  },
+  "animals|Ciervo de los pantanos": {
+   "name": "Marsh deer",
+   "description": "A large deer tied to wetlands, marshes and riverbanks with swamp vegetation. Males grow palmate, branching antlers. It is threatened by habitat loss and fragmentation; in several regions it is protected and monitored."
+  },
+  "animals|Mara patagónica": {
+   "name": "Patagonian mara",
+   "description": "A large rodent with long legs and ears, related to guinea pigs. It lives in colonies on steppes and semi-arid scrub; it runs with quick strides and eats grasses and herbs. It is typical of the west and extra-Andean Patagonia."
+  },
+  "animals|Vicuña": {
+   "name": "Vicuña",
+   "description": "A medium-sized wild camelid, the smallest of the South American relatives of the llama. It lives in the Puna and dry high-Andean environments; it produces a very fine and valuable fibre. It lives in herds and is adapted to low oxygen pressure."
+  },
+  "animals|Aguará guazú": {
+   "name": "Maned wolf",
+   "description": "A tall, long-legged canid, also called the maned wolf; it is neither a 'wolf' nor a classic fox. It lives in grasslands, scrub and forest edges; it eats fruit, small vertebrates and carrion. It is the largest canid in South America."
+  },
+  "animals|Tatú carreta": {
+   "name": "Giant armadillo",
+   "description": "A very large armadillo with a dark, strong shell; it digs burrows and eats insects, larvae and termites. It is mainly nocturnal. It is classed as endangered because of hunting and habitat destruction in the Chaco and neighbouring regions."
+  },
+  "animals|Huemul": {
+   "name": "Huemul",
+   "description": "A deer native to the mountains and Andean-Patagonian forests, with short legs and a sturdy body. It is a herbivore and moves on steep slopes. It is in a critical conservation situation; responsible viewing respects protected areas and local rules."
+  },
+  "animals|Ballena franca austral": {
+   "name": "Southern right whale",
+   "description": "A baleen whale with no dorsal fin, with characteristic callosities on its head and curved jaws. It breeds and feeds off Patagonian coasts; in season it is the subject of regulated whale watching. It is an icon of marine conservation in Argentina."
+  },
+  "animals|Cóndor andino": {
+   "name": "Andean condor",
+   "description": "A scavenger bird of huge wingspan that uses thermals to glide over the mountain range. It plays a key ecological role by recycling nutrients. It lives in high, rugged areas; in several provinces it is a symbol of the Andes and is protected by law."
+  },
+  "animals|Puma": {
+   "name": "Puma",
+   "description": "A solitary, territorial feline, the largest native predator of mammals in much of the country. It lives from montane forests to scrub and steppes; it hunts mainly at dusk and night. It is also known as the American lion or cougar."
+  },
+  "animals|Carpincho": {
+   "name": "Capybara",
+   "description": "The largest living rodent in the world; it lives in groups beside rivers, lagoons and marshes. It is an excellent swimmer and dives to escape predators. It eats grasses and aquatic vegetation; it is key in wetlands of the littoral and the centre of the country."
+  },
+  "animals|Yacaré overo": {
+   "name": "Broad-snouted caiman",
+   "description": "A crocodilian of the genus Caiman, common in lagoons, marshes and slow streams of the north and the littoral. It regulates its temperature by opening its mouth and sunbathes on banks. It is a carnivore; young ones are prey for birds and other predators until they reach adult size."
+  },
+  "animals|Lobito de río": {
+   "name": "Neotropical otter",
+   "description": "A semi-aquatic mustelid with an elongated body and muscular tail; it feeds mostly on fish. It prefers rivers and streams with clear water and riverside vegetation. It is elusive and is rarely seen even though it is relatively common where habitat is preserved."
+  },
+  "animals|Lagarto overo": {
+   "name": "Argentine black and white tegu",
+   "description": "A large teiid lizard with a strong body and long tail; it is an omnivore and active in warm temperatures. It lives in the Chaco, the northeast and open sunny environments. It is important for controlling insects and small vertebrates in its ecosystem."
+  },
+  "animals|Oso hormiguero": {
+   "name": "Giant anteater",
+   "description": "A mammal with an elongated snout and sticky tongue for licking up ants and termites. It has strong claws to open nests; it lives in forests and scrub of the Chaco and neighbouring regions. It is mainly ground-dwelling and active by day or at dusk."
+  },
+  "animals|Llama": {
+   "name": "Llama",
+   "description": "A camelid domesticated in the Andes for millennia; it is used for carrying loads, meat and fibre. It is a herbivore, resistant to cold and altitude. In the Northwest it lives alongside rural communities and herding in the Puna and high Andean valleys."
+  },
+  "animals|Ñandú": {
+   "name": "Greater rhea",
+   "description": "A large South American ostrich-like bird, unable to fly but fast at running. Males may tend nests with eggs from several females. It lives in grasslands, open fields and scrub; it is omnivorous and eats plants, fruit and invertebrates."
+  },
+  "animals|Guanaco": {
+   "name": "Guanaco",
+   "description": "A wild camelid with woolly coat and long neck; it lives in herds on steppes, hills and semi-arid environments. It is a herbivore and well adapted to slopes and Patagonian wind. Historically it was key for native peoples and remains a symbol of southern wildlife."
+  },
+  "animals|Mono carayá": {
+   "name": "Black howler monkey",
+   "description": "A primate with a prehensile tail and loud group calls, which is why it is called the black howler. It lives in the canopy of the Misiones rainforest and neighbouring areas; it eats leaves and fruit. It spends a lot of time sitting still digesting leaves of low nutritional value."
+  },
+  "animals|Yaguareté": {
+   "name": "Jaguar",
+   "description": "The largest feline in the Americas; a muscular body, powerful jaws and rosette spots. It lives in rainforests and humid forests; it swims and climbs well. It is an apex predator in the food web and is threatened by deforestation and conflict with cattle ranching."
+  },
+  "animals|Zorro gris patagónico": {
+   "name": "Patagonian grey fox",
+   "description": "A medium-sized canid with large ears and greyish coat; it is opportunistic and eats rodents, fruit, insects and carrion. It lives from Patagonia to the centre of the country in scrub and steppes. It is mainly crepuscular and nocturnal."
+  },
+  "animals|Pudú": {
+   "name": "Southern pudú",
+   "description": "A very small deer, with short legs and simple antlers in the male; it lives in the dense undergrowth of temperate and cold forests. It is solitary and stealthy, and feeds on shoots and low grasses under plant cover. It is one of the smallest deer species on the planet."
+  },
+  "animals|Tapir": {
+   "name": "Lowland tapir",
+   "description": "A large herbivore with a mobile snout like a short trunk; it lives in the Yungas and humid forests of the northwest. It is a seed disperser and needs forest corridors. It is mainly nocturnal and spends much of its time near watercourses."
+  },
+  "animals|Peludo argentino": {
+   "name": "Six-banded armadillo",
+   "description": "An armadillo with six movable bands on its back; of medium size and crepuscular or nocturnal habits. It digs burrows and feeds on insects and other invertebrates. It is frequent in grasslands, fields and forest edges of the centre of the country."
+  },
+  "animals|Zorro gris": {
+   "name": "Grey fox",
+   "description": "A medium-sized canid with large ears and greyish coat; it is opportunistic and eats rodents, fruit, insects and carrion. It lives from Patagonia to the centre of the country in scrub and steppes. It is mainly crepuscular and nocturnal."
+  },
+  "animals|Yacaré": {
+   "name": "Yacare caiman",
+   "description": "A crocodilian of the genus Caiman, common in lagoons, marshes and slow streams of the north and the littoral. It regulates its temperature by opening its mouth and sunbathes on banks. It is a carnivore; young ones are prey for birds and other predators until they reach adult size."
+  },
+  "animals|Pecarí de collar": {
+   "name": "Collared peccary",
+   "description": "A native suid with a short snout and a pale collar on its neck; it lives in herds in scrub, thorn forest and dry woods. It is omnivorous and moves noisily when foraging. It is prey for pumas and jaguars where both coexist."
+  },
+  "animals|Tatú mulita": {
+   "name": "Nine-banded armadillo",
+   "description": "An armadillo with nine bands and modest size; it lives in soft soils of the Chaco and neighbouring areas. It digs and eats insects and larvae. It is more common than the giant armadillo and is often met on country roads at dusk."
+  },
+  "animals|Pingüino fueguino": {
+   "name": "Magellanic penguin",
+   "description": "A medium-sized penguin that forms colonies on coasts and islets of the south; it swims with agility and feeds on fish and squid at sea. It migrates in winter toward warmer waters. In Tierra del Fuego it is one of the icons of coastal wildlife watching."
+  },
+  "animals|Cauquén": {
+   "name": "Upland goose",
+   "description": "A sturdy anseriform bird, related to geese and ducks; it lives in wet grasslands, peat bogs and coasts of the south. It is mainly a herbivore and forms seasonal flocks. In Tierra del Fuego and Patagonia it is a typical part of the steppe and wetland landscape."
+  },
+  "animals|Tucán grande": {
+   "name": "Toco toucan",
+   "description": "A fruit-eating bird with a very large, colourful beak; it lives in the canopy of rainforests and humid forests. It swallows fruit whole and helps spread seeds. In the Northwest it is associated with the Yungas and mountain foothill forests."
+  },
+  "animals|Benteveo": {
+   "name": "Great kiskadee",
+   "description": "A tyrant flycatcher with a yellow crest and chest; it defends its territory with loud calls ('bien-te-veo'). It eats insects and small vertebrates. It is very common in squares, gardens and urban reserves with some trees."
+  },
+  "animals|Pingüino de penacho amarillo": {
+   "name": "Rockhopper penguin",
+   "description": "A subantarctic penguin with striking yellow crests above its eyes; it nests in noisy colonies on rocky islands. It feeds at sea on krill, fish and squid. It is frequent in cold environments of the South Atlantic and is associated with oceanic islands."
+  },
+  "animals|Albatros de ceja negra": {
+   "name": "Black-browed albatross",
+   "description": "A medium-sized albatross with a marked dark brow around the eye; it glides for hours over the open sea. It feeds on squid, fish and marine carrion. It breeds in colonies on subantarctic islands and covers vast ocean areas."
+  }
+ }
+}

@@ -14,7 +14,8 @@ import {
   MALVINAS_MAP_FILL,
   MAINLAND_PROVINCE_FILLS,
 } from "@/lib/design/province-map-colors";
-import { useUi } from "@/lib/i18n/locale";
+import { zoneName } from "@/data/i18n/zone-names";
+import { useLocale, useUi } from "@/lib/i18n/locale";
 import { provincePath } from "@/lib/routing/paths";
 import type { ProvinceSlug } from "@/types/province";
 
@@ -44,6 +45,7 @@ export function InteractiveArgentinaMap({
 }: Props) {
   const router = useRouter();
   const ui = useUi();
+  const { locale } = useLocale();
   const ariaLabel = ariaLabelProp ?? ui.map.ariaArgentina;
   const titleId = useId();
   const malvinasTitleId = useId();
@@ -54,9 +56,13 @@ export function InteractiveArgentinaMap({
   const [tipPos, setTipPos] = useState<{ x: number; y: number } | null>(null);
   const [previewViewBox, setPreviewViewBox] = useState<string>(MAP_VIEW_BOX);
   const previewPathRef = useRef<SVGPathElement | null>(null);
-  const activeLabel = activeProvince
+  const activeBaseLabel = activeProvince
     ? getProvinceBySlug(activeProvince)?.name ?? null
     : null;
+  const activeLabel =
+    activeProvince && activeBaseLabel
+      ? zoneName(locale, activeProvince, activeBaseLabel)
+      : null;
   const activeMainlandSlug =
     activeProvince && activeProvince !== MALVINAS_SLUG
       ? (activeProvince as MainlandProvinceSlug)
@@ -169,7 +175,7 @@ export function InteractiveArgentinaMap({
                     }
                   }}
                 >
-                  <title>{p.name}</title>
+                  <title>{zoneName(locale, p.slug, p.name)}</title>
                 </path>
               );
             })}
@@ -206,7 +212,7 @@ export function InteractiveArgentinaMap({
                 className="h-auto w-full overflow-visible select-none drop-shadow-sm"
                 preserveAspectRatio="xMidYMid meet"
               >
-                <title id={malvinasTitleId}>{malvinasProvince.name}</title>
+                <title id={malvinasTitleId}>{zoneName(locale, malvinasProvince.slug, malvinasProvince.name)}</title>
                 <g transform={MALVINAS_GROUP_TRANSFORM}>
                   <path
                     d={MALVINAS_PATH_D}
@@ -248,7 +254,7 @@ export function InteractiveArgentinaMap({
                       }
                     }}
                   >
-                    <title>{malvinasProvince.name}</title>
+                    <title>{zoneName(locale, malvinasProvince.slug, malvinasProvince.name)}</title>
                   </path>
                 </g>
               </svg>

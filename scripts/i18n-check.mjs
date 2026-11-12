@@ -7,6 +7,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 
 const CHECKS = [
+  ["argentina", ["en", "it"]],
   ["campania", ["es", "en"]],
   ["sicily", ["es", "en"]],
   ["italy", ["es", "en"]],
@@ -20,7 +21,7 @@ const fail = (msg) => {
 
 for (const [key, locales] of CHECKS) {
   const src = JSON.parse(
-    execFileSync("node", ["scripts/i18n-export.mjs", key], { encoding: "utf8", maxBuffer: 64 * 1024 * 1024 }),
+    execFileSync("node", [key === "argentina" ? "scripts/i18n-export-argentina.mjs" : "scripts/i18n-export.mjs", ...(key === "argentina" ? [] : [key])], { encoding: "utf8", maxBuffer: 64 * 1024 * 1024 }),
   );
   for (const locale of locales) {
     const file = `src/data/i18n/${key}.${locale}.json`;
@@ -38,6 +39,12 @@ for (const [key, locales] of CHECKS) {
       else if (t.spotlight.split("\n").length !== s.spotlight.split("\n").length)
         fail(`${file} ${slug}: distinta cantidad de párrafos en spotlight`);
       for (const cat of CATS) {
+        if (key === "argentina" && cat === "animals" && !t[cat]) {
+          for (const it of s[cat]) if (!tr.byName?.[`${cat}|${it.name}`]) fail(`${file} ${slug}.animals: falta byName de "${it.name}"`);
+          continue;
+        }
+        const covered = s[cat].every((it) => tr.byName?.[`${cat}|${it.name}`]);
+        if (!t[cat] && covered) continue;
         if ((t[cat]?.length ?? 0) !== s[cat].length) {
           fail(`${file} ${slug}.${cat}: ${t[cat]?.length ?? 0} ítems, el original tiene ${s[cat].length}`);
           continue;

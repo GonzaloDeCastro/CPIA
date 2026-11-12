@@ -1,5 +1,9 @@
 {
-  "it": {},
+  "it": {
+    "islas-malvinas": "Isole Falkland (Malvinas)",
+    "ciudad-autonoma-buenos-aires": "Città Autonoma di Buenos Aires",
+    "tierra-del-fuego": "Terra del Fuoco"
+  },
   "es": {
     "valle-d-aosta": "Valle de Aosta",
     "piemonte": "Piamonte",
@@ -29,6 +33,8 @@
     "sicilia": "Sicily",
     "sardegna": "Sardinia",
     "siracusa": "Syracuse",
-    "napoli": "Naples"
+    "napoli": "Naples",
+    "islas-malvinas": "Falkland Islands (Malvinas)",
+    "ciudad-autonoma-buenos-aires": "Buenos Aires City"
   }
 }
