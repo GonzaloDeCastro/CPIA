@@ -1,1 +1,1464 @@
-{ "zones": {} }
+{
+ "zones": {
+  "valle-d-aosta": {
+   "spotlight": "El Valle de Aosta es la región menos extensa y menos poblada de Italia, con poco más de cien mil habitantes. Los romanos fundaron Aosta con el nombre de Augusta Praetoria, y todavía hoy se ven el arco, el teatro y las murallas.\nEs famosa por el Mont Blanc, el Cervino y una corona de castillos. La cría de ganado en los pastos de altura y la fontina cuentan una vida ligada a la montaña.\nEn el Valle de Aosta se hablan italiano y francés: es la única región bilingüe con el francés.",
+   "plants": [
+    {
+     "name": "Edelweiss",
+     "description": "Florcita lanuda de las grandes alturas. Crece entre las rocas y desde hace siglos es el símbolo de los Alpes."
+    },
+    {
+     "name": "Alerce",
+     "description": "Conífera que en otoño se vuelve dorada y luego pierde las agujas. Forma los bosques luminosos de los valles valdostanos."
+    },
+    {
+     "name": "Genciana",
+     "description": "Flor de un azul intenso de los pastos alpinos. Se abre al sol y cierra los pétalos cuando llega el frío."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Íbice alpino",
+     "description": "Cabra salvaje de cuernos largos y curvos. Salta por las rocas del Gran Paradiso, donde se la salvó de la extinción."
+    },
+    {
+     "name": "Rebeco alpino",
+     "description": "Ágil ungulado de praderas empinadas y crestas. Vive en rebaños y baja más abajo cuando llega la nieve."
+    },
+    {
+     "name": "Águila real",
+     "description": "Gran rapaz que planea sobre los valles. Caza marmotas y pequeños mamíferos y anida en las paredes de roca."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Fontina",
+     "description": "Queso de pasto de altura, de pasta blanda, hecho con leche de vacas que pastan en la altura. Se derrite en la polenta y en la fondue."
+    },
+    {
+     "name": "Polenta concia",
+     "description": "Polenta caliente mezclada con fontina y manteca. Es el plato reconfortante de las noches frías en la montaña."
+    },
+    {
+     "name": "Carbonade",
+     "description": "Estofado de carne de vaca cocido largo rato en vino tinto, con cebollas y especias. Es el plato de las noches frías en la montaña."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Mont Blanc",
+     "description": "El techo de los Alpes, en la frontera con Francia. Glaciares, teleféricos y refugios lo convierten en un símbolo del alpinismo."
+    },
+    {
+     "name": "Cervino",
+     "description": "Pirámide de roca famosa en todo el mundo, vista desde Cervinia. Su forma puntiaguda es una de las más fotografiadas de los Alpes."
+    },
+    {
+     "name": "Castillo de Fénis",
+     "description": "Castillo medieval con torres y un patio pintado. Parece salido de un cuento de hadas y se visita en el fondo del valle."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Aosta romana",
+     "description": "Augusta Praetoria fue fundada por los romanos en el 25 a. C. El Arco de Augusto, la Porta Pretoria y el teatro todavía están en la ciudad."
+    },
+    {
+     "name": "Parque Nacional del Gran Paradiso",
+     "description": "Nació para proteger al íbice y es, junto con el de los Abruzos, el parque nacional más antiguo de Italia. Hoy es un refugio para la fauna alpina."
+    },
+    {
+     "name": "Túnel del Mont Blanc",
+     "description": "Galería abierta en 1965 que une Italia y Francia bajo el glaciar. Cambió los viajes entre los dos valles."
+    }
+   ]
+  },
+  "piemonte": {
+   "spotlight": "El Piamonte tiene unos cuatro millones de habitantes y limita con Francia y Suiza. Turín, a orillas del Po, fue el motor del Risorgimento y la primera capital del Reino de Italia.\nEs conocido por las Langhe y su vino, la trufa blanca de Alba, los arrozales de Vercelli y una corona de montañas que cierra la llanura al oeste y al norte.\nTurín fue la primera capital del Reino de Italia, de 1861 a 1865.",
+   "plants": [
+    {
+     "name": "Castaño",
+     "description": "Árbol de los bosques de colinas y montañas. Sus frutos, las castañas, se recogen en otoño y se cocinan de muchas maneras."
+    },
+    {
+     "name": "Vid",
+     "description": "En las colinas de las Langhe y del Monferrato las hileras de vides dibujan el paisaje. De estas uvas nacen vinos famosos como el Barolo."
+    },
+    {
+     "name": "Arroz",
+     "description": "En las provincias de Vercelli y Novara los arrozales se inundan en primavera. El Piamonte es una de las grandes tierras del arroz de Europa."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Garza real",
+     "description": "Ave alta y paciente que pesca en los arrozales y a lo largo de los ríos. En la llanura se ven colonias enteras."
+    },
+    {
+     "name": "Lobo",
+     "description": "Volvió a los Alpes y a las colinas piamontesas. Vive en manada y ayuda a mantener en equilibrio a ciervos y jabalíes."
+    },
+    {
+     "name": "Jabalí",
+     "description": "Mamífero robusto de los bosques, activo sobre todo de noche. Remueve la tierra con el hocico en busca de raíces y tubérculos."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Bagna càuda",
+     "description": "Salsa caliente de ajo, anchoas y aceite en la que se mojan verduras crudas. Es el ritual para compartir del otoño piamontés."
+    },
+    {
+     "name": "Agnolotti",
+     "description": "Pasta rellena de carne braseada o asada, típica de las colinas. Se sirve con salsa, con manteca o «al plin», pellizcados a mano."
+    },
+    {
+     "name": "Gianduiotto",
+     "description": "Bombón en forma de barquita, nacido en Turín mezclando cacao y avellanas de las Langhe. Lleva el nombre de la máscara Gianduja."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Mole Antonelliana",
+     "description": "La cúpula-símbolo de Turín, hoy sede del Museo Nacional del Cine. Su aguja se ve desde toda la ciudad."
+    },
+    {
+     "name": "Langhe",
+     "description": "Colinas de viñedos, pueblos y trufas, Patrimonio de la Humanidad junto con Roero y Monferrato. En otoño los bosques huelen a boletus."
+    },
+    {
+     "name": "Lago Mayor",
+     "description": "Gran lago entre el Piamonte, Lombardía y Suiza. Las islas Borromeas, los jardines y los pueblos lacustres invitan a un paseo tranquilo."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Turín capital",
+     "description": "El 17 de marzo de 1861 Turín se convirtió en la primera capital del Reino de Italia. Desde aquí los Saboya guiaron la unificación del país."
+    },
+    {
+     "name": "Sacra di San Michele",
+     "description": "Abadía apoyada en un espolón de roca a la entrada del Val de Susa. Inspiró a Umberto Eco para El nombre de la rosa."
+    },
+    {
+     "name": "Palacete de caza de Stupinigi",
+     "description": "Residencia de los Saboya con planta en cruz, construida para las cacerías de los reyes. Hoy es una de las joyas del barroco piamontés."
+    }
+   ]
+  },
+  "liguria": {
+   "spotlight": "Liguria está apretada entre los Apeninos y el Mar de Liguria, con alrededor de un millón y medio de habitantes. Génova fue una de las grandes repúblicas marineras y su puerto sigue entre los más importantes del Mediterráneo.\nEs famosa por las Cinque Terre, Portofino, el pesto y los carruggi, las callejuelas empinadas del centro histórico genovés.\nLas Cinque Terre son cinco pueblos conectados por senderos y, durante siglos, accesibles casi solo por mar.",
+   "plants": [
+    {
+     "name": "Albahaca genovesa",
+     "description": "Hierba aromática cultivada en las terrazas cercanas a Génova. Sus hojas pequeñas y perfumadas son la base del pesto."
+    },
+    {
+     "name": "Olivo",
+     "description": "Árbol plateado que sostiene las laderas de Liguria con muros de piedra seca. De su fruto se obtiene un aceite delicado."
+    },
+    {
+     "name": "Mimosa",
+     "description": "Arbusto de flores amarillas como pompones que florece a fines del invierno en la Riviera. En Italia es la flor del Día de la Mujer."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Gaviota patiamarilla",
+     "description": "La gaviota más común de los puertos de Liguria. Grita sobre los muelles y sigue a los pesqueros cuando vuelven."
+    },
+    {
+     "name": "Delfín mular",
+     "description": "Delfín costero que se avista en el Santuario Pelagos, el tramo de mar protegido entre Liguria, Francia y Cerdeña."
+    },
+    {
+     "name": "Halcón peregrino",
+     "description": "Rapaz velocísima que anida en los acantilados. Se lanza en picada sobre las aves marinas."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Pesto genovés",
+     "description": "Salsa de albahaca, piñones, ajo, parmesano, pecorino y aceite, machacada en el mortero. Condimenta las trenette y las trofie."
+    },
+    {
+     "name": "Focaccia genovesa",
+     "description": "Pan bajo, esponjoso, con aceite y sal gruesa. Se compra caliente por la mañana en cada panadería de Liguria."
+    },
+    {
+     "name": "Trofie al pesto",
+     "description": "Pasta corta retorcida, nacida en la provincia de Génova. La forma retiene bien el pesto y las papas en trocitos."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Cinque Terre",
+     "description": "Monterosso, Vernazza, Corniglia, Manarola y Riomaggiore: pueblos de colores sobre el mar, Patrimonio de la Humanidad."
+    },
+    {
+     "name": "Portofino",
+     "description": "Pueblo de casas pastel alrededor de un puerto pequeño y célebre. Detrás, el parque del Monte de Portofino cae a pico sobre el mar."
+    },
+    {
+     "name": "Acuario de Génova",
+     "description": "Uno de los grandes acuarios de Europa, en el Puerto Antiguo rediseñado por Renzo Piano. Cuenta el mar, desde las medusas hasta los tiburones."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "República de Génova",
+     "description": "Durante siglos Génova fue una potencia del mar, con mercaderes, banqueros y barcos por todo el Mediterráneo. La Lanterna, el faro más alto del Mediterráneo, todavía vela sobre el puerto."
+    },
+    {
+     "name": "Cristóbal Colón",
+     "description": "El navegante que cruzó el Atlántico en 1492 nació en Génova. La ciudad conserva su casa y el recuerdo marinero."
+    },
+    {
+     "name": "Palacios de los Rolli",
+     "description": "Residencias nobles de Génova inscritas en listas oficiales para alojar a los huéspedes de Estado. Hoy son Patrimonio de la Humanidad."
+    }
+   ]
+  },
+  "lombardia": {
+   "spotlight": "Lombardía tiene unos diez millones de habitantes: es la región más poblada de Italia. Milán es un centro de arte, moda e industria; alrededor están Bérgamo, Brescia, los valles y los lagos.\nEs conocida por el Duomo, la Última Cena de Leonardo, el Lago de Como y una llanura agrícola que produce arroz, quesos y embutidos.\nMilán es la segunda ciudad más poblada de Italia y el Duomo es una de las iglesias góticas más grandes del mundo.",
+   "plants": [
+    {
+     "name": "Haya",
+     "description": "Árbol de los bosques frescos de los Prealpes. En otoño los hayedos se tiñen de cobre y el sotobosque se llena de hojas."
+    },
+    {
+     "name": "Nenúfar",
+     "description": "Flor blanca que flota en las aguas tranquilas de lagos y remansos. Las hojas redondas dan sombra a los peces."
+    },
+    {
+     "name": "Álamo",
+     "description": "Árbol alto y de crecimiento rápido de las orillas y la llanura. Las hileras de álamos marcan los canales y las granjas lombardas."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Cisne vulgar",
+     "description": "Gran ave blanca de los lagos y los parques. Nada en pareja y defiende el nido con las alas abiertas."
+    },
+    {
+     "name": "Garza real",
+     "description": "Pescadora silenciosa de reservas y arrozales. A lo largo del Tesino y del Po forma colonias en los árboles."
+    },
+    {
+     "name": "Rebeco alpino",
+     "description": "En los Orobie, en la Valtellina y en el Stelvio vive entre las praderas empinadas. Es el símbolo de muchos valles lombardos."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Risotto a la milanesa",
+     "description": "Arroz cremoso con caldo, tuétano y azafrán, que lo tiñe de dorado. Es el acompañamiento clásico del ossobuco."
+    },
+    {
+     "name": "Ossobuco",
+     "description": "Rodaja de jarrete de ternera cocida largo rato con verduras. En el hueco del hueso está el tuétano, la parte más exquisita."
+    },
+    {
+     "name": "Panettone",
+     "description": "Dulce alto y esponjoso de Milán, con pasas y frutas confitadas. Nacido como pan de fiesta, hoy se come en todo el mundo en Navidad."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Duomo de Milán",
+     "description": "Catedral gótica de mármol, con miles de estatuas y una terraza entre las agujas. Es el corazón de la ciudad."
+    },
+    {
+     "name": "Lago de Como",
+     "description": "Lago en forma de «Y», con villas, jardines y pueblos como Bellagio y Varenna. Las montañas bajan casi hasta el agua."
+    },
+    {
+     "name": "La Última Cena de Leonardo",
+     "description": "La Última Cena pintada por Leonardo en el refectorio de Santa Maria delle Grazie. Se visita en grupos pequeños para protegerla."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Milán capital del Imperio",
+     "description": "En el 286 d. C. Milán se convirtió en la capital del Imperio romano de Occidente. San Ambrosio, en el siglo IV, hizo de ella un gran centro cristiano."
+    },
+    {
+     "name": "Batalla de Legnano",
+     "description": "En 1176 la Liga Lombarda derrotó a Federico Barbarroja en Legnano. Es uno de los episodios más contados de los comunes medievales."
+    },
+    {
+     "name": "Leonardo en Milán",
+     "description": "Leonardo vivió mucho tiempo en la corte de Ludovico el Moro. En Milán dejó la Última Cena y proyectos de canales y máquinas."
+    }
+   ]
+  },
+  "trentino-alto-adige": {
+   "spotlight": "El Trentino-Alto Adigio es una región autónoma con poco más de un millón de habitantes, dividida en las provincias de Trento y Bolzano. Los Dolomitas, Patrimonio de la Humanidad, son montañas de roca clara que se vuelven rosadas al atardecer.\nEs conocido por los manzanares, los lagos alpinos, los castillos y una historia de frontera entre el mundo italiano y el germánico.\nEn el Alto Adigio los carteles están en italiano y en alemán, y en algunos valles ladinos también en ladino.",
+   "plants": [
+    {
+     "name": "Abeto rojo",
+     "description": "La conífera más común de los bosques altoatesinos. La madera de resonancia de algunos valles se usó para hacer violines."
+    },
+    {
+     "name": "Manzano",
+     "description": "En el valle los manzanares cubren las laderas hasta los pueblos. El Trentino-Alto Adigio es la principal tierra de manzanas de Italia."
+    },
+    {
+     "name": "Genciana",
+     "description": "Mancha azul de los prados de los Dolomitas a fines de la primavera. Marca el paso del bosque a los pastos altos."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Oso pardo",
+     "description": "En el Trentino occidental vive una pequeña población de osos, seguida por los investigadores. Es un animal esquivo de los bosques."
+    },
+    {
+     "name": "Rebeco alpino",
+     "description": "Se lo encuentra seguido en los senderos de los Dolomitas. Sube y baja las laderas con una seguridad sorprendente."
+    },
+    {
+     "name": "Ciervo rojo",
+     "description": "El ungulado más grande de los bosques de la región. En otoño los machos braman en los valles al amanecer."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Canederli",
+     "description": "Grandes ñoquis de pan duro, speck y cebollín, cocidos en caldo. Son el primer plato de las cabañas de montaña."
+    },
+    {
+     "name": "Speck",
+     "description": "Pierna de cerdo ligeramente ahumada y madurada en la montaña. Se corta fina y se come con pan."
+    },
+    {
+     "name": "Strudel de manzana",
+     "description": "Rollo de masa fina relleno de manzanas, pasas y piñones. Viene de la tradición tirolesa y es el dulce de las estufas encendidas."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Dolomitas",
+     "description": "Grupos de montañas pálidas entre el Trentino, el Alto Adigio y el Véneto. Senderos, refugios y paredes verticales las convierten en un parque al aire libre."
+    },
+    {
+     "name": "Lago de Braies",
+     "description": "Lago alpino de un verde intenso, rodeado de cumbres. Los botes de madera y el sendero alrededor son una imagen clásica del Alto Adigio."
+    },
+    {
+     "name": "Castel Tirolo",
+     "description": "Castillo sobre Merano del que tomó su nombre todo el Tirol. Cuenta la historia de los condes que gobernaron estos valles en la Edad Media."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Concilio de Trento",
+     "description": "Entre 1545 y 1563 la Iglesia católica se reunió en Trento para responder a la Reforma. La ciudad se convirtió en un centro de la historia europea."
+    },
+    {
+     "name": "Ötzi",
+     "description": "En 1991, en el glaciar del Similaun, se encontró una momia de más de cinco mil años. Hoy Ötzi se conserva en el museo de Bolzano."
+    },
+    {
+     "name": "El paso a Italia",
+     "description": "Hasta 1919 estas tierras formaban parte del Imperio austrohúngaro. El paso a Italia explica todavía hoy las dos lenguas y la autonomía de Bolzano y de los valles."
+    }
+   ]
+  },
+  "veneto": {
+   "spotlight": "El Véneto tiene casi cinco millones de habitantes. Venecia, nacida en la laguna para escapar de las invasiones, se convirtió en la República de Venecia, un Estado marinero que duró unos mil años.\nHoy la región es famosa por Venecia, Verona, Padua, las villas de Palladio y los Dolomitas de Belluno.\nVenecia está construida sobre más de cien islas y no tiene calles para autos en el centro histórico: uno se mueve a pie o en barco.",
+   "plants": [
+    {
+     "name": "Vid",
+     "description": "En las colinas de Conegliano y Valdobbiadene las hileras de Glera producen el Prosecco. El paisaje es Patrimonio de la Humanidad."
+    },
+    {
+     "name": "Ciprés",
+     "description": "Árbol esbelto de los Colli Euganei y de los jardines de las villas. Su perfil oscuro marca avenidas y cementerios históricos."
+    },
+    {
+     "name": "Salicornia",
+     "description": "Planta suculenta de las barene, que vive con los pies en el agua salada. En la laguna se recoge y se cocina como espárrago de mar."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Flamenco",
+     "description": "Ave rosada que filtra el barro con el pico. En la laguna de Venecia y en el Delta se ven grandes bandadas."
+    },
+    {
+     "name": "Garza real",
+     "description": "Camina despacio por el agua poco profunda en busca de peces. Es uno de los habitantes más fáciles de observar en la laguna."
+    },
+    {
+     "name": "Rebeco alpino",
+     "description": "En los Dolomitas de Belluno y en el Parque de los Dolomitas de Ampezzo vive por encima de los bosques. En invierno baja hacia los alerzales."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Tiramisú",
+     "description": "Postre de vainillas, café, mascarpone y cacao. La tradición de Treviso y la de Friuli reclaman su origen, pero es un símbolo del Véneto en la mesa."
+    },
+    {
+     "name": "Baccalà mantecato",
+     "description": "Bacalao seco cocido y batido con aceite hasta volverse una crema. En Venecia se unta sobre pan o sobre polenta."
+    },
+    {
+     "name": "Risotto al negro de sepia",
+     "description": "Arroz teñido de negro intenso con la tinta de la sepia. Es un clásico de las osterías de la laguna."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Venecia",
+     "description": "Ciudad de canales, puentes y palacios sobre el agua. La Plaza San Marcos y el Gran Canal son su tarjeta de presentación."
+    },
+    {
+     "name": "Arena de Verona",
+     "description": "Anfiteatro romano que todavía se usa para la ópera al aire libre. De noche, en verano, se llena de espectadores de todo el mundo."
+    },
+    {
+     "name": "Villas palladianas",
+     "description": "Andrea Palladio proyectó villas armoniosas en la campiña de Vicenza. La Rotonda, con su cúpula, es la más famosa."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "República de Venecia",
+     "description": "La Serenísima fue independiente desde la Edad Media hasta 1797. Desde el Palacio Ducal los dux gobernaban el comercio y los puertos del Adriático."
+    },
+    {
+     "name": "Marco Polo",
+     "description": "Mercader veneciano del siglo XIII, viajó hasta China y dictó El libro de las maravillas. Sus relatos abrieron Asia a la imaginación europea."
+    },
+    {
+     "name": "Basílica de San Marcos",
+     "description": "Iglesia de oro y mosaicos, construida para custodiar el cuerpo de san Marcos. Es el símbolo religioso y político de la vieja República."
+    }
+   ]
+  },
+  "friuli-venezia-giulia": {
+   "spotlight": "El Friuli-Venecia Julia tiene alrededor de un millón doscientos mil habitantes y limita con Austria y Eslovenia. Trieste, puerto de los Habsburgo frente al Adriático, es la capital.\nLa región es conocida por el jamón de San Daniele, los vinos del Collio, la Aquilea romana y las lagunas donde se pescaba y se producía sal.\nEl friulano es una lengua propia, reconocida y enseñada, distinta del italiano y del esloveno.",
+   "plants": [
+    {
+     "name": "Vid",
+     "description": "En el Collio y en los Colli Orientali la vid crece en suelos claros. De aquí vienen algunos de los vinos blancos más conocidos de Italia."
+    },
+    {
+     "name": "Haya",
+     "description": "Cubre los Prealpes y el Karst interior con bosques frescos. En otoño las hojas forman una alfombra sobre los senderos."
+    },
+    {
+     "name": "Tilo",
+     "description": "Árbol de los pueblos y las plazas, con flores perfumadas a comienzos del verano. Las abejas hacen con él una miel clara."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Ciervo rojo",
+     "description": "En los bosques de Tarvisio y de la Carnia los ciervos son numerosos. Al amanecer, en otoño, se oyen sus berreas."
+    },
+    {
+     "name": "Garza real",
+     "description": "Frecuenta las lagunas de Grado y Marano. Se queda inmóvil y luego atrapa el pez con el pico."
+    },
+    {
+     "name": "Oso pardo",
+     "description": "Desde los Alpes Julianos de vez en cuando baja hacia los bosques de Tarvisio. Está protegido y vive lejos de los pueblos."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Frico",
+     "description": "Frito crujiente de queso Montasio, a veces con papas. Se come como entrada o como plato único de cabaña de montaña."
+    },
+    {
+     "name": "Jamón de San Daniele",
+     "description": "Pierna madurada en el aire de las colinas de San Daniele. Se corta a mano y se reconoce por la pata con la pezuña."
+    },
+    {
+     "name": "Gubana",
+     "description": "Dulce en espiral relleno de nueces, pasas y cáscaras, típico de los Valles del Natisone. Se lleva a la mesa en las fiestas."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Trieste",
+     "description": "Ciudad de mar, cafés históricos y viento de bora. La Plaza de la Unidad de Italia se abre directamente sobre el golfo."
+    },
+    {
+     "name": "Aquilea",
+     "description": "Antigua ciudad romana con una basílica de mosaicos enormes. Fue uno de los puertos más importantes del alto Adriático."
+    },
+    {
+     "name": "Laguna de Grado",
+     "description": "Isla y laguna de pescadores, hoy también playa familiar. Los casoni, cabañas sobre el agua, cuentan la vida de antes."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Aquilea romana",
+     "description": "Fundada en el 181 a. C., Aquilea se convirtió en una gran ciudad del Imperio. Los mosaicos de la basílica muestran lo rica que era."
+    },
+    {
+     "name": "Trieste de los Habsburgo",
+     "description": "Durante siglos Trieste fue el puerto de Austria. Los palacios, los cafés y la costanera nacen de esa época de comercio."
+    },
+    {
+     "name": "Lenguas de la región",
+     "description": "Junto al italiano se hablan friulano, esloveno y, en algunas islas lingüísticas, alemán. Es una de las regiones más plurales de Italia."
+    }
+   ]
+  },
+  "emilia-romagna": {
+   "spotlight": "Emilia-Romaña tiene unos cuatro millones y medio de habitantes. La Vía Emilia, una calzada romana, todavía hoy une las ciudades en fila: Piacenza, Parma, Reggio, Módena, Bolonia, y luego la Romaña hasta Rímini.\nEs conocida por su cocina, los Ferrari y los Lamborghini de Módena, los mosaicos de Rávena y el Delta del Po.\nLa Universidad de Bolonia, fundada en 1088, se considera la más antigua del mundo occidental.",
+   "plants": [
+    {
+     "name": "Vid",
+     "description": "En Emilia el Lambrusco crece en la llanura; en la Romaña el Sangiovese sube por las colinas. La vid es parte del paisaje agrícola."
+    },
+    {
+     "name": "Álamo",
+     "description": "Hileras altísimas a lo largo de los canales de la baja llanura. La madera liviana se usó para cajones, papel y muebles."
+    },
+    {
+     "name": "Cerezo",
+     "description": "En las colinas de Vignola los cerezos florecen en primavera. Los frutos rojos son una fiesta de comienzos del verano."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Flamenco",
+     "description": "En el Delta del Po y en las salinas de Cervia forma manchas rosadas sobre el agua. Filtra pequeños crustáceos con el pico."
+    },
+    {
+     "name": "Lobo",
+     "description": "En los Apeninos toscano-emilianos las manadas han vuelto. De noche recorren crestas y bosques lejos de los pueblos."
+    },
+    {
+     "name": "Garza real",
+     "description": "Habita los valles de Comacchio, los oasis y las canteras renaturalizadas. Es el pescador más visible de la llanura de agua."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Tagliatelle al ragú",
+     "description": "Pasta al huevo ancha condimentada con una salsa de carne cocida largo rato. En Bolonia se sirve con parmesano, no con espaguetis."
+    },
+    {
+     "name": "Tortellini",
+     "description": "Pasta rellena pequeña como un anillo, cocida en caldo de carne. La leyenda los vincula con el ombligo de Venus, pero nacen en las casas emilianas."
+    },
+    {
+     "name": "Parmigiano Reggiano",
+     "description": "Queso de pasta dura, hecho con leche cruda y madurado durante meses o años. Se produce solo en una zona precisa entre Parma, Reggio, Módena y Bolonia."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Bolonia",
+     "description": "Ciudad de pórticos, torres y cocina. La Plaza Mayor y las Dos Torres son el centro del que parten las callejuelas del mercado."
+    },
+    {
+     "name": "Rávena",
+     "description": "Mosaicos de oro de San Vital y del Mausoleo de Gala Placidia. Fue capital del Imperio romano de Occidente en el siglo V."
+    },
+    {
+     "name": "Delta del Po",
+     "description": "Laberinto de brazos, valles y cañaverales donde el río encuentra el mar. Se visita en barco, en bicicleta o con binoculares."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Universidad de Bolonia",
+     "description": "Nació en 1088 de los estudiantes que pagaban a los maestros de derecho. Es el modelo de las universidades europeas."
+    },
+    {
+     "name": "Vía Emilia",
+     "description": "Calzada construida por el cónsul Marco Emilio Lépido en el 187 a. C. Todavía hoy da nombre a la región y alinea sus ciudades."
+    },
+    {
+     "name": "Rávena capital",
+     "description": "En el 402 d. C. la capital del Imperio de Occidente se trasladó de Milán a Rávena, más fácil de defender entre pantanos y mar."
+    }
+   ]
+  },
+  "toscana": {
+   "spotlight": "La Toscana tiene unos tres millones setecientos mil habitantes. Florencia, en el siglo XV, fue la cuna del Renacimiento: aquí trabajaron Brunelleschi, Donatello, Botticelli y Leonardo.\nEs famosa por el paisaje de colinas y cipreses, el Chianti, las ciudades de arte y un litoral que va de la Versilia al Argentario.\nLa Torre de Pisa se inclina porque el terreno bajo los cimientos cedió ya durante la construcción, en el siglo XII.",
+   "plants": [
+    {
+     "name": "Ciprés",
+     "description": "Árbol oscuro y vertical que marca las avenidas de las villas y las crestas. Es la imagen más típica del campo toscano."
+    },
+    {
+     "name": "Olivo",
+     "description": "En las colinas alrededor de Florencia y en la Maremma produce un aceite frutado. Los olivares antiguos tienen troncos retorcidos."
+    },
+    {
+     "name": "Vid",
+     "description": "El Sangiovese es la uva del Chianti, de Montalcino y de Montepulciano. Las hileras siguen las curvas de las colinas."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Jabalí",
+     "description": "Habitante de los bosques de matorral y castaño. De noche busca bellotas y tubérculos y deja la tierra removida."
+    },
+    {
+     "name": "Corzo",
+     "description": "Pequeño cérvido tímido, frecuente al amanecer en el borde del bosque. En la Maremma y en los Apeninos es fácil ver sus huellas."
+    },
+    {
+     "name": "Lobo",
+     "description": "En los Apeninos tosco-romañolos y en las reservas la especie ha vuelto. Evita al hombre y se mueve por territorios muy amplios."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Bistec a la florentina",
+     "description": "Chuleta alta de novillo, cocida a la parrilla y servida jugosa. En Florencia se pide por peso y se comparte."
+    },
+    {
+     "name": "Ribollita",
+     "description": "Sopa de pan duro, col negra y porotos, recalentada al día siguiente. Es el plato campesino del invierno toscano."
+    },
+    {
+     "name": "Cantucci",
+     "description": "Galletas secas de almendras, para mojar en el vinsanto. Nacen en Prato y cierran casi todas las comidas toscanas."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Florencia",
+     "description": "Ciudad del Renacimiento, con el Duomo de Brunelleschi, los Uffizi y el Ponte Vecchio. Se recorre a pie, entre plazas y talleres."
+    },
+    {
+     "name": "Torre de Pisa",
+     "description": "Campanario inclinado en la Piazza dei Miracoli, junto a la catedral y el baptisterio. La inclinación se volvió su rasgo famoso."
+    },
+    {
+     "name": "Chianti",
+     "description": "Campiña entre Florencia y Siena, hecha de viñedos, olivos y pueblos como Greve y Radda. Es el paisaje toscano de las postales."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Renacimiento en Florencia",
+     "description": "En el siglo XV Florencia, rica gracias a los bancos y la lana, financió a artistas y arquitectos. De allí partió una nueva manera de mirar al hombre y a la naturaleza."
+    },
+    {
+     "name": "Cúpula de Brunelleschi",
+     "description": "Filippo Brunelleschi cubrió el Duomo sin armazones de madera, con una doble cáscara. En 1436 era la cúpula más grande del mundo."
+    },
+    {
+     "name": "Palio de Siena",
+     "description": "Carrera de caballos en la Piazza del Campo entre los barrios de la ciudad. Se corre en verano y es una fiesta medieval todavía viva."
+    }
+   ]
+  },
+  "umbria": {
+   "spotlight": "Umbría tiene menos de novecientos mil habitantes y se la llama el corazón verde de Italia porque no toca el mar. Perugia es la capital, encaramada sobre una colina.\nEs conocida por San Francisco de Asís, los pueblos medievales, la trufa de Norcia y la llanura florida de Castelluccio.\nLa Cascada de las Marmore es la más alta de Italia creada por el hombre: los romanos la hicieron para sanear una llanura.",
+   "plants": [
+    {
+     "name": "Olivo",
+     "description": "Alrededor del Trasimeno y en las colinas de Spoleto los olivos dan un aceite dulce. Muchas plantas son centenarias."
+    },
+    {
+     "name": "Roble pubescente",
+     "description": "Roble de las colinas secas, con hojas peludas por debajo. Sus bosques mixtos cubren gran parte de Umbría."
+    },
+    {
+     "name": "Lenteja de Castelluccio",
+     "description": "Pequeña legumbre cultivada en la meseta de los Sibillini. A comienzos del verano los campos florecen de colores antes de la cosecha."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Jabalí",
+     "description": "Común en los robledales de Umbría. Cerca de Norcia también forma parte de la tradición alimentaria, con embutidos y cocina de bosque."
+    },
+    {
+     "name": "Lobo",
+     "description": "Presente en los Apeninos umbro-marquesanos. Se desplaza de noche y se alimenta sobre todo de ungulados salvajes."
+    },
+    {
+     "name": "Halcón peregrino",
+     "description": "Anida en las gargantas y en los riscos, como los de Narni y de la Valnerina. Es de las aves más veloces del mundo."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Strangozzi con trufa",
+     "description": "Pasta larga sin huevo, parecida a un cordón, condimentada con trufa negra. Es el primer plato de las fiestas en Norcia y Spoleto."
+    },
+    {
+     "name": "Lentejas de Castelluccio",
+     "description": "Lentejas pequeñas que no se dejan en remojo. Se cocinan en sopa, sobre todo en Año Nuevo, como buen augurio."
+    },
+    {
+     "name": "Porchetta",
+     "description": "Cerdo entero aromatizado con hinojo y romero, cocido largo rato. Se compra en lonjas en los mercados de los pueblos."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Asís",
+     "description": "Pueblo de piedra rosada ligado a San Francisco. La basílica, con los frescos de Giotto, es destino de peregrinos y visitantes."
+    },
+    {
+     "name": "Cascada de las Marmore",
+     "description": "Salto de agua de 165 metros, abierto en horarios precisos. El rugido se oye antes incluso de ver la nube de salpicaduras."
+    },
+    {
+     "name": "Orvieto",
+     "description": "Ciudad sobre un risco de toba, con una catedral de franjas blancas y negras. Debajo hay un laberinto de bodegas y pozos medievales."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "San Francisco",
+     "description": "Nacido en Asís en 1181 o 1182, dejó las riquezas de su familia por una vida pobre. Su Cántico de las criaturas habla del sol, la luna y los animales."
+    },
+    {
+     "name": "Las Marmore y los romanos",
+     "description": "En el 271 a. C. el cónsul Curio Dentato hizo abrir un canal para drenar las aguas estancadas. Así nació una cascada artificial."
+    },
+    {
+     "name": "Perugia etrusca",
+     "description": "Antes de los romanos, Perugia era una de las ciudades de Etruria. El Arco Etrusco y el pozo etrusco todavía están en el centro."
+    }
+   ]
+  },
+  "marche": {
+   "spotlight": "Las Marcas tienen alrededor de un millón y medio de habitantes y una capital, Ancona, que también es puerto. El nombre viene de las «marcas», tierras de frontera del Imperio carolingio.\nSon conocidas por Urbino y Rafael, las Grutas de Frasassi, los Sibillini y una cocina que mezcla el interior y el Adriático.\nEl Monte Conero cae a pico sobre el mar: es el único tramo alto y rocoso del Adriático italiano entre Trieste y el Gargano.",
+   "plants": [
+    {
+     "name": "Girasol",
+     "description": "En verano las colinas de las Marcas se llenan de campos amarillos. Las flores siguen al sol y después se convierten en semillas."
+    },
+    {
+     "name": "Olivo",
+     "description": "Hacia Ascoli, Offida y el Conero los olivos bajan hasta ver el mar. El aceite es frutado y algo picante."
+    },
+    {
+     "name": "Encina",
+     "description": "Roble de hoja perenne del matorral del Conero. Las hojas duras resisten el viento salado del acantilado."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Águila real",
+     "description": "Anida en los Montes Sibillini. Sobrevuela los prados de altura y busca marmotas, liebres y pequeños ungulados."
+    },
+    {
+     "name": "Lobo",
+     "description": "En el Parque de los Sibillini las manadas están monitoreadas. Conviven con pastores y pueblos de montaña."
+    },
+    {
+     "name": "Gaviota patiamarilla",
+     "description": "Dueña de los puertos de Ancona, San Benedetto y Numana. Se reconoce por las patas amarillas y el grito fuerte."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Aceitunas a la ascolana",
+     "description": "Aceitunas verdes rellenas de carne, empanadas y fritas. Nacen en Ascoli Piceno y se comen calientes, en compañía."
+    },
+    {
+     "name": "Brodetto",
+     "description": "Sopa de pescado del Adriático, distinta de un puerto a otro. En Ancona es roja de tomate; en otros pueblos es más caldosa."
+    },
+    {
+     "name": "Vincisgrassi",
+     "description": "Lasaña de las Marcas al horno, con ragú de carne y menudencias. Es el plato de los domingos y de las fiestas familiares."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Urbino",
+     "description": "Ciudad renacentista sobre la colina, con el Palacio Ducal. Fue la corte de Federico de Montefeltro y la patria de Rafael."
+    },
+    {
+     "name": "Grutas de Frasassi",
+     "description": "Sistema de cavernas enormes en los Apeninos, descubierto en 1971. La Grotta Grande del Vento podría contener el Duomo de Milán."
+    },
+    {
+     "name": "Monte Conero",
+     "description": "Promontorio blanco sobre el mar, con senderos entre encinas y acantilados. Abajo están las playas de Sirolo y Numana."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Rafael",
+     "description": "Nacido en Urbino en 1483, se convirtió en uno de los tres grandes del Renacimiento junto con Leonardo y Miguel Ángel. La casa natal se visita en el centro."
+    },
+    {
+     "name": "Palacio Ducal de Urbino",
+     "description": "Mandado construir por Federico de Montefeltro en el siglo XV. Era al mismo tiempo fortaleza, biblioteca y corte de artistas."
+    },
+    {
+     "name": "Loreto",
+     "description": "Ciudad-santuario famosa por la Santa Casa. Durante siglos fue uno de los destinos de peregrinación más importantes de Europa."
+    }
+   ]
+  },
+  "lazio": {
+   "spotlight": "El Lacio tiene casi seis millones de habitantes, y la mayoría vive en Roma, capital de Italia desde 1871 y antes corazón del Imperio romano y de los Estados Pontificios.\nFuera de la ciudad están Tívoli, los Castelli Romani, la Tuscia etrusca y un litoral largo, del Circeo a Gaeta.\nEl Coliseo podía recibir unos cincuenta mil espectadores y, cuando hacía falta, lo cubría un gran toldo llamado velarium.",
+   "plants": [
+    {
+     "name": "Pino piñonero",
+     "description": "Pino en forma de sombrilla de los pinares de Castelfusano, Fregene y Roma. Los piñones se usan en pesto, postres y salsas."
+    },
+    {
+     "name": "Encina",
+     "description": "Roble de hoja perenne del matorral y de las villas. Resiste el calor y forma bosques oscuros incluso en invierno."
+    },
+    {
+     "name": "Olivo",
+     "description": "En las colinas sabinas y en Gaeta los olivos son antiquísimos. De las aceitunas de Gaeta se obtiene también una famosa aceituna de mesa."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Gaviota patiamarilla",
+     "description": "En Roma vive incluso lejos del mar, sobre los techos y a lo largo del Tíber. En la costa es la dueña de las playas en invierno."
+    },
+    {
+     "name": "Lobo",
+     "description": "En el Parque de los Montes Simbruini y en otras zonas del interior el lobo está en casa. La loba, además, es el antiguo símbolo de Roma."
+    },
+    {
+     "name": "Jabalí",
+     "description": "Cada vez más presente incluso cerca de la ciudad, en parques y reservas. Busca comida de noche y teme poco a los senderos."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Carbonara",
+     "description": "Pasta con huevo, pecorino, guanciale y pimienta. No lleva crema: lo cremoso nace del huevo batido fuera del fuego."
+    },
+    {
+     "name": "Supplì",
+     "description": "Croqueta de arroz y ragú, con un corazón de mozzarella que se estira. Se come en la calle, caliente, en las pizzerías romanas."
+    },
+    {
+     "name": "Alcauciles a la judía",
+     "description": "Alcauciles fritos enteros, abiertos como una flor. La receta viene de la cocina del gueto judío de Roma."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Coliseo",
+     "description": "Anfiteatro Flavio, inaugurado en el 80 d. C. Aquí se hacían juegos y cacerías ante el pueblo de Roma."
+    },
+    {
+     "name": "Fontana de Trevi",
+     "description": "Fuente barroca en el centro de Roma, donde la tradición dice que hay que tirar una moneda para volver a la ciudad."
+    },
+    {
+     "name": "Villa d'Este",
+     "description": "Villa renacentista en Tívoli, famosa por las fuentes y los juegos de agua. Es Patrimonio de la Humanidad."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Fundación de Roma",
+     "description": "La tradición ubica el nacimiento de Roma el 21 de abril del 753 a. C., con Rómulo. La loba que amamanta a los gemelos sigue siendo el símbolo de la ciudad."
+    },
+    {
+     "name": "Imperio romano",
+     "description": "Desde Roma partían caminos, leyes y legiones hacia tres continentes. El Foro y los Foros Imperiales son el corazón de esa historia."
+    },
+    {
+     "name": "Roma capital",
+     "description": "En 1871 Roma se convirtió en capital del Reino de Italia, tras la toma de Porta Pia. Hoy es la capital de la República."
+    }
+   ]
+  },
+  "abruzzo": {
+   "spotlight": "Los Abruzos tienen alrededor de un millón trescientos mil habitantes. Un tercio del territorio está protegido por parques: Gran Sasso, Majella, Sirente-Velino y el Parque de Abruzos, Lacio y Molise.\nEs famoso por el oso marsicano, los arrosticini, pueblos como Santo Stefano di Sessanio y una costa adriática todavía hecha de playas y trabocchi.\nEl Corno Grande del Gran Sasso, de 2.912 metros, es la cima más alta de los Apeninos.",
+   "plants": [
+    {
+     "name": "Haya",
+     "description": "Forma bosques inmensos en la Majella y en el Parque de Abruzos. Son de los hayedos más antiguos de Europa, Patrimonio de la Humanidad."
+    },
+    {
+     "name": "Azafrán",
+     "description": "Flor violeta que se recoge al amanecer en Navelli, en otoño. De sus tres estigmas rojos se obtiene la especia más preciosa de la cocina."
+    },
+    {
+     "name": "Genciana",
+     "description": "Planta alta de los pastizales, de flores amarillas. De sus raíces se preparaba antiguamente un licor amargo de montaña."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Oso marsicano",
+     "description": "Subespecie de oso que vive solo en los Apeninos centrales. Quedan unas pocas decenas y el parque trabaja para protegerlos."
+    },
+    {
+     "name": "Rebeco de los Abruzos",
+     "description": "Rebeco con una banda oscura en el cuello, salvado de la extinción en el Parque de Abruzos. Hoy vive también en la Majella y en el Gran Sasso."
+    },
+    {
+     "name": "Lobo apenino",
+     "description": "El lobo italiano nunca desapareció del todo de estas montañas. De noche cruza hayedos y pastizales."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Arrosticini",
+     "description": "Brochetas de oveja cocidas a la brasa, en un canalón largo llamado furnacella. Se comen con las manos, una tras otra."
+    },
+    {
+     "name": "Espaguetis a la chitarra",
+     "description": "Pasta de sección cuadrada, cortada sobre un bastidor de hilos llamado chitarra. Se condimentan con ragú de cordero o con pallottine."
+    },
+    {
+     "name": "Confetti de Sulmona",
+     "description": "Almendras cubiertas de azúcar, nacidas en Sulmona y ligadas a las celebraciones. Los ramos de colores son un arte local."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Gran Sasso",
+     "description": "Macizo calcáreo con el Corno Grande y el glaciar del Calderone. Bajo la montaña hay incluso un laboratorio de física en las galerías."
+    },
+    {
+     "name": "Trabocchi",
+     "description": "Plataformas de madera suspendidas sobre el mar, usadas antiguamente para pescar. La Costa de los Trabocchi es uno de los paisajes más singulares del Adriático."
+    },
+    {
+     "name": "Rocca Calascio",
+     "description": "Fortaleza de piedra a casi 1.500 metros, sobre un pueblo medieval. Parece un nido de águila sobre la meseta."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Parque de Abruzos",
+     "description": "Creado en 1923 para salvar al rebeco y al oso. Es, junto con el Gran Paradiso, el parque nacional más antiguo de Italia."
+    },
+    {
+     "name": "Trashumancia",
+     "description": "Durante siglos los pastores llevaban los rebaños de los montes al Tavoliere a lo largo de los tratturi. Esos senderos de hierba todavía están en el paisaje."
+    },
+    {
+     "name": "Basílica de Collemaggio",
+     "description": "En L'Aquila, fue querida por Pietro da Morrone, luego papa Celestino V. La fachada de piedras blancas y rosadas es un símbolo de la ciudad."
+    }
+   ]
+  },
+  "molise": {
+   "spotlight": "Molise tiene menos de trescientos mil habitantes y se convirtió en región autónoma recién en 1963, separándose de los Abruzos. Campobasso es la capital, en el interior; Termoli es la puerta al mar.\nEs una tierra de trashumancia, de pueblos de piedra como Scapoli y Frosolone, y de una cocina campesina todavía poco conocida fuera de la región.\nEn Agnone todavía se funden campanas con una técnica antigua, y la fundición pontificia trabaja desde la Edad Media.",
+   "plants": [
+    {
+     "name": "Olivo",
+     "description": "En el valle del Biferno y hacia el mar los olivos marcan el campo. El aceite de Molise es intenso y un poco amargo."
+    },
+    {
+     "name": "Roble pubescente",
+     "description": "Roble de los bosques de colina, resistente al suelo pobre. Las bellotas alimentaban antiguamente a los cerdos en libertad."
+    },
+    {
+     "name": "Haya",
+     "description": "En las Mainarde y en el Matese forma bosques frescos en verano. Es el árbol de las mayores alturas de la región."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Lobo",
+     "description": "Presente entre las Mainarde, el Matese y los bosques del interior. Comparte el territorio con el vecino Parque de Abruzos."
+    },
+    {
+     "name": "Jabalí",
+     "description": "Numeroso en los robledales. Deja huecos cavados en el sotobosque y de noche se acerca a los campos cultivados."
+    },
+    {
+     "name": "Tortuga marina",
+     "description": "De vez en cuando anida en las playas de Molise. Los voluntarios protegen los nidos hasta la eclosión."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Cavatelli",
+     "description": "Pasta corta hecha con los dedos, a menudo condimentada con ragú o verduras. Es el formato de todos los días en Molise."
+    },
+    {
+     "name": "Caciocavallo",
+     "description": "Queso de pasta hilada, colgado de a pares para madurar. El nombre recuerda la forma en que las piezas se atan a caballo de un palo."
+    },
+    {
+     "name": "Pallotte cacio e uova",
+     "description": "Albóndigas de pan, huevo y queso, cocidas en salsa de tomate. Un plato humilde, nacido para no desperdiciar nada."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Termoli",
+     "description": "Pueblo sobre el mar con un castillo suabo y un puerto del que salen los ferris a las Tremiti. El casco antiguo está sobre un promontorio."
+    },
+    {
+     "name": "Saepinum",
+     "description": "Ciudad romana todavía en medio de los campos, con teatro, murallas y la puerta sobre el tratturo. Las ovejas pasaban por aquí ya en la Antigüedad."
+    },
+    {
+     "name": "Agnone",
+     "description": "Pueblo del Alto Molise famoso por la fundición de campanas. Las calles de piedra y los talleres cuentan una artesanía de siglos."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Región desde 1963",
+     "description": "Hasta 1963 Molise estaba unido a los Abruzos en una sola región. La separación la convirtió en la realidad administrativa más joven de Italia, con capital en Campobasso."
+    },
+    {
+     "name": "Tratturi",
+     "description": "El tratturo Pescasseroli-Candela atraviesa Molise. Era la autopista de hierba de los rebaños entre la montaña y la llanura."
+    },
+    {
+     "name": "Tabla de Agnone",
+     "description": "Inscripción en lengua osca del siglo III a. C., hallada en Agnone. Enumera divinidades y santuarios de los antiguos samnitas."
+    }
+   ]
+  },
+  "campania": {
+   "spotlight": "Campania tiene unos cinco millones y medio de habitantes. Nápoles, a los pies del Vesubio, es una de las grandes ciudades del Mediterráneo, con un centro histórico Patrimonio de la Humanidad.\nLa región es famosa por Pompeya, la Costa Amalfitana, Capri, la pizza y una tierra volcánica muy fértil.\nPompeya quedó sepultada por la erupción del Vesubio en el 79 d. C. y por eso las calles y las casas se conservaron.",
+   "plants": [
+    {
+     "name": "Limón",
+     "description": "En la Costa Amalfitana los limones crecen en terrazas a pico sobre el mar. El sfusato amalfitano es grande, perfumado y poco ácido."
+    },
+    {
+     "name": "Tomate",
+     "description": "Variedad alargada cultivada en el Agro Nocerino, sobre suelo volcánico. Es la base de muchas salsas de la cocina napolitana."
+    },
+    {
+     "name": "Vid",
+     "description": "En las laderas del Vesubio se cultiva el Piedirosso y otras uvas antiguas. La lava, con el tiempo, se convierte en suelo rico."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Gaviota patiamarilla",
+     "description": "Omnipresente en los escollos, puertos y techos de Nápoles. Sigue a los pesqueros y las rutas de los ferris a las islas."
+    },
+    {
+     "name": "Pardela cenicienta",
+     "description": "Ave marina que pasa la vida en vuelo y vuelve a tierra solo para anidar. Se oye de noche en las islas del golfo."
+    },
+    {
+     "name": "Delfín mular",
+     "description": "Delfín del Tirreno, que se avista mar adentro frente a Capri y al Cilento. Vive en grupos y caza peces cerca de la costa."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Pizza napolitana",
+     "description": "Disco de masa suave cocido en horno de leña, con tomate y mozzarella. Desde 2017 el arte del pizzero napolitano es Patrimonio de la Humanidad."
+    },
+    {
+     "name": "Mozzarella de búfala",
+     "description": "Queso fresco de leche de búfala, producido en la llanura del Sele y en otras zonas de la región. Se come el mismo día."
+    },
+    {
+     "name": "Sfogliatella",
+     "description": "Dulce de masa en capas, relleno de ricota, sémola y frutas confitadas. La riccia tiene las hojas crocantes; la frolla es más suave."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Pompeya",
+     "description": "Ciudad romana detenida por la erupción del 79 d. C. Calles, tiendas, mosaicos y el Vesubio de fondo."
+    },
+    {
+     "name": "Costa Amalfitana",
+     "description": "Ruta a pico entre Positano, Amalfi y Ravello. Pueblos, limones y terrazas sobre el mar, Patrimonio de la Humanidad."
+    },
+    {
+     "name": "Vesubio",
+     "description": "Volcán activo que domina el golfo de Nápoles. Se sube a pie hasta el cráter, desde donde se ve toda la costa."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Erupción del 79",
+     "description": "El Vesubio sepultó Pompeya, Herculano y Estabia bajo ceniza y lapilli. Plinio el Joven describió la nube con forma de pino."
+    },
+    {
+     "name": "República de Amalfi",
+     "description": "En la Edad Media Amalfi fue una república marinera, con barcos y comercio por todo el Mediterráneo. La catedral, con el claustro del Paraíso, recuerda ese poder sobre el mar."
+    },
+    {
+     "name": "Reino de Nápoles",
+     "description": "Durante siglos Nápoles fue capital de un reino. Castel Nuovo, con el arco de mármol, era la puerta de la corte."
+    }
+   ]
+  },
+  "puglia": {
+   "spotlight": "Apulia tiene casi cuatro millones de habitantes y es la región más oriental de Italia. Bari es la capital y un puerto hacia los Balcanes.\nEs conocida por Alberobello y los trulli, el barroco de Lecce, Castel del Monte, las gravine de Laterza y Ginosa, y una cocina de aceite, trigo y mar.\nAlgunos olivos de la Llanura de los Olivos Monumentales tienen más de mil años y troncos anchos como una habitación.",
+   "plants": [
+    {
+     "name": "Olivo",
+     "description": "En la Llanura de los Olivos, entre Bari y Brindisi, hay ejemplares milenarios. El árbol es el símbolo mismo de la región."
+    },
+    {
+     "name": "Chumbera",
+     "description": "Cactus de los muros de piedra seca y de los campos soleados. Los frutos, en verano, son dulces y están llenos de semillas."
+    },
+    {
+     "name": "Vid",
+     "description": "Primitivo, Negroamaro y Nero di Troia crecen bajo el sol de Apulia. Las hileras bajas, a veces en forma de arbolito, resisten el viento."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Flamenco",
+     "description": "En las salinas de Margherita di Savoia forma extensiones rosadas. Es uno de los espectáculos naturales más fáciles de ver en Apulia."
+    },
+    {
+     "name": "Cernícalo primilla",
+     "description": "Pequeño halcón que anida en los techos de los cascos antiguos de la Murgia, como Gravina y Altamura. Come insectos y saltamontes."
+    },
+    {
+     "name": "Tortuga marina",
+     "description": "Anida en las playas jónicas del Salento. Los nidos se protegen hasta que las crías corren hacia el mar."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Orecchiette",
+     "description": "Pasta con forma de pequeña oreja, hecha con el pulgar. Con cime di rapa es el plato símbolo de Bari."
+    },
+    {
+     "name": "Burrata",
+     "description": "Bolsa de mozzarella rellena de crema y stracciatella. Nace en Andria y hay que comerla fresquísima."
+    },
+    {
+     "name": "Panzerotto",
+     "description": "Media luna de masa frita, rellena de tomate y mozzarella. Se compra en la calle, caliente, en todos los pueblos de Apulia."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Alberobello",
+     "description": "Pueblo de trulli, casas de piedra en forma de cono construidas en seco. El barrio Monti es Patrimonio de la Humanidad."
+    },
+    {
+     "name": "Castel del Monte",
+     "description": "Castillo octogonal querido por Federico II en el siglo XIII, sin foso ni puente levadizo. Su forma sigue siendo un enigma."
+    },
+    {
+     "name": "Lecce",
+     "description": "Ciudad del barroco, con fachadas de piedra de Lecce talladas como encajes. La plaza del Duomo es un salón al aire libre."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Federico II",
+     "description": "Emperador del siglo XIII, amaba Apulia y construyó castillos allí. Lo llamaban Stupor mundi, asombro del mundo, por su curiosidad científica."
+    },
+    {
+     "name": "Trulli",
+     "description": "Viviendas de piedra seca del Valle de Itria. Se construían así también porque, en el pasado, se podían desmontar rápido."
+    },
+    {
+     "name": "Puerto de Brindisi",
+     "description": "En la época romana desde Brindisi partía la Vía Apia hacia Oriente. Las dos columnas sobre el puerto marcaban el final del camino."
+    }
+   ]
+  },
+  "basilicata": {
+   "spotlight": "Basilicata tiene unos quinientos mil habitantes y es una de las regiones menos pobladas. Potenza es la capital, en el interior; Matera, al borde de una gravina, es la ciudad más conocida.\nLa región toca el Tirreno en Maratea y el Jónico en la costa de Metaponto. Es famosa por los Sassi, el Parque del Pollino y una cocina de pan, pimientos y cerdo.\nMatera es una de las ciudades habitadas sin interrupción más antiguas del mundo: en los Sassi ya se vivía en la prehistoria.",
+   "plants": [
+    {
+     "name": "Pino loricado",
+     "description": "Pino rarísimo que vive sobre las rocas del Pollino, incluso por encima de los dos mil metros. El tronco claro y acorazado resiste el viento y la nieve."
+    },
+    {
+     "name": "Pimiento de Senise",
+     "description": "Pimiento dulce que se seca en trenzas, los cruschi. Frito en un instante se vuelve crujiente y se desmenuza sobre la pasta."
+    },
+    {
+     "name": "Olivo",
+     "description": "En el valle del Agri y hacia el Metapontino los olivos cubren las colinas. El aceite es la base de casi todas las recetas lucanas."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Lobo",
+     "description": "En el Pollino y en los Apeninos lucanos el lobo nunca desapareció del todo. Es un depredador tímido, activo de noche."
+    },
+    {
+     "name": "Corzo",
+     "description": "Reintroducido y protegido en los parques. Se ve al amanecer en el borde de los hayedos."
+    },
+    {
+     "name": "Águila real",
+     "description": "Sobrevuela las crestas del Pollino. Anida en las paredes de roca y caza pequeños mamíferos en los prados de altura."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Peperoni cruschi",
+     "description": "Pimientos secos de Senise fritos en aceite caliente durante pocos segundos. Se usan enteros o desmenuzados sobre pasta y bacalao."
+    },
+    {
+     "name": "Pan de Matera",
+     "description": "Pan de sémola de forma alta y miga llena de agujeros. Se conserva días y es la base de la cocina campesina."
+    },
+    {
+     "name": "Lucanica",
+     "description": "Salchicha de cerdo aromatizada con hinojo, ya mencionada por los antiguos romanos. El nombre viene justamente de Lucania."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Sassi de Matera",
+     "description": "Barrios excavados en la toba, con iglesias rupestres y callejuelas con escalones. Desde 1993 son Patrimonio de la Humanidad."
+    },
+    {
+     "name": "Parque del Pollino",
+     "description": "El parque nacional más extenso de Italia, entre Basilicata y Calabria. Cumbres, gargantas y los pinos loricados son sus tesoros."
+    },
+    {
+     "name": "Maratea",
+     "description": "Pueblo sobre el Tirreno, con playas y la estatua del Cristo Redentor en el monte. La llaman la perla del Tirreno lucano."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Los Sassi habitados",
+     "description": "Durante milenios la gente vivió en casas-cueva asomadas a la gravina. En el siglo XX los habitantes fueron trasladados, y luego los Sassi volvieron a la vida."
+    },
+    {
+     "name": "Metaponto",
+     "description": "Colonia de la Magna Grecia sobre el mar Jónico. Aquí, según la tradición, vivió el matemático Pitágoras, y quedan las columnas de un templo."
+    },
+    {
+     "name": "Bandoleros del siglo XIX",
+     "description": "Después de la unificación de Italia, en las montañas lucanas hubo revueltas y bandas. Es una página dura de la historia del Sur, todavía contada en los pueblos."
+    }
+   ]
+  },
+  "calabria": {
+   "spotlight": "Calabria tiene menos de dos millones de habitantes y más de setecientos kilómetros de costa. Reggio Calabria mira a Sicilia desde el Estrecho; Catanzaro es la capital.\nEs una tierra de Magna Grecia, de montaña áspera y de sabores fuertes: ají picante, cebolla de Tropea, pez espada del Estrecho.\nEl bergamoto crece casi solo en un tramo de costa cerca de Reggio Calabria. Del fruto se obtiene un aceite esencial para los perfumes.",
+   "plants": [
+    {
+     "name": "Bergamota",
+     "description": "Cítrico verde-amarillo cultivado casi solo en la provincia de Reggio. La cáscara perfuma el té, los dulces y los perfumes."
+    },
+    {
+     "name": "Higuera",
+     "description": "Árbol de los patios y de los campos secos. Los frutos, frescos o secos, son una merienda antigua del Sur."
+    },
+    {
+     "name": "Pino loricado",
+     "description": "En la vertiente calabresa del Pollino vive junto con el lucano. Los troncos parecen armaduras de plata."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Lobo",
+     "description": "Presente en la Sila, el Pollino y el Aspromonte. Los parques nacionales de la región están entre sus territorios más importantes."
+    },
+    {
+     "name": "Ciervo",
+     "description": "Reintroducido en la Sila, hoy se avista en los bosques de pino laricio. Los machos llevan grandes astas en otoño."
+    },
+    {
+     "name": "Tortuga marina",
+     "description": "La Costa de los Jazmines es una de las zonas italianas donde más anida. Las crías salen de noche y van hacia la luz del mar."
+    }
+   ],
+   "foods": [
+    {
+     "name": "'Nduja",
+     "description": "Salame blando y picante de Spilinga, para untar en pan. Está hecho con partes de cerdo y mucho ají picante."
+    },
+    {
+     "name": "Tartufo de Pizzo",
+     "description": "Helado en forma de bola, con corazón de chocolate fundido, pasado por cacao. Se come paseando por la costanera de Pizzo."
+    },
+    {
+     "name": "Cebolla de Tropea",
+     "description": "Cebolla roja dulce, cultivada entre el mar y los pueblos de la Costa de los Dioses. Se come cruda, en ensalada o en mermelada."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Tropea",
+     "description": "Pueblo sobre la toba a pico sobre el Tirreno, con una playa debajo de las casas. Es uno de los paisajes más fotografiados de Calabria."
+    },
+    {
+     "name": "Bronces de Riace",
+     "description": "Dos estatuas griegas de guerreros, halladas en el mar en 1972. Hoy están en el museo de Reggio Calabria y parecen todavía vivas."
+    },
+    {
+     "name": "Scilla",
+     "description": "Pueblo del Estrecho, con el castillo sobre la roca y los barcos de los pescadores de pez espada. El mito de Escila y Caribdis nace aquí."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Magna Grecia",
+     "description": "Desde el siglo VIII a. C. los griegos fundaron ciudades como Síbaris, Crotona y Locri. Calabria fue una de las tierras más ricas de esa civilización."
+    },
+    {
+     "name": "Bronces de Riace",
+     "description": "En 1972 un buceador vio un brazo en el fondo del mar. Las dos estatuas, del siglo V a. C., están entre las obras maestras del arte griego."
+    },
+    {
+     "name": "Estrecho de Mesina",
+     "description": "Brazo de mar entre Calabria y Sicilia, lleno de corrientes. Para los griegos era el paso peligroso de Escila y Caribdis."
+    }
+   ]
+  },
+  "sicilia": {
+   "spotlight": "Sicilia tiene unos cuatro millones ochocientos mil habitantes. Palermo es la capital; Catania está a los pies del Etna, en la otra costa.\nGriegos, romanos, árabes, normandos y españoles dejaron templos, mercados, dulces y palabras. La isla es famosa por el Etna, el Valle de los Templos, Taormina y una cocina riquísima.\nEl Etna es el volcán activo más alto de Europa y cambia seguido de forma con las erupciones.",
+   "plants": [
+    {
+     "name": "Naranjo",
+     "description": "En la Llanura de Catania y alrededor de Ribera los naranjales perfuman en primavera. Los frutos, dulces o amargos, se usan en ensaladas y postres."
+    },
+    {
+     "name": "Chumbera",
+     "description": "Planta de los muros y de las lavas viejas. En Sicilia el fruto se llama también ficodindia y se pela en plena calle."
+    },
+    {
+     "name": "Papiro",
+     "description": "Crece a lo largo del río Ciane, cerca de Siracusa, y en muy pocos lugares más de Europa. Los árabes y los antiguos lo usaban para escribir."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Flamenco",
+     "description": "En las salinas de Trapani y en el Stagnone forma bandadas rosadas. Filtra el agua salada en busca de pequeños crustáceos."
+    },
+    {
+     "name": "Buitre leonado",
+     "description": "Buitre reintroducido en las Madonie y en los Nebrodi. Planea en grupos y se alimenta de carroña, limpiando la montaña."
+    },
+    {
+     "name": "Tortuga marina",
+     "description": "Anida en las playas del sur y de las islas menores. Los centros de recuperación cuidan a los ejemplares heridos por las redes."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Cannolo",
+     "description": "Barquillo frito relleno de ricota de oveja, a menudo con chispas de chocolate. En rigor la ricota se pone en el momento, para que el barquillo quede crocante."
+    },
+    {
+     "name": "Arancina",
+     "description": "Bola o cono de arroz empanado y frito, relleno de ragú o manteca. En Palermo se dice arancina, en Catania arancino."
+    },
+    {
+     "name": "Cassata",
+     "description": "Dulce de bizcocho, ricota, pasta de almendras y fruta confitada. Es el triunfo de las fiestas, sobre todo en Palermo."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Etna",
+     "description": "Volcán activo que domina el este de Sicilia. Se sube entre lavas negras, bosques y, en invierno, también nieve."
+    },
+    {
+     "name": "Valle de los Templos",
+     "description": "Parque arqueológico de Agrigento, con templos griegos dorados al atardecer. El Templo de la Concordia es uno de los mejor conservados."
+    },
+    {
+     "name": "Taormina",
+     "description": "Pueblo en la montaña, con un teatro griego frente al mar y el Etna. Es una de las vistas más célebres de la isla."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Magna Grecia",
+     "description": "Siracusa fue una de las ciudades más poderosas del mundo griego, rival de Atenas. El teatro y la isla de Ortigia cuentan esa grandeza."
+    },
+    {
+     "name": "Árabes en Sicilia",
+     "description": "Del siglo IX al XI la isla fue un emirato. Quedan cítricos, palabras, dulces y mercados que todavía se llaman con nombres árabes."
+    },
+    {
+     "name": "Normandos en Palermo",
+     "description": "En el siglo XII los reyes normandos construyeron en Palermo una corte donde convivían latín, griego y árabe. La Capilla Palatina es su joya."
+    }
+   ]
+  },
+  "sardegna": {
+   "spotlight": "Cerdeña tiene unos un millón seiscientos mil habitantes. Cagliari, en el sur, es la capital; el interior, la zona de Nuoro y la Barbagia, conserva lenguas, fiestas y pastoreo.\nLa isla es famosa por los nuragas, la Costa Esmeralda, las playas de cuarzo y una cocina de oveja, pan y miel amarga.\nLos nuragas son torres de piedra de la Edad del Bronce. En Cerdeña hay miles, y no existen en ningún otro lugar.",
+   "plants": [
+    {
+     "name": "Madroño",
+     "description": "Arbusto del matorral con flores blancas y frutos rojos al mismo tiempo, en otoño. Es una planta símbolo de la isla."
+    },
+    {
+     "name": "Alcornoque",
+     "description": "Roble del que se desprende la corteza, el corcho, sin talar el árbol. Los alcornocales de la Gallura son un paisaje único."
+    },
+    {
+     "name": "Mirto",
+     "description": "Arbusto aromático del matorral. De las bayas oscuras se destila el mirto, el licor que cierra la comida sarda."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Muflón",
+     "description": "Oveja salvaje de cuernos en espiral, típica de las rocas sardas. Vive en pequeños grupos en las crestas."
+    },
+    {
+     "name": "Ciervo sardo",
+     "description": "Subespecie pequeña de ciervo, salvada de la extinción. Hoy se ve en los bosques del Sulcis y del Arburese."
+    },
+    {
+     "name": "Flamenco",
+     "description": "En las lagunas de Cagliari y de Oristano forma colonias enormes. El rosa intenso viene de los crustáceos de los que se alimenta."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Culurgiones",
+     "description": "Ravioles de pasta fresca rellenos de papas, pecorino y menta, cerrados en forma de espiga. Son el plato festivo de la Ogliastra."
+    },
+    {
+     "name": "Pane carasau",
+     "description": "Pan fino y crujiente, cocido dos veces, que se conservaba para los pastores. Humedecido se convierte en pane frattau."
+    },
+    {
+     "name": "Seadas",
+     "description": "Empanaditas fritas rellenas de pecorino fresco, cubiertas de miel. Son el dulce de la trashumancia y de las fiestas."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Nuraga Santu Antine",
+     "description": "Uno de los nuragas más complejos, en el valle de los Nuragas, con torres y patios. Muestra lo organizada que era esa civilización."
+    },
+    {
+     "name": "Costa Esmeralda",
+     "description": "Tramo de costa en el noreste, con granito y agua clara. Porto Cervo es su centro más conocido."
+    },
+    {
+     "name": "Cagliari",
+     "description": "Ciudad de sol, con el barrio Castello sobre la colina y una laguna de flamencos a dos pasos del centro. El Poetto es su larga playa."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Civilización nurágica",
+     "description": "Entre el 1800 y el 500 a. C. los sardos construyeron miles de torres de piedra. Su Nuraxi de Barumini es Patrimonio de la Humanidad."
+    },
+    {
+     "name": "Su Nuraxi",
+     "description": "Poblado nurágico de Barumini, con una torre central y un laberinto de cabañas. Fue excavado en el siglo XX por Giovanni Lilliu."
+    },
+    {
+     "name": "Los Judicados",
+     "description": "En la Edad Media Cerdeña estaba dividida en cuatro reinos autónomos, los judicados. Oristano fue el corazón del judicado de Arborea, una historia distinta de la de los comunes del continente."
+    }
+   ]
+  }
+ }
+}
