@@ -10,12 +10,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Lobo apenino»?",
       "choices": [
-        "Benevento",
-        "Nápoles",
+        "Salerno",
         "Caserta",
-        "Avellino"
+        "Avellino",
+        "Nápoles"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Lobo apenino» forma parte de la fauna de Avellino."
     },
     {
@@ -38,12 +38,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Milano real»?",
       "choices": [
-        "Salerno",
-        "Avellino",
+        "Benevento",
+        "Caserta",
         "Nápoles",
-        "Caserta"
+        "Avellino"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Milano real» forma parte de la fauna de Avellino."
     },
     {
@@ -53,11 +53,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia crece esta planta: «Avellano»?",
       "choices": [
         "Salerno",
-        "Nápoles",
-        "Caserta",
-        "Avellino"
+        "Benevento",
+        "Avellino",
+        "Caserta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Avellano» es una planta típica de Avellino."
     },
     {
@@ -66,12 +66,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Haya»?",
       "choices": [
+        "Caserta",
         "Avellino",
         "Nápoles",
-        "Benevento",
-        "Caserta"
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Haya» es una planta típica de Avellino."
     },
     {
@@ -80,12 +80,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Roble cerris»?",
       "choices": [
-        "Salerno",
         "Avellino",
         "Caserta",
-        "Benevento"
+        "Benevento",
+        "Nápoles"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Roble cerris» es una planta típica de Avellino."
     },
     {
@@ -95,11 +95,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿De qué provincia es típico este plato: «Castaña de Montella»?",
       "choices": [
         "Caserta",
+        "Salerno",
         "Avellino",
-        "Nápoles",
-        "Salerno"
+        "Nápoles"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Castaña de Montella» es un plato típico de Avellino."
     },
     {
@@ -108,12 +108,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Trufa negra de Bagnoli Irpino»?",
       "choices": [
-        "Avellino",
-        "Salerno",
+        "Benevento",
         "Nápoles",
-        "Caserta"
+        "Avellino",
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Trufa negra de Bagnoli Irpino» es un plato típico de Avellino."
     },
     {
@@ -123,11 +123,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿De qué provincia es típico este plato: «Turrón de avellanas»?",
       "choices": [
         "Nápoles",
-        "Avellino",
-        "Caserta",
-        "Benevento"
+        "Salerno",
+        "Benevento",
+        "Avellino"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Turrón de avellanas» es un plato típico de Avellino."
     },
     {
@@ -137,8 +137,8 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia se encuentra «Abadía de Goleto»?",
       "choices": [
         "Benevento",
-        "Salerno",
         "Caserta",
+        "Nápoles",
         "Avellino"
       ],
       "correctIndex": 3,
@@ -150,10 +150,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Santuario de Montevergine»?",
       "choices": [
-        "Nápoles",
+        "Benevento",
         "Caserta",
         "Avellino",
-        "Salerno"
+        "Nápoles"
       ],
       "correctIndex": 2,
       "explanation": "«Santuario de Montevergine» se encuentra en Avellino."
@@ -165,11 +165,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia se encuentra «Lago Laceno»?",
       "choices": [
         "Benevento",
+        "Nápoles",
         "Salerno",
-        "Avellino",
-        "Nápoles"
+        "Avellino"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Lago Laceno» se encuentra en Avellino."
     },
     {
@@ -180,8 +180,8 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "choices": [
         "Benevento",
         "Avellino",
-        "Caserta",
-        "Nápoles"
+        "Salerno",
+        "Caserta"
       ],
       "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Avellino."
@@ -192,12 +192,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Guillermo de Vercelli»?",
       "choices": [
-        "Benevento",
         "Caserta",
         "Avellino",
-        "Salerno"
+        "Nápoles",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Avellino."
     },
     {
@@ -207,9 +207,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Francesco De Sanctis»?",
       "choices": [
         "Avellino",
+        "Benevento",
         "Caserta",
-        "Salerno",
-        "Benevento"
+        "Nápoles"
       ],
       "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Avellino."
@@ -220,12 +220,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Jabalí»?",
       "choices": [
-        "Nápoles",
-        "Salerno",
+        "Caserta",
         "Benevento",
-        "Caserta"
+        "Avellino",
+        "Nápoles"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Jabalí» forma parte de la fauna de Benevento."
     },
     {
@@ -236,8 +236,8 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "choices": [
         "Caserta",
         "Benevento",
-        "Salerno",
-        "Avellino"
+        "Avellino",
+        "Nápoles"
       ],
       "correctIndex": 1,
       "explanation": "«Liebre italiana» forma parte de la fauna de Benevento."
@@ -248,12 +248,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Tejón»?",
       "choices": [
-        "Salerno",
         "Caserta",
-        "Benevento",
-        "Avellino"
+        "Nápoles",
+        "Salerno",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Tejón» forma parte de la fauna de Benevento."
     },
     {
@@ -262,12 +262,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Nogal»?",
       "choices": [
-        "Avellino",
         "Salerno",
         "Benevento",
+        "Avellino",
         "Nápoles"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Nogal» es una planta típica de Benevento."
     },
     {
@@ -276,12 +276,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Roble pubescente»?",
       "choices": [
-        "Avellino",
-        "Caserta",
         "Benevento",
-        "Salerno"
+        "Nápoles",
+        "Salerno",
+        "Avellino"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Roble pubescente» es una planta típica de Benevento."
     },
     {
@@ -290,10 +290,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Olivo»?",
       "choices": [
-        "Avellino",
-        "Caserta",
+        "Nápoles",
+        "Salerno",
         "Benevento",
-        "Salerno"
+        "Avellino"
       ],
       "correctIndex": 2,
       "explanation": "«Olivo» es una planta típica de Benevento."
@@ -305,7 +305,7 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿De qué provincia es típico este plato: «Cavatelli»?",
       "choices": [
         "Caserta",
-        "Salerno",
+        "Avellino",
         "Benevento",
         "Nápoles"
       ],
@@ -318,12 +318,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Licor Strega»?",
       "choices": [
-        "Benevento",
         "Salerno",
-        "Caserta",
-        "Nápoles"
+        "Benevento",
+        "Nápoles",
+        "Caserta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Licor Strega» es un plato típico de Benevento."
     },
     {
@@ -332,12 +332,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Soppressata samnita»?",
       "choices": [
-        "Avellino",
         "Salerno",
-        "Benevento",
-        "Caserta"
+        "Caserta",
+        "Nápoles",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Soppressata samnita» es un plato típico de Benevento."
     },
     {
@@ -346,10 +346,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Arco de Trajano»?",
       "choices": [
-        "Avellino",
-        "Salerno",
+        "Nápoles",
+        "Caserta",
         "Benevento",
-        "Caserta"
+        "Salerno"
       ],
       "correctIndex": 2,
       "explanation": "«Arco de Trajano» se encuentra en Benevento."
@@ -361,11 +361,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia se encuentra «Teatro romano de Benevento»?",
       "choices": [
         "Nápoles",
-        "Salerno",
+        "Benevento",
         "Avellino",
-        "Benevento"
+        "Caserta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Teatro romano de Benevento» se encuentra en Benevento."
     },
     {
@@ -374,12 +374,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Iglesia de Santa Sofía»?",
       "choices": [
-        "Nápoles",
         "Benevento",
-        "Caserta",
-        "Salerno"
+        "Salerno",
+        "Nápoles",
+        "Caserta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Iglesia de Santa Sofía» se encuentra en Benevento."
     },
     {
@@ -388,12 +388,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Las Horcas Caudinas»?",
       "choices": [
-        "Benevento",
-        "Salerno",
         "Caserta",
-        "Avellino"
+        "Benevento",
+        "Nápoles",
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Benevento."
     },
     {
@@ -402,10 +402,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «El Ducado longobardo»?",
       "choices": [
+        "Nápoles",
         "Caserta",
-        "Avellino",
         "Benevento",
-        "Nápoles"
+        "Salerno"
       ],
       "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Benevento."
@@ -416,12 +416,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «La batalla de Benevento»?",
       "choices": [
-        "Benevento",
-        "Salerno",
+        "Nápoles",
+        "Caserta",
         "Avellino",
-        "Nápoles"
+        "Benevento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Benevento."
     },
     {
@@ -430,12 +430,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Búfala mediterránea»?",
       "choices": [
-        "Avellino",
-        "Nápoles",
         "Caserta",
-        "Benevento"
+        "Salerno",
+        "Benevento",
+        "Avellino"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Búfala mediterránea» forma parte de la fauna de Caserta."
     },
     {
@@ -444,12 +444,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Garza real»?",
       "choices": [
+        "Nápoles",
+        "Avellino",
         "Caserta",
-        "Salerno",
-        "Benevento",
-        "Avellino"
+        "Benevento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Garza real» forma parte de la fauna de Caserta."
     },
     {
@@ -458,10 +458,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Águila real»?",
       "choices": [
-        "Salerno",
+        "Benevento",
         "Caserta",
-        "Avellino",
-        "Nápoles"
+        "Salerno",
+        "Avellino"
       ],
       "correctIndex": 1,
       "explanation": "«Águila real» forma parte de la fauna de Caserta."
@@ -472,12 +472,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Castaño»?",
       "choices": [
-        "Caserta",
         "Nápoles",
-        "Avellino",
-        "Salerno"
+        "Caserta",
+        "Salerno",
+        "Avellino"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Castaño» es una planta típica de Caserta."
     },
     {
@@ -486,12 +486,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Pino piñonero»?",
       "choices": [
-        "Benevento",
-        "Avellino",
+        "Nápoles",
         "Caserta",
-        "Nápoles"
+        "Salerno",
+        "Avellino"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Pino piñonero» es una planta típica de Caserta."
     },
     {
@@ -500,12 +500,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Encina»?",
       "choices": [
-        "Salerno",
         "Nápoles",
-        "Avellino",
-        "Caserta"
+        "Benevento",
+        "Caserta",
+        "Avellino"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Encina» es una planta típica de Caserta."
     },
     {
@@ -515,11 +515,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿De qué provincia es típico este plato: «Mozzarella de búfala de Campania»?",
       "choices": [
         "Avellino",
-        "Benevento",
         "Caserta",
-        "Nápoles"
+        "Benevento",
+        "Salerno"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Mozzarella de búfala de Campania» es un plato típico de Caserta."
     },
     {
@@ -529,11 +529,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿De qué provincia es típico este plato: «Manzana annurca»?",
       "choices": [
         "Salerno",
+        "Benevento",
         "Caserta",
-        "Avellino",
-        "Benevento"
+        "Avellino"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Manzana annurca» es un plato típico de Caserta."
     },
     {
@@ -542,10 +542,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Falerno del Massico»?",
       "choices": [
-        "Benevento",
+        "Salerno",
         "Caserta",
-        "Nápoles",
-        "Salerno"
+        "Benevento",
+        "Avellino"
       ],
       "correctIndex": 1,
       "explanation": "«Falerno del Massico» es un plato típico de Caserta."
@@ -556,9 +556,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Palacio Real de Caserta»?",
       "choices": [
-        "Nápoles",
-        "Caserta",
         "Benevento",
+        "Caserta",
+        "Salerno",
         "Avellino"
       ],
       "correctIndex": 1,
@@ -571,11 +571,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia se encuentra «Anfiteatro Campano»?",
       "choices": [
         "Avellino",
-        "Nápoles",
         "Caserta",
-        "Salerno"
+        "Nápoles",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Anfiteatro Campano» se encuentra en Caserta."
     },
     {
@@ -584,12 +584,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «San Leucio»?",
       "choices": [
+        "Avellino",
+        "Benevento",
         "Caserta",
-        "Salerno",
-        "Nápoles",
-        "Avellino"
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«San Leucio» se encuentra en Caserta."
     },
     {
@@ -598,12 +598,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Luigi Vanvitelli y el Palacio Real»?",
       "choices": [
+        "Avellino",
+        "Salerno",
         "Nápoles",
-        "Benevento",
-        "Caserta",
-        "Salerno"
+        "Caserta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Caserta."
     },
     {
@@ -612,12 +612,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Espartaco en Capua»?",
       "choices": [
-        "Caserta",
+        "Benevento",
         "Salerno",
-        "Avellino",
-        "Benevento"
+        "Caserta",
+        "Avellino"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Caserta."
     },
     {
@@ -626,12 +626,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «La batalla del Volturno»?",
       "choices": [
-        "Salerno",
+        "Caserta",
         "Nápoles",
-        "Avellino",
-        "Caserta"
+        "Salerno",
+        "Benevento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Caserta."
     },
     {
@@ -640,12 +640,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Lagartija azul»?",
       "choices": [
-        "Caserta",
-        "Salerno",
+        "Avellino",
         "Nápoles",
-        "Avellino"
+        "Salerno",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Lagartija azul» forma parte de la fauna de Nápoles."
     },
     {
@@ -654,12 +654,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Gaviota patiamarilla»?",
       "choices": [
-        "Nápoles",
         "Salerno",
-        "Caserta",
+        "Benevento",
+        "Nápoles",
         "Avellino"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Gaviota patiamarilla» forma parte de la fauna de Nápoles."
     },
     {
@@ -668,9 +668,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Halcón peregrino»?",
       "choices": [
-        "Salerno",
-        "Avellino",
+        "Caserta",
         "Benevento",
+        "Salerno",
         "Nápoles"
       ],
       "correctIndex": 3,
@@ -682,10 +682,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Limón de Sorrento»?",
       "choices": [
-        "Caserta",
+        "Benevento",
         "Salerno",
         "Nápoles",
-        "Avellino"
+        "Caserta"
       ],
       "correctIndex": 2,
       "explanation": "«Limón de Sorrento» es una planta típica de Nápoles."
@@ -697,9 +697,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia crece esta planta: «Retama»?",
       "choices": [
         "Nápoles",
-        "Caserta",
-        "Avellino",
-        "Benevento"
+        "Salerno",
+        "Benevento",
+        "Avellino"
       ],
       "correctIndex": 0,
       "explanation": "«Retama» es una planta típica de Nápoles."
@@ -710,12 +710,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Lentisco»?",
       "choices": [
-        "Salerno",
+        "Avellino",
         "Caserta",
-        "Benevento",
-        "Nápoles"
+        "Nápoles",
+        "Benevento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Lentisco» es una planta típica de Nápoles."
     },
     {
@@ -724,12 +724,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Pizza napolitana»?",
       "choices": [
-        "Benevento",
-        "Avellino",
+        "Caserta",
         "Nápoles",
-        "Caserta"
+        "Salerno",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Pizza napolitana» es un plato típico de Nápoles."
     },
     {
@@ -738,12 +738,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Sfogliatella»?",
       "choices": [
-        "Nápoles",
-        "Avellino",
+        "Caserta",
         "Benevento",
-        "Salerno"
+        "Nápoles",
+        "Avellino"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Sfogliatella» es un plato típico de Nápoles."
     },
     {
@@ -752,12 +752,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Babá»?",
       "choices": [
-        "Caserta",
-        "Avellino",
+        "Benevento",
+        "Nápoles",
         "Salerno",
-        "Nápoles"
+        "Avellino"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Babá» es un plato típico de Nápoles."
     },
     {
@@ -767,11 +767,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia se encuentra «Vesubio»?",
       "choices": [
         "Benevento",
-        "Salerno",
         "Nápoles",
-        "Avellino"
+        "Caserta",
+        "Salerno"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Vesubio» se encuentra en Nápoles."
     },
     {
@@ -780,12 +780,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Ruinas de Pompeya»?",
       "choices": [
-        "Caserta",
+        "Avellino",
+        "Benevento",
         "Salerno",
-        "Nápoles",
-        "Benevento"
+        "Nápoles"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Ruinas de Pompeya» se encuentra en Nápoles."
     },
     {
@@ -794,12 +794,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Isla de Capri»?",
       "choices": [
-        "Caserta",
+        "Nápoles",
         "Benevento",
         "Salerno",
-        "Nápoles"
+        "Caserta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Isla de Capri» se encuentra en Nápoles."
     },
     {
@@ -808,12 +808,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «La erupción del Vesubio del año 79»?",
       "choices": [
-        "Nápoles",
         "Salerno",
         "Benevento",
-        "Avellino"
+        "Nápoles",
+        "Caserta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Nápoles."
     },
     {
@@ -825,7 +825,7 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
         "Caserta",
         "Nápoles",
         "Benevento",
-        "Salerno"
+        "Avellino"
       ],
       "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Nápoles."
@@ -837,11 +837,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Las Cuatro Jornadas de Nápoles»?",
       "choices": [
         "Benevento",
-        "Salerno",
+        "Nápoles",
         "Caserta",
-        "Nápoles"
+        "Salerno"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Nápoles."
     },
     {
@@ -851,11 +851,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia vive este animal: «Nutria europea»?",
       "choices": [
         "Benevento",
-        "Avellino",
+        "Salerno",
         "Nápoles",
-        "Salerno"
+        "Avellino"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Nutria europea» forma parte de la fauna de Salerno."
     },
     {
@@ -865,9 +865,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia vive este animal: «Tortuga marina»?",
       "choices": [
         "Salerno",
+        "Nápoles",
         "Benevento",
-        "Caserta",
-        "Nápoles"
+        "Caserta"
       ],
       "correctIndex": 0,
       "explanation": "«Tortuga marina» forma parte de la fauna de Salerno."
@@ -878,12 +878,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Salamandrina de anteojos»?",
       "choices": [
-        "Benevento",
-        "Caserta",
+        "Nápoles",
         "Salerno",
+        "Benevento",
         "Avellino"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Salamandrina de anteojos» forma parte de la fauna de Salerno."
     },
     {
@@ -893,9 +893,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia crece esta planta: «Limón sfusato amalfitano»?",
       "choices": [
         "Salerno",
+        "Avellino",
         "Benevento",
-        "Nápoles",
-        "Caserta"
+        "Nápoles"
       ],
       "correctIndex": 0,
       "explanation": "«Limón sfusato amalfitano» es una planta típica de Salerno."
@@ -906,12 +906,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Prímula de Palinuro»?",
       "choices": [
-        "Caserta",
-        "Avellino",
         "Salerno",
-        "Nápoles"
+        "Benevento",
+        "Nápoles",
+        "Caserta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Prímula de Palinuro» es una planta típica de Salerno."
     },
     {
@@ -920,12 +920,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Algarrobo»?",
       "choices": [
-        "Nápoles",
         "Avellino",
-        "Benevento",
-        "Salerno"
+        "Salerno",
+        "Caserta",
+        "Nápoles"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Algarrobo» es una planta típica de Salerno."
     },
     {
@@ -934,12 +934,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Colatura de anchoas de Cetara»?",
       "choices": [
-        "Caserta",
-        "Avellino",
+        "Nápoles",
         "Salerno",
-        "Nápoles"
+        "Avellino",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Colatura de anchoas de Cetara» es un plato típico de Salerno."
     },
     {
@@ -949,9 +949,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿De qué provincia es típico este plato: «Delicia de limón»?",
       "choices": [
         "Salerno",
-        "Avellino",
         "Benevento",
-        "Nápoles"
+        "Caserta",
+        "Avellino"
       ],
       "correctIndex": 0,
       "explanation": "«Delicia de limón» es un plato típico de Salerno."
@@ -963,11 +963,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿De qué provincia es típico este plato: «Tomate San Marzano»?",
       "choices": [
         "Benevento",
-        "Nápoles",
-        "Avellino",
-        "Salerno"
+        "Caserta",
+        "Salerno",
+        "Nápoles"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Tomate San Marzano» es un plato típico de Salerno."
     },
     {
@@ -977,11 +977,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia se encuentra «Costa Amalfitana»?",
       "choices": [
         "Avellino",
+        "Salerno",
         "Benevento",
-        "Nápoles",
-        "Salerno"
+        "Nápoles"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Costa Amalfitana» se encuentra en Salerno."
     },
     {
@@ -992,8 +992,8 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "choices": [
         "Nápoles",
         "Salerno",
-        "Benevento",
-        "Avellino"
+        "Caserta",
+        "Benevento"
       ],
       "correctIndex": 1,
       "explanation": "«Templos de Paestum» se encuentra en Salerno."
@@ -1004,12 +1004,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Cartuja de Padula»?",
       "choices": [
-        "Caserta",
-        "Nápoles",
         "Salerno",
-        "Avellino"
+        "Nápoles",
+        "Benevento",
+        "Caserta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Cartuja de Padula» se encuentra en Salerno."
     },
     {
@@ -1019,11 +1019,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿A qué provincia pertenece este hecho histórico: «La Escuela Médica Salernitana»?",
       "choices": [
         "Benevento",
-        "Salerno",
+        "Nápoles",
         "Caserta",
-        "Avellino"
+        "Salerno"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Salerno."
     },
     {
@@ -1032,12 +1032,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «La República de Amalfi»?",
       "choices": [
-        "Salerno",
-        "Avellino",
         "Benevento",
-        "Caserta"
+        "Caserta",
+        "Nápoles",
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Salerno."
     },
     {
@@ -1046,12 +1046,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «La expedición de Sapri»?",
       "choices": [
-        "Salerno",
-        "Avellino",
+        "Nápoles",
         "Benevento",
-        "Caserta"
+        "Avellino",
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Salerno."
     }
   ],
@@ -1062,12 +1062,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Apennine wolf”?",
       "choices": [
-        "Benevento",
-        "Naples",
+        "Salerno",
         "Caserta",
-        "Avellino"
+        "Avellino",
+        "Naples"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Apennine wolf” is part of the wildlife of Avellino."
     },
     {
@@ -1090,12 +1090,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Red kite”?",
       "choices": [
-        "Salerno",
-        "Avellino",
+        "Benevento",
+        "Caserta",
         "Naples",
-        "Caserta"
+        "Avellino"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Red kite” is part of the wildlife of Avellino."
     },
     {
@@ -1105,11 +1105,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province does this plant grow: “Hazel”?",
       "choices": [
         "Salerno",
-        "Naples",
-        "Caserta",
-        "Avellino"
+        "Benevento",
+        "Avellino",
+        "Caserta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Hazel” is a typical plant of Avellino."
     },
     {
@@ -1118,12 +1118,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Beech”?",
       "choices": [
+        "Caserta",
         "Avellino",
         "Naples",
-        "Benevento",
-        "Caserta"
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Beech” is a typical plant of Avellino."
     },
     {
@@ -1132,12 +1132,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Turkey oak”?",
       "choices": [
-        "Salerno",
         "Avellino",
         "Caserta",
-        "Benevento"
+        "Benevento",
+        "Naples"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Turkey oak” is a typical plant of Avellino."
     },
     {
@@ -1147,11 +1147,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province is this dish typical of: “Montella chestnut”?",
       "choices": [
         "Caserta",
+        "Salerno",
         "Avellino",
-        "Naples",
-        "Salerno"
+        "Naples"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Montella chestnut” is a typical dish of Avellino."
     },
     {
@@ -1160,12 +1160,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is this dish typical of: “Black truffle of Bagnoli Irpino”?",
       "choices": [
-        "Avellino",
-        "Salerno",
+        "Benevento",
         "Naples",
-        "Caserta"
+        "Avellino",
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Black truffle of Bagnoli Irpino” is a typical dish of Avellino."
     },
     {
@@ -1175,11 +1175,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province is this dish typical of: “Hazelnut nougat”?",
       "choices": [
         "Naples",
-        "Avellino",
-        "Caserta",
-        "Benevento"
+        "Salerno",
+        "Benevento",
+        "Avellino"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Hazelnut nougat” is a typical dish of Avellino."
     },
     {
@@ -1189,8 +1189,8 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province is “Goleto Abbey”?",
       "choices": [
         "Benevento",
-        "Salerno",
         "Caserta",
+        "Naples",
         "Avellino"
       ],
       "correctIndex": 3,
@@ -1202,10 +1202,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is “Montevergine Sanctuary”?",
       "choices": [
-        "Naples",
+        "Benevento",
         "Caserta",
         "Avellino",
-        "Salerno"
+        "Naples"
       ],
       "correctIndex": 2,
       "explanation": "“Montevergine Sanctuary” is in Avellino."
@@ -1217,11 +1217,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province is “Lake Laceno”?",
       "choices": [
         "Benevento",
+        "Naples",
         "Salerno",
-        "Avellino",
-        "Naples"
+        "Avellino"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Lake Laceno” is in Avellino."
     },
     {
@@ -1232,8 +1232,8 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "choices": [
         "Benevento",
         "Avellino",
-        "Caserta",
-        "Naples"
+        "Salerno",
+        "Caserta"
       ],
       "correctIndex": 1,
       "explanation": "This fact is about Avellino."
@@ -1244,12 +1244,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “William of Vercelli”?",
       "choices": [
-        "Benevento",
         "Caserta",
         "Avellino",
-        "Salerno"
+        "Naples",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "This fact is about Avellino."
     },
     {
@@ -1259,9 +1259,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province does this historical fact belong to: “Francesco De Sanctis”?",
       "choices": [
         "Avellino",
+        "Benevento",
         "Caserta",
-        "Salerno",
-        "Benevento"
+        "Naples"
       ],
       "correctIndex": 0,
       "explanation": "This fact is about Avellino."
@@ -1272,12 +1272,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Wild boar”?",
       "choices": [
-        "Naples",
-        "Salerno",
+        "Caserta",
         "Benevento",
-        "Caserta"
+        "Avellino",
+        "Naples"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Wild boar” is part of the wildlife of Benevento."
     },
     {
@@ -1288,8 +1288,8 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "choices": [
         "Caserta",
         "Benevento",
-        "Salerno",
-        "Avellino"
+        "Avellino",
+        "Naples"
       ],
       "correctIndex": 1,
       "explanation": "“Italian hare” is part of the wildlife of Benevento."
@@ -1300,12 +1300,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Badger”?",
       "choices": [
-        "Salerno",
         "Caserta",
-        "Benevento",
-        "Avellino"
+        "Naples",
+        "Salerno",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Badger” is part of the wildlife of Benevento."
     },
     {
@@ -1314,12 +1314,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Walnut”?",
       "choices": [
-        "Avellino",
         "Salerno",
         "Benevento",
+        "Avellino",
         "Naples"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Walnut” is a typical plant of Benevento."
     },
     {
@@ -1328,12 +1328,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Downy oak”?",
       "choices": [
-        "Avellino",
-        "Caserta",
         "Benevento",
-        "Salerno"
+        "Naples",
+        "Salerno",
+        "Avellino"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Downy oak” is a typical plant of Benevento."
     },
     {
@@ -1342,10 +1342,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Olive tree”?",
       "choices": [
-        "Avellino",
-        "Caserta",
+        "Naples",
+        "Salerno",
         "Benevento",
-        "Salerno"
+        "Avellino"
       ],
       "correctIndex": 2,
       "explanation": "“Olive tree” is a typical plant of Benevento."
@@ -1357,7 +1357,7 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province is this dish typical of: “Cavatelli”?",
       "choices": [
         "Caserta",
-        "Salerno",
+        "Avellino",
         "Benevento",
         "Naples"
       ],
@@ -1370,12 +1370,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is this dish typical of: “Strega liqueur”?",
       "choices": [
-        "Benevento",
         "Salerno",
-        "Caserta",
-        "Naples"
+        "Benevento",
+        "Naples",
+        "Caserta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Strega liqueur” is a typical dish of Benevento."
     },
     {
@@ -1384,12 +1384,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is this dish typical of: “Sannio soppressata”?",
       "choices": [
-        "Avellino",
         "Salerno",
-        "Benevento",
-        "Caserta"
+        "Caserta",
+        "Naples",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Sannio soppressata” is a typical dish of Benevento."
     },
     {
@@ -1398,10 +1398,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is “Trajan's Arch”?",
       "choices": [
-        "Avellino",
-        "Salerno",
+        "Naples",
+        "Caserta",
         "Benevento",
-        "Caserta"
+        "Salerno"
       ],
       "correctIndex": 2,
       "explanation": "“Trajan's Arch” is in Benevento."
@@ -1413,11 +1413,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province is “Roman Theatre of Benevento”?",
       "choices": [
         "Naples",
-        "Salerno",
+        "Benevento",
         "Avellino",
-        "Benevento"
+        "Caserta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Roman Theatre of Benevento” is in Benevento."
     },
     {
@@ -1426,12 +1426,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is “Church of Santa Sofia”?",
       "choices": [
-        "Naples",
         "Benevento",
-        "Caserta",
-        "Salerno"
+        "Salerno",
+        "Naples",
+        "Caserta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Church of Santa Sofia” is in Benevento."
     },
     {
@@ -1440,12 +1440,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The Caudine Forks”?",
       "choices": [
-        "Benevento",
-        "Salerno",
         "Caserta",
-        "Avellino"
+        "Benevento",
+        "Naples",
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "This fact is about Benevento."
     },
     {
@@ -1454,10 +1454,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The Lombard Duchy”?",
       "choices": [
+        "Naples",
         "Caserta",
-        "Avellino",
         "Benevento",
-        "Naples"
+        "Salerno"
       ],
       "correctIndex": 2,
       "explanation": "This fact is about Benevento."
@@ -1468,12 +1468,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The Battle of Benevento”?",
       "choices": [
-        "Benevento",
-        "Salerno",
+        "Naples",
+        "Caserta",
         "Avellino",
-        "Naples"
+        "Benevento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "This fact is about Benevento."
     },
     {
@@ -1482,12 +1482,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Mediterranean buffalo”?",
       "choices": [
-        "Avellino",
-        "Naples",
         "Caserta",
-        "Benevento"
+        "Salerno",
+        "Benevento",
+        "Avellino"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Mediterranean buffalo” is part of the wildlife of Caserta."
     },
     {
@@ -1496,12 +1496,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Grey heron”?",
       "choices": [
+        "Naples",
+        "Avellino",
         "Caserta",
-        "Salerno",
-        "Benevento",
-        "Avellino"
+        "Benevento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Grey heron” is part of the wildlife of Caserta."
     },
     {
@@ -1510,10 +1510,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Golden eagle”?",
       "choices": [
-        "Salerno",
+        "Benevento",
         "Caserta",
-        "Avellino",
-        "Naples"
+        "Salerno",
+        "Avellino"
       ],
       "correctIndex": 1,
       "explanation": "“Golden eagle” is part of the wildlife of Caserta."
@@ -1524,12 +1524,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Sweet chestnut”?",
       "choices": [
-        "Caserta",
         "Naples",
-        "Avellino",
-        "Salerno"
+        "Caserta",
+        "Salerno",
+        "Avellino"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Sweet chestnut” is a typical plant of Caserta."
     },
     {
@@ -1538,12 +1538,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Stone pine”?",
       "choices": [
-        "Benevento",
-        "Avellino",
+        "Naples",
         "Caserta",
-        "Naples"
+        "Salerno",
+        "Avellino"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Stone pine” is a typical plant of Caserta."
     },
     {
@@ -1552,12 +1552,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Holm oak”?",
       "choices": [
-        "Salerno",
         "Naples",
-        "Avellino",
-        "Caserta"
+        "Benevento",
+        "Caserta",
+        "Avellino"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Holm oak” is a typical plant of Caserta."
     },
     {
@@ -1567,11 +1567,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province is this dish typical of: “Campanian buffalo mozzarella”?",
       "choices": [
         "Avellino",
-        "Benevento",
         "Caserta",
-        "Naples"
+        "Benevento",
+        "Salerno"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Campanian buffalo mozzarella” is a typical dish of Caserta."
     },
     {
@@ -1581,11 +1581,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province is this dish typical of: “Annurca apple”?",
       "choices": [
         "Salerno",
+        "Benevento",
         "Caserta",
-        "Avellino",
-        "Benevento"
+        "Avellino"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Annurca apple” is a typical dish of Caserta."
     },
     {
@@ -1594,10 +1594,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is this dish typical of: “Falerno del Massico”?",
       "choices": [
-        "Benevento",
+        "Salerno",
         "Caserta",
-        "Naples",
-        "Salerno"
+        "Benevento",
+        "Avellino"
       ],
       "correctIndex": 1,
       "explanation": "“Falerno del Massico” is a typical dish of Caserta."
@@ -1608,9 +1608,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is “Royal Palace of Caserta”?",
       "choices": [
-        "Naples",
-        "Caserta",
         "Benevento",
+        "Caserta",
+        "Salerno",
         "Avellino"
       ],
       "correctIndex": 1,
@@ -1623,11 +1623,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province is “Campanian Amphitheatre”?",
       "choices": [
         "Avellino",
-        "Naples",
         "Caserta",
-        "Salerno"
+        "Naples",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Campanian Amphitheatre” is in Caserta."
     },
     {
@@ -1636,12 +1636,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is “San Leucio”?",
       "choices": [
+        "Avellino",
+        "Benevento",
         "Caserta",
-        "Salerno",
-        "Naples",
-        "Avellino"
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“San Leucio” is in Caserta."
     },
     {
@@ -1650,12 +1650,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Luigi Vanvitelli and the Royal Palace”?",
       "choices": [
+        "Avellino",
+        "Salerno",
         "Naples",
-        "Benevento",
-        "Caserta",
-        "Salerno"
+        "Caserta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "This fact is about Caserta."
     },
     {
@@ -1664,12 +1664,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Spartacus at Capua”?",
       "choices": [
-        "Caserta",
+        "Benevento",
         "Salerno",
-        "Avellino",
-        "Benevento"
+        "Caserta",
+        "Avellino"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "This fact is about Caserta."
     },
     {
@@ -1678,12 +1678,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The Battle of the Volturno”?",
       "choices": [
-        "Salerno",
+        "Caserta",
         "Naples",
-        "Avellino",
-        "Caserta"
+        "Salerno",
+        "Benevento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "This fact is about Caserta."
     },
     {
@@ -1692,12 +1692,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Blue lizard”?",
       "choices": [
-        "Caserta",
-        "Salerno",
+        "Avellino",
         "Naples",
-        "Avellino"
+        "Salerno",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Blue lizard” is part of the wildlife of Naples."
     },
     {
@@ -1706,12 +1706,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Yellow-legged gull”?",
       "choices": [
-        "Naples",
         "Salerno",
-        "Caserta",
+        "Benevento",
+        "Naples",
         "Avellino"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Yellow-legged gull” is part of the wildlife of Naples."
     },
     {
@@ -1720,9 +1720,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Peregrine falcon”?",
       "choices": [
-        "Salerno",
-        "Avellino",
+        "Caserta",
         "Benevento",
+        "Salerno",
         "Naples"
       ],
       "correctIndex": 3,
@@ -1734,10 +1734,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Sorrento lemon”?",
       "choices": [
-        "Caserta",
+        "Benevento",
         "Salerno",
         "Naples",
-        "Avellino"
+        "Caserta"
       ],
       "correctIndex": 2,
       "explanation": "“Sorrento lemon” is a typical plant of Naples."
@@ -1749,9 +1749,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province does this plant grow: “Spanish broom”?",
       "choices": [
         "Naples",
-        "Caserta",
-        "Avellino",
-        "Benevento"
+        "Salerno",
+        "Benevento",
+        "Avellino"
       ],
       "correctIndex": 0,
       "explanation": "“Spanish broom” is a typical plant of Naples."
@@ -1762,12 +1762,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Mastic tree”?",
       "choices": [
-        "Salerno",
+        "Avellino",
         "Caserta",
-        "Benevento",
-        "Naples"
+        "Naples",
+        "Benevento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Mastic tree” is a typical plant of Naples."
     },
     {
@@ -1776,12 +1776,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is this dish typical of: “Neapolitan pizza”?",
       "choices": [
-        "Benevento",
-        "Avellino",
+        "Caserta",
         "Naples",
-        "Caserta"
+        "Salerno",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Neapolitan pizza” is a typical dish of Naples."
     },
     {
@@ -1790,12 +1790,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is this dish typical of: “Sfogliatella”?",
       "choices": [
-        "Naples",
-        "Avellino",
+        "Caserta",
         "Benevento",
-        "Salerno"
+        "Naples",
+        "Avellino"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Sfogliatella” is a typical dish of Naples."
     },
     {
@@ -1804,12 +1804,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is this dish typical of: “Babà”?",
       "choices": [
-        "Caserta",
-        "Avellino",
+        "Benevento",
+        "Naples",
         "Salerno",
-        "Naples"
+        "Avellino"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Babà” is a typical dish of Naples."
     },
     {
@@ -1819,11 +1819,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province is “Vesuvius”?",
       "choices": [
         "Benevento",
-        "Salerno",
         "Naples",
-        "Avellino"
+        "Caserta",
+        "Salerno"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Vesuvius” is in Naples."
     },
     {
@@ -1832,12 +1832,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is “Pompeii ruins”?",
       "choices": [
-        "Caserta",
+        "Avellino",
+        "Benevento",
         "Salerno",
-        "Naples",
-        "Benevento"
+        "Naples"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Pompeii ruins” is in Naples."
     },
     {
@@ -1846,12 +1846,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is “Island of Capri”?",
       "choices": [
-        "Caserta",
+        "Naples",
         "Benevento",
         "Salerno",
-        "Naples"
+        "Caserta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Island of Capri” is in Naples."
     },
     {
@@ -1860,12 +1860,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The eruption of Vesuvius in AD 79”?",
       "choices": [
-        "Naples",
         "Salerno",
         "Benevento",
-        "Avellino"
+        "Naples",
+        "Caserta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "This fact is about Naples."
     },
     {
@@ -1877,7 +1877,7 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
         "Caserta",
         "Naples",
         "Benevento",
-        "Salerno"
+        "Avellino"
       ],
       "correctIndex": 1,
       "explanation": "This fact is about Naples."
@@ -1889,11 +1889,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province does this historical fact belong to: “The Four Days of Naples”?",
       "choices": [
         "Benevento",
-        "Salerno",
+        "Naples",
         "Caserta",
-        "Naples"
+        "Salerno"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "This fact is about Naples."
     },
     {
@@ -1903,11 +1903,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province does this animal live: “European otter”?",
       "choices": [
         "Benevento",
-        "Avellino",
+        "Salerno",
         "Naples",
-        "Salerno"
+        "Avellino"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“European otter” is part of the wildlife of Salerno."
     },
     {
@@ -1917,9 +1917,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province does this animal live: “Sea turtle”?",
       "choices": [
         "Salerno",
+        "Naples",
         "Benevento",
-        "Caserta",
-        "Naples"
+        "Caserta"
       ],
       "correctIndex": 0,
       "explanation": "“Sea turtle” is part of the wildlife of Salerno."
@@ -1930,12 +1930,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Spectacled salamander”?",
       "choices": [
-        "Benevento",
-        "Caserta",
+        "Naples",
         "Salerno",
+        "Benevento",
         "Avellino"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Spectacled salamander” is part of the wildlife of Salerno."
     },
     {
@@ -1945,9 +1945,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province does this plant grow: “Amalfi sfusato lemon”?",
       "choices": [
         "Salerno",
+        "Avellino",
         "Benevento",
-        "Naples",
-        "Caserta"
+        "Naples"
       ],
       "correctIndex": 0,
       "explanation": "“Amalfi sfusato lemon” is a typical plant of Salerno."
@@ -1958,12 +1958,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Palinuro primrose”?",
       "choices": [
-        "Caserta",
-        "Avellino",
         "Salerno",
-        "Naples"
+        "Benevento",
+        "Naples",
+        "Caserta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Palinuro primrose” is a typical plant of Salerno."
     },
     {
@@ -1972,12 +1972,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Carob tree”?",
       "choices": [
-        "Naples",
         "Avellino",
-        "Benevento",
-        "Salerno"
+        "Salerno",
+        "Caserta",
+        "Naples"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Carob tree” is a typical plant of Salerno."
     },
     {
@@ -1986,12 +1986,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is this dish typical of: “Cetara anchovy colatura”?",
       "choices": [
-        "Caserta",
-        "Avellino",
+        "Naples",
         "Salerno",
-        "Naples"
+        "Avellino",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Cetara anchovy colatura” is a typical dish of Salerno."
     },
     {
@@ -2001,9 +2001,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province is this dish typical of: “Delizia al limone”?",
       "choices": [
         "Salerno",
-        "Avellino",
         "Benevento",
-        "Naples"
+        "Caserta",
+        "Avellino"
       ],
       "correctIndex": 0,
       "explanation": "“Delizia al limone” is a typical dish of Salerno."
@@ -2015,11 +2015,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province is this dish typical of: “San Marzano tomato”?",
       "choices": [
         "Benevento",
-        "Naples",
-        "Avellino",
-        "Salerno"
+        "Caserta",
+        "Salerno",
+        "Naples"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“San Marzano tomato” is a typical dish of Salerno."
     },
     {
@@ -2029,11 +2029,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province is “Amalfi Coast”?",
       "choices": [
         "Avellino",
+        "Salerno",
         "Benevento",
-        "Naples",
-        "Salerno"
+        "Naples"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Amalfi Coast” is in Salerno."
     },
     {
@@ -2044,8 +2044,8 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "choices": [
         "Naples",
         "Salerno",
-        "Benevento",
-        "Avellino"
+        "Caserta",
+        "Benevento"
       ],
       "correctIndex": 1,
       "explanation": "“Temples of Paestum” is in Salerno."
@@ -2056,12 +2056,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is “Padula Charterhouse”?",
       "choices": [
-        "Caserta",
-        "Naples",
         "Salerno",
-        "Avellino"
+        "Naples",
+        "Benevento",
+        "Caserta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Padula Charterhouse” is in Salerno."
     },
     {
@@ -2071,11 +2071,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province does this historical fact belong to: “The Salerno Medical School”?",
       "choices": [
         "Benevento",
-        "Salerno",
+        "Naples",
         "Caserta",
-        "Avellino"
+        "Salerno"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "This fact is about Salerno."
     },
     {
@@ -2084,12 +2084,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The Republic of Amalfi”?",
       "choices": [
-        "Salerno",
-        "Avellino",
         "Benevento",
-        "Caserta"
+        "Caserta",
+        "Naples",
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "This fact is about Salerno."
     },
     {
@@ -2098,12 +2098,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The Sapri expedition”?",
       "choices": [
-        "Salerno",
-        "Avellino",
+        "Naples",
         "Benevento",
-        "Caserta"
+        "Avellino",
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "This fact is about Salerno."
     }
   ],
@@ -2114,12 +2114,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Lupo appenninico»?",
       "choices": [
-        "Benevento",
-        "Napoli",
+        "Salerno",
         "Caserta",
-        "Avellino"
+        "Avellino",
+        "Napoli"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Lupo appenninico» fa parte della fauna di Avellino."
     },
     {
@@ -2142,12 +2142,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Nibbio reale»?",
       "choices": [
-        "Salerno",
-        "Avellino",
+        "Benevento",
+        "Caserta",
         "Napoli",
-        "Caserta"
+        "Avellino"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Nibbio reale» fa parte della fauna di Avellino."
     },
     {
@@ -2157,11 +2157,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia cresce questa pianta: «Nocciolo»?",
       "choices": [
         "Salerno",
-        "Napoli",
-        "Caserta",
-        "Avellino"
+        "Benevento",
+        "Avellino",
+        "Caserta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Nocciolo» è una pianta tipica di Avellino."
     },
     {
@@ -2170,12 +2170,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Faggio»?",
       "choices": [
+        "Caserta",
         "Avellino",
         "Napoli",
-        "Benevento",
-        "Caserta"
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Faggio» è una pianta tipica di Avellino."
     },
     {
@@ -2184,12 +2184,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Cerro»?",
       "choices": [
-        "Salerno",
         "Avellino",
         "Caserta",
-        "Benevento"
+        "Benevento",
+        "Napoli"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Cerro» è una pianta tipica di Avellino."
     },
     {
@@ -2199,11 +2199,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Di quale provincia è tipico questo piatto: «Castagna di Montella»?",
       "choices": [
         "Caserta",
+        "Salerno",
         "Avellino",
-        "Napoli",
-        "Salerno"
+        "Napoli"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Castagna di Montella» è un piatto tipico di Avellino."
     },
     {
@@ -2212,12 +2212,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Tartufo nero di Bagnoli Irpino»?",
       "choices": [
-        "Avellino",
-        "Salerno",
+        "Benevento",
         "Napoli",
-        "Caserta"
+        "Avellino",
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Tartufo nero di Bagnoli Irpino» è un piatto tipico di Avellino."
     },
     {
@@ -2227,11 +2227,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Di quale provincia è tipico questo piatto: «Torrone di nocciole»?",
       "choices": [
         "Napoli",
-        "Avellino",
-        "Caserta",
-        "Benevento"
+        "Salerno",
+        "Benevento",
+        "Avellino"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Torrone di nocciole» è un piatto tipico di Avellino."
     },
     {
@@ -2241,8 +2241,8 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia si trova «Abbazia del Goleto»?",
       "choices": [
         "Benevento",
-        "Salerno",
         "Caserta",
+        "Napoli",
         "Avellino"
       ],
       "correctIndex": 3,
@@ -2254,10 +2254,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova «Santuario di Montevergine»?",
       "choices": [
-        "Napoli",
+        "Benevento",
         "Caserta",
         "Avellino",
-        "Salerno"
+        "Napoli"
       ],
       "correctIndex": 2,
       "explanation": "«Santuario di Montevergine» si trova in Avellino."
@@ -2269,11 +2269,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia si trova «Lago Laceno»?",
       "choices": [
         "Benevento",
+        "Napoli",
         "Salerno",
-        "Avellino",
-        "Napoli"
+        "Avellino"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Lago Laceno» si trova in Avellino."
     },
     {
@@ -2284,8 +2284,8 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "choices": [
         "Benevento",
         "Avellino",
-        "Caserta",
-        "Napoli"
+        "Salerno",
+        "Caserta"
       ],
       "correctIndex": 1,
       "explanation": "Questo fatto riguarda Avellino."
@@ -2296,12 +2296,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Guglielmo da Vercelli»?",
       "choices": [
-        "Benevento",
         "Caserta",
         "Avellino",
-        "Salerno"
+        "Napoli",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "Questo fatto riguarda Avellino."
     },
     {
@@ -2311,9 +2311,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "A quale provincia appartiene questo fatto storico: «Francesco De Sanctis»?",
       "choices": [
         "Avellino",
+        "Benevento",
         "Caserta",
-        "Salerno",
-        "Benevento"
+        "Napoli"
       ],
       "correctIndex": 0,
       "explanation": "Questo fatto riguarda Avellino."
@@ -2324,12 +2324,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Cinghiale»?",
       "choices": [
-        "Napoli",
-        "Salerno",
+        "Caserta",
         "Benevento",
-        "Caserta"
+        "Avellino",
+        "Napoli"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Cinghiale» fa parte della fauna di Benevento."
     },
     {
@@ -2340,8 +2340,8 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "choices": [
         "Caserta",
         "Benevento",
-        "Salerno",
-        "Avellino"
+        "Avellino",
+        "Napoli"
       ],
       "correctIndex": 1,
       "explanation": "«Lepre italica» fa parte della fauna di Benevento."
@@ -2352,12 +2352,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Tasso»?",
       "choices": [
-        "Salerno",
         "Caserta",
-        "Benevento",
-        "Avellino"
+        "Napoli",
+        "Salerno",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Tasso» fa parte della fauna di Benevento."
     },
     {
@@ -2366,12 +2366,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Noce»?",
       "choices": [
-        "Avellino",
         "Salerno",
         "Benevento",
+        "Avellino",
         "Napoli"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Noce» è una pianta tipica di Benevento."
     },
     {
@@ -2380,12 +2380,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Roverella»?",
       "choices": [
-        "Avellino",
-        "Caserta",
         "Benevento",
-        "Salerno"
+        "Napoli",
+        "Salerno",
+        "Avellino"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Roverella» è una pianta tipica di Benevento."
     },
     {
@@ -2394,10 +2394,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Ulivo»?",
       "choices": [
-        "Avellino",
-        "Caserta",
+        "Napoli",
+        "Salerno",
         "Benevento",
-        "Salerno"
+        "Avellino"
       ],
       "correctIndex": 2,
       "explanation": "«Ulivo» è una pianta tipica di Benevento."
@@ -2409,7 +2409,7 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Di quale provincia è tipico questo piatto: «Cavatelli»?",
       "choices": [
         "Caserta",
-        "Salerno",
+        "Avellino",
         "Benevento",
         "Napoli"
       ],
@@ -2422,12 +2422,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Liquore Strega»?",
       "choices": [
-        "Benevento",
         "Salerno",
-        "Caserta",
-        "Napoli"
+        "Benevento",
+        "Napoli",
+        "Caserta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Liquore Strega» è un piatto tipico di Benevento."
     },
     {
@@ -2436,12 +2436,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Soppressata sannita»?",
       "choices": [
-        "Avellino",
         "Salerno",
-        "Benevento",
-        "Caserta"
+        "Caserta",
+        "Napoli",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Soppressata sannita» è un piatto tipico di Benevento."
     },
     {
@@ -2450,10 +2450,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova «Arco di Traiano»?",
       "choices": [
-        "Avellino",
-        "Salerno",
+        "Napoli",
+        "Caserta",
         "Benevento",
-        "Caserta"
+        "Salerno"
       ],
       "correctIndex": 2,
       "explanation": "«Arco di Traiano» si trova in Benevento."
@@ -2465,11 +2465,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia si trova «Teatro romano di Benevento»?",
       "choices": [
         "Napoli",
-        "Salerno",
+        "Benevento",
         "Avellino",
-        "Benevento"
+        "Caserta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Teatro romano di Benevento» si trova in Benevento."
     },
     {
@@ -2478,12 +2478,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova «Chiesa di Santa Sofia»?",
       "choices": [
-        "Napoli",
         "Benevento",
-        "Caserta",
-        "Salerno"
+        "Salerno",
+        "Napoli",
+        "Caserta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Chiesa di Santa Sofia» si trova in Benevento."
     },
     {
@@ -2492,12 +2492,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Le Forche Caudine»?",
       "choices": [
-        "Benevento",
-        "Salerno",
         "Caserta",
-        "Avellino"
+        "Benevento",
+        "Napoli",
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Questo fatto riguarda Benevento."
     },
     {
@@ -2506,10 +2506,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Il Ducato longobardo»?",
       "choices": [
+        "Napoli",
         "Caserta",
-        "Avellino",
         "Benevento",
-        "Napoli"
+        "Salerno"
       ],
       "correctIndex": 2,
       "explanation": "Questo fatto riguarda Benevento."
@@ -2520,12 +2520,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «La battaglia di Benevento»?",
       "choices": [
-        "Benevento",
-        "Salerno",
+        "Napoli",
+        "Caserta",
         "Avellino",
-        "Napoli"
+        "Benevento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Benevento."
     },
     {
@@ -2534,12 +2534,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Bufala mediterranea»?",
       "choices": [
-        "Avellino",
-        "Napoli",
         "Caserta",
-        "Benevento"
+        "Salerno",
+        "Benevento",
+        "Avellino"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Bufala mediterranea» fa parte della fauna di Caserta."
     },
     {
@@ -2548,12 +2548,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Airone cenerino»?",
       "choices": [
+        "Napoli",
+        "Avellino",
         "Caserta",
-        "Salerno",
-        "Benevento",
-        "Avellino"
+        "Benevento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Airone cenerino» fa parte della fauna di Caserta."
     },
     {
@@ -2562,10 +2562,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Aquila reale»?",
       "choices": [
-        "Salerno",
+        "Benevento",
         "Caserta",
-        "Avellino",
-        "Napoli"
+        "Salerno",
+        "Avellino"
       ],
       "correctIndex": 1,
       "explanation": "«Aquila reale» fa parte della fauna di Caserta."
@@ -2576,12 +2576,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Castagno»?",
       "choices": [
-        "Caserta",
         "Napoli",
-        "Avellino",
-        "Salerno"
+        "Caserta",
+        "Salerno",
+        "Avellino"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Castagno» è una pianta tipica di Caserta."
     },
     {
@@ -2590,12 +2590,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Pino domestico»?",
       "choices": [
-        "Benevento",
-        "Avellino",
+        "Napoli",
         "Caserta",
-        "Napoli"
+        "Salerno",
+        "Avellino"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Pino domestico» è una pianta tipica di Caserta."
     },
     {
@@ -2604,12 +2604,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Leccio»?",
       "choices": [
-        "Salerno",
         "Napoli",
-        "Avellino",
-        "Caserta"
+        "Benevento",
+        "Caserta",
+        "Avellino"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Leccio» è una pianta tipica di Caserta."
     },
     {
@@ -2619,11 +2619,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Di quale provincia è tipico questo piatto: «Mozzarella di bufala campana»?",
       "choices": [
         "Avellino",
-        "Benevento",
         "Caserta",
-        "Napoli"
+        "Benevento",
+        "Salerno"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Mozzarella di bufala campana» è un piatto tipico di Caserta."
     },
     {
@@ -2633,11 +2633,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Di quale provincia è tipico questo piatto: «Mela annurca»?",
       "choices": [
         "Salerno",
+        "Benevento",
         "Caserta",
-        "Avellino",
-        "Benevento"
+        "Avellino"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Mela annurca» è un piatto tipico di Caserta."
     },
     {
@@ -2646,10 +2646,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Falerno del Massico»?",
       "choices": [
-        "Benevento",
+        "Salerno",
         "Caserta",
-        "Napoli",
-        "Salerno"
+        "Benevento",
+        "Avellino"
       ],
       "correctIndex": 1,
       "explanation": "«Falerno del Massico» è un piatto tipico di Caserta."
@@ -2660,9 +2660,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova «Reggia di Caserta»?",
       "choices": [
-        "Napoli",
-        "Caserta",
         "Benevento",
+        "Caserta",
+        "Salerno",
         "Avellino"
       ],
       "correctIndex": 1,
@@ -2675,11 +2675,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia si trova «Anfiteatro Campano»?",
       "choices": [
         "Avellino",
-        "Napoli",
         "Caserta",
-        "Salerno"
+        "Napoli",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Anfiteatro Campano» si trova in Caserta."
     },
     {
@@ -2688,12 +2688,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova «San Leucio»?",
       "choices": [
+        "Avellino",
+        "Benevento",
         "Caserta",
-        "Salerno",
-        "Napoli",
-        "Avellino"
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«San Leucio» si trova in Caserta."
     },
     {
@@ -2702,12 +2702,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Luigi Vanvitelli e la Reggia»?",
       "choices": [
+        "Avellino",
+        "Salerno",
         "Napoli",
-        "Benevento",
-        "Caserta",
-        "Salerno"
+        "Caserta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Caserta."
     },
     {
@@ -2716,12 +2716,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Spartaco a Capua»?",
       "choices": [
-        "Caserta",
+        "Benevento",
         "Salerno",
-        "Avellino",
-        "Benevento"
+        "Caserta",
+        "Avellino"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Caserta."
     },
     {
@@ -2730,12 +2730,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «La battaglia del Volturno»?",
       "choices": [
-        "Salerno",
+        "Caserta",
         "Napoli",
-        "Avellino",
-        "Caserta"
+        "Salerno",
+        "Benevento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Caserta."
     },
     {
@@ -2744,12 +2744,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Lucertola azzurra»?",
       "choices": [
-        "Caserta",
-        "Salerno",
+        "Avellino",
         "Napoli",
-        "Avellino"
+        "Salerno",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Lucertola azzurra» fa parte della fauna di Napoli."
     },
     {
@@ -2758,12 +2758,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Gabbiano reale»?",
       "choices": [
-        "Napoli",
         "Salerno",
-        "Caserta",
+        "Benevento",
+        "Napoli",
         "Avellino"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Gabbiano reale» fa parte della fauna di Napoli."
     },
     {
@@ -2772,9 +2772,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Falco pellegrino»?",
       "choices": [
-        "Salerno",
-        "Avellino",
+        "Caserta",
         "Benevento",
+        "Salerno",
         "Napoli"
       ],
       "correctIndex": 3,
@@ -2786,10 +2786,10 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Limone di Sorrento»?",
       "choices": [
-        "Caserta",
+        "Benevento",
         "Salerno",
         "Napoli",
-        "Avellino"
+        "Caserta"
       ],
       "correctIndex": 2,
       "explanation": "«Limone di Sorrento» è una pianta tipica di Napoli."
@@ -2801,9 +2801,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia cresce questa pianta: «Ginestra»?",
       "choices": [
         "Napoli",
-        "Caserta",
-        "Avellino",
-        "Benevento"
+        "Salerno",
+        "Benevento",
+        "Avellino"
       ],
       "correctIndex": 0,
       "explanation": "«Ginestra» è una pianta tipica di Napoli."
@@ -2814,12 +2814,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Lentisco»?",
       "choices": [
-        "Salerno",
+        "Avellino",
         "Caserta",
-        "Benevento",
-        "Napoli"
+        "Napoli",
+        "Benevento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Lentisco» è una pianta tipica di Napoli."
     },
     {
@@ -2828,12 +2828,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Pizza napoletana»?",
       "choices": [
-        "Benevento",
-        "Avellino",
+        "Caserta",
         "Napoli",
-        "Caserta"
+        "Salerno",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Pizza napoletana» è un piatto tipico di Napoli."
     },
     {
@@ -2842,12 +2842,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Sfogliatella»?",
       "choices": [
-        "Napoli",
-        "Avellino",
+        "Caserta",
         "Benevento",
-        "Salerno"
+        "Napoli",
+        "Avellino"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Sfogliatella» è un piatto tipico di Napoli."
     },
     {
@@ -2856,12 +2856,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Babà»?",
       "choices": [
-        "Caserta",
-        "Avellino",
+        "Benevento",
+        "Napoli",
         "Salerno",
-        "Napoli"
+        "Avellino"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Babà» è un piatto tipico di Napoli."
     },
     {
@@ -2871,11 +2871,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia si trova «Vesuvio»?",
       "choices": [
         "Benevento",
-        "Salerno",
         "Napoli",
-        "Avellino"
+        "Caserta",
+        "Salerno"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Vesuvio» si trova in Napoli."
     },
     {
@@ -2884,12 +2884,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova «Scavi di Pompei»?",
       "choices": [
-        "Caserta",
+        "Avellino",
+        "Benevento",
         "Salerno",
-        "Napoli",
-        "Benevento"
+        "Napoli"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Scavi di Pompei» si trova in Napoli."
     },
     {
@@ -2898,12 +2898,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova «Isola di Capri»?",
       "choices": [
-        "Caserta",
+        "Napoli",
         "Benevento",
         "Salerno",
-        "Napoli"
+        "Caserta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Isola di Capri» si trova in Napoli."
     },
     {
@@ -2912,12 +2912,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «L'eruzione del Vesuvio del 79»?",
       "choices": [
-        "Napoli",
         "Salerno",
         "Benevento",
-        "Avellino"
+        "Napoli",
+        "Caserta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Napoli."
     },
     {
@@ -2929,7 +2929,7 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
         "Caserta",
         "Napoli",
         "Benevento",
-        "Salerno"
+        "Avellino"
       ],
       "correctIndex": 1,
       "explanation": "Questo fatto riguarda Napoli."
@@ -2941,11 +2941,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "A quale provincia appartiene questo fatto storico: «Le Quattro giornate di Napoli»?",
       "choices": [
         "Benevento",
-        "Salerno",
+        "Napoli",
         "Caserta",
-        "Napoli"
+        "Salerno"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Questo fatto riguarda Napoli."
     },
     {
@@ -2955,11 +2955,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia vive questo animale: «Lontra europea»?",
       "choices": [
         "Benevento",
-        "Avellino",
+        "Salerno",
         "Napoli",
-        "Salerno"
+        "Avellino"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Lontra europea» fa parte della fauna di Salerno."
     },
     {
@@ -2969,9 +2969,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia vive questo animale: «Tartaruga marina»?",
       "choices": [
         "Salerno",
+        "Napoli",
         "Benevento",
-        "Caserta",
-        "Napoli"
+        "Caserta"
       ],
       "correctIndex": 0,
       "explanation": "«Tartaruga marina» fa parte della fauna di Salerno."
@@ -2982,12 +2982,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Salamandrina dagli occhiali»?",
       "choices": [
-        "Benevento",
-        "Caserta",
+        "Napoli",
         "Salerno",
+        "Benevento",
         "Avellino"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Salamandrina dagli occhiali» fa parte della fauna di Salerno."
     },
     {
@@ -2997,9 +2997,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia cresce questa pianta: «Limone sfusato amalfitano»?",
       "choices": [
         "Salerno",
+        "Avellino",
         "Benevento",
-        "Napoli",
-        "Caserta"
+        "Napoli"
       ],
       "correctIndex": 0,
       "explanation": "«Limone sfusato amalfitano» è una pianta tipica di Salerno."
@@ -3010,12 +3010,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Primula di Palinuro»?",
       "choices": [
-        "Caserta",
-        "Avellino",
         "Salerno",
-        "Napoli"
+        "Benevento",
+        "Napoli",
+        "Caserta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Primula di Palinuro» è una pianta tipica di Salerno."
     },
     {
@@ -3024,12 +3024,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Carrubo»?",
       "choices": [
-        "Napoli",
         "Avellino",
-        "Benevento",
-        "Salerno"
+        "Salerno",
+        "Caserta",
+        "Napoli"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Carrubo» è una pianta tipica di Salerno."
     },
     {
@@ -3038,12 +3038,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Colatura di alici di Cetara»?",
       "choices": [
-        "Caserta",
-        "Avellino",
+        "Napoli",
         "Salerno",
-        "Napoli"
+        "Avellino",
+        "Benevento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Colatura di alici di Cetara» è un piatto tipico di Salerno."
     },
     {
@@ -3053,9 +3053,9 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Di quale provincia è tipico questo piatto: «Delizia al limone»?",
       "choices": [
         "Salerno",
-        "Avellino",
         "Benevento",
-        "Napoli"
+        "Caserta",
+        "Avellino"
       ],
       "correctIndex": 0,
       "explanation": "«Delizia al limone» è un piatto tipico di Salerno."
@@ -3067,11 +3067,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Di quale provincia è tipico questo piatto: «Pomodoro San Marzano»?",
       "choices": [
         "Benevento",
-        "Napoli",
-        "Avellino",
-        "Salerno"
+        "Caserta",
+        "Salerno",
+        "Napoli"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Pomodoro San Marzano» è un piatto tipico di Salerno."
     },
     {
@@ -3081,11 +3081,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia si trova «Costiera Amalfitana»?",
       "choices": [
         "Avellino",
+        "Salerno",
         "Benevento",
-        "Napoli",
-        "Salerno"
+        "Napoli"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Costiera Amalfitana» si trova in Salerno."
     },
     {
@@ -3096,8 +3096,8 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "choices": [
         "Napoli",
         "Salerno",
-        "Benevento",
-        "Avellino"
+        "Caserta",
+        "Benevento"
       ],
       "correctIndex": 1,
       "explanation": "«Templi di Paestum» si trova in Salerno."
@@ -3108,12 +3108,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova «Certosa di Padula»?",
       "choices": [
-        "Caserta",
-        "Napoli",
         "Salerno",
-        "Avellino"
+        "Napoli",
+        "Benevento",
+        "Caserta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Certosa di Padula» si trova in Salerno."
     },
     {
@@ -3123,11 +3123,11 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "prompt": "A quale provincia appartiene questo fatto storico: «La Scuola Medica Salernitana»?",
       "choices": [
         "Benevento",
-        "Salerno",
+        "Napoli",
         "Caserta",
-        "Avellino"
+        "Salerno"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Salerno."
     },
     {
@@ -3136,12 +3136,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «La Repubblica di Amalfi»?",
       "choices": [
-        "Salerno",
-        "Avellino",
         "Benevento",
-        "Caserta"
+        "Caserta",
+        "Napoli",
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Salerno."
     },
     {
@@ -3150,12 +3150,12 @@ export const TRIVIA_QUESTIONS_CAMPANIA: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «La spedizione di Sapri»?",
       "choices": [
-        "Salerno",
-        "Avellino",
+        "Napoli",
         "Benevento",
-        "Caserta"
+        "Avellino",
+        "Salerno"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Salerno."
     }
   ]

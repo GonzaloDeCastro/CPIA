@@ -1,1 +1,665 @@
-{ "zones": {} }
+{
+ "zones": {
+  "agrigento": {
+   "spotlight": "Agrigento tiene unos cuatrocientos diez mil habitantes. La capital está sobre una colina; en el territorio se encuentran Sciacca, Licata y, mucho más al sur, Lampedusa y Linosa.\nLa provincia es famosa por el Valle de los Templos, la Escalera de los Turcos y un mar que en verano se llena de tortugas.\nEl Templo de la Concordia, del siglo V a. C., es uno de los templos griegos mejor conservados del mundo.",
+   "plants": [
+    {
+     "name": "Almendro",
+     "description": "En febrero los almendrales de la provincia se cubren de flores blancas y rosadas, antes de que salgan las hojas. Con los frutos se hacen dulces y leche de almendra."
+    },
+    {
+     "name": "Chumbera",
+     "description": "Crece en las laderas secas y sobre los muros de piedra. La fruta se pela con dos cortes y se come fresca, a fines del verano."
+    },
+    {
+     "name": "Olivo",
+     "description": "Los olivos bajos y retorcidos marcan las colinas hasta el mar. El aceite de estas tierras acompaña el macco y el pan."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Cernícalo primilla",
+     "description": "Pequeño halcón que anida en colonias entre los techos y las rocas cerca de los templos. Come grillos y saltamontes en los campos de trigo."
+    },
+    {
+     "name": "Tortuga marina",
+     "description": "En Lampedusa, en la Playa de los Conejos, pone sus huevos en la arena. Los nidos se protegen hasta que las crías llegan al mar."
+    },
+    {
+     "name": "Gaviota de Audouin",
+     "description": "Gaviota rara, de pico rojo, que vive en las islas Pelagias. Pesca de noche y no roba comida como otras gaviotas."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Macco de habas",
+     "description": "Puré de habas secas, aceite e hinojo. Era el plato de los campesinos y todavía se come tibio, con pan."
+    },
+    {
+     "name": "Blancmange",
+     "description": "Dulce suave de leche de almendra y almidón, blanco y fresco. Se prepara para las fiestas, a menudo con canela o cáscara de limón."
+    },
+    {
+     "name": "Caponata",
+     "description": "Verduras fritas, berenjenas, apio, alcaparras y aceitunas, en agridulce. Se come fría, en verano, con pan."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Valle de los Templos",
+     "description": "Hilera de templos griegos sobre una cresta frente al mar. Al atardecer la piedra se vuelve color miel."
+    },
+    {
+     "name": "Escalera de los Turcos",
+     "description": "Acantilado blanco de marga, en forma de escalones, entre Realmonte y Porto Empedocle. Parece una escalera tallada por el viento y la sal."
+    },
+    {
+     "name": "Lampedusa",
+     "description": "La isla habitada más al sur de Italia, más cerca de Túnez que de Palermo. El agua de la Playa de los Conejos es de las más claras del Mediterráneo."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Templo de la Concordia",
+     "description": "Construido hacia el 430 a. C., más tarde se convirtió en iglesia y por eso no fue desmontado. Hoy es el símbolo de la antigua Agrigento, Akragas."
+    },
+    {
+     "name": "Empédocles",
+     "description": "Filósofo de Akragas, en el siglo V a. C. Imaginó que todo nacía de cuatro raíces: tierra, agua, aire y fuego."
+    },
+    {
+     "name": "Luigi Pirandello",
+     "description": "Escritor nacido en la provincia, en Caos, en 1867. Ganó el Nobel y contó historias de personas que llevan muchas máscaras, como en el teatro."
+    }
+   ]
+  },
+  "caltanissetta": {
+   "spotlight": "Caltanissetta tiene unos doscientos cincuenta mil habitantes. La capital es una encrucijada; alrededor están Gela, sobre la costa, y Mussomeli, con su castillo.\nLa provincia es famosa por las antiguas minas de azufre, el turrón de la fiesta de San Miguel y los campos de trigo duro.\nDurante siglos aquí se extrajo azufre, que se exportaba a toda Europa para hacer pólvora y ácido.",
+   "plants": [
+    {
+     "name": "Trigo duro",
+     "description": "El trigo alto y dorado de estas colinas se convierte en sémola para el pan y la pasta. En verano los campos parecen un mar quieto."
+    },
+    {
+     "name": "Cañaheja",
+     "description": "Planta alta, de flores amarillas en forma de sombrilla, típica de los bordes de los caminos y los pastizales. Los pastores usaban su tallo seco, liviano y resistente."
+    },
+    {
+     "name": "Lentisco",
+     "description": "Arbusto de hoja perenne del matorral, con bayas rojas que se vuelven negras. Las hojas, al estrujarlas, huelen a resina."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Puercoespín",
+     "description": "Roedor nocturno cubierto de púas. De día se queda en la madriguera; de noche sale a buscar raíces y frutas caídas."
+    },
+    {
+     "name": "Zorro",
+     "description": "Se mueve entre barrancos y campos al anochecer. Come insectos, uvas y animales pequeños, y se adapta incluso cerca de los pueblos."
+    },
+    {
+     "name": "Busardo ratonero",
+     "description": "Rapaz que planea en círculos amplios sobre las colinas. Caza ratones y lagartijas y a menudo se posa en los postes."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Turrón de Caltanissetta",
+     "description": "Turrón de miel, almendras y pistachos, duro de partir. Se prepara sobre todo para la fiesta de San Miguel, en septiembre."
+    },
+    {
+     "name": "Cavatelli",
+     "description": "Pasta corta de sémola, condimentada con salsa de tomate y ricota salada. Es el formato de los días de fiesta en las casas del interior."
+    },
+    {
+     "name": "Pagnotta del Dittaino",
+     "description": "Pan de sémola de trigo duro, cocido a leña, de corteza oscura. Toma su nombre del río Dittaino, que atraviesa estos campos."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Castillo de Mussomeli",
+     "description": "Castillo del siglo XIV pegado a un espolón de roca. Abajo, el vacío; adentro, salas y leyendas de prisiones."
+    },
+    {
+     "name": "Catedral de Caltanissetta",
+     "description": "Gran iglesia de la capital, rehecha en el siglo XIX, con una escalinata que domina la plaza. Adentro guarda lienzos y mármoles."
+    },
+    {
+     "name": "Monte Capodarso",
+     "description": "Reserva de yesos, barrancos y el río Imera. Es un paisaje desnudo, hermoso después de la lluvia, cuando el verde dura poco."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Minas de azufre",
+     "description": "Minas de azufre excavadas a mano, donde durante décadas niños cargaron el mineral sobre sus espaldas. Hoy muchas son museos o ruinas."
+    },
+    {
+     "name": "Fasci Sicilianos",
+     "description": "En 1893 los campesinos y los mineros se organizaron para pedir pan y salarios más justos. El Estado respondió con cárcel y cañones."
+    },
+    {
+     "name": "La Gela griega",
+     "description": "Gela fue fundada por los griegos en el 689 a. C. y de allí partió la colonización de Agrigento. En la costa quedan murallas y un museo arqueológico."
+    }
+   ]
+  },
+  "catania": {
+   "spotlight": "Catania tiene alrededor de un millón de habitantes en el área metropolitana. La capital está sobre el mar; alrededor están Acireale, Caltagirone y los pueblos del Etna.\nLa provincia es famosa por el volcán, el barroco negro, el pistacho de Bronte y una cocina de berenjenas, ricota y hielo.\nEl Etna es el volcán activo más alto de Europa. Su lava destruyó y reconstruyó Catania más de una vez.",
+   "plants": [
+    {
+     "name": "Retama del Etna",
+     "description": "Arbusto de la lava, con flores amarillas que en junio cubren las laderas del Etna. Resiste el suelo pobre y el viento de montaña."
+    },
+    {
+     "name": "Castaño",
+     "description": "Bosques de castaños cubren un anillo del volcán. En otoño los erizos se abren y las castañas terminan en el fuego y en los postres."
+    },
+    {
+     "name": "Pistacho",
+     "description": "En Bronte el pistacho crece sobre la lava. El fruto verde se usa en el pesto, en los postres e incluso en la mortadela y el helado."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Perdiz siciliana",
+     "description": "Ave terrestre, de pico y patas rojos, que vive entre las piedras del Etna y de los montes. Prefiere correr antes que volar."
+    },
+    {
+     "name": "Zorro",
+     "description": "En los bosques del Etna sale al atardecer. Se reconoce por la cola espesa y se alimenta de ratones, frutas y lo que encuentra en los pueblos de montaña."
+    },
+    {
+     "name": "Erizo",
+     "description": "Pequeño mamífero cubierto de púas, común en jardines y campos. De noche busca insectos y caracoles; si tiene miedo se hace una bola."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Pasta alla Norma",
+     "description": "Pasta con tomate, berenjenas fritas, ricota salada y albahaca. Toma su nombre de la ópera Norma, de Bellini, hijo de Catania."
+    },
+    {
+     "name": "Arancino",
+     "description": "Arroz con azafrán, ragú y arvejas, empanado y frito. En Catania se dice arancino, en masculino, y a menudo tiene forma de punta."
+    },
+    {
+     "name": "Granita",
+     "description": "Hielo granizado de limón, almendra o café, que se toma en el desayuno con la brioche col tuppo. En verano es el ritual de la ciudad."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Etna",
+     "description": "Volcán que se ve desde casi toda la provincia. Se sube entre lavas negras, bosques y, en invierno, también nieve."
+    },
+    {
+     "name": "Fuente del Elefante",
+     "description": "Elefante de piedra lávica en la plaza del Duomo, con un obelisco egipcio sobre el lomo. Los catanenses lo llaman u Liotru y es el símbolo de la ciudad."
+    },
+    {
+     "name": "Caltagirone",
+     "description": "Ciudad de la cerámica, con una escalera de 142 escalones cubiertos de mayólicas de colores. En julio la escalera se ilumina con miles de lucecitas."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Erupción de 1669",
+     "description": "La lava llegó a Catania y alcanzó el mar, desplazando la costa. Las murallas frenaron en parte el río de fuego, pero barrios enteros desaparecieron."
+    },
+    {
+     "name": "Santa Águeda",
+     "description": "Del 3 al 5 de febrero la ciudad lleva en andas el féretro de la santa, entre candelore y fuegos artificiales. Es una de las fiestas religiosas más grandes de Europa."
+    },
+    {
+     "name": "Vincenzo Bellini",
+     "description": "Compositor nacido en Catania en 1801. Sus óperas, como Norma, se cantan todavía en todo el mundo; el teatro más grande de la ciudad lleva su nombre."
+    }
+   ]
+  },
+  "enna": {
+   "spotlight": "Enna tiene unos ciento cincuenta y cinco mil habitantes, menos que cualquier otra provincia siciliana. La capital es la más alta de Italia entre las capitales de provincia, por encima de los 900 metros.\nEl territorio es famoso por el Castillo de Lombardía, los mosaicos de Piazza Armerina y el lago de Pergusa.\nFederico II llamó a Enna el ombligo de Sicilia porque está casi en el centro geométrico de la isla.",
+   "plants": [
+    {
+     "name": "Zulla",
+     "description": "Flor violeta de los pastizales sicilianos, que en primavera colorea valles enteros. Las abejas hacen con ella una miel clara y las ovejas la pastan con gusto."
+    },
+    {
+     "name": "Amapola",
+     "description": "Manchas rojas entre el trigo, en mayo. El pétalo es frágil y dura un día; la semilla queda para el año siguiente."
+    },
+    {
+     "name": "Encina",
+     "description": "Roble de hoja perenne de las colinas del interior. Las bellotas alimentaban a los cerdos y la madera, dura, servía para hacer herramientas."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Puercoespín",
+     "description": "De noche cruza los caminos rurales y deja púas en el sendero. Es tímido: si lo sorprendés, sacude las púas y se escapa de espaldas."
+    },
+    {
+     "name": "Busardo ratonero",
+     "description": "Se lo ve seguido sobre Pergusa y las crestas de Enna, quieto en el viento. Desde allá arriba vigila los campos en busca de presas pequeñas."
+    },
+    {
+     "name": "Cernícalo vulgar",
+     "description": "Halcón que se queda suspendido en el aire, batiendo las alas, para apuntar a ratones e insectos. Anida en rocas y en palacios viejos."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Piacentinu ennese",
+     "description": "Queso de oveja con azafrán, amarillo, con granos de pimienta negra. El azafrán, escaso, tiñe la pasta del queso y le da un perfume dulce."
+    },
+    {
+     "name": "Cassatella de Agira",
+     "description": "Media luna frita rellena de crema de cacao, almendras y garbanzos. Es el dulce de Agira, un pueblo de la provincia, y se come tibia."
+    },
+    {
+     "name": "Pecorino siciliano",
+     "description": "Queso de oveja, madurado, que se corta en cuñas o se ralla sobre la pasta. En el interior, donde pastan los rebaños, es el queso de todos los días."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Castillo de Lombardía",
+     "description": "Enorme fortaleza sobre Enna, con torres y patios. Desde la torre más alta, en los días claros, se ve el Etna y a veces también el mar."
+    },
+    {
+     "name": "Villa romana del Casale",
+     "description": "Villa del siglo IV en Piazza Armerina, Patrimonio de la Humanidad. Los mosaicos muestran cacerías, animales y muchachas en traje de gimnasia."
+    },
+    {
+     "name": "Lago de Pergusa",
+     "description": "Único lago natural de Sicilia, en una hondonada entre los montes. En verano se retira; en invierno vuelve, y alrededor hay aves y una pista histórica."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Piazza Armerina",
+     "description": "Piazza Armerina es un pueblo del interior, con una catedral barroca en lo alto de la escalinata. No muy lejos, la villa romana del Casale conserva los mosaicos más famosos de Sicilia."
+    },
+    {
+     "name": "Federico II",
+     "description": "En el siglo XIII hizo de Castrogiovanni, el antiguo nombre de Enna, una plaza fuerte en el centro del reino. Desde aquí controlaba los caminos de la isla."
+    },
+    {
+     "name": "El rapto de Proserpina",
+     "description": "El mito griego ubica aquí el rapto de Proserpina por Hades, dios del inframundo. El lago de Pergusa sería la puerta a ese mundo subterráneo."
+    }
+   ]
+  },
+  "messina": {
+   "spotlight": "Mesina tiene unos seiscientos mil habitantes. La capital mira a Calabria, a pocos kilómetros; en el territorio están Taormina, Milazzo y las siete islas Eolias.\nLa provincia es famosa por el estrecho, los Nebrodi, el teatro de Taormina y una cocina de pez espada.\nEn 1908 un terremoto y un tsunami destruyeron Mesina en pocos minutos. La ciudad fue reconstruida más ancha y más baja.",
+   "plants": [
+    {
+     "name": "Haya",
+     "description": "En los Nebrodi, montes de la provincia, hay hayedos poco comunes tan al sur. En otoño las hojas se vuelven color cobre y el bosque se queda en silencio."
+    },
+    {
+     "name": "Limonero",
+     "description": "Los limonares de la costa jónica perfuman cuando florecen, entre febrero y marzo. El jugo se usa en la salsa del pez espada y en la granita."
+    },
+    {
+     "name": "Retama",
+     "description": "Arbusto de flores amarillas que cubre los acantilados y las Eolias en mayo. El olor es fuerte y dulce, y se siente incluso desde el mar."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Pez espada",
+     "description": "Cruza el estrecho en primavera y en verano. Los pescadores lo buscaban con las faluchas, barcos altos desde los que se divisa la aleta."
+    },
+    {
+     "name": "Halcón de Eleonora",
+     "description": "Anida en colonias en las Eolias y caza aves migratorias en pleno vuelo. Llega tarde, en verano, cuando los otros halcones ya tienen crías."
+    },
+    {
+     "name": "Delfín listado",
+     "description": "En el canal entre Escila y Caribdis se ven grupos de delfines. Saltan junto a los transbordadores que unen Mesina con Villa San Giovanni."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Pasta 'ncasciata",
+     "description": "Pasta al horno con ragú, huevos duros, berenjenas, caciocavallo y, a menudo, arvejas. Es el plato del domingo en Mesina."
+    },
+    {
+     "name": "Pidone",
+     "description": "Medias lunas fritas, rellenas de verduras, anchoas o tuma. En Mesina se compran calientes, en la calle, como merienda."
+    },
+    {
+     "name": "Granita con crema",
+     "description": "En Mesina la granita de café se cubre con crema chantilly y se toma en el desayuno. El hielo se raspa fino y no es un sorbete liso."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Islas Eolias",
+     "description": "Siete islas volcánicas: Lipari, Vulcano, Salina, Stromboli, Panarea, Alicudi y Filicudi. El Stromboli entra en erupción casi todos los días, con pequeños estallidos."
+    },
+    {
+     "name": "Taormina",
+     "description": "Pueblo en la montaña, con un teatro griego frente al mar y el Etna. La cávea todavía se usa para espectáculos."
+    },
+    {
+     "name": "Tindari",
+     "description": "Promontorio con un teatro griego y un santuario sobre el mar. Abajo, las lagunitas de Marinello cambian de forma con los temporales."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Terremoto de 1908",
+     "description": "El 28 de diciembre de 1908 la tierra tembló y el mar entró en la ciudad. Murieron decenas de miles de personas; Mesina fue reconstruida casi desde cero."
+    },
+    {
+     "name": "Estrecho de Mesina",
+     "description": "Brazo de mar entre Sicilia y Calabria, con corrientes fortísimas. Los antiguos lo poblaban de monstruos, Escila y Caribdis, para explicar los remolinos."
+    },
+    {
+     "name": "Antonello da Messina",
+     "description": "Pintor del siglo XV que trajo a Italia la técnica del óleo de Flandes. Sus retratos tienen una mirada que parece viva."
+    }
+   ]
+  },
+  "palermo": {
+   "spotlight": "Palermo tiene alrededor de un millón doscientos mil habitantes en el área metropolitana. Es la capital de Sicilia; en el territorio están Monreale, Cefalú y la isla de Ustica.\nLa provincia es famosa por los palacios normandos, los mercados y una cocina callejera que se come de pie.\nEn la Capilla Palatina, a pocos metros, conviven mosaicos bizantinos, arcos árabes y un techo de madera tallada.",
+   "plants": [
+    {
+     "name": "Naranjo amargo",
+     "description": "La Conca d'Oro, la llanura de Palermo, era un jardín de cítricos. El naranjo amargo perfuma las calles en primavera y la cáscara se confita."
+    },
+    {
+     "name": "Ficus magnoloide",
+     "description": "En Piazza Marina un ficus gigante da sombra con raíces que bajan de las ramas como columnas. Fue plantado en el siglo XIX y hoy es un monumento de la ciudad."
+    },
+    {
+     "name": "Palmito",
+     "description": "Única palmera silvestre de Europa. En el Monte Pellegrino y en las costas rocosas forma matas bajas, resistentes a la sal y al viento."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Halcón peregrino",
+     "description": "Anida en las paredes del Monte Pellegrino, sobre la ciudad. Es el ave más veloz del mundo cuando se lanza en picada."
+    },
+    {
+     "name": "Mochuelo",
+     "description": "Pequeña rapaz nocturna de las casas de campo y los muros de piedra seca. De día se lo ve seguido en un poste, con los ojos amarillos abiertos."
+    },
+    {
+     "name": "Lagartija siciliana",
+     "description": "Corre por los muros calientes de iglesias y mercados. Machos y hembras tienen dibujos distintos, y en invierno desaparece entre las grietas."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Panelle",
+     "description": "Frituras finas de harina de garbanzos, saladas y con pimienta. Se comen en la mafalda, un pan, junto con las croquetas de papa."
+    },
+    {
+     "name": "Sfincione",
+     "description": "Pizza alta y esponjosa, con cebolla, tomate, caciocavallo y pan rallado. No es la pizza napolitana: es el horno de Palermo."
+    },
+    {
+     "name": "Pasta con sardinas",
+     "description": "Pasta con sardinas frescas, hinojo silvestre, pasas y piñones. Une el mar y la huerta, y se prepara de marzo a septiembre."
+    },
+    {
+     "name": "Arancina",
+     "description": "Bola de arroz con azafrán, ragú y arvejas, empanada y frita. En Palermo se dice arancina, en femenino, y es redonda como una naranja: la gran rival del arancino de Catania."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Capilla Palatina",
+     "description": "Capilla del Palacio de los Normandos, cubierta de mosaicos de oro. El techo de madera es obra de artesanos árabes y cuenta escenas de la corte."
+    },
+    {
+     "name": "Catedral de Monreale",
+     "description": "Catedral sobre una colina arriba de Palermo, con un Cristo enorme en el mosaico del ábside. El claustro tiene columnitas todas distintas."
+    },
+    {
+     "name": "Cefalú",
+     "description": "Pueblo al pie de una roca, con una catedral normanda y una costanera corta. Desde el pueblo se sube a la roca, entre murallas megalíticas y la vista del Tirreno."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Vísperas Sicilianas",
+     "description": "En 1282, en Palermo, una revuelta expulsó a los angevinos. La guerra que siguió cambió al rey de Sicilia y dejó su nombre a una ópera de Verdi."
+    },
+    {
+     "name": "Roger II",
+     "description": "En 1130 se convirtió en el primer rey de Sicilia y tuvo su corte en Palermo. En su palacio trabajaban griegos, árabes y latinos, cada uno en su propia lengua."
+    },
+    {
+     "name": "Palacio de los Normandos",
+     "description": "Fue palacio de los emires y después de los reyes normandos. Hoy es la sede de la Asamblea Regional Siciliana, y la Capilla Palatina es su corazón."
+    }
+   ]
+  },
+  "ragusa": {
+   "spotlight": "Ragusa tiene unos trescientos veinte mil habitantes. La capital está dividida en dos: Ragusa superior y Ragusa Ibla, en el valle. Modica, Scicli y Vittoria completan el barroco de los Montes Iblei.\nLa provincia es famosa por el chocolate, el queso ragusano y los pueblos reconstruidos después del terremoto de 1693.\nEl chocolate de Modica se trabaja en frío, como hacían los españoles, y los granos de azúcar quedan crujientes.",
+   "plants": [
+    {
+     "name": "Algarrobo",
+     "description": "Árbol ancho, con vainas dulces que antes reemplazaban al chocolate y alimentaban a los animales. En los Iblei hay ejemplares centenarios, aislados en los campos."
+    },
+    {
+     "name": "Tomillo",
+     "description": "Pequeño arbusto aromático de las piedras calientes. En la cocina perfuma el queso ragusano y las carnes; en flor atrae a las abejas en verano."
+    },
+    {
+     "name": "Olivo",
+     "description": "Los olivos de los Iblei suelen estar dentro de cercos de piedra seca. El aceite es frutado y acompaña la scaccia y las verduras."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Carraca europea",
+     "description": "Ave turquesa y castaña que llega en primavera y caza insectos desde los cables y los muros. Su vuelo, visto desde abajo, parece un relámpago azul."
+    },
+    {
+     "name": "Puercoespín",
+     "description": "En los valles de los Iblei sale de noche a buscar bulbos y frutas. Las púas que pierde son huecas y livianas, con bandas blancas y negras."
+    },
+    {
+     "name": "Alcaudón común",
+     "description": "Ave de cabeza rojiza que ensarta grillos y lagartijas en las espinas, como en una despensa. Anida entre los olivos y se va en otoño."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Chocolate de Modica",
+     "description": "Cacao trabajado a baja temperatura, con azúcar que no se disuelve del todo. Puede ser de vainilla, de pimienta o de canela."
+    },
+    {
+     "name": "Scaccia",
+     "description": "Focaccia doblada, rellena de tomate y caciocavallo, o de ricota y cebolla. Se lleva a las excursiones y se corta en rectángulos."
+    },
+    {
+     "name": "Ragusano",
+     "description": "Caciocavallo con forma de paralelepípedo, madurado colgado. Se come en lonjas o se derrite sobre la pasta y las verduras."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Ragusa Ibla",
+     "description": "Centro antiguo en el fondo del valle, con palacios barrocos y la cúpula de San Jorge al final de una escalinata. Al atardecer las piedras se ponen rosadas."
+    },
+    {
+     "name": "Modica",
+     "description": "Ciudad construida sobre dos colinas, famosa por el chocolate y la catedral de San Jorge. Las casas bajan una sobre otra hasta el arroyo cubierto."
+    },
+    {
+     "name": "Scicli",
+     "description": "Pueblo barroco en un valle estrecho, con iglesias casi excavadas en la roca. La calle Francesco Mormino Penna es una hilera de palacios del siglo XVIII."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Condado de Modica",
+     "description": "Durante siglos Modica fue la capital de un condado grande y casi autónomo. Desde el castillo de los condes se dominaban el valle y un territorio que llegaba hasta Siracusa."
+    },
+    {
+     "name": "Terremoto de 1693",
+     "description": "El 11 de enero de 1693 un terremoto arrasó decenas de pueblos. Los reconstruyeron en estilo barroco: por eso Ragusa, Modica y Scicli son Patrimonio de la Humanidad."
+    },
+    {
+     "name": "Cava d'Ispica",
+     "description": "Cañón de trece kilómetros de largo, habitado desde la prehistoria hasta la Edad Media. En las paredes todavía se ven tumbas, iglesias rupestres y palomares."
+    }
+   ]
+  },
+  "siracusa": {
+   "spotlight": "Siracusa tiene unos trescientos ochenta mil habitantes. La capital vive sobre la isla de Ortigia y en tierra firme; Noto, Avola y Pachino están más al sur.\nLa provincia es famosa por el teatro griego, el barroco de Noto, el papiro y las almendras de Avola.\nArquímedes nació en Siracusa. Se cuenta que gritó «¡Eureka!» al salir de un baño, después de entender cómo medir el volumen de una corona.",
+   "plants": [
+    {
+     "name": "Papiro",
+     "description": "Crece a lo largo del río Ciane, cerca de la ciudad, y es uno de los pocos lugares de Europa donde nace de forma natural. Los antiguos hacían con él hojas para escribir."
+    },
+    {
+     "name": "Almendro",
+     "description": "En Avola y alrededores el almendro es un cultivo histórico. La almendra, dulce e intensa, se usa en mazapanes, granitas y galletas."
+    },
+    {
+     "name": "Granado",
+     "description": "Árbol de los patios, con flores rojas y frutos llenos de granos. En otoño se abre a mano y mancha los dedos."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Flamenco",
+     "description": "En la reserva de Vendicari se detienen bandadas rosadas, sobre todo durante la migración. Filtran el agua poco profunda con el pico curvo."
+    },
+    {
+     "name": "Avoceta",
+     "description": "Ave blanca y negra, con el pico fino curvado hacia arriba. En las salinas camina por el agua y barre el barro de costado."
+    },
+    {
+     "name": "Tortuga marina",
+     "description": "Anida en algunas playas del sur de la provincia. Los centros de recuperación cuidan a los ejemplares heridos por redes y plástico."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Pasta a la siracusana",
+     "description": "Pasta con tomate, anchoas, pimientos, aceitunas y alcaparras. Es una salsa de despensa y de mar, típica de la cocina de la ciudad."
+    },
+    {
+     "name": "Almendra de Avola",
+     "description": "Almendra dulce, en forma de gota, usada en mazapán, confites y granita. Avola, en la provincia, le dio el nombre."
+    },
+    {
+     "name": "Sardinas a beccafico",
+     "description": "Sardinas abiertas, enrolladas con pan rallado, piñones y pasas, y cocidas al horno. El nombre imita a un ave que se alimentaba de higos."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Ortigia",
+     "description": "Isla pequeña, corazón de la ciudad antigua, unida a tierra por puentes. Allí están la catedral, la fuente Aretusa y las callejuelas sobre el mar."
+    },
+    {
+     "name": "Teatro griego",
+     "description": "Teatro del siglo V a. C. excavado en la roca, enorme. Cada primavera todavía recibe tragedias griegas, en italiano y a veces en siciliano."
+    },
+    {
+     "name": "Noto",
+     "description": "Ciudad barroca reconstruida después de 1693, toda de piedra color miel. La catedral y el palacio Ducezio cierran una escena de teatro."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Catedral de Siracusa",
+     "description": "La catedral es una iglesia construida dentro de un templo griego de Atenea: las columnas dóricas todavía están en los muros. Desde afuera se ve la historia en capas de la ciudad."
+    },
+    {
+     "name": "Arquímedes",
+     "description": "Matemático e inventor siracusano del siglo III a. C. Estudió palancas, espejos y el número pi, y defendió la ciudad con máquinas de guerra."
+    },
+    {
+     "name": "Dionisio I",
+     "description": "Tirano que en el siglo IV a. C. hizo de Siracusa la potencia más fuerte de Occidente. A él se asocia la Oreja de Dionisio, una gruta que amplifica los susurros."
+    }
+   ]
+  },
+  "trapani": {
+   "spotlight": "Trapani tiene unos cuatrocientos quince mil habitantes. La capital es un promontorio estrecho sobre el mar; Erice está en el monte, y en el territorio se encuentran Marsala, las Égadas y Pantelaria.\nLa provincia es famosa por la sal, el cuscús, Segesta y un vino dulce, el zibibbo.\nLas salinas de Trapani y Paceco todavía funcionan con el viento: el agua se evapora y queda la sal, rosada al atardecer.",
+   "plants": [
+    {
+     "name": "Alcaparro",
+     "description": "Crece en los muros y, en Pantelaria, se cultiva en terrazas de lava. Se comen los capullos en sal y también el fruto, el cucuncio."
+    },
+    {
+     "name": "Zibibbo",
+     "description": "Uva dulce de Pantelaria, criada baja contra el viento. Se convierte en passito: un vino de uva pasificada al sol."
+    },
+    {
+     "name": "Palmito",
+     "description": "En la reserva del Zingaro cubre la costa entre el mar y la montaña. Es la palmera silvestre del Mediterráneo, baja y resistente."
+    }
+   ],
+   "animals": [
+    {
+     "name": "Flamenco",
+     "description": "En las salinas entre Trapani y Marsala forma bandadas rosadas gran parte del año. El color viene de los pequeños crustáceos de los que se alimenta."
+    },
+    {
+     "name": "Atún rojo",
+     "description": "Pasa frente a las Égadas en primavera. Durante siglos la mattanza, una pesca colectiva con redes, marcó el calendario de Favignana."
+    },
+    {
+     "name": "Pardela cenicienta",
+     "description": "Ave marina que anida en madrigueras en las Égadas y vuelve de noche, para que no la vean las gaviotas. Su canto, en la oscuridad, suena como un lamento."
+    }
+   ],
+   "foods": [
+    {
+     "name": "Cuscús a la trapanesa",
+     "description": "Sémola trabajada a mano y servida con caldo de pescado. Es el plato que cuenta el vínculo de Trapani con el norte de África."
+    },
+    {
+     "name": "Pesto a la trapanesa",
+     "description": "Pesto rojo de tomate crudo, almendras, ajo y albahaca, sobre la busiata. No lleva piñones: aquí la almendra es el fruto seco de la casa."
+    },
+    {
+     "name": "Busiate",
+     "description": "Pasta enrollada alrededor de un hierro, con forma de sacacorchos. Retiene bien el pesto, y no tiene nada que ver con el cuscús: es el formato típico de la provincia."
+    }
+   ],
+   "tourism": [
+    {
+     "name": "Erice",
+     "description": "Pueblo medieval a 750 metros, a menudo dentro de las nubes. Se sube desde Trapani en teleférico y, cuando está despejado, se ven las Égadas."
+    },
+    {
+     "name": "Salinas de Trapani",
+     "description": "Piletas bajas, molinos de viento y montones de sal entre la ciudad y Marsala. Al atardecer el agua se vuelve rosada por las algas y los flamencos."
+    },
+    {
+     "name": "Segesta",
+     "description": "Templo dórico inconcluso, solitario, sobre una colina, y más arriba un teatro que mira al golfo. Fue ciudad de los élimos, un pueblo anterior a los griegos."
+    }
+   ],
+   "curiosities": [
+    {
+     "name": "Mozia",
+     "description": "Isla fenicia en el Stagnone, frente a Marsala. Allí vivían comerciantes que salaban pescado; hoy se visita en un bote de poco calado."
+    },
+    {
+     "name": "Élimos",
+     "description": "Pueblo del oeste de Sicilia, en Segesta y Erice, antes del dominio griego. Se aliaban ora con Atenas, ora con Cartago, según el momento."
+    },
+    {
+     "name": "Almadraba Florio",
+     "description": "En Favignana, la almadraba de los Florio era la fábrica del atún. Durante siglos, en primavera, los barcos encerraban a los atunes en un sistema de redes llamado mattanza."
+    }
+   ]
+  }
+ }
+}
