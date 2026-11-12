@@ -7,21 +7,25 @@ import {
   CAMPANIA_PROVINCE_SVG_PATHS,
 } from "@/data/map/campania-paths.generated";
 import { CAMPANIA_PROVINCE_FILLS } from "@/lib/design/campania-map-colors";
-import { useUi } from "@/lib/i18n/locale";
+import { zoneName } from "@/data/i18n/zone-names";
+import { useLocale, useUi, type Locale } from "@/lib/i18n/locale";
 import type { CampaniaProvinceSlug } from "@/types/campania";
 
 type Props = {
   slug: CampaniaProvinceSlug;
   name: string;
-  spotlightOverview: string;
+  spotlightOverview: Record<Locale, string>;
 };
 
 export function CampaniaProvinceSpotlightMap({
   slug,
-  name,
-  spotlightOverview,
+  name: baseName,
+  spotlightOverview: spotlights,
 }: Props) {
   const ui = useUi();
+  const { locale } = useLocale();
+  const name = zoneName(locale, slug, baseName);
+  const spotlightOverview = spotlights[locale];
   const pathRef = useRef<SVGPathElement | null>(null);
   const [viewBox, setViewBox] = useState<string>(CAMPANIA_MAP_VIEW_BOX);
   const pathD = CAMPANIA_PROVINCE_SVG_PATHS[slug];

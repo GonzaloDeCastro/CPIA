@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { SiteHeader } from "@/components/layout/SiteHeader";
+import { ZoneName } from "@/components/layout/ZoneName";
+import { TRANSLATIONS } from "@/data/i18n";
+import { localizeZone } from "@/lib/i18n/overlay";
 import { UiLink } from "@/components/layout/UiLink";
 import { ProvinceSections } from "@/components/province/ProvinceSections";
 import { ProvinceSpotlightMap } from "@/components/province/ProvinceSpotlightMap";
@@ -48,6 +51,13 @@ export default async function ProvincePage({ params }: Props) {
     fetchProvinceLocalContentBySlug(slug),
   ]);
   if (!province || !localContent) notFound();
+  const localized = localizeZone(
+    "es",
+    province.slug,
+    localContent,
+    province.spotlightOverview,
+    TRANSLATIONS.argentina,
+  );
 
   return (
     <div className="min-h-dvh text-foreground">
@@ -65,15 +75,17 @@ export default async function ProvincePage({ params }: Props) {
             <li aria-hidden="true" className="text-foreground-muted">
               /
             </li>
-            <li className="font-display text-heading">{province.name}</li>
+            <li className="font-display text-heading">
+              <ZoneName slug={province.slug} fallback={province.name} />
+            </li>
           </ol>
         </nav>
         <div className="flex min-w-0 flex-col-reverse gap-6 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(18rem,40%)] lg:items-start">
-          <ProvinceSections localContent={localContent} />
+          <ProvinceSections contentByLocale={localized.content} />
           <ProvinceSpotlightMap
             slug={province.slug}
             name={province.name}
-            spotlightOverview={province.spotlightOverview}
+            spotlightOverview={localized.spotlight}
           />
         </div>
       </main>

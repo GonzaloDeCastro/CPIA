@@ -1,26 +1,18 @@
 "use client";
 
-import type { ProvinceContentItem } from "@/types/province";
-
-import { useUi } from "@/lib/i18n/locale";
+import { useLocale, useUi, type Locale } from "@/lib/i18n/locale";
+import type { ExploreContent } from "@/lib/i18n/overlay";
 
 import { ProvinceExploreTabs } from "./ProvinceExploreTabs";
 
-type ExploreContent = {
-  slug: string;
-  animals: ProvinceContentItem[];
-  plants: ProvinceContentItem[];
-  foods: ProvinceContentItem[];
-  curiosities: ProvinceContentItem[];
-  tourism: ProvinceContentItem[];
-};
-
 export function ProvinceSections({
-  localContent,
+  contentByLocale,
 }: {
-  localContent: ExploreContent;
+  contentByLocale: Record<Locale, ExploreContent>;
 }) {
   const ui = useUi();
+  const { locale } = useLocale();
+  const localContent = contentByLocale[locale];
   const p = (s: string) => `${localContent.slug}-${s}`;
 
   return (

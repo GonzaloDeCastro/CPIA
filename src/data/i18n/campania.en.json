@@ -1,0 +1,144 @@
+{
+  "zones": {
+    "avellino": {
+      "spotlight": "Avellino has about four hundred thousand inhabitants. The main town sits in a basin ringed by mountains, and the province, called Irpinia, is the most mountainous in Campania.\nIt is a land of forests, abbeys and springs: at Caposele rise the springs of the river Sele, whose waters end up in a huge aqueduct that reaches all the way to Apulia.\nThe scientific name of the hazel, Corylus avellana, comes from Avella, near Avellino: hazelnuts were already shipped from here in Roman times.",
+      "plants": [
+        { "name": "Hazel", "description": "Hazel bushes fill the hills of Irpinia. Hazelnuts are used to make nougat and spreads, and the plant's Latin name comes from Avella." },
+        { "name": "Beech", "description": "On the Picentini Mountains and around Lake Laceno it forms tall, thick forests. In autumn the leaves turn red and gold." },
+        { "name": "Turkey oak", "description": "A sturdy oak of the lower woods. You can tell it by its acorns with a 'shaggy' cup and its dark, cracked trunk." }
+      ],
+      "animals": [
+        { "name": "Apennine wolf", "description": "It lives in the high forests of the Picentini Mountains. It hunts at night and lives in a pack; it usually avoids people." },
+        { "name": "Wildcat", "description": "Bigger and sturdier than a house cat, with a ringed tail and a black tip. It hides in the beech woods and is hardly ever seen by day." },
+        { "name": "Red kite", "description": "A bird of prey with a reddish forked tail. It glides over the fields of Irpinia looking for small animals and carrion." }
+      ],
+      "foods": [
+        { "name": "Montella chestnut", "description": "A sweet chestnut with a thin skin, gathered in the woods of Montella. It is eaten roasted in autumn or turned into candied chestnuts and flour." },
+        { "name": "Black truffle of Bagnoli Irpino", "description": "A fungus that grows underground near the roots of certain trees. Trained dogs find it by smell, and a few thin slices are enough to scent a dish." },
+        { "name": "Hazelnut nougat", "description": "A sweet of hazelnuts, honey and sugar, typical of the holidays. In Irpinia it is made with local hazelnuts and cut into pieces." }
+      ],
+      "tourism": [
+        { "name": "Goleto Abbey", "description": "A medieval monastery in Sant'Angelo dei Lombardi, with a two-level church and a tower. It was founded by Saint William of Vercelli." },
+        { "name": "Montevergine Sanctuary", "description": "It stands on top of Mount Partenio, more than a thousand metres up. You can climb on foot or take the cable car, and inside there is a much-loved image of the Virgin." },
+        { "name": "Lake Laceno", "description": "A mountain lake among the beech woods of the Picentini. In summer people walk and cycle; in winter there's snow for skiing and sledding." }
+      ],
+      "curiosities": [
+        { "name": "The 1980 Irpinia earthquake", "description": "On 23 November 1980 a very strong quake struck dozens of towns in Irpinia. Rebuilding took many years and changed the way buildings are made in Italy." },
+        { "name": "William of Vercelli", "description": "A monk who, in the early 1100s, climbed a mountain in Irpinia and founded the abbey of Montevergine and later the one at Goleto." },
+        { "name": "Francesco De Sanctis", "description": "Born in Morra Irpina in 1817, he became one of the great scholars of Italian literature and a minister of education after the unification of Italy." }
+      ]
+    },
+    "benevento": {
+      "spotlight": "Benevento has about two hundred and sixty thousand inhabitants and is the smallest province in Campania. The city was Roman, then Lombard, then part of the Papal States.\nHere there are monuments two thousand years old, such as Trajan's Arch and the Roman Theatre, and the Taburno-Camposauro massif with its woods.\nAccording to legend the witches of Benevento met at night under a great walnut tree, and the Strega liqueur took its name from that.",
+      "plants": [
+        { "name": "Walnut", "description": "A big tree with a broad crown, mentioned in the witch legends. Walnuts are gathered in autumn and used in desserts." },
+        { "name": "Downy oak", "description": "An oak of the hills of Sannio. It copes well with drought and keeps many dry leaves on its branches in winter." },
+        { "name": "Olive tree", "description": "Olive trees trace the hills of Sannio. Olives are pressed into oil, which goes with bread and legume soups." }
+      ],
+      "animals": [
+        { "name": "Wild boar", "description": "It lives in oak and beech woods. It digs the ground with its snout to find roots and acorns." },
+        { "name": "Italian hare", "description": "A hare found only in central-southern Italy and Sicily. It is rare and differs from the European hare by its paler belly fur." },
+        { "name": "Badger", "description": "It leaves its burrow at night to look for worms, fruit and roots. It has a white face with two black stripes." }
+      ],
+      "foods": [
+        { "name": "Cavatelli", "description": "Handmade pasta of flour and water, shaped like small elongated shells. In Sannio it is served with broccoli, beans or a simple sauce." },
+        { "name": "Strega liqueur", "description": "A yellow liqueur made with saffron and herbs, born in Benevento in 1860. It is for grown-ups: for kids what's left is the legend of the witches drawn on the label." },
+        { "name": "Sannio soppressata", "description": "A cured pork sausage with garlic and pepper, aged for months. It is sliced thin and eaten with bread." }
+      ],
+      "tourism": [
+        { "name": "Trajan's Arch", "description": "A Roman triumphal arch more than fifteen metres high, built in AD 114. In marble it tells the deeds of Emperor Trajan." },
+        { "name": "Roman Theatre of Benevento", "description": "Built in the 2nd century AD, it could hold more than ten thousand spectators. Open-air shows are still held there today." },
+        { "name": "Church of Santa Sofia", "description": "A Lombard church from AD 760 with a star-shaped plan. It is one of the Places of the Lombards in Italy, a UNESCO World Heritage Site." }
+      ],
+      "curiosities": [
+        { "name": "The Caudine Forks", "description": "In 321 BC the Samnites trapped a Roman army in a narrow valley and made it pass under a yoke of spears: for the Romans it was a great humiliation." },
+        { "name": "The Lombard Duchy", "description": "After the Romans, the Lombards made Benevento a powerful duchy in southern Italy, which lasted for centuries." },
+        { "name": "The Battle of Benevento", "description": "In 1266 Charles of Anjou defeated King Manfred near the city. It was a battle that changed who ruled southern Italy." }
+      ]
+    },
+    "caserta": {
+      "spotlight": "Caserta has about nine hundred thousand inhabitants. The province includes the Volturno plain, the Litorale Domizio coast and the Matese mountains.\nIt used to be called Terra di Lavoro, 'land of labour', because its fields were so fertile. Mediterranean water buffalo are raised here, and their milk gives us mozzarella.\nThe Royal Palace of Caserta has 1,200 rooms and a park with an artificial waterfall more than seventy metres long: it is one of the biggest palaces in the world.",
+      "plants": [
+        { "name": "Sweet chestnut", "description": "It grows in the woods around the extinct volcano of Roccamonfina. Chestnuts ripen in autumn inside their prickly burrs." },
+        { "name": "Stone pine", "description": "The pine with an umbrella-shaped crown. The pine woods of the Litorale Domizio shade the sand and produce pine nuts." },
+        { "name": "Holm oak", "description": "An evergreen oak of the warm hills. Its tough, dark leaves stay on the branch even in winter." }
+      ],
+      "animals": [
+        { "name": "Mediterranean buffalo", "description": "A large dark bovine with crescent-shaped horns. The farms of Caserta produce the milk for mozzarella." },
+        { "name": "Grey heron", "description": "A tall grey bird with a long neck. It waits motionless in the shallow water of the Volturno wetlands to fish." },
+        { "name": "Golden eagle", "description": "The king of the sky over the peaks of the Matese. With wings more than two metres wide it soars high, looking for hares and other small animals." }
+      ],
+      "foods": [
+        { "name": "Campanian buffalo mozzarella", "description": "A fresh cheese made with buffalo milk. It is white, soft and delicate, and is eaten on its own or on pizza." },
+        { "name": "Annurca apple", "description": "A small, red, crunchy and fragrant apple. It is left to ripen on a bed of straw, where it takes on its colour." },
+        { "name": "Falerno del Massico", "description": "A wine from the Massico hills that the Romans loved two thousand years ago, and which ancient poems called the best of all." }
+      ],
+      "tourism": [
+        { "name": "Royal Palace of Caserta", "description": "The Bourbon royal palace with huge staircases, gardens and fountains. Today it is a UNESCO World Heritage Site and famous films were shot there." },
+        { "name": "Campanian Amphitheatre", "description": "At Santa Maria Capua Vetere, one of the largest Roman amphitheatres, second only to the Colosseum. Gladiators trained here." },
+        { "name": "San Leucio", "description": "A royal village founded by the Bourbons to make silk. The workers lived in houses with a school and a garden." }
+      ],
+      "curiosities": [
+        { "name": "Luigi Vanvitelli and the Royal Palace", "description": "In 1752 King Charles of Bourbon asked the architect Luigi Vanvitelli to build a palace able to rival Versailles." },
+        { "name": "Spartacus at Capua", "description": "In the gladiator school of Capua, in 73 BC, Spartacus led a slave revolt against Rome." },
+        { "name": "The Battle of the Volturno", "description": "In 1860 Garibaldi and his Thousand defeated the Bourbon army on the banks of the Volturno, a step toward the unification of Italy." }
+      ]
+    },
+    "napoli": {
+      "spotlight": "The province of Naples has about three million inhabitants and is the most densely populated in Italy. It also includes the islands of Capri, Ischia and Procida.\nIt is a land of volcanoes: Vesuvius, the Phlegraean Fields and the islands themselves were born from the fire of the earth.\nVesuvius is the only active volcano on mainland Europe: its last eruption was in 1944, and it is always closely monitored.",
+      "plants": [
+        { "name": "Sorrento lemon", "description": "A big, fragrant lemon that grows on the Sorrento coast, protected with nets and wooden poles. Its peel is used to make limoncello." },
+        { "name": "Spanish broom", "description": "A shrub with yellow flowers that grows even on the lava ground of Vesuvius. Leopardi dedicated a famous poem to it." },
+        { "name": "Mastic tree", "description": "An evergreen shrub of the Mediterranean scrub on Capri, Ischia and Procida. Its glossy, resin-scented leaves withstand sun and sea salt." }
+      ],
+      "animals": [
+        { "name": "Blue lizard", "description": "It lives only on one sea stack of Capri. Its body is a deep blue, which helps it blend in with the sky and the sea." },
+        { "name": "Yellow-legged gull", "description": "The big gull you see in the port of Naples. It has a yellow beak with a red spot and eats fish and scraps." },
+        { "name": "Peregrine falcon", "description": "It is the fastest of all animals: in a dive it tops three hundred kilometres per hour. It nests on the cliffs of Capri." }
+      ],
+      "foods": [
+        { "name": "Neapolitan pizza", "description": "A soft dough with tomato and mozzarella, baked in a few seconds in a wood-fired oven. The art of Neapolitan pizza makers is UNESCO heritage." },
+        { "name": "Sfogliatella", "description": "A shell-shaped pastry made of many thin layers and filled with ricotta and semolina. It can be 'riccia' (flaky) or 'frolla' (shortcrust)." },
+        { "name": "Babà", "description": "A soft, mushroom-shaped cake soaked in rum syrup. It came to Naples from France and became a symbol of the city." }
+      ],
+      "tourism": [
+        { "name": "Vesuvius", "description": "The volcano that towers over the gulf. You can climb a path up to the crater and see the whole Bay of Naples from above." },
+        { "name": "Pompeii ruins", "description": "The Roman city buried under Vesuvius's ash in AD 79. Walking its streets you see houses, shops and frescoes still intact." },
+        { "name": "Island of Capri", "description": "An island of very high cliffs, blue grottoes and the Faraglioni, three big rocks rising from the sea off the coast." }
+      ],
+      "curiosities": [
+        { "name": "The eruption of Vesuvius in AD 79", "description": "In AD 79 the volcano covered Pompeii and Herculaneum in ash and lapilli. The cities stayed hidden for almost seventeen centuries." },
+        { "name": "Neapolis, the new city", "description": "Naples began as a Greek colony and was called 'new city' (Neapolis). The old heart, with its straight streets, still exists." },
+        { "name": "The Four Days of Naples", "description": "In September 1943 the people of Naples rose up against the German army and freed the city a few days before the Allies arrived." }
+      ]
+    },
+    "salerno": {
+      "spotlight": "Salerno has about one million inhabitants and is the largest province in Campania. It reaches as far as the Cilento National Park, a UNESCO World Heritage Site.\nIt has two faces: the Amalfi Coast, with villages perched above the sea, and the Cilento, made of mountains, beaches and ancient Greek cities.\nThe Salerno Medical School, born in the Middle Ages, is considered the first medical university in Europe and also admitted women.",
+      "plants": [
+        { "name": "Amalfi sfusato lemon", "description": "A long, very fragrant lemon that grows on the terraces of the Amalfi Coast. It is also used to make limoncello and the 'delizia al limone' dessert." },
+        { "name": "Palinuro primrose", "description": "A small yellow flower that grows only on a few cliffs in southern Italy, such as those of Cape Palinuro. It is a very rare, protected plant." },
+        { "name": "Carob tree", "description": "An evergreen tree with dark, sweet pods called carobs. It grows well in the dry, warm soil of the Cilento." }
+      ],
+      "animals": [
+        { "name": "European otter", "description": "A swimming mammal of the clean rivers of the Cilento. It eats fish and frogs, and its presence is a sign that the water is healthy." },
+        { "name": "Sea turtle", "description": "In late spring it lays its eggs on the beaches of the Cilento. Volunteers protect the nests until the hatchlings reach the sea." },
+        { "name": "Spectacled salamander", "description": "A small black salamander with two pale spots on its head and a red belly. It lives near cool, shady streams." }
+      ],
+      "foods": [
+        { "name": "Cetara anchovy colatura", "description": "A golden liquid obtained from salted anchovies, heir to the ancient Roman garum. It dresses spaghetti and vegetables." },
+        { "name": "Delizia al limone", "description": "A dome-shaped dessert with sponge cake, cream and a glaze of lemon from the Coast. It is a typical sweet of the Amalfi Coast." },
+        { "name": "San Marzano tomato", "description": "A long, red tomato grown near Vesuvius, in the lands of Sarno. It is the favourite for making sauce and pizza." }
+      ],
+      "tourism": [
+        { "name": "Amalfi Coast", "description": "A coast with colourful villages clinging to the rocks, like Positano and Amalfi. The scenic road climbs and dips between sea and lemon groves." },
+        { "name": "Temples of Paestum", "description": "Three great Greek temples more than two thousand five hundred years old, in the middle of the countryside. They are among the best preserved in the world." },
+        { "name": "Padula Charterhouse", "description": "One of the biggest monasteries in Italy, with an enormous cloister and a spiral staircase. Carthusian monks lived there." }
+      ],
+      "curiosities": [
+        { "name": "The Salerno Medical School", "description": "It was the first medical school in Europe. Its masters wrote books of advice on staying well with plants, healthy food and rest." },
+        { "name": "The Republic of Amalfi", "description": "For centuries Amalfi was a powerful republic of sailors. Its rules on trade by sea, the Amalfitan Tables, were used all over the Mediterranean." },
+        { "name": "The Sapri expedition", "description": "In 1857 Carlo Pisacane landed at Sapri with a few companions to free the South from the king. He was defeated, but his deed inspired the unification of Italy." }
+      ]
+    }
+  }
+}

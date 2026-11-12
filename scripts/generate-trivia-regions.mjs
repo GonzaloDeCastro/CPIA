@@ -1,16 +1,21 @@
 /**
- * Genera preguntas de trivia (en italiano) para Italia, Sicilia y Campania.
+ * Genera preguntas de trivia en es / en / it para Italia, Sicilia y Campania.
+ * Las preguntas son las mismas en los tres idiomas (mismos ids y orden de opciones);
+ * los nombres salen de src/data/i18n/*.json y zone-names.json.
  * Uso: node scripts/generate-trivia-regions.mjs
  */
-import { writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 
 import { loadTsNamedExport } from "./lib/load-ts-export.mjs";
 
+const LOCALES = ["es", "en", "it"];
+const SOURCE = "it";
+
 const DATASETS = [
   {
     key: "italy",
-    unit: "regione",
+    unit: { es: "región", en: "region", it: "regione" },
     regionsFile: "src/data/italy/regions.generated.ts",
     regionsExport: "ITALY_REGIONS",
     contentFile: "src/data/italy/content.generated.ts",
@@ -20,7 +25,7 @@ const DATASETS = [
   },
   {
     key: "sicily",
-    unit: "provincia",
+    unit: { es: "provincia", en: "province", it: "provincia" },
     regionsFile: "src/data/sicily/provinces.generated.ts",
     regionsExport: "SICILY_PROVINCES",
     contentFile: "src/data/sicily/content.generated.ts",
@@ -30,7 +35,7 @@ const DATASETS = [
   },
   {
     key: "campania",
-    unit: "provincia",
+    unit: { es: "provincia", en: "province", it: "provincia" },
     regionsFile: "src/data/campania/provinces.generated.ts",
     regionsExport: "CAMPANIA_PROVINCES",
     contentFile: "src/data/campania/content.generated.ts",
@@ -39,6 +44,13 @@ const DATASETS = [
     constName: "TRIVIA_QUESTIONS_CAMPANIA",
   },
 ];
+
+const ZONE_NAMES = JSON.parse(readFileSync("src/data/i18n/zone-names.json", "utf8"));
+
+function loadTr(key, locale) {
+  const file = `src/data/i18n/${key}.${locale}.json`;
+  return existsSync(file) ? JSON.parse(readFileSync(file, "utf8")) : { zones: {} };
+}
 
 function shuffle(arr) {
   const a = [...arr];
@@ -58,64 +70,92 @@ function shorten(text, max = 90) {
   return t.length > max ? `${t.slice(0, max - 1)}…` : t;
 }
 
+/** Plantillas por idioma: [pregunta, explicación]. */
+const SPECS = [
+  ["animals", "fauna", {
+    es: [(n, u) => `¿En qué ${u} vive este animal: «${n}»?`, (n, z) => `«${n}» forma parte de la fauna de ${z}.`],
+    en: [(n, u) => `In which ${u} does this animal live: “${n}”?`, (n, z) => `“${n}” is part of the wildlife of ${z}.`],
+    it: [(n, u) => `In quale ${u} vive questo animale: «${n}»?`, (n, z) => `«${n}» fa parte della fauna di ${z}.`],
+  }],
+  ["plants", "flora", {
+    es: [(n, u) => `¿En qué ${u} crece esta planta: «${n}»?`, (n, z) => `«${n}» es una planta típica de ${z}.`],
+    en: [(n, u) => `In which ${u} does this plant grow: “${n}”?`, (n, z) => `“${n}” is a typical plant of ${z}.`],
+    it: [(n, u) => `In quale ${u} cresce questa pianta: «${n}»?`, (n, z) => `«${n}» è una pianta tipica di ${z}.`],
+  }],
+  ["foods", "food", {
+    es: [(n, u) => `¿De qué ${u} es típico este plato: «${n}»?`, (n, z) => `«${n}» es un plato típico de ${z}.`],
+    en: [(n, u) => `Which ${u} is this dish typical of: “${n}”?`, (n, z) => `“${n}” is a typical dish of ${z}.`],
+    it: [(n, u) => `Di quale ${u} è tipico questo piatto: «${n}»?`, (n, z) => `«${n}» è un piatto tipico di ${z}.`],
+  }],
+  ["tourism", "tourism", {
+    es: [(n, u) => `¿En qué ${u} se encuentra «${n}»?`, (n, z) => `«${n}» se encuentra en ${z}.`],
+    en: [(n, u) => `In which ${u} is “${n}”?`, (n, z) => `“${n}” is in ${z}.`],
+    it: [(n, u) => `In quale ${u} si trova «${n}»?`, (n, z) => `«${n}» si trova in ${z}.`],
+  }],
+  ["curiosities", "history", {
+    es: [(n, u) => `¿A qué ${u} pertenece este hecho histórico: «${shorten(n)}»?`, (n, z) => `Este hecho tiene que ver con ${z}.`],
+    en: [(n, u) => `Which ${u} does this historical fact belong to: “${shorten(n)}”?`, (n, z) => `This fact is about ${z}.`],
+    it: [(n, u) => `A quale ${u} appartiene questo fatto storico: «${shorten(n)}»?`, (n, z) => `Questo fatto riguarda ${z}.`],
+  }],
+];
+
 for (const ds of DATASETS) {
   const regions = await loadTsNamedExport(ds.regionsFile, ds.regionsExport);
   const content = await loadTsNamedExport(ds.contentFile, ds.contentExport);
+  const trs = Object.fromEntries(LOCALES.map((l) => [l, l === SOURCE ? { zones: {} } : loadTr(ds.key, l)]));
 
-  const nameBySlug = Object.fromEntries(regions.map((r) => [r.slug, r.name]));
   const norm = (s) => s.trim().toLowerCase();
+  const zoneLabel = (locale, r) => ZONE_NAMES[locale]?.[r.slug] ?? r.name;
+  const itemName = (locale, r, kind, index) =>
+    trs[locale].zones[r.slug]?.[kind]?.[index]?.name || content[r.slug][kind][index].name;
 
-  // Para no dar respuestas ambiguas: si un elemento aparece en varias zonas,
-  // esas zonas no se usan como distractores.
-  function zonesWithItem(kind, itemName) {
+  // Si un elemento aparece en varias zonas, esas zonas no se usan como distractores.
+  function zonesWithItem(kind, name) {
     return regions
-      .filter((r) => (content[r.slug]?.[kind] ?? []).some((i) => norm(i.name) === norm(itemName)))
-      .map((r) => r.name);
+      .filter((r) => (content[r.slug]?.[kind] ?? []).some((i) => norm(i.name) === norm(name)))
+      .map((r) => r.slug);
   }
 
-  function build(slug, kind, itemName) {
-    const correct = nameBySlug[slug];
-    const forbidden = new Set(zonesWithItem(kind, itemName));
-    const pool = regions.map((r) => r.name).filter((n) => !forbidden.has(n));
-    const distractors = shuffle(pool).slice(0, 3);
-    if (distractors.length < 3) return null;
-    const choices = shuffle([correct, ...distractors]);
-    return { choices, correctIndex: choices.indexOf(correct) };
-  }
-
-  const specs = [
-    ["animals", "fauna", (n) => `In quale ${ds.unit} vive questo animale: «${n}»?`, (n, z) => `«${n}» fa parte della fauna di ${z}.`],
-    ["plants", "flora", (n) => `In quale ${ds.unit} cresce questa pianta: «${n}»?`, (n, z) => `«${n}» è una pianta tipica di ${z}.`],
-    ["foods", "food", (n) => `Di quale ${ds.unit} è tipico questo piatto: «${n}»?`, (n, z) => `«${n}» è un piatto tipico di ${z}.`],
-    ["tourism", "tourism", (n) => `In quale ${ds.unit} si trova «${n}»?`, (n, z) => `«${n}» si trova in ${z}.`],
-    ["curiosities", "history", (n) => `A quale ${ds.unit} appartiene questo fatto storico: «${shorten(n)}»?`, (n, z) => `Questo fatto riguarda ${z}.`],
-  ];
-
-  const questions = [];
+  const plan = [];
   for (const r of regions) {
-    for (const [kind, category, prompt, explain] of specs) {
-      for (const item of content[r.slug]?.[kind] ?? []) {
-        const built = build(r.slug, kind, item.name);
-        if (!built) continue;
-        questions.push({
-          id: id([ds.key, kind, r.slug, item.name]),
-          provinceSlug: r.slug,
-          category,
-          prompt: prompt(item.name),
-          choices: built.choices,
-          correctIndex: built.correctIndex,
-          explanation: explain(item.name, r.name),
-        });
-      }
+    for (const [kind, category] of SPECS) {
+      (content[r.slug]?.[kind] ?? []).forEach((item, index) => {
+        const forbidden = new Set(zonesWithItem(kind, item.name));
+        const pool = regions.map((x) => x.slug).filter((s) => !forbidden.has(s));
+        const distractors = shuffle(pool).slice(0, 3);
+        if (distractors.length < 3) return;
+        const order = shuffle([r.slug, ...distractors]);
+        plan.push({ id: id([ds.key, kind, r.slug, item.name]), r, kind, category, index, order });
+      });
     }
   }
+  const uniquePlan = [...new Map(plan.map((q) => [q.id, q])).values()];
+  const bySlug = Object.fromEntries(regions.map((r) => [r.slug, r]));
 
-  const unique = [...new Map(questions.map((q) => [q.id, q])).values()];
-  const out = `/** Generato da scripts/generate-trivia-regions.mjs — non modificare a mano. */
+  const out = {};
+  for (const locale of LOCALES) {
+    out[locale] = uniquePlan.map((q) => {
+      const spec = SPECS.find(([kind]) => kind === q.kind)[2][locale];
+      const name = itemName(locale, q.r, q.kind, q.index);
+      const unit = ds.unit[locale];
+      return {
+        id: q.id,
+        provinceSlug: q.r.slug,
+        category: q.category,
+        prompt: spec[0](name, unit),
+        choices: q.order.map((slug) => zoneLabel(locale, bySlug[slug])),
+        correctIndex: q.order.indexOf(q.r.slug),
+        explanation: spec[1](name, zoneLabel(locale, q.r)),
+      };
+    });
+  }
+
+  const file = `/** Generado por scripts/generate-trivia-regions.mjs — no editar a mano. */
+import type { Locale } from "@/lib/i18n/locale";
 import type { TriviaQuestion } from "@/lib/trivia/types";
 
-export const ${ds.constName}: TriviaQuestion[] = ${JSON.stringify(unique, null, 2)};
+export const ${ds.constName}: Record<Locale, TriviaQuestion[]> = ${JSON.stringify(out, null, 2)};
 `;
-  writeFileSync(ds.out, out, "utf8");
-  console.log(`OK: ${unique.length} domande → ${ds.out}`);
+  writeFileSync(ds.out, file, "utf8");
+  console.log(`OK: ${uniquePlan.length} preguntas x ${LOCALES.length} idiomas → ${ds.out}`);
 }

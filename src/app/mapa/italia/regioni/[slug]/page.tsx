@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { SiteHeader } from "@/components/layout/SiteHeader";
+import { ZoneName } from "@/components/layout/ZoneName";
+import { TRANSLATIONS } from "@/data/i18n";
+import { localizeZone } from "@/lib/i18n/overlay";
 import { UiLink } from "@/components/layout/UiLink";
 import { ProvinceSections } from "@/components/province/ProvinceSections";
 import { RegionSpotlightMap } from "@/components/region/RegionSpotlightMap";
@@ -46,6 +49,13 @@ export default async function ItalyRegionPage({ params }: Props) {
   const region = getItalyRegionBySlug(slug);
   if (!region) notFound();
   const content = getItalyRegionContent(slug);
+  const localized = localizeZone(
+    "it",
+    region.slug,
+    { slug: region.slug, ...content },
+    `${region.spotlightOverview}\n${region.curiosity}`,
+    TRANSLATIONS.italy,
+  );
 
   return (
     <div className="min-h-dvh text-foreground">
@@ -63,7 +73,9 @@ export default async function ItalyRegionPage({ params }: Props) {
             <li aria-hidden="true" className="text-foreground-muted">
               /
             </li>
-            <li className="font-display text-heading">{region.name}</li>
+            <li className="font-display text-heading">
+              <ZoneName slug={region.slug} fallback={region.name} />
+            </li>
           </ol>
         </nav>
         {region.slug === "sicilia" ? (
@@ -85,20 +97,11 @@ export default async function ItalyRegionPage({ params }: Props) {
           </p>
         ) : null}
         <div className="flex min-w-0 flex-col-reverse gap-6 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(18rem,40%)] lg:items-start">
-          <ProvinceSections
-            localContent={{
-              slug: region.slug,
-              plants: content.plants,
-              animals: content.animals,
-              foods: content.foods,
-              tourism: content.tourism,
-              curiosities: content.curiosities,
-            }}
-          />
+          <ProvinceSections contentByLocale={localized.content} />
           <RegionSpotlightMap
             slug={region.slug}
             name={region.name}
-            spotlightOverview={`${region.spotlightOverview}\n${region.curiosity}`}
+            spotlightOverview={localized.spotlight}
           />
         </div>
       </main>

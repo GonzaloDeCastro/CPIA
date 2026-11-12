@@ -7,17 +7,21 @@ import {
   ITALY_REGION_SVG_PATHS,
 } from "@/data/map/italy-paths.generated";
 import { ITALY_REGION_FILLS } from "@/lib/design/italy-map-colors";
-import { useUi } from "@/lib/i18n/locale";
+import { zoneName } from "@/data/i18n/zone-names";
+import { useLocale, useUi, type Locale } from "@/lib/i18n/locale";
 import type { ItalyRegionSlug } from "@/types/region";
 
 type Props = {
   slug: ItalyRegionSlug;
   name: string;
-  spotlightOverview: string;
+  spotlightOverview: Record<Locale, string>;
 };
 
-export function RegionSpotlightMap({ slug, name, spotlightOverview }: Props) {
+export function RegionSpotlightMap({ slug, name: baseName, spotlightOverview: spotlights }: Props) {
   const ui = useUi();
+  const { locale } = useLocale();
+  const name = zoneName(locale, slug, baseName);
+  const spotlightOverview = spotlights[locale];
   const pathRef = useRef<SVGPathElement | null>(null);
   const [viewBox, setViewBox] = useState<string>(ITALY_MAP_VIEW_BOX);
   const pathD = ITALY_REGION_SVG_PATHS[slug];

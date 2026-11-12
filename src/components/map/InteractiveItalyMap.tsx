@@ -9,7 +9,8 @@ import {
   ITALY_REGION_SVG_PATHS,
 } from "@/data/map/italy-paths.generated";
 import { ITALY_REGION_FILLS } from "@/lib/design/italy-map-colors";
-import { useUi } from "@/lib/i18n/locale";
+import { zoneName } from "@/data/i18n/zone-names";
+import { useLocale, useUi } from "@/lib/i18n/locale";
 import { italyRegionPath } from "@/lib/routing/paths";
 import type { ItalyRegionSlug } from "@/types/region";
 
@@ -31,6 +32,7 @@ export function InteractiveItalyMap({
 }: Props) {
   const router = useRouter();
   const ui = useUi();
+  const { locale } = useLocale();
   const ariaLabel = ariaLabelProp ?? ui.map.ariaItaly;
   const titleId = useId();
   const labelId = useId();
@@ -39,9 +41,13 @@ export function InteractiveItalyMap({
   const [tipPos, setTipPos] = useState<{ x: number; y: number } | null>(null);
   const [previewViewBox, setPreviewViewBox] = useState<string>(ITALY_MAP_VIEW_BOX);
   const previewPathRef = useRef<SVGPathElement | null>(null);
-  const activeLabel = activeRegion
+  const activeBaseLabel = activeRegion
     ? (regions.find((region) => region.slug === activeRegion)?.name ?? null)
     : null;
+  const activeLabel =
+    activeRegion && activeBaseLabel
+      ? zoneName(locale, activeRegion, activeBaseLabel)
+      : null;
 
   const navigate = useCallback(
     (slug: ItalyRegionSlug) => {
@@ -147,7 +153,7 @@ export function InteractiveItalyMap({
                     }
                   }}
                 >
-                  <title>{region.name}</title>
+                  <title>{zoneName(locale, region.slug, region.name)}</title>
                 </path>
               );
             })}

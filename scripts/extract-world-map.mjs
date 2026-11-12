@@ -1,5 +1,5 @@
 /**
- * Lee public/inputs/world.svg (MapSVG) y genera
+ * Lee public/inputs/assets/world.svg (MapSVG) y genera
  * src/data/map/world-paths.generated.ts
  * (paths absolutos con 1 decimal, más centro de Argentina e Italia).
  */
@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
-const svgPath = path.join(root, "public/inputs/world.svg");
+const svgPath = path.join(root, "public/inputs/assets/world.svg");
 const outPath = path.join(root, "src/data/map/world-paths.generated.ts");
 
 const svg = fs.readFileSync(svgPath, "utf8");

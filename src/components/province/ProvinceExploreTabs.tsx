@@ -3,18 +3,9 @@
 import { useId, useState } from "react";
 
 import { useUi } from "@/lib/i18n/locale";
-import type { ProvinceContentItem } from "@/types/province";
+import type { ExploreContent } from "@/lib/i18n/overlay";
 
 import { ProvinceTopicGrid } from "./ProvinceTopicGrid";
-
-type ExploreContent = {
-  slug: string;
-  animals: ProvinceContentItem[];
-  plants: ProvinceContentItem[];
-  foods: ProvinceContentItem[];
-  curiosities: ProvinceContentItem[];
-  tourism: ProvinceContentItem[];
-};
 
 type TabId = "flora" | "fauna" | "foods" | "tourism" | "curiosity";
 

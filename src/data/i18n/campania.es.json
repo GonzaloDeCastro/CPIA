@@ -1,0 +1,144 @@
+{
+  "zones": {
+    "avellino": {
+      "spotlight": "Avellino tiene unos cuatrocientos mil habitantes. La capital está en una cuenca rodeada de montañas, y la provincia, la Irpinia, es la más montañosa de Campania.\nEs la tierra de los bosques, las abadías y los manantiales: en Caposele nacen las fuentes del río Sele, cuyas aguas terminan en un gran acueducto que llega hasta Apulia.\nEl nombre científico del avellano, Corylus avellana, viene justamente de Avella, cerca de Avellino: desde aquí ya salían las avellanas en la época romana.",
+      "plants": [
+        { "name": "Avellano", "description": "Los arbustos de avellano llenan las colinas de la Irpinia. Con las avellanas se hacen turrones y cremas, y su nombre latino viene de Avella." },
+        { "name": "Haya", "description": "En los Montes Picentini y alrededor del lago Laceno forma bosques altos y densos. En otoño las hojas se vuelven rojas y doradas." },
+        { "name": "Roble cerris", "description": "Roble robusto de los bosques más bajos. Se reconoce por las bellotas con la cúpula «rizada» y por el tronco oscuro y agrietado." }
+      ],
+      "animals": [
+        { "name": "Lobo apenino", "description": "Vive en los bosques altos de los Montes Picentini. Caza de noche y vive en manada; por lo general evita a las personas." },
+        { "name": "Gato montés", "description": "Más grande y robusto que un gato doméstico, con la cola anillada y la punta negra. Vive escondido entre los hayedos y casi nunca se ve de día." },
+        { "name": "Milano real", "description": "Ave rapaz de cola en forma de horquilla y color rojizo. Planea sobre los campos de la Irpinia buscando animales pequeños y carroña." }
+      ],
+      "foods": [
+        { "name": "Castaña de Montella", "description": "Castaña dulce y de cáscara fina, recogida en los bosques de Montella. Se come asada en otoño o convertida en marrons glacés y harina." },
+        { "name": "Trufa negra de Bagnoli Irpino", "description": "Un hongo que crece bajo tierra, cerca de las raíces de ciertos árboles. Perros entrenados lo encuentran por el olor, y bastan unas pocas láminas para perfumar un plato." },
+        { "name": "Turrón de avellanas", "description": "Dulce de avellanas, miel y azúcar, típico de las fiestas. En la Irpinia se prepara con las avellanas de la zona y se corta en trozos." }
+      ],
+      "tourism": [
+        { "name": "Abadía de Goleto", "description": "Monasterio medieval en Sant'Angelo dei Lombardi, con una iglesia de dos pisos y una torre. Lo fundó San Guillermo de Vercelli." },
+        { "name": "Santuario de Montevergine", "description": "Está en la cima del monte Partenio, a más de mil metros de altura. Se puede subir a pie o en teleférico, y dentro hay una Virgen muy venerada." },
+        { "name": "Lago Laceno", "description": "Lago de montaña entre los hayedos de los Picentini. En verano se pasea y se anda en bici; en invierno hay nieve para esquiar y deslizarse en trineo." }
+      ],
+      "curiosities": [
+        { "name": "El terremoto de la Irpinia de 1980", "description": "El 23 de noviembre de 1980 un sismo muy fuerte golpeó a decenas de pueblos de la Irpinia. La reconstrucción duró muchos años y cambió la forma de construir en Italia." },
+        { "name": "Guillermo de Vercelli", "description": "Un monje que, a comienzos del siglo XII, subió a un monte de la Irpinia y fundó allí la abadía de Montevergine y luego la de Goleto." },
+        { "name": "Francesco De Sanctis", "description": "Nació en Morra Irpina en 1817 y fue uno de los grandes estudiosos de la literatura italiana y ministro de Educación después de la unificación de Italia." }
+      ]
+    },
+    "benevento": {
+      "spotlight": "Benevento tiene unos doscientos sesenta mil habitantes y es la provincia más pequeña de Campania. La ciudad fue romana, luego longobarda y después de los Estados Pontificios.\nAquí hay monumentos de dos mil años de antigüedad, como el Arco de Trajano y el Teatro romano, y el macizo del Taburno-Camposauro con sus bosques.\nSegún la leyenda, las brujas de Benevento se reunían de noche bajo un gran nogal, y de ahí el licor Strega tomó su nombre.",
+      "plants": [
+        { "name": "Nogal", "description": "Árbol grande de copa ancha, nombrado en las leyendas de las brujas. Las nueces se recogen en otoño y se usan en los postres." },
+        { "name": "Roble pubescente", "description": "Roble de las colinas del Samnio. Resiste bien la sequía y en invierno conserva muchas hojas secas en las ramas." },
+        { "name": "Olivo", "description": "Los olivos dibujan las colinas del Samnio. De las aceitunas se extrae el aceite, que acompaña el pan y las sopas de legumbres." }
+      ],
+      "animals": [
+        { "name": "Jabalí", "description": "Vive en los bosques de roble y de haya. Con el hocico remueve la tierra para encontrar raíces y bellotas." },
+        { "name": "Liebre italiana", "description": "Una liebre que vive solo en el centro-sur de Italia y en Sicilia. Es rara y se distingue de la liebre europea por el pelaje más claro en la barriga." },
+        { "name": "Tejón", "description": "Sale de noche de la madriguera y busca lombrices, frutos y raíces. Tiene el hocico blanco con dos rayas negras." }
+      ],
+      "foods": [
+        { "name": "Cavatelli", "description": "Pasta hecha a mano con harina y agua, con forma de pequeñas conchas alargadas. En el Samnio se condimenta con brócoli, porotos o una simple salsa." },
+        { "name": "Licor Strega", "description": "Licor amarillo de azafrán y hierbas, nacido en Benevento en 1860. Es para los adultos: a los chicos les queda la leyenda de las brujas dibujadas en la etiqueta." },
+        { "name": "Soppressata samnita", "description": "Embutido de carne de cerdo, ajo y pimienta, madurado durante meses. Se corta fino y se come con pan." }
+      ],
+      "tourism": [
+        { "name": "Arco de Trajano", "description": "Arco de triunfo romano de más de quince metros de alto, construido en el año 114 d. C. Cuenta en mármol las hazañas del emperador Trajano." },
+        { "name": "Teatro romano de Benevento", "description": "Construido en el siglo II d. C., podía recibir a más de diez mil espectadores. Todavía hoy se hacen espectáculos al aire libre." },
+        { "name": "Iglesia de Santa Sofía", "description": "Iglesia longobarda del año 760 con planta en forma de estrella. Forma parte de los lugares de los longobardos en Italia, Patrimonio de la Humanidad de la UNESCO." }
+      ],
+      "curiosities": [
+        { "name": "Las Horcas Caudinas", "description": "En el 321 a. C. los samnitas encerraron a un ejército romano en un valle estrecho y lo obligaron a pasar bajo un yugo de lanzas: para los romanos fue una gran humillación." },
+        { "name": "El Ducado longobardo", "description": "Después de los romanos, los longobardos hicieron de Benevento un ducado poderoso del sur de Italia, que duró siglos." },
+        { "name": "La batalla de Benevento", "description": "En 1266 Carlos de Anjou derrotó al rey Manfredo cerca de la ciudad. Fue una batalla que cambió quién gobernaba el sur de Italia." }
+      ]
+    },
+    "caserta": {
+      "spotlight": "Caserta tiene unos novecientos mil habitantes. La provincia abarca la llanura del Volturno, la costa del Litorale Domizio y las montañas del Matese.\nAntes se llamaba Tierra de Labor, por la fertilidad de sus campos. Aquí se crían las búfalas mediterráneas, de cuya leche se hace la mozzarella.\nEl Palacio Real de Caserta tiene 1.200 habitaciones y un parque con una cascada artificial de más de setenta metros de largo: es uno de los palacios más grandes del mundo.",
+      "plants": [
+        { "name": "Castaño", "description": "Crece en los bosques alrededor del volcán extinto de Roccamonfina. Las castañas maduran en otoño dentro de sus erizos espinosos." },
+        { "name": "Pino piñonero", "description": "El pino de copa en forma de sombrilla. Los pinares del Litorale Domizio dan sombra a la arena y producen los piñones." },
+        { "name": "Encina", "description": "Roble de hoja perenne de las colinas cálidas. Sus hojas duras y oscuras se quedan en la rama incluso en invierno." }
+      ],
+      "animals": [
+        { "name": "Búfala mediterránea", "description": "Gran bovino oscuro de cuernos en forma de media luna. Los criaderos de Caserta producen la leche para la mozzarella." },
+        { "name": "Garza real", "description": "Ave alta y gris de cuello largo. Espera inmóvil en el agua poco profunda de los humedales del Volturno para pescar." },
+        { "name": "Águila real", "description": "La reina del cielo sobre las cimas del Matese. Con sus alas de más de dos metros vuela alto y busca liebres y otros animales pequeños." }
+      ],
+      "foods": [
+        { "name": "Mozzarella de búfala de Campania", "description": "Queso fresco hecho con leche de búfala. Es blanco, suave y delicado, y se come solo o sobre la pizza." },
+        { "name": "Manzana annurca", "description": "Manzana pequeña, roja, crujiente y perfumada. Se deja madurar sobre un lecho de paja, donde toma su color." },
+        { "name": "Falerno del Massico", "description": "Vino de las colinas del Massico que los romanos adoraban hace dos mil años y que en las poesías antiguas se llamaba el mejor de todos." }
+      ],
+      "tourism": [
+        { "name": "Palacio Real de Caserta", "description": "Palacio de los Borbones con escalinatas enormes, jardines y fuentes. Hoy es Patrimonio de la Humanidad de la UNESCO y se filmaron películas famosas." },
+        { "name": "Anfiteatro Campano", "description": "En Santa Maria Capua Vetere, uno de los anfiteatros romanos más grandes, solo superado por el Coliseo. Aquí se entrenaban los gladiadores." },
+        { "name": "San Leucio", "description": "Una aldea real fundada por los Borbones para fabricar seda. Los obreros vivían en casas con escuela y jardín." }
+      ],
+      "curiosities": [
+        { "name": "Luigi Vanvitelli y el Palacio Real", "description": "El rey Carlos de Borbón encargó en 1752 al arquitecto Luigi Vanvitelli la construcción de un palacio capaz de rivalizar con Versalles." },
+        { "name": "Espartaco en Capua", "description": "En la escuela de gladiadores de Capua, en el 73 a. C., Espartaco encabezó una rebelión de esclavos contra Roma." },
+        { "name": "La batalla del Volturno", "description": "En 1860 Garibaldi y sus Mil derrotaron al ejército borbónico a orillas del Volturno, una etapa de la unificación de Italia." }
+      ]
+    },
+    "napoli": {
+      "spotlight": "La provincia de Nápoles tiene unos tres millones de habitantes y es la más densamente poblada de Italia. Incluye también las islas de Capri, Isquia y Prócida.\nEs una tierra de volcanes: el Vesubio, los Campos Flégreos y las propias islas nacieron del fuego de la tierra.\nEl Vesubio es el único volcán activo de la Europa continental: su última erupción fue en 1944 y se lo vigila siempre de cerca.",
+      "plants": [
+        { "name": "Limón de Sorrento", "description": "Limón grande y perfumado que crece en la costa sorrentina, protegido con redes y postes de madera. Con su cáscara se hace el limoncello." },
+        { "name": "Retama", "description": "Arbusto de flores amarillas que crece incluso sobre el terreno de lava del Vesubio. Leopardi le dedicó un famoso poema." },
+        { "name": "Lentisco", "description": "Arbusto perenne del matorral mediterráneo en Capri, Isquia y Prócida. Sus hojas brillantes y perfumadas de resina resisten el sol y la sal del mar." }
+      ],
+      "animals": [
+        { "name": "Lagartija azul", "description": "Vive solo en un farallón de Capri. Tiene el cuerpo de un azul intenso, que le sirve para camuflarse con el cielo y el mar." },
+        { "name": "Gaviota patiamarilla", "description": "La gaviota grande que ves en el puerto de Nápoles. Tiene el pico amarillo con una mancha roja y come peces y sobras." },
+        { "name": "Halcón peregrino", "description": "Es el más veloz de todos los animales: en picada supera los trescientos kilómetros por hora. Anida en los acantilados de Capri." }
+      ],
+      "foods": [
+        { "name": "Pizza napolitana", "description": "Masa suave con tomate y mozzarella, cocida en pocos segundos en un horno de leña. El arte de los pizzeros napolitanos es Patrimonio de la UNESCO." },
+        { "name": "Sfogliatella", "description": "Dulce en forma de concha hecho con muchas láminas finas de masa y relleno de ricota y sémola. Puede ser rizada o de masa quebrada." },
+        { "name": "Babá", "description": "Dulce esponjoso en forma de hongo, bañado con almíbar de ron. Llegó a Nápoles desde Francia y se volvió un símbolo de la ciudad." }
+      ],
+      "tourism": [
+        { "name": "Vesubio", "description": "El volcán que domina el golfo. Se puede subir hasta el cráter por un sendero y ver desde arriba toda la bahía de Nápoles." },
+        { "name": "Ruinas de Pompeya", "description": "La ciudad romana sepultada por la ceniza del Vesubio en el 79 d. C. Caminando por sus calles se ven casas, tiendas y frescos todavía intactos." },
+        { "name": "Isla de Capri", "description": "Isla de acantilados altísimos, grutas azules y los farallones, tres grandes rocas que salen del mar frente a la costa." }
+      ],
+      "curiosities": [
+        { "name": "La erupción del Vesubio del año 79", "description": "En el 79 d. C. el volcán cubrió Pompeya y Herculano de ceniza y lapilli. Las ciudades quedaron ocultas durante casi diecisiete siglos." },
+        { "name": "Neapolis, la ciudad nueva", "description": "Nápoles nació como colonia griega y se llamó «ciudad nueva» (Neapolis). El corazón antiguo, con sus calles rectas, todavía existe." },
+        { "name": "Las Cuatro Jornadas de Nápoles", "description": "En septiembre de 1943 el pueblo de Nápoles se rebeló contra el ejército alemán y liberó la ciudad pocos días antes de que llegaran los Aliados." }
+      ]
+    },
+    "salerno": {
+      "spotlight": "Salerno tiene alrededor de un millón de habitantes y es la provincia más extensa de Campania. Llega hasta el Parque Nacional del Cilento, Patrimonio de la Humanidad de la UNESCO.\nTiene dos caras: la Costa Amalfitana, con pueblos colgados sobre el mar, y el Cilento, hecho de montañas, playas y antiguas ciudades griegas.\nLa Escuela Médica Salernitana, nacida en la Edad Media, se considera la primera universidad de medicina de Europa y también admitía mujeres.",
+      "plants": [
+        { "name": "Limón sfusato amalfitano", "description": "Limón largo y muy perfumado que crece en las terrazas de la Costa Amalfitana. Con él también se hace el limoncello y el postre delicia de limón." },
+        { "name": "Prímula de Palinuro", "description": "Florecita amarilla que crece solo en unos pocos acantilados del sur de Italia, como los del Cabo Palinuro. Es una planta rarísima y protegida." },
+        { "name": "Algarrobo", "description": "Árbol de hoja perenne con vainas oscuras y dulces, llamadas algarrobas. Crece bien en el suelo seco y cálido del Cilento." }
+      ],
+      "animals": [
+        { "name": "Nutria europea", "description": "Mamífero nadador de los ríos limpios del Cilento. Come peces y ranas, y es señal de que el agua está sana." },
+        { "name": "Tortuga marina", "description": "A fines de primavera pone sus huevos en las playas del Cilento. Voluntarios protegen los nidos hasta que las crías llegan al mar." },
+        { "name": "Salamandrina de anteojos", "description": "Pequeña salamandra negra con dos manchas claras en la cabeza y la panza roja. Vive cerca de arroyos frescos y sombríos." }
+      ],
+      "foods": [
+        { "name": "Colatura de anchoas de Cetara", "description": "Líquido dorado que se obtiene de las anchoas en sal, heredero del antiguo garum romano. Condimenta espaguetis y verduras." },
+        { "name": "Delicia de limón", "description": "Postre en forma de cúpula con bizcocho, crema y glaseado de limón de la Costa. Es un dulce típico de la Costa Amalfitana." },
+        { "name": "Tomate San Marzano", "description": "Tomate largo y rojo cultivado cerca del Vesubio, en las tierras de Sarno. Es el preferido para hacer salsa y pizza." }
+      ],
+      "tourism": [
+        { "name": "Costa Amalfitana", "description": "Costa con pueblos de colores colgados de las rocas, como Positano y Amalfi. La ruta panorámica sube y baja entre el mar y los limonares." },
+        { "name": "Templos de Paestum", "description": "Tres grandes templos griegos de más de dos mil quinientos años, en medio del campo. Están entre los mejor conservados del mundo." },
+        { "name": "Cartuja de Padula", "description": "Uno de los monasterios más grandes de Italia, con un claustro enorme y una escalera de caracol. Allí vivían los monjes cartujos." }
+      ],
+      "curiosities": [
+        { "name": "La Escuela Médica Salernitana", "description": "Fue la primera escuela de medicina de Europa. Sus maestros escribieron libros de consejos para estar bien con plantas, comidas sanas y descanso." },
+        { "name": "La República de Amalfi", "description": "Durante siglos Amalfi fue una poderosa república de marineros. Sus reglas sobre el comercio por mar, las Tablas Amalfitanas, se usaron en todo el Mediterráneo." },
+        { "name": "La expedición de Sapri", "description": "En 1857 Carlo Pisacane desembarcó en Sapri con pocos compañeros para liberar al Sur del rey. Fue derrotado, pero su gesto inspiró la unificación de Italia." }
+      ]
+    }
+  }
+}

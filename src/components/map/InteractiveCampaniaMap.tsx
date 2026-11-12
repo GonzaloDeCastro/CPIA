@@ -9,7 +9,8 @@ import {
   CAMPANIA_PROVINCE_SVG_PATHS,
 } from "@/data/map/campania-paths.generated";
 import { CAMPANIA_PROVINCE_FILLS } from "@/lib/design/campania-map-colors";
-import { useUi } from "@/lib/i18n/locale";
+import { zoneName } from "@/data/i18n/zone-names";
+import { useLocale, useUi } from "@/lib/i18n/locale";
 import { campaniaProvincePath } from "@/lib/routing/paths";
 import type { CampaniaProvinceSlug } from "@/types/campania";
 
@@ -31,6 +32,7 @@ export function InteractiveCampaniaMap({
 }: Props) {
   const router = useRouter();
   const ui = useUi();
+  const { locale } = useLocale();
   const ariaLabel = ariaLabelProp ?? ui.map.ariaCampania;
   const titleId = useId();
   const labelId = useId();
@@ -41,10 +43,14 @@ export function InteractiveCampaniaMap({
   const [tipPos, setTipPos] = useState<{ x: number; y: number } | null>(null);
   const [previewViewBox, setPreviewViewBox] = useState<string>(CAMPANIA_MAP_VIEW_BOX);
   const previewPathRef = useRef<SVGPathElement | null>(null);
-  const activeLabel = activeProvince
+  const activeBaseLabel = activeProvince
     ? (provinces.find((province) => province.slug === activeProvince)?.name ??
       null)
     : null;
+  const activeLabel =
+    activeProvince && activeBaseLabel
+      ? zoneName(locale, activeProvince, activeBaseLabel)
+      : null;
 
   const navigate = useCallback(
     (slug: CampaniaProvinceSlug) => {
@@ -148,7 +154,7 @@ export function InteractiveCampaniaMap({
                     }
                   }}
                 >
-                  <title>{province.name}</title>
+                  <title>{zoneName(locale, province.slug, province.name)}</title>
                 </path>
               );
             })}

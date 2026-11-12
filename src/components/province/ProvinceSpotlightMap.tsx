@@ -12,7 +12,8 @@ import {
   MALVINAS_MAP_FILL,
   MAINLAND_PROVINCE_FILLS,
 } from "@/lib/design/province-map-colors";
-import { useUi } from "@/lib/i18n/locale";
+import { zoneName } from "@/data/i18n/zone-names";
+import { useLocale, useUi, type Locale } from "@/lib/i18n/locale";
 import type { ProvinceSlug } from "@/types/province";
 
 type MainlandProvinceSlug = Exclude<ProvinceSlug, "islas-malvinas">;
@@ -21,11 +22,14 @@ const MALVINAS_SLUG = "islas-malvinas" as const;
 type Props = {
   slug: ProvinceSlug;
   name: string;
-  spotlightOverview: string;
+  spotlightOverview: Record<Locale, string>;
 };
 
-export function ProvinceSpotlightMap({ slug, name, spotlightOverview }: Props) {
+export function ProvinceSpotlightMap({ slug, name: baseName, spotlightOverview: spotlights }: Props) {
   const ui = useUi();
+  const { locale } = useLocale();
+  const name = zoneName(locale, slug, baseName);
+  const spotlightOverview = spotlights[locale];
   const pathRef = useRef<SVGPathElement | null>(null);
   const [viewBox, setViewBox] = useState<string>(
     slug === MALVINAS_SLUG ? MALVINAS_MAP_VIEW_BOX : MAP_VIEW_BOX,

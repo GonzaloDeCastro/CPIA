@@ -1,0 +1,34 @@
+{
+  "it": {},
+  "es": {
+    "valle-d-aosta": "Valle de Aosta",
+    "piemonte": "Piamonte",
+    "lombardia": "Lombardía",
+    "trentino-alto-adige": "Trentino-Alto Adigio",
+    "veneto": "Véneto",
+    "friuli-venezia-giulia": "Friuli-Venecia Julia",
+    "emilia-romagna": "Emilia-Romaña",
+    "toscana": "Toscana",
+    "umbria": "Umbría",
+    "marche": "Marcas",
+    "lazio": "Lacio",
+    "abruzzo": "Abruzos",
+    "puglia": "Apulia",
+    "sardegna": "Cerdeña",
+    "messina": "Mesina",
+    "napoli": "Nápoles"
+  },
+  "en": {
+    "valle-d-aosta": "Aosta Valley",
+    "piemonte": "Piedmont",
+    "lombardia": "Lombardy",
+    "trentino-alto-adige": "Trentino-South Tyrol",
+    "toscana": "Tuscany",
+    "lazio": "Lazio",
+    "puglia": "Apulia",
+    "sicilia": "Sicily",
+    "sardegna": "Sardinia",
+    "siracusa": "Syracuse",
+    "napoli": "Naples"
+  }
+}
