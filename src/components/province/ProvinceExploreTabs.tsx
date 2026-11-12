@@ -2,6 +2,7 @@
 
 import { useId, useState } from "react";
 
+import { useUi } from "@/lib/i18n/locale";
 import type { ProvinceContentItem } from "@/types/province";
 
 import { ProvinceTopicGrid } from "./ProvinceTopicGrid";
@@ -17,12 +18,12 @@ type ExploreContent = {
 
 type TabId = "flora" | "fauna" | "foods" | "tourism" | "curiosity";
 
-const TABS: { id: TabId; label: string; emoji: string }[] = [
-  { id: "flora", label: "Flora", emoji: "🌿" },
-  { id: "fauna", label: "Fauna", emoji: "🦊" },
-  { id: "foods", label: "Comidas", emoji: "🧉" },
-  { id: "tourism", label: "Turismo", emoji: "🧭" },
-  { id: "curiosity", label: "Historia", emoji: "📜" },
+const TABS: { id: TabId; emoji: string }[] = [
+  { id: "flora", emoji: "🌿" },
+  { id: "fauna", emoji: "🦊" },
+  { id: "foods", emoji: "🧉" },
+  { id: "tourism", emoji: "🧭" },
+  { id: "curiosity", emoji: "📜" },
 ];
 
 /** En pantallas chicas: fila 3+2 (más ancho para Turismo y Curiosidades) */
@@ -36,18 +37,10 @@ const TAB_MOBILE_COL_SPAN = [
 
 type Props = {
   localContent: ExploreContent;
-  locale?: "es" | "it";
 };
 
-const TABS_IT: { id: TabId; label: string; emoji: string }[] = [
-  { id: "flora", label: "Flora", emoji: "🌿" },
-  { id: "fauna", label: "Fauna", emoji: "🦊" },
-  { id: "foods", label: "Cucina", emoji: "🍝" },
-  { id: "tourism", label: "Turismo", emoji: "🧭" },
-  { id: "curiosity", label: "Storia", emoji: "📜" },
-];
-
-export function ProvinceExploreTabs({ localContent, locale = "es" }: Props) {
+export function ProvinceExploreTabs({ localContent }: Props) {
+  const ui = useUi();
   const baseId = useId();
   const [active, setActive] = useState<TabId>("flora");
 
@@ -55,10 +48,10 @@ export function ProvinceExploreTabs({ localContent, locale = "es" }: Props) {
     <div className="space-y-4 text-left">
       <div
         role="tablist"
-        aria-label={locale === "it" ? "Sezioni" : "Secciones de la provincia"}
+        aria-label={ui.page.sections}
         className="grid w-full grid-cols-6 gap-1 sm:grid-cols-5 sm:gap-2"
       >
-        {(locale === "it" ? TABS_IT : TABS).map((tab, index) => {
+        {TABS.map((tab, index) => {
           const selected = active === tab.id;
           return (
             <button
@@ -83,14 +76,14 @@ export function ProvinceExploreTabs({ localContent, locale = "es" }: Props) {
                 {tab.emoji}
               </span>
               <span className="min-w-0 max-w-full whitespace-normal sm:whitespace-nowrap">
-                {tab.label}
+                {ui.page.tabs[tab.id]}
               </span>
             </button>
           );
         })}
       </div>
 
-      {(locale === "it" ? TABS_IT : TABS).map((tab) => {
+      {TABS.map((tab) => {
         const topicLabel =
           tab.id === "fauna"
             ? "fauna"
@@ -125,7 +118,6 @@ export function ProvinceExploreTabs({ localContent, locale = "es" }: Props) {
             <ProvinceTopicGrid
               items={items}
               topicLabel={topicLabel}
-              locale={locale}
             />
           </div>
         );

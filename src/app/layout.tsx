@@ -1,8 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import { Fredoka, Nunito } from "next/font/google";
 
+import { LanguageSelector } from "@/components/layout/LanguageSelector";
 import { DonationHint } from "@/components/donation/DonationHint";
 import { getDonationConfig } from "@/lib/config/donation";
+import { LocaleProvider } from "@/lib/i18n/locale";
 
 import "./globals.css";
 
@@ -67,7 +69,10 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`${nunito.variable} ${fredoka.variable} font-sans antialiased`}
       >
-        {children}
+        <LocaleProvider>
+          {children}
+          <LanguageSelector />
+        </LocaleProvider>
         {donation.enabled ? (
           <DonationHint
             paypalUrl={donation.paypalUrl || undefined}

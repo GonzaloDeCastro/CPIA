@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { SiteHeader } from "@/components/layout/SiteHeader";
+import { UiLink } from "@/components/layout/UiLink";
 import { ProvinceSections } from "@/components/province/ProvinceSections";
 import { ProvinceSpotlightMap } from "@/components/province/ProvinceSpotlightMap";
 import { getAllProvinceSlugs } from "@/data/provinces";
@@ -9,7 +10,6 @@ import {
   fetchProvinceBySlug,
   fetchProvinceLocalContentBySlug,
 } from "@/services/province-service";
-import Link from "next/link";
 import { provincePath } from "@/lib/routing/paths";
 
 type Props = {
@@ -56,12 +56,11 @@ export default async function ProvincePage({ params }: Props) {
         <nav className="mb-8 w-full" aria-label="Migas de pan">
           <ol className="flex w-full flex-wrap items-center justify-start gap-2 text-left text-sm font-bold sm:text-base">
             <li>
-              <Link
+              <UiLink
                 href="/mapa/argentina"
                 className="rounded-full bg-water/15 px-3 py-1.5 text-water underline-offset-4 transition hover:bg-water/25 hover:underline"
-              >
-                Mapa
-              </Link>
+                text="map"
+              />
             </li>
             <li aria-hidden="true" className="text-foreground-muted">
               /

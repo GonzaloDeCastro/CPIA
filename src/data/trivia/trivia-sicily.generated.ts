@@ -8,12 +8,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Grillaio»?",
     "choices": [
-      "Agrigento",
-      "Enna",
+      "Siracusa",
       "Messina",
-      "Trapani"
+      "Trapani",
+      "Agrigento"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "«Grillaio» fa parte della fauna di Agrigento."
   },
   {
@@ -24,8 +24,8 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "choices": [
       "Agrigento",
       "Enna",
-      "Ragusa",
-      "Catania"
+      "Palermo",
+      "Ragusa"
     ],
     "correctIndex": 0,
     "explanation": "«Tartaruga marina» fa parte della fauna di Agrigento."
@@ -39,7 +39,7 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
       "Enna",
       "Ragusa",
       "Agrigento",
-      "Palermo"
+      "Catania"
     ],
     "correctIndex": 2,
     "explanation": "«Gabbiano corso» fa parte della fauna di Agrigento."
@@ -50,12 +50,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Mandorlo»?",
     "choices": [
-      "Messina",
-      "Agrigento",
+      "Caltanissetta",
       "Palermo",
-      "Catania"
+      "Agrigento",
+      "Enna"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "«Mandorlo» è una pianta tipica di Agrigento."
   },
   {
@@ -64,12 +64,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Fico d'India»?",
     "choices": [
-      "Trapani",
-      "Agrigento",
-      "Catania",
-      "Caltanissetta"
+      "Palermo",
+      "Siracusa",
+      "Messina",
+      "Agrigento"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "«Fico d'India» è una pianta tipica di Agrigento."
   },
   {
@@ -78,12 +78,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Ulivo»?",
     "choices": [
-      "Palermo",
-      "Catania",
-      "Enna",
-      "Agrigento"
+      "Caltanissetta",
+      "Agrigento",
+      "Siracusa",
+      "Catania"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "«Ulivo» è una pianta tipica di Agrigento."
   },
   {
@@ -93,9 +93,9 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "prompt": "Di quale provincia è tipico questo piatto: «Macco di fave»?",
     "choices": [
       "Agrigento",
-      "Enna",
-      "Siracusa",
-      "Palermo"
+      "Trapani",
+      "Catania",
+      "Ragusa"
     ],
     "correctIndex": 0,
     "explanation": "«Macco di fave» è un piatto tipico di Agrigento."
@@ -106,12 +106,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Biancomangiare»?",
     "choices": [
-      "Enna",
       "Agrigento",
-      "Catania",
-      "Ragusa"
+      "Messina",
+      "Siracusa",
+      "Caltanissetta"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "«Biancomangiare» è un piatto tipico di Agrigento."
   },
   {
@@ -120,12 +120,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Caponata»?",
     "choices": [
-      "Enna",
-      "Palermo",
+      "Ragusa",
+      "Agrigento",
       "Caltanissetta",
-      "Agrigento"
+      "Messina"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "«Caponata» è un piatto tipico di Agrigento."
   },
   {
@@ -134,12 +134,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Valle dei Templi»?",
     "choices": [
-      "Siracusa",
       "Agrigento",
-      "Ragusa",
-      "Enna"
+      "Catania",
+      "Messina",
+      "Caltanissetta"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "«Valle dei Templi» si trova in Agrigento."
   },
   {
@@ -148,12 +148,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Scala dei Turchi»?",
     "choices": [
-      "Caltanissetta",
-      "Trapani",
       "Agrigento",
-      "Catania"
+      "Siracusa",
+      "Caltanissetta",
+      "Messina"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "«Scala dei Turchi» si trova in Agrigento."
   },
   {
@@ -162,10 +162,10 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Lampedusa»?",
     "choices": [
-      "Ragusa",
-      "Siracusa",
+      "Palermo",
+      "Caltanissetta",
       "Agrigento",
-      "Caltanissetta"
+      "Trapani"
     ],
     "correctIndex": 2,
     "explanation": "«Lampedusa» si trova in Agrigento."
@@ -176,12 +176,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Tempio della Concordia»?",
     "choices": [
+      "Enna",
+      "Messina",
       "Catania",
-      "Ragusa",
-      "Agrigento",
-      "Enna"
+      "Agrigento"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "Questo fatto riguarda Agrigento."
   },
   {
@@ -190,12 +190,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Empedocle»?",
     "choices": [
-      "Caltanissetta",
-      "Messina",
-      "Siracusa",
-      "Agrigento"
+      "Ragusa",
+      "Catania",
+      "Agrigento",
+      "Siracusa"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "Questo fatto riguarda Agrigento."
   },
   {
@@ -204,12 +204,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Luigi Pirandello»?",
     "choices": [
-      "Palermo",
-      "Catania",
+      "Caltanissetta",
       "Agrigento",
-      "Caltanissetta"
+      "Messina",
+      "Catania"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "Questo fatto riguarda Agrigento."
   },
   {
@@ -218,12 +218,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Istrice»?",
     "choices": [
-      "Siracusa",
       "Palermo",
-      "Messina",
-      "Caltanissetta"
+      "Agrigento",
+      "Caltanissetta",
+      "Catania"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "«Istrice» fa parte della fauna di Caltanissetta."
   },
   {
@@ -233,11 +233,11 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "prompt": "In quale provincia vive questo animale: «Volpe»?",
     "choices": [
       "Siracusa",
-      "Caltanissetta",
-      "Enna",
-      "Palermo"
+      "Agrigento",
+      "Messina",
+      "Caltanissetta"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "«Volpe» fa parte della fauna di Caltanissetta."
   },
   {
@@ -246,12 +246,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Poiana»?",
     "choices": [
+      "Agrigento",
+      "Catania",
       "Caltanissetta",
-      "Siracusa",
-      "Palermo",
-      "Ragusa"
+      "Trapani"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "«Poiana» fa parte della fauna di Caltanissetta."
   },
   {
@@ -261,11 +261,11 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "prompt": "In quale provincia cresce questa pianta: «Grano duro»?",
     "choices": [
       "Palermo",
-      "Trapani",
       "Caltanissetta",
-      "Agrigento"
+      "Ragusa",
+      "Siracusa"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "«Grano duro» è una pianta tipica di Caltanissetta."
   },
   {
@@ -274,12 +274,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Ferula»?",
     "choices": [
-      "Agrigento",
-      "Palermo",
-      "Siracusa",
-      "Caltanissetta"
+      "Enna",
+      "Messina",
+      "Caltanissetta",
+      "Palermo"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "«Ferula» è una pianta tipica di Caltanissetta."
   },
   {
@@ -288,9 +288,9 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Lentisco»?",
     "choices": [
-      "Enna",
-      "Trapani",
       "Agrigento",
+      "Trapani",
+      "Messina",
       "Caltanissetta"
     ],
     "correctIndex": 3,
@@ -302,12 +302,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Torrone di Caltanissetta»?",
     "choices": [
-      "Messina",
+      "Caltanissetta",
       "Siracusa",
-      "Catania",
-      "Caltanissetta"
+      "Palermo",
+      "Ragusa"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "«Torrone di Caltanissetta» è un piatto tipico di Caltanissetta."
   },
   {
@@ -316,12 +316,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Cavatelli»?",
     "choices": [
+      "Enna",
+      "Siracusa",
       "Caltanissetta",
-      "Ragusa",
-      "Messina",
-      "Trapani"
+      "Ragusa"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "«Cavatelli» è un piatto tipico di Caltanissetta."
   },
   {
@@ -330,12 +330,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Pagnotta del Dittaino»?",
     "choices": [
-      "Catania",
       "Messina",
-      "Agrigento",
-      "Caltanissetta"
+      "Caltanissetta",
+      "Catania",
+      "Agrigento"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "«Pagnotta del Dittaino» è un piatto tipico di Caltanissetta."
   },
   {
@@ -344,12 +344,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Castello di Mussomeli»?",
     "choices": [
+      "Catania",
       "Caltanissetta",
-      "Trapani",
       "Palermo",
-      "Catania"
+      "Siracusa"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "«Castello di Mussomeli» si trova in Caltanissetta."
   },
   {
@@ -358,12 +358,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Cattedrale di Caltanissetta»?",
     "choices": [
-      "Enna",
       "Caltanissetta",
-      "Catania",
-      "Trapani"
+      "Trapani",
+      "Ragusa",
+      "Enna"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "«Cattedrale di Caltanissetta» si trova in Caltanissetta."
   },
   {
@@ -372,12 +372,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Monte Capodarso»?",
     "choices": [
+      "Ragusa",
       "Caltanissetta",
-      "Messina",
-      "Siracusa",
+      "Enna",
       "Trapani"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "«Monte Capodarso» si trova in Caltanissetta."
   },
   {
@@ -387,11 +387,11 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "prompt": "A quale provincia appartiene questo fatto storico: «Solfare»?",
     "choices": [
       "Trapani",
-      "Caltanissetta",
-      "Enna",
-      "Palermo"
+      "Catania",
+      "Ragusa",
+      "Caltanissetta"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "Questo fatto riguarda Caltanissetta."
   },
   {
@@ -400,12 +400,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Fasci siciliani»?",
     "choices": [
-      "Siracusa",
+      "Messina",
+      "Ragusa",
       "Caltanissetta",
-      "Trapani",
-      "Ragusa"
+      "Trapani"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Questo fatto riguarda Caltanissetta."
   },
   {
@@ -414,12 +414,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Gela greca»?",
     "choices": [
-      "Agrigento",
-      "Catania",
       "Caltanissetta",
-      "Siracusa"
+      "Siracusa",
+      "Enna",
+      "Agrigento"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Questo fatto riguarda Caltanissetta."
   },
   {
@@ -428,12 +428,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Coturnice siciliana»?",
     "choices": [
-      "Trapani",
-      "Enna",
-      "Agrigento",
-      "Catania"
+      "Ragusa",
+      "Catania",
+      "Siracusa",
+      "Palermo"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "«Coturnice siciliana» fa parte della fauna di Catania."
   },
   {
@@ -442,12 +442,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Volpe»?",
     "choices": [
-      "Siracusa",
-      "Catania",
-      "Ragusa",
-      "Enna"
+      "Enna",
+      "Palermo",
+      "Agrigento",
+      "Catania"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "«Volpe» fa parte della fauna di Catania."
   },
   {
@@ -456,12 +456,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Riccio»?",
     "choices": [
-      "Trapani",
-      "Caltanissetta",
-      "Catania",
-      "Palermo"
+      "Messina",
+      "Agrigento",
+      "Enna",
+      "Catania"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "«Riccio» fa parte della fauna di Catania."
   },
   {
@@ -470,12 +470,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Ginestra dell'Etna»?",
     "choices": [
-      "Palermo",
-      "Siracusa",
-      "Catania",
-      "Trapani"
+      "Enna",
+      "Ragusa",
+      "Caltanissetta",
+      "Catania"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "«Ginestra dell'Etna» è una pianta tipica di Catania."
   },
   {
@@ -485,9 +485,9 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "prompt": "In quale provincia cresce questa pianta: «Castagno»?",
     "choices": [
       "Catania",
-      "Ragusa",
-      "Siracusa",
-      "Trapani"
+      "Palermo",
+      "Trapani",
+      "Enna"
     ],
     "correctIndex": 0,
     "explanation": "«Castagno» è una pianta tipica di Catania."
@@ -498,12 +498,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Pistacchio»?",
     "choices": [
-      "Siracusa",
-      "Trapani",
+      "Caltanissetta",
       "Catania",
-      "Ragusa"
+      "Siracusa",
+      "Enna"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "«Pistacchio» è una pianta tipica di Catania."
   },
   {
@@ -512,12 +512,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Pasta alla Norma»?",
     "choices": [
-      "Palermo",
-      "Enna",
+      "Catania",
       "Trapani",
-      "Catania"
+      "Agrigento",
+      "Messina"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "«Pasta alla Norma» è un piatto tipico di Catania."
   },
   {
@@ -526,8 +526,8 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Arancino»?",
     "choices": [
-      "Trapani",
-      "Ragusa",
+      "Siracusa",
+      "Caltanissetta",
       "Catania",
       "Agrigento"
     ],
@@ -540,10 +540,10 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Granita»?",
     "choices": [
-      "Siracusa",
-      "Messina",
+      "Palermo",
+      "Ragusa",
       "Catania",
-      "Palermo"
+      "Agrigento"
     ],
     "correctIndex": 2,
     "explanation": "«Granita» è un piatto tipico di Catania."
@@ -554,10 +554,10 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Etna»?",
     "choices": [
-      "Caltanissetta",
-      "Messina",
+      "Ragusa",
+      "Palermo",
       "Catania",
-      "Siracusa"
+      "Enna"
     ],
     "correctIndex": 2,
     "explanation": "«Etna» si trova in Catania."
@@ -570,8 +570,8 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "choices": [
       "Agrigento",
       "Catania",
-      "Ragusa",
-      "Messina"
+      "Trapani",
+      "Siracusa"
     ],
     "correctIndex": 1,
     "explanation": "«Fontana dell'Elefante» si trova in Catania."
@@ -582,12 +582,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Caltagirone»?",
     "choices": [
-      "Catania",
       "Messina",
-      "Palermo",
-      "Caltanissetta"
+      "Enna",
+      "Catania",
+      "Agrigento"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "«Caltagirone» si trova in Catania."
   },
   {
@@ -596,12 +596,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Eruzione del 1669»?",
     "choices": [
-      "Messina",
+      "Ragusa",
       "Enna",
-      "Palermo",
-      "Catania"
+      "Catania",
+      "Trapani"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "Questo fatto riguarda Catania."
   },
   {
@@ -610,12 +610,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Sant'Agata»?",
     "choices": [
-      "Agrigento",
-      "Siracusa",
-      "Catania",
-      "Trapani"
+      "Messina",
+      "Enna",
+      "Ragusa",
+      "Catania"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "Questo fatto riguarda Catania."
   },
   {
@@ -624,12 +624,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Vincenzo Bellini»?",
     "choices": [
-      "Enna",
       "Agrigento",
-      "Palermo",
-      "Catania"
+      "Trapani",
+      "Catania",
+      "Enna"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "Questo fatto riguarda Catania."
   },
   {
@@ -638,12 +638,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Istrice»?",
     "choices": [
+      "Trapani",
       "Enna",
-      "Catania",
-      "Siracusa",
-      "Trapani"
+      "Messina",
+      "Agrigento"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "«Istrice» fa parte della fauna di Enna."
   },
   {
@@ -652,12 +652,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Poiana»?",
     "choices": [
-      "Agrigento",
+      "Ragusa",
+      "Messina",
       "Enna",
-      "Trapani",
       "Siracusa"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "«Poiana» fa parte della fauna di Enna."
   },
   {
@@ -666,12 +666,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Gheppio»?",
     "choices": [
-      "Catania",
-      "Enna",
+      "Messina",
       "Palermo",
+      "Enna",
       "Agrigento"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "«Gheppio» fa parte della fauna di Enna."
   },
   {
@@ -680,12 +680,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Sulla»?",
     "choices": [
-      "Trapani",
-      "Palermo",
-      "Catania",
-      "Enna"
+      "Agrigento",
+      "Ragusa",
+      "Enna",
+      "Catania"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "«Sulla» è una pianta tipica di Enna."
   },
   {
@@ -694,12 +694,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Papavero»?",
     "choices": [
-      "Messina",
-      "Caltanissetta",
+      "Palermo",
       "Enna",
-      "Agrigento"
+      "Caltanissetta",
+      "Messina"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "«Papavero» è una pianta tipica di Enna."
   },
   {
@@ -708,12 +708,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Leccio»?",
     "choices": [
-      "Trapani",
-      "Ragusa",
+      "Enna",
       "Palermo",
-      "Enna"
+      "Caltanissetta",
+      "Messina"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "«Leccio» è una pianta tipica di Enna."
   },
   {
@@ -722,12 +722,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Piacentinu ennese»?",
     "choices": [
-      "Messina",
-      "Palermo",
-      "Enna",
-      "Caltanissetta"
+      "Catania",
+      "Siracusa",
+      "Trapani",
+      "Enna"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "«Piacentinu ennese» è un piatto tipico di Enna."
   },
   {
@@ -736,12 +736,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Cassatella di Agira»?",
     "choices": [
+      "Catania",
       "Trapani",
       "Messina",
-      "Enna",
-      "Ragusa"
+      "Enna"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "«Cassatella di Agira» è un piatto tipico di Enna."
   },
   {
@@ -750,12 +750,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Pecorino siciliano»?",
     "choices": [
-      "Ragusa",
-      "Trapani",
-      "Caltanissetta",
-      "Enna"
+      "Enna",
+      "Agrigento",
+      "Messina",
+      "Trapani"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "«Pecorino siciliano» è un piatto tipico di Enna."
   },
   {
@@ -764,12 +764,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Castello di Lombardia»?",
     "choices": [
-      "Siracusa",
-      "Catania",
       "Enna",
-      "Messina"
+      "Catania",
+      "Siracusa",
+      "Ragusa"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "«Castello di Lombardia» si trova in Enna."
   },
   {
@@ -778,12 +778,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Villa romana del Casale»?",
     "choices": [
-      "Trapani",
-      "Siracusa",
-      "Palermo",
-      "Enna"
+      "Agrigento",
+      "Enna",
+      "Messina",
+      "Trapani"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "«Villa romana del Casale» si trova in Enna."
   },
   {
@@ -792,10 +792,10 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Lago di Pergusa»?",
     "choices": [
+      "Agrigento",
       "Caltanissetta",
-      "Siracusa",
       "Enna",
-      "Agrigento"
+      "Palermo"
     ],
     "correctIndex": 2,
     "explanation": "«Lago di Pergusa» si trova in Enna."
@@ -806,12 +806,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Piazza Armerina»?",
     "choices": [
-      "Agrigento",
-      "Siracusa",
+      "Catania",
       "Enna",
-      "Trapani"
+      "Caltanissetta",
+      "Palermo"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "Questo fatto riguarda Enna."
   },
   {
@@ -820,12 +820,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Federico II»?",
     "choices": [
-      "Siracusa",
-      "Caltanissetta",
-      "Palermo",
-      "Enna"
+      "Enna",
+      "Trapani",
+      "Catania",
+      "Messina"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "Questo fatto riguarda Enna."
   },
   {
@@ -834,12 +834,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Ratto di Proserpina»?",
     "choices": [
-      "Ragusa",
-      "Agrigento",
       "Enna",
-      "Messina"
+      "Trapani",
+      "Agrigento",
+      "Palermo"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Questo fatto riguarda Enna."
   },
   {
@@ -848,10 +848,10 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Pesce spada»?",
     "choices": [
-      "Enna",
+      "Siracusa",
       "Messina",
-      "Palermo",
-      "Trapani"
+      "Trapani",
+      "Catania"
     ],
     "correctIndex": 1,
     "explanation": "«Pesce spada» fa parte della fauna di Messina."
@@ -862,12 +862,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Falco della regina»?",
     "choices": [
-      "Palermo",
       "Messina",
-      "Caltanissetta",
+      "Trapani",
+      "Palermo",
       "Catania"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "«Falco della regina» fa parte della fauna di Messina."
   },
   {
@@ -876,8 +876,8 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Delfino striato»?",
     "choices": [
-      "Caltanissetta",
-      "Ragusa",
+      "Palermo",
+      "Catania",
       "Siracusa",
       "Messina"
     ],
@@ -890,12 +890,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Faggio»?",
     "choices": [
-      "Messina",
       "Agrigento",
-      "Trapani",
-      "Enna"
+      "Siracusa",
+      "Catania",
+      "Messina"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "«Faggio» è una pianta tipica di Messina."
   },
   {
@@ -904,12 +904,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Limone»?",
     "choices": [
-      "Trapani",
-      "Enna",
       "Messina",
-      "Palermo"
+      "Enna",
+      "Palermo",
+      "Ragusa"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "«Limone» è una pianta tipica di Messina."
   },
   {
@@ -918,12 +918,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Ginestra»?",
     "choices": [
-      "Ragusa",
-      "Messina",
       "Palermo",
-      "Trapani"
+      "Trapani",
+      "Messina",
+      "Ragusa"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "«Ginestra» è una pianta tipica di Messina."
   },
   {
@@ -932,12 +932,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Pasta 'ncasciata»?",
     "choices": [
+      "Palermo",
+      "Catania",
       "Ragusa",
-      "Agrigento",
-      "Messina",
-      "Catania"
+      "Messina"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "«Pasta 'ncasciata» è un piatto tipico di Messina."
   },
   {
@@ -946,9 +946,9 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Pidone»?",
     "choices": [
-      "Palermo",
-      "Trapani",
       "Catania",
+      "Caltanissetta",
+      "Ragusa",
       "Messina"
     ],
     "correctIndex": 3,
@@ -960,12 +960,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Granita con panna»?",
     "choices": [
+      "Siracusa",
+      "Trapani",
       "Messina",
-      "Palermo",
-      "Enna",
-      "Catania"
+      "Palermo"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "«Granita con panna» è un piatto tipico di Messina."
   },
   {
@@ -974,12 +974,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Isole Eolie»?",
     "choices": [
-      "Trapani",
-      "Messina",
-      "Catania",
-      "Agrigento"
+      "Enna",
+      "Siracusa",
+      "Ragusa",
+      "Messina"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "«Isole Eolie» si trova in Messina."
   },
   {
@@ -988,9 +988,9 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Taormina»?",
     "choices": [
-      "Catania",
+      "Agrigento",
       "Messina",
-      "Palermo",
+      "Siracusa",
       "Trapani"
     ],
     "correctIndex": 1,
@@ -1003,11 +1003,11 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "prompt": "In quale provincia si trova «Tindari»?",
     "choices": [
       "Enna",
-      "Palermo",
-      "Caltanissetta",
-      "Messina"
+      "Messina",
+      "Catania",
+      "Ragusa"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "«Tindari» si trova in Messina."
   },
   {
@@ -1016,12 +1016,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Terremoto del 1908»?",
     "choices": [
-      "Agrigento",
-      "Messina",
       "Trapani",
-      "Ragusa"
+      "Caltanissetta",
+      "Messina",
+      "Agrigento"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "Questo fatto riguarda Messina."
   },
   {
@@ -1030,12 +1030,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Stretto di Messina»?",
     "choices": [
-      "Caltanissetta",
+      "Messina",
+      "Catania",
       "Siracusa",
-      "Enna",
-      "Messina"
+      "Ragusa"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "Questo fatto riguarda Messina."
   },
   {
@@ -1044,12 +1044,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Antonello da Messina»?",
     "choices": [
-      "Siracusa",
-      "Trapani",
       "Messina",
-      "Agrigento"
+      "Enna",
+      "Trapani",
+      "Catania"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Questo fatto riguarda Messina."
   },
   {
@@ -1058,12 +1058,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Falco pellegrino»?",
     "choices": [
-      "Agrigento",
-      "Enna",
       "Ragusa",
-      "Palermo"
+      "Palermo",
+      "Caltanissetta",
+      "Catania"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "«Falco pellegrino» fa parte della fauna di Palermo."
   },
   {
@@ -1072,10 +1072,10 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Civetta»?",
     "choices": [
-      "Ragusa",
+      "Caltanissetta",
       "Palermo",
       "Enna",
-      "Messina"
+      "Catania"
     ],
     "correctIndex": 1,
     "explanation": "«Civetta» fa parte della fauna di Palermo."
@@ -1086,12 +1086,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Lucertola siciliana»?",
     "choices": [
+      "Catania",
       "Palermo",
-      "Ragusa",
-      "Agrigento",
+      "Messina",
       "Trapani"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "«Lucertola siciliana» fa parte della fauna di Palermo."
   },
   {
@@ -1100,9 +1100,9 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Arancio amaro»?",
     "choices": [
-      "Trapani",
-      "Catania",
-      "Enna",
+      "Agrigento",
+      "Siracusa",
+      "Ragusa",
       "Palermo"
     ],
     "correctIndex": 3,
@@ -1114,12 +1114,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Ficus magnolioide»?",
     "choices": [
-      "Palermo",
       "Catania",
-      "Messina",
-      "Caltanissetta"
+      "Enna",
+      "Palermo",
+      "Messina"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "«Ficus magnolioide» è una pianta tipica di Palermo."
   },
   {
@@ -1128,12 +1128,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Palma nana»?",
     "choices": [
-      "Caltanissetta",
+      "Messina",
+      "Siracusa",
       "Palermo",
-      "Agrigento",
-      "Siracusa"
+      "Agrigento"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "«Palma nana» è una pianta tipica di Palermo."
   },
   {
@@ -1142,12 +1142,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Panelle»?",
     "choices": [
-      "Enna",
       "Palermo",
+      "Messina",
       "Agrigento",
-      "Messina"
+      "Trapani"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "«Panelle» è un piatto tipico di Palermo."
   },
   {
@@ -1158,8 +1158,8 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "choices": [
       "Trapani",
       "Palermo",
-      "Catania",
-      "Ragusa"
+      "Siracusa",
+      "Enna"
     ],
     "correctIndex": 1,
     "explanation": "«Sfincione» è un piatto tipico di Palermo."
@@ -1170,12 +1170,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Pasta con le sarde»?",
     "choices": [
-      "Ragusa",
-      "Enna",
+      "Trapani",
       "Palermo",
-      "Caltanissetta"
+      "Catania",
+      "Ragusa"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "«Pasta con le sarde» è un piatto tipico di Palermo."
   },
   {
@@ -1184,9 +1184,9 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Arancina»?",
     "choices": [
-      "Agrigento",
-      "Siracusa",
-      "Messina",
+      "Caltanissetta",
+      "Ragusa",
+      "Enna",
       "Palermo"
     ],
     "correctIndex": 3,
@@ -1198,12 +1198,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Cappella Palatina»?",
     "choices": [
-      "Enna",
       "Palermo",
-      "Agrigento",
-      "Trapani"
+      "Trapani",
+      "Catania",
+      "Messina"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "«Cappella Palatina» si trova in Palermo."
   },
   {
@@ -1213,9 +1213,9 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "prompt": "In quale provincia si trova «Duomo di Monreale»?",
     "choices": [
       "Palermo",
-      "Caltanissetta",
+      "Siracusa",
       "Enna",
-      "Catania"
+      "Caltanissetta"
     ],
     "correctIndex": 0,
     "explanation": "«Duomo di Monreale» si trova in Palermo."
@@ -1226,12 +1226,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Cefalù»?",
     "choices": [
+      "Palermo",
+      "Messina",
       "Catania",
-      "Enna",
-      "Agrigento",
-      "Palermo"
+      "Trapani"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "«Cefalù» si trova in Palermo."
   },
   {
@@ -1242,8 +1242,8 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "choices": [
       "Palermo",
       "Agrigento",
-      "Caltanissetta",
-      "Messina"
+      "Trapani",
+      "Ragusa"
     ],
     "correctIndex": 0,
     "explanation": "Questo fatto riguarda Palermo."
@@ -1254,12 +1254,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Ruggero II»?",
     "choices": [
-      "Enna",
       "Palermo",
-      "Catania",
-      "Messina"
+      "Agrigento",
+      "Trapani",
+      "Enna"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Questo fatto riguarda Palermo."
   },
   {
@@ -1268,12 +1268,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Palazzo dei Normanni»?",
     "choices": [
-      "Palermo",
+      "Catania",
+      "Trapani",
       "Ragusa",
-      "Caltanissetta",
-      "Enna"
+      "Palermo"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Questo fatto riguarda Palermo."
   },
   {
@@ -1282,12 +1282,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Ghiandaia marina»?",
     "choices": [
-      "Catania",
       "Ragusa",
-      "Trapani",
-      "Palermo"
+      "Palermo",
+      "Agrigento",
+      "Trapani"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "«Ghiandaia marina» fa parte della fauna di Ragusa."
   },
   {
@@ -1296,12 +1296,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Istrice»?",
     "choices": [
+      "Ragusa",
       "Trapani",
-      "Catania",
       "Palermo",
-      "Ragusa"
+      "Catania"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "«Istrice» fa parte della fauna di Ragusa."
   },
   {
@@ -1310,12 +1310,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Averla capirossa»?",
     "choices": [
-      "Trapani",
+      "Messina",
+      "Siracusa",
       "Ragusa",
-      "Agrigento",
-      "Caltanissetta"
+      "Palermo"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "«Averla capirossa» fa parte della fauna di Ragusa."
   },
   {
@@ -1325,11 +1325,11 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "prompt": "In quale provincia cresce questa pianta: «Carrubo»?",
     "choices": [
       "Trapani",
+      "Palermo",
       "Messina",
-      "Ragusa",
-      "Palermo"
+      "Ragusa"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "«Carrubo» è una pianta tipica di Ragusa."
   },
   {
@@ -1338,9 +1338,9 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Timo»?",
     "choices": [
-      "Enna",
-      "Messina",
-      "Siracusa",
+      "Agrigento",
+      "Catania",
+      "Palermo",
       "Ragusa"
     ],
     "correctIndex": 3,
@@ -1352,12 +1352,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Ulivo»?",
     "choices": [
-      "Catania",
+      "Palermo",
+      "Siracusa",
       "Ragusa",
-      "Trapani",
-      "Palermo"
+      "Caltanissetta"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "«Ulivo» è una pianta tipica di Ragusa."
   },
   {
@@ -1366,10 +1366,10 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Cioccolato di Modica»?",
     "choices": [
-      "Messina",
+      "Enna",
       "Ragusa",
-      "Palermo",
-      "Enna"
+      "Trapani",
+      "Messina"
     ],
     "correctIndex": 1,
     "explanation": "«Cioccolato di Modica» è un piatto tipico di Ragusa."
@@ -1380,9 +1380,9 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Scaccia»?",
     "choices": [
+      "Messina",
       "Enna",
-      "Catania",
-      "Agrigento",
+      "Siracusa",
       "Ragusa"
     ],
     "correctIndex": 3,
@@ -1394,12 +1394,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Ragusano»?",
     "choices": [
-      "Messina",
-      "Trapani",
       "Ragusa",
-      "Enna"
+      "Caltanissetta",
+      "Enna",
+      "Palermo"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "«Ragusano» è un piatto tipico di Ragusa."
   },
   {
@@ -1408,12 +1408,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Ragusa Ibla»?",
     "choices": [
-      "Trapani",
       "Agrigento",
-      "Palermo",
-      "Ragusa"
+      "Catania",
+      "Ragusa",
+      "Caltanissetta"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "«Ragusa Ibla» si trova in Ragusa."
   },
   {
@@ -1422,12 +1422,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Modica»?",
     "choices": [
+      "Siracusa",
       "Ragusa",
-      "Enna",
-      "Catania",
-      "Siracusa"
+      "Palermo",
+      "Caltanissetta"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "«Modica» si trova in Ragusa."
   },
   {
@@ -1436,12 +1436,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Scicli»?",
     "choices": [
-      "Ragusa",
       "Palermo",
       "Caltanissetta",
-      "Catania"
+      "Agrigento",
+      "Ragusa"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "«Scicli» si trova in Ragusa."
   },
   {
@@ -1451,11 +1451,11 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "prompt": "A quale provincia appartiene questo fatto storico: «Contea di Modica»?",
     "choices": [
       "Palermo",
-      "Catania",
-      "Caltanissetta",
-      "Ragusa"
+      "Ragusa",
+      "Enna",
+      "Catania"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "Questo fatto riguarda Ragusa."
   },
   {
@@ -1464,12 +1464,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Terremoto del 1693»?",
     "choices": [
-      "Enna",
-      "Agrigento",
-      "Catania",
-      "Ragusa"
+      "Ragusa",
+      "Trapani",
+      "Caltanissetta",
+      "Messina"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "Questo fatto riguarda Ragusa."
   },
   {
@@ -1479,9 +1479,9 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "prompt": "A quale provincia appartiene questo fatto storico: «Cava d'Ispica»?",
     "choices": [
       "Ragusa",
-      "Enna",
-      "Catania",
-      "Caltanissetta"
+      "Messina",
+      "Caltanissetta",
+      "Enna"
     ],
     "correctIndex": 0,
     "explanation": "Questo fatto riguarda Ragusa."
@@ -1492,12 +1492,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Fenicottero»?",
     "choices": [
+      "Catania",
+      "Siracusa",
       "Messina",
-      "Agrigento",
-      "Ragusa",
-      "Siracusa"
+      "Enna"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "«Fenicottero» fa parte della fauna di Siracusa."
   },
   {
@@ -1506,12 +1506,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Avocetta»?",
     "choices": [
-      "Agrigento",
-      "Palermo",
       "Siracusa",
-      "Ragusa"
+      "Caltanissetta",
+      "Enna",
+      "Agrigento"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "«Avocetta» fa parte della fauna di Siracusa."
   },
   {
@@ -1520,12 +1520,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Tartaruga marina»?",
     "choices": [
-      "Catania",
       "Siracusa",
-      "Trapani",
-      "Enna"
+      "Enna",
+      "Messina",
+      "Palermo"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "«Tartaruga marina» fa parte della fauna di Siracusa."
   },
   {
@@ -1535,9 +1535,9 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "prompt": "In quale provincia cresce questa pianta: «Papiro»?",
     "choices": [
       "Siracusa",
-      "Messina",
-      "Trapani",
-      "Caltanissetta"
+      "Catania",
+      "Enna",
+      "Agrigento"
     ],
     "correctIndex": 0,
     "explanation": "«Papiro» è una pianta tipica di Siracusa."
@@ -1548,12 +1548,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Mandorlo»?",
     "choices": [
-      "Siracusa",
+      "Enna",
       "Caltanissetta",
-      "Messina",
-      "Enna"
+      "Palermo",
+      "Siracusa"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "«Mandorlo» è una pianta tipica di Siracusa."
   },
   {
@@ -1562,12 +1562,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Melograno»?",
     "choices": [
-      "Palermo",
+      "Caltanissetta",
+      "Agrigento",
       "Siracusa",
-      "Catania",
-      "Enna"
+      "Trapani"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "«Melograno» è una pianta tipica di Siracusa."
   },
   {
@@ -1576,12 +1576,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Pasta alla siracusana»?",
     "choices": [
+      "Siracusa",
+      "Catania",
       "Messina",
-      "Palermo",
-      "Agrigento",
-      "Siracusa"
+      "Ragusa"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "«Pasta alla siracusana» è un piatto tipico di Siracusa."
   },
   {
@@ -1590,12 +1590,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Mandorla di Avola»?",
     "choices": [
-      "Siracusa",
+      "Palermo",
+      "Ragusa",
       "Enna",
-      "Caltanissetta",
-      "Messina"
+      "Siracusa"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "«Mandorla di Avola» è un piatto tipico di Siracusa."
   },
   {
@@ -1605,11 +1605,11 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "prompt": "Di quale provincia è tipico questo piatto: «Sarde a beccafico»?",
     "choices": [
       "Enna",
+      "Messina",
       "Siracusa",
-      "Agrigento",
-      "Ragusa"
+      "Trapani"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "«Sarde a beccafico» è un piatto tipico di Siracusa."
   },
   {
@@ -1618,12 +1618,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Ortigia»?",
     "choices": [
-      "Catania",
       "Caltanissetta",
-      "Agrigento",
-      "Siracusa"
+      "Catania",
+      "Siracusa",
+      "Palermo"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "«Ortigia» si trova in Siracusa."
   },
   {
@@ -1632,10 +1632,10 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Teatro greco»?",
     "choices": [
-      "Trapani",
+      "Catania",
       "Siracusa",
-      "Ragusa",
-      "Caltanissetta"
+      "Agrigento",
+      "Ragusa"
     ],
     "correctIndex": 1,
     "explanation": "«Teatro greco» si trova in Siracusa."
@@ -1646,12 +1646,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Noto»?",
     "choices": [
+      "Palermo",
       "Siracusa",
-      "Ragusa",
-      "Messina",
-      "Trapani"
+      "Enna",
+      "Catania"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "«Noto» si trova in Siracusa."
   },
   {
@@ -1660,12 +1660,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Duomo di Siracusa»?",
     "choices": [
-      "Trapani",
-      "Messina",
+      "Agrigento",
       "Siracusa",
-      "Caltanissetta"
+      "Palermo",
+      "Ragusa"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "Questo fatto riguarda Siracusa."
   },
   {
@@ -1674,12 +1674,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Archimede»?",
     "choices": [
-      "Caltanissetta",
-      "Palermo",
+      "Trapani",
       "Siracusa",
-      "Messina"
+      "Messina",
+      "Caltanissetta"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "Questo fatto riguarda Siracusa."
   },
   {
@@ -1689,9 +1689,9 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "prompt": "A quale provincia appartiene questo fatto storico: «Dionisio I»?",
     "choices": [
       "Siracusa",
+      "Agrigento",
       "Trapani",
-      "Catania",
-      "Enna"
+      "Catania"
     ],
     "correctIndex": 0,
     "explanation": "Questo fatto riguarda Siracusa."
@@ -1702,12 +1702,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Fenicottero»?",
     "choices": [
-      "Ragusa",
       "Trapani",
-      "Palermo",
-      "Agrigento"
+      "Ragusa",
+      "Enna",
+      "Palermo"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "«Fenicottero» fa parte della fauna di Trapani."
   },
   {
@@ -1717,9 +1717,9 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "prompt": "In quale provincia vive questo animale: «Tonno rosso»?",
     "choices": [
       "Trapani",
-      "Ragusa",
-      "Agrigento",
-      "Palermo"
+      "Palermo",
+      "Caltanissetta",
+      "Agrigento"
     ],
     "correctIndex": 0,
     "explanation": "«Tonno rosso» fa parte della fauna di Trapani."
@@ -1730,12 +1730,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "In quale provincia vive questo animale: «Berta maggiore»?",
     "choices": [
-      "Agrigento",
+      "Palermo",
+      "Ragusa",
       "Trapani",
-      "Catania",
-      "Messina"
+      "Agrigento"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "«Berta maggiore» fa parte della fauna di Trapani."
   },
   {
@@ -1744,12 +1744,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Cappero»?",
     "choices": [
-      "Trapani",
       "Caltanissetta",
-      "Catania",
-      "Ragusa"
+      "Trapani",
+      "Siracusa",
+      "Catania"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "«Cappero» è una pianta tipica di Trapani."
   },
   {
@@ -1758,10 +1758,10 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "In quale provincia cresce questa pianta: «Zibibbo»?",
     "choices": [
-      "Enna",
+      "Catania",
       "Trapani",
-      "Siracusa",
-      "Messina"
+      "Caltanissetta",
+      "Ragusa"
     ],
     "correctIndex": 1,
     "explanation": "«Zibibbo» è una pianta tipica di Trapani."
@@ -1773,9 +1773,9 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "prompt": "In quale provincia cresce questa pianta: «Palma nana»?",
     "choices": [
       "Trapani",
-      "Ragusa",
       "Siracusa",
-      "Enna"
+      "Messina",
+      "Caltanissetta"
     ],
     "correctIndex": 0,
     "explanation": "«Palma nana» è una pianta tipica di Trapani."
@@ -1786,12 +1786,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Cuscus alla trapanese»?",
     "choices": [
-      "Enna",
-      "Messina",
-      "Caltanissetta",
-      "Trapani"
+      "Ragusa",
+      "Agrigento",
+      "Trapani",
+      "Palermo"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "«Cuscus alla trapanese» è un piatto tipico di Trapani."
   },
   {
@@ -1800,12 +1800,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Pesto alla trapanese»?",
     "choices": [
-      "Trapani",
-      "Ragusa",
       "Messina",
-      "Palermo"
+      "Trapani",
+      "Siracusa",
+      "Agrigento"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "«Pesto alla trapanese» è un piatto tipico di Trapani."
   },
   {
@@ -1814,12 +1814,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "food",
     "prompt": "Di quale provincia è tipico questo piatto: «Busiate»?",
     "choices": [
-      "Catania",
-      "Ragusa",
+      "Enna",
       "Caltanissetta",
-      "Trapani"
+      "Trapani",
+      "Agrigento"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "«Busiate» è un piatto tipico di Trapani."
   },
   {
@@ -1828,12 +1828,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Erice»?",
     "choices": [
-      "Ragusa",
-      "Messina",
       "Trapani",
-      "Caltanissetta"
+      "Caltanissetta",
+      "Palermo",
+      "Catania"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "«Erice» si trova in Trapani."
   },
   {
@@ -1842,10 +1842,10 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Saline di Trapani»?",
     "choices": [
-      "Agrigento",
+      "Palermo",
       "Trapani",
-      "Caltanissetta",
-      "Palermo"
+      "Agrigento",
+      "Siracusa"
     ],
     "correctIndex": 1,
     "explanation": "«Saline di Trapani» si trova in Trapani."
@@ -1856,12 +1856,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "In quale provincia si trova «Segesta»?",
     "choices": [
-      "Caltanissetta",
+      "Trapani",
       "Messina",
-      "Enna",
-      "Trapani"
+      "Caltanissetta",
+      "Enna"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "«Segesta» si trova in Trapani."
   },
   {
@@ -1870,12 +1870,12 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Mozia»?",
     "choices": [
+      "Siracusa",
+      "Ragusa",
       "Trapani",
-      "Messina",
-      "Caltanissetta",
-      "Catania"
+      "Messina"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Questo fatto riguarda Trapani."
   },
   {
@@ -1884,10 +1884,10 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "category": "history",
     "prompt": "A quale provincia appartiene questo fatto storico: «Elimi»?",
     "choices": [
-      "Ragusa",
+      "Caltanissetta",
       "Trapani",
-      "Siracusa",
-      "Caltanissetta"
+      "Agrigento",
+      "Siracusa"
     ],
     "correctIndex": 1,
     "explanation": "Questo fatto riguarda Trapani."
@@ -1900,8 +1900,8 @@ export const TRIVIA_QUESTIONS_SICILY: TriviaQuestion[] = [
     "choices": [
       "Trapani",
       "Catania",
-      "Caltanissetta",
-      "Ragusa"
+      "Ragusa",
+      "Palermo"
     ],
     "correctIndex": 0,
     "explanation": "Questo fatto riguarda Trapani."

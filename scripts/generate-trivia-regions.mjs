@@ -1,5 +1,5 @@
 /**
- * Genera preguntas de trivia (en italiano) para Italia y Sicilia.
+ * Genera preguntas de trivia (en italiano) para Italia, Sicilia y Campania.
  * Uso: node scripts/generate-trivia-regions.mjs
  */
 import { writeFileSync } from "node:fs";
@@ -27,6 +27,16 @@ const DATASETS = [
     contentExport: "SICILY_CONTENT",
     out: "src/data/trivia/trivia-sicily.generated.ts",
     constName: "TRIVIA_QUESTIONS_SICILY",
+  },
+  {
+    key: "campania",
+    unit: "provincia",
+    regionsFile: "src/data/campania/provinces.generated.ts",
+    regionsExport: "CAMPANIA_PROVINCES",
+    contentFile: "src/data/campania/content.generated.ts",
+    contentExport: "CAMPANIA_CONTENT",
+    out: "src/data/trivia/trivia-campania.generated.ts",
+    constName: "TRIVIA_QUESTIONS_CAMPANIA",
   },
 ];
 

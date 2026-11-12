@@ -2,14 +2,16 @@
 
 import { useState } from "react";
 
+import { useUi } from "@/lib/i18n/locale";
+
 type Props = {
   src: string;
   alt: string;
   placeholderEmoji: string;
-  locale?: "es" | "it";
 };
 
-export function TopicImage({ src, alt, placeholderEmoji, locale = "es" }: Props) {
+export function TopicImage({ src, alt, placeholderEmoji }: Props) {
+  const ui = useUi();
   const [status, setStatus] = useState<"loading" | "loaded" | "error">("loading");
 
   return (
@@ -25,12 +27,10 @@ export function TopicImage({ src, alt, placeholderEmoji, locale = "es" }: Props)
         >
           <span className="animate-bounce text-4xl leading-none">{placeholderEmoji}</span>
           <p className="text-center text-sm font-bold text-heading">
-            {locale === "it" ? "Caricamento foto…" : "Cargando foto…"}
+            {ui.page.loadingPhoto}
           </p>
           <p className="text-center text-xs font-medium text-foreground-muted">
-            {locale === "it"
-              ? "Un attimo, stiamo cercando l'immagine"
-              : "Un momentito, estamos buscando la imagen"}
+            {ui.page.loadingPhotoHint}
           </p>
         </div>
       )}

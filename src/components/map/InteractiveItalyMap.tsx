@@ -9,6 +9,7 @@ import {
   ITALY_REGION_SVG_PATHS,
 } from "@/data/map/italy-paths.generated";
 import { ITALY_REGION_FILLS } from "@/lib/design/italy-map-colors";
+import { useUi } from "@/lib/i18n/locale";
 import { italyRegionPath } from "@/lib/routing/paths";
 import type { ItalyRegionSlug } from "@/types/region";
 
@@ -26,9 +27,11 @@ type Props = {
 
 export function InteractiveItalyMap({
   className,
-  "aria-label": ariaLabel = "Mappa interattiva dell'Italia per regioni",
+  "aria-label": ariaLabelProp,
 }: Props) {
   const router = useRouter();
+  const ui = useUi();
+  const ariaLabel = ariaLabelProp ?? ui.map.ariaItaly;
   const titleId = useId();
   const labelId = useId();
   const [pressed, setPressed] = useState<ItalyRegionSlug | null>(null);
@@ -42,7 +45,10 @@ export function InteractiveItalyMap({
 
   const navigate = useCallback(
     (slug: ItalyRegionSlug) => {
-      router.push(italyRegionPath(slug));
+      // Sicilia y Campania tienen su propio mapa por provincias.
+      if (slug === "sicilia") router.push("/mapa/sicilia");
+      else if (slug === "campania") router.push("/mapa/campania");
+      else router.push(italyRegionPath(slug));
     },
     [router],
   );
@@ -156,10 +162,10 @@ export function InteractiveItalyMap({
               ) : (
                 <>
                   <span className="hidden [@media(pointer:fine)]:inline">
-                    Passa su una regione
+                    {ui.map.hoverRegion}
                   </span>
                   <span className="[@media(pointer:fine)]:hidden">
-                    Tocca una regione
+                    {ui.map.tapRegion}
                   </span>
                 </>
               )}
@@ -192,7 +198,7 @@ export function InteractiveItalyMap({
             </>
           ) : (
             <p className="max-w-sm text-center font-display text-xl font-bold text-foreground-muted sm:text-3xl">
-              Scegli una regione e la vedrai molto più grande qui.
+              {ui.map.chooseRegion}
             </p>
           )}
         </div>

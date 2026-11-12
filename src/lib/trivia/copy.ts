@@ -99,3 +99,43 @@ export const TRIVIA_COPY_IT: TriviaCopy = {
     footer: "Esplora il mondo con Mapa Jugar",
   },
 };
+
+export const TRIVIA_COPY_EN: TriviaCopy = {
+  title: "Region quiz",
+  subtitle: "Random questions about plants, animals, food, places and history.",
+  lobbyTitle: "Who's playing?",
+  lobbyHint: "1 to 4 players on the same screen. A new question every turn.",
+  playerCount: "Number of players",
+  playerLabel: (n) => `Player ${n}`,
+  playerPlaceholder: (n) => `Player ${n} name`,
+  questionsPerPlayer: "Questions per player",
+  questionsOption: (n) => `${n} questions`,
+  errorNames: "Write each player's name.",
+  errorDuplicates: "Names must be different.",
+  start: "Start the quiz!",
+  handoff: (name) => `${name}, it's your turn!`,
+  turn: (n, total) => `Turn ${n} of ${total}`,
+  time: (s) => `Time: ${s} s`,
+  turnOf: (name) => `${name}'s turn`,
+  correct: (s) => `Correct! +1 point (${s} s)`,
+  wrong: "Almost! The right answer was:",
+  scores: "Scores",
+  points: (n) => `${n} pt${n === 1 ? "" : "s"}`,
+  tie: "It's a tie! Winners",
+  winner: "Winner!",
+  prize: (label) => `Prize: ${label}. Download your certificate with the illustration.`,
+  download: (name) => `Download the ${name} card`,
+  playAgain: "Play again",
+  back: "Back to the map",
+  certificate: {
+    headline: "You won!",
+    points: (n) => `${n} point${n === 1 ? "" : "s"} on Mapa Jugar`,
+    footer: "Explore the world with Mapa Jugar",
+  },
+};
+
+export const TRIVIA_COPY: Record<"es" | "en" | "it", TriviaCopy> = {
+  es: TRIVIA_COPY_ES,
+  en: TRIVIA_COPY_EN,
+  it: TRIVIA_COPY_IT,
+};

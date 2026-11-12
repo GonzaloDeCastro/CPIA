@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { SiteHeader } from "@/components/layout/SiteHeader";
+import { UiLink } from "@/components/layout/UiLink";
 import { ProvinceSections } from "@/components/province/ProvinceSections";
 import { SicilyProvinceSpotlightMap } from "@/components/sicily/SicilyProvinceSpotlightMap";
 import { getSicilyProvinceContent } from "@/data/sicily/content";
@@ -54,12 +54,11 @@ export default async function SicilyProvincePage({ params }: Props) {
         <nav className="mb-8 w-full" aria-label="Percorso">
           <ol className="flex w-full flex-wrap items-center justify-start gap-2 text-left text-sm font-bold sm:text-base">
             <li>
-              <Link
+              <UiLink
                 href="/mapa/sicilia"
                 className="rounded-full bg-water/15 px-3 py-1.5 text-water underline-offset-4 transition hover:bg-water/25 hover:underline"
-              >
-                Mappa
-              </Link>
+                text="map"
+              />
             </li>
             <li aria-hidden="true" className="text-foreground-muted">
               /
@@ -69,7 +68,6 @@ export default async function SicilyProvincePage({ params }: Props) {
         </nav>
         <div className="flex min-w-0 flex-col-reverse gap-6 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(18rem,40%)] lg:items-start">
           <ProvinceSections
-            locale="it"
             localContent={{
               slug: province.slug,
               plants: content.plants,

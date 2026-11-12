@@ -9,6 +9,7 @@ import {
   SICILY_PROVINCE_SVG_PATHS,
 } from "@/data/map/sicily-paths.generated";
 import { SICILY_PROVINCE_FILLS } from "@/lib/design/sicily-map-colors";
+import { useUi } from "@/lib/i18n/locale";
 import { sicilyProvincePath } from "@/lib/routing/paths";
 import type { SicilyProvinceSlug } from "@/types/sicily";
 
@@ -26,9 +27,11 @@ type Props = {
 
 export function InteractiveSicilyMap({
   className,
-  "aria-label": ariaLabel = "Mappa interattiva della Sicilia per province",
+  "aria-label": ariaLabelProp,
 }: Props) {
   const router = useRouter();
+  const ui = useUi();
+  const ariaLabel = ariaLabelProp ?? ui.map.ariaSicily;
   const titleId = useId();
   const labelId = useId();
   const [pressed, setPressed] = useState<SicilyProvinceSlug | null>(null);
@@ -160,10 +163,10 @@ export function InteractiveSicilyMap({
               ) : (
                 <>
                   <span className="hidden [@media(pointer:fine)]:inline">
-                    Passa su una provincia
+                    {ui.map.hoverProvince}
                   </span>
                   <span className="[@media(pointer:fine)]:hidden">
-                    Tocca una provincia
+                    {ui.map.tapProvince}
                   </span>
                 </>
               )}
@@ -197,7 +200,7 @@ export function InteractiveSicilyMap({
             </>
           ) : (
             <p className="max-w-sm text-center font-display text-xl font-bold text-foreground-muted sm:text-3xl">
-              Scegli una provincia e la vedrai molto più grande qui.
+              {ui.map.chooseProvince}
             </p>
           )}
         </div>

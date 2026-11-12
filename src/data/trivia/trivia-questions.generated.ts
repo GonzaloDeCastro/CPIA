@@ -8,12 +8,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Hornero?",
     "choices": [
+      "Islas Malvinas",
       "Buenos Aires",
-      "Formosa",
-      "Ciudad Autónoma de Buenos Aires",
-      "Jujuy"
+      "Entre Ríos",
+      "La Rioja"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "El Hornero es parte de la fauna de Buenos Aires."
   },
   {
@@ -22,12 +22,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Ciervo de los pantanos?",
     "choices": [
-      "Santiago del Estero",
-      "San Juan",
-      "Córdoba",
-      "Buenos Aires"
+      "Buenos Aires",
+      "Neuquén",
+      "La Pampa",
+      "San Juan"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "El Ciervo de los pantanos es parte de la fauna de Buenos Aires."
   },
   {
@@ -37,9 +37,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia crece el Cortadera pampeana?",
     "choices": [
       "Buenos Aires",
-      "Chubut",
-      "San Juan",
-      "Santa Cruz"
+      "Santa Cruz",
+      "Tierra del Fuego",
+      "Tucumán"
     ],
     "correctIndex": 0,
     "explanation": "El Cortadera pampeana es flora representativa de Buenos Aires."
@@ -50,12 +50,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Sombra de toro?",
     "choices": [
-      "Tierra del Fuego",
-      "Buenos Aires",
+      "Misiones",
+      "Jujuy",
       "San Luis",
-      "Misiones"
+      "Buenos Aires"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "El Sombra de toro es flora representativa de Buenos Aires."
   },
   {
@@ -65,11 +65,11 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia crece el Sarandí colorado?",
     "choices": [
       "Catamarca",
-      "San Luis",
       "Buenos Aires",
-      "Chubut"
+      "Formosa",
+      "Entre Ríos"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "El Sarandí colorado es flora representativa de Buenos Aires."
   },
   {
@@ -78,12 +78,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Asado bonaerense\"?",
     "choices": [
-      "Catamarca",
       "Buenos Aires",
-      "Santa Cruz",
-      "La Pampa"
+      "Catamarca",
+      "Río Negro",
+      "Santa Fe"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
     "id": "57e17d6dbc87",
@@ -92,9 +92,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia es típico el plato \"Milanesa a la napolitana\"?",
     "choices": [
       "Buenos Aires",
-      "Formosa",
-      "Mendoza",
-      "Entre Ríos"
+      "Córdoba",
+      "Santiago del Estero",
+      "Jujuy"
     ],
     "correctIndex": 0
   },
@@ -104,12 +104,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Dulce de leche\"?",
     "choices": [
+      "San Luis",
       "Buenos Aires",
-      "Corrientes",
-      "Misiones",
-      "Córdoba"
+      "Entre Ríos",
+      "Río Negro"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "id": "3d3f3fdbba65",
@@ -117,12 +117,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Mar del Plata y Costa Atlántica?",
     "choices": [
-      "Santa Cruz",
-      "Chaco",
-      "Chubut",
-      "Buenos Aires"
+      "Buenos Aires",
+      "Salta",
+      "La Rioja",
+      "La Pampa"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "90cfc8dee0eb",
@@ -130,12 +130,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Sierra de la Ventana (Parque Provincial Ernesto Tornquist)?",
     "choices": [
-      "Chaco",
-      "Santa Fe",
+      "Misiones",
       "Buenos Aires",
-      "Neuquén"
+      "San Luis",
+      "Mendoza"
     ],
-    "correctIndex": 2
+    "correctIndex": 1
   },
   {
     "id": "366ac5865d49",
@@ -143,12 +143,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Delta del Paraná en Tigre?",
     "choices": [
-      "Tucumán",
-      "Buenos Aires",
-      "San Juan",
-      "La Rioja"
+      "Corrientes",
+      "La Pampa",
+      "Salta",
+      "Buenos Aires"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
   },
   {
     "id": "508b2ce8b359",
@@ -156,9 +156,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"La Vuelta de Obligado y la soberanía\"?",
     "choices": [
-      "Neuquén",
-      "Río Negro",
-      "Formosa",
+      "Tucumán",
+      "Islas Malvinas",
+      "Salta",
       "Buenos Aires"
     ],
     "correctIndex": 3
@@ -169,12 +169,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Un territorio de frontera histórica\"?",
     "choices": [
-      "Jujuy",
-      "Catamarca",
-      "Río Negro",
-      "Buenos Aires"
+      "Chubut",
+      "Buenos Aires",
+      "Formosa",
+      "Corrientes"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "35dcf961d4d0",
@@ -182,12 +182,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Mara patagónica?",
     "choices": [
-      "Buenos Aires",
-      "San Luis",
+      "Chubut",
       "Catamarca",
-      "Mendoza"
+      "La Pampa",
+      "Formosa"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "El Mara patagónica es parte de la fauna de Catamarca."
   },
   {
@@ -197,9 +197,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia vive el Vicuña?",
     "choices": [
       "Catamarca",
-      "La Rioja",
-      "Entre Ríos",
-      "Santa Fe"
+      "La Pampa",
+      "San Juan",
+      "Entre Ríos"
     ],
     "correctIndex": 0,
     "explanation": "El Vicuña es parte de la fauna de Catamarca."
@@ -210,12 +210,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Cardón?",
     "choices": [
+      "Córdoba",
+      "Santa Cruz",
       "Catamarca",
-      "Neuquén",
-      "Chubut",
-      "Corrientes"
+      "La Rioja"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "El Cardón es flora representativa de Catamarca."
   },
   {
@@ -224,12 +224,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Chañar?",
     "choices": [
-      "Córdoba",
-      "Santiago del Estero",
-      "Misiones",
-      "Catamarca"
+      "Mendoza",
+      "San Luis",
+      "Catamarca",
+      "Corrientes"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "El Chañar es flora representativa de Catamarca."
   },
   {
@@ -238,12 +238,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Pichana o tola?",
     "choices": [
-      "Santiago del Estero",
       "Catamarca",
-      "San Juan",
-      "Salta"
+      "Neuquén",
+      "Santiago del Estero",
+      "Entre Ríos"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "El Pichana o tola es flora representativa de Catamarca."
   },
   {
@@ -252,12 +252,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Empanadas catamarqueñas\"?",
     "choices": [
+      "Tierra del Fuego",
       "Catamarca",
-      "Ciudad Autónoma de Buenos Aires",
-      "Misiones",
-      "San Juan"
+      "Mendoza",
+      "San Luis"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "id": "d99aa8a4e5ec",
@@ -265,12 +265,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Locro del noroeste\"?",
     "choices": [
-      "Río Negro",
       "Catamarca",
-      "Córdoba",
-      "Santa Fe"
+      "Tucumán",
+      "Buenos Aires",
+      "Corrientes"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
     "id": "8f6ab15d94df",
@@ -278,12 +278,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Tamales\"?",
     "choices": [
+      "Entre Ríos",
       "Catamarca",
-      "Santiago del Estero",
-      "Santa Cruz",
+      "San Juan",
       "Chubut"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "id": "a660adec0a59",
@@ -291,12 +291,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Campo de Piedra Pómez (Antofagasta de la Sierra)?",
     "choices": [
+      "La Rioja",
+      "Salta",
       "Catamarca",
-      "Río Negro",
-      "San Juan",
-      "Santiago del Estero"
+      "Misiones"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
     "id": "1b80264f740b",
@@ -304,12 +304,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Ruta de los Seismiles y Paso de San Francisco?",
     "choices": [
-      "Ciudad Autónoma de Buenos Aires",
-      "Entre Ríos",
-      "Misiones",
-      "Catamarca"
+      "Corrientes",
+      "Catamarca",
+      "Formosa",
+      "Ciudad Autónoma de Buenos Aires"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "1320aa5188e6",
@@ -317,12 +317,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Cuesta del Portezuelo y El Rodeo?",
     "choices": [
-      "San Luis",
-      "Entre Ríos",
-      "Catamarca",
-      "Río Negro"
+      "Santiago del Estero",
+      "Jujuy",
+      "Chubut",
+      "Catamarca"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "ba5802fd85eb",
@@ -330,10 +330,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Fiambalá y la ruta andina\"?",
     "choices": [
-      "Neuquén",
-      "Río Negro",
+      "Santiago del Estero",
+      "Mendoza",
       "Catamarca",
-      "Mendoza"
+      "Tucumán"
     ],
     "correctIndex": 2
   },
@@ -343,10 +343,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Valle y devoción mariana\"?",
     "choices": [
-      "Ciudad Autónoma de Buenos Aires",
-      "Neuquén",
+      "Tierra del Fuego",
+      "Jujuy",
       "Catamarca",
-      "Islas Malvinas"
+      "Santiago del Estero"
     ],
     "correctIndex": 2
   },
@@ -356,12 +356,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Aguará guazú?",
     "choices": [
-      "Santa Cruz",
-      "Santa Fe",
-      "Neuquén",
-      "Chaco"
+      "Chaco",
+      "Catamarca",
+      "Tierra del Fuego",
+      "Formosa"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "El Aguará guazú es parte de la fauna de Chaco."
   },
   {
@@ -370,12 +370,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Tatú carreta?",
     "choices": [
+      "Catamarca",
       "Chaco",
-      "Entre Ríos",
-      "Mendoza",
-      "Santa Cruz"
+      "Santa Cruz",
+      "La Rioja"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "El Tatú carreta es parte de la fauna de Chaco."
   },
   {
@@ -384,12 +384,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Quebracho colorado chaqueño?",
     "choices": [
-      "Santiago del Estero",
-      "Tierra del Fuego",
+      "Entre Ríos",
       "Chaco",
-      "San Luis"
+      "La Pampa",
+      "Jujuy"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "El Quebracho colorado chaqueño es flora representativa de Chaco."
   },
   {
@@ -398,12 +398,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Quebracho blanco?",
     "choices": [
-      "Santiago del Estero",
+      "Entre Ríos",
+      "Chaco",
       "Islas Malvinas",
-      "Río Negro",
-      "Chaco"
+      "Formosa"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "El Quebracho blanco es flora representativa de Chaco."
   },
   {
@@ -412,12 +412,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Palma carandilla?",
     "choices": [
-      "Corrientes",
-      "Chubut",
       "Chaco",
-      "San Luis"
+      "Santa Fe",
+      "Córdoba",
+      "Buenos Aires"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "El Palma carandilla es flora representativa de Chaco."
   },
   {
@@ -426,12 +426,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Chipá\"?",
     "choices": [
-      "Chubut",
-      "La Rioja",
-      "Tierra del Fuego",
-      "Chaco"
+      "Misiones",
+      "Mendoza",
+      "Chaco",
+      "Río Negro"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
     "id": "8c1bf9d0f3b4",
@@ -440,9 +440,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia es típico el plato \"Pacú a la parrilla\"?",
     "choices": [
       "Chaco",
-      "La Pampa",
-      "Buenos Aires",
-      "Chubut"
+      "Entre Ríos",
+      "Corrientes",
+      "Catamarca"
     ],
     "correctIndex": 0
   },
@@ -453,9 +453,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia es típico el plato \"Mandioca hervida\"?",
     "choices": [
       "Chaco",
-      "Tierra del Fuego",
-      "Catamarca",
-      "Córdoba"
+      "La Rioja",
+      "Córdoba",
+      "Chubut"
     ],
     "correctIndex": 0
   },
@@ -465,12 +465,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque Nacional El Impenetrable?",
     "choices": [
-      "Santiago del Estero",
+      "Neuquén",
+      "Catamarca",
       "Chaco",
-      "Entre Ríos",
-      "Misiones"
+      "La Pampa"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
   },
   {
     "id": "12facd040506",
@@ -478,12 +478,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Resistencia, Ciudad de las Esculturas?",
     "choices": [
-      "Mendoza",
-      "Islas Malvinas",
-      "Santa Fe",
-      "Chaco"
+      "Chaco",
+      "Río Negro",
+      "Entre Ríos",
+      "Jujuy"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "8af6c2910f62",
@@ -491,12 +491,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque Nacional Chaco?",
     "choices": [
-      "Río Negro",
-      "Santa Cruz",
-      "Salta",
-      "Chaco"
+      "Chaco",
+      "La Pampa",
+      "Santiago del Estero",
+      "Misiones"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "ea2035e0bf3d",
@@ -504,12 +504,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Resistencia, museo a cielo abierto\"?",
     "choices": [
-      "Corrientes",
-      "San Juan",
-      "Ciudad Autónoma de Buenos Aires",
-      "Chaco"
+      "La Rioja",
+      "La Pampa",
+      "Chaco",
+      "San Luis"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
     "id": "81a3fe8c2ad8",
@@ -517,12 +517,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"El monte chaqueño, clave histórica\"?",
     "choices": [
-      "Jujuy",
-      "Tierra del Fuego",
-      "Chaco",
-      "Catamarca"
+      "Misiones",
+      "Islas Malvinas",
+      "Ciudad Autónoma de Buenos Aires",
+      "Chaco"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "836397e2d8a2",
@@ -530,12 +530,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Huemul?",
     "choices": [
-      "Islas Malvinas",
-      "Santiago del Estero",
-      "San Luis",
-      "Chubut"
+      "Neuquén",
+      "Santa Fe",
+      "Chubut",
+      "Tucumán"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "El Huemul es parte de la fauna de Chubut."
   },
   {
@@ -544,12 +544,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Ballena franca austral?",
     "choices": [
-      "Formosa",
       "Chubut",
-      "Córdoba",
-      "Islas Malvinas"
+      "San Luis",
+      "Santa Fe",
+      "Mendoza"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "El Ballena franca austral es parte de la fauna de Chubut."
   },
   {
@@ -558,12 +558,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Coirón patagónico?",
     "choices": [
-      "Santa Cruz",
       "Chubut",
-      "Tucumán",
-      "Neuquén"
+      "Salta",
+      "Río Negro",
+      "Córdoba"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "El Coirón patagónico es flora representativa de Chubut."
   },
   {
@@ -572,12 +572,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Calafate?",
     "choices": [
-      "Santiago del Estero",
-      "La Rioja",
-      "Misiones",
-      "Chubut"
+      "Mendoza",
+      "Santa Cruz",
+      "Chubut",
+      "La Pampa"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "El Calafate es flora representativa de Chubut."
   },
   {
@@ -586,12 +586,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Maitén?",
     "choices": [
+      "Salta",
       "Chubut",
-      "Buenos Aires",
-      "Catamarca",
-      "Salta"
+      "Formosa",
+      "Islas Malvinas"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "El Maitén es flora representativa de Chubut."
   },
   {
@@ -600,12 +600,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Cordero patagónico\"?",
     "choices": [
+      "Ciudad Autónoma de Buenos Aires",
+      "Santiago del Estero",
       "Chubut",
-      "La Pampa",
-      "Entre Ríos",
-      "Jujuy"
+      "Corrientes"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
     "id": "df24e00a868d",
@@ -613,12 +613,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Torta galesa\"?",
     "choices": [
+      "Chubut",
+      "San Juan",
       "Corrientes",
-      "La Pampa",
-      "La Rioja",
-      "Chubut"
+      "Santa Cruz"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "97332d365aa7",
@@ -626,12 +626,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Trucha de río\"?",
     "choices": [
-      "San Juan",
-      "Buenos Aires",
+      "San Luis",
       "Chubut",
-      "Río Negro"
+      "Santa Fe",
+      "Corrientes"
     ],
-    "correctIndex": 2
+    "correctIndex": 1
   },
   {
     "id": "40760929bc2d",
@@ -639,12 +639,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Península Valdés?",
     "choices": [
-      "La Pampa",
-      "Tucumán",
-      "San Juan",
-      "Chubut"
+      "Chubut",
+      "Neuquén",
+      "Jujuy",
+      "Ciudad Autónoma de Buenos Aires"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "d4e939be5c01",
@@ -652,12 +652,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque Nacional Los Alerces?",
     "choices": [
-      "Chaco",
-      "Buenos Aires",
-      "Chubut",
-      "La Rioja"
+      "Jujuy",
+      "Mendoza",
+      "Salta",
+      "Chubut"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "8620ad3837d5",
@@ -665,12 +665,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Punta Tombo (reserva de pingüinos)?",
     "choices": [
-      "Córdoba",
       "Chubut",
-      "Neuquén",
-      "Río Negro"
+      "Santa Cruz",
+      "Ciudad Autónoma de Buenos Aires",
+      "Islas Malvinas"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
     "id": "b616b0435786",
@@ -678,10 +678,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Colonización galesa en el valle\"?",
     "choices": [
-      "Santiago del Estero",
-      "Salta",
+      "La Pampa",
+      "Ciudad Autónoma de Buenos Aires",
       "Chubut",
-      "Tucumán"
+      "La Rioja"
     ],
     "correctIndex": 2
   },
@@ -691,12 +691,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Patagonia de dos mundos\"?",
     "choices": [
-      "Formosa",
       "Chubut",
-      "Ciudad Autónoma de Buenos Aires",
-      "Buenos Aires"
+      "Misiones",
+      "Córdoba",
+      "Mendoza"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
     "id": "79c053d54cbd",
@@ -704,10 +704,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Cóndor andino?",
     "choices": [
-      "Neuquén",
+      "Salta",
       "Córdoba",
-      "San Luis",
-      "Chaco"
+      "Río Negro",
+      "San Luis"
     ],
     "correctIndex": 1,
     "explanation": "El Cóndor andino es parte de la fauna de Córdoba."
@@ -718,12 +718,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Puma?",
     "choices": [
-      "Ciudad Autónoma de Buenos Aires",
-      "Córdoba",
-      "Islas Malvinas",
-      "Chaco"
+      "San Juan",
+      "Chubut",
+      "Tucumán",
+      "Córdoba"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "El Puma es parte de la fauna de Córdoba."
   },
   {
@@ -732,12 +732,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Molle de beber?",
     "choices": [
+      "San Juan",
       "Tucumán",
-      "Salta",
-      "Córdoba",
-      "Río Negro"
+      "Río Negro",
+      "Córdoba"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "El Molle de beber es flora representativa de Córdoba."
   },
   {
@@ -746,12 +746,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Espinillo?",
     "choices": [
-      "Tierra del Fuego",
-      "Ciudad Autónoma de Buenos Aires",
-      "Formosa",
-      "Córdoba"
+      "Río Negro",
+      "Corrientes",
+      "Córdoba",
+      "Formosa"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "El Espinillo es flora representativa de Córdoba."
   },
   {
@@ -760,12 +760,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Peperina serrana?",
     "choices": [
+      "Jujuy",
+      "Tucumán",
       "Córdoba",
-      "Mendoza",
-      "La Pampa",
-      "Chubut"
+      "San Juan"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "El Peperina serrana es flora representativa de Córdoba."
   },
   {
@@ -774,12 +774,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Cabrito serrano\"?",
     "choices": [
+      "Corrientes",
       "Córdoba",
-      "Chaco",
-      "Catamarca",
-      "Formosa"
+      "Jujuy",
+      "Tierra del Fuego"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "id": "a890158c4d7a",
@@ -787,12 +787,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Choripán cordobés\"?",
     "choices": [
-      "Islas Malvinas",
-      "Córdoba",
-      "Tierra del Fuego",
-      "Buenos Aires"
+      "Buenos Aires",
+      "Mendoza",
+      "Jujuy",
+      "Córdoba"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
   },
   {
     "id": "1271dcca0187",
@@ -800,12 +800,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Alfajor cordobés\"?",
     "choices": [
-      "Chubut",
       "Salta",
-      "Buenos Aires",
-      "Córdoba"
+      "Córdoba",
+      "Islas Malvinas",
+      "Santa Cruz"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "67341aa7d713",
@@ -813,12 +813,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Valle de Calamuchita (Villa General Belgrano y La Cumbrecita)?",
     "choices": [
-      "Santa Fe",
+      "La Pampa",
+      "Corrientes",
       "Córdoba",
-      "Jujuy",
       "Santa Cruz"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
   },
   {
     "id": "ebbd9f793307",
@@ -826,12 +826,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Camino de las Altas Cumbres?",
     "choices": [
-      "Corrientes",
-      "Santa Fe",
-      "Córdoba",
-      "Catamarca"
+      "La Pampa",
+      "San Luis",
+      "Santa Cruz",
+      "Córdoba"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "ca73782d44fc",
@@ -839,12 +839,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque Nacional Quebrada del Condorito?",
     "choices": [
-      "Corrientes",
       "Formosa",
       "Córdoba",
-      "Mendoza"
+      "Santa Cruz",
+      "Tucumán"
     ],
-    "correctIndex": 2
+    "correctIndex": 1
   },
   {
     "id": "cfd17ba15d89",
@@ -852,12 +852,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Universidad histórica\"?",
     "choices": [
-      "Chubut",
-      "Formosa",
       "Córdoba",
-      "La Pampa"
+      "Islas Malvinas",
+      "Neuquén",
+      "Corrientes"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
     "id": "39daabc985d8",
@@ -865,12 +865,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"La Reforma Universitaria de 1918\"?",
     "choices": [
-      "Santiago del Estero",
       "Córdoba",
       "Santa Fe",
-      "Chubut"
+      "Catamarca",
+      "Corrientes"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
     "id": "7de7ca093fa4",
@@ -878,12 +878,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Carpincho?",
     "choices": [
+      "Ciudad Autónoma de Buenos Aires",
+      "Tierra del Fuego",
       "Corrientes",
-      "La Rioja",
-      "Río Negro",
       "San Juan"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "El Carpincho es parte de la fauna de Corrientes."
   },
   {
@@ -892,12 +892,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Yacaré overo?",
     "choices": [
-      "Tucumán",
-      "Santa Cruz",
-      "La Pampa",
-      "Corrientes"
+      "Córdoba",
+      "Corrientes",
+      "Islas Malvinas",
+      "Santa Fe"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "El Yacaré overo es parte de la fauna de Corrientes."
   },
   {
@@ -906,12 +906,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Irupé?",
     "choices": [
-      "Corrientes",
-      "Jujuy",
-      "Formosa",
-      "Salta"
+      "Misiones",
+      "Chubut",
+      "Mendoza",
+      "Corrientes"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "El Irupé es flora representativa de Corrientes."
   },
   {
@@ -920,12 +920,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Camalote?",
     "choices": [
-      "Entre Ríos",
-      "Corrientes",
-      "Santiago del Estero",
-      "Chaco"
+      "La Pampa",
+      "San Luis",
+      "Buenos Aires",
+      "Corrientes"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "El Camalote es flora representativa de Corrientes."
   },
   {
@@ -934,12 +934,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Lapacho negro?",
     "choices": [
-      "Catamarca",
       "Santiago del Estero",
-      "Corrientes",
-      "La Pampa"
+      "Río Negro",
+      "Buenos Aires",
+      "Corrientes"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "El Lapacho negro es flora representativa de Corrientes."
   },
   {
@@ -948,12 +948,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Mbaipy\"?",
     "choices": [
+      "Chubut",
+      "Mendoza",
       "Corrientes",
-      "Buenos Aires",
-      "Tierra del Fuego",
-      "Santa Cruz"
+      "San Juan"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
     "id": "3bd68ee743c9",
@@ -961,12 +961,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Sopa correntina\"?",
     "choices": [
-      "Río Negro",
-      "Islas Malvinas",
-      "San Luis",
-      "Corrientes"
+      "Neuquén",
+      "Corrientes",
+      "Misiones",
+      "Ciudad Autónoma de Buenos Aires"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "59d45426737d",
@@ -974,12 +974,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Dorado a la parrilla\"?",
     "choices": [
-      "Buenos Aires",
-      "Tierra del Fuego",
-      "Jujuy",
-      "Corrientes"
+      "Corrientes",
+      "Río Negro",
+      "La Rioja",
+      "Misiones"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "26be5ffb611f",
@@ -987,9 +987,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Esteros del Iberá?",
     "choices": [
-      "Santa Fe",
-      "San Luis",
-      "Mendoza",
+      "Salta",
+      "Santa Cruz",
+      "Formosa",
       "Corrientes"
     ],
     "correctIndex": 3
@@ -1000,10 +1000,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Costanera y casco histórico de la ciudad de Corrientes?",
     "choices": [
-      "Islas Malvinas",
-      "La Pampa",
+      "Misiones",
+      "Santa Fe",
       "Corrientes",
-      "Santa Fe"
+      "Buenos Aires"
     ],
     "correctIndex": 2
   },
@@ -1013,9 +1013,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque Nacional Mburucuyá?",
     "choices": [
-      "La Rioja",
-      "Córdoba",
-      "Chaco",
+      "Santa Fe",
+      "Salta",
+      "Catamarca",
       "Corrientes"
     ],
     "correctIndex": 3
@@ -1026,12 +1026,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Herencia guaraní viva\"?",
     "choices": [
-      "Santiago del Estero",
-      "Catamarca",
       "Corrientes",
-      "Jujuy"
+      "Santa Fe",
+      "Río Negro",
+      "Buenos Aires"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
     "id": "f24a822e01a5",
@@ -1039,12 +1039,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Iberá y la recuperación de fauna\"?",
     "choices": [
-      "Río Negro",
-      "Salta",
-      "La Pampa",
-      "Corrientes"
+      "Corrientes",
+      "La Rioja",
+      "Tucumán",
+      "Santa Fe"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "ec0243d91ade",
@@ -1052,12 +1052,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Carpincho?",
     "choices": [
-      "Catamarca",
-      "Corrientes",
-      "Entre Ríos",
-      "Formosa"
+      "Chaco",
+      "Tierra del Fuego",
+      "La Pampa",
+      "Entre Ríos"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "El Carpincho es parte de la fauna de Entre Ríos."
   },
   {
@@ -1066,10 +1066,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Lobito de río?",
     "choices": [
-      "Santiago del Estero",
+      "Córdoba",
       "Entre Ríos",
-      "Misiones",
-      "Santa Cruz"
+      "Corrientes",
+      "Santa Fe"
     ],
     "correctIndex": 1,
     "explanation": "El Lobito de río es parte de la fauna de Entre Ríos."
@@ -1080,8 +1080,8 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Sauce criollo?",
     "choices": [
-      "Chaco",
-      "Islas Malvinas",
+      "Neuquén",
+      "La Pampa",
       "Misiones",
       "Entre Ríos"
     ],
@@ -1094,10 +1094,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Timbó?",
     "choices": [
-      "Mendoza",
+      "La Rioja",
       "Entre Ríos",
-      "Tierra del Fuego",
-      "San Juan"
+      "Santa Fe",
+      "Tucumán"
     ],
     "correctIndex": 1,
     "explanation": "El Timbó es flora representativa de Entre Ríos."
@@ -1108,12 +1108,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Espinillo del río?",
     "choices": [
-      "Entre Ríos",
-      "San Luis",
-      "Jujuy",
-      "Salta"
+      "Formosa",
+      "Tierra del Fuego",
+      "Chubut",
+      "Entre Ríos"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "El Espinillo del río es flora representativa de Entre Ríos."
   },
   {
@@ -1122,10 +1122,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Pescados del Paraná y el Uruguay\"?",
     "choices": [
-      "Santiago del Estero",
-      "Neuquén",
+      "Mendoza",
+      "San Juan",
       "Entre Ríos",
-      "Mendoza"
+      "Santa Fe"
     ],
     "correctIndex": 2
   },
@@ -1135,12 +1135,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Empanadas de pescado\"?",
     "choices": [
-      "Santiago del Estero",
-      "Tierra del Fuego",
       "Entre Ríos",
-      "San Luis"
+      "Corrientes",
+      "Santiago del Estero",
+      "La Rioja"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
     "id": "ca1b338a5026",
@@ -1148,12 +1148,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Asado con cuero\"?",
     "choices": [
-      "Mendoza",
-      "Santa Cruz",
-      "Entre Ríos",
-      "Buenos Aires"
+      "Chaco",
+      "Salta",
+      "La Pampa",
+      "Entre Ríos"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "1c29c479bffb",
@@ -1161,9 +1161,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque Nacional El Palmar?",
     "choices": [
-      "Chubut",
-      "San Juan",
-      "Ciudad Autónoma de Buenos Aires",
+      "Neuquén",
+      "Santa Fe",
+      "San Luis",
       "Entre Ríos"
     ],
     "correctIndex": 3
@@ -1174,12 +1174,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Termas de Federación?",
     "choices": [
-      "Ciudad Autónoma de Buenos Aires",
-      "Mendoza",
-      "Tucumán",
-      "Entre Ríos"
+      "Santa Fe",
+      "Entre Ríos",
+      "La Pampa",
+      "Río Negro"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "7d598ec7ade2",
@@ -1188,9 +1188,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia está Palacio San José (Concepción del Uruguay)?",
     "choices": [
       "Entre Ríos",
-      "Santa Cruz",
-      "Islas Malvinas",
-      "Chubut"
+      "La Pampa",
+      "Catamarca",
+      "Chaco"
     ],
     "correctIndex": 0
   },
@@ -1200,12 +1200,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Capital de la Confederación\"?",
     "choices": [
-      "La Rioja",
+      "Buenos Aires",
+      "Salta",
       "Entre Ríos",
-      "Santiago del Estero",
-      "Jujuy"
+      "Catamarca"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
   },
   {
     "id": "4287cca90630",
@@ -1213,12 +1213,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Palacio San José y Urquiza\"?",
     "choices": [
-      "Santa Fe",
-      "Santiago del Estero",
-      "Entre Ríos",
-      "Corrientes"
+      "Formosa",
+      "Chubut",
+      "Islas Malvinas",
+      "Entre Ríos"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "2dc102dfb4cd",
@@ -1226,12 +1226,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Lagarto overo?",
     "choices": [
-      "Buenos Aires",
-      "Tierra del Fuego",
       "Formosa",
-      "Chaco"
+      "Catamarca",
+      "Santa Cruz",
+      "Ciudad Autónoma de Buenos Aires"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "El Lagarto overo es parte de la fauna de Formosa."
   },
   {
@@ -1241,9 +1241,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia vive el Oso hormiguero?",
     "choices": [
       "Formosa",
-      "Catamarca",
-      "Buenos Aires",
-      "Corrientes"
+      "Entre Ríos",
+      "Islas Malvinas",
+      "Catamarca"
     ],
     "correctIndex": 0,
     "explanation": "El Oso hormiguero es parte de la fauna de Formosa."
@@ -1254,12 +1254,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Palo santo?",
     "choices": [
-      "Mendoza",
-      "Santa Cruz",
-      "Formosa",
-      "Neuquén"
+      "San Juan",
+      "Ciudad Autónoma de Buenos Aires",
+      "Santa Fe",
+      "Formosa"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "El Palo santo es flora representativa de Formosa."
   },
   {
@@ -1268,12 +1268,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Caranday?",
     "choices": [
-      "Catamarca",
       "Formosa",
-      "San Juan",
-      "Santa Cruz"
+      "Misiones",
+      "Tucumán",
+      "Mendoza"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "El Caranday es flora representativa de Formosa."
   },
   {
@@ -1282,12 +1282,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Guayacán?",
     "choices": [
-      "Catamarca",
-      "Neuquén",
       "Formosa",
+      "Córdoba",
+      "Santa Cruz",
       "La Pampa"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "El Guayacán es flora representativa de Formosa."
   },
   {
@@ -1296,12 +1296,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Sopa paraguaya\"?",
     "choices": [
-      "Tucumán",
       "Islas Malvinas",
-      "Corrientes",
-      "Formosa"
+      "Formosa",
+      "Mendoza",
+      "Entre Ríos"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "31236bfb1b56",
@@ -1309,10 +1309,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Pacú al horno\"?",
     "choices": [
-      "Ciudad Autónoma de Buenos Aires",
+      "Entre Ríos",
       "Formosa",
-      "Misiones",
-      "Chaco"
+      "Chaco",
+      "La Rioja"
     ],
     "correctIndex": 1
   },
@@ -1322,12 +1322,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Chipá cuerito\"?",
     "choices": [
-      "Jujuy",
-      "Formosa",
-      "Córdoba",
-      "Mendoza"
+      "Corrientes",
+      "Ciudad Autónoma de Buenos Aires",
+      "Islas Malvinas",
+      "Formosa"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
   },
   {
     "id": "cc1da3371a02",
@@ -1335,12 +1335,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Bañado La Estrella?",
     "choices": [
+      "Mendoza",
       "Formosa",
-      "Misiones",
-      "Jujuy",
-      "Ciudad Autónoma de Buenos Aires"
+      "La Pampa",
+      "Córdoba"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "id": "96c155e51934",
@@ -1348,10 +1348,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque Nacional Río Pilcomayo?",
     "choices": [
-      "Río Negro",
-      "Islas Malvinas",
+      "Tierra del Fuego",
+      "Ciudad Autónoma de Buenos Aires",
       "Formosa",
-      "Entre Ríos"
+      "Salta"
     ],
     "correctIndex": 2
   },
@@ -1362,9 +1362,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia está Reserva de biosfera Laguna Oca (ciudad de Formosa)?",
     "choices": [
       "Formosa",
-      "Tierra del Fuego",
-      "Entre Ríos",
-      "Santiago del Estero"
+      "San Juan",
+      "La Pampa",
+      "Corrientes"
     ],
     "correctIndex": 0
   },
@@ -1374,12 +1374,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Ríos y pueblos originarios\"?",
     "choices": [
-      "Entre Ríos",
+      "Jujuy",
+      "Islas Malvinas",
       "Formosa",
-      "Córdoba",
-      "Jujuy"
+      "Catamarca"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
   },
   {
     "id": "766fd4af3bcc",
@@ -1387,12 +1387,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Bañado La Estrella\"?",
     "choices": [
-      "Salta",
-      "La Rioja",
-      "Tucumán",
-      "Formosa"
+      "Jujuy",
+      "La Pampa",
+      "Formosa",
+      "Misiones"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
     "id": "61e61ae0d17a",
@@ -1400,10 +1400,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Llama?",
     "choices": [
-      "San Juan",
       "Santa Fe",
+      "Catamarca",
       "Jujuy",
-      "Misiones"
+      "La Pampa"
     ],
     "correctIndex": 2,
     "explanation": "El Llama es parte de la fauna de Jujuy."
@@ -1414,9 +1414,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Vicuña?",
     "choices": [
-      "Catamarca",
-      "La Rioja",
-      "San Juan",
+      "Santa Fe",
+      "Chubut",
+      "Córdoba",
       "Jujuy"
     ],
     "correctIndex": 3,
@@ -1428,12 +1428,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Queñoa?",
     "choices": [
-      "Córdoba",
-      "Santiago del Estero",
-      "La Rioja",
-      "Jujuy"
+      "La Pampa",
+      "Jujuy",
+      "San Luis",
+      "La Rioja"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "El Queñoa es flora representativa de Jujuy."
   },
   {
@@ -1442,10 +1442,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Tola de Puna?",
     "choices": [
-      "San Luis",
+      "Mendoza",
       "Jujuy",
-      "Santa Cruz",
-      "Entre Ríos"
+      "Misiones",
+      "Salta"
     ],
     "correctIndex": 1,
     "explanation": "El Tola de Puna es flora representativa de Jujuy."
@@ -1456,12 +1456,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Cebil?",
     "choices": [
-      "Jujuy",
-      "Islas Malvinas",
-      "Salta",
-      "Formosa"
+      "Ciudad Autónoma de Buenos Aires",
+      "Tucumán",
+      "Buenos Aires",
+      "Jujuy"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "El Cebil es flora representativa de Jujuy."
   },
   {
@@ -1470,12 +1470,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Humita en chala\"?",
     "choices": [
+      "Tierra del Fuego",
       "Jujuy",
-      "San Juan",
-      "Santa Fe",
-      "Formosa"
+      "Río Negro",
+      "La Rioja"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "id": "8151b6cedd51",
@@ -1483,12 +1483,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Tamales jujeños\"?",
     "choices": [
-      "La Pampa",
-      "Entre Ríos",
+      "Ciudad Autónoma de Buenos Aires",
       "Jujuy",
-      "Santiago del Estero"
+      "Río Negro",
+      "La Pampa"
     ],
-    "correctIndex": 2
+    "correctIndex": 1
   },
   {
     "id": "85cb7c1efd36",
@@ -1496,12 +1496,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Calapurca\"?",
     "choices": [
-      "Formosa",
-      "Mendoza",
-      "Catamarca",
-      "Jujuy"
+      "Tucumán",
+      "Jujuy",
+      "Neuquén",
+      "Córdoba"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "f4bb0cc6b6d2",
@@ -1509,12 +1509,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Purmamarca y Cerro de los Siete Colores?",
     "choices": [
-      "Entre Ríos",
+      "San Juan",
+      "Chaco",
       "Jujuy",
-      "Santa Cruz",
-      "La Pampa"
+      "Tucumán"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
   },
   {
     "id": "e746a360133c",
@@ -1522,12 +1522,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Quebrada de Humahuaca (Tilcara y Humahuaca)?",
     "choices": [
-      "Córdoba",
-      "Chaco",
       "Jujuy",
-      "San Juan"
+      "Islas Malvinas",
+      "Catamarca",
+      "Tucumán"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
     "id": "75aaf452be5a",
@@ -1535,12 +1535,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Salinas Grandes y Cuesta de Lipán?",
     "choices": [
-      "San Luis",
-      "Entre Ríos",
-      "Corrientes",
-      "Jujuy"
+      "Jujuy",
+      "La Pampa",
+      "Santa Cruz",
+      "San Luis"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "2894c0c2e3b8",
@@ -1548,12 +1548,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Quebrada de Humahuaca milenaria\"?",
     "choices": [
-      "Buenos Aires",
-      "Jujuy",
-      "Río Negro",
-      "San Juan"
+      "Santiago del Estero",
+      "Santa Cruz",
+      "La Pampa",
+      "Jujuy"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
   },
   {
     "id": "61ebd04c75a6",
@@ -1561,12 +1561,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Belgrano y la Bandera en Jujuy\"?",
     "choices": [
-      "Jujuy",
-      "Río Negro",
       "Tucumán",
-      "Misiones"
+      "Misiones",
+      "Jujuy",
+      "La Pampa"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
     "id": "1fab7a0619f9",
@@ -1574,10 +1574,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Puma?",
     "choices": [
-      "Santiago del Estero",
+      "Islas Malvinas",
       "La Pampa",
-      "Río Negro",
-      "Santa Cruz"
+      "Tucumán",
+      "Formosa"
     ],
     "correctIndex": 1,
     "explanation": "El Puma es parte de la fauna de La Pampa."
@@ -1588,12 +1588,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Ñandú?",
     "choices": [
-      "Tucumán",
-      "Entre Ríos",
-      "Catamarca",
-      "La Pampa"
+      "La Pampa",
+      "Chubut",
+      "Islas Malvinas",
+      "Santa Cruz"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "El Ñandú es parte de la fauna de La Pampa."
   },
   {
@@ -1602,12 +1602,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Caldén?",
     "choices": [
-      "Chubut",
-      "Río Negro",
-      "Santa Cruz",
-      "La Pampa"
+      "Jujuy",
+      "San Juan",
+      "La Pampa",
+      "Salta"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "El Caldén es flora representativa de La Pampa."
   },
   {
@@ -1616,12 +1616,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Jarilla pampeana?",
     "choices": [
-      "Santa Cruz",
-      "Islas Malvinas",
+      "Jujuy",
       "La Pampa",
-      "Formosa"
+      "La Rioja",
+      "Catamarca"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "El Jarilla pampeana es flora representativa de La Pampa."
   },
   {
@@ -1630,12 +1630,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Olivo de burro?",
     "choices": [
+      "Santa Fe",
+      "Santa Cruz",
       "La Pampa",
-      "Islas Malvinas",
-      "Córdoba",
-      "Neuquén"
+      "Tucumán"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "El Olivo de burro es flora representativa de La Pampa."
   },
   {
@@ -1644,9 +1644,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Asado criollo pampeano\"?",
     "choices": [
-      "Misiones",
-      "Córdoba",
-      "Entre Ríos",
+      "Salta",
+      "Catamarca",
+      "La Rioja",
       "La Pampa"
     ],
     "correctIndex": 3
@@ -1657,12 +1657,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Chivito al asador\"?",
     "choices": [
-      "La Pampa",
-      "Islas Malvinas",
-      "Corrientes",
-      "Chubut"
+      "Chubut",
+      "Chaco",
+      "Jujuy",
+      "La Pampa"
     ],
-    "correctIndex": 0
+    "correctIndex": 3
   },
   {
     "id": "d9d35a378a0f",
@@ -1670,12 +1670,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Torta frita\"?",
     "choices": [
-      "Tierra del Fuego",
-      "Chaco",
       "La Pampa",
-      "Buenos Aires"
+      "Mendoza",
+      "San Juan",
+      "Salta"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
     "id": "6139006db09b",
@@ -1683,12 +1683,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque Nacional Lihué Calel?",
     "choices": [
+      "San Juan",
+      "Santiago del Estero",
       "La Pampa",
-      "Chubut",
-      "Tierra del Fuego",
-      "San Juan"
+      "Salta"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
     "id": "05e4d6f9bf7c",
@@ -1696,12 +1696,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Reserva Provincial Parque Luro?",
     "choices": [
-      "Santiago del Estero",
-      "Chaco",
-      "Misiones",
-      "La Pampa"
+      "Entre Ríos",
+      "La Pampa",
+      "Tucumán",
+      "San Juan"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "95e10843dc68",
@@ -1709,12 +1709,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Laguna de Utracán y área de Guatraché?",
     "choices": [
+      "San Luis",
       "La Pampa",
-      "Córdoba",
-      "Buenos Aires",
-      "Santa Cruz"
+      "Río Negro",
+      "Entre Ríos"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "id": "2855030cbdac",
@@ -1722,12 +1722,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"El caldén, árbol emblema\"?",
     "choices": [
-      "Chaco",
-      "Tucumán",
-      "San Luis",
-      "La Pampa"
+      "Entre Ríos",
+      "La Pampa",
+      "Tierra del Fuego",
+      "San Luis"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "19714074c8bc",
@@ -1735,12 +1735,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Cruce de rutas históricas\"?",
     "choices": [
-      "Corrientes",
+      "Mendoza",
+      "San Luis",
       "La Pampa",
-      "Chaco",
-      "Jujuy"
+      "Santiago del Estero"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
   },
   {
     "id": "3dfec2790739",
@@ -1748,12 +1748,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Ñandú?",
     "choices": [
-      "Entre Ríos",
-      "Islas Malvinas",
-      "San Luis",
-      "La Rioja"
+      "Chaco",
+      "La Rioja",
+      "Jujuy",
+      "Santiago del Estero"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "El Ñandú es parte de la fauna de La Rioja."
   },
   {
@@ -1763,9 +1763,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia vive el Guanaco?",
     "choices": [
       "La Rioja",
-      "Chaco",
-      "San Luis",
-      "Entre Ríos"
+      "Formosa",
+      "Entre Ríos",
+      "Tierra del Fuego"
     ],
     "correctIndex": 0,
     "explanation": "El Guanaco es parte de la fauna de La Rioja."
@@ -1776,12 +1776,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Jarilla?",
     "choices": [
-      "Mendoza",
-      "San Luis",
-      "La Rioja",
-      "Santa Fe"
+      "Salta",
+      "Neuquén",
+      "Río Negro",
+      "La Rioja"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "El Jarilla es flora representativa de La Rioja."
   },
   {
@@ -1790,12 +1790,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Retortuño?",
     "choices": [
-      "Salta",
-      "Entre Ríos",
       "La Rioja",
-      "San Juan"
+      "Tierra del Fuego",
+      "Mendoza",
+      "San Luis"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "El Retortuño es flora representativa de La Rioja."
   },
   {
@@ -1804,12 +1804,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Algarrobo blanco?",
     "choices": [
-      "Río Negro",
-      "Chaco",
+      "Mendoza",
       "La Rioja",
-      "Corrientes"
+      "San Luis",
+      "Chubut"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "El Algarrobo blanco es flora representativa de La Rioja."
   },
   {
@@ -1818,12 +1818,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Chanfaina riojana\"?",
     "choices": [
-      "Buenos Aires",
-      "Tucumán",
-      "Santa Fe",
-      "La Rioja"
+      "Entre Ríos",
+      "La Rioja",
+      "Jujuy",
+      "Tucumán"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "a98694a63888",
@@ -1831,12 +1831,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Empanadas riojanas\"?",
     "choices": [
-      "La Rioja",
-      "Tierra del Fuego",
-      "Jujuy",
-      "Formosa"
+      "Entre Ríos",
+      "Santa Fe",
+      "Ciudad Autónoma de Buenos Aires",
+      "La Rioja"
     ],
-    "correctIndex": 0
+    "correctIndex": 3
   },
   {
     "id": "9048b3a4e0b8",
@@ -1844,12 +1844,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Locro riojano\"?",
     "choices": [
-      "Santa Fe",
-      "Chaco",
       "La Rioja",
-      "Corrientes"
+      "San Luis",
+      "Río Negro",
+      "Chaco"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
     "id": "e0eb6282ffad",
@@ -1857,12 +1857,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque Nacional Talampaya?",
     "choices": [
+      "Jujuy",
       "La Rioja",
-      "Buenos Aires",
-      "Entre Ríos",
-      "Santa Cruz"
+      "Misiones",
+      "Buenos Aires"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "id": "34340238d166",
@@ -1870,12 +1870,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Cuesta de Miranda?",
     "choices": [
-      "La Rioja",
-      "Santa Fe",
-      "Mendoza",
-      "Santiago del Estero"
+      "Córdoba",
+      "Misiones",
+      "Santa Cruz",
+      "La Rioja"
     ],
-    "correctIndex": 0
+    "correctIndex": 3
   },
   {
     "id": "91249863b64f",
@@ -1883,12 +1883,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque Nacional Laguna Brava?",
     "choices": [
+      "Santiago del Estero",
       "Ciudad Autónoma de Buenos Aires",
-      "Corrientes",
-      "La Rioja",
-      "Buenos Aires"
+      "Santa Fe",
+      "La Rioja"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "0d0a9c742050",
@@ -1896,12 +1896,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Tierra de caudillos federales\"?",
     "choices": [
-      "Tucumán",
-      "San Luis",
-      "Ciudad Autónoma de Buenos Aires",
-      "La Rioja"
+      "Santa Fe",
+      "La Rioja",
+      "Santa Cruz",
+      "Buenos Aires"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "8a37ce336c68",
@@ -1909,12 +1909,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Talampaya y el tiempo profundo\"?",
     "choices": [
-      "Santiago del Estero",
       "La Rioja",
-      "Neuquén",
-      "Misiones"
+      "Santa Cruz",
+      "Chubut",
+      "Ciudad Autónoma de Buenos Aires"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
     "id": "bb9c26b14fb0",
@@ -1922,10 +1922,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Cóndor andino?",
     "choices": [
-      "San Luis",
-      "Corrientes",
+      "Catamarca",
+      "Río Negro",
       "Mendoza",
-      "La Pampa"
+      "Corrientes"
     ],
     "correctIndex": 2,
     "explanation": "El Cóndor andino es parte de la fauna de Mendoza."
@@ -1936,12 +1936,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Guanaco?",
     "choices": [
+      "Catamarca",
       "Mendoza",
-      "Chaco",
-      "San Juan",
-      "Islas Malvinas"
+      "La Rioja",
+      "Corrientes"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "El Guanaco es parte de la fauna de Mendoza."
   },
   {
@@ -1950,12 +1950,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Ajarilla?",
     "choices": [
-      "Mendoza",
+      "Catamarca",
+      "Chaco",
       "Tierra del Fuego",
-      "Córdoba",
-      "Tucumán"
+      "Mendoza"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "El Ajarilla es flora representativa de Mendoza."
   },
   {
@@ -1964,12 +1964,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Jarilla resinosas?",
     "choices": [
-      "Mendoza",
-      "La Pampa",
-      "Tierra del Fuego",
-      "Formosa"
+      "Santiago del Estero",
+      "Chubut",
+      "Entre Ríos",
+      "Mendoza"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "El Jarilla resinosas es flora representativa de Mendoza."
   },
   {
@@ -1978,12 +1978,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Chañar mendocino?",
     "choices": [
-      "Formosa",
-      "San Luis",
-      "Misiones",
-      "Mendoza"
+      "Santa Fe",
+      "Mendoza",
+      "Ciudad Autónoma de Buenos Aires",
+      "Córdoba"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "El Chañar mendocino es flora representativa de Mendoza."
   },
   {
@@ -1992,12 +1992,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Tortitas mendocinas\"?",
     "choices": [
+      "Río Negro",
       "Mendoza",
-      "Jujuy",
-      "Chubut",
-      "Salta"
+      "Misiones",
+      "Islas Malvinas"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "id": "3f80304287e6",
@@ -2005,12 +2005,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Chivo a la llama\"?",
     "choices": [
-      "Córdoba",
-      "Entre Ríos",
       "Mendoza",
-      "Catamarca"
+      "Río Negro",
+      "Chaco",
+      "Tierra del Fuego"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
     "id": "e8e1880e754a",
@@ -2018,12 +2018,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Empanadas mendocinas\"?",
     "choices": [
-      "Buenos Aires",
-      "Salta",
-      "Tierra del Fuego",
-      "Mendoza"
+      "La Pampa",
+      "Córdoba",
+      "Mendoza",
+      "Buenos Aires"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
     "id": "7cde99ee1496",
@@ -2031,12 +2031,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque Provincial Aconcagua?",
     "choices": [
+      "Santiago del Estero",
+      "Tierra del Fuego",
       "Mendoza",
-      "Santa Fe",
-      "Tucumán",
-      "Salta"
+      "Jujuy"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
     "id": "d8487a31e041",
@@ -2045,9 +2045,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia está Ruta del Vino en Luján de Cuyo y Valle de Uco?",
     "choices": [
       "Mendoza",
-      "Santiago del Estero",
-      "Jujuy",
-      "La Rioja"
+      "Misiones",
+      "La Rioja",
+      "Entre Ríos"
     ],
     "correctIndex": 0
   },
@@ -2057,12 +2057,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Puente del Inca y Parque Provincial Cañón del Atuel?",
     "choices": [
-      "San Juan",
-      "Islas Malvinas",
+      "Entre Ríos",
       "Mendoza",
-      "Tierra del Fuego"
+      "Corrientes",
+      "Formosa"
     ],
-    "correctIndex": 2
+    "correctIndex": 1
   },
   {
     "id": "057ce36da1d5",
@@ -2070,12 +2070,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Cuna del Ejército de los Andes\"?",
     "choices": [
-      "Mendoza",
-      "Misiones",
+      "La Pampa",
       "San Juan",
-      "Neuquén"
+      "Córdoba",
+      "Mendoza"
     ],
-    "correctIndex": 0
+    "correctIndex": 3
   },
   {
     "id": "fbaa646745ed",
@@ -2083,12 +2083,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Oasis construidos por acequias\"?",
     "choices": [
+      "Santa Cruz",
       "Mendoza",
-      "Islas Malvinas",
-      "Catamarca",
-      "Santa Fe"
+      "Salta",
+      "San Juan"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "id": "f45f76a3da9f",
@@ -2096,12 +2096,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Yaguareté?",
     "choices": [
-      "San Juan",
+      "Formosa",
+      "Chaco",
       "Misiones",
-      "San Luis",
       "La Rioja"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "El Yaguareté es parte de la fauna de Misiones."
   },
   {
@@ -2111,11 +2111,11 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia vive el Mono carayá?",
     "choices": [
       "Chaco",
-      "Buenos Aires",
       "Misiones",
+      "Neuquén",
       "Islas Malvinas"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "El Mono carayá es parte de la fauna de Misiones."
   },
   {
@@ -2124,12 +2124,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Palmito misionero?",
     "choices": [
-      "Tucumán",
-      "Islas Malvinas",
       "Misiones",
-      "Santiago del Estero"
+      "Santa Cruz",
+      "San Juan",
+      "Mendoza"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "El Palmito misionero es flora representativa de Misiones."
   },
   {
@@ -2139,9 +2139,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia crece el Lapacho rosado?",
     "choices": [
       "Misiones",
-      "San Luis",
       "Córdoba",
-      "Salta"
+      "Tierra del Fuego",
+      "Neuquén"
     ],
     "correctIndex": 0,
     "explanation": "El Lapacho rosado es flora representativa de Misiones."
@@ -2152,12 +2152,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Araucaria misionera?",
     "choices": [
+      "Catamarca",
+      "Santa Cruz",
       "Misiones",
-      "Chubut",
-      "Córdoba",
-      "Santa Cruz"
+      "San Luis"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "El Araucaria misionera es flora representativa de Misiones."
   },
   {
@@ -2166,12 +2166,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Reviro\"?",
     "choices": [
-      "Corrientes",
-      "Neuquén",
-      "Catamarca",
-      "Misiones"
+      "Río Negro",
+      "Misiones",
+      "Tucumán",
+      "Tierra del Fuego"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "46cb82486d29",
@@ -2180,9 +2180,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia es típico el plato \"Chipá misionero\"?",
     "choices": [
       "Misiones",
-      "San Juan",
-      "Mendoza",
-      "Catamarca"
+      "Ciudad Autónoma de Buenos Aires",
+      "Chubut",
+      "La Rioja"
     ],
     "correctIndex": 0
   },
@@ -2192,12 +2192,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Mbejú\"?",
     "choices": [
-      "Formosa",
-      "Tucumán",
-      "Misiones",
-      "Mendoza"
+      "Tierra del Fuego",
+      "San Luis",
+      "Chubut",
+      "Misiones"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "d5c401de8a79",
@@ -2205,12 +2205,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Cataratas del Iguazú?",
     "choices": [
-      "Santiago del Estero",
-      "La Pampa",
-      "Formosa",
-      "Misiones"
+      "Islas Malvinas",
+      "Misiones",
+      "Buenos Aires",
+      "Salta"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "f02babd655c3",
@@ -2218,10 +2218,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Ruinas Jesuíticas de San Ignacio Miní?",
     "choices": [
-      "Santa Cruz",
-      "Río Negro",
+      "Santa Fe",
+      "Jujuy",
       "Misiones",
-      "Jujuy"
+      "Ciudad Autónoma de Buenos Aires"
     ],
     "correctIndex": 2
   },
@@ -2231,12 +2231,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Saltos del Moconá?",
     "choices": [
-      "Entre Ríos",
-      "Chaco",
-      "Islas Malvinas",
-      "Misiones"
+      "Misiones",
+      "Salta",
+      "Córdoba",
+      "Ciudad Autónoma de Buenos Aires"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "1461b36b6cdd",
@@ -2244,12 +2244,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Las Misiones Jesuíticas\"?",
     "choices": [
-      "Misiones",
       "Entre Ríos",
-      "Islas Malvinas",
-      "Córdoba"
+      "Misiones",
+      "Santa Cruz",
+      "Chaco"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "id": "5397eb26ad2f",
@@ -2257,12 +2257,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"La selva y la yerba mate\"?",
     "choices": [
+      "Buenos Aires",
+      "Río Negro",
       "Misiones",
-      "Salta",
-      "Formosa",
-      "Chubut"
+      "Entre Ríos"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
     "id": "687d5c010c86",
@@ -2270,12 +2270,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Zorro gris patagónico?",
     "choices": [
-      "Mendoza",
-      "Corrientes",
       "Neuquén",
-      "La Pampa"
+      "Río Negro",
+      "Santiago del Estero",
+      "Santa Cruz"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "El Zorro gris patagónico es parte de la fauna de Neuquén."
   },
   {
@@ -2284,12 +2284,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Pudú?",
     "choices": [
-      "Ciudad Autónoma de Buenos Aires",
-      "Islas Malvinas",
-      "Corrientes",
-      "Neuquén"
+      "Chubut",
+      "Neuquén",
+      "Misiones",
+      "Corrientes"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "El Pudú es parte de la fauna de Neuquén."
   },
   {
@@ -2298,12 +2298,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Pehuén (araucaria)?",
     "choices": [
-      "La Rioja",
-      "Neuquén",
-      "Córdoba",
-      "Chubut"
+      "Buenos Aires",
+      "San Juan",
+      "Santa Fe",
+      "Neuquén"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "El Pehuén (araucaria) es flora representativa de Neuquén."
   },
   {
@@ -2312,12 +2312,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Ñire?",
     "choices": [
-      "Neuquén",
-      "Misiones",
-      "San Luis",
-      "Santa Cruz"
+      "La Pampa",
+      "Islas Malvinas",
+      "La Rioja",
+      "Neuquén"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "El Ñire es flora representativa de Neuquén."
   },
   {
@@ -2326,12 +2326,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Maitén cordillerano?",
     "choices": [
-      "Santa Fe",
-      "Chaco",
       "Neuquén",
-      "Catamarca"
+      "Santa Fe",
+      "Jujuy",
+      "Tierra del Fuego"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "El Maitén cordillerano es flora representativa de Neuquén."
   },
   {
@@ -2340,12 +2340,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Chivito neuquino\"?",
     "choices": [
-      "Misiones",
       "Neuquén",
-      "Santa Fe",
-      "Chaco"
+      "Río Negro",
+      "Formosa",
+      "San Luis"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
     "id": "23aa61da46ac",
@@ -2353,12 +2353,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Trucha patagónica\"?",
     "choices": [
-      "Catamarca",
       "Buenos Aires",
-      "Neuquén",
-      "Santiago del Estero"
+      "Ciudad Autónoma de Buenos Aires",
+      "La Rioja",
+      "Neuquén"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "40f165b49e9d",
@@ -2367,9 +2367,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia es típico el plato \"Torta frita patagónica\"?",
     "choices": [
       "Neuquén",
-      "Tierra del Fuego",
-      "Santa Cruz",
-      "Chubut"
+      "Misiones",
+      "Tucumán",
+      "Tierra del Fuego"
     ],
     "correctIndex": 0
   },
@@ -2379,12 +2379,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Villa La Angostura y Parque Nacional Nahuel Huapi?",
     "choices": [
-      "Santa Cruz",
-      "Neuquén",
-      "Misiones",
-      "Catamarca"
+      "Santiago del Estero",
+      "Corrientes",
+      "Tucumán",
+      "Neuquén"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
   },
   {
     "id": "57760655f802",
@@ -2392,12 +2392,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está San Martín de los Andes y Ruta de los Siete Lagos?",
     "choices": [
+      "San Juan",
       "Islas Malvinas",
-      "Neuquén",
-      "Tierra del Fuego",
-      "Chubut"
+      "Corrientes",
+      "Neuquén"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
   },
   {
     "id": "55f21de7ff8a",
@@ -2405,12 +2405,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Volcán Lanín y Parque Nacional Lanín?",
     "choices": [
-      "Jujuy",
-      "Tierra del Fuego",
       "Neuquén",
-      "Entre Ríos"
+      "Entre Ríos",
+      "Río Negro",
+      "Ciudad Autónoma de Buenos Aires"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
     "id": "3db0ab2f3c5e",
@@ -2418,12 +2418,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Territorio mapuche y cordillerano\"?",
     "choices": [
-      "Salta",
-      "Ciudad Autónoma de Buenos Aires",
-      "La Rioja",
-      "Neuquén"
+      "Mendoza",
+      "Tierra del Fuego",
+      "Neuquén",
+      "Jujuy"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
     "id": "b6ff11801564",
@@ -2432,9 +2432,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Vaca Muerta y energía\"?",
     "choices": [
       "Neuquén",
-      "Ciudad Autónoma de Buenos Aires",
-      "Salta",
-      "Tierra del Fuego"
+      "Corrientes",
+      "Chaco",
+      "Córdoba"
     ],
     "correctIndex": 0
   },
@@ -2444,12 +2444,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Mara patagónica?",
     "choices": [
-      "Santa Cruz",
+      "Tucumán",
       "Catamarca",
-      "Río Negro",
-      "Santiago del Estero"
+      "La Rioja",
+      "Río Negro"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "El Mara patagónica es parte de la fauna de Río Negro."
   },
   {
@@ -2458,12 +2458,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Guanaco?",
     "choices": [
-      "Jujuy",
-      "Islas Malvinas",
-      "Corrientes",
-      "Río Negro"
+      "Santiago del Estero",
+      "Río Negro",
+      "Tierra del Fuego",
+      "Santa Cruz"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "El Guanaco es parte de la fauna de Río Negro."
   },
   {
@@ -2472,12 +2472,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Neneo?",
     "choices": [
-      "Chubut",
-      "San Juan",
+      "Río Negro",
+      "Catamarca",
       "Santa Cruz",
-      "Río Negro"
+      "Buenos Aires"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "El Neneo es flora representativa de Río Negro."
   },
   {
@@ -2486,9 +2486,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Molle patagónico?",
     "choices": [
-      "San Luis",
-      "Formosa",
-      "Islas Malvinas",
+      "Jujuy",
+      "Catamarca",
+      "Salta",
       "Río Negro"
     ],
     "correctIndex": 3,
@@ -2501,11 +2501,11 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia crece el Coihue andino?",
     "choices": [
       "Islas Malvinas",
+      "Catamarca",
       "Río Negro",
-      "Mendoza",
-      "Buenos Aires"
+      "Corrientes"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "El Coihue andino es flora representativa de Río Negro."
   },
   {
@@ -2514,12 +2514,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Trucha patagónica\"?",
     "choices": [
-      "Entre Ríos",
       "Río Negro",
-      "Tucumán",
-      "Ciudad Autónoma de Buenos Aires"
+      "Misiones",
+      "Córdoba",
+      "Jujuy"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
     "id": "32f7ac15cb67",
@@ -2527,12 +2527,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Cordero al asador\"?",
     "choices": [
-      "Entre Ríos",
       "Tierra del Fuego",
-      "Río Negro",
-      "Chaco"
+      "La Pampa",
+      "Santiago del Estero",
+      "Río Negro"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "c550ee5b2372",
@@ -2540,12 +2540,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Bariloche y Circuito Chico?",
     "choices": [
+      "Jujuy",
+      "San Luis",
       "Río Negro",
-      "Santiago del Estero",
-      "Tierra del Fuego",
-      "San Luis"
+      "Santiago del Estero"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
     "id": "52729ca241f4",
@@ -2553,8 +2553,8 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está El Bolsón y Lago Puelo (comarca andina)?",
     "choices": [
-      "Córdoba",
-      "Salta",
+      "Neuquén",
+      "Chubut",
       "Río Negro",
       "Santa Cruz"
     ],
@@ -2566,12 +2566,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Las Grutas y costa del Golfo San Matías?",
     "choices": [
-      "Ciudad Autónoma de Buenos Aires",
-      "Córdoba",
-      "Río Negro",
-      "San Juan"
+      "Santa Cruz",
+      "Corrientes",
+      "San Luis",
+      "Río Negro"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "87faa965c357",
@@ -2579,12 +2579,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Alto Valle frutícola\"?",
     "choices": [
-      "Jujuy",
-      "Río Negro",
+      "Salta",
+      "Tucumán",
       "La Pampa",
-      "Neuquén"
+      "Río Negro"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
   },
   {
     "id": "00519ea6224b",
@@ -2592,10 +2592,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Costa atlántica y paleontología\"?",
     "choices": [
-      "Chaco",
-      "Santiago del Estero",
+      "La Pampa",
+      "Islas Malvinas",
       "Río Negro",
-      "Córdoba"
+      "Salta"
     ],
     "correctIndex": 2
   },
@@ -2605,12 +2605,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Tapir?",
     "choices": [
-      "Mendoza",
-      "Río Negro",
+      "Jujuy",
       "Salta",
-      "Santiago del Estero"
+      "Córdoba",
+      "Santa Cruz"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "El Tapir es parte de la fauna de Salta."
   },
   {
@@ -2619,9 +2619,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Vicuña?",
     "choices": [
+      "Ciudad Autónoma de Buenos Aires",
       "Chubut",
-      "Jujuy",
-      "Córdoba",
+      "Mendoza",
       "Salta"
     ],
     "correctIndex": 3,
@@ -2633,12 +2633,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Yuchán?",
     "choices": [
+      "San Juan",
       "Salta",
-      "Misiones",
-      "Tucumán",
-      "Santa Cruz"
+      "Buenos Aires",
+      "Corrientes"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "El Yuchán es flora representativa de Salta."
   },
   {
@@ -2647,12 +2647,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Palo borracho rosado?",
     "choices": [
-      "Formosa",
-      "Chaco",
+      "Entre Ríos",
       "Salta",
-      "Santa Fe"
+      "Buenos Aires",
+      "Santiago del Estero"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "El Palo borracho rosado es flora representativa de Salta."
   },
   {
@@ -2661,12 +2661,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Tipa blanca?",
     "choices": [
-      "Santa Fe",
       "Salta",
-      "La Pampa",
-      "La Rioja"
+      "San Juan",
+      "Formosa",
+      "Buenos Aires"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "El Tipa blanca es flora representativa de Salta."
   },
   {
@@ -2675,12 +2675,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Empanadas salteñas\"?",
     "choices": [
-      "Ciudad Autónoma de Buenos Aires",
-      "Formosa",
-      "Salta",
-      "Corrientes"
+      "Santa Cruz",
+      "Chubut",
+      "San Juan",
+      "Salta"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "b09be92be9e1",
@@ -2688,12 +2688,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Tamales salteños\"?",
     "choices": [
-      "Jujuy",
-      "Chubut",
-      "Santa Fe",
-      "Salta"
+      "Santa Cruz",
+      "Misiones",
+      "Salta",
+      "Islas Malvinas"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
     "id": "f1f1e9ff8c69",
@@ -2701,12 +2701,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Humita\"?",
     "choices": [
-      "Tierra del Fuego",
-      "La Pampa",
-      "Salta",
-      "Entre Ríos"
+      "Mendoza",
+      "Islas Malvinas",
+      "Buenos Aires",
+      "Salta"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "039df2180149",
@@ -2715,8 +2715,8 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia está Tren a las Nubes (San Antonio de los Cobres)?",
     "choices": [
       "San Juan",
-      "Neuquén",
-      "Buenos Aires",
+      "Entre Ríos",
+      "La Pampa",
       "Salta"
     ],
     "correctIndex": 3
@@ -2727,12 +2727,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Cafayate y Quebrada de las Conchas?",
     "choices": [
-      "Buenos Aires",
-      "Tierra del Fuego",
-      "Chaco",
-      "Salta"
+      "La Pampa",
+      "San Luis",
+      "Salta",
+      "Chaco"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
     "id": "4ff9cd7bf51e",
@@ -2740,12 +2740,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Cachi y Parque Nacional Los Cardones?",
     "choices": [
-      "La Rioja",
       "Salta",
-      "Neuquén",
-      "Jujuy"
+      "Entre Ríos",
+      "Formosa",
+      "Chaco"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
     "id": "24bd00ee7fd5",
@@ -2753,12 +2753,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Güemes y la guerra de independencia\"?",
     "choices": [
-      "San Juan",
+      "Misiones",
       "Neuquén",
-      "Chubut",
-      "Salta"
+      "Salta",
+      "Formosa"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
     "id": "a31fbb23f9a9",
@@ -2766,12 +2766,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Un mosaico de paisajes\"?",
     "choices": [
-      "Río Negro",
-      "Salta",
-      "La Pampa",
-      "San Juan"
+      "Catamarca",
+      "Mendoza",
+      "San Luis",
+      "Salta"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
   },
   {
     "id": "dc94acf82e9a",
@@ -2779,9 +2779,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Guanaco?",
     "choices": [
-      "Mendoza",
-      "Salta",
-      "La Pampa",
+      "Santa Cruz",
+      "Buenos Aires",
+      "Entre Ríos",
       "San Juan"
     ],
     "correctIndex": 3,
@@ -2793,10 +2793,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Mara patagónica?",
     "choices": [
-      "Catamarca",
+      "Islas Malvinas",
       "La Pampa",
       "San Juan",
-      "Tucumán"
+      "Santa Fe"
     ],
     "correctIndex": 2,
     "explanation": "El Mara patagónica es parte de la fauna de San Juan."
@@ -2807,12 +2807,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Retamo?",
     "choices": [
-      "Buenos Aires",
-      "Corrientes",
+      "Neuquén",
       "San Juan",
-      "La Pampa"
+      "Corrientes",
+      "Jujuy"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "El Retamo es flora representativa de San Juan."
   },
   {
@@ -2821,12 +2821,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Jarilla sanjuanina?",
     "choices": [
-      "Santa Fe",
-      "San Juan",
       "Misiones",
-      "Chubut"
+      "Mendoza",
+      "Tucumán",
+      "San Juan"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "El Jarilla sanjuanina es flora representativa de San Juan."
   },
   {
@@ -2835,10 +2835,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Algarrobo negro?",
     "choices": [
+      "Corrientes",
       "Islas Malvinas",
-      "Entre Ríos",
       "San Juan",
-      "La Pampa"
+      "Neuquén"
     ],
     "correctIndex": 2,
     "explanation": "El Algarrobo negro es flora representativa de San Juan."
@@ -2849,12 +2849,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Punta de espalda\"?",
     "choices": [
-      "Santa Fe",
-      "Santiago del Estero",
-      "Catamarca",
-      "San Juan"
+      "Río Negro",
+      "San Juan",
+      "Formosa",
+      "Santa Cruz"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "0797e3f6aea8",
@@ -2862,12 +2862,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Tomaticán\"?",
     "choices": [
-      "San Juan",
-      "Jujuy",
       "Chubut",
-      "Santa Fe"
+      "Tucumán",
+      "San Juan",
+      "Santiago del Estero"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
     "id": "3dffb66bf742",
@@ -2875,8 +2875,8 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Sopaipillas\"?",
     "choices": [
-      "Santiago del Estero",
-      "Mendoza",
+      "Tucumán",
+      "Entre Ríos",
       "Salta",
       "San Juan"
     ],
@@ -2888,12 +2888,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque Provincial Ischigualasto (Valle de la Luna)?",
     "choices": [
-      "Mendoza",
-      "Corrientes",
+      "Chubut",
       "Santa Fe",
-      "San Juan"
+      "San Juan",
+      "La Rioja"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
     "id": "4e852e48297b",
@@ -2901,12 +2901,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Dique Cuesta del Viento (Rodeo)?",
     "choices": [
+      "San Juan",
+      "Mendoza",
       "Santiago del Estero",
-      "Chubut",
-      "Santa Fe",
-      "San Juan"
+      "Ciudad Autónoma de Buenos Aires"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "6a81972deea9",
@@ -2914,12 +2914,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque Nacional El Leoncito (Barreal)?",
     "choices": [
-      "Santa Fe",
       "San Juan",
-      "Entre Ríos",
-      "Salta"
+      "Santa Fe",
+      "Catamarca",
+      "Chaco"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
     "id": "e8211bd4d7e4",
@@ -2927,12 +2927,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Sarmiento y la educación\"?",
     "choices": [
-      "Entre Ríos",
+      "Chaco",
+      "Santa Cruz",
       "San Juan",
-      "La Pampa",
-      "Río Negro"
+      "Islas Malvinas"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
   },
   {
     "id": "fe7894500c72",
@@ -2940,12 +2940,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Ischigualasto y fósiles únicos\"?",
     "choices": [
+      "Santa Fe",
+      "San Juan",
       "Tucumán",
-      "Mendoza",
-      "Catamarca",
-      "San Juan"
+      "Catamarca"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "9aa34e3fe845",
@@ -2954,9 +2954,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia vive el Peludo argentino?",
     "choices": [
       "San Luis",
-      "La Pampa",
-      "Santiago del Estero",
-      "Buenos Aires"
+      "Río Negro",
+      "Buenos Aires",
+      "Catamarca"
     ],
     "correctIndex": 0,
     "explanation": "El Peludo argentino es parte de la fauna de San Luis."
@@ -2967,12 +2967,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Zorro gris?",
     "choices": [
-      "Entre Ríos",
-      "Misiones",
-      "La Pampa",
-      "San Luis"
+      "Chaco",
+      "San Luis",
+      "Santa Cruz",
+      "Mendoza"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "El Zorro gris es parte de la fauna de San Luis."
   },
   {
@@ -2981,12 +2981,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Algarrobo dulce?",
     "choices": [
-      "San Luis",
-      "Chaco",
-      "Formosa",
-      "Chubut"
+      "Santa Fe",
+      "Tierra del Fuego",
+      "Catamarca",
+      "San Luis"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "El Algarrobo dulce es flora representativa de San Luis."
   },
   {
@@ -2995,12 +2995,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Espinillo puntano?",
     "choices": [
-      "Jujuy",
-      "San Luis",
-      "Córdoba",
-      "Santa Fe"
+      "Chaco",
+      "La Pampa",
+      "Ciudad Autónoma de Buenos Aires",
+      "San Luis"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "El Espinillo puntano es flora representativa de San Luis."
   },
   {
@@ -3009,12 +3009,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Quebracho blanco serrano?",
     "choices": [
+      "Córdoba",
+      "La Pampa",
       "San Luis",
-      "Chaco",
-      "Buenos Aires",
-      "Tucumán"
+      "Neuquén"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "El Quebracho blanco serrano es flora representativa de San Luis."
   },
   {
@@ -3023,12 +3023,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Chivito puntano\"?",
     "choices": [
-      "Misiones",
+      "San Luis",
       "Entre Ríos",
-      "Formosa",
-      "San Luis"
+      "Ciudad Autónoma de Buenos Aires",
+      "Río Negro"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "5c5662f457b7",
@@ -3036,12 +3036,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Empanadas puntanas\"?",
     "choices": [
-      "Buenos Aires",
-      "Córdoba",
       "San Luis",
-      "Ciudad Autónoma de Buenos Aires"
+      "Tierra del Fuego",
+      "Chaco",
+      "Islas Malvinas"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
     "id": "c7ddf36e254b",
@@ -3049,12 +3049,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Carbonada\"?",
     "choices": [
-      "Santa Fe",
+      "Chaco",
+      "Santiago del Estero",
       "San Luis",
-      "San Juan",
-      "La Pampa"
+      "Buenos Aires"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
   },
   {
     "id": "3f9802d24772",
@@ -3062,12 +3062,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque Nacional Sierra de las Quijadas?",
     "choices": [
-      "Mendoza",
-      "Buenos Aires",
+      "Salta",
       "San Luis",
-      "Santa Cruz"
+      "La Rioja",
+      "Buenos Aires"
     ],
-    "correctIndex": 2
+    "correctIndex": 1
   },
   {
     "id": "b0fb13ee8b2d",
@@ -3075,12 +3075,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Potrero de los Funes?",
     "choices": [
-      "Santa Fe",
+      "Mendoza",
+      "Chubut",
       "San Luis",
-      "Tierra del Fuego",
-      "Santa Cruz"
+      "Formosa"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
   },
   {
     "id": "832fa87de678",
@@ -3089,9 +3089,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia está Merlo y Reserva Florofaunística de Rincón del Este?",
     "choices": [
       "San Luis",
+      "Catamarca",
       "Chaco",
-      "Santa Cruz",
-      "Jujuy"
+      "Tierra del Fuego"
     ],
     "correctIndex": 0
   },
@@ -3101,12 +3101,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Posta de caminos interiores\"?",
     "choices": [
-      "Chaco",
-      "Neuquén",
-      "Formosa",
-      "San Luis"
+      "Islas Malvinas",
+      "San Luis",
+      "Jujuy",
+      "San Juan"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "bb0d4a4ce166",
@@ -3114,12 +3114,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Paisaje de sierras y salinas\"?",
     "choices": [
-      "Santa Cruz",
-      "Santa Fe",
-      "Neuquén",
-      "San Luis"
+      "Entre Ríos",
+      "Ciudad Autónoma de Buenos Aires",
+      "San Luis",
+      "Misiones"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
     "id": "f8806010fa1d",
@@ -3127,9 +3127,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Pudú?",
     "choices": [
-      "Corrientes",
-      "Entre Ríos",
-      "Formosa",
+      "Río Negro",
+      "Tierra del Fuego",
+      "Santa Fe",
       "Santa Cruz"
     ],
     "correctIndex": 3,
@@ -3142,9 +3142,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia vive el Guanaco?",
     "choices": [
       "Santa Cruz",
-      "Misiones",
-      "Catamarca",
-      "La Pampa"
+      "Formosa",
+      "Mendoza",
+      "Río Negro"
     ],
     "correctIndex": 0,
     "explanation": "El Guanaco es parte de la fauna de Santa Cruz."
@@ -3156,9 +3156,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia crece el Mata negra?",
     "choices": [
       "Santa Cruz",
-      "Tucumán",
-      "Córdoba",
-      "Formosa"
+      "La Pampa",
+      "Chaco",
+      "Ciudad Autónoma de Buenos Aires"
     ],
     "correctIndex": 0,
     "explanation": "El Mata negra es flora representativa de Santa Cruz."
@@ -3169,12 +3169,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Coirón fueguino?",
     "choices": [
-      "Tucumán",
-      "Río Negro",
-      "Buenos Aires",
-      "Santa Cruz"
+      "Santa Cruz",
+      "La Pampa",
+      "Tierra del Fuego",
+      "Santiago del Estero"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "El Coirón fueguino es flora representativa de Santa Cruz."
   },
   {
@@ -3183,12 +3183,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Neneo austral?",
     "choices": [
-      "Tierra del Fuego",
-      "Chubut",
+      "Corrientes",
       "Santa Cruz",
-      "Formosa"
+      "La Pampa",
+      "Jujuy"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "El Neneo austral es flora representativa de Santa Cruz."
   },
   {
@@ -3197,10 +3197,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Cazuela de mariscos\"?",
     "choices": [
-      "Catamarca",
+      "Chubut",
       "Santa Cruz",
-      "Jujuy",
-      "San Luis"
+      "La Rioja",
+      "Jujuy"
     ],
     "correctIndex": 1
   },
@@ -3210,12 +3210,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Cordero santacruceño\"?",
     "choices": [
-      "Chaco",
-      "Tierra del Fuego",
-      "Santa Cruz",
-      "Entre Ríos"
+      "Entre Ríos",
+      "Neuquén",
+      "Tucumán",
+      "Santa Cruz"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "1dce7d1841d2",
@@ -3223,12 +3223,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Glaciar Perito Moreno (Parque Nacional Los Glaciares)?",
     "choices": [
-      "Chaco",
-      "Islas Malvinas",
       "Santa Cruz",
-      "Tierra del Fuego"
+      "Córdoba",
+      "Salta",
+      "Formosa"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
     "id": "c7ede4d995f0",
@@ -3236,12 +3236,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está El Chaltén y senderos del Fitz Roy?",
     "choices": [
-      "Ciudad Autónoma de Buenos Aires",
-      "Misiones",
-      "Santa Cruz",
-      "Córdoba"
+      "Salta",
+      "Catamarca",
+      "La Rioja",
+      "Santa Cruz"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "c93ee3af2121",
@@ -3249,10 +3249,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Cueva de las Manos (río Pinturas)?",
     "choices": [
-      "Formosa",
-      "Santa Cruz",
       "Tierra del Fuego",
-      "Buenos Aires"
+      "Santa Cruz",
+      "San Juan",
+      "Ciudad Autónoma de Buenos Aires"
     ],
     "correctIndex": 1
   },
@@ -3262,12 +3262,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Hielos continentales\"?",
     "choices": [
-      "San Luis",
-      "Buenos Aires",
-      "Santa Cruz",
-      "Formosa"
+      "La Pampa",
+      "Santa Fe",
+      "Chubut",
+      "Santa Cruz"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "9f1981786c4d",
@@ -3275,12 +3275,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Cueva de las Manos\"?",
     "choices": [
-      "Chubut",
-      "Formosa",
-      "Jujuy",
-      "Santa Cruz"
+      "Santa Cruz",
+      "La Rioja",
+      "Corrientes",
+      "La Pampa"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "876d825cc5e0",
@@ -3288,12 +3288,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Yacaré?",
     "choices": [
-      "Ciudad Autónoma de Buenos Aires",
       "Santa Fe",
-      "Río Negro",
-      "Corrientes"
+      "Catamarca",
+      "San Juan",
+      "Buenos Aires"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "El Yacaré es parte de la fauna de Santa Fe."
   },
   {
@@ -3302,10 +3302,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Carpincho?",
     "choices": [
-      "Catamarca",
+      "Islas Malvinas",
       "Santa Fe",
-      "La Pampa",
-      "Misiones"
+      "Tucumán",
+      "Buenos Aires"
     ],
     "correctIndex": 1,
     "explanation": "El Carpincho es parte de la fauna de Santa Fe."
@@ -3316,12 +3316,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Ceibo?",
     "choices": [
-      "Entre Ríos",
-      "Santa Cruz",
+      "Córdoba",
       "Santa Fe",
-      "Neuquén"
+      "San Luis",
+      "Formosa"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "El Ceibo es flora representativa de Santa Fe."
   },
   {
@@ -3331,9 +3331,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia crece el Sarandí blanco?",
     "choices": [
       "Santa Fe",
-      "Chaco",
-      "San Juan",
-      "Neuquén"
+      "Tucumán",
+      "La Pampa",
+      "Córdoba"
     ],
     "correctIndex": 0,
     "explanation": "El Sarandí blanco es flora representativa de Santa Fe."
@@ -3344,12 +3344,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Timbó litoraleño?",
     "choices": [
-      "Santa Fe",
-      "Córdoba",
-      "Chubut",
-      "Chaco"
+      "Ciudad Autónoma de Buenos Aires",
+      "Entre Ríos",
+      "Misiones",
+      "Santa Fe"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "El Timbó litoraleño es flora representativa de Santa Fe."
   },
   {
@@ -3359,9 +3359,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia es típico el plato \"Dorado a la parrilla\"?",
     "choices": [
       "Santa Fe",
-      "La Rioja",
-      "Islas Malvinas",
-      "Tucumán"
+      "Corrientes",
+      "Buenos Aires",
+      "La Pampa"
     ],
     "correctIndex": 0
   },
@@ -3371,12 +3371,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Surubí al horno\"?",
     "choices": [
-      "Córdoba",
-      "Entre Ríos",
-      "Neuquén",
-      "Santa Fe"
+      "Santa Fe",
+      "Chaco",
+      "Tierra del Fuego",
+      "La Pampa"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "f6f193152e12",
@@ -3385,9 +3385,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia es típico el plato \"Empanada santafesina\"?",
     "choices": [
       "Santa Fe",
-      "La Pampa",
-      "Neuquén",
-      "Buenos Aires"
+      "San Juan",
+      "Chaco",
+      "Mendoza"
     ],
     "correctIndex": 0
   },
@@ -3397,10 +3397,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Monumento Nacional a la Bandera (Rosario)?",
     "choices": [
-      "La Rioja",
+      "Río Negro",
       "Santa Fe",
-      "San Luis",
-      "Río Negro"
+      "Tucumán",
+      "La Rioja"
     ],
     "correctIndex": 1
   },
@@ -3410,12 +3410,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque de la Independencia (Rosario)?",
     "choices": [
-      "Chubut",
-      "Buenos Aires",
       "Santa Fe",
-      "Salta"
+      "Tucumán",
+      "San Luis",
+      "Formosa"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
     "id": "3f49e59768ac",
@@ -3423,12 +3423,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Puente Colgante y Costanera de Santa Fe capital?",
     "choices": [
-      "Tucumán",
-      "Chubut",
+      "Neuquén",
       "Santa Fe",
-      "Misiones"
+      "La Rioja",
+      "Chubut"
     ],
-    "correctIndex": 2
+    "correctIndex": 1
   },
   {
     "id": "013900461cb6",
@@ -3436,10 +3436,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Cuna de la Bandera\"?",
     "choices": [
-      "Salta",
-      "La Pampa",
+      "Ciudad Autónoma de Buenos Aires",
+      "Tucumán",
       "Santa Fe",
-      "Misiones"
+      "Corrientes"
     ],
     "correctIndex": 2
   },
@@ -3449,10 +3449,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Puerto, ríos e inmigración\"?",
     "choices": [
-      "Jujuy",
+      "Ciudad Autónoma de Buenos Aires",
       "Santa Fe",
-      "Formosa",
-      "San Luis"
+      "Río Negro",
+      "Corrientes"
     ],
     "correctIndex": 1
   },
@@ -3462,12 +3462,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Pecarí de collar?",
     "choices": [
-      "Santa Fe",
-      "Formosa",
-      "Buenos Aires",
-      "Santiago del Estero"
+      "Santiago del Estero",
+      "Salta",
+      "Tucumán",
+      "Río Negro"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "El Pecarí de collar es parte de la fauna de Santiago del Estero."
   },
   {
@@ -3476,12 +3476,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Tatú mulita?",
     "choices": [
-      "Salta",
-      "San Luis",
-      "Santiago del Estero",
-      "La Rioja"
+      "Ciudad Autónoma de Buenos Aires",
+      "Corrientes",
+      "Tucumán",
+      "Santiago del Estero"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "El Tatú mulita es parte de la fauna de Santiago del Estero."
   },
   {
@@ -3490,12 +3490,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Itín?",
     "choices": [
+      "La Pampa",
       "Santiago del Estero",
-      "Neuquén",
-      "Tucumán",
-      "Santa Fe"
+      "Buenos Aires",
+      "Jujuy"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "El Itín es flora representativa de Santiago del Estero."
   },
   {
@@ -3504,12 +3504,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Vinal?",
     "choices": [
-      "San Juan",
-      "Santiago del Estero",
-      "Jujuy",
-      "Salta"
+      "Islas Malvinas",
+      "Entre Ríos",
+      "Santa Cruz",
+      "Santiago del Estero"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "El Vinal es flora representativa de Santiago del Estero."
   },
   {
@@ -3518,12 +3518,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Quebracho colorado santiagueño?",
     "choices": [
-      "Entre Ríos",
-      "Ciudad Autónoma de Buenos Aires",
       "Santiago del Estero",
-      "San Juan"
+      "Buenos Aires",
+      "Río Negro",
+      "Santa Fe"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "El Quebracho colorado santiagueño es flora representativa de Santiago del Estero."
   },
   {
@@ -3532,12 +3532,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Locro santiagueño\"?",
     "choices": [
-      "La Pampa",
-      "Tierra del Fuego",
-      "Catamarca",
-      "Santiago del Estero"
+      "Santa Fe",
+      "Ciudad Autónoma de Buenos Aires",
+      "Santiago del Estero",
+      "Salta"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
     "id": "fa509ac3acaf",
@@ -3545,12 +3545,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Empanadas santiagueñas\"?",
     "choices": [
-      "Islas Malvinas",
-      "Chaco",
-      "Santiago del Estero",
-      "Río Negro"
+      "Ciudad Autónoma de Buenos Aires",
+      "Santa Cruz",
+      "Santa Fe",
+      "Santiago del Estero"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "796d1305e2e8",
@@ -3558,12 +3558,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Rosquete santiagueño\"?",
     "choices": [
-      "Entre Ríos",
-      "Tierra del Fuego",
-      "Santiago del Estero",
-      "La Rioja"
+      "Santa Cruz",
+      "La Rioja",
+      "Neuquén",
+      "Santiago del Estero"
     ],
-    "correctIndex": 2
+    "correctIndex": 3
   },
   {
     "id": "3ecd1e0d247d",
@@ -3572,11 +3572,11 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia está Termas de Río Hondo?",
     "choices": [
       "La Rioja",
-      "Santiago del Estero",
+      "Mendoza",
       "San Luis",
-      "Corrientes"
+      "Santiago del Estero"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
   },
   {
     "id": "2cda0ef72f8f",
@@ -3584,10 +3584,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Dique Frontal de Río Hondo?",
     "choices": [
-      "San Juan",
-      "Buenos Aires",
+      "La Pampa",
+      "Río Negro",
       "Santiago del Estero",
-      "La Pampa"
+      "Islas Malvinas"
     ],
     "correctIndex": 2
   },
@@ -3597,12 +3597,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Parque Nacional Copo?",
     "choices": [
-      "Buenos Aires",
       "Santiago del Estero",
-      "La Rioja",
-      "San Juan"
+      "Buenos Aires",
+      "La Pampa",
+      "Salta"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
     "id": "7d3f3d0da86f",
@@ -3610,12 +3610,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Madre de ciudades\"?",
     "choices": [
-      "Tierra del Fuego",
-      "La Rioja",
-      "San Luis",
-      "Santiago del Estero"
+      "Islas Malvinas",
+      "Santiago del Estero",
+      "Misiones",
+      "San Luis"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "4e99fbe84165",
@@ -3623,12 +3623,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Quichua santiagueño\"?",
     "choices": [
-      "Entre Ríos",
-      "Formosa",
+      "Mendoza",
       "Santiago del Estero",
-      "Córdoba"
+      "Misiones",
+      "San Juan"
     ],
-    "correctIndex": 2
+    "correctIndex": 1
   },
   {
     "id": "70a2c96827d5",
@@ -3636,12 +3636,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Pingüino fueguino?",
     "choices": [
-      "Chaco",
-      "Tierra del Fuego",
-      "Ciudad Autónoma de Buenos Aires",
-      "Santiago del Estero"
+      "San Luis",
+      "Jujuy",
+      "Río Negro",
+      "Tierra del Fuego"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "El Pingüino fueguino es parte de la fauna de Tierra del Fuego."
   },
   {
@@ -3650,10 +3650,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Cauquén?",
     "choices": [
-      "Entre Ríos",
-      "San Luis",
+      "Santa Fe",
+      "Corrientes",
       "Tierra del Fuego",
-      "Neuquén"
+      "Buenos Aires"
     ],
     "correctIndex": 2,
     "explanation": "El Cauquén es parte de la fauna de Tierra del Fuego."
@@ -3664,12 +3664,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Lenga fueguina?",
     "choices": [
-      "Jujuy",
       "Tierra del Fuego",
+      "Ciudad Autónoma de Buenos Aires",
       "Formosa",
-      "Chubut"
+      "Santa Fe"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "El Lenga fueguina es flora representativa de Tierra del Fuego."
   },
   {
@@ -3678,12 +3678,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Guindo o coihue magallánico?",
     "choices": [
-      "San Luis",
-      "Río Negro",
       "Tierra del Fuego",
-      "Santiago del Estero"
+      "Chaco",
+      "Santa Cruz",
+      "San Juan"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "El Guindo o coihue magallánico es flora representativa de Tierra del Fuego."
   },
   {
@@ -3692,12 +3692,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Canelo fueguino?",
     "choices": [
-      "Mendoza",
-      "La Rioja",
-      "Chaco",
-      "Tierra del Fuego"
+      "Misiones",
+      "San Juan",
+      "Tierra del Fuego",
+      "Salta"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "El Canelo fueguino es flora representativa de Tierra del Fuego."
   },
   {
@@ -3706,12 +3706,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Merluza negra\"?",
     "choices": [
+      "San Luis",
       "Tierra del Fuego",
-      "Islas Malvinas",
-      "Córdoba",
-      "Neuquén"
+      "Santa Cruz",
+      "Chaco"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "id": "2c9c2ebac65f",
@@ -3719,12 +3719,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Cordero fueguino\"?",
     "choices": [
-      "Santa Fe",
-      "Corrientes",
+      "Río Negro",
       "Tierra del Fuego",
-      "Ciudad Autónoma de Buenos Aires"
+      "Córdoba",
+      "Chubut"
     ],
-    "correctIndex": 2
+    "correctIndex": 1
   },
   {
     "id": "0a0ec626cf95",
@@ -3733,9 +3733,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia está Parque Nacional Tierra del Fuego?",
     "choices": [
       "Tierra del Fuego",
-      "Buenos Aires",
-      "Córdoba",
-      "San Luis"
+      "Misiones",
+      "Neuquén",
+      "Catamarca"
     ],
     "correctIndex": 0
   },
@@ -3745,10 +3745,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Canal Beagle y Faro Les Eclaireurs?",
     "choices": [
+      "Salta",
       "Santa Fe",
-      "Tucumán",
       "Tierra del Fuego",
-      "Santa Cruz"
+      "La Pampa"
     ],
     "correctIndex": 2
   },
@@ -3758,12 +3758,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Tren del Fin del Mundo (Ushuaia)?",
     "choices": [
-      "Santa Fe",
-      "Formosa",
-      "San Luis",
-      "Tierra del Fuego"
+      "Tierra del Fuego",
+      "Ciudad Autónoma de Buenos Aires",
+      "Santiago del Estero",
+      "Jujuy"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "58032da8e285",
@@ -3771,12 +3771,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Fin del mundo habitado\"?",
     "choices": [
+      "Mendoza",
       "Tierra del Fuego",
-      "Santa Cruz",
-      "Misiones",
-      "Ciudad Autónoma de Buenos Aires"
+      "Tucumán",
+      "Córdoba"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "id": "88a228240a9c",
@@ -3784,12 +3784,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Historia selk'nam y yámana\"?",
     "choices": [
-      "Córdoba",
-      "Buenos Aires",
+      "Ciudad Autónoma de Buenos Aires",
       "Tierra del Fuego",
-      "Santiago del Estero"
+      "Chaco",
+      "Tucumán"
     ],
-    "correctIndex": 2
+    "correctIndex": 1
   },
   {
     "id": "d39483f03992",
@@ -3797,12 +3797,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Tucán grande?",
     "choices": [
-      "Corrientes",
       "Tucumán",
-      "San Luis",
-      "Buenos Aires"
+      "Santiago del Estero",
+      "Santa Fe",
+      "Islas Malvinas"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "El Tucán grande es parte de la fauna de Tucumán."
   },
   {
@@ -3811,12 +3811,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Tapir?",
     "choices": [
-      "Tucumán",
       "Catamarca",
-      "La Rioja",
-      "Chubut"
+      "Islas Malvinas",
+      "Tucumán",
+      "Mendoza"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "El Tapir es parte de la fauna de Tucumán."
   },
   {
@@ -3825,12 +3825,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Aliso del cerro?",
     "choices": [
-      "Tucumán",
-      "Río Negro",
-      "San Luis",
-      "Salta"
+      "Catamarca",
+      "Córdoba",
+      "Mendoza",
+      "Tucumán"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "El Aliso del cerro es flora representativa de Tucumán."
   },
   {
@@ -3839,12 +3839,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Lapacho amarillo?",
     "choices": [
-      "Mendoza",
+      "La Pampa",
+      "Río Negro",
       "Tucumán",
-      "Córdoba",
-      "Santiago del Estero"
+      "Córdoba"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "explanation": "El Lapacho amarillo es flora representativa de Tucumán."
   },
   {
@@ -3853,12 +3853,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Horco molle?",
     "choices": [
-      "San Juan",
-      "San Luis",
+      "Islas Malvinas",
       "Tucumán",
-      "Córdoba"
+      "San Luis",
+      "Catamarca"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "El Horco molle es flora representativa de Tucumán."
   },
   {
@@ -3867,12 +3867,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Sánguche de milanesa\"?",
     "choices": [
-      "Tierra del Fuego",
-      "Tucumán",
-      "Salta",
-      "Islas Malvinas"
+      "Catamarca",
+      "Ciudad Autónoma de Buenos Aires",
+      "La Pampa",
+      "Tucumán"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
   },
   {
     "id": "6a16b9190241",
@@ -3880,12 +3880,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Empanadas tucumanas\"?",
     "choices": [
-      "Tierra del Fuego",
-      "San Juan",
-      "Ciudad Autónoma de Buenos Aires",
-      "Tucumán"
+      "Misiones",
+      "Río Negro",
+      "Tucumán",
+      "Chubut"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
     "id": "2c8162f9f5d4",
@@ -3893,10 +3893,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Humita tucumana\"?",
     "choices": [
-      "Córdoba",
+      "Ciudad Autónoma de Buenos Aires",
       "Tucumán",
-      "Tierra del Fuego",
-      "Islas Malvinas"
+      "Jujuy",
+      "Corrientes"
     ],
     "correctIndex": 1
   },
@@ -3906,12 +3906,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Casa Histórica de la Independencia (San Miguel de Tucumán)?",
     "choices": [
-      "Catamarca",
       "Tucumán",
-      "Misiones",
-      "Chubut"
+      "Jujuy",
+      "Islas Malvinas",
+      "San Luis"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
     "id": "d009247aa330",
@@ -3919,10 +3919,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Tafí del Valle y Dique La Angostura?",
     "choices": [
-      "Santa Fe",
+      "Santa Cruz",
       "Tucumán",
       "Córdoba",
-      "Buenos Aires"
+      "Santa Fe"
     ],
     "correctIndex": 1
   },
@@ -3932,12 +3932,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Ruinas de Quilmes?",
     "choices": [
-      "Chubut",
-      "Buenos Aires",
       "Tucumán",
-      "La Rioja"
+      "Mendoza",
+      "Santiago del Estero",
+      "Catamarca"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
     "id": "dc12652c9fc3",
@@ -3945,12 +3945,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"La Casa de la Independencia\"?",
     "choices": [
+      "Ciudad Autónoma de Buenos Aires",
       "Tucumán",
-      "Santiago del Estero",
-      "Islas Malvinas",
-      "Chaco"
+      "Neuquén",
+      "Santa Cruz"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "id": "e2caf43f7a57",
@@ -3958,12 +3958,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Industria azucarera\"?",
     "choices": [
+      "Tierra del Fuego",
       "Jujuy",
-      "Tucumán",
-      "La Pampa",
-      "Salta"
+      "Salta",
+      "Tucumán"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
   },
   {
     "id": "86162fc38bf4",
@@ -3972,9 +3972,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia vive el Hornero?",
     "choices": [
       "Ciudad Autónoma de Buenos Aires",
-      "Misiones",
-      "Santa Cruz",
-      "Río Negro"
+      "Entre Ríos",
+      "Catamarca",
+      "Mendoza"
     ],
     "correctIndex": 0,
     "explanation": "El Hornero es parte de la fauna de Ciudad Autónoma de Buenos Aires."
@@ -3985,12 +3985,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Benteveo?",
     "choices": [
-      "Ciudad Autónoma de Buenos Aires",
-      "Córdoba",
-      "Buenos Aires",
-      "Santa Cruz"
+      "La Pampa",
+      "Salta",
+      "Catamarca",
+      "Ciudad Autónoma de Buenos Aires"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "El Benteveo es parte de la fauna de Ciudad Autónoma de Buenos Aires."
   },
   {
@@ -3999,12 +3999,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Tala ribereño?",
     "choices": [
-      "Catamarca",
-      "Ciudad Autónoma de Buenos Aires",
+      "San Luis",
+      "Chaco",
       "Chubut",
-      "San Juan"
+      "Ciudad Autónoma de Buenos Aires"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "El Tala ribereño es flora representativa de Ciudad Autónoma de Buenos Aires."
   },
   {
@@ -4013,12 +4013,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Espinillo de la ribera?",
     "choices": [
-      "Tucumán",
+      "Islas Malvinas",
       "Tierra del Fuego",
-      "La Rioja",
-      "Ciudad Autónoma de Buenos Aires"
+      "Ciudad Autónoma de Buenos Aires",
+      "Corrientes"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "El Espinillo de la ribera es flora representativa de Ciudad Autónoma de Buenos Aires."
   },
   {
@@ -4027,12 +4027,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Sauce criollo costero?",
     "choices": [
-      "San Juan",
-      "Buenos Aires",
       "Ciudad Autónoma de Buenos Aires",
-      "Santa Cruz"
+      "Córdoba",
+      "Entre Ríos",
+      "Formosa"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "El Sauce criollo costero es flora representativa de Ciudad Autónoma de Buenos Aires."
   },
   {
@@ -4041,12 +4041,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Pizza porteña\"?",
     "choices": [
-      "Entre Ríos",
-      "Río Negro",
-      "Chaco",
-      "Ciudad Autónoma de Buenos Aires"
+      "Tierra del Fuego",
+      "Ciudad Autónoma de Buenos Aires",
+      "Buenos Aires",
+      "Córdoba"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "620e703c58bc",
@@ -4054,12 +4054,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Fugazzeta rellena\"?",
     "choices": [
-      "La Pampa",
-      "Islas Malvinas",
-      "Entre Ríos",
-      "Ciudad Autónoma de Buenos Aires"
+      "Chaco",
+      "Ciudad Autónoma de Buenos Aires",
+      "Tucumán",
+      "Jujuy"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "432707ab91ef",
@@ -4067,12 +4067,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Helado artesanal\"?",
     "choices": [
-      "Formosa",
-      "Entre Ríos",
       "Ciudad Autónoma de Buenos Aires",
-      "Santa Fe"
+      "Chubut",
+      "Buenos Aires",
+      "Córdoba"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
     "id": "be49d5f6946a",
@@ -4080,12 +4080,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Caminito y barrio de La Boca?",
     "choices": [
+      "San Luis",
       "Ciudad Autónoma de Buenos Aires",
-      "Río Negro",
-      "Jujuy",
-      "Santiago del Estero"
+      "Misiones",
+      "Islas Malvinas"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "id": "647215d9eca9",
@@ -4093,12 +4093,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Plaza de Mayo y Catedral Metropolitana?",
     "choices": [
-      "Tierra del Fuego",
       "La Pampa",
-      "Salta",
-      "Ciudad Autónoma de Buenos Aires"
+      "Santiago del Estero",
+      "Ciudad Autónoma de Buenos Aires",
+      "Formosa"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
     "id": "ddca19e03f96",
@@ -4107,8 +4107,8 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia está Teatro Colón y Recoleta?",
     "choices": [
       "Ciudad Autónoma de Buenos Aires",
-      "Río Negro",
-      "Buenos Aires",
+      "Neuquén",
+      "Córdoba",
       "Tierra del Fuego"
     ],
     "correctIndex": 0
@@ -4119,12 +4119,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Plaza de Mayo y vida política\"?",
     "choices": [
-      "San Juan",
-      "Entre Ríos",
-      "Santiago del Estero",
-      "Ciudad Autónoma de Buenos Aires"
+      "Jujuy",
+      "Ciudad Autónoma de Buenos Aires",
+      "Corrientes",
+      "Santa Cruz"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": "2e17cd7985b3",
@@ -4132,12 +4132,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Puerto e inmigración masiva\"?",
     "choices": [
+      "San Juan",
+      "Santiago del Estero",
       "Ciudad Autónoma de Buenos Aires",
-      "Entre Ríos",
-      "Córdoba",
-      "Buenos Aires"
+      "Chubut"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
     "id": "b3fca45fa1be",
@@ -4145,12 +4145,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Pingüino de penacho amarillo?",
     "choices": [
-      "Santiago del Estero",
-      "Mendoza",
+      "Salta",
       "Islas Malvinas",
-      "Entre Ríos"
+      "Entre Ríos",
+      "Catamarca"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "El Pingüino de penacho amarillo es parte de la fauna de Islas Malvinas."
   },
   {
@@ -4159,12 +4159,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "fauna",
     "prompt": "¿En qué provincia vive el Albatros de ceja negra?",
     "choices": [
+      "La Pampa",
+      "Islas Malvinas",
       "Corrientes",
-      "Santa Cruz",
-      "Santa Fe",
-      "Islas Malvinas"
+      "Mendoza"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "El Albatros de ceja negra es parte de la fauna de Islas Malvinas."
   },
   {
@@ -4173,12 +4173,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Pasto tussac?",
     "choices": [
-      "Santa Fe",
-      "Islas Malvinas",
-      "La Pampa",
-      "Santa Cruz"
+      "Tierra del Fuego",
+      "Santiago del Estero",
+      "Formosa",
+      "Islas Malvinas"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "explanation": "El Pasto tussac es flora representativa de Islas Malvinas."
   },
   {
@@ -4188,9 +4188,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿En qué provincia crece el Festuca fueguina?",
     "choices": [
       "Islas Malvinas",
-      "Santa Cruz",
-      "Misiones",
-      "Río Negro"
+      "Mendoza",
+      "Jujuy",
+      "Chaco"
     ],
     "correctIndex": 0,
     "explanation": "El Festuca fueguina es flora representativa de Islas Malvinas."
@@ -4201,12 +4201,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "flora",
     "prompt": "¿En qué provincia crece el Matas almohadilladas?",
     "choices": [
+      "Catamarca",
+      "San Juan",
       "Islas Malvinas",
-      "Formosa",
-      "Neuquén",
-      "Catamarca"
+      "Neuquén"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "El Matas almohadilladas es flora representativa de Islas Malvinas."
   },
   {
@@ -4215,10 +4215,10 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Pescado frito con papas\"?",
     "choices": [
-      "Corrientes",
+      "Santiago del Estero",
       "Islas Malvinas",
-      "Córdoba",
-      "Ciudad Autónoma de Buenos Aires"
+      "San Luis",
+      "Buenos Aires"
     ],
     "correctIndex": 1
   },
@@ -4228,12 +4228,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Merluza y mariscos locales\"?",
     "choices": [
+      "Chaco",
+      "Mendoza",
       "Islas Malvinas",
-      "Santa Cruz",
-      "Río Negro",
       "Tucumán"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
     "id": "97f5de60f046",
@@ -4241,12 +4241,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "food",
     "prompt": "¿En qué provincia es típico el plato \"Cordero isleño\"?",
     "choices": [
-      "San Juan",
-      "Ciudad Autónoma de Buenos Aires",
       "Islas Malvinas",
+      "La Rioja",
+      "San Juan",
       "Chaco"
     ],
-    "correctIndex": 2
+    "correctIndex": 0
   },
   {
     "id": "5a60f240c9b8",
@@ -4254,12 +4254,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Puerto Argentino/Stanley y su frente costero?",
     "choices": [
-      "Chubut",
       "Islas Malvinas",
-      "Santiago del Estero",
-      "Chaco"
+      "Salta",
+      "Chaco",
+      "Santa Cruz"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
   },
   {
     "id": "92c61888cc25",
@@ -4267,12 +4267,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Cementerio de Darwin?",
     "choices": [
-      "Santiago del Estero",
-      "Islas Malvinas",
-      "San Juan",
-      "Tierra del Fuego"
+      "La Rioja",
+      "Corrientes",
+      "Entre Ríos",
+      "Islas Malvinas"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
   },
   {
     "id": "2ecc07a2ef24",
@@ -4280,12 +4280,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "tourism",
     "prompt": "¿En qué provincia está Voluntario Hill / Monte Longdon (sitios históricos)?",
     "choices": [
-      "Misiones",
-      "San Juan",
-      "Salta",
-      "Islas Malvinas"
+      "Islas Malvinas",
+      "La Rioja",
+      "Chaco",
+      "Córdoba"
     ],
-    "correctIndex": 3
+    "correctIndex": 0
   },
   {
     "id": "dffb4e96a867",
@@ -4293,12 +4293,12 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "category": "history",
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Atlántico Sur estratégico\"?",
     "choices": [
-      "Río Negro",
-      "Mendoza",
-      "Córdoba",
-      "Islas Malvinas"
+      "San Juan",
+      "Chubut",
+      "Islas Malvinas",
+      "Neuquén"
     ],
-    "correctIndex": 3
+    "correctIndex": 2
   },
   {
     "id": "21f4c5300701",
@@ -4307,9 +4307,9 @@ export const TRIVIA_QUESTIONS: TriviaQuestion[] = [
     "prompt": "¿A qué provincia corresponde este hecho histórico: \"Memoria de 1982\"?",
     "choices": [
       "Islas Malvinas",
-      "Río Negro",
-      "Santa Cruz",
-      "Córdoba"
+      "Formosa",
+      "San Luis",
+      "Jujuy"
     ],
     "correctIndex": 0
   }

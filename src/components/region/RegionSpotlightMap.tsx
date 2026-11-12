@@ -7,6 +7,7 @@ import {
   ITALY_REGION_SVG_PATHS,
 } from "@/data/map/italy-paths.generated";
 import { ITALY_REGION_FILLS } from "@/lib/design/italy-map-colors";
+import { useUi } from "@/lib/i18n/locale";
 import type { ItalyRegionSlug } from "@/types/region";
 
 type Props = {
@@ -16,6 +17,7 @@ type Props = {
 };
 
 export function RegionSpotlightMap({ slug, name, spotlightOverview }: Props) {
+  const ui = useUi();
   const pathRef = useRef<SVGPathElement | null>(null);
   const [viewBox, setViewBox] = useState<string>(ITALY_MAP_VIEW_BOX);
   const pathD = ITALY_REGION_SVG_PATHS[slug];
@@ -41,7 +43,7 @@ export function RegionSpotlightMap({ slug, name, spotlightOverview }: Props) {
         className="mt-3 h-[min(44vh,20rem)] w-full min-h-[12rem] rounded-2xl bg-background-warm/75 sm:h-[44vh] sm:min-h-[18rem]"
         preserveAspectRatio="xMinYMid meet"
         role="img"
-        aria-label={`Mappa di ${name}`}
+        aria-label={ui.map.mapOf(name)}
       >
         <path
           ref={pathRef}

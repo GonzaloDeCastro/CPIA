@@ -14,7 +14,8 @@ import {
   submitAnswer,
 } from "@/lib/trivia/game-state";
 import type { TriviaPrizeSet } from "@/data/trivia/reward-manifest";
-import { TRIVIA_COPY_ES, TRIVIA_COPY_IT } from "@/lib/trivia/copy";
+import { useLocale } from "@/lib/i18n/locale";
+import { TRIVIA_COPY } from "@/lib/trivia/copy";
 import type { TriviaGameState, TriviaQuestion, TriviaPlayer, TriviaRoundsPerPlayer } from "@/lib/trivia/types";
 
 import { TriviaBoard } from "./TriviaBoard";
@@ -24,7 +25,6 @@ import { TriviaWinner } from "./TriviaWinner";
 
 type Props = {
   questions: TriviaQuestion[];
-  locale?: "es" | "it";
   prizeSet?: TriviaPrizeSet;
   backHref?: string;
 };
@@ -57,8 +57,9 @@ function reducer(
   }
 }
 
-export function TriviaGame({ questions, locale = "es", prizeSet = "argentina", backHref = "/mapa/argentina" }: Props) {
-  const copy = locale === "it" ? TRIVIA_COPY_IT : TRIVIA_COPY_ES;
+export function TriviaGame({ questions, prizeSet = "argentina", backHref = "/mapa/argentina" }: Props) {
+  const { locale } = useLocale();
+  const copy = TRIVIA_COPY[locale];
   const [state, dispatch] = useReducer(
     (s: TriviaGameState, a: Action) => reducer(s, a, questions),
     INITIAL_TRIVIA_STATE,

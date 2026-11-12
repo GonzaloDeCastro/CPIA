@@ -13,7 +13,6 @@ export default function ArgentinaMapPage() {
     <MapExplorerFrame
       variant="fullPage"
       chooserHref="/mapa"
-      chooserLabel="Países"
     />
   );
 }

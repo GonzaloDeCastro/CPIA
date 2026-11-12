@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRef, type ReactNode } from "react";
 
 import { useFullscreen } from "@/hooks/use-fullscreen";
+import { useUi } from "@/lib/i18n/locale";
 
 import { InteractiveArgentinaMap } from "./InteractiveArgentinaMap";
 
@@ -17,7 +18,8 @@ type Props = {
   showTrivia?: boolean;
   triviaHref?: string;
   chooserHref?: string;
-  chooserLabel?: string;
+  /** A qué mapa vuelve el botón de arriba. */
+  chooserKind?: "world" | "italy";
   largeMapHref?: string;
   labels?: {
     largeMap?: string;
@@ -35,18 +37,19 @@ export function MapExplorerFrame({
   showTrivia = true,
   triviaHref = "/trivia",
   chooserHref,
-  chooserLabel,
+  chooserKind = "world",
   largeMapHref = "/mapa/argentina",
   labels,
 }: Props) {
   const shellRef = useRef<HTMLDivElement>(null);
   const { active, toggle, supported } = useFullscreen(shellRef);
+  const ui = useUi();
 
   const toolbar = (
     <div
       className={`flex flex-wrap items-center gap-2 ${variant === "fullPage" ? "justify-between" : ""}`}
     >
-      {chooserHref && chooserLabel ? (
+      {chooserHref ? (
         <Link
           href={chooserHref}
           className={`inline-flex min-h-12 cursor-pointer items-center justify-center rounded-full border-2 px-5 text-sm font-extrabold transition-[filter,transform,box-shadow,border-color] hover:shadow-[var(--shadow-elevated)] active:scale-[0.98] ${
@@ -55,7 +58,7 @@ export function MapExplorerFrame({
               : "border-heading/25 bg-surface-elevated text-heading hover:border-celeste/60"
           }`}
         >
-          {chooserLabel}
+          {chooserKind === "italy" ? ui.frame.italy : ui.frame.world}
         </Link>
       ) : null}
       {variant === "home" ? (
@@ -75,7 +78,7 @@ export function MapExplorerFrame({
               : "border-heading/25 bg-surface-elevated text-heading hover:border-celeste/60"
           }`}
         >
-          {labels?.trivia ?? "Trivia"}
+          {labels?.trivia ?? ui.frame.trivia}
         </Link>
       ) : null}
       {supported ? (
@@ -89,8 +92,8 @@ export function MapExplorerFrame({
           }`}
         >
           {active
-            ? (labels?.fullscreenExit ?? "Salir de pantalla completa")
-            : (labels?.fullscreenEnter ?? "Pantalla completa")}
+            ? (labels?.fullscreenExit ?? ui.frame.fullscreenExit)
+            : (labels?.fullscreenEnter ?? ui.frame.fullscreenEnter)}
         </button>
       ) : null}
       {variant === "home" && !supported ? (

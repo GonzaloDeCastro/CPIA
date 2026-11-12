@@ -174,12 +174,24 @@ export const TRIVIA_ANIMAL_PRIZES_SICILY: TriviaReward[] = [
   { speciesName: "Tonno rosso", label: "Tonno rosso", imagePath: "/images/awareness/animals-sicilia/tonno-rosso.png" },
 ];
 
-export type TriviaPrizeSet = "argentina" | "italia" | "sicilia";
+/** Fichas de fauna de Campania: las especies de sus provincias que ya tienen ilustración (animals-italia). */
+export const TRIVIA_ANIMAL_PRIZES_CAMPANIA: TriviaReward[] = [
+  { speciesName: "Lupo appenninico", label: "Lupo appenninico", imagePath: "/images/awareness/animals-italia/lupo-appenninico.png" },
+  { speciesName: "Cinghiale", label: "Cinghiale", imagePath: "/images/awareness/animals-italia/cinghiale.png" },
+  { speciesName: "Aquila reale", label: "Aquila reale", imagePath: "/images/awareness/animals-italia/aquila-reale.png" },
+  { speciesName: "Airone cenerino", label: "Airone cenerino", imagePath: "/images/awareness/animals-italia/airone-cenerino.png" },
+  { speciesName: "Falco pellegrino", label: "Falco pellegrino", imagePath: "/images/awareness/animals-italia/falco-pellegrino.png" },
+  { speciesName: "Gabbiano reale", label: "Gabbiano reale", imagePath: "/images/awareness/animals-italia/gabbiano-reale.png" },
+  { speciesName: "Tartaruga marina", label: "Tartaruga marina", imagePath: "/images/awareness/animals-italia/tartaruga-marina.png" },
+];
+
+export type TriviaPrizeSet = "argentina" | "italia" | "sicilia" | "campania";
 
 const PRIZES_BY_SET: Record<TriviaPrizeSet, TriviaReward[]> = {
   argentina: TRIVIA_ANIMAL_PRIZES,
   italia: TRIVIA_ANIMAL_PRIZES_ITALY,
   sicilia: TRIVIA_ANIMAL_PRIZES_SICILY,
+  campania: TRIVIA_ANIMAL_PRIZES_CAMPANIA,
 };
 
 export function pickRandomTriviaPrize(set: TriviaPrizeSet = "argentina"): TriviaReward {

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { SiteHeader } from "@/components/layout/SiteHeader";
+import { UiLink } from "@/components/layout/UiLink";
 import { ProvinceSections } from "@/components/province/ProvinceSections";
 import { RegionSpotlightMap } from "@/components/region/RegionSpotlightMap";
 import { getItalyRegionContent } from "@/data/italy/content";
@@ -54,12 +54,11 @@ export default async function ItalyRegionPage({ params }: Props) {
         <nav className="mb-8 w-full" aria-label="Percorso">
           <ol className="flex w-full flex-wrap items-center justify-start gap-2 text-left text-sm font-bold sm:text-base">
             <li>
-              <Link
+              <UiLink
                 href="/mapa/italia"
                 className="rounded-full bg-water/15 px-3 py-1.5 text-water underline-offset-4 transition hover:bg-water/25 hover:underline"
-              >
-                Mappa
-              </Link>
+                text="map"
+              />
             </li>
             <li aria-hidden="true" className="text-foreground-muted">
               /
@@ -69,17 +68,24 @@ export default async function ItalyRegionPage({ params }: Props) {
         </nav>
         {region.slug === "sicilia" ? (
           <p className="mb-6">
-            <Link
+            <UiLink
               href="/mapa/sicilia"
               className="inline-flex min-h-12 items-center rounded-full bg-water px-5 text-sm font-extrabold text-white shadow-[var(--shadow-card)] transition-[filter,transform] hover:brightness-110 active:scale-[0.98]"
-            >
-              Esplora le nove province
-            </Link>
+              text="exploreProvinces"
+            />
+          </p>
+        ) : null}
+        {region.slug === "campania" ? (
+          <p className="mb-6">
+            <UiLink
+              href="/mapa/campania"
+              className="inline-flex min-h-12 items-center rounded-full bg-water px-5 text-sm font-extrabold text-white shadow-[var(--shadow-card)] transition-[filter,transform] hover:brightness-110 active:scale-[0.98]"
+              text="exploreProvincesCampania"
+            />
           </p>
         ) : null}
         <div className="flex min-w-0 flex-col-reverse gap-6 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(18rem,40%)] lg:items-start">
           <ProvinceSections
-            locale="it"
             localContent={{
               slug: region.slug,
               plants: content.plants,

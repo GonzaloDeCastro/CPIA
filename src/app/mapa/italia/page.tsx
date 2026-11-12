@@ -17,12 +17,6 @@ export default function ItalyMapPage() {
       map={<InteractiveItalyMap className="min-h-0 sm:flex-1 sm:min-h-0" />}
       triviaHref="/trivia/italia"
       chooserHref="/mapa"
-      chooserLabel="Paesi"
-      labels={{
-        trivia: "Quiz",
-        fullscreenEnter: "Schermo intero",
-        fullscreenExit: "Esci da schermo intero",
-      }}
     />
   );
 }

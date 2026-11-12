@@ -18,7 +18,6 @@ export default function TriviaSicilyPage() {
       <main className="min-h-dvh bg-background">
         <TriviaGame
           questions={TRIVIA_QUESTIONS_SICILY}
-          locale="it"
           prizeSet="sicilia"
           backHref="/mapa/sicilia"
         />

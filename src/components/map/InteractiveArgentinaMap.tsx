@@ -14,6 +14,7 @@ import {
   MALVINAS_MAP_FILL,
   MAINLAND_PROVINCE_FILLS,
 } from "@/lib/design/province-map-colors";
+import { useUi } from "@/lib/i18n/locale";
 import { provincePath } from "@/lib/routing/paths";
 import type { ProvinceSlug } from "@/types/province";
 
@@ -39,9 +40,11 @@ type Props = {
 
 export function InteractiveArgentinaMap({
   className,
-  "aria-label": ariaLabel = "Mapa interactivo de Argentina por provincias",
+  "aria-label": ariaLabelProp,
 }: Props) {
   const router = useRouter();
+  const ui = useUi();
+  const ariaLabel = ariaLabelProp ?? ui.map.ariaArgentina;
   const titleId = useId();
   const malvinasTitleId = useId();
   const labelId = useId();
@@ -181,10 +184,10 @@ export function InteractiveArgentinaMap({
               ) : (
                 <>
                   <span className="hidden [@media(pointer:fine)]:inline">
-                    Pasá por una provincia
+                    {ui.map.hoverProvince}
                   </span>
                   <span className="[@media(pointer:fine)]:hidden">
-                    Tocá una provincia
+                    {ui.map.tapProvince}
                   </span>
                 </>
               )}
@@ -194,7 +197,7 @@ export function InteractiveArgentinaMap({
           {malvinasProvince ? (
             <div className="pointer-events-auto absolute bottom-[11%] right-[36%] z-10 w-[min(12vw,4.25rem)] max-w-[4.75rem] min-w-[3rem] sm:bottom-[13%] sm:right-[38%] sm:w-[min(9.5%,4.75rem)] sm:max-w-[5rem]">
               <p className="mb-px text-center text-[0.5rem] font-bold leading-tight text-heading sm:text-[0.55rem]">
-                Islas Malvinas
+                {ui.map.malvinas}
               </p>
               <svg
                 role="img"
@@ -289,7 +292,7 @@ export function InteractiveArgentinaMap({
             </>
           ) : (
             <p className="max-w-sm text-center font-display text-xl font-bold text-foreground-muted sm:text-3xl">
-              Seleccioná una provincia y la vas a ver mucho más grande acá.
+              {ui.map.chooseProvince}
             </p>
           )}
         </div>

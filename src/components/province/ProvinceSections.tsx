@@ -1,4 +1,8 @@
+"use client";
+
 import type { ProvinceContentItem } from "@/types/province";
+
+import { useUi } from "@/lib/i18n/locale";
 
 import { ProvinceExploreTabs } from "./ProvinceExploreTabs";
 
@@ -13,20 +17,19 @@ type ExploreContent = {
 
 export function ProvinceSections({
   localContent,
-  locale = "es",
 }: {
   localContent: ExploreContent;
-  locale?: "es" | "it";
 }) {
+  const ui = useUi();
   const p = (s: string) => `${localContent.slug}-${s}`;
 
   return (
     <article className="min-w-0 text-left">
       <section aria-labelledby={p("explore-heading")}>
         <span id={p("explore-heading")} className="sr-only">
-          {locale === "it" ? "Esplora i contenuti" : "Explorar contenido"}
+          {ui.page.explore}
         </span>
-        <ProvinceExploreTabs localContent={localContent} locale={locale} />
+        <ProvinceExploreTabs localContent={localContent} />
       </section>
     </article>
   );

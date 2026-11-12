@@ -11,3 +11,7 @@ export function italyRegionPath(slug: string): string {
 export function sicilyProvincePath(slug: string): string {
   return `/mapa/sicilia/province/${slug}`;
 }
+
+export function campaniaProvincePath(slug: string): string {
+  return `/mapa/campania/province/${slug}`;
+}

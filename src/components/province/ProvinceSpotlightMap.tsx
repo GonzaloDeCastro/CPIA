@@ -12,6 +12,7 @@ import {
   MALVINAS_MAP_FILL,
   MAINLAND_PROVINCE_FILLS,
 } from "@/lib/design/province-map-colors";
+import { useUi } from "@/lib/i18n/locale";
 import type { ProvinceSlug } from "@/types/province";
 
 type MainlandProvinceSlug = Exclude<ProvinceSlug, "islas-malvinas">;
@@ -24,6 +25,7 @@ type Props = {
 };
 
 export function ProvinceSpotlightMap({ slug, name, spotlightOverview }: Props) {
+  const ui = useUi();
   const pathRef = useRef<SVGPathElement | null>(null);
   const [viewBox, setViewBox] = useState<string>(
     slug === MALVINAS_SLUG ? MALVINAS_MAP_VIEW_BOX : MAP_VIEW_BOX,
@@ -58,7 +60,7 @@ export function ProvinceSpotlightMap({ slug, name, spotlightOverview }: Props) {
         viewBox={viewBox}
         className="mt-3 h-[min(44vh,20rem)] w-full min-h-[12rem] rounded-2xl bg-background-warm/75 sm:h-[44vh] sm:min-h-[18rem]"
         preserveAspectRatio="xMinYMid meet"
-        aria-label={`Mapa de ${name}`}
+        aria-label={ui.map.mapOf(name)}
         role="img"
       >
         {isMalvinas ? (

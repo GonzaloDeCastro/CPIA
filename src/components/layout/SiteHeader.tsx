@@ -3,13 +3,15 @@
 import Link from "next/link";
 import { useState } from "react";
 
-const NAV_LINKS = [
-  { href: "/mapa", label: "Mapa" },
-  { href: "/trivia", label: "Trivia" },
-] as const;
+import { useUi } from "@/lib/i18n/locale";
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
+  const ui = useUi();
+  const NAV_LINKS = [
+    { href: "/mapa", label: ui.nav.map },
+    { href: "/trivia", label: ui.nav.trivia },
+  ];
 
   return (
     <header className="sticky top-0 z-[100] border-b border-white/15 bg-sky-deep text-white shadow-[var(--shadow-card)]">
@@ -22,14 +24,14 @@ export function SiteHeader() {
         </Link>
         <nav
           className="hidden items-center gap-1 sm:flex"
-          aria-label="Principal"
+          aria-label={ui.nav.main}
         >
   
           <Link
             href="/mapa"
             className="ml-1 inline-flex min-h-12 items-center rounded-full bg-sun px-5 py-2.5 text-center text-sm font-extrabold text-sun-ink shadow-[var(--shadow-card)] transition-[filter] hover:brightness-110"
           >
-            Mapa
+            {ui.nav.map}
           </Link>
         </nav>
         <button
@@ -37,10 +39,10 @@ export function SiteHeader() {
           className="flex h-12 min-w-12 items-center justify-center rounded-xl bg-white/15 sm:hidden"
           aria-expanded={open}
           aria-controls="site-mobile-nav"
-          aria-label={open ? "Cerrar menú" : "Abrir menú"}
+          aria-label={open ? ui.nav.closeMenu : ui.nav.openMenu}
           onClick={() => setOpen((v) => !v)}
         >
-          <span className="sr-only">Menú</span>
+          <span className="sr-only">{ui.nav.menu}</span>
           <svg
             width="28"
             height="28"
@@ -87,7 +89,7 @@ export function SiteHeader() {
                 className="flex min-h-12 items-center justify-center rounded-2xl bg-sun px-4 text-base font-extrabold text-sun-ink"
                 onClick={() => setOpen(false)}
               >
-                Mapa
+                {ui.nav.map}
               </Link>
             </li>
           </ul>

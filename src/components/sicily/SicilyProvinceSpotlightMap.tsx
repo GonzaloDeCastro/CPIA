@@ -7,6 +7,7 @@ import {
   SICILY_PROVINCE_SVG_PATHS,
 } from "@/data/map/sicily-paths.generated";
 import { SICILY_PROVINCE_FILLS } from "@/lib/design/sicily-map-colors";
+import { useUi } from "@/lib/i18n/locale";
 import type { SicilyProvinceSlug } from "@/types/sicily";
 
 type Props = {
@@ -20,6 +21,7 @@ export function SicilyProvinceSpotlightMap({
   name,
   spotlightOverview,
 }: Props) {
+  const ui = useUi();
   const pathRef = useRef<SVGPathElement | null>(null);
   const [viewBox, setViewBox] = useState<string>(SICILY_MAP_VIEW_BOX);
   const pathD = SICILY_PROVINCE_SVG_PATHS[slug];
@@ -45,7 +47,7 @@ export function SicilyProvinceSpotlightMap({
         className="mt-3 h-[min(44vh,20rem)] w-full min-h-[12rem] rounded-2xl bg-background-warm/75 sm:h-[44vh] sm:min-h-[18rem]"
         preserveAspectRatio="xMinYMid meet"
         role="img"
-        aria-label={`Mappa di ${name}`}
+        aria-label={ui.map.mapOf(name)}
       >
         <path
           ref={pathRef}
