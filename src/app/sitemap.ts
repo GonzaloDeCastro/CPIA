@@ -3,6 +3,7 @@ import type { MetadataRoute } from "next";
 import { listItalyRegions } from "@/data/italy/regions";
 import { getAllProvinceSlugs } from "@/data/provinces";
 import { listCampaniaProvinces } from "@/data/campania/provinces";
+import { CATANIA_DETAILS } from "@/data/sicily/catania-details";
 import { listSicilyProvinces } from "@/data/sicily/provinces";
 import {
   italyRegionPath,
@@ -46,6 +47,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: now,
     changeFrequency: "monthly" as const,
     priority: 0.7,
+  }));
+
+  const cataniaDetails = CATANIA_DETAILS.map((detail) => ({
+    url: `${base}${sicilyProvincePath("catania")}/${detail.slug}/`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
   }));
 
   const campaniaProvinces = listCampaniaProvinces().map((province) => ({
@@ -114,6 +122,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...provinces,
     ...regions,
     ...sicilyProvinces,
+    ...cataniaDetails,
     ...campaniaProvinces,
   ];
 }

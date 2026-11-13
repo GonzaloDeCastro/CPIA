@@ -190,12 +190,33 @@ export const SICILY_CONTENT: Record<SicilyProvinceSlug, SicilyProvinceContent> =
       {
         "name": "Castagno",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Edelkastanie_%28Castanea_sativa%29_1.jpg/960px-Edelkastanie_%28Castanea_sativa%29_1.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "description": "Boschi di castagno coprono un anello del vulcano. In autunno i ricci si aprono e le castagne finiscono nel fuoco e nei dolci."
+        "description": "Boschi di castagno coprono un anello del vulcano. In autunno i ricci si aprono e le castagne finiscono nel fuoco e nei dolci. Sull'Etna cresce anche il Castagno dei Cento Cavalli, un albero famosissimo: scoprilo!",
+        "href": "/mapa/sicilia/province/catania/castagno-dei-cento-cavalli/"
       },
       {
         "name": "Pistacchio",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Pistacia_napoletana_1.jpg/960px-Pistacia_napoletana_1.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "description": "A Bronte il pistacchio cresce sulla lava. Il frutto verde entra nel pesto, nei dolci e persino nel salame e nel gelato."
+      },
+      {
+        "name": "Betulla dell'Etna",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Betula_aetnensis.jpg?width=960",
+        "description": "Albero che cresce solo sull'Etna e in nessun altro posto al mondo. Le sue foglie tremano al vento e le radici tengono insieme la sabbia vulcanica."
+      },
+      {
+        "name": "Fico d'India",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/FicusIndica.jpg/960px-FicusIndica.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "description": "Pianta grassa con pale piene di spine che cresce sui muri di lava. I frutti dolci, gialli o rossi, si sbucciano con cura: le spine sono minuscole e pungono."
+      },
+      {
+        "name": "Arancia rossa",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Oranges2_%28cropped%29.jpg/960px-Oranges2_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "description": "Arancia dalla polpa color rubino, coltivata nella piana di Catania vicino all'Etna. Il colore viene dagli sbalzi di temperatura tra giorno e notte."
+      },
+      {
+        "name": "Vite dell'Etna",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Etna_Wine_Agriturismo%2C_Passopisciaro%2C_Sicily%2C_Italy._Field_blend.jpg?width=960",
+        "description": "I vigneti salgono sui terrazzi di lava fino a oltre 1000 metri. Le viti affondano le radici nella terra vulcanica e danno grappoli neri e bianchi, che si raccolgono a mano a ottobre per fare il vino dell'Etna."
       }
     ],
     "animals": [
@@ -213,6 +234,21 @@ export const SICILY_CONTENT: Record<SicilyProvinceSlug, SicilyProvinceContent> =
         "name": "Riccio",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/%D0%A7%D1%83%D0%BC%D0%B0%D0%B7%D1%8B%D0%B9_%D0%81%D0%B6_%D0%B8%D0%B7_%D0%91%D0%B8%D1%82%D1%86%D1%8B.jpg/960px-%D0%A7%D1%83%D0%BC%D0%B0%D0%B7%D1%8B%D0%B9_%D0%81%D0%B6_%D0%B8%D0%B7_%D0%91%D0%B8%D1%82%D1%86%D1%8B.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "description": "Piccolo mammifero coperto di aculei, comune nei giardini e nelle campagne. Di notte cerca insetti e lumache; se ha paura diventa una palla."
+      },
+      {
+        "name": "Gatto selvatico",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Felis_silvestris_grampia.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "description": "Somiglia a un gatto di casa ma è più grosso, con la coda ad anelli. Vive nei boschi e nelle gole dell'Etna e si vede di rado perché esce di notte."
+      },
+      {
+        "name": "Aquila reale",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Maakotka_%28Aquila_chrysaetos%29_by_Jarkko_J%C3%A4rvinen.jpg/960px-Maakotka_%28Aquila_chrysaetos%29_by_Jarkko_J%C3%A4rvinen.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "description": "Grande rapace che plana sopra i crateri e le valli dell'Etna. Con le ali aperte supera i due metri e dall'alto vede ogni piccolo animale."
+      },
+      {
+        "name": "Istrice",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Hystrix_cristata_03_by_Line1.jpg/960px-Hystrix_cristata_03_by_Line1.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "description": "Il roditore più grande d'Europa, coperto di aculei bianchi e neri. Di giorno dorme nella tana, di notte cerca radici e bulbi nei boschi."
       }
     ],
     "foods": [
@@ -230,6 +266,31 @@ export const SICILY_CONTENT: Record<SicilyProvinceSlug, SicilyProvinceContent> =
         "name": "Granita",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Granita_brioche.JPG?width=960",
         "description": "Ghiaccio granuloso al limone, mandorla o caffè, mangiato a colazione con la brioche col tuppo. D'estate è il rito della città."
+      },
+      {
+        "name": "Brioche col tuppo",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Sicilian_brioche.jpg/960px-Sicilian_brioche.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "description": "Soffice panino dolce con una pallina sopra, il «tuppo», che in siciliano vuol dire crocchia di capelli. Si inzuppa nella granita."
+      },
+      {
+        "name": "Cipollina",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cipollina.jpg?width=960",
+        "description": "Fagottino di pasta sfoglia ripieno di cipolla, pomodoro, formaggio e prosciutto. È lo spuntino salato dei catanesi."
+      },
+      {
+        "name": "Minne di Sant'Agata",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Minnuzze_di_sant%27aita.jpg/960px-Minnuzze_di_sant%27aita.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "description": "Dolcetti bianchi con una ciliegia candita sopra, ripieni di crema di ricotta. Si preparano per la festa di febbraio in onore di Sant'Agata."
+      },
+      {
+        "name": "Cannolo",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg/960px-Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "description": "Cialda croccante fritta, riempita al momento con ricotta dolce di pecora. Si decora con scorza d'arancia, gocce di cioccolato o pistacchio."
+      },
+      {
+        "name": "Vino dell'Etna",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Etna_Wine%2C_Passopisciaro%2C_Sicily%2C_Italy.jpg?width=960",
+        "description": "Il vino rosso e bianco che nasce dai vigneti sulla lava dell'Etna, il più famoso è l'Etna Doc. Il rosso si fa soprattutto con l'uva Nerello Mascalese; la vendemmia si fa a ottobre."
       }
     ],
     "tourism": [
@@ -247,6 +308,37 @@ export const SICILY_CONTENT: Record<SicilyProvinceSlug, SicilyProvinceContent> =
         "name": "Caltagirone",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Panorama_del_Centro_Storico_di_Caltagirone.jpg/960px-Panorama_del_Centro_Storico_di_Caltagirone.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "description": "Città della ceramica, con una scala di 142 gradini coperti di maioliche colorate. A luglio la scala si illumina con migliaia di lumi."
+      },
+      {
+        "name": "Catania, il capoluogo",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/2026_in_Catania.jpg/960px-2026_in_Catania.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "description": "Città nera di lava e di barocco, tra il mare e l'Etna. Qui trovi la piazza del Duomo, il mercato del pesce e il teatro romano: apri la scheda della città.",
+        "href": "/mapa/sicilia/province/catania/citta/"
+      },
+      {
+        "name": "Teatro romano",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Catania_-_Teatro_Romano_04.jpg/960px-Catania_-_Teatro_Romano_04.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "description": "Teatro del II secolo d.C., costruito con la pietra lavica nera. Ancora oggi si vede la gradinata a semicerchio dove sedeva il pubblico."
+      },
+      {
+        "name": "Castello Ursino",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Catania_-_Castello_Ursino_-_2023-09-03_01-36-18_001.jpg/960px-Catania_-_Castello_Ursino_-_2023-09-03_01-36-18_001.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "description": "Fortezza quadrata dell'imperatore Federico II. Un tempo stava sul mare; la lava del 1669 la circondò e oggi il mare è lontano."
+      },
+      {
+        "name": "Via dei Crociferi",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Via_Cruciferi_view_from_Chiesa_San_Giuliano_-_Catania.jpg/960px-Via_Cruciferi_view_from_Chiesa_San_Giuliano_-_Catania.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "description": "Strada di chiese e palazzi barocchi ricostruiti dopo il terremoto. Le facciate di pietra scura sembrano un grande teatro all'aperto."
+      },
+      {
+        "name": "Riviera dei Ciclopi",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Cyclopean_Isles_060413.JPG/960px-Cyclopean_Isles_060413.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "description": "Scogli neri che escono dall'acqua davanti ad Aci Trezza. Secondo Omero furono lanciati dal ciclope Polifemo contro la nave di Ulisse."
+      },
+      {
+        "name": "Acireale",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Cattedrale_Acireale.jpg/960px-Cattedrale_Acireale.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "description": "Città barocca sul mare, famosa per il Carnevale con i carri di cartapesta e di fiori. Dalle sue terrazze si vede l'Etna."
       }
     ],
     "curiosities": [
@@ -264,6 +356,21 @@ export const SICILY_CONTENT: Record<SicilyProvinceSlug, SicilyProvinceContent> =
         "name": "Vincenzo Bellini",
         "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Vincenzo_bellini.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
         "description": "Compositore nato a Catania nel 1801. Le sue opere, come Norma, si cantano ancora in tutto il mondo; il teatro massimo della città porta il suo nome."
+      },
+      {
+        "name": "Terremoto del 1693",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Catania_-_Cattedrale_di_Sant'Agata_02.jpg?width=960",
+        "description": "Un terremoto fortissimo distrusse Catania e molte città del sud-est. Furono ricostruite in stile barocco: oggi sono Patrimonio dell'Umanità UNESCO."
+      },
+      {
+        "name": "Giovanni Verga",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Portrait_of_Giovanni_Verga.jpg/960px-Portrait_of_Giovanni_Verga.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "description": "Scrittore nato a Catania nel 1840. I suoi romanzi raccontano la vita dei pescatori di Aci Trezza, nei «Malavoglia»."
+      },
+      {
+        "name": "Università di Catania",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Catania_BW_2012-10-06_11-26-20.JPG/960px-Catania_BW_2012-10-06_11-26-20.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "description": "Fondata nel 1434, è la più antica università della Sicilia. Ancora oggi studenti da tutta l'isola riempiono il centro storico."
       }
     ]
   },

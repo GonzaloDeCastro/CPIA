@@ -16,7 +16,7 @@ export function TopicImage({ src, alt, placeholderEmoji }: Props) {
 
   return (
     <div
-      className={`relative w-full shrink-0 bg-background-warm ${
+      className={`relative w-full shrink-0 bg-background-warm p-2 ${
         status === "loaded" ? "" : "min-h-48"
       }`}
     >
@@ -47,7 +47,7 @@ export function TopicImage({ src, alt, placeholderEmoji }: Props) {
         referrerPolicy="no-referrer"
         onLoad={() => setStatus("loaded")}
         onError={() => setStatus("error")}
-        className={`mx-auto block h-auto max-h-60 w-auto max-w-full object-contain transition-opacity duration-300 sm:max-h-64 ${
+        className={`mx-auto block h-auto max-h-60 w-auto max-w-full rounded-xl object-contain transition-opacity duration-300 sm:max-h-64 ${
           status === "error" ? "hidden" : status === "loaded" ? "opacity-100" : "opacity-0"
         }`}
       />

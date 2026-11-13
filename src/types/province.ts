@@ -29,6 +29,8 @@ export type ProvinceContentItem = {
   name: string;
   image: string;
   description: string;
+  /** Ruta interna a una pantalla de detalle (opcional). */
+  href?: string;
 };
 
 export type ProvinceLocalContent = {

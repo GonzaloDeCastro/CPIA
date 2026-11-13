@@ -187,6 +187,7 @@ const resolved = SICILY_CATALOG.map((region) => {
           name: item.name,
           image,
           description: item.description,
+          ...(item.href ? { href: item.href } : {}),
         });
       }
     }

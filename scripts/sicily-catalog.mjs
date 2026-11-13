@@ -243,14 +243,14 @@ export const SICILY_CATALOG = [
     description:
       "Città nera di lava ai piedi dell'Etna, con elefante di pietra, arancini e una costa di ciclopi. Catania è la porta orientale della Sicilia.",
     flora:
-      "Ginestre e castagni sulle pendici dell'Etna, e pistacchi nei terreni scuri di Bronte.",
+      "Ginestre, betulle e castagni sull'Etna, fichi d'India e aranci rossi in pianura, pistacchi nei terreni scuri di Bronte.",
     fauna:
-      "Coturnice tra le lave, volpe nei boschi etnei e riccio nei giardini della città.",
-    foodsText: "Pasta alla Norma, arancino e granita con brioche.",
+      "Coturnice tra le lave, volpe e gatto selvatico nei boschi etnei, aquila reale sopra il vulcano e riccio nei giardini della città.",
+    foodsText: "Pasta alla Norma, arancino, granita con brioche, cipollina e minne di Sant'Agata.",
     curiosity:
       "L'Etna è il vulcano attivo più alto d'Europa. La sua lava ha distrutto e ricostruito Catania più di una volta.",
     spotlight:
-      "Catania ha circa un milione di abitanti nella città metropolitana. Il capoluogo sta sul mare; intorno ci sono Acireale, Caltagirone e i paesi dell'Etna.\nLa provincia è famosa per il vulcano, il barocco nero, il pistacchio di Bronte e una cucina di melanzane, ricotta e ghiaccio.",
+      "Catania ha circa un milione di abitanti nella città metropolitana. Il [Capoluogo Catania](/mapa/sicilia/province/catania/citta/) sta sul mare; intorno ci sono Acireale, Caltagirone e i paesi dell'Etna.\nLa provincia è famosa per il vulcano, il barocco di pietra lavica nera, il pistacchio di Bronte e una cucina di melanzane, ricotta e granita.",
     plants: [
       {
         name: "Ginestra dell'Etna",
@@ -261,14 +261,41 @@ export const SICILY_CATALOG = [
       {
         name: "Castagno",
         wiki: "Castanea sativa",
+        href: "/mapa/sicilia/province/catania/castagno-dei-cento-cavalli/",
         description:
-          "Boschi di castagno coprono un anello del vulcano. In autunno i ricci si aprono e le castagne finiscono nel fuoco e nei dolci.",
+          "Boschi di castagno coprono un anello del vulcano. In autunno i ricci si aprono e le castagne finiscono nel fuoco e nei dolci. Sull'Etna cresce anche il Castagno dei Cento Cavalli, un albero famosissimo: scoprilo!",
       },
       {
         name: "Pistacchio",
         wiki: "Pistacia vera",
         description:
           "A Bronte il pistacchio cresce sulla lava. Il frutto verde entra nel pesto, nei dolci e persino nel salame e nel gelato.",
+      },
+      {
+        name: "Betulla dell'Etna",
+        wiki: "Betula aetnensis",
+        file: "Betula aetnensis.jpg",
+        description:
+          "Albero che cresce solo sull'Etna e in nessun altro posto al mondo. Le sue foglie tremano al vento e le radici tengono insieme la sabbia vulcanica.",
+      },
+      {
+        name: "Fico d'India",
+        wiki: "Opuntia ficus-indica",
+        description:
+          "Pianta grassa con pale piene di spine che cresce sui muri di lava. I frutti dolci, gialli o rossi, si sbucciano con cura: le spine sono minuscole e pungono.",
+      },
+      {
+        name: "Arancia rossa",
+        wiki: "Arancia rossa di Sicilia",
+        description:
+          "Arancia dalla polpa color rubino, coltivata nella piana di Catania vicino all'Etna. Il colore viene dagli sbalzi di temperatura tra giorno e notte.",
+      },
+      {
+        name: "Vite dell'Etna",
+        wiki: "Nerello Mascalese",
+        file: "Etna Wine Agriturismo, Passopisciaro, Sicily, Italy. Field blend.jpg",
+        description:
+          "I vigneti salgono sui terrazzi di lava fino a oltre 1000 metri. Le viti affondano le radici nella terra vulcanica e danno grappoli neri e bianchi, che si raccolgono a mano a ottobre per fare il vino dell'Etna.",
       },
     ],
     animals: [
@@ -289,6 +316,24 @@ export const SICILY_CATALOG = [
         wiki: "Erinaceus europaeus",
         description:
           "Piccolo mammifero coperto di aculei, comune nei giardini e nelle campagne. Di notte cerca insetti e lumache; se ha paura diventa una palla.",
+      },
+      {
+        name: "Gatto selvatico",
+        wiki: "Felis silvestris",
+        description:
+          "Somiglia a un gatto di casa ma è più grosso, con la coda ad anelli. Vive nei boschi e nelle gole dell'Etna e si vede di rado perché esce di notte.",
+      },
+      {
+        name: "Aquila reale",
+        wiki: "Aquila chrysaetos",
+        description:
+          "Grande rapace che plana sopra i crateri e le valli dell'Etna. Con le ali aperte supera i due metri e dall'alto vede ogni piccolo animale.",
+      },
+      {
+        name: "Istrice",
+        wiki: "Hystrix cristata",
+        description:
+          "Il roditore più grande d'Europa, coperto di aculei bianchi e neri. Di giorno dorme nella tana, di notte cerca radici e bulbi nei boschi.",
       },
     ],
     foods: [
@@ -312,6 +357,38 @@ export const SICILY_CATALOG = [
         description:
           "Ghiaccio granuloso al limone, mandorla o caffè, mangiato a colazione con la brioche col tuppo. D'estate è il rito della città.",
       },
+      {
+        name: "Brioche col tuppo",
+        wiki: "Brioche col tuppo",
+        description:
+          "Soffice panino dolce con una pallina sopra, il «tuppo», che in siciliano vuol dire crocchia di capelli. Si inzuppa nella granita.",
+      },
+      {
+        name: "Cipollina",
+        wiki: "Cipollina (cucina)",
+        file: "Cipollina.jpg",
+        description:
+          "Fagottino di pasta sfoglia ripieno di cipolla, pomodoro, formaggio e prosciutto. È lo spuntino salato dei catanesi.",
+      },
+      {
+        name: "Minne di Sant'Agata",
+        wiki: "Minne di Sant'Agata",
+        description:
+          "Dolcetti bianchi con una ciliegia candita sopra, ripieni di crema di ricotta. Si preparano per la festa di febbraio in onore di Sant'Agata.",
+      },
+      {
+        name: "Cannolo",
+        wiki: "Cannolo siciliano",
+        description:
+          "Cialda croccante fritta, riempita al momento con ricotta dolce di pecora. Si decora con scorza d'arancia, gocce di cioccolato o pistacchio.",
+      },
+      {
+        name: "Vino dell'Etna",
+        wiki: "Etna (vino)",
+        file: "Etna Wine, Passopisciaro, Sicily, Italy.jpg",
+        description:
+          "Il vino rosso e bianco che nasce dai vigneti sulla lava dell'Etna, il più famoso è l'Etna Doc. Il rosso si fa soprattutto con l'uva Nerello Mascalese; la vendemmia si fa a ottobre.",
+      },
     ],
     tourism: [
       {
@@ -332,6 +409,43 @@ export const SICILY_CATALOG = [
         description:
           "Città della ceramica, con una scala di 142 gradini coperti di maioliche colorate. A luglio la scala si illumina con migliaia di lumi.",
       },
+      {
+        name: "Catania, il capoluogo",
+        wiki: "Catania",
+        href: "/mapa/sicilia/province/catania/citta/",
+        description:
+          "Città nera di lava e di barocco, tra il mare e l'Etna. Qui trovi la piazza del Duomo, il mercato del pesce e il teatro romano: apri la scheda della città.",
+      },
+      {
+        name: "Teatro romano",
+        wiki: "Teatro romano di Catania",
+        description:
+          "Teatro del II secolo d.C., costruito con la pietra lavica nera. Ancora oggi si vede la gradinata a semicerchio dove sedeva il pubblico.",
+      },
+      {
+        name: "Castello Ursino",
+        wiki: "Castello Ursino",
+        description:
+          "Fortezza quadrata dell'imperatore Federico II. Un tempo stava sul mare; la lava del 1669 la circondò e oggi il mare è lontano.",
+      },
+      {
+        name: "Via dei Crociferi",
+        wiki: "Via dei Crociferi",
+        description:
+          "Strada di chiese e palazzi barocchi ricostruiti dopo il terremoto. Le facciate di pietra scura sembrano un grande teatro all'aperto.",
+      },
+      {
+        name: "Riviera dei Ciclopi",
+        wiki: "Isole dei Ciclopi",
+        description:
+          "Scogli neri che escono dall'acqua davanti ad Aci Trezza. Secondo Omero furono lanciati dal ciclope Polifemo contro la nave di Ulisse.",
+      },
+      {
+        name: "Acireale",
+        wiki: "Acireale",
+        description:
+          "Città barocca sul mare, famosa per il Carnevale con i carri di cartapesta e di fiori. Dalle sue terrazze si vede l'Etna.",
+      },
     ],
     history: [
       {
@@ -351,6 +465,25 @@ export const SICILY_CATALOG = [
         wiki: "Vincenzo Bellini",
         description:
           "Compositore nato a Catania nel 1801. Le sue opere, come Norma, si cantano ancora in tutto il mondo; il teatro massimo della città porta il suo nome.",
+      },
+      {
+        name: "Terremoto del 1693",
+        wiki: "Terremoto del Val di Noto del 1693",
+        file: "Catania - Cattedrale di Sant'Agata 02.jpg",
+        description:
+          "Un terremoto fortissimo distrusse Catania e molte città del sud-est. Furono ricostruite in stile barocco: oggi sono Patrimonio dell'Umanità UNESCO.",
+      },
+      {
+        name: "Giovanni Verga",
+        wiki: "Giovanni Verga",
+        description:
+          "Scrittore nato a Catania nel 1840. I suoi romanzi raccontano la vita dei pescatori di Aci Trezza, nei «Malavoglia».",
+      },
+      {
+        name: "Università di Catania",
+        wiki: "Università degli Studi di Catania",
+        description:
+          "Fondata nel 1434, è la più antica università della Sicilia. Ancora oggi studenti da tutta l'isola riempiono il centro storico.",
       },
     ],
   },
@@ -821,6 +954,7 @@ export const SICILY_CATALOG = [
       {
         name: "Terremoto del 1693",
         wiki: "Terremoto del Val di Noto del 1693",
+        file: "Catania - Cattedrale di Sant'Agata 02.jpg",
         description:
           "L'11 gennaio 1693 un terremoto rase al suolo decine di paesi. Li ricostruirono in stile barocco: per questo Ragusa, Modica e Scicli sono patrimonio dell'umanità.",
       },

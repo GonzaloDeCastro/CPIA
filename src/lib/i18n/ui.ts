@@ -47,6 +47,8 @@ export type UiCopy = {
     loadingPhoto: string;
     loadingPhotoHint: string;
     inPreparation: string;
+    learnMore: string;
+    backTo: (name: string) => string;
     empty: { fauna: string; flora: string; comidas: string; historia: string; turismo: string };
   };
 };
@@ -92,6 +94,8 @@ const ES: UiCopy = {
     loadingPhoto: "Cargando foto…",
     loadingPhotoHint: "Un momentito, estamos buscando la imagen",
     inPreparation: "Contenido en preparación.",
+    learnMore: "Conocer más",
+    backTo: (n) => `Volver a ${n}`,
     empty: {
       fauna: "Estamos preparando la fauna de esta zona. Mientras tanto, podés seguir explorando otras secciones.",
       flora: "Todavía no hay imágenes de flora cargadas para esta zona. Pronto estarán disponibles.",
@@ -143,6 +147,8 @@ const EN: UiCopy = {
     loadingPhoto: "Loading photo…",
     loadingPhotoHint: "Just a moment, we're finding the picture",
     inPreparation: "Content coming soon.",
+    learnMore: "Learn more",
+    backTo: (n) => `Back to ${n}`,
     empty: {
       fauna: "We're preparing the wildlife of this area. Meanwhile, keep exploring the other sections.",
       flora: "There are no plant photos for this area yet. They'll be here soon.",
@@ -194,6 +200,8 @@ const IT: UiCopy = {
     loadingPhoto: "Caricamento foto…",
     loadingPhotoHint: "Un attimo, stiamo cercando l'immagine",
     inPreparation: "Contenuto in preparazione.",
+    learnMore: "Scopri di più",
+    backTo: (n) => `Torna a ${n}`,
     empty: {
       fauna: "Stiamo preparando la fauna di questa zona. Intanto puoi esplorare le altre sezioni.",
       flora: "Le foto della flora di questa zona non sono ancora pronte. Torneranno presto.",

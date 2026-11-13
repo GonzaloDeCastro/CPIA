@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
+import { Fragment, useEffect, useRef, useState } from "react";
 
 import {
   SICILY_MAP_VIEW_BOX,
@@ -10,6 +11,29 @@ import { SICILY_PROVINCE_FILLS } from "@/lib/design/sicily-map-colors";
 import { zoneName } from "@/data/i18n/zone-names";
 import { useLocale, useUi, type Locale } from "@/lib/i18n/locale";
 import type { SicilyProvinceSlug } from "@/types/sicily";
+
+/** Convierte [texto](/ruta/) en enlaces internos; el resto queda como texto. */
+function renderWithLinks(text: string) {
+  const parts: React.ReactNode[] = [];
+  const re = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
+  let last = 0;
+  let match: RegExpExecArray | null;
+  while ((match = re.exec(text)) !== null) {
+    if (match.index > last) parts.push(text.slice(last, match.index));
+    parts.push(
+      <Link
+        key={`${match[2]}-${match.index}`}
+        href={match[2]}
+        className="font-extrabold text-water underline decoration-2 underline-offset-4 hover:text-heading"
+      >
+        {match[1]}
+      </Link>,
+    );
+    last = match.index + match[0].length;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+  return parts.map((part, i) => <Fragment key={i}>{part}</Fragment>);
+}
 
 type Props = {
   slug: SicilyProvinceSlug;
@@ -64,7 +88,7 @@ export function SicilyProvinceSpotlightMap({
       </svg>
       <div className="mt-4 space-y-3 text-left text-sm font-semibold leading-relaxed text-foreground-muted sm:text-base">
         {spotlightOverview.split("\n").map((paragraph) => (
-          <p key={paragraph.slice(0, 24)}>{paragraph}</p>
+          <p key={paragraph.slice(0, 24)}>{renderWithLinks(paragraph)}</p>
         ))}
       </div>
     </aside>

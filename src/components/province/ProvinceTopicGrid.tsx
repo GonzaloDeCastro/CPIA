@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 import { useUi } from "@/lib/i18n/locale";
 import type { ProvinceContentItem } from "@/types/province";
 
@@ -66,6 +68,15 @@ export function ProvinceTopicGrid({ items, topicLabel }: Props) {
               <p className="min-h-0 flex-1 break-words text-sm font-medium leading-relaxed text-foreground-muted">
                 {item.description || ui.page.inPreparation}
               </p>
+              {item.href ? (
+                <Link
+                  href={item.href}
+                  className="mt-2 inline-flex min-h-10 w-fit items-center gap-1 rounded-full bg-water px-4 text-sm font-extrabold text-white shadow-[var(--shadow-card)] transition-[filter,transform] hover:brightness-110 active:scale-[0.98]"
+                >
+                  {ui.page.learnMore}
+                  <span aria-hidden>→</span>
+                </Link>
+              ) : null}
             </div>
           </li>
         );

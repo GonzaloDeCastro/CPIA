@@ -43,15 +43,21 @@ export const SICILY_PROVINCES: SicilyProvince[] = [
     "name": "Catania",
     "shortName": "CT",
     "description": "Città nera di lava ai piedi dell'Etna, con elefante di pietra, arancini e una costa di ciclopi. Catania è la porta orientale della Sicilia.",
-    "spotlightOverview": "Catania ha circa un milione di abitanti nella città metropolitana. Il capoluogo sta sul mare; intorno ci sono Acireale, Caltagirone e i paesi dell'Etna.\nLa provincia è famosa per il vulcano, il barocco nero, il pistacchio di Bronte e una cucina di melanzane, ricotta e ghiaccio.",
+    "spotlightOverview": "Catania ha circa un milione di abitanti nella città metropolitana. Il [Capoluogo Catania](/mapa/sicilia/province/catania/citta/) sta sul mare; intorno ci sono Acireale, Caltagirone e i paesi dell'Etna.\nLa provincia è famosa per il vulcano, il barocco di pietra lavica nera, il pistacchio di Bronte e una cucina di melanzane, ricotta e granita.",
     "curiosity": "L'Etna è il vulcano attivo più alto d'Europa. La sua lava ha distrutto e ricostruito Catania più di una volta.",
-    "flora": "Ginestre e castagni sulle pendici dell'Etna, e pistacchi nei terreni scuri di Bronte.",
-    "fauna": "Coturnice tra le lave, volpe nei boschi etnei e riccio nei giardini della città.",
-    "foods": "Pasta alla Norma, arancino e granita con brioche.",
+    "flora": "Ginestre, betulle e castagni sull'Etna, fichi d'India e aranci rossi in pianura, pistacchi nei terreni scuri di Bronte.",
+    "fauna": "Coturnice tra le lave, volpe e gatto selvatico nei boschi etnei, aquila reale sopra il vulcano e riccio nei giardini della città.",
+    "foods": "Pasta alla Norma, arancino, granita con brioche, cipollina e minne di Sant'Agata.",
     "tourism": [
       "Etna",
       "Fontana dell'Elefante",
-      "Caltagirone"
+      "Caltagirone",
+      "Catania, il capoluogo",
+      "Teatro romano",
+      "Castello Ursino",
+      "Via dei Crociferi",
+      "Riviera dei Ciclopi",
+      "Acireale"
     ]
   },
   {

@@ -147,7 +147,7 @@
    ]
   },
   "catania": {
-   "spotlight": "Catania has about one million inhabitants in its metropolitan area. The main town stands on the sea; around it are Acireale, Caltagirone and the villages of Etna.\nThe province is famous for the volcano, the black Baroque, the Bronte pistachio and a cuisine of aubergines, ricotta and ice.\nEtna is the highest active volcano in Europe. Its lava has destroyed and rebuilt Catania more than once.",
+   "spotlight": "Catania has about one million people in its metropolitan area. The [Capital Catania](/mapa/sicilia/province/catania/citta/) sits on the sea; around it are Acireale, Caltagirone and the towns of Etna.\nThe province is famous for the volcano, the black lava-stone baroque, Bronte pistachios and a cuisine of eggplant, ricotta and granita.\nEtna is the tallest active volcano in Europe. Its lava destroyed and rebuilt Catania more than once.",
    "plants": [
     {
      "name": "Etna broom",
@@ -155,11 +155,27 @@
     },
     {
      "name": "Sweet chestnut",
-     "description": "Chestnut woods cover a ring of the volcano. In autumn the burrs open and the chestnuts end up in the fire and in desserts."
+     "description": "Chestnut forests cover a ring of the volcano. In autumn the burrs open and the chestnuts end up in the fire and in desserts. Etna is also home to the Hundred Horse Chestnut, a very famous tree: find out more!"
     },
     {
      "name": "Pistachio",
      "description": "At Bronte the pistachio grows on lava. The green nut goes into pesto, desserts and even mortadella and ice cream."
+    },
+    {
+     "name": "Etna birch",
+     "description": "A tree that grows only on Etna and nowhere else in the world. Its leaves tremble in the wind and its roots hold the volcanic sand together."
+    },
+    {
+     "name": "Prickly pear",
+     "description": "A succulent with spiny pads that grows on lava walls. The sweet yellow or red fruits must be peeled carefully: the tiny spines sting."
+    },
+    {
+     "name": "Blood orange",
+     "description": "An orange with ruby-coloured flesh, grown on the Catania plain near Etna. The colour comes from the swing between day and night temperatures."
+    },
+    {
+     "name": "Etna grapevine",
+     "description": "Vineyards climb lava terraces to over 1,000 metres. The vines sink their roots into volcanic soil and give black and white bunches, picked by hand in October to make Etna wine."
     }
    ],
    "animals": [
@@ -174,6 +190,18 @@
     {
      "name": "Hedgehog",
      "description": "A small mammal covered in spines, common in gardens and fields. At night it looks for insects and snails; when scared it rolls into a ball."
+    },
+    {
+     "name": "Wildcat",
+     "description": "It looks like a house cat but is bigger, with a ringed tail. It lives in Etna's woods and gorges and is rarely seen because it comes out at night."
+    },
+    {
+     "name": "Golden eagle",
+     "description": "A large bird of prey that glides over Etna's craters and valleys. Its wings span over two metres and from above it spots every small animal."
+    },
+    {
+     "name": "Crested porcupine",
+     "description": "Europe's biggest rodent, covered in black-and-white quills. By day it sleeps in its burrow; at night it looks for roots and bulbs in the woods."
     }
    ],
    "foods": [
@@ -188,6 +216,26 @@
     {
      "name": "Granita",
      "description": "Grainy ice in lemon, almond or coffee, eaten at breakfast with a brioche col tuppo. In summer it is the city's ritual."
+    },
+    {
+     "name": "Brioche col tuppo",
+     "description": "A soft sweet bun with a little ball on top, the “tuppo”, which in Sicilian means a hair bun. It is dunked in granita."
+    },
+    {
+     "name": "Cipollina",
+     "description": "A puff-pastry parcel filled with onion, tomato, cheese and ham. It is the Catanians' savoury snack."
+    },
+    {
+     "name": "Minne di Sant'Agata",
+     "description": "White sweets topped with a candied cherry and filled with ricotta cream. They are made for the February feast in honour of Saint Agatha."
+    },
+    {
+     "name": "Cannolo",
+     "description": "A crunchy fried shell filled to order with sweet sheep's-milk ricotta. It is decorated with orange peel, chocolate chips or pistachio."
+    },
+    {
+     "name": "Etna wine",
+     "description": "The red and white wine that comes from vineyards on Etna's lava; the most famous is Etna DOC. The red is mostly made from the Nerello Mascalese grape; the harvest is in October."
     }
    ],
    "tourism": [
@@ -202,6 +250,30 @@
     {
      "name": "Caltagirone",
      "description": "The city of ceramics, with a staircase of 142 steps covered in coloured majolica tiles. In July the stairs are lit with thousands of little lights."
+    },
+    {
+     "name": "Catania, the capital",
+     "description": "A city black with lava and baroque, between the sea and Etna. Here you find Piazza Duomo, the fish market and the Roman theatre: open the city page."
+    },
+    {
+     "name": "Roman Theatre",
+     "description": "A 2nd-century AD theatre built of black lava stone. You can still see the semicircle of seats where the audience sat."
+    },
+    {
+     "name": "Ursino Castle",
+     "description": "A square fortress of Emperor Frederick II. It once stood on the sea; the 1669 lava surrounded it and today the sea is far away."
+    },
+    {
+     "name": "Via dei Crociferi",
+     "description": "A street of baroque churches and palaces rebuilt after the earthquake. The dark stone façades look like a huge open-air theatre."
+    },
+    {
+     "name": "Cyclops Riviera",
+     "description": "Black rocks rising from the water off Aci Trezza. According to Homer, the Cyclops Polyphemus hurled them at Odysseus's ship."
+    },
+    {
+     "name": "Acireale",
+     "description": "A baroque seaside town, famous for its Carnival with papier-mâché and flower floats. From its terraces you can see Etna."
     }
    ],
    "curiosities": [
@@ -216,6 +288,18 @@
     {
      "name": "Vincenzo Bellini",
      "description": "A composer born in Catania in 1801. His operas, such as Norma, are still sung all over the world; the city's main theatre bears his name."
+    },
+    {
+     "name": "The 1693 earthquake",
+     "description": "A massive earthquake destroyed Catania and many towns in the south-east. They were rebuilt in baroque style: today they are a UNESCO World Heritage Site."
+    },
+    {
+     "name": "Giovanni Verga",
+     "description": "A writer born in Catania in 1840. His novels tell the life of the fishermen of Aci Trezza, in “I Malavoglia”."
+    },
+    {
+     "name": "University of Catania",
+     "description": "Founded in 1434, it is the oldest university in Sicily. Even today students from all over the island fill the old town."
     }
    ]
   },
