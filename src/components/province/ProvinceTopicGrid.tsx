@@ -74,7 +74,7 @@ export function ProvinceTopicGrid({ items, topicLabel }: Props) {
                   className="mt-2 inline-flex min-h-10 w-fit items-center gap-1 rounded-full bg-water px-4 text-sm font-extrabold text-white shadow-[var(--shadow-card)] transition-[filter,transform] hover:brightness-110 active:scale-[0.98]"
                 >
                   {ui.page.learnMore}
-                  <span aria-hidden>→</span>
+                  <span aria-hidden className="inline-block rtl:-scale-x-100">→</span>
                 </Link>
               ) : null}
             </div>

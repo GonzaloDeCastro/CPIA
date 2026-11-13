@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Fredoka, Nunito } from "next/font/google";
+import { Cairo, Fredoka, Nunito } from "next/font/google";
 
 import { LanguageSelector } from "@/components/layout/LanguageSelector";
 import { DonationHint } from "@/components/donation/DonationHint";
@@ -10,7 +10,7 @@ import "./globals.css";
 
 const nunito = Nunito({
   variable: "--font-nunito",
-  subsets: ["latin"],
+  subsets: ["latin", "cyrillic"],
   weight: ["500", "600", "700", "800"],
   display: "swap",
 });
@@ -19,6 +19,13 @@ const fredoka = Fredoka({
   variable: "--font-fredoka",
   subsets: ["latin"],
   weight: ["500", "600", "700"],
+  display: "swap",
+});
+
+const cairo = Cairo({
+  variable: "--font-cairo",
+  subsets: ["arabic"],
+  weight: ["500", "600", "700", "800"],
   display: "swap",
 });
 
@@ -67,7 +74,7 @@ export default function RootLayout({
     <html lang="es-AR" suppressHydrationWarning>
       <body
         suppressHydrationWarning
-        className={`${nunito.variable} ${fredoka.variable} font-sans antialiased`}
+        className={`${nunito.variable} ${fredoka.variable} ${cairo.variable} font-sans antialiased`}
       >
         <LocaleProvider>
           {children}

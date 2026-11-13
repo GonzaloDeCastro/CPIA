@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-import { commonsImage, type CataniaDetail } from "@/data/sicily/catania-details";
+import { commonsImage, tx, type CataniaDetail } from "@/data/sicily/catania-details";
 import { zoneName } from "@/data/i18n/zone-names";
 import { useLocale, useUi } from "@/lib/i18n/locale";
 import { sicilyProvincePath } from "@/lib/routing/paths";
@@ -41,25 +41,25 @@ export function CataniaDetailView({ detail }: { detail: CataniaDetail }) {
           <li aria-hidden="true" className="text-foreground-muted">
             /
           </li>
-          <li className="font-display text-heading">{detail.title[locale]}</li>
+          <li className="font-display text-heading">{tx(detail.title, locale)}</li>
         </ol>
       </nav>
 
       <article className="mx-auto max-w-3xl text-left">
         <h1 className="font-display text-3xl font-bold tracking-tight text-heading sm:text-4xl">
-          <span aria-hidden className="mr-2">
+          <span aria-hidden className="me-2">
             {detail.emoji}
           </span>
-          {detail.title[locale]}
+          {tx(detail.title, locale)}
         </h1>
         <p className="mt-3 text-base font-semibold leading-relaxed text-foreground-muted sm:text-lg">
-          {detail.intro[locale]}
+          {tx(detail.intro, locale)}
         </p>
 
         <div className="mt-6 overflow-hidden rounded-2xl border-2 border-heading/15 bg-surface-elevated shadow-[var(--shadow-card)]">
           <TopicImage
             src={commonsImage(detail.heroFile)}
-            alt={detail.heroAlt[locale]}
+            alt={tx(detail.heroAlt, locale)}
             placeholderEmoji={detail.emoji}
           />
         </div>
@@ -71,10 +71,10 @@ export function CataniaDetailView({ detail }: { detail: CataniaDetail }) {
               className="rounded-2xl border-2 border-sun/35 bg-background-warm/80 p-4 shadow-[var(--shadow-card)]"
             >
               <dt className="text-xs font-extrabold uppercase tracking-wide text-water">
-                {fact.label[locale]}
+                {tx(fact.label, locale)}
               </dt>
               <dd className="mt-1 text-sm font-semibold leading-relaxed text-heading sm:text-base">
-                {fact.value[locale]}
+                {tx(fact.value, locale)}
               </dd>
             </div>
           ))}
@@ -89,16 +89,16 @@ export function CataniaDetailView({ detail }: { detail: CataniaDetail }) {
               {section.file ? (
                 <TopicImage
                   src={commonsImage(section.file)}
-                  alt={section.alt?.[locale] ?? section.heading[locale]}
+                  alt={section.alt ? tx(section.alt, locale) : tx(section.heading, locale)}
                   placeholderEmoji={detail.emoji}
                 />
               ) : null}
               <div className="p-4 sm:p-5">
                 <h2 className="font-display text-xl font-bold text-heading">
-                  {section.heading[locale]}
+                  {tx(section.heading, locale)}
                 </h2>
                 <p className="mt-2 text-sm font-medium leading-relaxed text-foreground-muted sm:text-base">
-                  {section.body[locale]}
+                  {tx(section.body, locale)}
                 </p>
               </div>
             </section>
@@ -109,7 +109,7 @@ export function CataniaDetailView({ detail }: { detail: CataniaDetail }) {
           href={provinceHref}
           className="mt-8 inline-flex min-h-12 items-center justify-center gap-1 rounded-full bg-terracotta px-6 text-base font-extrabold text-white shadow-[var(--shadow-card)] transition-[filter,transform] hover:brightness-110 active:scale-[0.98]"
         >
-          <span aria-hidden>←</span>
+          <span aria-hidden className="inline-block rtl:-scale-x-100">←</span>
           {ui.page.backTo(province)}
         </Link>
       </article>

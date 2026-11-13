@@ -9,13 +9,13 @@ import { createHash } from "node:crypto";
 
 import { loadTsNamedExport } from "./lib/load-ts-export.mjs";
 
-const LOCALES = ["es", "en", "it"];
+const LOCALES = ["es", "en", "it", "ru", "ar"];
 const SOURCE = "it";
 
 const DATASETS = [
   {
     key: "italy",
-    unit: { es: "región", en: "region", it: "regione" },
+    unit: { es: "región", en: "region", it: "regione", ru: "области", ar: "منطقة" },
     regionsFile: "src/data/italy/regions.generated.ts",
     regionsExport: "ITALY_REGIONS",
     contentFile: "src/data/italy/content.generated.ts",
@@ -25,7 +25,7 @@ const DATASETS = [
   },
   {
     key: "sicily",
-    unit: { es: "provincia", en: "province", it: "provincia" },
+    unit: { es: "provincia", en: "province", it: "provincia", ru: "провинции", ar: "مقاطعة" },
     regionsFile: "src/data/sicily/provinces.generated.ts",
     regionsExport: "SICILY_PROVINCES",
     contentFile: "src/data/sicily/content.generated.ts",
@@ -35,7 +35,7 @@ const DATASETS = [
   },
   {
     key: "campania",
-    unit: { es: "provincia", en: "province", it: "provincia" },
+    unit: { es: "provincia", en: "province", it: "provincia", ru: "провинции", ar: "مقاطعة" },
     regionsFile: "src/data/campania/provinces.generated.ts",
     regionsExport: "CAMPANIA_PROVINCES",
     contentFile: "src/data/campania/content.generated.ts",
@@ -76,33 +76,46 @@ const SPECS = [
     es: [(n, u) => `¿En qué ${u} vive este animal: «${n}»?`, (n, z) => `«${n}» forma parte de la fauna de ${z}.`],
     en: [(n, u) => `In which ${u} does this animal live: “${n}”?`, (n, z) => `“${n}” is part of the wildlife of ${z}.`],
     it: [(n, u) => `In quale ${u} vive questo animale: «${n}»?`, (n, z) => `«${n}» fa parte della fauna di ${z}.`],
+    ru: [(n, u) => `В какой ${u} обитает это животное: «${n}»?`, (n, z) => `«${n}» — часть фауны: ${z}.`],
+    ar: [(n, u) => `في أي ${u} يعيش هذا الحيوان: «${n}»؟`, (n, z) => `«${n}» جزء من حيوانات ${z}.`],
   }],
   ["plants", "flora", {
     es: [(n, u) => `¿En qué ${u} crece esta planta: «${n}»?`, (n, z) => `«${n}» es una planta típica de ${z}.`],
     en: [(n, u) => `In which ${u} does this plant grow: “${n}”?`, (n, z) => `“${n}” is a typical plant of ${z}.`],
     it: [(n, u) => `In quale ${u} cresce questa pianta: «${n}»?`, (n, z) => `«${n}» è una pianta tipica di ${z}.`],
+    ru: [(n, u) => `В какой ${u} растёт это растение: «${n}»?`, (n, z) => `«${n}» — типичное растение: ${z}.`],
+    ar: [(n, u) => `في أي ${u} ينمو هذا النبات: «${n}»؟`, (n, z) => `«${n}» نبات مشهور في ${z}.`],
   }],
   ["foods", "food", {
     es: [(n, u) => `¿De qué ${u} es típico este plato: «${n}»?`, (n, z) => `«${n}» es un plato típico de ${z}.`],
     en: [(n, u) => `Which ${u} is this dish typical of: “${n}”?`, (n, z) => `“${n}” is a typical dish of ${z}.`],
     it: [(n, u) => `Di quale ${u} è tipico questo piatto: «${n}»?`, (n, z) => `«${n}» è un piatto tipico di ${z}.`],
+    ru: [(n, u) => `Для какой ${u} типично это блюдо: «${n}»?`, (n, z) => `«${n}» — типичное блюдо: ${z}.`],
+    ar: [(n, u) => `هذا الطبق مشهور في أي ${u}: «${n}»؟`, (n, z) => `«${n}» طبق مشهور في ${z}.`],
   }],
   ["tourism", "tourism", {
     es: [(n, u) => `¿En qué ${u} se encuentra «${n}»?`, (n, z) => `«${n}» se encuentra en ${z}.`],
     en: [(n, u) => `In which ${u} is “${n}”?`, (n, z) => `“${n}” is in ${z}.`],
     it: [(n, u) => `In quale ${u} si trova «${n}»?`, (n, z) => `«${n}» si trova in ${z}.`],
+    ru: [(n, u) => `В какой ${u} находится это место: «${n}»?`, (n, z) => `«${n}» находится здесь: ${z}.`],
+    ar: [(n, u) => `في أي ${u} يقع «${n}»؟`, (n, z) => `يقع «${n}» في ${z}.`],
   }],
   ["curiosities", "history", {
     es: [(n, u) => `¿A qué ${u} pertenece este hecho histórico: «${shorten(n)}»?`, (n, z) => `Este hecho tiene que ver con ${z}.`],
     en: [(n, u) => `Which ${u} does this historical fact belong to: “${shorten(n)}”?`, (n, z) => `This fact is about ${z}.`],
     it: [(n, u) => `A quale ${u} appartiene questo fatto storico: «${shorten(n)}»?`, (n, z) => `Questo fatto riguarda ${z}.`],
+    ru: [(n, u) => `К какой ${u} относится этот исторический факт: «${shorten(n)}»?`, (n, z) => `Этот факт связан с: ${z}.`],
+    ar: [(n, u) => `إلى أي ${u} تنتمي هذه الحقيقة التاريخية: «${shorten(n)}»؟`, (n, z) => `تتعلق هذه الحقيقة بـ ${z}.`],
   }],
 ];
 
 for (const ds of DATASETS) {
   const regions = await loadTsNamedExport(ds.regionsFile, ds.regionsExport);
   const content = await loadTsNamedExport(ds.contentFile, ds.contentExport);
-  const trs = Object.fromEntries(LOCALES.map((l) => [l, l === SOURCE ? { zones: {} } : loadTr(ds.key, l)]));
+  const activeLocales = LOCALES.filter(
+    (l) => l === SOURCE || existsSync(`src/data/i18n/${ds.key}.${l}.json`),
+  );
+  const trs = Object.fromEntries(activeLocales.map((l) => [l, l === SOURCE ? { zones: {} } : loadTr(ds.key, l)]));
 
   const norm = (s) => s.trim().toLowerCase();
   const zoneLabel = (locale, r) => ZONE_NAMES[locale]?.[r.slug] ?? r.name;
@@ -133,7 +146,7 @@ for (const ds of DATASETS) {
   const bySlug = Object.fromEntries(regions.map((r) => [r.slug, r]));
 
   const out = {};
-  for (const locale of LOCALES) {
+  for (const locale of activeLocales) {
     out[locale] = uniquePlan.map((q) => {
       const spec = SPECS.find(([kind]) => kind === q.kind)[2][locale];
       const name = itemName(locale, q.r, q.kind, q.index);
@@ -154,8 +167,8 @@ for (const ds of DATASETS) {
 import type { Locale } from "@/lib/i18n/locale";
 import type { TriviaQuestion } from "@/lib/trivia/types";
 
-export const ${ds.constName}: Record<Locale, TriviaQuestion[]> = ${JSON.stringify(out, null, 2)};
+export const ${ds.constName}: Partial<Record<Locale, TriviaQuestion[]>> = ${JSON.stringify(out, null, 2)};
 `;
   writeFileSync(ds.out, file, "utf8");
-  console.log(`OK: ${uniquePlan.length} preguntas x ${LOCALES.length} idiomas → ${ds.out}`);
+  console.log(`OK: ${uniquePlan.length} preguntas x ${activeLocales.length} idiomas → ${ds.out}`);
 }

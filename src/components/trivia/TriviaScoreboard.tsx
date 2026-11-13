@@ -32,7 +32,7 @@ export function TriviaScoreboard({ players, activePlayerId, copy = TRIVIA_COPY_E
               <span className="shrink-0 text-foreground-muted">
                 {copy.points(p.score)}
                 {p.score > 0 ? (
-                  <span className="ml-2 text-xs">({(p.totalCorrectTimeMs / 1000).toFixed(1)}s)</span>
+                  <span className="ms-2 text-xs">({(p.totalCorrectTimeMs / 1000).toFixed(1)}s)</span>
                 ) : null}
               </span>
             </li>

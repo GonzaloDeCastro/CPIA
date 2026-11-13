@@ -2,7 +2,7 @@
 import type { Locale } from "@/lib/i18n/locale";
 import type { TriviaQuestion } from "@/lib/trivia/types";
 
-export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
+export const TRIVIA_QUESTIONS: Partial<Record<Locale, TriviaQuestion[]>> = {
   "es": [
     {
       "id": "997f7128252b",
@@ -11,9 +11,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia vive el Hornero?",
       "choices": [
         "Buenos Aires",
-        "Ciudad Autónoma de Buenos Aires",
-        "Misiones",
-        "Jujuy"
+        "La Pampa",
+        "San Luis",
+        "Santa Fe"
       ],
       "correctIndex": 0,
       "explanation": "El Hornero es parte de la fauna de Buenos Aires."
@@ -24,12 +24,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Ciervo de los pantanos?",
       "choices": [
-        "Buenos Aires",
-        "Misiones",
-        "Corrientes",
-        "Tucumán"
+        "Salta",
+        "Santa Fe",
+        "Córdoba",
+        "Buenos Aires"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "El Ciervo de los pantanos es parte de la fauna de Buenos Aires."
     },
     {
@@ -38,12 +38,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Cortadera pampeana?",
       "choices": [
-        "Río Negro",
-        "Córdoba",
         "Buenos Aires",
-        "Tucumán"
+        "San Juan",
+        "Jujuy",
+        "Neuquén"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "El Cortadera pampeana es flora representativa de Buenos Aires."
     },
     {
@@ -52,12 +52,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Sombra de toro?",
       "choices": [
-        "Córdoba",
-        "Santa Cruz",
-        "Jujuy",
-        "Buenos Aires"
+        "Corrientes",
+        "Santiago del Estero",
+        "Buenos Aires",
+        "Entre Ríos"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "El Sombra de toro es flora representativa de Buenos Aires."
     },
     {
@@ -66,12 +66,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Sarandí colorado?",
       "choices": [
-        "Misiones",
-        "Jujuy",
-        "Chaco",
-        "Buenos Aires"
+        "Santiago del Estero",
+        "Tucumán",
+        "Buenos Aires",
+        "Ciudad Autónoma de Buenos Aires"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "El Sarandí colorado es flora representativa de Buenos Aires."
     },
     {
@@ -80,12 +80,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Asado bonaerense\"?",
       "choices": [
-        "La Rioja",
-        "Entre Ríos",
+        "La Pampa",
         "Buenos Aires",
+        "Tucumán",
         "Santiago del Estero"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "7e3e8371c8ef",
@@ -93,9 +93,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Milanesa a la napolitana\"?",
       "choices": [
-        "San Luis",
-        "Ciudad Autónoma de Buenos Aires",
-        "Misiones",
+        "Corrientes",
+        "Tucumán",
+        "Chubut",
         "Buenos Aires"
       ],
       "correctIndex": 3
@@ -106,12 +106,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Dulce de leche\"?",
       "choices": [
-        "Buenos Aires",
-        "Jujuy",
-        "Corrientes",
-        "Tierra del Fuego"
+        "La Pampa",
+        "Salta",
+        "Santa Fe",
+        "Buenos Aires"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "702272bbc048",
@@ -119,12 +119,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Mar del Plata y Costa Atlántica?",
       "choices": [
-        "Chubut",
-        "Córdoba",
-        "Ciudad Autónoma de Buenos Aires",
-        "Buenos Aires"
+        "Buenos Aires",
+        "Santa Cruz",
+        "La Pampa",
+        "Córdoba"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "5cb32077b554",
@@ -132,12 +132,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Sierra de la Ventana (Parque Provincial Ernesto Tornquist)?",
       "choices": [
+        "Río Negro",
+        "San Luis",
         "Jujuy",
-        "Buenos Aires",
-        "Córdoba",
-        "Corrientes"
+        "Buenos Aires"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "6db8ef051c33",
@@ -145,12 +145,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Delta del Paraná en Tigre?",
       "choices": [
-        "Catamarca",
-        "Santa Cruz",
-        "San Luis",
-        "Buenos Aires"
+        "Chaco",
+        "Corrientes",
+        "Buenos Aires",
+        "Río Negro"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "19dbc12e92a1",
@@ -158,10 +158,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"La Vuelta de Obligado y la soberanía\"?",
       "choices": [
-        "La Rioja",
-        "Río Negro",
+        "Chubut",
+        "Jujuy",
         "Buenos Aires",
-        "Ciudad Autónoma de Buenos Aires"
+        "Santa Fe"
       ],
       "correctIndex": 2
     },
@@ -171,12 +171,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Un territorio de frontera histórica\"?",
       "choices": [
-        "Buenos Aires",
-        "La Pampa",
-        "San Juan",
-        "Catamarca"
+        "Ciudad Autónoma de Buenos Aires",
+        "Tucumán",
+        "Formosa",
+        "Buenos Aires"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "fd061b1851c1",
@@ -184,12 +184,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Mara patagónica?",
       "choices": [
-        "Formosa",
-        "Misiones",
-        "Buenos Aires",
-        "Catamarca"
+        "Tierra del Fuego",
+        "Catamarca",
+        "Córdoba",
+        "San Luis"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "El Mara patagónica es parte de la fauna de Catamarca."
     },
     {
@@ -198,12 +198,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Vicuña?",
       "choices": [
-        "Santa Fe",
-        "Islas Malvinas",
         "Catamarca",
-        "Chaco"
+        "Neuquén",
+        "La Pampa",
+        "Jujuy"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "El Vicuña es parte de la fauna de Catamarca."
     },
     {
@@ -212,12 +212,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Cardón?",
       "choices": [
-        "Santa Fe",
-        "Río Negro",
         "Catamarca",
-        "La Pampa"
+        "Chaco",
+        "La Rioja",
+        "Córdoba"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "El Cardón es flora representativa de Catamarca."
     },
     {
@@ -226,10 +226,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Chañar?",
       "choices": [
-        "Río Negro",
+        "Ciudad Autónoma de Buenos Aires",
         "Catamarca",
-        "Jujuy",
-        "La Pampa"
+        "Río Negro",
+        "Entre Ríos"
       ],
       "correctIndex": 1,
       "explanation": "El Chañar es flora representativa de Catamarca."
@@ -240,10 +240,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Pichana o tola?",
       "choices": [
-        "Chubut",
+        "Chaco",
         "Catamarca",
-        "Mendoza",
-        "La Rioja"
+        "Chubut",
+        "Formosa"
       ],
       "correctIndex": 1,
       "explanation": "El Pichana o tola es flora representativa de Catamarca."
@@ -254,12 +254,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Empanadas catamarqueñas\"?",
       "choices": [
-        "Chubut",
+        "Catamarca",
         "Jujuy",
-        "Neuquén",
-        "Catamarca"
+        "Buenos Aires",
+        "Santa Fe"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "8982f78be21c",
@@ -267,12 +267,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Locro del noroeste\"?",
       "choices": [
-        "Santa Cruz",
-        "Santiago del Estero",
+        "Tierra del Fuego",
         "Catamarca",
-        "Neuquén"
+        "San Luis",
+        "La Pampa"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "a3c8255f312f",
@@ -280,12 +280,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Tamales\"?",
       "choices": [
-        "Catamarca",
         "Santa Cruz",
-        "La Pampa",
-        "Santa Fe"
+        "La Rioja",
+        "Corrientes",
+        "Catamarca"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d9375104062d",
@@ -293,12 +293,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Campo de Piedra Pómez (Antofagasta de la Sierra)?",
       "choices": [
+        "San Luis",
         "Catamarca",
-        "Islas Malvinas",
-        "Córdoba",
-        "San Luis"
+        "Santa Fe",
+        "Tucumán"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "c234fa8b6d2c",
@@ -306,12 +306,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Ruta de los Seismiles y Paso de San Francisco?",
       "choices": [
+        "La Pampa",
         "Catamarca",
-        "Formosa",
-        "Chubut",
-        "Chaco"
+        "Neuquén",
+        "Corrientes"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "28ff15344b19",
@@ -319,12 +319,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Cuesta del Portezuelo y El Rodeo?",
       "choices": [
+        "Mendoza",
         "Catamarca",
-        "Córdoba",
-        "San Luis",
-        "Tucumán"
+        "Santa Cruz",
+        "Corrientes"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "b491c34ffdb5",
@@ -332,12 +332,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Fiambalá y la ruta andina\"?",
       "choices": [
-        "Santa Fe",
-        "Río Negro",
-        "Jujuy",
-        "Catamarca"
+        "Mendoza",
+        "Neuquén",
+        "Catamarca",
+        "Corrientes"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "6bedd5d43b9c",
@@ -345,12 +345,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Valle y devoción mariana\"?",
       "choices": [
-        "Islas Malvinas",
-        "Salta",
-        "Catamarca",
-        "Río Negro"
+        "La Rioja",
+        "Santa Fe",
+        "Ciudad Autónoma de Buenos Aires",
+        "Catamarca"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "e49804858110",
@@ -358,12 +358,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Aguará guazú?",
       "choices": [
-        "Islas Malvinas",
-        "Río Negro",
         "Chaco",
-        "Corrientes"
+        "Chubut",
+        "La Rioja",
+        "Catamarca"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "El Aguará guazú es parte de la fauna de Chaco."
     },
     {
@@ -372,10 +372,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Tatú carreta?",
       "choices": [
-        "Ciudad Autónoma de Buenos Aires",
-        "Corrientes",
+        "La Pampa",
+        "Mendoza",
         "Chaco",
-        "Santa Cruz"
+        "Islas Malvinas"
       ],
       "correctIndex": 2,
       "explanation": "El Tatú carreta es parte de la fauna de Chaco."
@@ -387,9 +387,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia crece el Quebracho colorado chaqueño?",
       "choices": [
         "Chaco",
-        "Tierra del Fuego",
-        "Mendoza",
-        "Islas Malvinas"
+        "Islas Malvinas",
+        "Córdoba",
+        "Chubut"
       ],
       "correctIndex": 0,
       "explanation": "El Quebracho colorado chaqueño es flora representativa de Chaco."
@@ -400,12 +400,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Quebracho blanco?",
       "choices": [
-        "Jujuy",
-        "Chaco",
-        "Santiago del Estero",
-        "Misiones"
+        "Buenos Aires",
+        "Islas Malvinas",
+        "Río Negro",
+        "Chaco"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "El Quebracho blanco es flora representativa de Chaco."
     },
     {
@@ -414,12 +414,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Palma carandilla?",
       "choices": [
+        "Formosa",
+        "Mendoza",
         "Chaco",
-        "Córdoba",
-        "Jujuy",
-        "La Rioja"
+        "San Luis"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "El Palma carandilla es flora representativa de Chaco."
     },
     {
@@ -428,12 +428,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Chipá\"?",
       "choices": [
-        "Misiones",
-        "Río Negro",
-        "Santa Cruz",
-        "Chaco"
+        "Catamarca",
+        "Jujuy",
+        "Chaco",
+        "Neuquén"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "7bc517d330a6",
@@ -442,9 +442,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia es típico el plato \"Pacú a la parrilla\"?",
       "choices": [
         "Chaco",
-        "Córdoba",
-        "Corrientes",
-        "Buenos Aires"
+        "Entre Ríos",
+        "Formosa",
+        "Santa Fe"
       ],
       "correctIndex": 0
     },
@@ -454,12 +454,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Mandioca hervida\"?",
       "choices": [
-        "Buenos Aires",
-        "Tucumán",
         "Chaco",
-        "Santa Cruz"
+        "Santa Cruz",
+        "Santa Fe",
+        "Tucumán"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "5f847eae0169",
@@ -467,12 +467,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Parque Nacional El Impenetrable?",
       "choices": [
-        "Chaco",
-        "Tucumán",
-        "Entre Ríos",
-        "Misiones"
+        "Córdoba",
+        "Neuquén",
+        "Santa Fe",
+        "Chaco"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "5dfffc36f4f3",
@@ -480,10 +480,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Resistencia, Ciudad de las Esculturas?",
       "choices": [
-        "Santa Fe",
-        "Ciudad Autónoma de Buenos Aires",
+        "Santiago del Estero",
+        "Misiones",
         "Chaco",
-        "Neuquén"
+        "Salta"
       ],
       "correctIndex": 2
     },
@@ -493,12 +493,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Parque Nacional Chaco?",
       "choices": [
-        "Buenos Aires",
-        "Chaco",
-        "Salta",
-        "Chubut"
+        "San Juan",
+        "Misiones",
+        "Ciudad Autónoma de Buenos Aires",
+        "Chaco"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "cf1dfeeed051",
@@ -506,12 +506,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Resistencia, museo a cielo abierto\"?",
       "choices": [
-        "Jujuy",
-        "Chaco",
-        "Tierra del Fuego",
-        "Islas Malvinas"
+        "La Pampa",
+        "Chubut",
+        "Neuquén",
+        "Chaco"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "9035d20611cc",
@@ -519,12 +519,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"El monte chaqueño, clave histórica\"?",
       "choices": [
-        "Chaco",
-        "Mendoza",
+        "La Pampa",
         "Santiago del Estero",
-        "Río Negro"
+        "Chaco",
+        "Catamarca"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "fa60075ab27e",
@@ -532,12 +532,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Huemul?",
       "choices": [
-        "Misiones",
-        "San Juan",
         "Chubut",
-        "Santiago del Estero"
+        "La Pampa",
+        "Entre Ríos",
+        "Río Negro"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "El Huemul es parte de la fauna de Chubut."
     },
     {
@@ -546,12 +546,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Ballena franca austral?",
       "choices": [
-        "Córdoba",
-        "Tucumán",
-        "Mendoza",
-        "Chubut"
+        "Corrientes",
+        "Chubut",
+        "Buenos Aires",
+        "Río Negro"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "El Ballena franca austral es parte de la fauna de Chubut."
     },
     {
@@ -560,12 +560,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Coirón patagónico?",
       "choices": [
-        "San Juan",
-        "Formosa",
-        "Salta",
-        "Chubut"
+        "La Pampa",
+        "Tucumán",
+        "Chubut",
+        "Chaco"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "El Coirón patagónico es flora representativa de Chubut."
     },
     {
@@ -574,12 +574,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Calafate?",
       "choices": [
-        "Río Negro",
-        "San Luis",
-        "Mendoza",
-        "Chubut"
+        "San Juan",
+        "Chubut",
+        "Jujuy",
+        "La Pampa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "El Calafate es flora representativa de Chubut."
     },
     {
@@ -588,12 +588,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Maitén?",
       "choices": [
-        "Mendoza",
-        "Salta",
         "Chubut",
-        "Tierra del Fuego"
+        "Tierra del Fuego",
+        "Santa Fe",
+        "Buenos Aires"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "El Maitén es flora representativa de Chubut."
     },
     {
@@ -602,9 +602,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Cordero patagónico\"?",
       "choices": [
-        "Buenos Aires",
-        "La Rioja",
-        "San Luis",
+        "Salta",
+        "Santiago del Estero",
+        "Formosa",
         "Chubut"
       ],
       "correctIndex": 3
@@ -615,12 +615,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Torta galesa\"?",
       "choices": [
-        "Santa Cruz",
-        "Chubut",
+        "Corrientes",
         "Salta",
-        "La Pampa"
+        "Chubut",
+        "La Rioja"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "9c8b6b7f36e5",
@@ -628,12 +628,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Trucha de río\"?",
       "choices": [
+        "San Juan",
+        "Neuquén",
         "Chubut",
-        "La Rioja",
-        "San Luis",
-        "Corrientes"
+        "Córdoba"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "3b44b74accb8",
@@ -641,12 +641,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Península Valdés?",
       "choices": [
-        "Chubut",
-        "Córdoba",
-        "Entre Ríos",
-        "San Luis"
+        "San Juan",
+        "Neuquén",
+        "San Luis",
+        "Chubut"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "f27e0cc05068",
@@ -654,12 +654,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Parque Nacional Los Alerces?",
       "choices": [
-        "Santa Fe",
-        "Entre Ríos",
-        "Catamarca",
-        "Chubut"
+        "Chubut",
+        "San Juan",
+        "Islas Malvinas",
+        "Jujuy"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "e32a7dcf052f",
@@ -667,12 +667,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Punta Tombo (reserva de pingüinos)?",
       "choices": [
+        "Santiago del Estero",
         "Chubut",
-        "Mendoza",
-        "Islas Malvinas",
-        "Corrientes"
+        "Buenos Aires",
+        "San Juan"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "0729f455eb40",
@@ -680,10 +680,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Colonización galesa en el valle\"?",
       "choices": [
-        "Islas Malvinas",
+        "Ciudad Autónoma de Buenos Aires",
         "Chubut",
-        "San Juan",
-        "Chaco"
+        "Santa Fe",
+        "Río Negro"
       ],
       "correctIndex": 1
     },
@@ -693,10 +693,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Patagonia de dos mundos\"?",
       "choices": [
-        "Jujuy",
+        "Santa Fe",
         "Chubut",
-        "Salta",
-        "Río Negro"
+        "Santiago del Estero",
+        "Corrientes"
       ],
       "correctIndex": 1
     },
@@ -706,12 +706,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Cóndor andino?",
       "choices": [
-        "San Luis",
-        "Formosa",
+        "Catamarca",
+        "Córdoba",
         "Salta",
-        "Córdoba"
+        "Misiones"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "El Cóndor andino es parte de la fauna de Córdoba."
     },
     {
@@ -720,12 +720,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Puma?",
       "choices": [
-        "Córdoba",
-        "Buenos Aires",
+        "Islas Malvinas",
         "Tucumán",
-        "Entre Ríos"
+        "Córdoba",
+        "Santiago del Estero"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "El Puma es parte de la fauna de Córdoba."
     },
     {
@@ -734,7 +734,7 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Molle de beber?",
       "choices": [
-        "Santiago del Estero",
+        "Islas Malvinas",
         "Córdoba",
         "La Pampa",
         "Tierra del Fuego"
@@ -748,10 +748,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Espinillo?",
       "choices": [
-        "Catamarca",
-        "Corrientes",
+        "Misiones",
+        "Santa Fe",
         "Córdoba",
-        "Chaco"
+        "Islas Malvinas"
       ],
       "correctIndex": 2,
       "explanation": "El Espinillo es flora representativa de Córdoba."
@@ -762,12 +762,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Peperina serrana?",
       "choices": [
-        "Córdoba",
-        "Chubut",
-        "Mendoza",
-        "Corrientes"
+        "San Juan",
+        "Chaco",
+        "La Pampa",
+        "Córdoba"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "El Peperina serrana es flora representativa de Córdoba."
     },
     {
@@ -776,10 +776,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Cabrito serrano\"?",
       "choices": [
-        "Tucumán",
-        "Córdoba",
         "La Pampa",
-        "Formosa"
+        "Córdoba",
+        "Entre Ríos",
+        "Islas Malvinas"
       ],
       "correctIndex": 1
     },
@@ -789,12 +789,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Choripán cordobés\"?",
       "choices": [
-        "Jujuy",
-        "Córdoba",
-        "Chubut",
-        "Santa Fe"
+        "Santa Fe",
+        "Mendoza",
+        "Río Negro",
+        "Córdoba"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "ffc692fb5311",
@@ -802,12 +802,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Alfajor cordobés\"?",
       "choices": [
-        "Río Negro",
+        "Chubut",
+        "Neuquén",
         "Córdoba",
-        "San Juan",
-        "La Pampa"
+        "Islas Malvinas"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "5c7ad69b41c7",
@@ -815,12 +815,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Valle de Calamuchita (Villa General Belgrano y La Cumbrecita)?",
       "choices": [
-        "Entre Ríos",
+        "Santiago del Estero",
+        "Misiones",
         "Córdoba",
-        "San Luis",
-        "Tucumán"
+        "Chubut"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "95e4662703ea",
@@ -828,12 +828,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Camino de las Altas Cumbres?",
       "choices": [
-        "Córdoba",
-        "Corrientes",
-        "Santa Fe",
-        "Chaco"
+        "La Pampa",
+        "Buenos Aires",
+        "Mendoza",
+        "Córdoba"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "4f33c3b918f0",
@@ -841,12 +841,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Parque Nacional Quebrada del Condorito?",
       "choices": [
+        "Neuquén",
+        "Santiago del Estero",
         "Córdoba",
-        "Ciudad Autónoma de Buenos Aires",
-        "Tierra del Fuego",
-        "Santiago del Estero"
+        "Misiones"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "73f421539318",
@@ -854,12 +854,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Universidad histórica\"?",
       "choices": [
-        "Misiones",
-        "Entre Ríos",
-        "Chaco",
-        "Córdoba"
+        "Salta",
+        "Córdoba",
+        "Buenos Aires",
+        "Chubut"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "1f8b1fa7000f",
@@ -867,12 +867,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"La Reforma Universitaria de 1918\"?",
       "choices": [
-        "Córdoba",
-        "Río Negro",
-        "Misiones",
-        "Entre Ríos"
+        "Catamarca",
+        "Chaco",
+        "Santa Fe",
+        "Córdoba"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "f2622fa4120b",
@@ -880,12 +880,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Carpincho?",
       "choices": [
-        "Catamarca",
-        "San Juan",
+        "Tucumán",
         "Corrientes",
-        "Islas Malvinas"
+        "La Pampa",
+        "Ciudad Autónoma de Buenos Aires"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "El Carpincho es parte de la fauna de Corrientes."
     },
     {
@@ -894,12 +894,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Yacaré overo?",
       "choices": [
-        "Misiones",
+        "Tucumán",
         "Córdoba",
-        "Corrientes",
-        "Santa Cruz"
+        "Mendoza",
+        "Corrientes"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "El Yacaré overo es parte de la fauna de Corrientes."
     },
     {
@@ -908,10 +908,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Irupé?",
       "choices": [
-        "Formosa",
-        "Buenos Aires",
+        "San Luis",
+        "Córdoba",
         "Corrientes",
-        "Catamarca"
+        "San Juan"
       ],
       "correctIndex": 2,
       "explanation": "El Irupé es flora representativa de Corrientes."
@@ -922,12 +922,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Camalote?",
       "choices": [
-        "Chaco",
-        "San Luis",
-        "Salta",
-        "Corrientes"
+        "La Pampa",
+        "Corrientes",
+        "Ciudad Autónoma de Buenos Aires",
+        "Islas Malvinas"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "El Camalote es flora representativa de Corrientes."
     },
     {
@@ -936,12 +936,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Lapacho negro?",
       "choices": [
-        "San Luis",
+        "Córdoba",
+        "Entre Ríos",
         "Corrientes",
-        "Jujuy",
-        "La Rioja"
+        "Chubut"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "El Lapacho negro es flora representativa de Corrientes."
     },
     {
@@ -950,12 +950,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Mbaipy\"?",
       "choices": [
-        "Corrientes",
-        "Buenos Aires",
-        "Chubut",
-        "Islas Malvinas"
+        "Islas Malvinas",
+        "Tucumán",
+        "Entre Ríos",
+        "Corrientes"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "802a04be25d8",
@@ -963,12 +963,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Sopa correntina\"?",
       "choices": [
-        "Islas Malvinas",
         "Río Negro",
-        "Corrientes",
-        "Buenos Aires"
+        "Santa Cruz",
+        "Chaco",
+        "Corrientes"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "2ec4a5f01399",
@@ -976,12 +976,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Dorado a la parrilla\"?",
       "choices": [
+        "Ciudad Autónoma de Buenos Aires",
+        "Santa Cruz",
         "Neuquén",
-        "Santiago del Estero",
-        "Corrientes",
-        "Ciudad Autónoma de Buenos Aires"
+        "Corrientes"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "0310f185549a",
@@ -989,12 +989,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Esteros del Iberá?",
       "choices": [
-        "Chaco",
-        "La Rioja",
         "Catamarca",
-        "Corrientes"
+        "Corrientes",
+        "Tucumán",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "f2e90c0f5b50",
@@ -1002,12 +1002,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Costanera y casco histórico de la ciudad de Corrientes?",
       "choices": [
-        "Río Negro",
-        "La Pampa",
-        "Ciudad Autónoma de Buenos Aires",
-        "Corrientes"
+        "Corrientes",
+        "San Juan",
+        "Santiago del Estero",
+        "Catamarca"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "33181d9dd268",
@@ -1015,12 +1015,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Parque Nacional Mburucuyá?",
       "choices": [
-        "Ciudad Autónoma de Buenos Aires",
-        "Buenos Aires",
-        "Chubut",
-        "Corrientes"
+        "Islas Malvinas",
+        "La Pampa",
+        "Corrientes",
+        "Santa Cruz"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "39d97c930301",
@@ -1028,12 +1028,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Herencia guaraní viva\"?",
       "choices": [
-        "Ciudad Autónoma de Buenos Aires",
-        "Entre Ríos",
+        "Río Negro",
         "Corrientes",
-        "Islas Malvinas"
+        "San Juan",
+        "Santa Cruz"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "84c9acc0cb36",
@@ -1041,10 +1041,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Iberá y la recuperación de fauna\"?",
       "choices": [
-        "Córdoba",
+        "Formosa",
         "Corrientes",
-        "Tucumán",
-        "Chubut"
+        "Catamarca",
+        "Santiago del Estero"
       ],
       "correctIndex": 1
     },
@@ -1054,9 +1054,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Carpincho?",
       "choices": [
-        "Santa Fe",
+        "Santiago del Estero",
+        "San Luis",
         "La Rioja",
-        "Ciudad Autónoma de Buenos Aires",
         "Entre Ríos"
       ],
       "correctIndex": 3,
@@ -1068,12 +1068,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Lobito de río?",
       "choices": [
-        "Entre Ríos",
-        "Misiones",
-        "Chubut",
-        "San Luis"
+        "Santa Cruz",
+        "Córdoba",
+        "Mendoza",
+        "Entre Ríos"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "El Lobito de río es parte de la fauna de Entre Ríos."
     },
     {
@@ -1082,12 +1082,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Sauce criollo?",
       "choices": [
+        "Tierra del Fuego",
         "Entre Ríos",
-        "Santa Fe",
-        "San Juan",
-        "Tucumán"
+        "Islas Malvinas",
+        "San Luis"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "El Sauce criollo es flora representativa de Entre Ríos."
     },
     {
@@ -1097,11 +1097,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia crece el Timbó?",
       "choices": [
         "La Rioja",
-        "Entre Ríos",
-        "Santa Fe",
-        "Córdoba"
+        "San Juan",
+        "Chaco",
+        "Entre Ríos"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "El Timbó es flora representativa de Entre Ríos."
     },
     {
@@ -1110,12 +1110,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Espinillo del río?",
       "choices": [
-        "Tierra del Fuego",
-        "Córdoba",
-        "Río Negro",
-        "Entre Ríos"
+        "Entre Ríos",
+        "Ciudad Autónoma de Buenos Aires",
+        "Formosa",
+        "San Luis"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "El Espinillo del río es flora representativa de Entre Ríos."
     },
     {
@@ -1124,10 +1124,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Pescados del Paraná y el Uruguay\"?",
       "choices": [
-        "Santa Cruz",
-        "Formosa",
+        "Chaco",
+        "Islas Malvinas",
         "Entre Ríos",
-        "San Luis"
+        "Chubut"
       ],
       "correctIndex": 2
     },
@@ -1137,12 +1137,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Empanadas de pescado\"?",
       "choices": [
-        "Tucumán",
-        "Buenos Aires",
-        "Córdoba",
-        "Entre Ríos"
+        "Entre Ríos",
+        "Santa Fe",
+        "Formosa",
+        "Catamarca"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "ebfeb0bc0fef",
@@ -1150,12 +1150,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Asado con cuero\"?",
       "choices": [
-        "La Pampa",
         "Entre Ríos",
-        "Tucumán",
+        "Chubut",
+        "Santiago del Estero",
         "Jujuy"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "045ab613e663",
@@ -1163,12 +1163,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Parque Nacional El Palmar?",
       "choices": [
-        "San Juan",
-        "Buenos Aires",
-        "Ciudad Autónoma de Buenos Aires",
-        "Entre Ríos"
+        "La Pampa",
+        "Tucumán",
+        "Entre Ríos",
+        "Chaco"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "781ad78a4824",
@@ -1176,12 +1176,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Termas de Federación?",
       "choices": [
-        "Santa Fe",
-        "Jujuy",
         "Entre Ríos",
-        "Salta"
+        "Salta",
+        "La Rioja",
+        "Formosa"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "24d2fd795b46",
@@ -1189,12 +1189,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Palacio San José (Concepción del Uruguay)?",
       "choices": [
-        "Corrientes",
-        "Río Negro",
-        "Chubut",
-        "Entre Ríos"
+        "Entre Ríos",
+        "Santa Cruz",
+        "Buenos Aires",
+        "Catamarca"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "a9289f071d24",
@@ -1202,12 +1202,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Capital de la Confederación\"?",
       "choices": [
+        "Buenos Aires",
+        "Tucumán",
         "Entre Ríos",
-        "Corrientes",
-        "Islas Malvinas",
-        "Santiago del Estero"
+        "Neuquén"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "8692590f05f6",
@@ -1215,10 +1215,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Palacio San José y Urquiza\"?",
       "choices": [
-        "San Luis",
-        "Córdoba",
+        "Mendoza",
+        "Catamarca",
         "Entre Ríos",
-        "Río Negro"
+        "La Rioja"
       ],
       "correctIndex": 2
     },
@@ -1228,12 +1228,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Lagarto overo?",
       "choices": [
-        "Tucumán",
-        "Santa Fe",
         "Formosa",
-        "Chaco"
+        "Río Negro",
+        "San Juan",
+        "Jujuy"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "El Lagarto overo es parte de la fauna de Formosa."
     },
     {
@@ -1242,12 +1242,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Oso hormiguero?",
       "choices": [
-        "Santiago del Estero",
-        "Santa Cruz",
+        "San Juan",
         "Formosa",
-        "Río Negro"
+        "San Luis",
+        "Misiones"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "El Oso hormiguero es parte de la fauna de Formosa."
     },
     {
@@ -1256,12 +1256,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Palo santo?",
       "choices": [
-        "Jujuy",
-        "Corrientes",
-        "Mendoza",
-        "Formosa"
+        "Misiones",
+        "Neuquén",
+        "Formosa",
+        "La Rioja"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "El Palo santo es flora representativa de Formosa."
     },
     {
@@ -1270,12 +1270,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Caranday?",
       "choices": [
-        "Catamarca",
+        "Chaco",
+        "La Pampa",
         "Formosa",
-        "Santiago del Estero",
-        "Jujuy"
+        "Tucumán"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "El Caranday es flora representativa de Formosa."
     },
     {
@@ -1284,12 +1284,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Guayacán?",
       "choices": [
-        "Salta",
-        "Mendoza",
-        "Chubut",
-        "Formosa"
+        "Santa Cruz",
+        "San Luis",
+        "Formosa",
+        "Río Negro"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "El Guayacán es flora representativa de Formosa."
     },
     {
@@ -1298,12 +1298,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Sopa paraguaya\"?",
       "choices": [
-        "Salta",
-        "Catamarca",
-        "Jujuy",
-        "Formosa"
+        "San Juan",
+        "Formosa",
+        "La Pampa",
+        "Salta"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "a452d92751cd",
@@ -1311,9 +1311,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Pacú al horno\"?",
       "choices": [
+        "Río Negro",
         "San Luis",
         "Tucumán",
-        "Chaco",
         "Formosa"
       ],
       "correctIndex": 3
@@ -1324,12 +1324,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Chipá cuerito\"?",
       "choices": [
-        "Tierra del Fuego",
-        "Ciudad Autónoma de Buenos Aires",
-        "Formosa",
-        "La Rioja"
+        "Catamarca",
+        "San Luis",
+        "Santa Fe",
+        "Formosa"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "f74a7bafa4bf",
@@ -1337,12 +1337,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Bañado La Estrella?",
       "choices": [
+        "San Luis",
         "Formosa",
-        "La Pampa",
-        "Chubut",
-        "Córdoba"
+        "Mendoza",
+        "Tucumán"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "e9e21dcf2ff3",
@@ -1350,12 +1350,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Parque Nacional Río Pilcomayo?",
       "choices": [
+        "La Rioja",
+        "Salta",
         "Formosa",
-        "Buenos Aires",
-        "La Pampa",
-        "Tierra del Fuego"
+        "Río Negro"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "5f5051027c68",
@@ -1363,12 +1363,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Reserva de biosfera Laguna Oca (ciudad de Formosa)?",
       "choices": [
-        "Santiago del Estero",
-        "Formosa",
-        "Ciudad Autónoma de Buenos Aires",
-        "Córdoba"
+        "Santa Fe",
+        "Tucumán",
+        "Misiones",
+        "Formosa"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "e758a346e4a1",
@@ -1376,12 +1376,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Ríos y pueblos originarios\"?",
       "choices": [
-        "Catamarca",
         "Formosa",
-        "Entre Ríos",
-        "Misiones"
+        "Salta",
+        "Mendoza",
+        "Río Negro"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "460e4a56fddb",
@@ -1389,12 +1389,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Bañado La Estrella\"?",
       "choices": [
-        "Entre Ríos",
+        "La Pampa",
+        "Mendoza",
         "Formosa",
-        "Santa Cruz",
-        "Santa Fe"
+        "Neuquén"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d8c0f3e318f8",
@@ -1402,12 +1402,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Llama?",
       "choices": [
-        "Jujuy",
+        "Chubut",
+        "Mendoza",
         "Formosa",
-        "Catamarca",
-        "Chubut"
+        "Jujuy"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "El Llama es parte de la fauna de Jujuy."
     },
     {
@@ -1416,12 +1416,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Vicuña?",
       "choices": [
-        "Corrientes",
-        "Santa Cruz",
-        "La Rioja",
-        "Jujuy"
+        "Santiago del Estero",
+        "Río Negro",
+        "Jujuy",
+        "Catamarca"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "El Vicuña es parte de la fauna de Jujuy."
     },
     {
@@ -1430,12 +1430,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Queñoa?",
       "choices": [
-        "La Rioja",
-        "Tucumán",
+        "Islas Malvinas",
         "Jujuy",
-        "Chaco"
+        "Buenos Aires",
+        "Santa Fe"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "El Queñoa es flora representativa de Jujuy."
     },
     {
@@ -1444,12 +1444,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Tola de Puna?",
       "choices": [
-        "Jujuy",
         "Buenos Aires",
-        "Río Negro",
-        "Misiones"
+        "Neuquén",
+        "Jujuy",
+        "Chubut"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "El Tola de Puna es flora representativa de Jujuy."
     },
     {
@@ -1458,12 +1458,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Cebil?",
       "choices": [
-        "Chaco",
         "Jujuy",
-        "Buenos Aires",
-        "Neuquén"
+        "Santa Fe",
+        "Misiones",
+        "Río Negro"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "El Cebil es flora representativa de Jujuy."
     },
     {
@@ -1472,12 +1472,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Humita en chala\"?",
       "choices": [
-        "Jujuy",
-        "San Juan",
-        "La Pampa",
-        "Chaco"
+        "Formosa",
+        "Chaco",
+        "Santa Fe",
+        "Jujuy"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "dc17461302a6",
@@ -1485,12 +1485,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Tamales jujeños\"?",
       "choices": [
-        "Jujuy",
-        "Catamarca",
-        "Buenos Aires",
-        "Formosa"
+        "San Juan",
+        "San Luis",
+        "La Rioja",
+        "Jujuy"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "16e5796e1532",
@@ -1499,11 +1499,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia es típico el plato \"Calapurca\"?",
       "choices": [
         "La Pampa",
-        "Jujuy",
-        "Santa Cruz",
-        "Islas Malvinas"
+        "Neuquén",
+        "Córdoba",
+        "Jujuy"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "4521fc846679",
@@ -1511,12 +1511,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Purmamarca y Cerro de los Siete Colores?",
       "choices": [
-        "San Juan",
-        "La Rioja",
-        "Neuquén",
-        "Jujuy"
+        "Formosa",
+        "Islas Malvinas",
+        "Jujuy",
+        "San Luis"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "37de7a6aa7f9",
@@ -1524,12 +1524,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Quebrada de Humahuaca (Tilcara y Humahuaca)?",
       "choices": [
-        "Catamarca",
+        "Corrientes",
+        "Entre Ríos",
         "Jujuy",
-        "Buenos Aires",
         "Ciudad Autónoma de Buenos Aires"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "10009b61fee3",
@@ -1537,12 +1537,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Salinas Grandes y Cuesta de Lipán?",
       "choices": [
-        "Tucumán",
-        "Río Negro",
-        "Chubut",
-        "Jujuy"
+        "Catamarca",
+        "Jujuy",
+        "San Juan",
+        "Misiones"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "90962fdbc3b8",
@@ -1550,12 +1550,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Quebrada de Humahuaca milenaria\"?",
       "choices": [
-        "Mendoza",
-        "Corrientes",
+        "Santiago del Estero",
         "Jujuy",
-        "Chaco"
+        "Entre Ríos",
+        "Ciudad Autónoma de Buenos Aires"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "147c73b7da52",
@@ -1563,12 +1563,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Belgrano y la Bandera en Jujuy\"?",
       "choices": [
-        "Tucumán",
-        "Salta",
-        "Misiones",
-        "Jujuy"
+        "Jujuy",
+        "La Pampa",
+        "Neuquén",
+        "Catamarca"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "0d28d1cf0f96",
@@ -1576,12 +1576,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Puma?",
       "choices": [
-        "Neuquén",
-        "Ciudad Autónoma de Buenos Aires",
-        "Tierra del Fuego",
-        "La Pampa"
+        "San Juan",
+        "La Pampa",
+        "Buenos Aires",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "El Puma es parte de la fauna de La Pampa."
     },
     {
@@ -1590,12 +1590,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Ñandú?",
       "choices": [
-        "San Juan",
-        "La Rioja",
+        "Misiones",
         "La Pampa",
-        "Santiago del Estero"
+        "Chaco",
+        "Entre Ríos"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "El Ñandú es parte de la fauna de La Pampa."
     },
     {
@@ -1604,12 +1604,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Caldén?",
       "choices": [
-        "Río Negro",
-        "Corrientes",
+        "Catamarca",
         "La Pampa",
-        "Buenos Aires"
+        "San Luis",
+        "Entre Ríos"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "El Caldén es flora representativa de La Pampa."
     },
     {
@@ -1618,12 +1618,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Jarilla pampeana?",
       "choices": [
-        "Entre Ríos",
-        "San Juan",
-        "Tucumán",
-        "La Pampa"
+        "La Pampa",
+        "Buenos Aires",
+        "La Rioja",
+        "Santa Fe"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "El Jarilla pampeana es flora representativa de La Pampa."
     },
     {
@@ -1632,12 +1632,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Olivo de burro?",
       "choices": [
-        "Santiago del Estero",
-        "La Pampa",
-        "Tierra del Fuego",
-        "Corrientes"
+        "Río Negro",
+        "Islas Malvinas",
+        "Neuquén",
+        "La Pampa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "El Olivo de burro es flora representativa de La Pampa."
     },
     {
@@ -1646,12 +1646,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Asado criollo pampeano\"?",
       "choices": [
-        "La Rioja",
-        "Mendoza",
-        "La Pampa",
-        "Catamarca"
+        "Río Negro",
+        "Córdoba",
+        "Santiago del Estero",
+        "La Pampa"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "4ec776a0fd07",
@@ -1659,12 +1659,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Chivito al asador\"?",
       "choices": [
-        "Neuquén",
         "La Pampa",
-        "Santiago del Estero",
-        "Chubut"
+        "Entre Ríos",
+        "Jujuy",
+        "San Luis"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "1a685a1982a0",
@@ -1672,12 +1672,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Torta frita\"?",
       "choices": [
+        "Ciudad Autónoma de Buenos Aires",
         "La Pampa",
-        "San Juan",
-        "San Luis",
-        "Tierra del Fuego"
+        "Neuquén",
+        "San Luis"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "b5ce1b9027e5",
@@ -1685,12 +1685,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Parque Nacional Lihué Calel?",
       "choices": [
-        "San Luis",
-        "Santiago del Estero",
         "La Pampa",
-        "Catamarca"
+        "Chubut",
+        "Buenos Aires",
+        "Córdoba"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "56c0dacf6f36",
@@ -1698,12 +1698,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Reserva Provincial Parque Luro?",
       "choices": [
-        "Córdoba",
-        "Catamarca",
-        "La Pampa",
-        "Chaco"
+        "Islas Malvinas",
+        "Buenos Aires",
+        "Chubut",
+        "La Pampa"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "2d996c6c25aa",
@@ -1711,12 +1711,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Laguna de Utracán y área de Guatraché?",
       "choices": [
-        "Chubut",
-        "San Juan",
-        "Santiago del Estero",
-        "La Pampa"
+        "La Pampa",
+        "Córdoba",
+        "La Rioja",
+        "Neuquén"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d4a4d2f0989e",
@@ -1724,12 +1724,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"El caldén, árbol emblema\"?",
       "choices": [
-        "Salta",
-        "Chaco",
-        "La Pampa",
-        "Santa Fe"
+        "Entre Ríos",
+        "Chubut",
+        "San Juan",
+        "La Pampa"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "537a6cea918d",
@@ -1738,11 +1738,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Cruce de rutas históricas\"?",
       "choices": [
         "La Rioja",
-        "Neuquén",
-        "Corrientes",
-        "La Pampa"
+        "Mendoza",
+        "La Pampa",
+        "Ciudad Autónoma de Buenos Aires"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "1791ce4d7265",
@@ -1750,12 +1750,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Ñandú?",
       "choices": [
+        "Tierra del Fuego",
         "La Rioja",
         "Córdoba",
-        "La Pampa",
-        "Formosa"
+        "Jujuy"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "El Ñandú es parte de la fauna de La Rioja."
     },
     {
@@ -1764,12 +1764,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Guanaco?",
       "choices": [
-        "Río Negro",
         "La Rioja",
         "Chubut",
-        "Chaco"
+        "Mendoza",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "El Guanaco es parte de la fauna de La Rioja."
     },
     {
@@ -1778,12 +1778,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Jarilla?",
       "choices": [
-        "Buenos Aires",
         "La Rioja",
-        "Ciudad Autónoma de Buenos Aires",
-        "Neuquén"
+        "Buenos Aires",
+        "Corrientes",
+        "La Pampa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "El Jarilla es flora representativa de La Rioja."
     },
     {
@@ -1792,12 +1792,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Retortuño?",
       "choices": [
-        "La Rioja",
-        "Formosa",
-        "Santa Fe",
-        "Córdoba"
+        "Santiago del Estero",
+        "Jujuy",
+        "Islas Malvinas",
+        "La Rioja"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "El Retortuño es flora representativa de La Rioja."
     },
     {
@@ -1806,12 +1806,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Algarrobo blanco?",
       "choices": [
-        "Catamarca",
         "La Rioja",
-        "Corrientes",
-        "Salta"
+        "La Pampa",
+        "Córdoba",
+        "Jujuy"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "El Algarrobo blanco es flora representativa de La Rioja."
     },
     {
@@ -1820,12 +1820,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Chanfaina riojana\"?",
       "choices": [
-        "Salta",
-        "San Luis",
-        "Santiago del Estero",
-        "La Rioja"
+        "Tucumán",
+        "Córdoba",
+        "La Rioja",
+        "Río Negro"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "e71b6af18f38",
@@ -1834,9 +1834,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia es típico el plato \"Empanadas riojanas\"?",
       "choices": [
         "La Rioja",
-        "Entre Ríos",
-        "Río Negro",
-        "Santa Fe"
+        "San Juan",
+        "Chubut",
+        "La Pampa"
       ],
       "correctIndex": 0
     },
@@ -1846,12 +1846,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Locro riojano\"?",
       "choices": [
-        "Neuquén",
-        "Santa Fe",
-        "Santiago del Estero",
-        "La Rioja"
+        "La Rioja",
+        "Santa Cruz",
+        "Entre Ríos",
+        "Río Negro"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "ec9122168592",
@@ -1859,12 +1859,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Parque Nacional Talampaya?",
       "choices": [
+        "La Rioja",
         "Santa Fe",
-        "Formosa",
-        "Chaco",
-        "La Rioja"
+        "La Pampa",
+        "Santiago del Estero"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "2ada60d4e1a2",
@@ -1872,8 +1872,8 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Cuesta de Miranda?",
       "choices": [
-        "Ciudad Autónoma de Buenos Aires",
-        "Chaco",
+        "Jujuy",
+        "Entre Ríos",
         "La Rioja",
         "Santiago del Estero"
       ],
@@ -1885,12 +1885,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Parque Nacional Laguna Brava?",
       "choices": [
+        "Ciudad Autónoma de Buenos Aires",
         "La Rioja",
-        "Neuquén",
-        "Santa Cruz",
-        "Jujuy"
+        "Chubut",
+        "Entre Ríos"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "c10b9d03f3d6",
@@ -1898,12 +1898,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Tierra de caudillos federales\"?",
       "choices": [
-        "Santiago del Estero",
+        "Misiones",
         "San Luis",
-        "Chaco",
-        "La Rioja"
+        "La Rioja",
+        "La Pampa"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "b55a33ce4d53",
@@ -1911,12 +1911,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Talampaya y el tiempo profundo\"?",
       "choices": [
-        "Río Negro",
+        "Chaco",
         "La Pampa",
-        "Buenos Aires",
-        "La Rioja"
+        "La Rioja",
+        "Misiones"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "2baf2f245d39",
@@ -1924,12 +1924,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Cóndor andino?",
       "choices": [
-        "Ciudad Autónoma de Buenos Aires",
+        "Salta",
+        "Catamarca",
         "Mendoza",
-        "Córdoba",
-        "La Pampa"
+        "Entre Ríos"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "El Cóndor andino es parte de la fauna de Mendoza."
     },
     {
@@ -1938,12 +1938,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Guanaco?",
       "choices": [
-        "Corrientes",
-        "Salta",
+        "Mendoza",
+        "La Rioja",
         "Jujuy",
-        "Mendoza"
+        "Tierra del Fuego"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "El Guanaco es parte de la fauna de Mendoza."
     },
     {
@@ -1952,10 +1952,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Ajarilla?",
       "choices": [
-        "Islas Malvinas",
         "San Juan",
+        "Río Negro",
         "Mendoza",
-        "Santa Fe"
+        "Santiago del Estero"
       ],
       "correctIndex": 2,
       "explanation": "El Ajarilla es flora representativa de Mendoza."
@@ -1966,12 +1966,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Jarilla resinosas?",
       "choices": [
-        "Chaco",
-        "Mendoza",
+        "Salta",
         "Entre Ríos",
-        "Santiago del Estero"
+        "Santa Fe",
+        "Mendoza"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "El Jarilla resinosas es flora representativa de Mendoza."
     },
     {
@@ -1980,12 +1980,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Chañar mendocino?",
       "choices": [
-        "Catamarca",
-        "La Pampa",
-        "Buenos Aires",
-        "Mendoza"
+        "Mendoza",
+        "Santa Fe",
+        "Salta",
+        "Tucumán"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "El Chañar mendocino es flora representativa de Mendoza."
     },
     {
@@ -1994,12 +1994,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Tortitas mendocinas\"?",
       "choices": [
-        "Buenos Aires",
+        "Río Negro",
+        "Entre Ríos",
         "Mendoza",
-        "San Juan",
         "Neuquén"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "6348ced138c0",
@@ -2007,12 +2007,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Chivo a la llama\"?",
       "choices": [
+        "Tierra del Fuego",
         "Mendoza",
-        "Córdoba",
-        "Santiago del Estero",
-        "Islas Malvinas"
+        "San Luis",
+        "Santiago del Estero"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "dc1368da02ac",
@@ -2020,12 +2020,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Empanadas mendocinas\"?",
       "choices": [
-        "Chaco",
-        "Mendoza",
-        "Santa Cruz",
-        "Tucumán"
+        "La Pampa",
+        "Ciudad Autónoma de Buenos Aires",
+        "Misiones",
+        "Mendoza"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "4cac7a9280b0",
@@ -2034,11 +2034,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia está Parque Provincial Aconcagua?",
       "choices": [
         "Misiones",
-        "Tucumán",
-        "La Pampa",
-        "Mendoza"
+        "Neuquén",
+        "Mendoza",
+        "Entre Ríos"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "fe5b22318a54",
@@ -2046,12 +2046,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Ruta del Vino en Luján de Cuyo y Valle de Uco?",
       "choices": [
-        "Mendoza",
-        "Neuquén",
-        "Santiago del Estero",
-        "Santa Fe"
+        "Entre Ríos",
+        "Buenos Aires",
+        "Corrientes",
+        "Mendoza"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "bf4404a0b2c9",
@@ -2059,12 +2059,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Puente del Inca y Parque Provincial Cañón del Atuel?",
       "choices": [
-        "Santiago del Estero",
-        "Santa Cruz",
-        "Islas Malvinas",
-        "Mendoza"
+        "Mendoza",
+        "San Juan",
+        "Chubut",
+        "Salta"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "09b23395871b",
@@ -2072,10 +2072,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Cuna del Ejército de los Andes\"?",
       "choices": [
-        "San Luis",
+        "Catamarca",
         "Mendoza",
-        "Santa Cruz",
-        "Chubut"
+        "Corrientes",
+        "Chaco"
       ],
       "correctIndex": 1
     },
@@ -2085,12 +2085,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Oasis construidos por acequias\"?",
       "choices": [
-        "Buenos Aires",
-        "La Pampa",
-        "Mendoza",
-        "Formosa"
+        "Chubut",
+        "San Luis",
+        "Chaco",
+        "Mendoza"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "320b2dd5eba2",
@@ -2098,10 +2098,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Yaguareté?",
       "choices": [
-        "Buenos Aires",
+        "Islas Malvinas",
         "Misiones",
-        "Formosa",
-        "Córdoba"
+        "Santa Cruz",
+        "Neuquén"
       ],
       "correctIndex": 1,
       "explanation": "El Yaguareté es parte de la fauna de Misiones."
@@ -2112,12 +2112,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Mono carayá?",
       "choices": [
-        "Salta",
-        "Tierra del Fuego",
-        "Chubut",
-        "Misiones"
+        "Misiones",
+        "San Juan",
+        "Jujuy",
+        "Catamarca"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "El Mono carayá es parte de la fauna de Misiones."
     },
     {
@@ -2126,9 +2126,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Palmito misionero?",
       "choices": [
-        "Salta",
-        "San Luis",
+        "La Rioja",
         "Tucumán",
+        "Corrientes",
         "Misiones"
       ],
       "correctIndex": 3,
@@ -2140,12 +2140,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Lapacho rosado?",
       "choices": [
-        "Córdoba",
-        "Río Negro",
         "Misiones",
-        "Salta"
+        "Corrientes",
+        "Santiago del Estero",
+        "Entre Ríos"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "El Lapacho rosado es flora representativa de Misiones."
     },
     {
@@ -2154,12 +2154,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Araucaria misionera?",
       "choices": [
-        "Río Negro",
-        "Jujuy",
         "Misiones",
-        "Catamarca"
+        "Río Negro",
+        "Córdoba",
+        "Santiago del Estero"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "El Araucaria misionera es flora representativa de Misiones."
     },
     {
@@ -2168,12 +2168,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Reviro\"?",
       "choices": [
+        "Neuquén",
+        "Corrientes",
         "Misiones",
-        "La Pampa",
-        "Catamarca",
-        "La Rioja"
+        "Santa Fe"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "9f94e336f6ab",
@@ -2181,12 +2181,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Chipá misionero\"?",
       "choices": [
-        "Córdoba",
+        "Islas Malvinas",
+        "Santa Cruz",
         "Misiones",
-        "Tucumán",
-        "Mendoza"
+        "La Pampa"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "57be696c8eac",
@@ -2194,12 +2194,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Mbejú\"?",
       "choices": [
-        "Misiones",
-        "Río Negro",
-        "Mendoza",
-        "Formosa"
+        "La Rioja",
+        "La Pampa",
+        "Tucumán",
+        "Misiones"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "5afec6959cf4",
@@ -2207,12 +2207,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Cataratas del Iguazú?",
       "choices": [
-        "Neuquén",
-        "Buenos Aires",
         "Misiones",
+        "Santa Cruz",
+        "Corrientes",
         "Córdoba"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "486920d41163",
@@ -2220,12 +2220,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Ruinas Jesuíticas de San Ignacio Miní?",
       "choices": [
-        "La Rioja",
+        "San Luis",
+        "La Pampa",
         "Misiones",
-        "Santiago del Estero",
-        "Chaco"
+        "Chubut"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "b8eb40287a3a",
@@ -2233,12 +2233,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Saltos del Moconá?",
       "choices": [
-        "Formosa",
         "Misiones",
-        "Neuquén",
-        "Jujuy"
+        "Formosa",
+        "Islas Malvinas",
+        "Córdoba"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "eed906364302",
@@ -2246,12 +2246,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Las Misiones Jesuíticas\"?",
       "choices": [
+        "Salta",
         "Misiones",
-        "Chubut",
-        "Formosa",
-        "Mendoza"
+        "Río Negro",
+        "Chubut"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "8087329d3454",
@@ -2259,9 +2259,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"La selva y la yerba mate\"?",
       "choices": [
-        "Catamarca",
-        "Santa Cruz",
-        "Salta",
+        "Tierra del Fuego",
+        "Chubut",
+        "Río Negro",
         "Misiones"
       ],
       "correctIndex": 3
@@ -2272,12 +2272,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Zorro gris patagónico?",
       "choices": [
-        "Jujuy",
-        "Santiago del Estero",
-        "Córdoba",
-        "Neuquén"
+        "Neuquén",
+        "Tierra del Fuego",
+        "Ciudad Autónoma de Buenos Aires",
+        "Tucumán"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "El Zorro gris patagónico es parte de la fauna de Neuquén."
     },
     {
@@ -2286,12 +2286,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Pudú?",
       "choices": [
+        "La Rioja",
         "Neuquén",
-        "Jujuy",
-        "Formosa",
-        "Tucumán"
+        "Salta",
+        "Río Negro"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "El Pudú es parte de la fauna de Neuquén."
     },
     {
@@ -2300,10 +2300,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Pehuén (araucaria)?",
       "choices": [
+        "Jujuy",
         "Catamarca",
-        "Entre Ríos",
         "Neuquén",
-        "La Rioja"
+        "Misiones"
       ],
       "correctIndex": 2,
       "explanation": "El Pehuén (araucaria) es flora representativa de Neuquén."
@@ -2315,9 +2315,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia crece el Ñire?",
       "choices": [
         "Neuquén",
-        "Tucumán",
-        "Catamarca",
-        "Santa Cruz"
+        "Buenos Aires",
+        "La Pampa",
+        "Tierra del Fuego"
       ],
       "correctIndex": 0,
       "explanation": "El Ñire es flora representativa de Neuquén."
@@ -2328,12 +2328,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Maitén cordillerano?",
       "choices": [
-        "Formosa",
-        "Córdoba",
-        "Chubut",
-        "Neuquén"
+        "Santa Fe",
+        "Neuquén",
+        "Ciudad Autónoma de Buenos Aires",
+        "Formosa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "El Maitén cordillerano es flora representativa de Neuquén."
     },
     {
@@ -2342,12 +2342,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Chivito neuquino\"?",
       "choices": [
-        "Mendoza",
         "Neuquén",
-        "Chaco",
-        "La Rioja"
+        "Ciudad Autónoma de Buenos Aires",
+        "Buenos Aires",
+        "Chaco"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "030b02893ee9",
@@ -2355,12 +2355,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Trucha patagónica\"?",
       "choices": [
-        "Río Negro",
         "Neuquén",
-        "Entre Ríos",
-        "Buenos Aires"
+        "Buenos Aires",
+        "Salta",
+        "Tucumán"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "1f6a359ccc47",
@@ -2368,12 +2368,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Torta frita patagónica\"?",
       "choices": [
-        "La Rioja",
-        "Ciudad Autónoma de Buenos Aires",
-        "Santa Cruz",
-        "Neuquén"
+        "Mendoza",
+        "Islas Malvinas",
+        "Neuquén",
+        "Corrientes"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "a73326bc6e8d",
@@ -2382,9 +2382,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia está Villa La Angostura y Parque Nacional Nahuel Huapi?",
       "choices": [
         "Neuquén",
+        "Río Negro",
         "La Pampa",
-        "Ciudad Autónoma de Buenos Aires",
-        "Córdoba"
+        "Jujuy"
       ],
       "correctIndex": 0
     },
@@ -2394,12 +2394,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está San Martín de los Andes y Ruta de los Siete Lagos?",
       "choices": [
-        "Santa Cruz",
+        "Misiones",
+        "Córdoba",
         "Neuquén",
-        "La Rioja",
-        "Santiago del Estero"
+        "Salta"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "c75c180e9ba6",
@@ -2407,9 +2407,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Volcán Lanín y Parque Nacional Lanín?",
       "choices": [
-        "Formosa",
+        "Salta",
         "Neuquén",
-        "Entre Ríos",
+        "San Juan",
         "Santiago del Estero"
       ],
       "correctIndex": 1
@@ -2420,12 +2420,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Territorio mapuche y cordillerano\"?",
       "choices": [
-        "San Juan",
-        "Chaco",
-        "Islas Malvinas",
-        "Neuquén"
+        "Salta",
+        "Neuquén",
+        "Corrientes",
+        "Córdoba"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "6f1f3d382075",
@@ -2433,12 +2433,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Vaca Muerta y energía\"?",
       "choices": [
-        "Corrientes",
+        "Santa Cruz",
+        "La Pampa",
         "Neuquén",
-        "La Rioja",
-        "Ciudad Autónoma de Buenos Aires"
+        "Corrientes"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "ee347925f42d",
@@ -2446,12 +2446,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Mara patagónica?",
       "choices": [
-        "San Luis",
-        "Salta",
+        "Mendoza",
         "Río Negro",
-        "La Pampa"
+        "Entre Ríos",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "El Mara patagónica es parte de la fauna de Río Negro."
     },
     {
@@ -2461,9 +2461,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia vive el Guanaco?",
       "choices": [
         "Río Negro",
-        "Formosa",
-        "La Rioja",
-        "Buenos Aires"
+        "Misiones",
+        "Mendoza",
+        "Santa Cruz"
       ],
       "correctIndex": 0,
       "explanation": "El Guanaco es parte de la fauna de Río Negro."
@@ -2474,12 +2474,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Neneo?",
       "choices": [
-        "Corrientes",
-        "Islas Malvinas",
-        "Tucumán",
-        "Río Negro"
+        "Río Negro",
+        "Formosa",
+        "Neuquén",
+        "Salta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "El Neneo es flora representativa de Río Negro."
     },
     {
@@ -2488,12 +2488,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Molle patagónico?",
       "choices": [
-        "Jujuy",
-        "Río Negro",
         "Entre Ríos",
-        "Santiago del Estero"
+        "Buenos Aires",
+        "Río Negro",
+        "Santa Cruz"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "El Molle patagónico es flora representativa de Río Negro."
     },
     {
@@ -2502,12 +2502,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Coihue andino?",
       "choices": [
-        "Entre Ríos",
-        "Río Negro",
-        "Santa Cruz",
-        "San Luis"
+        "Santa Fe",
+        "Neuquén",
+        "Chubut",
+        "Río Negro"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "El Coihue andino es flora representativa de Río Negro."
     },
     {
@@ -2516,10 +2516,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Trucha patagónica\"?",
       "choices": [
-        "Ciudad Autónoma de Buenos Aires",
         "La Rioja",
+        "Tierra del Fuego",
         "Río Negro",
-        "Santa Fe"
+        "Catamarca"
       ],
       "correctIndex": 2
     },
@@ -2529,12 +2529,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Cordero al asador\"?",
       "choices": [
+        "Mendoza",
+        "Jujuy",
         "Río Negro",
-        "Buenos Aires",
-        "Chubut",
-        "Mendoza"
+        "Neuquén"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "b1c9f7b93d3a",
@@ -2543,11 +2543,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia está Bariloche y Circuito Chico?",
       "choices": [
         "Corrientes",
-        "Misiones",
-        "Río Negro",
-        "Mendoza"
+        "Neuquén",
+        "Islas Malvinas",
+        "Río Negro"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "c5c1f1790251",
@@ -2555,12 +2555,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está El Bolsón y Lago Puelo (comarca andina)?",
       "choices": [
-        "Río Negro",
+        "Tucumán",
         "Misiones",
-        "Catamarca",
-        "San Luis"
+        "Río Negro",
+        "Chaco"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "e0ac8ca4e958",
@@ -2568,12 +2568,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Las Grutas y costa del Golfo San Matías?",
       "choices": [
-        "Santa Cruz",
+        "Mendoza",
+        "Entre Ríos",
         "Río Negro",
-        "Santiago del Estero",
-        "Tucumán"
+        "Islas Malvinas"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "190bb701cce9",
@@ -2582,9 +2582,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Alto Valle frutícola\"?",
       "choices": [
         "Río Negro",
-        "Chaco",
         "Santiago del Estero",
-        "Córdoba"
+        "Buenos Aires",
+        "Corrientes"
       ],
       "correctIndex": 0
     },
@@ -2594,12 +2594,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Costa atlántica y paleontología\"?",
       "choices": [
-        "San Juan",
-        "Islas Malvinas",
+        "Neuquén",
         "Río Negro",
-        "La Pampa"
+        "Islas Malvinas",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "0c44bd10f071",
@@ -2607,12 +2607,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Tapir?",
       "choices": [
-        "Tucumán",
         "Salta",
-        "La Rioja",
-        "San Luis"
+        "Jujuy",
+        "Tucumán",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "El Tapir es parte de la fauna de Salta."
     },
     {
@@ -2621,12 +2621,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Vicuña?",
       "choices": [
-        "San Juan",
         "Salta",
-        "Neuquén",
-        "La Pampa"
+        "Ciudad Autónoma de Buenos Aires",
+        "Córdoba",
+        "Río Negro"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "El Vicuña es parte de la fauna de Salta."
     },
     {
@@ -2635,12 +2635,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Yuchán?",
       "choices": [
-        "Ciudad Autónoma de Buenos Aires",
-        "Santiago del Estero",
-        "Salta",
-        "Neuquén"
+        "Misiones",
+        "Entre Ríos",
+        "Córdoba",
+        "Salta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "El Yuchán es flora representativa de Salta."
     },
     {
@@ -2649,12 +2649,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Palo borracho rosado?",
       "choices": [
-        "Buenos Aires",
-        "Neuquén",
-        "San Juan",
-        "Salta"
+        "Chaco",
+        "Río Negro",
+        "Salta",
+        "Santa Cruz"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "El Palo borracho rosado es flora representativa de Salta."
     },
     {
@@ -2663,10 +2663,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Tipa blanca?",
       "choices": [
-        "Formosa",
-        "Tucumán",
+        "Tierra del Fuego",
+        "Jujuy",
         "Salta",
-        "Chubut"
+        "Catamarca"
       ],
       "correctIndex": 2,
       "explanation": "El Tipa blanca es flora representativa de Salta."
@@ -2677,12 +2677,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Empanadas salteñas\"?",
       "choices": [
-        "Salta",
         "San Juan",
-        "San Luis",
-        "Ciudad Autónoma de Buenos Aires"
+        "Jujuy",
+        "Misiones",
+        "Salta"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "613ac189d982",
@@ -2690,12 +2690,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Tamales salteños\"?",
       "choices": [
-        "Santa Fe",
-        "Entre Ríos",
+        "Chubut",
+        "Salta",
         "La Rioja",
-        "Salta"
+        "Misiones"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "dbfb7427a975",
@@ -2703,12 +2703,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Humita\"?",
       "choices": [
+        "Entre Ríos",
         "Salta",
-        "Santa Cruz",
-        "Tucumán",
-        "Chaco"
+        "Neuquén",
+        "San Juan"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "34e47238b304",
@@ -2716,9 +2716,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Tren a las Nubes (San Antonio de los Cobres)?",
       "choices": [
-        "Neuquén",
+        "Chubut",
         "Salta",
-        "Buenos Aires",
+        "Santiago del Estero",
         "La Pampa"
       ],
       "correctIndex": 1
@@ -2729,12 +2729,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Cafayate y Quebrada de las Conchas?",
       "choices": [
+        "Santa Fe",
+        "Santiago del Estero",
         "Salta",
-        "Chaco",
-        "San Juan",
-        "Ciudad Autónoma de Buenos Aires"
+        "Mendoza"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "a6454f16c8db",
@@ -2742,12 +2742,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Cachi y Parque Nacional Los Cardones?",
       "choices": [
+        "Corrientes",
         "Salta",
-        "Misiones",
-        "Neuquén",
-        "Santa Cruz"
+        "Santa Fe",
+        "Chaco"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "aaee98115bbd",
@@ -2755,12 +2755,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Güemes y la guerra de independencia\"?",
       "choices": [
+        "Santa Fe",
+        "Buenos Aires",
         "Salta",
-        "Santiago del Estero",
-        "Catamarca",
-        "San Juan"
+        "Córdoba"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "83e2706b8d85",
@@ -2769,11 +2769,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Un mosaico de paisajes\"?",
       "choices": [
         "Chubut",
-        "Salta",
-        "Islas Malvinas",
-        "Formosa"
+        "Entre Ríos",
+        "Santa Cruz",
+        "Salta"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "f58fa90e41f0",
@@ -2781,12 +2781,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Guanaco?",
       "choices": [
-        "Neuquén",
         "San Juan",
-        "La Pampa",
-        "Jujuy"
+        "Jujuy",
+        "Ciudad Autónoma de Buenos Aires",
+        "Santiago del Estero"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "El Guanaco es parte de la fauna de San Juan."
     },
     {
@@ -2795,10 +2795,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Mara patagónica?",
       "choices": [
-        "Mendoza",
-        "Santa Fe",
+        "Salta",
+        "La Rioja",
         "San Juan",
-        "La Pampa"
+        "Santiago del Estero"
       ],
       "correctIndex": 2,
       "explanation": "El Mara patagónica es parte de la fauna de San Juan."
@@ -2810,9 +2810,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia crece el Retamo?",
       "choices": [
         "San Juan",
-        "Ciudad Autónoma de Buenos Aires",
-        "Tucumán",
-        "Entre Ríos"
+        "Corrientes",
+        "Misiones",
+        "Ciudad Autónoma de Buenos Aires"
       ],
       "correctIndex": 0,
       "explanation": "El Retamo es flora representativa de San Juan."
@@ -2823,12 +2823,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Jarilla sanjuanina?",
       "choices": [
-        "La Rioja",
-        "Tierra del Fuego",
+        "Salta",
+        "San Juan",
         "Tucumán",
-        "San Juan"
+        "Tierra del Fuego"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "El Jarilla sanjuanina es flora representativa de San Juan."
     },
     {
@@ -2837,12 +2837,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Algarrobo negro?",
       "choices": [
-        "Catamarca",
-        "San Juan",
-        "Misiones",
-        "Mendoza"
+        "Corrientes",
+        "La Rioja",
+        "Buenos Aires",
+        "San Juan"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "El Algarrobo negro es flora representativa de San Juan."
     },
     {
@@ -2851,12 +2851,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Punta de espalda\"?",
       "choices": [
-        "Corrientes",
-        "Neuquén",
-        "Formosa",
-        "San Juan"
+        "San Juan",
+        "Tucumán",
+        "La Pampa",
+        "Misiones"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "c271d91b9eff",
@@ -2864,10 +2864,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Tomaticán\"?",
       "choices": [
-        "Entre Ríos",
+        "Buenos Aires",
         "San Juan",
-        "Santa Fe",
-        "Jujuy"
+        "La Pampa",
+        "Santiago del Estero"
       ],
       "correctIndex": 1
     },
@@ -2877,12 +2877,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Sopaipillas\"?",
       "choices": [
-        "La Rioja",
-        "Ciudad Autónoma de Buenos Aires",
-        "Río Negro",
-        "San Juan"
+        "Formosa",
+        "Mendoza",
+        "San Juan",
+        "Tucumán"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "59f365b1900a",
@@ -2891,9 +2891,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia está Parque Provincial Ischigualasto (Valle de la Luna)?",
       "choices": [
         "San Juan",
-        "La Pampa",
-        "Neuquén",
-        "San Luis"
+        "Santa Fe",
+        "Salta",
+        "Neuquén"
       ],
       "correctIndex": 0
     },
@@ -2903,12 +2903,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Dique Cuesta del Viento (Rodeo)?",
       "choices": [
-        "San Juan",
-        "Tierra del Fuego",
-        "Chaco",
-        "Salta"
+        "Santiago del Estero",
+        "Ciudad Autónoma de Buenos Aires",
+        "La Rioja",
+        "San Juan"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "3ae03e7ea7d0",
@@ -2916,12 +2916,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Parque Nacional El Leoncito (Barreal)?",
       "choices": [
+        "Neuquén",
+        "Entre Ríos",
         "San Juan",
-        "Catamarca",
-        "Santa Fe",
-        "Islas Malvinas"
+        "Jujuy"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "0f16cfa992b7",
@@ -2929,12 +2929,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Sarmiento y la educación\"?",
       "choices": [
-        "Mendoza",
         "San Juan",
-        "Ciudad Autónoma de Buenos Aires",
-        "La Rioja"
+        "La Pampa",
+        "Catamarca",
+        "Islas Malvinas"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "6240da804bbc",
@@ -2942,12 +2942,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Ischigualasto y fósiles únicos\"?",
       "choices": [
+        "Formosa",
         "Corrientes",
-        "La Pampa",
-        "Mendoza",
-        "San Juan"
+        "San Juan",
+        "Entre Ríos"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "51b59b3d3d3e",
@@ -2955,12 +2955,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Peludo argentino?",
       "choices": [
-        "Buenos Aires",
+        "Ciudad Autónoma de Buenos Aires",
+        "Corrientes",
         "San Luis",
-        "Santa Cruz",
-        "Tucumán"
+        "San Juan"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "El Peludo argentino es parte de la fauna de San Luis."
     },
     {
@@ -2969,12 +2969,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Zorro gris?",
       "choices": [
-        "Chaco",
-        "La Pampa",
-        "Corrientes",
-        "San Luis"
+        "Misiones",
+        "San Luis",
+        "Santa Cruz",
+        "Entre Ríos"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "El Zorro gris es parte de la fauna de San Luis."
     },
     {
@@ -2983,12 +2983,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Algarrobo dulce?",
       "choices": [
-        "Neuquén",
-        "La Pampa",
+        "Misiones",
         "San Luis",
-        "Santa Cruz"
+        "La Pampa",
+        "Salta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "El Algarrobo dulce es flora representativa de San Luis."
     },
     {
@@ -2997,12 +2997,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Espinillo puntano?",
       "choices": [
-        "Entre Ríos",
-        "La Rioja",
-        "La Pampa",
-        "San Luis"
+        "San Luis",
+        "Ciudad Autónoma de Buenos Aires",
+        "Catamarca",
+        "Río Negro"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "El Espinillo puntano es flora representativa de San Luis."
     },
     {
@@ -3011,12 +3011,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Quebracho blanco serrano?",
       "choices": [
+        "Islas Malvinas",
+        "Formosa",
         "San Luis",
-        "Misiones",
-        "Buenos Aires",
-        "Islas Malvinas"
+        "La Pampa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "El Quebracho blanco serrano es flora representativa de San Luis."
     },
     {
@@ -3025,12 +3025,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Chivito puntano\"?",
       "choices": [
-        "Catamarca",
-        "San Luis",
+        "La Pampa",
+        "Santa Fe",
         "Salta",
-        "Corrientes"
+        "San Luis"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "2d4c8cca614c",
@@ -3038,12 +3038,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Empanadas puntanas\"?",
       "choices": [
-        "Entre Ríos",
-        "Río Negro",
-        "San Luis",
-        "Chaco"
+        "Santa Fe",
+        "Neuquén",
+        "Ciudad Autónoma de Buenos Aires",
+        "San Luis"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "4f14984b3415",
@@ -3051,10 +3051,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Carbonada\"?",
       "choices": [
-        "Mendoza",
+        "Santa Fe",
         "San Luis",
-        "Santiago del Estero",
-        "Tierra del Fuego"
+        "La Pampa",
+        "Catamarca"
       ],
       "correctIndex": 1
     },
@@ -3064,10 +3064,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Parque Nacional Sierra de las Quijadas?",
       "choices": [
-        "Salta",
+        "Santiago del Estero",
         "San Luis",
-        "Catamarca",
-        "Santa Fe"
+        "Corrientes",
+        "Ciudad Autónoma de Buenos Aires"
       ],
       "correctIndex": 1
     },
@@ -3077,12 +3077,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Potrero de los Funes?",
       "choices": [
-        "San Luis",
         "Buenos Aires",
-        "Formosa",
-        "Tierra del Fuego"
+        "Catamarca",
+        "Mendoza",
+        "San Luis"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "1295a54954ff",
@@ -3090,10 +3090,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Merlo y Reserva Florofaunística de Rincón del Este?",
       "choices": [
-        "Santa Cruz",
-        "Salta",
+        "San Juan",
+        "Chubut",
         "San Luis",
-        "Río Negro"
+        "Tierra del Fuego"
       ],
       "correctIndex": 2
     },
@@ -3103,12 +3103,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Posta de caminos interiores\"?",
       "choices": [
-        "Tierra del Fuego",
-        "Río Negro",
         "San Luis",
-        "Chaco"
+        "Ciudad Autónoma de Buenos Aires",
+        "Catamarca",
+        "Chubut"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "af626ca4e57b",
@@ -3116,12 +3116,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Paisaje de sierras y salinas\"?",
       "choices": [
-        "Corrientes",
-        "Formosa",
-        "La Rioja",
-        "San Luis"
+        "San Luis",
+        "Salta",
+        "La Pampa",
+        "Mendoza"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "8ad71a1a138f",
@@ -3129,9 +3129,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Pudú?",
       "choices": [
-        "Santa Fe",
-        "La Pampa",
-        "Catamarca",
+        "Río Negro",
+        "Entre Ríos",
+        "Santiago del Estero",
         "Santa Cruz"
       ],
       "correctIndex": 3,
@@ -3143,12 +3143,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Guanaco?",
       "choices": [
-        "Catamarca",
-        "Salta",
         "Santa Cruz",
-        "Río Negro"
+        "Ciudad Autónoma de Buenos Aires",
+        "Chaco",
+        "Tucumán"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "El Guanaco es parte de la fauna de Santa Cruz."
     },
     {
@@ -3157,12 +3157,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Mata negra?",
       "choices": [
+        "San Luis",
+        "Río Negro",
         "Santa Cruz",
-        "Misiones",
-        "Salta",
-        "Santiago del Estero"
+        "Tucumán"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "El Mata negra es flora representativa de Santa Cruz."
     },
     {
@@ -3171,10 +3171,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Coirón fueguino?",
       "choices": [
-        "Misiones",
-        "Córdoba",
+        "Chaco",
+        "San Juan",
         "Santa Cruz",
-        "La Pampa"
+        "Neuquén"
       ],
       "correctIndex": 2,
       "explanation": "El Coirón fueguino es flora representativa de Santa Cruz."
@@ -3185,12 +3185,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Neneo austral?",
       "choices": [
-        "Chubut",
-        "Santa Cruz",
-        "Entre Ríos",
-        "Islas Malvinas"
+        "Ciudad Autónoma de Buenos Aires",
+        "Tucumán",
+        "San Luis",
+        "Santa Cruz"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "El Neneo austral es flora representativa de Santa Cruz."
     },
     {
@@ -3199,12 +3199,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Cazuela de mariscos\"?",
       "choices": [
-        "Buenos Aires",
-        "Mendoza",
-        "San Juan",
-        "Santa Cruz"
+        "Misiones",
+        "Neuquén",
+        "Santa Cruz",
+        "Córdoba"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "63c0c8d4b3b0",
@@ -3212,12 +3212,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Cordero santacruceño\"?",
       "choices": [
+        "Salta",
         "Tucumán",
-        "Santa Cruz",
-        "La Pampa",
-        "Buenos Aires"
+        "Ciudad Autónoma de Buenos Aires",
+        "Santa Cruz"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "e711daa79e81",
@@ -3225,12 +3225,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Glaciar Perito Moreno (Parque Nacional Los Glaciares)?",
       "choices": [
-        "Santa Cruz",
-        "Islas Malvinas",
-        "Neuquén",
-        "Ciudad Autónoma de Buenos Aires"
+        "Catamarca",
+        "Tierra del Fuego",
+        "La Rioja",
+        "Santa Cruz"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "db77cbdadba8",
@@ -3238,10 +3238,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está El Chaltén y senderos del Fitz Roy?",
       "choices": [
-        "Mendoza",
-        "Formosa",
+        "La Rioja",
+        "Catamarca",
         "Santa Cruz",
-        "Islas Malvinas"
+        "Tucumán"
       ],
       "correctIndex": 2
     },
@@ -3251,12 +3251,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Cueva de las Manos (río Pinturas)?",
       "choices": [
-        "Misiones",
+        "Corrientes",
+        "San Luis",
         "Santa Cruz",
-        "Río Negro",
-        "San Juan"
+        "Ciudad Autónoma de Buenos Aires"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "68d2da3314d0",
@@ -3264,12 +3264,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Hielos continentales\"?",
       "choices": [
-        "La Rioja",
-        "Corrientes",
-        "Formosa",
-        "Santa Cruz"
+        "San Juan",
+        "Tierra del Fuego",
+        "Santa Cruz",
+        "Misiones"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "b0a783377673",
@@ -3277,12 +3277,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Cueva de las Manos\"?",
       "choices": [
-        "Neuquén",
-        "Santiago del Estero",
+        "Santa Cruz",
+        "Islas Malvinas",
         "San Juan",
-        "Santa Cruz"
+        "Santa Fe"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "bc3f6dc3f93c",
@@ -3290,10 +3290,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Yacaré?",
       "choices": [
-        "Jujuy",
-        "Santa Fe",
         "Buenos Aires",
-        "Chubut"
+        "Santa Fe",
+        "Islas Malvinas",
+        "Santiago del Estero"
       ],
       "correctIndex": 1,
       "explanation": "El Yacaré es parte de la fauna de Santa Fe."
@@ -3304,12 +3304,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Carpincho?",
       "choices": [
-        "Jujuy",
-        "Santa Fe",
-        "Misiones",
-        "Chubut"
+        "La Rioja",
+        "La Pampa",
+        "Córdoba",
+        "Santa Fe"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "El Carpincho es parte de la fauna de Santa Fe."
     },
     {
@@ -3318,12 +3318,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Ceibo?",
       "choices": [
-        "La Pampa",
-        "Santa Cruz",
-        "Santiago del Estero",
-        "Santa Fe"
+        "Islas Malvinas",
+        "Santa Fe",
+        "Río Negro",
+        "Tucumán"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "El Ceibo es flora representativa de Santa Fe."
     },
     {
@@ -3332,12 +3332,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Sarandí blanco?",
       "choices": [
-        "Salta",
-        "Santa Cruz",
         "Santa Fe",
-        "La Pampa"
+        "Misiones",
+        "Santa Cruz",
+        "San Juan"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "El Sarandí blanco es flora representativa de Santa Fe."
     },
     {
@@ -3346,12 +3346,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Timbó litoraleño?",
       "choices": [
-        "Santa Fe",
-        "Catamarca",
+        "La Rioja",
         "Santiago del Estero",
-        "La Rioja"
+        "Santa Fe",
+        "Corrientes"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "El Timbó litoraleño es flora representativa de Santa Fe."
     },
     {
@@ -3360,12 +3360,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Dorado a la parrilla\"?",
       "choices": [
+        "San Luis",
+        "Catamarca",
         "Santa Fe",
-        "Salta",
-        "Buenos Aires",
-        "Chubut"
+        "Chaco"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "d7d06ecd9104",
@@ -3374,9 +3374,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia es típico el plato \"Surubí al horno\"?",
       "choices": [
         "Santa Fe",
-        "Santa Cruz",
-        "Jujuy",
-        "Tucumán"
+        "Catamarca",
+        "Neuquén",
+        "La Pampa"
       ],
       "correctIndex": 0
     },
@@ -3386,12 +3386,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Empanada santafesina\"?",
       "choices": [
-        "Tierra del Fuego",
-        "Islas Malvinas",
-        "San Juan",
-        "Santa Fe"
+        "Santa Fe",
+        "Santiago del Estero",
+        "Corrientes",
+        "Tucumán"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "7e8e11d889c6",
@@ -3399,12 +3399,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Monumento Nacional a la Bandera (Rosario)?",
       "choices": [
-        "Jujuy",
+        "Formosa",
+        "Salta",
         "Santa Fe",
-        "San Luis",
-        "Corrientes"
+        "Ciudad Autónoma de Buenos Aires"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "be8d2ba5bccb",
@@ -3412,10 +3412,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Parque de la Independencia (Rosario)?",
       "choices": [
-        "Mendoza",
+        "Salta",
         "Santa Fe",
-        "Río Negro",
-        "Salta"
+        "Córdoba",
+        "Formosa"
       ],
       "correctIndex": 1
     },
@@ -3425,12 +3425,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Puente Colgante y Costanera de Santa Fe capital?",
       "choices": [
-        "Entre Ríos",
         "Santa Fe",
-        "Tucumán",
+        "Tierra del Fuego",
+        "Islas Malvinas",
         "La Rioja"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "1484c5fe413f",
@@ -3438,12 +3438,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Cuna de la Bandera\"?",
       "choices": [
+        "Islas Malvinas",
+        "San Luis",
         "Santa Fe",
-        "Buenos Aires",
-        "Río Negro",
-        "Tierra del Fuego"
+        "Chubut"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "95e2031f63c8",
@@ -3451,12 +3451,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Puerto, ríos e inmigración\"?",
       "choices": [
-        "Catamarca",
-        "Corrientes",
-        "Entre Ríos",
-        "Santa Fe"
+        "Santa Fe",
+        "Tucumán",
+        "La Rioja",
+        "Buenos Aires"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d4f3e0a25d71",
@@ -3464,12 +3464,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Pecarí de collar?",
       "choices": [
-        "Córdoba",
+        "Catamarca",
+        "Salta",
         "Santiago del Estero",
-        "Formosa",
-        "Jujuy"
+        "Ciudad Autónoma de Buenos Aires"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "El Pecarí de collar es parte de la fauna de Santiago del Estero."
     },
     {
@@ -3478,10 +3478,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Tatú mulita?",
       "choices": [
-        "Neuquén",
-        "San Juan",
+        "Mendoza",
+        "Ciudad Autónoma de Buenos Aires",
         "Santiago del Estero",
-        "Santa Fe"
+        "Corrientes"
       ],
       "correctIndex": 2,
       "explanation": "El Tatú mulita es parte de la fauna de Santiago del Estero."
@@ -3492,12 +3492,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Itín?",
       "choices": [
-        "La Rioja",
+        "Buenos Aires",
+        "Río Negro",
         "Santiago del Estero",
-        "Chubut",
-        "Buenos Aires"
+        "Neuquén"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "El Itín es flora representativa de Santiago del Estero."
     },
     {
@@ -3506,9 +3506,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Vinal?",
       "choices": [
-        "Córdoba",
-        "Chaco",
-        "La Pampa",
+        "Formosa",
+        "La Rioja",
+        "Neuquén",
         "Santiago del Estero"
       ],
       "correctIndex": 3,
@@ -3520,8 +3520,8 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Quebracho colorado santiagueño?",
       "choices": [
-        "Entre Ríos",
-        "Chubut",
+        "Tierra del Fuego",
+        "Catamarca",
         "Salta",
         "Santiago del Estero"
       ],
@@ -3534,12 +3534,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Locro santiagueño\"?",
       "choices": [
-        "Ciudad Autónoma de Buenos Aires",
-        "Islas Malvinas",
-        "Neuquén",
-        "Santiago del Estero"
+        "Santiago del Estero",
+        "Tierra del Fuego",
+        "La Pampa",
+        "Tucumán"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "850f31f3a735",
@@ -3547,12 +3547,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Empanadas santiagueñas\"?",
       "choices": [
-        "Santiago del Estero",
         "La Rioja",
-        "San Juan",
-        "Jujuy"
+        "Buenos Aires",
+        "Santiago del Estero",
+        "Neuquén"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "ff9bac98b05a",
@@ -3560,12 +3560,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Rosquete santiagueño\"?",
       "choices": [
-        "Santiago del Estero",
-        "Tucumán",
-        "Entre Ríos",
-        "Salta"
+        "San Juan",
+        "San Luis",
+        "Ciudad Autónoma de Buenos Aires",
+        "Santiago del Estero"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "495eecf8db58",
@@ -3573,12 +3573,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Termas de Río Hondo?",
       "choices": [
-        "Ciudad Autónoma de Buenos Aires",
         "Santiago del Estero",
-        "San Juan",
-        "Tucumán"
+        "Buenos Aires",
+        "Chaco",
+        "Entre Ríos"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "34d68132fca5",
@@ -3586,12 +3586,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Dique Frontal de Río Hondo?",
       "choices": [
-        "Neuquén",
-        "Chubut",
-        "San Luis",
-        "Santiago del Estero"
+        "Santiago del Estero",
+        "Formosa",
+        "Ciudad Autónoma de Buenos Aires",
+        "San Juan"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "f292192611c2",
@@ -3599,12 +3599,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Parque Nacional Copo?",
       "choices": [
-        "Catamarca",
         "Santiago del Estero",
-        "Santa Cruz",
-        "Neuquén"
+        "Santa Fe",
+        "Jujuy",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "a20341ffe2a6",
@@ -3612,12 +3612,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Madre de ciudades\"?",
       "choices": [
-        "La Rioja",
-        "Tierra del Fuego",
+        "Río Negro",
         "Santiago del Estero",
-        "San Luis"
+        "Tucumán",
+        "La Pampa"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "ff1937dee541",
@@ -3625,12 +3625,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Quichua santiagueño\"?",
       "choices": [
-        "La Pampa",
-        "Formosa",
-        "La Rioja",
-        "Santiago del Estero"
+        "Misiones",
+        "Santiago del Estero",
+        "Tierra del Fuego",
+        "Mendoza"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "edeb59c24017",
@@ -3638,12 +3638,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Pingüino fueguino?",
       "choices": [
-        "Santiago del Estero",
+        "Tucumán",
+        "Ciudad Autónoma de Buenos Aires",
         "Tierra del Fuego",
-        "La Rioja",
-        "Santa Cruz"
+        "Santiago del Estero"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "El Pingüino fueguino es parte de la fauna de Tierra del Fuego."
     },
     {
@@ -3652,10 +3652,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Cauquén?",
       "choices": [
-        "Ciudad Autónoma de Buenos Aires",
+        "Formosa",
         "Tierra del Fuego",
-        "La Pampa",
-        "Misiones"
+        "Mendoza",
+        "Corrientes"
       ],
       "correctIndex": 1,
       "explanation": "El Cauquén es parte de la fauna de Tierra del Fuego."
@@ -3666,12 +3666,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Lenga fueguina?",
       "choices": [
-        "Islas Malvinas",
-        "Santiago del Estero",
         "Tierra del Fuego",
-        "Salta"
+        "Entre Ríos",
+        "Neuquén",
+        "Santiago del Estero"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "El Lenga fueguina es flora representativa de Tierra del Fuego."
     },
     {
@@ -3680,10 +3680,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Guindo o coihue magallánico?",
       "choices": [
-        "Jujuy",
+        "Río Negro",
         "Tierra del Fuego",
-        "Entre Ríos",
-        "Tucumán"
+        "San Luis",
+        "San Juan"
       ],
       "correctIndex": 1,
       "explanation": "El Guindo o coihue magallánico es flora representativa de Tierra del Fuego."
@@ -3694,10 +3694,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Canelo fueguino?",
       "choices": [
-        "Ciudad Autónoma de Buenos Aires",
-        "San Luis",
+        "Santa Cruz",
+        "Catamarca",
         "Tierra del Fuego",
-        "Chaco"
+        "Neuquén"
       ],
       "correctIndex": 2,
       "explanation": "El Canelo fueguino es flora representativa de Tierra del Fuego."
@@ -3708,10 +3708,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Merluza negra\"?",
       "choices": [
-        "San Luis",
+        "Formosa",
         "Islas Malvinas",
         "Tierra del Fuego",
-        "Buenos Aires"
+        "San Juan"
       ],
       "correctIndex": 2
     },
@@ -3721,12 +3721,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Cordero fueguino\"?",
       "choices": [
-        "San Juan",
         "Tierra del Fuego",
-        "Río Negro",
-        "Chaco"
+        "Santiago del Estero",
+        "Chubut",
+        "Santa Fe"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "81cfd08921a6",
@@ -3734,12 +3734,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Parque Nacional Tierra del Fuego?",
       "choices": [
-        "Islas Malvinas",
-        "Tierra del Fuego",
-        "Catamarca",
-        "Formosa"
+        "Jujuy",
+        "Formosa",
+        "Chubut",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "2cdd84ad7e7f",
@@ -3747,12 +3747,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Canal Beagle y Faro Les Eclaireurs?",
       "choices": [
-        "San Luis",
-        "Chaco",
-        "Santiago del Estero",
-        "Tierra del Fuego"
+        "Tierra del Fuego",
+        "Buenos Aires",
+        "Ciudad Autónoma de Buenos Aires",
+        "Santiago del Estero"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "60031ef342cf",
@@ -3760,10 +3760,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Tren del Fin del Mundo (Ushuaia)?",
       "choices": [
-        "Misiones",
-        "Entre Ríos",
+        "La Rioja",
+        "Neuquén",
         "Tierra del Fuego",
-        "Mendoza"
+        "La Pampa"
       ],
       "correctIndex": 2
     },
@@ -3773,12 +3773,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Fin del mundo habitado\"?",
       "choices": [
-        "Tierra del Fuego",
-        "Corrientes",
         "Mendoza",
-        "Formosa"
+        "Tierra del Fuego",
+        "Islas Malvinas",
+        "Santa Fe"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "af7b8b14ca6b",
@@ -3786,10 +3786,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Historia selk'nam y yámana\"?",
       "choices": [
-        "Córdoba",
-        "San Luis",
+        "Islas Malvinas",
+        "Formosa",
         "Tierra del Fuego",
-        "Chubut"
+        "Santa Fe"
       ],
       "correctIndex": 2
     },
@@ -3799,12 +3799,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Tucán grande?",
       "choices": [
+        "Tierra del Fuego",
+        "Neuquén",
         "Tucumán",
-        "Islas Malvinas",
-        "Córdoba",
-        "La Rioja"
+        "Buenos Aires"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "El Tucán grande es parte de la fauna de Tucumán."
     },
     {
@@ -3814,9 +3814,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia vive el Tapir?",
       "choices": [
         "Tucumán",
-        "Río Negro",
-        "La Rioja",
-        "Catamarca"
+        "San Luis",
+        "Salta",
+        "Corrientes"
       ],
       "correctIndex": 0,
       "explanation": "El Tapir es parte de la fauna de Tucumán."
@@ -3827,12 +3827,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Aliso del cerro?",
       "choices": [
-        "Neuquén",
-        "Entre Ríos",
-        "Río Negro",
-        "Tucumán"
+        "Tucumán",
+        "Corrientes",
+        "Santa Cruz",
+        "Neuquén"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "El Aliso del cerro es flora representativa de Tucumán."
     },
     {
@@ -3841,12 +3841,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Lapacho amarillo?",
       "choices": [
+        "Tierra del Fuego",
+        "La Rioja",
         "Tucumán",
-        "Misiones",
-        "Río Negro",
-        "Ciudad Autónoma de Buenos Aires"
+        "Misiones"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "El Lapacho amarillo es flora representativa de Tucumán."
     },
     {
@@ -3855,12 +3855,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Horco molle?",
       "choices": [
-        "Jujuy",
-        "San Juan",
-        "Tierra del Fuego",
-        "Tucumán"
+        "Santa Cruz",
+        "Santa Fe",
+        "Tucumán",
+        "Chaco"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "El Horco molle es flora representativa de Tucumán."
     },
     {
@@ -3869,9 +3869,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Sánguche de milanesa\"?",
       "choices": [
-        "Córdoba",
-        "Misiones",
-        "Chubut",
+        "Chaco",
+        "San Luis",
+        "Santa Fe",
         "Tucumán"
       ],
       "correctIndex": 3
@@ -3882,12 +3882,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Empanadas tucumanas\"?",
       "choices": [
-        "La Rioja",
-        "Islas Malvinas",
-        "Entre Ríos",
-        "Tucumán"
+        "Córdoba",
+        "Tucumán",
+        "Jujuy",
+        "Santiago del Estero"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "a6a6f8efc88c",
@@ -3895,12 +3895,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Humita tucumana\"?",
       "choices": [
-        "Tucumán",
-        "Islas Malvinas",
-        "La Rioja",
-        "Río Negro"
+        "La Pampa",
+        "Catamarca",
+        "Buenos Aires",
+        "Tucumán"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "c5f2226d8e3b",
@@ -3908,12 +3908,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Casa Histórica de la Independencia (San Miguel de Tucumán)?",
       "choices": [
+        "Corrientes",
+        "Islas Malvinas",
         "Tucumán",
-        "Río Negro",
-        "Neuquén",
-        "Formosa"
+        "Mendoza"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "cbd16a9b91ce",
@@ -3921,12 +3921,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Tafí del Valle y Dique La Angostura?",
       "choices": [
-        "Jujuy",
-        "Islas Malvinas",
         "Tucumán",
-        "Chubut"
+        "Chaco",
+        "Misiones",
+        "Neuquén"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "7cc3abb9628c",
@@ -3934,12 +3934,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Ruinas de Quilmes?",
       "choices": [
-        "Córdoba",
-        "Buenos Aires",
-        "Tucumán",
-        "Tierra del Fuego"
+        "Ciudad Autónoma de Buenos Aires",
+        "Entre Ríos",
+        "La Rioja",
+        "Tucumán"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "84f79102c415",
@@ -3947,12 +3947,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"La Casa de la Independencia\"?",
       "choices": [
-        "Río Negro",
-        "Mendoza",
         "Chubut",
-        "Tucumán"
+        "Tucumán",
+        "Corrientes",
+        "Mendoza"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "56a7111c4659",
@@ -3961,9 +3961,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Industria azucarera\"?",
       "choices": [
         "Tucumán",
-        "Santa Cruz",
-        "Islas Malvinas",
-        "Jujuy"
+        "Santiago del Estero",
+        "La Rioja",
+        "Río Negro"
       ],
       "correctIndex": 0
     },
@@ -3973,9 +3973,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Hornero?",
       "choices": [
-        "Tucumán",
-        "Neuquén",
-        "La Rioja",
+        "San Luis",
+        "Río Negro",
+        "Corrientes",
         "Ciudad Autónoma de Buenos Aires"
       ],
       "correctIndex": 3,
@@ -3987,12 +3987,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Benteveo?",
       "choices": [
-        "San Luis",
-        "Tierra del Fuego",
+        "Chaco",
         "Ciudad Autónoma de Buenos Aires",
-        "Santiago del Estero"
+        "Corrientes",
+        "Santa Fe"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "El Benteveo es parte de la fauna de Ciudad Autónoma de Buenos Aires."
     },
     {
@@ -4001,12 +4001,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Tala ribereño?",
       "choices": [
-        "Misiones",
-        "Chubut",
+        "Entre Ríos",
         "Ciudad Autónoma de Buenos Aires",
-        "Tucumán"
+        "Chubut",
+        "Santa Cruz"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "El Tala ribereño es flora representativa de Ciudad Autónoma de Buenos Aires."
     },
     {
@@ -4015,12 +4015,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Espinillo de la ribera?",
       "choices": [
-        "Formosa",
-        "Chaco",
-        "Santa Cruz",
-        "Ciudad Autónoma de Buenos Aires"
+        "Ciudad Autónoma de Buenos Aires",
+        "San Luis",
+        "Buenos Aires",
+        "Mendoza"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "El Espinillo de la ribera es flora representativa de Ciudad Autónoma de Buenos Aires."
     },
     {
@@ -4029,10 +4029,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Sauce criollo costero?",
       "choices": [
-        "Santa Fe",
+        "Buenos Aires",
         "Ciudad Autónoma de Buenos Aires",
-        "Islas Malvinas",
-        "San Luis"
+        "Córdoba",
+        "Tierra del Fuego"
       ],
       "correctIndex": 1,
       "explanation": "El Sauce criollo costero es flora representativa de Ciudad Autónoma de Buenos Aires."
@@ -4043,9 +4043,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Pizza porteña\"?",
       "choices": [
+        "Tierra del Fuego",
+        "San Juan",
         "Salta",
-        "Buenos Aires",
-        "Santa Fe",
         "Ciudad Autónoma de Buenos Aires"
       ],
       "correctIndex": 3
@@ -4056,12 +4056,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Fugazzeta rellena\"?",
       "choices": [
-        "Formosa",
         "Ciudad Autónoma de Buenos Aires",
-        "Buenos Aires",
-        "Islas Malvinas"
+        "La Pampa",
+        "Corrientes",
+        "Buenos Aires"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "9da2b52a3f6b",
@@ -4069,10 +4069,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Helado artesanal\"?",
       "choices": [
-        "Salta",
+        "Santa Fe",
         "Ciudad Autónoma de Buenos Aires",
-        "Chubut",
-        "Formosa"
+        "Formosa",
+        "Misiones"
       ],
       "correctIndex": 1
     },
@@ -4082,12 +4082,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Caminito y barrio de La Boca?",
       "choices": [
-        "Catamarca",
-        "Córdoba",
+        "Formosa",
         "Ciudad Autónoma de Buenos Aires",
-        "Chaco"
+        "Santiago del Estero",
+        "Salta"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "81998f5d84ce",
@@ -4095,9 +4095,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Plaza de Mayo y Catedral Metropolitana?",
       "choices": [
+        "Santa Fe",
+        "Jujuy",
         "Islas Malvinas",
-        "La Pampa",
-        "Río Negro",
         "Ciudad Autónoma de Buenos Aires"
       ],
       "correctIndex": 3
@@ -4108,10 +4108,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Teatro Colón y Recoleta?",
       "choices": [
+        "Corrientes",
         "Entre Ríos",
-        "Tierra del Fuego",
         "Ciudad Autónoma de Buenos Aires",
-        "Islas Malvinas"
+        "San Juan"
       ],
       "correctIndex": 2
     },
@@ -4121,12 +4121,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Plaza de Mayo y vida política\"?",
       "choices": [
-        "Ciudad Autónoma de Buenos Aires",
-        "Corrientes",
         "La Rioja",
-        "Santa Cruz"
+        "Ciudad Autónoma de Buenos Aires",
+        "Buenos Aires",
+        "Chubut"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "79e6f0724b1f",
@@ -4134,9 +4134,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Puerto e inmigración masiva\"?",
       "choices": [
-        "La Rioja",
-        "Entre Ríos",
-        "Corrientes",
+        "Tucumán",
+        "Neuquén",
+        "San Juan",
         "Ciudad Autónoma de Buenos Aires"
       ],
       "correctIndex": 3
@@ -4147,12 +4147,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Pingüino de penacho amarillo?",
       "choices": [
-        "Tucumán",
-        "Córdoba",
+        "Islas Malvinas",
+        "Chaco",
         "Río Negro",
-        "Islas Malvinas"
+        "Santa Cruz"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "El Pingüino de penacho amarillo es parte de la fauna de Islas Malvinas."
     },
     {
@@ -4161,10 +4161,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "¿En qué provincia vive el Albatros de ceja negra?",
       "choices": [
-        "Río Negro",
+        "Tierra del Fuego",
         "Islas Malvinas",
-        "Buenos Aires",
-        "Chaco"
+        "Río Negro",
+        "Córdoba"
       ],
       "correctIndex": 1,
       "explanation": "El Albatros de ceja negra es parte de la fauna de Islas Malvinas."
@@ -4175,12 +4175,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Pasto tussac?",
       "choices": [
-        "Santiago del Estero",
-        "Tierra del Fuego",
-        "Santa Cruz",
-        "Islas Malvinas"
+        "Buenos Aires",
+        "Entre Ríos",
+        "Islas Malvinas",
+        "Santiago del Estero"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "El Pasto tussac es flora representativa de Islas Malvinas."
     },
     {
@@ -4189,9 +4189,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Festuca fueguina?",
       "choices": [
-        "San Juan",
-        "Santa Cruz",
-        "Neuquén",
+        "Chaco",
+        "Santa Fe",
+        "Tucumán",
         "Islas Malvinas"
       ],
       "correctIndex": 3,
@@ -4203,12 +4203,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "¿En qué provincia crece el Matas almohadilladas?",
       "choices": [
-        "Chubut",
-        "Catamarca",
         "Islas Malvinas",
-        "Misiones"
+        "Jujuy",
+        "Tierra del Fuego",
+        "Tucumán"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "El Matas almohadilladas es flora representativa de Islas Malvinas."
     },
     {
@@ -4217,12 +4217,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Pescado frito con papas\"?",
       "choices": [
-        "Islas Malvinas",
-        "Buenos Aires",
-        "Mendoza",
-        "Ciudad Autónoma de Buenos Aires"
+        "San Juan",
+        "Catamarca",
+        "Santa Fe",
+        "Islas Malvinas"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "829b7c959ca1",
@@ -4230,12 +4230,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "¿En qué provincia es típico el plato \"Merluza y mariscos locales\"?",
       "choices": [
-        "Islas Malvinas",
-        "Río Negro",
-        "Jujuy",
-        "Formosa"
+        "Entre Ríos",
+        "Salta",
+        "Tucumán",
+        "Islas Malvinas"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "e8067d5e7915",
@@ -4244,11 +4244,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "¿En qué provincia es típico el plato \"Cordero isleño\"?",
       "choices": [
         "Catamarca",
-        "Neuquén",
-        "Misiones",
-        "Islas Malvinas"
+        "Islas Malvinas",
+        "Salta",
+        "Chaco"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "a8219ca82e06",
@@ -4256,12 +4256,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Puerto Argentino/Stanley y su frente costero?",
       "choices": [
-        "San Luis",
-        "Catamarca",
-        "Islas Malvinas",
-        "Buenos Aires"
+        "Formosa",
+        "La Rioja",
+        "Tucumán",
+        "Islas Malvinas"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "d5f0ac41cf98",
@@ -4269,9 +4269,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Cementerio de Darwin?",
       "choices": [
-        "Chubut",
-        "Tierra del Fuego",
-        "Santiago del Estero",
+        "Buenos Aires",
+        "Mendoza",
+        "San Juan",
         "Islas Malvinas"
       ],
       "correctIndex": 3
@@ -4282,12 +4282,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "¿En qué provincia está Voluntario Hill / Monte Longdon (sitios históricos)?",
       "choices": [
-        "Islas Malvinas",
-        "Ciudad Autónoma de Buenos Aires",
-        "Córdoba",
-        "San Juan"
+        "Chaco",
+        "Misiones",
+        "Río Negro",
+        "Islas Malvinas"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "a5b6ddcbf91f",
@@ -4295,12 +4295,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Atlántico Sur estratégico\"?",
       "choices": [
-        "San Luis",
-        "Chaco",
+        "Islas Malvinas",
+        "Entre Ríos",
         "Corrientes",
-        "Islas Malvinas"
+        "Chubut"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "b5eb04acb324",
@@ -4308,12 +4308,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "¿A qué provincia corresponde este hecho histórico: \"Memoria de 1982\"?",
       "choices": [
-        "Río Negro",
-        "Mendoza",
-        "La Rioja",
-        "Islas Malvinas"
+        "Chaco",
+        "Santa Fe",
+        "Islas Malvinas",
+        "Chubut"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     }
   ],
   "en": [
@@ -4324,9 +4324,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province does this animal live: “Rufous hornero”?",
       "choices": [
         "Buenos Aires",
-        "Buenos Aires City",
-        "Misiones",
-        "Jujuy"
+        "La Pampa",
+        "San Luis",
+        "Santa Fe"
       ],
       "correctIndex": 0,
       "explanation": "“Rufous hornero” is part of the wildlife of Buenos Aires."
@@ -4337,12 +4337,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Marsh deer”?",
       "choices": [
-        "Buenos Aires",
-        "Misiones",
-        "Corrientes",
-        "Tucumán"
+        "Salta",
+        "Santa Fe",
+        "Córdoba",
+        "Buenos Aires"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Marsh deer” is part of the wildlife of Buenos Aires."
     },
     {
@@ -4351,12 +4351,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Pampas grass”?",
       "choices": [
-        "Río Negro",
-        "Córdoba",
         "Buenos Aires",
-        "Tucumán"
+        "San Juan",
+        "Jujuy",
+        "Neuquén"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Pampas grass” is a typical plant of Buenos Aires."
     },
     {
@@ -4365,12 +4365,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Sombra de toro”?",
       "choices": [
-        "Córdoba",
-        "Santa Cruz",
-        "Jujuy",
-        "Buenos Aires"
+        "Corrientes",
+        "Santiago del Estero",
+        "Buenos Aires",
+        "Entre Ríos"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Sombra de toro” is a typical plant of Buenos Aires."
     },
     {
@@ -4379,12 +4379,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Red sarandí”?",
       "choices": [
-        "Misiones",
-        "Jujuy",
-        "Chaco",
-        "Buenos Aires"
+        "Santiago del Estero",
+        "Tucumán",
+        "Buenos Aires",
+        "Buenos Aires City"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Red sarandí” is a typical plant of Buenos Aires."
     },
     {
@@ -4393,12 +4393,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Buenos Aires asado” typical of?",
       "choices": [
-        "La Rioja",
-        "Entre Ríos",
+        "La Pampa",
         "Buenos Aires",
+        "Tucumán",
         "Santiago del Estero"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "7e3e8371c8ef",
@@ -4406,9 +4406,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Milanesa napolitana” typical of?",
       "choices": [
-        "San Luis",
-        "Buenos Aires City",
-        "Misiones",
+        "Corrientes",
+        "Tucumán",
+        "Chubut",
         "Buenos Aires"
       ],
       "correctIndex": 3
@@ -4419,12 +4419,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Dulce de leche” typical of?",
       "choices": [
-        "Buenos Aires",
-        "Jujuy",
-        "Corrientes",
-        "Tierra del Fuego"
+        "La Pampa",
+        "Salta",
+        "Santa Fe",
+        "Buenos Aires"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "702272bbc048",
@@ -4432,12 +4432,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Mar del Plata and the Atlantic Coast?",
       "choices": [
-        "Chubut",
-        "Córdoba",
-        "Buenos Aires City",
-        "Buenos Aires"
+        "Buenos Aires",
+        "Santa Cruz",
+        "La Pampa",
+        "Córdoba"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "5cb32077b554",
@@ -4445,12 +4445,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Sierra de la Ventana (Ernesto Tornquist Provincial Park)?",
       "choices": [
+        "Río Negro",
+        "San Luis",
         "Jujuy",
-        "Buenos Aires",
-        "Córdoba",
-        "Corrientes"
+        "Buenos Aires"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "6db8ef051c33",
@@ -4458,12 +4458,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Paraná Delta at Tigre?",
       "choices": [
-        "Catamarca",
-        "Santa Cruz",
-        "San Luis",
-        "Buenos Aires"
+        "Chaco",
+        "Corrientes",
+        "Buenos Aires",
+        "Río Negro"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "19dbc12e92a1",
@@ -4471,10 +4471,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Vuelta de Obligado and sovereignty”?",
       "choices": [
-        "La Rioja",
-        "Río Negro",
+        "Chubut",
+        "Jujuy",
         "Buenos Aires",
-        "Buenos Aires City"
+        "Santa Fe"
       ],
       "correctIndex": 2
     },
@@ -4484,12 +4484,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “A historic frontier territory”?",
       "choices": [
-        "Buenos Aires",
-        "La Pampa",
-        "San Juan",
-        "Catamarca"
+        "Buenos Aires City",
+        "Tucumán",
+        "Formosa",
+        "Buenos Aires"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "fd061b1851c1",
@@ -4497,12 +4497,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Patagonian mara”?",
       "choices": [
-        "Formosa",
-        "Misiones",
-        "Buenos Aires",
-        "Catamarca"
+        "Tierra del Fuego",
+        "Catamarca",
+        "Córdoba",
+        "San Luis"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Patagonian mara” is part of the wildlife of Catamarca."
     },
     {
@@ -4511,12 +4511,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Vicuña”?",
       "choices": [
-        "Santa Fe",
-        "Falkland Islands (Malvinas)",
         "Catamarca",
-        "Chaco"
+        "Neuquén",
+        "La Pampa",
+        "Jujuy"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Vicuña” is part of the wildlife of Catamarca."
     },
     {
@@ -4525,12 +4525,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Cardón”?",
       "choices": [
-        "Santa Fe",
-        "Río Negro",
         "Catamarca",
-        "La Pampa"
+        "Chaco",
+        "La Rioja",
+        "Córdoba"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Cardón” is a typical plant of Catamarca."
     },
     {
@@ -4539,10 +4539,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Chañar”?",
       "choices": [
-        "Río Negro",
+        "Buenos Aires City",
         "Catamarca",
-        "Jujuy",
-        "La Pampa"
+        "Río Negro",
+        "Entre Ríos"
       ],
       "correctIndex": 1,
       "explanation": "“Chañar” is a typical plant of Catamarca."
@@ -4553,10 +4553,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Pichana or tola”?",
       "choices": [
-        "Chubut",
+        "Chaco",
         "Catamarca",
-        "Mendoza",
-        "La Rioja"
+        "Chubut",
+        "Formosa"
       ],
       "correctIndex": 1,
       "explanation": "“Pichana or tola” is a typical plant of Catamarca."
@@ -4567,12 +4567,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Catamarca empanadas” typical of?",
       "choices": [
-        "Chubut",
+        "Catamarca",
         "Jujuy",
-        "Neuquén",
-        "Catamarca"
+        "Buenos Aires",
+        "Santa Fe"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "8982f78be21c",
@@ -4580,12 +4580,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Northwestern locro” typical of?",
       "choices": [
-        "Santa Cruz",
-        "Santiago del Estero",
+        "Tierra del Fuego",
         "Catamarca",
-        "Neuquén"
+        "San Luis",
+        "La Pampa"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "a3c8255f312f",
@@ -4593,12 +4593,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Tamales” typical of?",
       "choices": [
-        "Catamarca",
         "Santa Cruz",
-        "La Pampa",
-        "Santa Fe"
+        "La Rioja",
+        "Corrientes",
+        "Catamarca"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d9375104062d",
@@ -4606,12 +4606,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Campo de Piedra Pómez (Antofagasta de la Sierra)?",
       "choices": [
+        "San Luis",
         "Catamarca",
-        "Falkland Islands (Malvinas)",
-        "Córdoba",
-        "San Luis"
+        "Santa Fe",
+        "Tucumán"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "c234fa8b6d2c",
@@ -4619,12 +4619,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Seismiles Route and San Francisco Pass?",
       "choices": [
+        "La Pampa",
         "Catamarca",
-        "Formosa",
-        "Chubut",
-        "Chaco"
+        "Neuquén",
+        "Corrientes"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "28ff15344b19",
@@ -4632,12 +4632,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Cuesta del Portezuelo and El Rodeo?",
       "choices": [
+        "Mendoza",
         "Catamarca",
-        "Córdoba",
-        "San Luis",
-        "Tucumán"
+        "Santa Cruz",
+        "Corrientes"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "b491c34ffdb5",
@@ -4645,12 +4645,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Fiambalá and the Andean route”?",
       "choices": [
-        "Santa Fe",
-        "Río Negro",
-        "Jujuy",
-        "Catamarca"
+        "Mendoza",
+        "Neuquén",
+        "Catamarca",
+        "Corrientes"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "6bedd5d43b9c",
@@ -4658,12 +4658,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The Valley and Marian devotion”?",
       "choices": [
-        "Falkland Islands (Malvinas)",
-        "Salta",
-        "Catamarca",
-        "Río Negro"
+        "La Rioja",
+        "Santa Fe",
+        "Buenos Aires City",
+        "Catamarca"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "e49804858110",
@@ -4671,12 +4671,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Maned wolf”?",
       "choices": [
-        "Falkland Islands (Malvinas)",
-        "Río Negro",
         "Chaco",
-        "Corrientes"
+        "Chubut",
+        "La Rioja",
+        "Catamarca"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Maned wolf” is part of the wildlife of Chaco."
     },
     {
@@ -4685,10 +4685,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Giant armadillo”?",
       "choices": [
-        "Buenos Aires City",
-        "Corrientes",
+        "La Pampa",
+        "Mendoza",
         "Chaco",
-        "Santa Cruz"
+        "Falkland Islands (Malvinas)"
       ],
       "correctIndex": 2,
       "explanation": "“Giant armadillo” is part of the wildlife of Chaco."
@@ -4700,9 +4700,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province does this plant grow: “Red quebracho of the Chaco”?",
       "choices": [
         "Chaco",
-        "Tierra del Fuego",
-        "Mendoza",
-        "Falkland Islands (Malvinas)"
+        "Falkland Islands (Malvinas)",
+        "Córdoba",
+        "Chubut"
       ],
       "correctIndex": 0,
       "explanation": "“Red quebracho of the Chaco” is a typical plant of Chaco."
@@ -4713,12 +4713,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “White quebracho”?",
       "choices": [
-        "Jujuy",
-        "Chaco",
-        "Santiago del Estero",
-        "Misiones"
+        "Buenos Aires",
+        "Falkland Islands (Malvinas)",
+        "Río Negro",
+        "Chaco"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“White quebracho” is a typical plant of Chaco."
     },
     {
@@ -4727,12 +4727,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Caranday palm”?",
       "choices": [
+        "Formosa",
+        "Mendoza",
         "Chaco",
-        "Córdoba",
-        "Jujuy",
-        "La Rioja"
+        "San Luis"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Caranday palm” is a typical plant of Chaco."
     },
     {
@@ -4741,12 +4741,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Chipá” typical of?",
       "choices": [
-        "Misiones",
-        "Río Negro",
-        "Santa Cruz",
-        "Chaco"
+        "Catamarca",
+        "Jujuy",
+        "Chaco",
+        "Neuquén"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "7bc517d330a6",
@@ -4755,9 +4755,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province is the dish “Grilled pacú” typical of?",
       "choices": [
         "Chaco",
-        "Córdoba",
-        "Corrientes",
-        "Buenos Aires"
+        "Entre Ríos",
+        "Formosa",
+        "Santa Fe"
       ],
       "correctIndex": 0
     },
@@ -4767,12 +4767,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Boiled cassava” typical of?",
       "choices": [
-        "Buenos Aires",
-        "Tucumán",
         "Chaco",
-        "Santa Cruz"
+        "Santa Cruz",
+        "Santa Fe",
+        "Tucumán"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "5f847eae0169",
@@ -4780,12 +4780,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is El Impenetrable National Park?",
       "choices": [
-        "Chaco",
-        "Tucumán",
-        "Entre Ríos",
-        "Misiones"
+        "Córdoba",
+        "Neuquén",
+        "Santa Fe",
+        "Chaco"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "5dfffc36f4f3",
@@ -4793,10 +4793,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Resistencia, City of Sculptures?",
       "choices": [
-        "Santa Fe",
-        "Buenos Aires City",
+        "Santiago del Estero",
+        "Misiones",
         "Chaco",
-        "Neuquén"
+        "Salta"
       ],
       "correctIndex": 2
     },
@@ -4806,12 +4806,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Chaco National Park?",
       "choices": [
-        "Buenos Aires",
-        "Chaco",
-        "Salta",
-        "Chubut"
+        "San Juan",
+        "Misiones",
+        "Buenos Aires City",
+        "Chaco"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "cf1dfeeed051",
@@ -4819,12 +4819,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Resistencia, an open-air museum”?",
       "choices": [
-        "Jujuy",
-        "Chaco",
-        "Tierra del Fuego",
-        "Falkland Islands (Malvinas)"
+        "La Pampa",
+        "Chubut",
+        "Neuquén",
+        "Chaco"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "9035d20611cc",
@@ -4832,12 +4832,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The Chaco scrub, a historic key”?",
       "choices": [
-        "Chaco",
-        "Mendoza",
+        "La Pampa",
         "Santiago del Estero",
-        "Río Negro"
+        "Chaco",
+        "Catamarca"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "fa60075ab27e",
@@ -4845,12 +4845,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Huemul”?",
       "choices": [
-        "Misiones",
-        "San Juan",
         "Chubut",
-        "Santiago del Estero"
+        "La Pampa",
+        "Entre Ríos",
+        "Río Negro"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Huemul” is part of the wildlife of Chubut."
     },
     {
@@ -4859,12 +4859,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Southern right whale”?",
       "choices": [
-        "Córdoba",
-        "Tucumán",
-        "Mendoza",
-        "Chubut"
+        "Corrientes",
+        "Chubut",
+        "Buenos Aires",
+        "Río Negro"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Southern right whale” is part of the wildlife of Chubut."
     },
     {
@@ -4873,12 +4873,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Patagonian coirón”?",
       "choices": [
-        "San Juan",
-        "Formosa",
-        "Salta",
-        "Chubut"
+        "La Pampa",
+        "Tucumán",
+        "Chubut",
+        "Chaco"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Patagonian coirón” is a typical plant of Chubut."
     },
     {
@@ -4887,12 +4887,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Calafate”?",
       "choices": [
-        "Río Negro",
-        "San Luis",
-        "Mendoza",
-        "Chubut"
+        "San Juan",
+        "Chubut",
+        "Jujuy",
+        "La Pampa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Calafate” is a typical plant of Chubut."
     },
     {
@@ -4901,12 +4901,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Maitén”?",
       "choices": [
-        "Mendoza",
-        "Salta",
         "Chubut",
-        "Tierra del Fuego"
+        "Tierra del Fuego",
+        "Santa Fe",
+        "Buenos Aires"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Maitén” is a typical plant of Chubut."
     },
     {
@@ -4915,9 +4915,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Patagonian lamb” typical of?",
       "choices": [
-        "Buenos Aires",
-        "La Rioja",
-        "San Luis",
+        "Salta",
+        "Santiago del Estero",
+        "Formosa",
         "Chubut"
       ],
       "correctIndex": 3
@@ -4928,12 +4928,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Welsh cake” typical of?",
       "choices": [
-        "Santa Cruz",
-        "Chubut",
+        "Corrientes",
         "Salta",
-        "La Pampa"
+        "Chubut",
+        "La Rioja"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "9c8b6b7f36e5",
@@ -4941,12 +4941,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “River trout” typical of?",
       "choices": [
+        "San Juan",
+        "Neuquén",
         "Chubut",
-        "La Rioja",
-        "San Luis",
-        "Corrientes"
+        "Córdoba"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "3b44b74accb8",
@@ -4954,12 +4954,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Península Valdés?",
       "choices": [
-        "Chubut",
-        "Córdoba",
-        "Entre Ríos",
-        "San Luis"
+        "San Juan",
+        "Neuquén",
+        "San Luis",
+        "Chubut"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "f27e0cc05068",
@@ -4967,12 +4967,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Los Alerces National Park?",
       "choices": [
-        "Santa Fe",
-        "Entre Ríos",
-        "Catamarca",
-        "Chubut"
+        "Chubut",
+        "San Juan",
+        "Falkland Islands (Malvinas)",
+        "Jujuy"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "e32a7dcf052f",
@@ -4980,12 +4980,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Punta Tombo (penguin reserve)?",
       "choices": [
+        "Santiago del Estero",
         "Chubut",
-        "Mendoza",
-        "Falkland Islands (Malvinas)",
-        "Corrientes"
+        "Buenos Aires",
+        "San Juan"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "0729f455eb40",
@@ -4993,10 +4993,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Welsh colonisation in the valley”?",
       "choices": [
-        "Falkland Islands (Malvinas)",
+        "Buenos Aires City",
         "Chubut",
-        "San Juan",
-        "Chaco"
+        "Santa Fe",
+        "Río Negro"
       ],
       "correctIndex": 1
     },
@@ -5006,10 +5006,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “A Patagonia of two worlds”?",
       "choices": [
-        "Jujuy",
+        "Santa Fe",
         "Chubut",
-        "Salta",
-        "Río Negro"
+        "Santiago del Estero",
+        "Corrientes"
       ],
       "correctIndex": 1
     },
@@ -5019,12 +5019,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Andean condor”?",
       "choices": [
-        "San Luis",
-        "Formosa",
+        "Catamarca",
+        "Córdoba",
         "Salta",
-        "Córdoba"
+        "Misiones"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Andean condor” is part of the wildlife of Córdoba."
     },
     {
@@ -5033,12 +5033,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Puma”?",
       "choices": [
-        "Córdoba",
-        "Buenos Aires",
+        "Falkland Islands (Malvinas)",
         "Tucumán",
-        "Entre Ríos"
+        "Córdoba",
+        "Santiago del Estero"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Puma” is part of the wildlife of Córdoba."
     },
     {
@@ -5047,7 +5047,7 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Molle de beber”?",
       "choices": [
-        "Santiago del Estero",
+        "Falkland Islands (Malvinas)",
         "Córdoba",
         "La Pampa",
         "Tierra del Fuego"
@@ -5061,10 +5061,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Espinillo”?",
       "choices": [
-        "Catamarca",
-        "Corrientes",
+        "Misiones",
+        "Santa Fe",
         "Córdoba",
-        "Chaco"
+        "Falkland Islands (Malvinas)"
       ],
       "correctIndex": 2,
       "explanation": "“Espinillo” is a typical plant of Córdoba."
@@ -5075,12 +5075,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Peperina serrana”?",
       "choices": [
-        "Córdoba",
-        "Chubut",
-        "Mendoza",
-        "Corrientes"
+        "San Juan",
+        "Chaco",
+        "La Pampa",
+        "Córdoba"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Peperina serrana” is a typical plant of Córdoba."
     },
     {
@@ -5089,10 +5089,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Hill kid goat” typical of?",
       "choices": [
-        "Tucumán",
-        "Córdoba",
         "La Pampa",
-        "Formosa"
+        "Córdoba",
+        "Entre Ríos",
+        "Falkland Islands (Malvinas)"
       ],
       "correctIndex": 1
     },
@@ -5102,12 +5102,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Córdoba choripán” typical of?",
       "choices": [
-        "Jujuy",
-        "Córdoba",
-        "Chubut",
-        "Santa Fe"
+        "Santa Fe",
+        "Mendoza",
+        "Río Negro",
+        "Córdoba"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "ffc692fb5311",
@@ -5115,12 +5115,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Córdoba alfajor” typical of?",
       "choices": [
-        "Río Negro",
+        "Chubut",
+        "Neuquén",
         "Córdoba",
-        "San Juan",
-        "La Pampa"
+        "Falkland Islands (Malvinas)"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "5c7ad69b41c7",
@@ -5128,12 +5128,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Calamuchita Valley (Villa General Belgrano and La Cumbrecita)?",
       "choices": [
-        "Entre Ríos",
+        "Santiago del Estero",
+        "Misiones",
         "Córdoba",
-        "San Luis",
-        "Tucumán"
+        "Chubut"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "95e4662703ea",
@@ -5141,12 +5141,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Camino de las Altas Cumbres?",
       "choices": [
-        "Córdoba",
-        "Corrientes",
-        "Santa Fe",
-        "Chaco"
+        "La Pampa",
+        "Buenos Aires",
+        "Mendoza",
+        "Córdoba"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "4f33c3b918f0",
@@ -5154,12 +5154,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Quebrada del Condorito National Park?",
       "choices": [
+        "Neuquén",
+        "Santiago del Estero",
         "Córdoba",
-        "Buenos Aires City",
-        "Tierra del Fuego",
-        "Santiago del Estero"
+        "Misiones"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "73f421539318",
@@ -5167,12 +5167,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “A historic university”?",
       "choices": [
-        "Misiones",
-        "Entre Ríos",
-        "Chaco",
-        "Córdoba"
+        "Salta",
+        "Córdoba",
+        "Buenos Aires",
+        "Chubut"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "1f8b1fa7000f",
@@ -5180,12 +5180,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The University Reform of 1918”?",
       "choices": [
-        "Córdoba",
-        "Río Negro",
-        "Misiones",
-        "Entre Ríos"
+        "Catamarca",
+        "Chaco",
+        "Santa Fe",
+        "Córdoba"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "f2622fa4120b",
@@ -5193,12 +5193,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Capybara”?",
       "choices": [
-        "Catamarca",
-        "San Juan",
+        "Tucumán",
         "Corrientes",
-        "Falkland Islands (Malvinas)"
+        "La Pampa",
+        "Buenos Aires City"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Capybara” is part of the wildlife of Corrientes."
     },
     {
@@ -5207,12 +5207,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Broad-snouted caiman”?",
       "choices": [
-        "Misiones",
+        "Tucumán",
         "Córdoba",
-        "Corrientes",
-        "Santa Cruz"
+        "Mendoza",
+        "Corrientes"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Broad-snouted caiman” is part of the wildlife of Corrientes."
     },
     {
@@ -5221,10 +5221,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Irupé”?",
       "choices": [
-        "Formosa",
-        "Buenos Aires",
+        "San Luis",
+        "Córdoba",
         "Corrientes",
-        "Catamarca"
+        "San Juan"
       ],
       "correctIndex": 2,
       "explanation": "“Irupé” is a typical plant of Corrientes."
@@ -5235,12 +5235,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Camalote”?",
       "choices": [
-        "Chaco",
-        "San Luis",
-        "Salta",
-        "Corrientes"
+        "La Pampa",
+        "Corrientes",
+        "Buenos Aires City",
+        "Falkland Islands (Malvinas)"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Camalote” is a typical plant of Corrientes."
     },
     {
@@ -5249,12 +5249,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Black lapacho”?",
       "choices": [
-        "San Luis",
+        "Córdoba",
+        "Entre Ríos",
         "Corrientes",
-        "Jujuy",
-        "La Rioja"
+        "Chubut"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Black lapacho” is a typical plant of Corrientes."
     },
     {
@@ -5263,12 +5263,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Mbaipy” typical of?",
       "choices": [
-        "Corrientes",
-        "Buenos Aires",
-        "Chubut",
-        "Falkland Islands (Malvinas)"
+        "Falkland Islands (Malvinas)",
+        "Tucumán",
+        "Entre Ríos",
+        "Corrientes"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "802a04be25d8",
@@ -5276,12 +5276,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Sopa correntina” typical of?",
       "choices": [
-        "Falkland Islands (Malvinas)",
         "Río Negro",
-        "Corrientes",
-        "Buenos Aires"
+        "Santa Cruz",
+        "Chaco",
+        "Corrientes"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "2ec4a5f01399",
@@ -5289,12 +5289,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Grilled dorado” typical of?",
       "choices": [
+        "Buenos Aires City",
+        "Santa Cruz",
         "Neuquén",
-        "Santiago del Estero",
-        "Corrientes",
-        "Buenos Aires City"
+        "Corrientes"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "0310f185549a",
@@ -5302,12 +5302,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Esteros del Iberá?",
       "choices": [
-        "Chaco",
-        "La Rioja",
         "Catamarca",
-        "Corrientes"
+        "Corrientes",
+        "Tucumán",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "f2e90c0f5b50",
@@ -5315,12 +5315,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Riverfront and historic centre of Corrientes city?",
       "choices": [
-        "Río Negro",
-        "La Pampa",
-        "Buenos Aires City",
-        "Corrientes"
+        "Corrientes",
+        "San Juan",
+        "Santiago del Estero",
+        "Catamarca"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "33181d9dd268",
@@ -5328,12 +5328,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Mburucuyá National Park?",
       "choices": [
-        "Buenos Aires City",
-        "Buenos Aires",
-        "Chubut",
-        "Corrientes"
+        "Falkland Islands (Malvinas)",
+        "La Pampa",
+        "Corrientes",
+        "Santa Cruz"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "39d97c930301",
@@ -5341,12 +5341,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “A living Guaraní heritage”?",
       "choices": [
-        "Buenos Aires City",
-        "Entre Ríos",
+        "Río Negro",
         "Corrientes",
-        "Falkland Islands (Malvinas)"
+        "San Juan",
+        "Santa Cruz"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "84c9acc0cb36",
@@ -5354,10 +5354,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Iberá and the recovery of wildlife”?",
       "choices": [
-        "Córdoba",
+        "Formosa",
         "Corrientes",
-        "Tucumán",
-        "Chubut"
+        "Catamarca",
+        "Santiago del Estero"
       ],
       "correctIndex": 1
     },
@@ -5367,9 +5367,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Capybara”?",
       "choices": [
-        "Santa Fe",
+        "Santiago del Estero",
+        "San Luis",
         "La Rioja",
-        "Buenos Aires City",
         "Entre Ríos"
       ],
       "correctIndex": 3,
@@ -5381,12 +5381,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Neotropical otter”?",
       "choices": [
-        "Entre Ríos",
-        "Misiones",
-        "Chubut",
-        "San Luis"
+        "Santa Cruz",
+        "Córdoba",
+        "Mendoza",
+        "Entre Ríos"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Neotropical otter” is part of the wildlife of Entre Ríos."
     },
     {
@@ -5395,12 +5395,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Criollo willow”?",
       "choices": [
+        "Tierra del Fuego",
         "Entre Ríos",
-        "Santa Fe",
-        "San Juan",
-        "Tucumán"
+        "Falkland Islands (Malvinas)",
+        "San Luis"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Criollo willow” is a typical plant of Entre Ríos."
     },
     {
@@ -5410,11 +5410,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province does this plant grow: “Timbó”?",
       "choices": [
         "La Rioja",
-        "Entre Ríos",
-        "Santa Fe",
-        "Córdoba"
+        "San Juan",
+        "Chaco",
+        "Entre Ríos"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Timbó” is a typical plant of Entre Ríos."
     },
     {
@@ -5423,12 +5423,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Espinillo del río”?",
       "choices": [
-        "Tierra del Fuego",
-        "Córdoba",
-        "Río Negro",
-        "Entre Ríos"
+        "Entre Ríos",
+        "Buenos Aires City",
+        "Formosa",
+        "San Luis"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Espinillo del río” is a typical plant of Entre Ríos."
     },
     {
@@ -5437,10 +5437,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Fish of the Paraná and the Uruguay” typical of?",
       "choices": [
-        "Santa Cruz",
-        "Formosa",
+        "Chaco",
+        "Falkland Islands (Malvinas)",
         "Entre Ríos",
-        "San Luis"
+        "Chubut"
       ],
       "correctIndex": 2
     },
@@ -5450,12 +5450,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Fish empanadas” typical of?",
       "choices": [
-        "Tucumán",
-        "Buenos Aires",
-        "Córdoba",
-        "Entre Ríos"
+        "Entre Ríos",
+        "Santa Fe",
+        "Formosa",
+        "Catamarca"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "ebfeb0bc0fef",
@@ -5463,12 +5463,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Asado con cuero” typical of?",
       "choices": [
-        "La Pampa",
         "Entre Ríos",
-        "Tucumán",
+        "Chubut",
+        "Santiago del Estero",
         "Jujuy"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "045ab613e663",
@@ -5476,12 +5476,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is El Palmar National Park?",
       "choices": [
-        "San Juan",
-        "Buenos Aires",
-        "Buenos Aires City",
-        "Entre Ríos"
+        "La Pampa",
+        "Tucumán",
+        "Entre Ríos",
+        "Chaco"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "781ad78a4824",
@@ -5489,12 +5489,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Federación Hot Springs?",
       "choices": [
-        "Santa Fe",
-        "Jujuy",
         "Entre Ríos",
-        "Salta"
+        "Salta",
+        "La Rioja",
+        "Formosa"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "24d2fd795b46",
@@ -5502,12 +5502,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Palacio San José (Concepción del Uruguay)?",
       "choices": [
-        "Corrientes",
-        "Río Negro",
-        "Chubut",
-        "Entre Ríos"
+        "Entre Ríos",
+        "Santa Cruz",
+        "Buenos Aires",
+        "Catamarca"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "a9289f071d24",
@@ -5515,12 +5515,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Capital of the Confederation”?",
       "choices": [
+        "Buenos Aires",
+        "Tucumán",
         "Entre Ríos",
-        "Corrientes",
-        "Falkland Islands (Malvinas)",
-        "Santiago del Estero"
+        "Neuquén"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "8692590f05f6",
@@ -5528,10 +5528,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Palacio San José and Urquiza”?",
       "choices": [
-        "San Luis",
-        "Córdoba",
+        "Mendoza",
+        "Catamarca",
         "Entre Ríos",
-        "Río Negro"
+        "La Rioja"
       ],
       "correctIndex": 2
     },
@@ -5541,12 +5541,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Argentine black and white tegu”?",
       "choices": [
-        "Tucumán",
-        "Santa Fe",
         "Formosa",
-        "Chaco"
+        "Río Negro",
+        "San Juan",
+        "Jujuy"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Argentine black and white tegu” is part of the wildlife of Formosa."
     },
     {
@@ -5555,12 +5555,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Giant anteater”?",
       "choices": [
-        "Santiago del Estero",
-        "Santa Cruz",
+        "San Juan",
         "Formosa",
-        "Río Negro"
+        "San Luis",
+        "Misiones"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Giant anteater” is part of the wildlife of Formosa."
     },
     {
@@ -5569,12 +5569,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Palo santo”?",
       "choices": [
-        "Jujuy",
-        "Corrientes",
-        "Mendoza",
-        "Formosa"
+        "Misiones",
+        "Neuquén",
+        "Formosa",
+        "La Rioja"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Palo santo” is a typical plant of Formosa."
     },
     {
@@ -5583,12 +5583,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Caranday”?",
       "choices": [
-        "Catamarca",
+        "Chaco",
+        "La Pampa",
         "Formosa",
-        "Santiago del Estero",
-        "Jujuy"
+        "Tucumán"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Caranday” is a typical plant of Formosa."
     },
     {
@@ -5597,12 +5597,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Guayacán”?",
       "choices": [
-        "Salta",
-        "Mendoza",
-        "Chubut",
-        "Formosa"
+        "Santa Cruz",
+        "San Luis",
+        "Formosa",
+        "Río Negro"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Guayacán” is a typical plant of Formosa."
     },
     {
@@ -5611,12 +5611,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Sopa paraguaya” typical of?",
       "choices": [
-        "Salta",
-        "Catamarca",
-        "Jujuy",
-        "Formosa"
+        "San Juan",
+        "Formosa",
+        "La Pampa",
+        "Salta"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "a452d92751cd",
@@ -5624,9 +5624,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Baked pacú” typical of?",
       "choices": [
+        "Río Negro",
         "San Luis",
         "Tucumán",
-        "Chaco",
         "Formosa"
       ],
       "correctIndex": 3
@@ -5637,12 +5637,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Chipá cuerito” typical of?",
       "choices": [
-        "Tierra del Fuego",
-        "Buenos Aires City",
-        "Formosa",
-        "La Rioja"
+        "Catamarca",
+        "San Luis",
+        "Santa Fe",
+        "Formosa"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "f74a7bafa4bf",
@@ -5650,12 +5650,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Bañado La Estrella?",
       "choices": [
+        "San Luis",
         "Formosa",
-        "La Pampa",
-        "Chubut",
-        "Córdoba"
+        "Mendoza",
+        "Tucumán"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "e9e21dcf2ff3",
@@ -5663,12 +5663,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Río Pilcomayo National Park?",
       "choices": [
+        "La Rioja",
+        "Salta",
         "Formosa",
-        "Buenos Aires",
-        "La Pampa",
-        "Tierra del Fuego"
+        "Río Negro"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "5f5051027c68",
@@ -5676,12 +5676,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Laguna Oca Biosphere Reserve (Formosa city)?",
       "choices": [
-        "Santiago del Estero",
-        "Formosa",
-        "Buenos Aires City",
-        "Córdoba"
+        "Santa Fe",
+        "Tucumán",
+        "Misiones",
+        "Formosa"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "e758a346e4a1",
@@ -5689,12 +5689,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Rivers and native peoples”?",
       "choices": [
-        "Catamarca",
         "Formosa",
-        "Entre Ríos",
-        "Misiones"
+        "Salta",
+        "Mendoza",
+        "Río Negro"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "460e4a56fddb",
@@ -5702,12 +5702,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Bañado La Estrella”?",
       "choices": [
-        "Entre Ríos",
+        "La Pampa",
+        "Mendoza",
         "Formosa",
-        "Santa Cruz",
-        "Santa Fe"
+        "Neuquén"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d8c0f3e318f8",
@@ -5715,12 +5715,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Llama”?",
       "choices": [
-        "Jujuy",
+        "Chubut",
+        "Mendoza",
         "Formosa",
-        "Catamarca",
-        "Chubut"
+        "Jujuy"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Llama” is part of the wildlife of Jujuy."
     },
     {
@@ -5729,12 +5729,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Vicuña”?",
       "choices": [
-        "Corrientes",
-        "Santa Cruz",
-        "La Rioja",
-        "Jujuy"
+        "Santiago del Estero",
+        "Río Negro",
+        "Jujuy",
+        "Catamarca"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Vicuña” is part of the wildlife of Jujuy."
     },
     {
@@ -5743,12 +5743,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Queñoa”?",
       "choices": [
-        "La Rioja",
-        "Tucumán",
+        "Falkland Islands (Malvinas)",
         "Jujuy",
-        "Chaco"
+        "Buenos Aires",
+        "Santa Fe"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Queñoa” is a typical plant of Jujuy."
     },
     {
@@ -5757,12 +5757,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Puna tola”?",
       "choices": [
-        "Jujuy",
         "Buenos Aires",
-        "Río Negro",
-        "Misiones"
+        "Neuquén",
+        "Jujuy",
+        "Chubut"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Puna tola” is a typical plant of Jujuy."
     },
     {
@@ -5771,12 +5771,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Cebil”?",
       "choices": [
-        "Chaco",
         "Jujuy",
-        "Buenos Aires",
-        "Neuquén"
+        "Santa Fe",
+        "Misiones",
+        "Río Negro"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Cebil” is a typical plant of Jujuy."
     },
     {
@@ -5785,12 +5785,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Humita en chala” typical of?",
       "choices": [
-        "Jujuy",
-        "San Juan",
-        "La Pampa",
-        "Chaco"
+        "Formosa",
+        "Chaco",
+        "Santa Fe",
+        "Jujuy"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "dc17461302a6",
@@ -5798,12 +5798,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Jujuy tamales” typical of?",
       "choices": [
-        "Jujuy",
-        "Catamarca",
-        "Buenos Aires",
-        "Formosa"
+        "San Juan",
+        "San Luis",
+        "La Rioja",
+        "Jujuy"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "16e5796e1532",
@@ -5812,11 +5812,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province is the dish “Calapurca” typical of?",
       "choices": [
         "La Pampa",
-        "Jujuy",
-        "Santa Cruz",
-        "Falkland Islands (Malvinas)"
+        "Neuquén",
+        "Córdoba",
+        "Jujuy"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "4521fc846679",
@@ -5824,12 +5824,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Purmamarca and the Hill of Seven Colours?",
       "choices": [
-        "San Juan",
-        "La Rioja",
-        "Neuquén",
-        "Jujuy"
+        "Formosa",
+        "Falkland Islands (Malvinas)",
+        "Jujuy",
+        "San Luis"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "37de7a6aa7f9",
@@ -5837,12 +5837,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Quebrada de Humahuaca (Tilcara and Humahuaca)?",
       "choices": [
-        "Catamarca",
+        "Corrientes",
+        "Entre Ríos",
         "Jujuy",
-        "Buenos Aires",
         "Buenos Aires City"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "10009b61fee3",
@@ -5850,12 +5850,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Salinas Grandes and Cuesta de Lipán?",
       "choices": [
-        "Tucumán",
-        "Río Negro",
-        "Chubut",
-        "Jujuy"
+        "Catamarca",
+        "Jujuy",
+        "San Juan",
+        "Misiones"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "90962fdbc3b8",
@@ -5863,12 +5863,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Ancient Quebrada de Humahuaca”?",
       "choices": [
-        "Mendoza",
-        "Corrientes",
+        "Santiago del Estero",
         "Jujuy",
-        "Chaco"
+        "Entre Ríos",
+        "Buenos Aires City"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "147c73b7da52",
@@ -5876,12 +5876,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Belgrano and the Flag in Jujuy”?",
       "choices": [
-        "Tucumán",
-        "Salta",
-        "Misiones",
-        "Jujuy"
+        "Jujuy",
+        "La Pampa",
+        "Neuquén",
+        "Catamarca"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "0d28d1cf0f96",
@@ -5889,12 +5889,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Puma”?",
       "choices": [
-        "Neuquén",
-        "Buenos Aires City",
-        "Tierra del Fuego",
-        "La Pampa"
+        "San Juan",
+        "La Pampa",
+        "Buenos Aires",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Puma” is part of the wildlife of La Pampa."
     },
     {
@@ -5903,12 +5903,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Greater rhea”?",
       "choices": [
-        "San Juan",
-        "La Rioja",
+        "Misiones",
         "La Pampa",
-        "Santiago del Estero"
+        "Chaco",
+        "Entre Ríos"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Greater rhea” is part of the wildlife of La Pampa."
     },
     {
@@ -5917,12 +5917,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Caldén”?",
       "choices": [
-        "Río Negro",
-        "Corrientes",
+        "Catamarca",
         "La Pampa",
-        "Buenos Aires"
+        "San Luis",
+        "Entre Ríos"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Caldén” is a typical plant of La Pampa."
     },
     {
@@ -5931,12 +5931,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Pampas jarilla”?",
       "choices": [
-        "Entre Ríos",
-        "San Juan",
-        "Tucumán",
-        "La Pampa"
+        "La Pampa",
+        "Buenos Aires",
+        "La Rioja",
+        "Santa Fe"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Pampas jarilla” is a typical plant of La Pampa."
     },
     {
@@ -5945,12 +5945,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Olivo de burro”?",
       "choices": [
-        "Santiago del Estero",
-        "La Pampa",
-        "Tierra del Fuego",
-        "Corrientes"
+        "Río Negro",
+        "Falkland Islands (Malvinas)",
+        "Neuquén",
+        "La Pampa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Olivo de burro” is a typical plant of La Pampa."
     },
     {
@@ -5959,12 +5959,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Pampas asado criollo” typical of?",
       "choices": [
-        "La Rioja",
-        "Mendoza",
-        "La Pampa",
-        "Catamarca"
+        "Río Negro",
+        "Córdoba",
+        "Santiago del Estero",
+        "La Pampa"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "4ec776a0fd07",
@@ -5972,12 +5972,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Chivito al asador” typical of?",
       "choices": [
-        "Neuquén",
         "La Pampa",
-        "Santiago del Estero",
-        "Chubut"
+        "Entre Ríos",
+        "Jujuy",
+        "San Luis"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "1a685a1982a0",
@@ -5985,12 +5985,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Torta frita” typical of?",
       "choices": [
+        "Buenos Aires City",
         "La Pampa",
-        "San Juan",
-        "San Luis",
-        "Tierra del Fuego"
+        "Neuquén",
+        "San Luis"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "b5ce1b9027e5",
@@ -5998,12 +5998,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Lihué Calel National Park?",
       "choices": [
-        "San Luis",
-        "Santiago del Estero",
         "La Pampa",
-        "Catamarca"
+        "Chubut",
+        "Buenos Aires",
+        "Córdoba"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "56c0dacf6f36",
@@ -6011,12 +6011,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Parque Luro Provincial Reserve?",
       "choices": [
-        "Córdoba",
-        "Catamarca",
-        "La Pampa",
-        "Chaco"
+        "Falkland Islands (Malvinas)",
+        "Buenos Aires",
+        "Chubut",
+        "La Pampa"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "2d996c6c25aa",
@@ -6024,12 +6024,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Laguna de Utracán and Guatraché area?",
       "choices": [
-        "Chubut",
-        "San Juan",
-        "Santiago del Estero",
-        "La Pampa"
+        "La Pampa",
+        "Córdoba",
+        "La Rioja",
+        "Neuquén"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d4a4d2f0989e",
@@ -6037,12 +6037,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The caldén, emblem tree”?",
       "choices": [
-        "Salta",
-        "Chaco",
-        "La Pampa",
-        "Santa Fe"
+        "Entre Ríos",
+        "Chubut",
+        "San Juan",
+        "La Pampa"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "537a6cea918d",
@@ -6051,11 +6051,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province does this historical fact belong to: “A crossroads of historic routes”?",
       "choices": [
         "La Rioja",
-        "Neuquén",
-        "Corrientes",
-        "La Pampa"
+        "Mendoza",
+        "La Pampa",
+        "Buenos Aires City"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "1791ce4d7265",
@@ -6063,12 +6063,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Greater rhea”?",
       "choices": [
+        "Tierra del Fuego",
         "La Rioja",
         "Córdoba",
-        "La Pampa",
-        "Formosa"
+        "Jujuy"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Greater rhea” is part of the wildlife of La Rioja."
     },
     {
@@ -6077,12 +6077,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Guanaco”?",
       "choices": [
-        "Río Negro",
         "La Rioja",
         "Chubut",
-        "Chaco"
+        "Mendoza",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Guanaco” is part of the wildlife of La Rioja."
     },
     {
@@ -6091,12 +6091,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Jarilla”?",
       "choices": [
-        "Buenos Aires",
         "La Rioja",
-        "Buenos Aires City",
-        "Neuquén"
+        "Buenos Aires",
+        "Corrientes",
+        "La Pampa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Jarilla” is a typical plant of La Rioja."
     },
     {
@@ -6105,12 +6105,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Retortuño”?",
       "choices": [
-        "La Rioja",
-        "Formosa",
-        "Santa Fe",
-        "Córdoba"
+        "Santiago del Estero",
+        "Jujuy",
+        "Falkland Islands (Malvinas)",
+        "La Rioja"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Retortuño” is a typical plant of La Rioja."
     },
     {
@@ -6119,12 +6119,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “White algarrobo”?",
       "choices": [
-        "Catamarca",
         "La Rioja",
-        "Corrientes",
-        "Salta"
+        "La Pampa",
+        "Córdoba",
+        "Jujuy"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“White algarrobo” is a typical plant of La Rioja."
     },
     {
@@ -6133,12 +6133,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Chanfaina riojana” typical of?",
       "choices": [
-        "Salta",
-        "San Luis",
-        "Santiago del Estero",
-        "La Rioja"
+        "Tucumán",
+        "Córdoba",
+        "La Rioja",
+        "Río Negro"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "e71b6af18f38",
@@ -6147,9 +6147,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province is the dish “La Rioja empanadas” typical of?",
       "choices": [
         "La Rioja",
-        "Entre Ríos",
-        "Río Negro",
-        "Santa Fe"
+        "San Juan",
+        "Chubut",
+        "La Pampa"
       ],
       "correctIndex": 0
     },
@@ -6159,12 +6159,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “La Rioja locro” typical of?",
       "choices": [
-        "Neuquén",
-        "Santa Fe",
-        "Santiago del Estero",
-        "La Rioja"
+        "La Rioja",
+        "Santa Cruz",
+        "Entre Ríos",
+        "Río Negro"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "ec9122168592",
@@ -6172,12 +6172,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Talampaya National Park?",
       "choices": [
+        "La Rioja",
         "Santa Fe",
-        "Formosa",
-        "Chaco",
-        "La Rioja"
+        "La Pampa",
+        "Santiago del Estero"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "2ada60d4e1a2",
@@ -6185,8 +6185,8 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Cuesta de Miranda?",
       "choices": [
-        "Buenos Aires City",
-        "Chaco",
+        "Jujuy",
+        "Entre Ríos",
         "La Rioja",
         "Santiago del Estero"
       ],
@@ -6198,12 +6198,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Laguna Brava National Park?",
       "choices": [
+        "Buenos Aires City",
         "La Rioja",
-        "Neuquén",
-        "Santa Cruz",
-        "Jujuy"
+        "Chubut",
+        "Entre Ríos"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "c10b9d03f3d6",
@@ -6211,12 +6211,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Land of federal caudillos”?",
       "choices": [
-        "Santiago del Estero",
+        "Misiones",
         "San Luis",
-        "Chaco",
-        "La Rioja"
+        "La Rioja",
+        "La Pampa"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "b55a33ce4d53",
@@ -6224,12 +6224,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Talampaya and deep time”?",
       "choices": [
-        "Río Negro",
+        "Chaco",
         "La Pampa",
-        "Buenos Aires",
-        "La Rioja"
+        "La Rioja",
+        "Misiones"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "2baf2f245d39",
@@ -6237,12 +6237,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Andean condor”?",
       "choices": [
-        "Buenos Aires City",
+        "Salta",
+        "Catamarca",
         "Mendoza",
-        "Córdoba",
-        "La Pampa"
+        "Entre Ríos"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Andean condor” is part of the wildlife of Mendoza."
     },
     {
@@ -6251,12 +6251,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Guanaco”?",
       "choices": [
-        "Corrientes",
-        "Salta",
+        "Mendoza",
+        "La Rioja",
         "Jujuy",
-        "Mendoza"
+        "Tierra del Fuego"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Guanaco” is part of the wildlife of Mendoza."
     },
     {
@@ -6265,10 +6265,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Ajarilla”?",
       "choices": [
-        "Falkland Islands (Malvinas)",
         "San Juan",
+        "Río Negro",
         "Mendoza",
-        "Santa Fe"
+        "Santiago del Estero"
       ],
       "correctIndex": 2,
       "explanation": "“Ajarilla” is a typical plant of Mendoza."
@@ -6279,12 +6279,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Resinous jarillas”?",
       "choices": [
-        "Chaco",
-        "Mendoza",
+        "Salta",
         "Entre Ríos",
-        "Santiago del Estero"
+        "Santa Fe",
+        "Mendoza"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Resinous jarillas” is a typical plant of Mendoza."
     },
     {
@@ -6293,12 +6293,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Mendoza chañar”?",
       "choices": [
-        "Catamarca",
-        "La Pampa",
-        "Buenos Aires",
-        "Mendoza"
+        "Mendoza",
+        "Santa Fe",
+        "Salta",
+        "Tucumán"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Mendoza chañar” is a typical plant of Mendoza."
     },
     {
@@ -6307,12 +6307,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Tortitas mendocinas” typical of?",
       "choices": [
-        "Buenos Aires",
+        "Río Negro",
+        "Entre Ríos",
         "Mendoza",
-        "San Juan",
         "Neuquén"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "6348ced138c0",
@@ -6320,12 +6320,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Chivo a la llama” typical of?",
       "choices": [
+        "Tierra del Fuego",
         "Mendoza",
-        "Córdoba",
-        "Santiago del Estero",
-        "Falkland Islands (Malvinas)"
+        "San Luis",
+        "Santiago del Estero"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "dc1368da02ac",
@@ -6333,12 +6333,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Mendoza empanadas” typical of?",
       "choices": [
-        "Chaco",
-        "Mendoza",
-        "Santa Cruz",
-        "Tucumán"
+        "La Pampa",
+        "Buenos Aires City",
+        "Misiones",
+        "Mendoza"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "4cac7a9280b0",
@@ -6347,11 +6347,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province is Aconcagua Provincial Park?",
       "choices": [
         "Misiones",
-        "Tucumán",
-        "La Pampa",
-        "Mendoza"
+        "Neuquén",
+        "Mendoza",
+        "Entre Ríos"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "fe5b22318a54",
@@ -6359,12 +6359,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Wine Route in Luján de Cuyo and Uco Valley?",
       "choices": [
-        "Mendoza",
-        "Neuquén",
-        "Santiago del Estero",
-        "Santa Fe"
+        "Entre Ríos",
+        "Buenos Aires",
+        "Corrientes",
+        "Mendoza"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "bf4404a0b2c9",
@@ -6372,12 +6372,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Puente del Inca and Atuel Canyon Provincial Park?",
       "choices": [
-        "Santiago del Estero",
-        "Santa Cruz",
-        "Falkland Islands (Malvinas)",
-        "Mendoza"
+        "Mendoza",
+        "San Juan",
+        "Chubut",
+        "Salta"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "09b23395871b",
@@ -6385,10 +6385,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Cradle of the Army of the Andes”?",
       "choices": [
-        "San Luis",
+        "Catamarca",
         "Mendoza",
-        "Santa Cruz",
-        "Chubut"
+        "Corrientes",
+        "Chaco"
       ],
       "correctIndex": 1
     },
@@ -6398,12 +6398,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Oases built by irrigation channels”?",
       "choices": [
-        "Buenos Aires",
-        "La Pampa",
-        "Mendoza",
-        "Formosa"
+        "Chubut",
+        "San Luis",
+        "Chaco",
+        "Mendoza"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "320b2dd5eba2",
@@ -6411,10 +6411,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Jaguar”?",
       "choices": [
-        "Buenos Aires",
+        "Falkland Islands (Malvinas)",
         "Misiones",
-        "Formosa",
-        "Córdoba"
+        "Santa Cruz",
+        "Neuquén"
       ],
       "correctIndex": 1,
       "explanation": "“Jaguar” is part of the wildlife of Misiones."
@@ -6425,12 +6425,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Black howler monkey”?",
       "choices": [
-        "Salta",
-        "Tierra del Fuego",
-        "Chubut",
-        "Misiones"
+        "Misiones",
+        "San Juan",
+        "Jujuy",
+        "Catamarca"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Black howler monkey” is part of the wildlife of Misiones."
     },
     {
@@ -6439,9 +6439,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Misiones palm heart”?",
       "choices": [
-        "Salta",
-        "San Luis",
+        "La Rioja",
         "Tucumán",
+        "Corrientes",
         "Misiones"
       ],
       "correctIndex": 3,
@@ -6453,12 +6453,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Pink lapacho”?",
       "choices": [
-        "Córdoba",
-        "Río Negro",
         "Misiones",
-        "Salta"
+        "Corrientes",
+        "Santiago del Estero",
+        "Entre Ríos"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Pink lapacho” is a typical plant of Misiones."
     },
     {
@@ -6467,12 +6467,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Misiones araucaria”?",
       "choices": [
-        "Río Negro",
-        "Jujuy",
         "Misiones",
-        "Catamarca"
+        "Río Negro",
+        "Córdoba",
+        "Santiago del Estero"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Misiones araucaria” is a typical plant of Misiones."
     },
     {
@@ -6481,12 +6481,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Reviro” typical of?",
       "choices": [
+        "Neuquén",
+        "Corrientes",
         "Misiones",
-        "La Pampa",
-        "Catamarca",
-        "La Rioja"
+        "Santa Fe"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "9f94e336f6ab",
@@ -6494,12 +6494,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Misiones chipá” typical of?",
       "choices": [
-        "Córdoba",
+        "Falkland Islands (Malvinas)",
+        "Santa Cruz",
         "Misiones",
-        "Tucumán",
-        "Mendoza"
+        "La Pampa"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "57be696c8eac",
@@ -6507,12 +6507,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Mbejú” typical of?",
       "choices": [
-        "Misiones",
-        "Río Negro",
-        "Mendoza",
-        "Formosa"
+        "La Rioja",
+        "La Pampa",
+        "Tucumán",
+        "Misiones"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "5afec6959cf4",
@@ -6520,12 +6520,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Iguazú Falls?",
       "choices": [
-        "Neuquén",
-        "Buenos Aires",
         "Misiones",
+        "Santa Cruz",
+        "Corrientes",
         "Córdoba"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "486920d41163",
@@ -6533,12 +6533,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Jesuit ruins of San Ignacio Miní?",
       "choices": [
-        "La Rioja",
+        "San Luis",
+        "La Pampa",
         "Misiones",
-        "Santiago del Estero",
-        "Chaco"
+        "Chubut"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "b8eb40287a3a",
@@ -6546,12 +6546,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Moconá Falls?",
       "choices": [
-        "Formosa",
         "Misiones",
-        "Neuquén",
-        "Jujuy"
+        "Formosa",
+        "Falkland Islands (Malvinas)",
+        "Córdoba"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "eed906364302",
@@ -6559,12 +6559,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The Jesuit Missions”?",
       "choices": [
+        "Salta",
         "Misiones",
-        "Chubut",
-        "Formosa",
-        "Mendoza"
+        "Río Negro",
+        "Chubut"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "8087329d3454",
@@ -6572,9 +6572,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The rainforest and yerba mate”?",
       "choices": [
-        "Catamarca",
-        "Santa Cruz",
-        "Salta",
+        "Tierra del Fuego",
+        "Chubut",
+        "Río Negro",
         "Misiones"
       ],
       "correctIndex": 3
@@ -6585,12 +6585,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Patagonian grey fox”?",
       "choices": [
-        "Jujuy",
-        "Santiago del Estero",
-        "Córdoba",
-        "Neuquén"
+        "Neuquén",
+        "Tierra del Fuego",
+        "Buenos Aires City",
+        "Tucumán"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Patagonian grey fox” is part of the wildlife of Neuquén."
     },
     {
@@ -6599,12 +6599,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Southern pudú”?",
       "choices": [
+        "La Rioja",
         "Neuquén",
-        "Jujuy",
-        "Formosa",
-        "Tucumán"
+        "Salta",
+        "Río Negro"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Southern pudú” is part of the wildlife of Neuquén."
     },
     {
@@ -6613,10 +6613,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Pehuén (monkey puzzle tree)”?",
       "choices": [
+        "Jujuy",
         "Catamarca",
-        "Entre Ríos",
         "Neuquén",
-        "La Rioja"
+        "Misiones"
       ],
       "correctIndex": 2,
       "explanation": "“Pehuén (monkey puzzle tree)” is a typical plant of Neuquén."
@@ -6628,9 +6628,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province does this plant grow: “Ñire”?",
       "choices": [
         "Neuquén",
-        "Tucumán",
-        "Catamarca",
-        "Santa Cruz"
+        "Buenos Aires",
+        "La Pampa",
+        "Tierra del Fuego"
       ],
       "correctIndex": 0,
       "explanation": "“Ñire” is a typical plant of Neuquén."
@@ -6641,12 +6641,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Mountain maitén”?",
       "choices": [
-        "Formosa",
-        "Córdoba",
-        "Chubut",
-        "Neuquén"
+        "Santa Fe",
+        "Neuquén",
+        "Buenos Aires City",
+        "Formosa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Mountain maitén” is a typical plant of Neuquén."
     },
     {
@@ -6655,12 +6655,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Neuquén chivito” typical of?",
       "choices": [
-        "Mendoza",
         "Neuquén",
-        "Chaco",
-        "La Rioja"
+        "Buenos Aires City",
+        "Buenos Aires",
+        "Chaco"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "030b02893ee9",
@@ -6668,12 +6668,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Patagonian trout” typical of?",
       "choices": [
-        "Río Negro",
         "Neuquén",
-        "Entre Ríos",
-        "Buenos Aires"
+        "Buenos Aires",
+        "Salta",
+        "Tucumán"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "1f6a359ccc47",
@@ -6681,12 +6681,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Patagonian torta frita” typical of?",
       "choices": [
-        "La Rioja",
-        "Buenos Aires City",
-        "Santa Cruz",
-        "Neuquén"
+        "Mendoza",
+        "Falkland Islands (Malvinas)",
+        "Neuquén",
+        "Corrientes"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "a73326bc6e8d",
@@ -6695,9 +6695,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province is Villa La Angostura and Nahuel Huapi National Park?",
       "choices": [
         "Neuquén",
+        "Río Negro",
         "La Pampa",
-        "Buenos Aires City",
-        "Córdoba"
+        "Jujuy"
       ],
       "correctIndex": 0
     },
@@ -6707,12 +6707,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is San Martín de los Andes and the Seven Lakes Road?",
       "choices": [
-        "Santa Cruz",
+        "Misiones",
+        "Córdoba",
         "Neuquén",
-        "La Rioja",
-        "Santiago del Estero"
+        "Salta"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "c75c180e9ba6",
@@ -6720,9 +6720,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Lanín Volcano and Lanín National Park?",
       "choices": [
-        "Formosa",
+        "Salta",
         "Neuquén",
-        "Entre Ríos",
+        "San Juan",
         "Santiago del Estero"
       ],
       "correctIndex": 1
@@ -6733,12 +6733,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Mapuche and mountain territory”?",
       "choices": [
-        "San Juan",
-        "Chaco",
-        "Falkland Islands (Malvinas)",
-        "Neuquén"
+        "Salta",
+        "Neuquén",
+        "Corrientes",
+        "Córdoba"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "6f1f3d382075",
@@ -6746,12 +6746,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Vaca Muerta and energy”?",
       "choices": [
-        "Corrientes",
+        "Santa Cruz",
+        "La Pampa",
         "Neuquén",
-        "La Rioja",
-        "Buenos Aires City"
+        "Corrientes"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "ee347925f42d",
@@ -6759,12 +6759,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Patagonian mara”?",
       "choices": [
-        "San Luis",
-        "Salta",
+        "Mendoza",
         "Río Negro",
-        "La Pampa"
+        "Entre Ríos",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Patagonian mara” is part of the wildlife of Río Negro."
     },
     {
@@ -6774,9 +6774,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province does this animal live: “Guanaco”?",
       "choices": [
         "Río Negro",
-        "Formosa",
-        "La Rioja",
-        "Buenos Aires"
+        "Misiones",
+        "Mendoza",
+        "Santa Cruz"
       ],
       "correctIndex": 0,
       "explanation": "“Guanaco” is part of the wildlife of Río Negro."
@@ -6787,12 +6787,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Neneo”?",
       "choices": [
-        "Corrientes",
-        "Falkland Islands (Malvinas)",
-        "Tucumán",
-        "Río Negro"
+        "Río Negro",
+        "Formosa",
+        "Neuquén",
+        "Salta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Neneo” is a typical plant of Río Negro."
     },
     {
@@ -6801,12 +6801,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Patagonian molle”?",
       "choices": [
-        "Jujuy",
-        "Río Negro",
         "Entre Ríos",
-        "Santiago del Estero"
+        "Buenos Aires",
+        "Río Negro",
+        "Santa Cruz"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Patagonian molle” is a typical plant of Río Negro."
     },
     {
@@ -6815,12 +6815,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Andean coihue”?",
       "choices": [
-        "Entre Ríos",
-        "Río Negro",
-        "Santa Cruz",
-        "San Luis"
+        "Santa Fe",
+        "Neuquén",
+        "Chubut",
+        "Río Negro"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Andean coihue” is a typical plant of Río Negro."
     },
     {
@@ -6829,10 +6829,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Patagonian trout” typical of?",
       "choices": [
-        "Buenos Aires City",
         "La Rioja",
+        "Tierra del Fuego",
         "Río Negro",
-        "Santa Fe"
+        "Catamarca"
       ],
       "correctIndex": 2
     },
@@ -6842,12 +6842,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Spit-roasted lamb” typical of?",
       "choices": [
+        "Mendoza",
+        "Jujuy",
         "Río Negro",
-        "Buenos Aires",
-        "Chubut",
-        "Mendoza"
+        "Neuquén"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "b1c9f7b93d3a",
@@ -6856,11 +6856,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province is Bariloche and Circuito Chico?",
       "choices": [
         "Corrientes",
-        "Misiones",
-        "Río Negro",
-        "Mendoza"
+        "Neuquén",
+        "Falkland Islands (Malvinas)",
+        "Río Negro"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "c5c1f1790251",
@@ -6868,12 +6868,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is El Bolsón and Lago Puelo (Andean district)?",
       "choices": [
-        "Río Negro",
+        "Tucumán",
         "Misiones",
-        "Catamarca",
-        "San Luis"
+        "Río Negro",
+        "Chaco"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "e0ac8ca4e958",
@@ -6881,12 +6881,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Las Grutas and the San Matías Gulf coast?",
       "choices": [
-        "Santa Cruz",
+        "Mendoza",
+        "Entre Ríos",
         "Río Negro",
-        "Santiago del Estero",
-        "Tucumán"
+        "Falkland Islands (Malvinas)"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "190bb701cce9",
@@ -6895,9 +6895,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province does this historical fact belong to: “The fruit-growing Alto Valle”?",
       "choices": [
         "Río Negro",
-        "Chaco",
         "Santiago del Estero",
-        "Córdoba"
+        "Buenos Aires",
+        "Corrientes"
       ],
       "correctIndex": 0
     },
@@ -6907,12 +6907,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Atlantic coast and palaeontology”?",
       "choices": [
-        "San Juan",
-        "Falkland Islands (Malvinas)",
+        "Neuquén",
         "Río Negro",
-        "La Pampa"
+        "Falkland Islands (Malvinas)",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "0c44bd10f071",
@@ -6920,12 +6920,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Lowland tapir”?",
       "choices": [
-        "Tucumán",
         "Salta",
-        "La Rioja",
-        "San Luis"
+        "Jujuy",
+        "Tucumán",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Lowland tapir” is part of the wildlife of Salta."
     },
     {
@@ -6934,12 +6934,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Vicuña”?",
       "choices": [
-        "San Juan",
         "Salta",
-        "Neuquén",
-        "La Pampa"
+        "Buenos Aires City",
+        "Córdoba",
+        "Río Negro"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Vicuña” is part of the wildlife of Salta."
     },
     {
@@ -6948,12 +6948,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Yuchán”?",
       "choices": [
-        "Buenos Aires City",
-        "Santiago del Estero",
-        "Salta",
-        "Neuquén"
+        "Misiones",
+        "Entre Ríos",
+        "Córdoba",
+        "Salta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Yuchán” is a typical plant of Salta."
     },
     {
@@ -6962,12 +6962,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Pink floss silk tree”?",
       "choices": [
-        "Buenos Aires",
-        "Neuquén",
-        "San Juan",
-        "Salta"
+        "Chaco",
+        "Río Negro",
+        "Salta",
+        "Santa Cruz"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Pink floss silk tree” is a typical plant of Salta."
     },
     {
@@ -6976,10 +6976,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “White tipa”?",
       "choices": [
-        "Formosa",
-        "Tucumán",
+        "Tierra del Fuego",
+        "Jujuy",
         "Salta",
-        "Chubut"
+        "Catamarca"
       ],
       "correctIndex": 2,
       "explanation": "“White tipa” is a typical plant of Salta."
@@ -6990,12 +6990,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Salta empanadas” typical of?",
       "choices": [
-        "Salta",
         "San Juan",
-        "San Luis",
-        "Buenos Aires City"
+        "Jujuy",
+        "Misiones",
+        "Salta"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "613ac189d982",
@@ -7003,12 +7003,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Salta tamales” typical of?",
       "choices": [
-        "Santa Fe",
-        "Entre Ríos",
+        "Chubut",
+        "Salta",
         "La Rioja",
-        "Salta"
+        "Misiones"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "dbfb7427a975",
@@ -7016,12 +7016,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Humita” typical of?",
       "choices": [
+        "Entre Ríos",
         "Salta",
-        "Santa Cruz",
-        "Tucumán",
-        "Chaco"
+        "Neuquén",
+        "San Juan"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "34e47238b304",
@@ -7029,9 +7029,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Train to the Clouds (San Antonio de los Cobres)?",
       "choices": [
-        "Neuquén",
+        "Chubut",
         "Salta",
-        "Buenos Aires",
+        "Santiago del Estero",
         "La Pampa"
       ],
       "correctIndex": 1
@@ -7042,12 +7042,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Cafayate and Quebrada de las Conchas?",
       "choices": [
+        "Santa Fe",
+        "Santiago del Estero",
         "Salta",
-        "Chaco",
-        "San Juan",
-        "Buenos Aires City"
+        "Mendoza"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "a6454f16c8db",
@@ -7055,12 +7055,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Cachi and Los Cardones National Park?",
       "choices": [
+        "Corrientes",
         "Salta",
-        "Misiones",
-        "Neuquén",
-        "Santa Cruz"
+        "Santa Fe",
+        "Chaco"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "aaee98115bbd",
@@ -7068,12 +7068,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Güemes and the war of independence”?",
       "choices": [
+        "Santa Fe",
+        "Buenos Aires",
         "Salta",
-        "Santiago del Estero",
-        "Catamarca",
-        "San Juan"
+        "Córdoba"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "83e2706b8d85",
@@ -7082,11 +7082,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province does this historical fact belong to: “A mosaic of landscapes”?",
       "choices": [
         "Chubut",
-        "Salta",
-        "Falkland Islands (Malvinas)",
-        "Formosa"
+        "Entre Ríos",
+        "Santa Cruz",
+        "Salta"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "f58fa90e41f0",
@@ -7094,12 +7094,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Guanaco”?",
       "choices": [
-        "Neuquén",
         "San Juan",
-        "La Pampa",
-        "Jujuy"
+        "Jujuy",
+        "Buenos Aires City",
+        "Santiago del Estero"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Guanaco” is part of the wildlife of San Juan."
     },
     {
@@ -7108,10 +7108,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Patagonian mara”?",
       "choices": [
-        "Mendoza",
-        "Santa Fe",
+        "Salta",
+        "La Rioja",
         "San Juan",
-        "La Pampa"
+        "Santiago del Estero"
       ],
       "correctIndex": 2,
       "explanation": "“Patagonian mara” is part of the wildlife of San Juan."
@@ -7123,9 +7123,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province does this plant grow: “Retamo”?",
       "choices": [
         "San Juan",
-        "Buenos Aires City",
-        "Tucumán",
-        "Entre Ríos"
+        "Corrientes",
+        "Misiones",
+        "Buenos Aires City"
       ],
       "correctIndex": 0,
       "explanation": "“Retamo” is a typical plant of San Juan."
@@ -7136,12 +7136,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “San Juan jarilla”?",
       "choices": [
-        "La Rioja",
-        "Tierra del Fuego",
+        "Salta",
+        "San Juan",
         "Tucumán",
-        "San Juan"
+        "Tierra del Fuego"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“San Juan jarilla” is a typical plant of San Juan."
     },
     {
@@ -7150,12 +7150,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Black algarrobo”?",
       "choices": [
-        "Catamarca",
-        "San Juan",
-        "Misiones",
-        "Mendoza"
+        "Corrientes",
+        "La Rioja",
+        "Buenos Aires",
+        "San Juan"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Black algarrobo” is a typical plant of San Juan."
     },
     {
@@ -7164,12 +7164,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Punta de espalda” typical of?",
       "choices": [
-        "Corrientes",
-        "Neuquén",
-        "Formosa",
-        "San Juan"
+        "San Juan",
+        "Tucumán",
+        "La Pampa",
+        "Misiones"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "c271d91b9eff",
@@ -7177,10 +7177,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Tomaticán” typical of?",
       "choices": [
-        "Entre Ríos",
+        "Buenos Aires",
         "San Juan",
-        "Santa Fe",
-        "Jujuy"
+        "La Pampa",
+        "Santiago del Estero"
       ],
       "correctIndex": 1
     },
@@ -7190,12 +7190,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Sopaipillas” typical of?",
       "choices": [
-        "La Rioja",
-        "Buenos Aires City",
-        "Río Negro",
-        "San Juan"
+        "Formosa",
+        "Mendoza",
+        "San Juan",
+        "Tucumán"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "59f365b1900a",
@@ -7204,9 +7204,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province is Ischigualasto Provincial Park (Valley of the Moon)?",
       "choices": [
         "San Juan",
-        "La Pampa",
-        "Neuquén",
-        "San Luis"
+        "Santa Fe",
+        "Salta",
+        "Neuquén"
       ],
       "correctIndex": 0
     },
@@ -7216,12 +7216,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Cuesta del Viento Dam (Rodeo)?",
       "choices": [
-        "San Juan",
-        "Tierra del Fuego",
-        "Chaco",
-        "Salta"
+        "Santiago del Estero",
+        "Buenos Aires City",
+        "La Rioja",
+        "San Juan"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "3ae03e7ea7d0",
@@ -7229,12 +7229,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is El Leoncito National Park (Barreal)?",
       "choices": [
+        "Neuquén",
+        "Entre Ríos",
         "San Juan",
-        "Catamarca",
-        "Santa Fe",
-        "Falkland Islands (Malvinas)"
+        "Jujuy"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "0f16cfa992b7",
@@ -7242,12 +7242,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Sarmiento and education”?",
       "choices": [
-        "Mendoza",
         "San Juan",
-        "Buenos Aires City",
-        "La Rioja"
+        "La Pampa",
+        "Catamarca",
+        "Falkland Islands (Malvinas)"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "6240da804bbc",
@@ -7255,12 +7255,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Ischigualasto and unique fossils”?",
       "choices": [
+        "Formosa",
         "Corrientes",
-        "La Pampa",
-        "Mendoza",
-        "San Juan"
+        "San Juan",
+        "Entre Ríos"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "51b59b3d3d3e",
@@ -7268,12 +7268,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Six-banded armadillo”?",
       "choices": [
-        "Buenos Aires",
+        "Buenos Aires City",
+        "Corrientes",
         "San Luis",
-        "Santa Cruz",
-        "Tucumán"
+        "San Juan"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Six-banded armadillo” is part of the wildlife of San Luis."
     },
     {
@@ -7282,12 +7282,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Grey fox”?",
       "choices": [
-        "Chaco",
-        "La Pampa",
-        "Corrientes",
-        "San Luis"
+        "Misiones",
+        "San Luis",
+        "Santa Cruz",
+        "Entre Ríos"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Grey fox” is part of the wildlife of San Luis."
     },
     {
@@ -7296,12 +7296,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Sweet algarrobo”?",
       "choices": [
-        "Neuquén",
-        "La Pampa",
+        "Misiones",
         "San Luis",
-        "Santa Cruz"
+        "La Pampa",
+        "Salta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Sweet algarrobo” is a typical plant of San Luis."
     },
     {
@@ -7310,12 +7310,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “San Luis espinillo”?",
       "choices": [
-        "Entre Ríos",
-        "La Rioja",
-        "La Pampa",
-        "San Luis"
+        "San Luis",
+        "Buenos Aires City",
+        "Catamarca",
+        "Río Negro"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“San Luis espinillo” is a typical plant of San Luis."
     },
     {
@@ -7324,12 +7324,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Hill white quebracho”?",
       "choices": [
+        "Falkland Islands (Malvinas)",
+        "Formosa",
         "San Luis",
-        "Misiones",
-        "Buenos Aires",
-        "Falkland Islands (Malvinas)"
+        "La Pampa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Hill white quebracho” is a typical plant of San Luis."
     },
     {
@@ -7338,12 +7338,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “San Luis chivito” typical of?",
       "choices": [
-        "Catamarca",
-        "San Luis",
+        "La Pampa",
+        "Santa Fe",
         "Salta",
-        "Corrientes"
+        "San Luis"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "2d4c8cca614c",
@@ -7351,12 +7351,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “San Luis empanadas” typical of?",
       "choices": [
-        "Entre Ríos",
-        "Río Negro",
-        "San Luis",
-        "Chaco"
+        "Santa Fe",
+        "Neuquén",
+        "Buenos Aires City",
+        "San Luis"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "4f14984b3415",
@@ -7364,10 +7364,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Carbonada” typical of?",
       "choices": [
-        "Mendoza",
+        "Santa Fe",
         "San Luis",
-        "Santiago del Estero",
-        "Tierra del Fuego"
+        "La Pampa",
+        "Catamarca"
       ],
       "correctIndex": 1
     },
@@ -7377,10 +7377,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Sierra de las Quijadas National Park?",
       "choices": [
-        "Salta",
+        "Santiago del Estero",
         "San Luis",
-        "Catamarca",
-        "Santa Fe"
+        "Corrientes",
+        "Buenos Aires City"
       ],
       "correctIndex": 1
     },
@@ -7390,12 +7390,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Potrero de los Funes?",
       "choices": [
-        "San Luis",
         "Buenos Aires",
-        "Formosa",
-        "Tierra del Fuego"
+        "Catamarca",
+        "Mendoza",
+        "San Luis"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "1295a54954ff",
@@ -7403,10 +7403,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Merlo and Rincón del Este Flora and Fauna Reserve?",
       "choices": [
-        "Santa Cruz",
-        "Salta",
+        "San Juan",
+        "Chubut",
         "San Luis",
-        "Río Negro"
+        "Tierra del Fuego"
       ],
       "correctIndex": 2
     },
@@ -7416,12 +7416,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “A staging post of inland roads”?",
       "choices": [
-        "Tierra del Fuego",
-        "Río Negro",
         "San Luis",
-        "Chaco"
+        "Buenos Aires City",
+        "Catamarca",
+        "Chubut"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "af626ca4e57b",
@@ -7429,12 +7429,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “A landscape of hills and salt flats”?",
       "choices": [
-        "Corrientes",
-        "Formosa",
-        "La Rioja",
-        "San Luis"
+        "San Luis",
+        "Salta",
+        "La Pampa",
+        "Mendoza"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "8ad71a1a138f",
@@ -7442,9 +7442,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Southern pudú”?",
       "choices": [
-        "Santa Fe",
-        "La Pampa",
-        "Catamarca",
+        "Río Negro",
+        "Entre Ríos",
+        "Santiago del Estero",
         "Santa Cruz"
       ],
       "correctIndex": 3,
@@ -7456,12 +7456,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Guanaco”?",
       "choices": [
-        "Catamarca",
-        "Salta",
         "Santa Cruz",
-        "Río Negro"
+        "Buenos Aires City",
+        "Chaco",
+        "Tucumán"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Guanaco” is part of the wildlife of Santa Cruz."
     },
     {
@@ -7470,12 +7470,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Mata negra”?",
       "choices": [
+        "San Luis",
+        "Río Negro",
         "Santa Cruz",
-        "Misiones",
-        "Salta",
-        "Santiago del Estero"
+        "Tucumán"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Mata negra” is a typical plant of Santa Cruz."
     },
     {
@@ -7484,10 +7484,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Fuegian coirón”?",
       "choices": [
-        "Misiones",
-        "Córdoba",
+        "Chaco",
+        "San Juan",
         "Santa Cruz",
-        "La Pampa"
+        "Neuquén"
       ],
       "correctIndex": 2,
       "explanation": "“Fuegian coirón” is a typical plant of Santa Cruz."
@@ -7498,12 +7498,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Southern neneo”?",
       "choices": [
-        "Chubut",
-        "Santa Cruz",
-        "Entre Ríos",
-        "Falkland Islands (Malvinas)"
+        "Buenos Aires City",
+        "Tucumán",
+        "San Luis",
+        "Santa Cruz"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Southern neneo” is a typical plant of Santa Cruz."
     },
     {
@@ -7512,12 +7512,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Seafood casserole” typical of?",
       "choices": [
-        "Buenos Aires",
-        "Mendoza",
-        "San Juan",
-        "Santa Cruz"
+        "Misiones",
+        "Neuquén",
+        "Santa Cruz",
+        "Córdoba"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "63c0c8d4b3b0",
@@ -7525,12 +7525,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Santa Cruz lamb” typical of?",
       "choices": [
+        "Salta",
         "Tucumán",
-        "Santa Cruz",
-        "La Pampa",
-        "Buenos Aires"
+        "Buenos Aires City",
+        "Santa Cruz"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "e711daa79e81",
@@ -7538,12 +7538,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Perito Moreno Glacier (Los Glaciares National Park)?",
       "choices": [
-        "Santa Cruz",
-        "Falkland Islands (Malvinas)",
-        "Neuquén",
-        "Buenos Aires City"
+        "Catamarca",
+        "Tierra del Fuego",
+        "La Rioja",
+        "Santa Cruz"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "db77cbdadba8",
@@ -7551,10 +7551,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is El Chaltén and the Fitz Roy trails?",
       "choices": [
-        "Mendoza",
-        "Formosa",
+        "La Rioja",
+        "Catamarca",
         "Santa Cruz",
-        "Falkland Islands (Malvinas)"
+        "Tucumán"
       ],
       "correctIndex": 2
     },
@@ -7564,12 +7564,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Cueva de las Manos (Pinturas river)?",
       "choices": [
-        "Misiones",
+        "Corrientes",
+        "San Luis",
         "Santa Cruz",
-        "Río Negro",
-        "San Juan"
+        "Buenos Aires City"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "68d2da3314d0",
@@ -7577,12 +7577,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Continental ice fields”?",
       "choices": [
-        "La Rioja",
-        "Corrientes",
-        "Formosa",
-        "Santa Cruz"
+        "San Juan",
+        "Tierra del Fuego",
+        "Santa Cruz",
+        "Misiones"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "b0a783377673",
@@ -7590,12 +7590,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Cueva de las Manos”?",
       "choices": [
-        "Neuquén",
-        "Santiago del Estero",
+        "Santa Cruz",
+        "Falkland Islands (Malvinas)",
         "San Juan",
-        "Santa Cruz"
+        "Santa Fe"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "bc3f6dc3f93c",
@@ -7603,10 +7603,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Yacare caiman”?",
       "choices": [
-        "Jujuy",
-        "Santa Fe",
         "Buenos Aires",
-        "Chubut"
+        "Santa Fe",
+        "Falkland Islands (Malvinas)",
+        "Santiago del Estero"
       ],
       "correctIndex": 1,
       "explanation": "“Yacare caiman” is part of the wildlife of Santa Fe."
@@ -7617,12 +7617,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Capybara”?",
       "choices": [
-        "Jujuy",
-        "Santa Fe",
-        "Misiones",
-        "Chubut"
+        "La Rioja",
+        "La Pampa",
+        "Córdoba",
+        "Santa Fe"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Capybara” is part of the wildlife of Santa Fe."
     },
     {
@@ -7631,12 +7631,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Ceibo”?",
       "choices": [
-        "La Pampa",
-        "Santa Cruz",
-        "Santiago del Estero",
-        "Santa Fe"
+        "Falkland Islands (Malvinas)",
+        "Santa Fe",
+        "Río Negro",
+        "Tucumán"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Ceibo” is a typical plant of Santa Fe."
     },
     {
@@ -7645,12 +7645,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “White sarandí”?",
       "choices": [
-        "Salta",
-        "Santa Cruz",
         "Santa Fe",
-        "La Pampa"
+        "Misiones",
+        "Santa Cruz",
+        "San Juan"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“White sarandí” is a typical plant of Santa Fe."
     },
     {
@@ -7659,12 +7659,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Littoral timbó”?",
       "choices": [
-        "Santa Fe",
-        "Catamarca",
+        "La Rioja",
         "Santiago del Estero",
-        "La Rioja"
+        "Santa Fe",
+        "Corrientes"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Littoral timbó” is a typical plant of Santa Fe."
     },
     {
@@ -7673,12 +7673,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Grilled dorado” typical of?",
       "choices": [
+        "San Luis",
+        "Catamarca",
         "Santa Fe",
-        "Salta",
-        "Buenos Aires",
-        "Chubut"
+        "Chaco"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "d7d06ecd9104",
@@ -7687,9 +7687,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province is the dish “Baked surubí” typical of?",
       "choices": [
         "Santa Fe",
-        "Santa Cruz",
-        "Jujuy",
-        "Tucumán"
+        "Catamarca",
+        "Neuquén",
+        "La Pampa"
       ],
       "correctIndex": 0
     },
@@ -7699,12 +7699,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Santa Fe empanada” typical of?",
       "choices": [
-        "Tierra del Fuego",
-        "Falkland Islands (Malvinas)",
-        "San Juan",
-        "Santa Fe"
+        "Santa Fe",
+        "Santiago del Estero",
+        "Corrientes",
+        "Tucumán"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "7e8e11d889c6",
@@ -7712,12 +7712,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is National Flag Memorial (Rosario)?",
       "choices": [
-        "Jujuy",
+        "Formosa",
+        "Salta",
         "Santa Fe",
-        "San Luis",
-        "Corrientes"
+        "Buenos Aires City"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "be8d2ba5bccb",
@@ -7725,10 +7725,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Independencia Park (Rosario)?",
       "choices": [
-        "Mendoza",
+        "Salta",
         "Santa Fe",
-        "Río Negro",
-        "Salta"
+        "Córdoba",
+        "Formosa"
       ],
       "correctIndex": 1
     },
@@ -7738,12 +7738,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Suspension Bridge and Riverfront of Santa Fe city?",
       "choices": [
-        "Entre Ríos",
         "Santa Fe",
-        "Tucumán",
+        "Tierra del Fuego",
+        "Falkland Islands (Malvinas)",
         "La Rioja"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "1484c5fe413f",
@@ -7751,12 +7751,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Cradle of the Flag”?",
       "choices": [
+        "Falkland Islands (Malvinas)",
+        "San Luis",
         "Santa Fe",
-        "Buenos Aires",
-        "Río Negro",
-        "Tierra del Fuego"
+        "Chubut"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "95e2031f63c8",
@@ -7764,12 +7764,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Port, rivers and immigration”?",
       "choices": [
-        "Catamarca",
-        "Corrientes",
-        "Entre Ríos",
-        "Santa Fe"
+        "Santa Fe",
+        "Tucumán",
+        "La Rioja",
+        "Buenos Aires"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d4f3e0a25d71",
@@ -7777,12 +7777,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Collared peccary”?",
       "choices": [
-        "Córdoba",
+        "Catamarca",
+        "Salta",
         "Santiago del Estero",
-        "Formosa",
-        "Jujuy"
+        "Buenos Aires City"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Collared peccary” is part of the wildlife of Santiago del Estero."
     },
     {
@@ -7791,10 +7791,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Nine-banded armadillo”?",
       "choices": [
-        "Neuquén",
-        "San Juan",
+        "Mendoza",
+        "Buenos Aires City",
         "Santiago del Estero",
-        "Santa Fe"
+        "Corrientes"
       ],
       "correctIndex": 2,
       "explanation": "“Nine-banded armadillo” is part of the wildlife of Santiago del Estero."
@@ -7805,12 +7805,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Itín”?",
       "choices": [
-        "La Rioja",
+        "Buenos Aires",
+        "Río Negro",
         "Santiago del Estero",
-        "Chubut",
-        "Buenos Aires"
+        "Neuquén"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Itín” is a typical plant of Santiago del Estero."
     },
     {
@@ -7819,9 +7819,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Vinal”?",
       "choices": [
-        "Córdoba",
-        "Chaco",
-        "La Pampa",
+        "Formosa",
+        "La Rioja",
+        "Neuquén",
         "Santiago del Estero"
       ],
       "correctIndex": 3,
@@ -7833,8 +7833,8 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Santiago red quebracho”?",
       "choices": [
-        "Entre Ríos",
-        "Chubut",
+        "Tierra del Fuego",
+        "Catamarca",
         "Salta",
         "Santiago del Estero"
       ],
@@ -7847,12 +7847,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Santiago locro” typical of?",
       "choices": [
-        "Buenos Aires City",
-        "Falkland Islands (Malvinas)",
-        "Neuquén",
-        "Santiago del Estero"
+        "Santiago del Estero",
+        "Tierra del Fuego",
+        "La Pampa",
+        "Tucumán"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "850f31f3a735",
@@ -7860,12 +7860,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Santiago empanadas” typical of?",
       "choices": [
-        "Santiago del Estero",
         "La Rioja",
-        "San Juan",
-        "Jujuy"
+        "Buenos Aires",
+        "Santiago del Estero",
+        "Neuquén"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "ff9bac98b05a",
@@ -7873,12 +7873,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Santiago rosquete” typical of?",
       "choices": [
-        "Santiago del Estero",
-        "Tucumán",
-        "Entre Ríos",
-        "Salta"
+        "San Juan",
+        "San Luis",
+        "Buenos Aires City",
+        "Santiago del Estero"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "495eecf8db58",
@@ -7886,12 +7886,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Termas de Río Hondo?",
       "choices": [
-        "Buenos Aires City",
         "Santiago del Estero",
-        "San Juan",
-        "Tucumán"
+        "Buenos Aires",
+        "Chaco",
+        "Entre Ríos"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "34d68132fca5",
@@ -7899,12 +7899,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Río Hondo Dam?",
       "choices": [
-        "Neuquén",
-        "Chubut",
-        "San Luis",
-        "Santiago del Estero"
+        "Santiago del Estero",
+        "Formosa",
+        "Buenos Aires City",
+        "San Juan"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "f292192611c2",
@@ -7912,12 +7912,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Copo National Park?",
       "choices": [
-        "Catamarca",
         "Santiago del Estero",
-        "Santa Cruz",
-        "Neuquén"
+        "Santa Fe",
+        "Jujuy",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "a20341ffe2a6",
@@ -7925,12 +7925,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Mother of cities”?",
       "choices": [
-        "La Rioja",
-        "Tierra del Fuego",
+        "Río Negro",
         "Santiago del Estero",
-        "San Luis"
+        "Tucumán",
+        "La Pampa"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "ff1937dee541",
@@ -7938,12 +7938,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Santiago Quichua”?",
       "choices": [
-        "La Pampa",
-        "Formosa",
-        "La Rioja",
-        "Santiago del Estero"
+        "Misiones",
+        "Santiago del Estero",
+        "Tierra del Fuego",
+        "Mendoza"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "edeb59c24017",
@@ -7951,12 +7951,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Magellanic penguin”?",
       "choices": [
-        "Santiago del Estero",
+        "Tucumán",
+        "Buenos Aires City",
         "Tierra del Fuego",
-        "La Rioja",
-        "Santa Cruz"
+        "Santiago del Estero"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Magellanic penguin” is part of the wildlife of Tierra del Fuego."
     },
     {
@@ -7965,10 +7965,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Upland goose”?",
       "choices": [
-        "Buenos Aires City",
+        "Formosa",
         "Tierra del Fuego",
-        "La Pampa",
-        "Misiones"
+        "Mendoza",
+        "Corrientes"
       ],
       "correctIndex": 1,
       "explanation": "“Upland goose” is part of the wildlife of Tierra del Fuego."
@@ -7979,12 +7979,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Fuegian lenga”?",
       "choices": [
-        "Falkland Islands (Malvinas)",
-        "Santiago del Estero",
         "Tierra del Fuego",
-        "Salta"
+        "Entre Ríos",
+        "Neuquén",
+        "Santiago del Estero"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Fuegian lenga” is a typical plant of Tierra del Fuego."
     },
     {
@@ -7993,10 +7993,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Guindo or Magellanic coihue”?",
       "choices": [
-        "Jujuy",
+        "Río Negro",
         "Tierra del Fuego",
-        "Entre Ríos",
-        "Tucumán"
+        "San Luis",
+        "San Juan"
       ],
       "correctIndex": 1,
       "explanation": "“Guindo or Magellanic coihue” is a typical plant of Tierra del Fuego."
@@ -8007,10 +8007,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Fuegian canelo”?",
       "choices": [
-        "Buenos Aires City",
-        "San Luis",
+        "Santa Cruz",
+        "Catamarca",
         "Tierra del Fuego",
-        "Chaco"
+        "Neuquén"
       ],
       "correctIndex": 2,
       "explanation": "“Fuegian canelo” is a typical plant of Tierra del Fuego."
@@ -8021,10 +8021,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Patagonian toothfish” typical of?",
       "choices": [
-        "San Luis",
+        "Formosa",
         "Falkland Islands (Malvinas)",
         "Tierra del Fuego",
-        "Buenos Aires"
+        "San Juan"
       ],
       "correctIndex": 2
     },
@@ -8034,12 +8034,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Fuegian lamb” typical of?",
       "choices": [
-        "San Juan",
         "Tierra del Fuego",
-        "Río Negro",
-        "Chaco"
+        "Santiago del Estero",
+        "Chubut",
+        "Santa Fe"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "81cfd08921a6",
@@ -8047,12 +8047,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Tierra del Fuego National Park?",
       "choices": [
-        "Falkland Islands (Malvinas)",
-        "Tierra del Fuego",
-        "Catamarca",
-        "Formosa"
+        "Jujuy",
+        "Formosa",
+        "Chubut",
+        "Tierra del Fuego"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "2cdd84ad7e7f",
@@ -8060,12 +8060,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Beagle Channel and Les Eclaireurs Lighthouse?",
       "choices": [
-        "San Luis",
-        "Chaco",
-        "Santiago del Estero",
-        "Tierra del Fuego"
+        "Tierra del Fuego",
+        "Buenos Aires",
+        "Buenos Aires City",
+        "Santiago del Estero"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "60031ef342cf",
@@ -8073,10 +8073,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is End of the World Train (Ushuaia)?",
       "choices": [
-        "Misiones",
-        "Entre Ríos",
+        "La Rioja",
+        "Neuquén",
         "Tierra del Fuego",
-        "Mendoza"
+        "La Pampa"
       ],
       "correctIndex": 2
     },
@@ -8086,12 +8086,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “An inhabited end of the world”?",
       "choices": [
-        "Tierra del Fuego",
-        "Corrientes",
         "Mendoza",
-        "Formosa"
+        "Tierra del Fuego",
+        "Falkland Islands (Malvinas)",
+        "Santa Fe"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "af7b8b14ca6b",
@@ -8099,10 +8099,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Selk'nam and Yámana history”?",
       "choices": [
-        "Córdoba",
-        "San Luis",
+        "Falkland Islands (Malvinas)",
+        "Formosa",
         "Tierra del Fuego",
-        "Chubut"
+        "Santa Fe"
       ],
       "correctIndex": 2
     },
@@ -8112,12 +8112,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Toco toucan”?",
       "choices": [
+        "Tierra del Fuego",
+        "Neuquén",
         "Tucumán",
-        "Falkland Islands (Malvinas)",
-        "Córdoba",
-        "La Rioja"
+        "Buenos Aires"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Toco toucan” is part of the wildlife of Tucumán."
     },
     {
@@ -8127,9 +8127,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In which province does this animal live: “Lowland tapir”?",
       "choices": [
         "Tucumán",
-        "Río Negro",
-        "La Rioja",
-        "Catamarca"
+        "San Luis",
+        "Salta",
+        "Corrientes"
       ],
       "correctIndex": 0,
       "explanation": "“Lowland tapir” is part of the wildlife of Tucumán."
@@ -8140,12 +8140,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Mountain alder”?",
       "choices": [
-        "Neuquén",
-        "Entre Ríos",
-        "Río Negro",
-        "Tucumán"
+        "Tucumán",
+        "Corrientes",
+        "Santa Cruz",
+        "Neuquén"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Mountain alder” is a typical plant of Tucumán."
     },
     {
@@ -8154,12 +8154,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Yellow lapacho”?",
       "choices": [
+        "Tierra del Fuego",
+        "La Rioja",
         "Tucumán",
-        "Misiones",
-        "Río Negro",
-        "Buenos Aires City"
+        "Misiones"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Yellow lapacho” is a typical plant of Tucumán."
     },
     {
@@ -8168,12 +8168,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Horco molle”?",
       "choices": [
-        "Jujuy",
-        "San Juan",
-        "Tierra del Fuego",
-        "Tucumán"
+        "Santa Cruz",
+        "Santa Fe",
+        "Tucumán",
+        "Chaco"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Horco molle” is a typical plant of Tucumán."
     },
     {
@@ -8182,9 +8182,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Milanesa sandwich” typical of?",
       "choices": [
-        "Córdoba",
-        "Misiones",
-        "Chubut",
+        "Chaco",
+        "San Luis",
+        "Santa Fe",
         "Tucumán"
       ],
       "correctIndex": 3
@@ -8195,12 +8195,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Tucumán empanadas” typical of?",
       "choices": [
-        "La Rioja",
-        "Falkland Islands (Malvinas)",
-        "Entre Ríos",
-        "Tucumán"
+        "Córdoba",
+        "Tucumán",
+        "Jujuy",
+        "Santiago del Estero"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "a6a6f8efc88c",
@@ -8208,12 +8208,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Tucumán humita” typical of?",
       "choices": [
-        "Tucumán",
-        "Falkland Islands (Malvinas)",
-        "La Rioja",
-        "Río Negro"
+        "La Pampa",
+        "Catamarca",
+        "Buenos Aires",
+        "Tucumán"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "c5f2226d8e3b",
@@ -8221,12 +8221,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Casa Histórica de la Independencia (San Miguel de Tucumán)?",
       "choices": [
+        "Corrientes",
+        "Falkland Islands (Malvinas)",
         "Tucumán",
-        "Río Negro",
-        "Neuquén",
-        "Formosa"
+        "Mendoza"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "cbd16a9b91ce",
@@ -8234,12 +8234,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Tafí del Valle and La Angostura Dam?",
       "choices": [
-        "Jujuy",
-        "Falkland Islands (Malvinas)",
         "Tucumán",
-        "Chubut"
+        "Chaco",
+        "Misiones",
+        "Neuquén"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "7cc3abb9628c",
@@ -8247,12 +8247,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Quilmes Ruins?",
       "choices": [
-        "Córdoba",
-        "Buenos Aires",
-        "Tucumán",
-        "Tierra del Fuego"
+        "Buenos Aires City",
+        "Entre Ríos",
+        "La Rioja",
+        "Tucumán"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "84f79102c415",
@@ -8260,12 +8260,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The House of Independence”?",
       "choices": [
-        "Río Negro",
-        "Mendoza",
         "Chubut",
-        "Tucumán"
+        "Tucumán",
+        "Corrientes",
+        "Mendoza"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "56a7111c4659",
@@ -8274,9 +8274,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province does this historical fact belong to: “Sugar industry”?",
       "choices": [
         "Tucumán",
-        "Santa Cruz",
-        "Falkland Islands (Malvinas)",
-        "Jujuy"
+        "Santiago del Estero",
+        "La Rioja",
+        "Río Negro"
       ],
       "correctIndex": 0
     },
@@ -8286,9 +8286,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Rufous hornero”?",
       "choices": [
-        "Tucumán",
-        "Neuquén",
-        "La Rioja",
+        "San Luis",
+        "Río Negro",
+        "Corrientes",
         "Buenos Aires City"
       ],
       "correctIndex": 3,
@@ -8300,12 +8300,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Great kiskadee”?",
       "choices": [
-        "San Luis",
-        "Tierra del Fuego",
+        "Chaco",
         "Buenos Aires City",
-        "Santiago del Estero"
+        "Corrientes",
+        "Santa Fe"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Great kiskadee” is part of the wildlife of Buenos Aires City."
     },
     {
@@ -8314,12 +8314,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Riverside tala”?",
       "choices": [
-        "Misiones",
-        "Chubut",
+        "Entre Ríos",
         "Buenos Aires City",
-        "Tucumán"
+        "Chubut",
+        "Santa Cruz"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Riverside tala” is a typical plant of Buenos Aires City."
     },
     {
@@ -8328,12 +8328,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Riverbank espinillo”?",
       "choices": [
-        "Formosa",
-        "Chaco",
-        "Santa Cruz",
-        "Buenos Aires City"
+        "Buenos Aires City",
+        "San Luis",
+        "Buenos Aires",
+        "Mendoza"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Riverbank espinillo” is a typical plant of Buenos Aires City."
     },
     {
@@ -8342,10 +8342,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Coastal criollo willow”?",
       "choices": [
-        "Santa Fe",
+        "Buenos Aires",
         "Buenos Aires City",
-        "Falkland Islands (Malvinas)",
-        "San Luis"
+        "Córdoba",
+        "Tierra del Fuego"
       ],
       "correctIndex": 1,
       "explanation": "“Coastal criollo willow” is a typical plant of Buenos Aires City."
@@ -8356,9 +8356,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Porteño pizza” typical of?",
       "choices": [
+        "Tierra del Fuego",
+        "San Juan",
         "Salta",
-        "Buenos Aires",
-        "Santa Fe",
         "Buenos Aires City"
       ],
       "correctIndex": 3
@@ -8369,12 +8369,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Stuffed fugazzeta” typical of?",
       "choices": [
-        "Formosa",
         "Buenos Aires City",
-        "Buenos Aires",
-        "Falkland Islands (Malvinas)"
+        "La Pampa",
+        "Corrientes",
+        "Buenos Aires"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "9da2b52a3f6b",
@@ -8382,10 +8382,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Artisan ice cream” typical of?",
       "choices": [
-        "Salta",
+        "Santa Fe",
         "Buenos Aires City",
-        "Chubut",
-        "Formosa"
+        "Formosa",
+        "Misiones"
       ],
       "correctIndex": 1
     },
@@ -8395,12 +8395,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Caminito and the La Boca neighbourhood?",
       "choices": [
-        "Catamarca",
-        "Córdoba",
+        "Formosa",
         "Buenos Aires City",
-        "Chaco"
+        "Santiago del Estero",
+        "Salta"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "81998f5d84ce",
@@ -8408,9 +8408,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Plaza de Mayo and Metropolitan Cathedral?",
       "choices": [
+        "Santa Fe",
+        "Jujuy",
         "Falkland Islands (Malvinas)",
-        "La Pampa",
-        "Río Negro",
         "Buenos Aires City"
       ],
       "correctIndex": 3
@@ -8421,10 +8421,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Teatro Colón and Recoleta?",
       "choices": [
+        "Corrientes",
         "Entre Ríos",
-        "Tierra del Fuego",
         "Buenos Aires City",
-        "Falkland Islands (Malvinas)"
+        "San Juan"
       ],
       "correctIndex": 2
     },
@@ -8434,12 +8434,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Plaza de Mayo and political life”?",
       "choices": [
-        "Buenos Aires City",
-        "Corrientes",
         "La Rioja",
-        "Santa Cruz"
+        "Buenos Aires City",
+        "Buenos Aires",
+        "Chubut"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "79e6f0724b1f",
@@ -8447,9 +8447,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Port and mass immigration”?",
       "choices": [
-        "La Rioja",
-        "Entre Ríos",
-        "Corrientes",
+        "Tucumán",
+        "Neuquén",
+        "San Juan",
         "Buenos Aires City"
       ],
       "correctIndex": 3
@@ -8460,12 +8460,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Rockhopper penguin”?",
       "choices": [
-        "Tucumán",
-        "Córdoba",
+        "Falkland Islands (Malvinas)",
+        "Chaco",
         "Río Negro",
-        "Falkland Islands (Malvinas)"
+        "Santa Cruz"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Rockhopper penguin” is part of the wildlife of Falkland Islands (Malvinas)."
     },
     {
@@ -8474,10 +8474,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In which province does this animal live: “Black-browed albatross”?",
       "choices": [
-        "Río Negro",
+        "Tierra del Fuego",
         "Falkland Islands (Malvinas)",
-        "Buenos Aires",
-        "Chaco"
+        "Río Negro",
+        "Córdoba"
       ],
       "correctIndex": 1,
       "explanation": "“Black-browed albatross” is part of the wildlife of Falkland Islands (Malvinas)."
@@ -8488,12 +8488,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Tussac grass”?",
       "choices": [
-        "Santiago del Estero",
-        "Tierra del Fuego",
-        "Santa Cruz",
-        "Falkland Islands (Malvinas)"
+        "Buenos Aires",
+        "Entre Ríos",
+        "Falkland Islands (Malvinas)",
+        "Santiago del Estero"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Tussac grass” is a typical plant of Falkland Islands (Malvinas)."
     },
     {
@@ -8502,9 +8502,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Fuegian fescue”?",
       "choices": [
-        "San Juan",
-        "Santa Cruz",
-        "Neuquén",
+        "Chaco",
+        "Santa Fe",
+        "Tucumán",
         "Falkland Islands (Malvinas)"
       ],
       "correctIndex": 3,
@@ -8516,12 +8516,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In which province does this plant grow: “Cushion plants”?",
       "choices": [
-        "Chubut",
-        "Catamarca",
         "Falkland Islands (Malvinas)",
-        "Misiones"
+        "Jujuy",
+        "Tierra del Fuego",
+        "Tucumán"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Cushion plants” is a typical plant of Falkland Islands (Malvinas)."
     },
     {
@@ -8530,12 +8530,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Fish and chips” typical of?",
       "choices": [
-        "Falkland Islands (Malvinas)",
-        "Buenos Aires",
-        "Mendoza",
-        "Buenos Aires City"
+        "San Juan",
+        "Catamarca",
+        "Santa Fe",
+        "Falkland Islands (Malvinas)"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "829b7c959ca1",
@@ -8543,12 +8543,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Which province is the dish “Local hake and seafood” typical of?",
       "choices": [
-        "Falkland Islands (Malvinas)",
-        "Río Negro",
-        "Jujuy",
-        "Formosa"
+        "Entre Ríos",
+        "Salta",
+        "Tucumán",
+        "Falkland Islands (Malvinas)"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "e8067d5e7915",
@@ -8557,11 +8557,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Which province is the dish “Island lamb” typical of?",
       "choices": [
         "Catamarca",
-        "Neuquén",
-        "Misiones",
-        "Falkland Islands (Malvinas)"
+        "Falkland Islands (Malvinas)",
+        "Salta",
+        "Chaco"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "a8219ca82e06",
@@ -8569,12 +8569,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Puerto Argentino/Stanley and its waterfront?",
       "choices": [
-        "San Luis",
-        "Catamarca",
-        "Falkland Islands (Malvinas)",
-        "Buenos Aires"
+        "Formosa",
+        "La Rioja",
+        "Tucumán",
+        "Falkland Islands (Malvinas)"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "d5f0ac41cf98",
@@ -8582,9 +8582,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Darwin Cemetery?",
       "choices": [
-        "Chubut",
-        "Tierra del Fuego",
-        "Santiago del Estero",
+        "Buenos Aires",
+        "Mendoza",
+        "San Juan",
         "Falkland Islands (Malvinas)"
       ],
       "correctIndex": 3
@@ -8595,12 +8595,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In which province is Voluntario Hill / Mount Longdon (historic sites)?",
       "choices": [
-        "Falkland Islands (Malvinas)",
-        "Buenos Aires City",
-        "Córdoba",
-        "San Juan"
+        "Chaco",
+        "Misiones",
+        "Río Negro",
+        "Falkland Islands (Malvinas)"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "a5b6ddcbf91f",
@@ -8608,12 +8608,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Strategic South Atlantic”?",
       "choices": [
-        "San Luis",
-        "Chaco",
+        "Falkland Islands (Malvinas)",
+        "Entre Ríos",
         "Corrientes",
-        "Falkland Islands (Malvinas)"
+        "Chubut"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "b5eb04acb324",
@@ -8621,12 +8621,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Memory of 1982”?",
       "choices": [
-        "Río Negro",
-        "Mendoza",
-        "La Rioja",
-        "Falkland Islands (Malvinas)"
+        "Chaco",
+        "Santa Fe",
+        "Falkland Islands (Malvinas)",
+        "Chubut"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     }
   ],
   "it": [
@@ -8637,9 +8637,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia vive questo animale: «Fornaio rossiccio»?",
       "choices": [
         "Buenos Aires",
-        "Città Autonoma di Buenos Aires",
-        "Misiones",
-        "Jujuy"
+        "La Pampa",
+        "San Luis",
+        "Santa Fe"
       ],
       "correctIndex": 0,
       "explanation": "«Fornaio rossiccio» fa parte della fauna di Buenos Aires."
@@ -8650,12 +8650,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Cervo delle paludi»?",
       "choices": [
-        "Buenos Aires",
-        "Misiones",
-        "Corrientes",
-        "Tucumán"
+        "Salta",
+        "Santa Fe",
+        "Córdoba",
+        "Buenos Aires"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Cervo delle paludi» fa parte della fauna di Buenos Aires."
     },
     {
@@ -8664,12 +8664,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Erba della pampa»?",
       "choices": [
-        "Río Negro",
-        "Córdoba",
         "Buenos Aires",
-        "Tucumán"
+        "San Juan",
+        "Jujuy",
+        "Neuquén"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Erba della pampa» è una pianta tipica di Buenos Aires."
     },
     {
@@ -8678,12 +8678,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Sombra de toro»?",
       "choices": [
-        "Córdoba",
-        "Santa Cruz",
-        "Jujuy",
-        "Buenos Aires"
+        "Corrientes",
+        "Santiago del Estero",
+        "Buenos Aires",
+        "Entre Ríos"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Sombra de toro» è una pianta tipica di Buenos Aires."
     },
     {
@@ -8692,12 +8692,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Sarandí colorado»?",
       "choices": [
-        "Misiones",
-        "Jujuy",
-        "Chaco",
-        "Buenos Aires"
+        "Santiago del Estero",
+        "Tucumán",
+        "Buenos Aires",
+        "Città Autonoma di Buenos Aires"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Sarandí colorado» è una pianta tipica di Buenos Aires."
     },
     {
@@ -8706,12 +8706,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Asado bonaerense»?",
       "choices": [
-        "La Rioja",
-        "Entre Ríos",
+        "La Pampa",
         "Buenos Aires",
+        "Tucumán",
         "Santiago del Estero"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "7e3e8371c8ef",
@@ -8719,9 +8719,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Milanesa alla napoletana»?",
       "choices": [
-        "San Luis",
-        "Città Autonoma di Buenos Aires",
-        "Misiones",
+        "Corrientes",
+        "Tucumán",
+        "Chubut",
         "Buenos Aires"
       ],
       "correctIndex": 3
@@ -8732,12 +8732,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Dulce de leche»?",
       "choices": [
-        "Buenos Aires",
-        "Jujuy",
-        "Corrientes",
-        "Terra del Fuoco"
+        "La Pampa",
+        "Salta",
+        "Santa Fe",
+        "Buenos Aires"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "702272bbc048",
@@ -8745,12 +8745,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Mar del Plata e la costa atlantica?",
       "choices": [
-        "Chubut",
-        "Córdoba",
-        "Città Autonoma di Buenos Aires",
-        "Buenos Aires"
+        "Buenos Aires",
+        "Santa Cruz",
+        "La Pampa",
+        "Córdoba"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "5cb32077b554",
@@ -8758,12 +8758,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Sierra de la Ventana (Parco Provinciale Ernesto Tornquist)?",
       "choices": [
+        "Río Negro",
+        "San Luis",
         "Jujuy",
-        "Buenos Aires",
-        "Córdoba",
-        "Corrientes"
+        "Buenos Aires"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "6db8ef051c33",
@@ -8771,12 +8771,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Delta del Paraná a Tigre?",
       "choices": [
-        "Catamarca",
-        "Santa Cruz",
-        "San Luis",
-        "Buenos Aires"
+        "Chaco",
+        "Corrientes",
+        "Buenos Aires",
+        "Río Negro"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "19dbc12e92a1",
@@ -8784,10 +8784,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «La Vuelta de Obligado e la sovranità»?",
       "choices": [
-        "La Rioja",
-        "Río Negro",
+        "Chubut",
+        "Jujuy",
         "Buenos Aires",
-        "Città Autonoma di Buenos Aires"
+        "Santa Fe"
       ],
       "correctIndex": 2
     },
@@ -8797,12 +8797,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Un territorio di frontiera storica»?",
       "choices": [
-        "Buenos Aires",
-        "La Pampa",
-        "San Juan",
-        "Catamarca"
+        "Città Autonoma di Buenos Aires",
+        "Tucumán",
+        "Formosa",
+        "Buenos Aires"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "fd061b1851c1",
@@ -8810,12 +8810,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Mara della Patagonia»?",
       "choices": [
-        "Formosa",
-        "Misiones",
-        "Buenos Aires",
-        "Catamarca"
+        "Terra del Fuoco",
+        "Catamarca",
+        "Córdoba",
+        "San Luis"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Mara della Patagonia» fa parte della fauna di Catamarca."
     },
     {
@@ -8824,12 +8824,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Vigogna»?",
       "choices": [
-        "Santa Fe",
-        "Isole Falkland (Malvinas)",
         "Catamarca",
-        "Chaco"
+        "Neuquén",
+        "La Pampa",
+        "Jujuy"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Vigogna» fa parte della fauna di Catamarca."
     },
     {
@@ -8838,12 +8838,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Cardón»?",
       "choices": [
-        "Santa Fe",
-        "Río Negro",
         "Catamarca",
-        "La Pampa"
+        "Chaco",
+        "La Rioja",
+        "Córdoba"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Cardón» è una pianta tipica di Catamarca."
     },
     {
@@ -8852,10 +8852,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Chañar»?",
       "choices": [
-        "Río Negro",
+        "Città Autonoma di Buenos Aires",
         "Catamarca",
-        "Jujuy",
-        "La Pampa"
+        "Río Negro",
+        "Entre Ríos"
       ],
       "correctIndex": 1,
       "explanation": "«Chañar» è una pianta tipica di Catamarca."
@@ -8866,10 +8866,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Pichana o tola»?",
       "choices": [
-        "Chubut",
+        "Chaco",
         "Catamarca",
-        "Mendoza",
-        "La Rioja"
+        "Chubut",
+        "Formosa"
       ],
       "correctIndex": 1,
       "explanation": "«Pichana o tola» è una pianta tipica di Catamarca."
@@ -8880,12 +8880,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Empanadas di Catamarca»?",
       "choices": [
-        "Chubut",
+        "Catamarca",
         "Jujuy",
-        "Neuquén",
-        "Catamarca"
+        "Buenos Aires",
+        "Santa Fe"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "8982f78be21c",
@@ -8893,12 +8893,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Locro del nordovest»?",
       "choices": [
-        "Santa Cruz",
-        "Santiago del Estero",
+        "Terra del Fuoco",
         "Catamarca",
-        "Neuquén"
+        "San Luis",
+        "La Pampa"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "a3c8255f312f",
@@ -8906,12 +8906,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Tamales»?",
       "choices": [
-        "Catamarca",
         "Santa Cruz",
-        "La Pampa",
-        "Santa Fe"
+        "La Rioja",
+        "Corrientes",
+        "Catamarca"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "d9375104062d",
@@ -8919,12 +8919,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Campo de Piedra Pómez (Antofagasta de la Sierra)?",
       "choices": [
+        "San Luis",
         "Catamarca",
-        "Isole Falkland (Malvinas)",
-        "Córdoba",
-        "San Luis"
+        "Santa Fe",
+        "Tucumán"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "c234fa8b6d2c",
@@ -8932,12 +8932,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Ruta de los Seismiles e Paso de San Francisco?",
       "choices": [
+        "La Pampa",
         "Catamarca",
-        "Formosa",
-        "Chubut",
-        "Chaco"
+        "Neuquén",
+        "Corrientes"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "28ff15344b19",
@@ -8945,12 +8945,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Cuesta del Portezuelo ed El Rodeo?",
       "choices": [
+        "Mendoza",
         "Catamarca",
-        "Córdoba",
-        "San Luis",
-        "Tucumán"
+        "Santa Cruz",
+        "Corrientes"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "b491c34ffdb5",
@@ -8958,12 +8958,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Fiambalá e la via andina»?",
       "choices": [
-        "Santa Fe",
-        "Río Negro",
-        "Jujuy",
-        "Catamarca"
+        "Mendoza",
+        "Neuquén",
+        "Catamarca",
+        "Corrientes"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "6bedd5d43b9c",
@@ -8971,12 +8971,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «La Valle e la devozione mariana»?",
       "choices": [
-        "Isole Falkland (Malvinas)",
-        "Salta",
-        "Catamarca",
-        "Río Negro"
+        "La Rioja",
+        "Santa Fe",
+        "Città Autonoma di Buenos Aires",
+        "Catamarca"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "e49804858110",
@@ -8984,12 +8984,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Lupo dalla criniera»?",
       "choices": [
-        "Isole Falkland (Malvinas)",
-        "Río Negro",
         "Chaco",
-        "Corrientes"
+        "Chubut",
+        "La Rioja",
+        "Catamarca"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Lupo dalla criniera» fa parte della fauna di Chaco."
     },
     {
@@ -8998,10 +8998,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Armadillo gigante»?",
       "choices": [
-        "Città Autonoma di Buenos Aires",
-        "Corrientes",
+        "La Pampa",
+        "Mendoza",
         "Chaco",
-        "Santa Cruz"
+        "Isole Falkland (Malvinas)"
       ],
       "correctIndex": 2,
       "explanation": "«Armadillo gigante» fa parte della fauna di Chaco."
@@ -9013,9 +9013,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia cresce questa pianta: «Quebracho colorado chaqueño»?",
       "choices": [
         "Chaco",
-        "Terra del Fuoco",
-        "Mendoza",
-        "Isole Falkland (Malvinas)"
+        "Isole Falkland (Malvinas)",
+        "Córdoba",
+        "Chubut"
       ],
       "correctIndex": 0,
       "explanation": "«Quebracho colorado chaqueño» è una pianta tipica di Chaco."
@@ -9026,12 +9026,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Quebracho bianco»?",
       "choices": [
-        "Jujuy",
-        "Chaco",
-        "Santiago del Estero",
-        "Misiones"
+        "Buenos Aires",
+        "Isole Falkland (Malvinas)",
+        "Río Negro",
+        "Chaco"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Quebracho bianco» è una pianta tipica di Chaco."
     },
     {
@@ -9040,12 +9040,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Palma carandilla»?",
       "choices": [
+        "Formosa",
+        "Mendoza",
         "Chaco",
-        "Córdoba",
-        "Jujuy",
-        "La Rioja"
+        "San Luis"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Palma carandilla» è una pianta tipica di Chaco."
     },
     {
@@ -9054,12 +9054,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Chipá»?",
       "choices": [
-        "Misiones",
-        "Río Negro",
-        "Santa Cruz",
-        "Chaco"
+        "Catamarca",
+        "Jujuy",
+        "Chaco",
+        "Neuquén"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "7bc517d330a6",
@@ -9068,9 +9068,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Di quale provincia è tipico il piatto «Pacú alla griglia»?",
       "choices": [
         "Chaco",
-        "Córdoba",
-        "Corrientes",
-        "Buenos Aires"
+        "Entre Ríos",
+        "Formosa",
+        "Santa Fe"
       ],
       "correctIndex": 0
     },
@@ -9080,12 +9080,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Manioca bollita»?",
       "choices": [
-        "Buenos Aires",
-        "Tucumán",
         "Chaco",
-        "Santa Cruz"
+        "Santa Cruz",
+        "Santa Fe",
+        "Tucumán"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "5f847eae0169",
@@ -9093,12 +9093,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Parco Nazionale El Impenetrable?",
       "choices": [
-        "Chaco",
-        "Tucumán",
-        "Entre Ríos",
-        "Misiones"
+        "Córdoba",
+        "Neuquén",
+        "Santa Fe",
+        "Chaco"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "5dfffc36f4f3",
@@ -9106,10 +9106,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Resistencia, Città delle Sculture?",
       "choices": [
-        "Santa Fe",
-        "Città Autonoma di Buenos Aires",
+        "Santiago del Estero",
+        "Misiones",
         "Chaco",
-        "Neuquén"
+        "Salta"
       ],
       "correctIndex": 2
     },
@@ -9119,12 +9119,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Parco Nazionale Chaco?",
       "choices": [
-        "Buenos Aires",
-        "Chaco",
-        "Salta",
-        "Chubut"
+        "San Juan",
+        "Misiones",
+        "Città Autonoma di Buenos Aires",
+        "Chaco"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "cf1dfeeed051",
@@ -9132,12 +9132,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Resistencia, museo a cielo aperto»?",
       "choices": [
-        "Jujuy",
-        "Chaco",
-        "Terra del Fuoco",
-        "Isole Falkland (Malvinas)"
+        "La Pampa",
+        "Chubut",
+        "Neuquén",
+        "Chaco"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "9035d20611cc",
@@ -9145,12 +9145,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «La boscaglia del Chaco, chiave storica»?",
       "choices": [
-        "Chaco",
-        "Mendoza",
+        "La Pampa",
         "Santiago del Estero",
-        "Río Negro"
+        "Chaco",
+        "Catamarca"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "fa60075ab27e",
@@ -9158,12 +9158,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Huemul»?",
       "choices": [
-        "Misiones",
-        "San Juan",
         "Chubut",
-        "Santiago del Estero"
+        "La Pampa",
+        "Entre Ríos",
+        "Río Negro"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Huemul» fa parte della fauna di Chubut."
     },
     {
@@ -9172,12 +9172,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Balena franca australe»?",
       "choices": [
-        "Córdoba",
-        "Tucumán",
-        "Mendoza",
-        "Chubut"
+        "Corrientes",
+        "Chubut",
+        "Buenos Aires",
+        "Río Negro"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Balena franca australe» fa parte della fauna di Chubut."
     },
     {
@@ -9186,12 +9186,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Coirón patagonico»?",
       "choices": [
-        "San Juan",
-        "Formosa",
-        "Salta",
-        "Chubut"
+        "La Pampa",
+        "Tucumán",
+        "Chubut",
+        "Chaco"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Coirón patagonico» è una pianta tipica di Chubut."
     },
     {
@@ -9200,12 +9200,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Calafate»?",
       "choices": [
-        "Río Negro",
-        "San Luis",
-        "Mendoza",
-        "Chubut"
+        "San Juan",
+        "Chubut",
+        "Jujuy",
+        "La Pampa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Calafate» è una pianta tipica di Chubut."
     },
     {
@@ -9214,12 +9214,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Maitén»?",
       "choices": [
-        "Mendoza",
-        "Salta",
         "Chubut",
-        "Terra del Fuoco"
+        "Terra del Fuoco",
+        "Santa Fe",
+        "Buenos Aires"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Maitén» è una pianta tipica di Chubut."
     },
     {
@@ -9228,9 +9228,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Agnello patagonico»?",
       "choices": [
-        "Buenos Aires",
-        "La Rioja",
-        "San Luis",
+        "Salta",
+        "Santiago del Estero",
+        "Formosa",
         "Chubut"
       ],
       "correctIndex": 3
@@ -9241,12 +9241,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Torta gallese»?",
       "choices": [
-        "Santa Cruz",
-        "Chubut",
+        "Corrientes",
         "Salta",
-        "La Pampa"
+        "Chubut",
+        "La Rioja"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "9c8b6b7f36e5",
@@ -9254,12 +9254,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Trota di fiume»?",
       "choices": [
+        "San Juan",
+        "Neuquén",
         "Chubut",
-        "La Rioja",
-        "San Luis",
-        "Corrientes"
+        "Córdoba"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "3b44b74accb8",
@@ -9267,12 +9267,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Penisola Valdés?",
       "choices": [
-        "Chubut",
-        "Córdoba",
-        "Entre Ríos",
-        "San Luis"
+        "San Juan",
+        "Neuquén",
+        "San Luis",
+        "Chubut"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "f27e0cc05068",
@@ -9280,12 +9280,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Parco Nazionale Los Alerces?",
       "choices": [
-        "Santa Fe",
-        "Entre Ríos",
-        "Catamarca",
-        "Chubut"
+        "Chubut",
+        "San Juan",
+        "Isole Falkland (Malvinas)",
+        "Jujuy"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "e32a7dcf052f",
@@ -9293,12 +9293,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Punta Tombo (riserva dei pinguini)?",
       "choices": [
+        "Santiago del Estero",
         "Chubut",
-        "Mendoza",
-        "Isole Falkland (Malvinas)",
-        "Corrientes"
+        "Buenos Aires",
+        "San Juan"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "0729f455eb40",
@@ -9306,10 +9306,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Colonizzazione gallese nella valle»?",
       "choices": [
-        "Isole Falkland (Malvinas)",
+        "Città Autonoma di Buenos Aires",
         "Chubut",
-        "San Juan",
-        "Chaco"
+        "Santa Fe",
+        "Río Negro"
       ],
       "correctIndex": 1
     },
@@ -9319,10 +9319,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Patagonia di due mondi»?",
       "choices": [
-        "Jujuy",
+        "Santa Fe",
         "Chubut",
-        "Salta",
-        "Río Negro"
+        "Santiago del Estero",
+        "Corrientes"
       ],
       "correctIndex": 1
     },
@@ -9332,12 +9332,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Condor andino»?",
       "choices": [
-        "San Luis",
-        "Formosa",
+        "Catamarca",
+        "Córdoba",
         "Salta",
-        "Córdoba"
+        "Misiones"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Condor andino» fa parte della fauna di Córdoba."
     },
     {
@@ -9346,12 +9346,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Puma»?",
       "choices": [
-        "Córdoba",
-        "Buenos Aires",
+        "Isole Falkland (Malvinas)",
         "Tucumán",
-        "Entre Ríos"
+        "Córdoba",
+        "Santiago del Estero"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Puma» fa parte della fauna di Córdoba."
     },
     {
@@ -9360,7 +9360,7 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Molle de beber»?",
       "choices": [
-        "Santiago del Estero",
+        "Isole Falkland (Malvinas)",
         "Córdoba",
         "La Pampa",
         "Terra del Fuoco"
@@ -9374,10 +9374,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Espinillo»?",
       "choices": [
-        "Catamarca",
-        "Corrientes",
+        "Misiones",
+        "Santa Fe",
         "Córdoba",
-        "Chaco"
+        "Isole Falkland (Malvinas)"
       ],
       "correctIndex": 2,
       "explanation": "«Espinillo» è una pianta tipica di Córdoba."
@@ -9388,12 +9388,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Peperina serrana»?",
       "choices": [
-        "Córdoba",
-        "Chubut",
-        "Mendoza",
-        "Corrientes"
+        "San Juan",
+        "Chaco",
+        "La Pampa",
+        "Córdoba"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Peperina serrana» è una pianta tipica di Córdoba."
     },
     {
@@ -9402,10 +9402,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Capretto delle sierras»?",
       "choices": [
-        "Tucumán",
-        "Córdoba",
         "La Pampa",
-        "Formosa"
+        "Córdoba",
+        "Entre Ríos",
+        "Isole Falkland (Malvinas)"
       ],
       "correctIndex": 1
     },
@@ -9415,12 +9415,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Choripán di Córdoba»?",
       "choices": [
-        "Jujuy",
-        "Córdoba",
-        "Chubut",
-        "Santa Fe"
+        "Santa Fe",
+        "Mendoza",
+        "Río Negro",
+        "Córdoba"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "ffc692fb5311",
@@ -9428,12 +9428,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Alfajor di Córdoba»?",
       "choices": [
-        "Río Negro",
+        "Chubut",
+        "Neuquén",
         "Córdoba",
-        "San Juan",
-        "La Pampa"
+        "Isole Falkland (Malvinas)"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "5c7ad69b41c7",
@@ -9441,12 +9441,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Valle di Calamuchita (Villa General Belgrano e La Cumbrecita)?",
       "choices": [
-        "Entre Ríos",
+        "Santiago del Estero",
+        "Misiones",
         "Córdoba",
-        "San Luis",
-        "Tucumán"
+        "Chubut"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "95e4662703ea",
@@ -9454,12 +9454,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Camino de las Altas Cumbres?",
       "choices": [
-        "Córdoba",
-        "Corrientes",
-        "Santa Fe",
-        "Chaco"
+        "La Pampa",
+        "Buenos Aires",
+        "Mendoza",
+        "Córdoba"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "4f33c3b918f0",
@@ -9467,12 +9467,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Parco Nazionale Quebrada del Condorito?",
       "choices": [
+        "Neuquén",
+        "Santiago del Estero",
         "Córdoba",
-        "Città Autonoma di Buenos Aires",
-        "Terra del Fuoco",
-        "Santiago del Estero"
+        "Misiones"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "73f421539318",
@@ -9480,12 +9480,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Un'università storica»?",
       "choices": [
-        "Misiones",
-        "Entre Ríos",
-        "Chaco",
-        "Córdoba"
+        "Salta",
+        "Córdoba",
+        "Buenos Aires",
+        "Chubut"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "1f8b1fa7000f",
@@ -9493,12 +9493,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «La Riforma Universitaria del 1918»?",
       "choices": [
-        "Córdoba",
-        "Río Negro",
-        "Misiones",
-        "Entre Ríos"
+        "Catamarca",
+        "Chaco",
+        "Santa Fe",
+        "Córdoba"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "f2622fa4120b",
@@ -9506,12 +9506,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Capibara»?",
       "choices": [
-        "Catamarca",
-        "San Juan",
+        "Tucumán",
         "Corrientes",
-        "Isole Falkland (Malvinas)"
+        "La Pampa",
+        "Città Autonoma di Buenos Aires"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Capibara» fa parte della fauna di Corrientes."
     },
     {
@@ -9520,12 +9520,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Caimano dal muso largo»?",
       "choices": [
-        "Misiones",
+        "Tucumán",
         "Córdoba",
-        "Corrientes",
-        "Santa Cruz"
+        "Mendoza",
+        "Corrientes"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Caimano dal muso largo» fa parte della fauna di Corrientes."
     },
     {
@@ -9534,10 +9534,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Irupé»?",
       "choices": [
-        "Formosa",
-        "Buenos Aires",
+        "San Luis",
+        "Córdoba",
         "Corrientes",
-        "Catamarca"
+        "San Juan"
       ],
       "correctIndex": 2,
       "explanation": "«Irupé» è una pianta tipica di Corrientes."
@@ -9548,12 +9548,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Camalote»?",
       "choices": [
-        "Chaco",
-        "San Luis",
-        "Salta",
-        "Corrientes"
+        "La Pampa",
+        "Corrientes",
+        "Città Autonoma di Buenos Aires",
+        "Isole Falkland (Malvinas)"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Camalote» è una pianta tipica di Corrientes."
     },
     {
@@ -9562,12 +9562,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Lapacho nero»?",
       "choices": [
-        "San Luis",
+        "Córdoba",
+        "Entre Ríos",
         "Corrientes",
-        "Jujuy",
-        "La Rioja"
+        "Chubut"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Lapacho nero» è una pianta tipica di Corrientes."
     },
     {
@@ -9576,12 +9576,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Mbaipy»?",
       "choices": [
-        "Corrientes",
-        "Buenos Aires",
-        "Chubut",
-        "Isole Falkland (Malvinas)"
+        "Isole Falkland (Malvinas)",
+        "Tucumán",
+        "Entre Ríos",
+        "Corrientes"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "802a04be25d8",
@@ -9589,12 +9589,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Sopa correntina»?",
       "choices": [
-        "Isole Falkland (Malvinas)",
         "Río Negro",
-        "Corrientes",
-        "Buenos Aires"
+        "Santa Cruz",
+        "Chaco",
+        "Corrientes"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "2ec4a5f01399",
@@ -9602,12 +9602,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Dorado alla griglia»?",
       "choices": [
+        "Città Autonoma di Buenos Aires",
+        "Santa Cruz",
         "Neuquén",
-        "Santiago del Estero",
-        "Corrientes",
-        "Città Autonoma di Buenos Aires"
+        "Corrientes"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "0310f185549a",
@@ -9615,12 +9615,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Esteros del Iberá?",
       "choices": [
-        "Chaco",
-        "La Rioja",
         "Catamarca",
-        "Corrientes"
+        "Corrientes",
+        "Tucumán",
+        "Terra del Fuoco"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "f2e90c0f5b50",
@@ -9628,12 +9628,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Lungofiume e centro storico della città di Corrientes?",
       "choices": [
-        "Río Negro",
-        "La Pampa",
-        "Città Autonoma di Buenos Aires",
-        "Corrientes"
+        "Corrientes",
+        "San Juan",
+        "Santiago del Estero",
+        "Catamarca"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "33181d9dd268",
@@ -9641,12 +9641,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Parco Nazionale Mburucuyá?",
       "choices": [
-        "Città Autonoma di Buenos Aires",
-        "Buenos Aires",
-        "Chubut",
-        "Corrientes"
+        "Isole Falkland (Malvinas)",
+        "La Pampa",
+        "Corrientes",
+        "Santa Cruz"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "39d97c930301",
@@ -9654,12 +9654,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Un'eredità guaraní viva»?",
       "choices": [
-        "Città Autonoma di Buenos Aires",
-        "Entre Ríos",
+        "Río Negro",
         "Corrientes",
-        "Isole Falkland (Malvinas)"
+        "San Juan",
+        "Santa Cruz"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "84c9acc0cb36",
@@ -9667,10 +9667,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «L'Iberá e il recupero della fauna»?",
       "choices": [
-        "Córdoba",
+        "Formosa",
         "Corrientes",
-        "Tucumán",
-        "Chubut"
+        "Catamarca",
+        "Santiago del Estero"
       ],
       "correctIndex": 1
     },
@@ -9680,9 +9680,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Capibara»?",
       "choices": [
-        "Santa Fe",
+        "Santiago del Estero",
+        "San Luis",
         "La Rioja",
-        "Città Autonoma di Buenos Aires",
         "Entre Ríos"
       ],
       "correctIndex": 3,
@@ -9694,12 +9694,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Lontra neotropicale»?",
       "choices": [
-        "Entre Ríos",
-        "Misiones",
-        "Chubut",
-        "San Luis"
+        "Santa Cruz",
+        "Córdoba",
+        "Mendoza",
+        "Entre Ríos"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Lontra neotropicale» fa parte della fauna di Entre Ríos."
     },
     {
@@ -9708,12 +9708,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Salice criollo»?",
       "choices": [
+        "Terra del Fuoco",
         "Entre Ríos",
-        "Santa Fe",
-        "San Juan",
-        "Tucumán"
+        "Isole Falkland (Malvinas)",
+        "San Luis"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Salice criollo» è una pianta tipica di Entre Ríos."
     },
     {
@@ -9723,11 +9723,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia cresce questa pianta: «Timbó»?",
       "choices": [
         "La Rioja",
-        "Entre Ríos",
-        "Santa Fe",
-        "Córdoba"
+        "San Juan",
+        "Chaco",
+        "Entre Ríos"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Timbó» è una pianta tipica di Entre Ríos."
     },
     {
@@ -9736,12 +9736,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Espinillo del río»?",
       "choices": [
-        "Terra del Fuoco",
-        "Córdoba",
-        "Río Negro",
-        "Entre Ríos"
+        "Entre Ríos",
+        "Città Autonoma di Buenos Aires",
+        "Formosa",
+        "San Luis"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Espinillo del río» è una pianta tipica di Entre Ríos."
     },
     {
@@ -9750,10 +9750,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Pesci del Paraná e dell'Uruguay»?",
       "choices": [
-        "Santa Cruz",
-        "Formosa",
+        "Chaco",
+        "Isole Falkland (Malvinas)",
         "Entre Ríos",
-        "San Luis"
+        "Chubut"
       ],
       "correctIndex": 2
     },
@@ -9763,12 +9763,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Empanadas di pesce»?",
       "choices": [
-        "Tucumán",
-        "Buenos Aires",
-        "Córdoba",
-        "Entre Ríos"
+        "Entre Ríos",
+        "Santa Fe",
+        "Formosa",
+        "Catamarca"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "ebfeb0bc0fef",
@@ -9776,12 +9776,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Asado con cuero»?",
       "choices": [
-        "La Pampa",
         "Entre Ríos",
-        "Tucumán",
+        "Chubut",
+        "Santiago del Estero",
         "Jujuy"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "045ab613e663",
@@ -9789,12 +9789,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Parco Nazionale El Palmar?",
       "choices": [
-        "San Juan",
-        "Buenos Aires",
-        "Città Autonoma di Buenos Aires",
-        "Entre Ríos"
+        "La Pampa",
+        "Tucumán",
+        "Entre Ríos",
+        "Chaco"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "781ad78a4824",
@@ -9802,12 +9802,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Terme di Federación?",
       "choices": [
-        "Santa Fe",
-        "Jujuy",
         "Entre Ríos",
-        "Salta"
+        "Salta",
+        "La Rioja",
+        "Formosa"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "24d2fd795b46",
@@ -9815,12 +9815,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Palacio San José (Concepción del Uruguay)?",
       "choices": [
-        "Corrientes",
-        "Río Negro",
-        "Chubut",
-        "Entre Ríos"
+        "Entre Ríos",
+        "Santa Cruz",
+        "Buenos Aires",
+        "Catamarca"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "a9289f071d24",
@@ -9828,12 +9828,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Capitale della Confederazione»?",
       "choices": [
+        "Buenos Aires",
+        "Tucumán",
         "Entre Ríos",
-        "Corrientes",
-        "Isole Falkland (Malvinas)",
-        "Santiago del Estero"
+        "Neuquén"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "8692590f05f6",
@@ -9841,10 +9841,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Palacio San José e Urquiza»?",
       "choices": [
-        "San Luis",
-        "Córdoba",
+        "Mendoza",
+        "Catamarca",
         "Entre Ríos",
-        "Río Negro"
+        "La Rioja"
       ],
       "correctIndex": 2
     },
@@ -9854,12 +9854,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Tegu argentino»?",
       "choices": [
-        "Tucumán",
-        "Santa Fe",
         "Formosa",
-        "Chaco"
+        "Río Negro",
+        "San Juan",
+        "Jujuy"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Tegu argentino» fa parte della fauna di Formosa."
     },
     {
@@ -9868,12 +9868,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Formichiere gigante»?",
       "choices": [
-        "Santiago del Estero",
-        "Santa Cruz",
+        "San Juan",
         "Formosa",
-        "Río Negro"
+        "San Luis",
+        "Misiones"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Formichiere gigante» fa parte della fauna di Formosa."
     },
     {
@@ -9882,12 +9882,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Palo santo»?",
       "choices": [
-        "Jujuy",
-        "Corrientes",
-        "Mendoza",
-        "Formosa"
+        "Misiones",
+        "Neuquén",
+        "Formosa",
+        "La Rioja"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Palo santo» è una pianta tipica di Formosa."
     },
     {
@@ -9896,12 +9896,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Caranday»?",
       "choices": [
-        "Catamarca",
+        "Chaco",
+        "La Pampa",
         "Formosa",
-        "Santiago del Estero",
-        "Jujuy"
+        "Tucumán"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Caranday» è una pianta tipica di Formosa."
     },
     {
@@ -9910,12 +9910,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Guayacán»?",
       "choices": [
-        "Salta",
-        "Mendoza",
-        "Chubut",
-        "Formosa"
+        "Santa Cruz",
+        "San Luis",
+        "Formosa",
+        "Río Negro"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Guayacán» è una pianta tipica di Formosa."
     },
     {
@@ -9924,12 +9924,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Sopa paraguaya»?",
       "choices": [
-        "Salta",
-        "Catamarca",
-        "Jujuy",
-        "Formosa"
+        "San Juan",
+        "Formosa",
+        "La Pampa",
+        "Salta"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "a452d92751cd",
@@ -9937,9 +9937,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Pacú al forno»?",
       "choices": [
+        "Río Negro",
         "San Luis",
         "Tucumán",
-        "Chaco",
         "Formosa"
       ],
       "correctIndex": 3
@@ -9950,12 +9950,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Chipá cuerito»?",
       "choices": [
-        "Terra del Fuoco",
-        "Città Autonoma di Buenos Aires",
-        "Formosa",
-        "La Rioja"
+        "Catamarca",
+        "San Luis",
+        "Santa Fe",
+        "Formosa"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "f74a7bafa4bf",
@@ -9963,12 +9963,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Bañado La Estrella?",
       "choices": [
+        "San Luis",
         "Formosa",
-        "La Pampa",
-        "Chubut",
-        "Córdoba"
+        "Mendoza",
+        "Tucumán"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "e9e21dcf2ff3",
@@ -9976,12 +9976,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Parco Nazionale Río Pilcomayo?",
       "choices": [
+        "La Rioja",
+        "Salta",
         "Formosa",
-        "Buenos Aires",
-        "La Pampa",
-        "Terra del Fuoco"
+        "Río Negro"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "5f5051027c68",
@@ -9989,12 +9989,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Riserva della biosfera Laguna Oca (città di Formosa)?",
       "choices": [
-        "Santiago del Estero",
-        "Formosa",
-        "Città Autonoma di Buenos Aires",
-        "Córdoba"
+        "Santa Fe",
+        "Tucumán",
+        "Misiones",
+        "Formosa"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "e758a346e4a1",
@@ -10002,12 +10002,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Fiumi e popoli originari»?",
       "choices": [
-        "Catamarca",
         "Formosa",
-        "Entre Ríos",
-        "Misiones"
+        "Salta",
+        "Mendoza",
+        "Río Negro"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "460e4a56fddb",
@@ -10015,12 +10015,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Bañado La Estrella»?",
       "choices": [
-        "Entre Ríos",
+        "La Pampa",
+        "Mendoza",
         "Formosa",
-        "Santa Cruz",
-        "Santa Fe"
+        "Neuquén"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "d8c0f3e318f8",
@@ -10028,12 +10028,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Lama»?",
       "choices": [
-        "Jujuy",
+        "Chubut",
+        "Mendoza",
         "Formosa",
-        "Catamarca",
-        "Chubut"
+        "Jujuy"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Lama» fa parte della fauna di Jujuy."
     },
     {
@@ -10042,12 +10042,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Vigogna»?",
       "choices": [
-        "Corrientes",
-        "Santa Cruz",
-        "La Rioja",
-        "Jujuy"
+        "Santiago del Estero",
+        "Río Negro",
+        "Jujuy",
+        "Catamarca"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Vigogna» fa parte della fauna di Jujuy."
     },
     {
@@ -10056,12 +10056,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Queñoa»?",
       "choices": [
-        "La Rioja",
-        "Tucumán",
+        "Isole Falkland (Malvinas)",
         "Jujuy",
-        "Chaco"
+        "Buenos Aires",
+        "Santa Fe"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Queñoa» è una pianta tipica di Jujuy."
     },
     {
@@ -10070,12 +10070,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Tola della Puna»?",
       "choices": [
-        "Jujuy",
         "Buenos Aires",
-        "Río Negro",
-        "Misiones"
+        "Neuquén",
+        "Jujuy",
+        "Chubut"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Tola della Puna» è una pianta tipica di Jujuy."
     },
     {
@@ -10084,12 +10084,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Cebil»?",
       "choices": [
-        "Chaco",
         "Jujuy",
-        "Buenos Aires",
-        "Neuquén"
+        "Santa Fe",
+        "Misiones",
+        "Río Negro"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Cebil» è una pianta tipica di Jujuy."
     },
     {
@@ -10098,12 +10098,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Humita en chala»?",
       "choices": [
-        "Jujuy",
-        "San Juan",
-        "La Pampa",
-        "Chaco"
+        "Formosa",
+        "Chaco",
+        "Santa Fe",
+        "Jujuy"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "dc17461302a6",
@@ -10111,12 +10111,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Tamales di Jujuy»?",
       "choices": [
-        "Jujuy",
-        "Catamarca",
-        "Buenos Aires",
-        "Formosa"
+        "San Juan",
+        "San Luis",
+        "La Rioja",
+        "Jujuy"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "16e5796e1532",
@@ -10125,11 +10125,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Di quale provincia è tipico il piatto «Calapurca»?",
       "choices": [
         "La Pampa",
-        "Jujuy",
-        "Santa Cruz",
-        "Isole Falkland (Malvinas)"
+        "Neuquén",
+        "Córdoba",
+        "Jujuy"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "4521fc846679",
@@ -10137,12 +10137,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Purmamarca e il Cerro dei Sette Colori?",
       "choices": [
-        "San Juan",
-        "La Rioja",
-        "Neuquén",
-        "Jujuy"
+        "Formosa",
+        "Isole Falkland (Malvinas)",
+        "Jujuy",
+        "San Luis"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "37de7a6aa7f9",
@@ -10150,12 +10150,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Quebrada de Humahuaca (Tilcara e Humahuaca)?",
       "choices": [
-        "Catamarca",
+        "Corrientes",
+        "Entre Ríos",
         "Jujuy",
-        "Buenos Aires",
         "Città Autonoma di Buenos Aires"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "10009b61fee3",
@@ -10163,12 +10163,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Salinas Grandes e Cuesta de Lipán?",
       "choices": [
-        "Tucumán",
-        "Río Negro",
-        "Chubut",
-        "Jujuy"
+        "Catamarca",
+        "Jujuy",
+        "San Juan",
+        "Misiones"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "90962fdbc3b8",
@@ -10176,12 +10176,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «La millenaria Quebrada de Humahuaca»?",
       "choices": [
-        "Mendoza",
-        "Corrientes",
+        "Santiago del Estero",
         "Jujuy",
-        "Chaco"
+        "Entre Ríos",
+        "Città Autonoma di Buenos Aires"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "147c73b7da52",
@@ -10189,12 +10189,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Belgrano e la Bandiera a Jujuy»?",
       "choices": [
-        "Tucumán",
-        "Salta",
-        "Misiones",
-        "Jujuy"
+        "Jujuy",
+        "La Pampa",
+        "Neuquén",
+        "Catamarca"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "0d28d1cf0f96",
@@ -10202,12 +10202,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Puma»?",
       "choices": [
-        "Neuquén",
-        "Città Autonoma di Buenos Aires",
-        "Terra del Fuoco",
-        "La Pampa"
+        "San Juan",
+        "La Pampa",
+        "Buenos Aires",
+        "Terra del Fuoco"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Puma» fa parte della fauna di La Pampa."
     },
     {
@@ -10216,12 +10216,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Nandù»?",
       "choices": [
-        "San Juan",
-        "La Rioja",
+        "Misiones",
         "La Pampa",
-        "Santiago del Estero"
+        "Chaco",
+        "Entre Ríos"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Nandù» fa parte della fauna di La Pampa."
     },
     {
@@ -10230,12 +10230,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Caldén»?",
       "choices": [
-        "Río Negro",
-        "Corrientes",
+        "Catamarca",
         "La Pampa",
-        "Buenos Aires"
+        "San Luis",
+        "Entre Ríos"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Caldén» è una pianta tipica di La Pampa."
     },
     {
@@ -10244,12 +10244,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Jarilla pampeana»?",
       "choices": [
-        "Entre Ríos",
-        "San Juan",
-        "Tucumán",
-        "La Pampa"
+        "La Pampa",
+        "Buenos Aires",
+        "La Rioja",
+        "Santa Fe"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Jarilla pampeana» è una pianta tipica di La Pampa."
     },
     {
@@ -10258,12 +10258,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Olivo de burro»?",
       "choices": [
-        "Santiago del Estero",
-        "La Pampa",
-        "Terra del Fuoco",
-        "Corrientes"
+        "Río Negro",
+        "Isole Falkland (Malvinas)",
+        "Neuquén",
+        "La Pampa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Olivo de burro» è una pianta tipica di La Pampa."
     },
     {
@@ -10272,12 +10272,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Asado criollo pampeano»?",
       "choices": [
-        "La Rioja",
-        "Mendoza",
-        "La Pampa",
-        "Catamarca"
+        "Río Negro",
+        "Córdoba",
+        "Santiago del Estero",
+        "La Pampa"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "4ec776a0fd07",
@@ -10285,12 +10285,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Chivito al asador»?",
       "choices": [
-        "Neuquén",
         "La Pampa",
-        "Santiago del Estero",
-        "Chubut"
+        "Entre Ríos",
+        "Jujuy",
+        "San Luis"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "1a685a1982a0",
@@ -10298,12 +10298,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Torta frita»?",
       "choices": [
+        "Città Autonoma di Buenos Aires",
         "La Pampa",
-        "San Juan",
-        "San Luis",
-        "Terra del Fuoco"
+        "Neuquén",
+        "San Luis"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "b5ce1b9027e5",
@@ -10311,12 +10311,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Parco Nazionale Lihué Calel?",
       "choices": [
-        "San Luis",
-        "Santiago del Estero",
         "La Pampa",
-        "Catamarca"
+        "Chubut",
+        "Buenos Aires",
+        "Córdoba"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "56c0dacf6f36",
@@ -10324,12 +10324,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Riserva Provinciale Parque Luro?",
       "choices": [
-        "Córdoba",
-        "Catamarca",
-        "La Pampa",
-        "Chaco"
+        "Isole Falkland (Malvinas)",
+        "Buenos Aires",
+        "Chubut",
+        "La Pampa"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "2d996c6c25aa",
@@ -10337,12 +10337,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Laguna de Utracán e zona di Guatraché?",
       "choices": [
-        "Chubut",
-        "San Juan",
-        "Santiago del Estero",
-        "La Pampa"
+        "La Pampa",
+        "Córdoba",
+        "La Rioja",
+        "Neuquén"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d4a4d2f0989e",
@@ -10350,12 +10350,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Il caldén, albero emblema»?",
       "choices": [
-        "Salta",
-        "Chaco",
-        "La Pampa",
-        "Santa Fe"
+        "Entre Ríos",
+        "Chubut",
+        "San Juan",
+        "La Pampa"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "537a6cea918d",
@@ -10364,11 +10364,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "A quale provincia appartiene questo fatto storico: «Incrocio di rotte storiche»?",
       "choices": [
         "La Rioja",
-        "Neuquén",
-        "Corrientes",
-        "La Pampa"
+        "Mendoza",
+        "La Pampa",
+        "Città Autonoma di Buenos Aires"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "1791ce4d7265",
@@ -10376,12 +10376,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Nandù»?",
       "choices": [
+        "Terra del Fuoco",
         "La Rioja",
         "Córdoba",
-        "La Pampa",
-        "Formosa"
+        "Jujuy"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Nandù» fa parte della fauna di La Rioja."
     },
     {
@@ -10390,12 +10390,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Guanaco»?",
       "choices": [
-        "Río Negro",
         "La Rioja",
         "Chubut",
-        "Chaco"
+        "Mendoza",
+        "Terra del Fuoco"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Guanaco» fa parte della fauna di La Rioja."
     },
     {
@@ -10404,12 +10404,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Jarilla»?",
       "choices": [
-        "Buenos Aires",
         "La Rioja",
-        "Città Autonoma di Buenos Aires",
-        "Neuquén"
+        "Buenos Aires",
+        "Corrientes",
+        "La Pampa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Jarilla» è una pianta tipica di La Rioja."
     },
     {
@@ -10418,12 +10418,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Retortuño»?",
       "choices": [
-        "La Rioja",
-        "Formosa",
-        "Santa Fe",
-        "Córdoba"
+        "Santiago del Estero",
+        "Jujuy",
+        "Isole Falkland (Malvinas)",
+        "La Rioja"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Retortuño» è una pianta tipica di La Rioja."
     },
     {
@@ -10432,12 +10432,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Algarrobo bianco»?",
       "choices": [
-        "Catamarca",
         "La Rioja",
-        "Corrientes",
-        "Salta"
+        "La Pampa",
+        "Córdoba",
+        "Jujuy"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Algarrobo bianco» è una pianta tipica di La Rioja."
     },
     {
@@ -10446,12 +10446,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Chanfaina riojana»?",
       "choices": [
-        "Salta",
-        "San Luis",
-        "Santiago del Estero",
-        "La Rioja"
+        "Tucumán",
+        "Córdoba",
+        "La Rioja",
+        "Río Negro"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "e71b6af18f38",
@@ -10460,9 +10460,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Di quale provincia è tipico il piatto «Empanadas di La Rioja»?",
       "choices": [
         "La Rioja",
-        "Entre Ríos",
-        "Río Negro",
-        "Santa Fe"
+        "San Juan",
+        "Chubut",
+        "La Pampa"
       ],
       "correctIndex": 0
     },
@@ -10472,12 +10472,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Locro di La Rioja»?",
       "choices": [
-        "Neuquén",
-        "Santa Fe",
-        "Santiago del Estero",
-        "La Rioja"
+        "La Rioja",
+        "Santa Cruz",
+        "Entre Ríos",
+        "Río Negro"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "ec9122168592",
@@ -10485,12 +10485,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Parco Nazionale Talampaya?",
       "choices": [
+        "La Rioja",
         "Santa Fe",
-        "Formosa",
-        "Chaco",
-        "La Rioja"
+        "La Pampa",
+        "Santiago del Estero"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "2ada60d4e1a2",
@@ -10498,8 +10498,8 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Cuesta de Miranda?",
       "choices": [
-        "Città Autonoma di Buenos Aires",
-        "Chaco",
+        "Jujuy",
+        "Entre Ríos",
         "La Rioja",
         "Santiago del Estero"
       ],
@@ -10511,12 +10511,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Parco Nazionale Laguna Brava?",
       "choices": [
+        "Città Autonoma di Buenos Aires",
         "La Rioja",
-        "Neuquén",
-        "Santa Cruz",
-        "Jujuy"
+        "Chubut",
+        "Entre Ríos"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "c10b9d03f3d6",
@@ -10524,12 +10524,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Terra di caudillos federali»?",
       "choices": [
-        "Santiago del Estero",
+        "Misiones",
         "San Luis",
-        "Chaco",
-        "La Rioja"
+        "La Rioja",
+        "La Pampa"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "b55a33ce4d53",
@@ -10537,12 +10537,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Talampaya e il tempo profondo»?",
       "choices": [
-        "Río Negro",
+        "Chaco",
         "La Pampa",
-        "Buenos Aires",
-        "La Rioja"
+        "La Rioja",
+        "Misiones"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "2baf2f245d39",
@@ -10550,12 +10550,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Condor andino»?",
       "choices": [
-        "Città Autonoma di Buenos Aires",
+        "Salta",
+        "Catamarca",
         "Mendoza",
-        "Córdoba",
-        "La Pampa"
+        "Entre Ríos"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Condor andino» fa parte della fauna di Mendoza."
     },
     {
@@ -10564,12 +10564,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Guanaco»?",
       "choices": [
-        "Corrientes",
-        "Salta",
+        "Mendoza",
+        "La Rioja",
         "Jujuy",
-        "Mendoza"
+        "Terra del Fuoco"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Guanaco» fa parte della fauna di Mendoza."
     },
     {
@@ -10578,10 +10578,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Ajarilla»?",
       "choices": [
-        "Isole Falkland (Malvinas)",
         "San Juan",
+        "Río Negro",
         "Mendoza",
-        "Santa Fe"
+        "Santiago del Estero"
       ],
       "correctIndex": 2,
       "explanation": "«Ajarilla» è una pianta tipica di Mendoza."
@@ -10592,12 +10592,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Jarillas resinose»?",
       "choices": [
-        "Chaco",
-        "Mendoza",
+        "Salta",
         "Entre Ríos",
-        "Santiago del Estero"
+        "Santa Fe",
+        "Mendoza"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Jarillas resinose» è una pianta tipica di Mendoza."
     },
     {
@@ -10606,12 +10606,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Chañar di Mendoza»?",
       "choices": [
-        "Catamarca",
-        "La Pampa",
-        "Buenos Aires",
-        "Mendoza"
+        "Mendoza",
+        "Santa Fe",
+        "Salta",
+        "Tucumán"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Chañar di Mendoza» è una pianta tipica di Mendoza."
     },
     {
@@ -10620,12 +10620,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Tortitas mendocinas»?",
       "choices": [
-        "Buenos Aires",
+        "Río Negro",
+        "Entre Ríos",
         "Mendoza",
-        "San Juan",
         "Neuquén"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "6348ced138c0",
@@ -10633,12 +10633,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Chivo a la llama»?",
       "choices": [
+        "Terra del Fuoco",
         "Mendoza",
-        "Córdoba",
-        "Santiago del Estero",
-        "Isole Falkland (Malvinas)"
+        "San Luis",
+        "Santiago del Estero"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "dc1368da02ac",
@@ -10646,12 +10646,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Empanadas di Mendoza»?",
       "choices": [
-        "Chaco",
-        "Mendoza",
-        "Santa Cruz",
-        "Tucumán"
+        "La Pampa",
+        "Città Autonoma di Buenos Aires",
+        "Misiones",
+        "Mendoza"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "4cac7a9280b0",
@@ -10660,11 +10660,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia si trova Parco Provinciale Aconcagua?",
       "choices": [
         "Misiones",
-        "Tucumán",
-        "La Pampa",
-        "Mendoza"
+        "Neuquén",
+        "Mendoza",
+        "Entre Ríos"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "fe5b22318a54",
@@ -10672,12 +10672,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Strada del Vino a Luján de Cuyo e nella Valle de Uco?",
       "choices": [
-        "Mendoza",
-        "Neuquén",
-        "Santiago del Estero",
-        "Santa Fe"
+        "Entre Ríos",
+        "Buenos Aires",
+        "Corrientes",
+        "Mendoza"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "bf4404a0b2c9",
@@ -10685,12 +10685,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Puente del Inca e Parco Provinciale Cañón del Atuel?",
       "choices": [
-        "Santiago del Estero",
-        "Santa Cruz",
-        "Isole Falkland (Malvinas)",
-        "Mendoza"
+        "Mendoza",
+        "San Juan",
+        "Chubut",
+        "Salta"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "09b23395871b",
@@ -10698,10 +10698,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Culla dell'Esercito delle Ande»?",
       "choices": [
-        "San Luis",
+        "Catamarca",
         "Mendoza",
-        "Santa Cruz",
-        "Chubut"
+        "Corrientes",
+        "Chaco"
       ],
       "correctIndex": 1
     },
@@ -10711,12 +10711,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Oasi costruite con le acequias»?",
       "choices": [
-        "Buenos Aires",
-        "La Pampa",
-        "Mendoza",
-        "Formosa"
+        "Chubut",
+        "San Luis",
+        "Chaco",
+        "Mendoza"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "320b2dd5eba2",
@@ -10724,10 +10724,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Giaguaro»?",
       "choices": [
-        "Buenos Aires",
+        "Isole Falkland (Malvinas)",
         "Misiones",
-        "Formosa",
-        "Córdoba"
+        "Santa Cruz",
+        "Neuquén"
       ],
       "correctIndex": 1,
       "explanation": "«Giaguaro» fa parte della fauna di Misiones."
@@ -10738,12 +10738,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Urlatore nero»?",
       "choices": [
-        "Salta",
-        "Terra del Fuoco",
-        "Chubut",
-        "Misiones"
+        "Misiones",
+        "San Juan",
+        "Jujuy",
+        "Catamarca"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Urlatore nero» fa parte della fauna di Misiones."
     },
     {
@@ -10752,9 +10752,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Palmito di Misiones»?",
       "choices": [
-        "Salta",
-        "San Luis",
+        "La Rioja",
         "Tucumán",
+        "Corrientes",
         "Misiones"
       ],
       "correctIndex": 3,
@@ -10766,12 +10766,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Lapacho rosa»?",
       "choices": [
-        "Córdoba",
-        "Río Negro",
         "Misiones",
-        "Salta"
+        "Corrientes",
+        "Santiago del Estero",
+        "Entre Ríos"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Lapacho rosa» è una pianta tipica di Misiones."
     },
     {
@@ -10780,12 +10780,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Araucaria di Misiones»?",
       "choices": [
-        "Río Negro",
-        "Jujuy",
         "Misiones",
-        "Catamarca"
+        "Río Negro",
+        "Córdoba",
+        "Santiago del Estero"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Araucaria di Misiones» è una pianta tipica di Misiones."
     },
     {
@@ -10794,12 +10794,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Reviro»?",
       "choices": [
+        "Neuquén",
+        "Corrientes",
         "Misiones",
-        "La Pampa",
-        "Catamarca",
-        "La Rioja"
+        "Santa Fe"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "9f94e336f6ab",
@@ -10807,12 +10807,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Chipá di Misiones»?",
       "choices": [
-        "Córdoba",
+        "Isole Falkland (Malvinas)",
+        "Santa Cruz",
         "Misiones",
-        "Tucumán",
-        "Mendoza"
+        "La Pampa"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "57be696c8eac",
@@ -10820,12 +10820,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Mbejú»?",
       "choices": [
-        "Misiones",
-        "Río Negro",
-        "Mendoza",
-        "Formosa"
+        "La Rioja",
+        "La Pampa",
+        "Tucumán",
+        "Misiones"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "5afec6959cf4",
@@ -10833,12 +10833,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Cascate dell'Iguazú?",
       "choices": [
-        "Neuquén",
-        "Buenos Aires",
         "Misiones",
+        "Santa Cruz",
+        "Corrientes",
         "Córdoba"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "486920d41163",
@@ -10846,12 +10846,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Rovine gesuitiche di San Ignacio Miní?",
       "choices": [
-        "La Rioja",
+        "San Luis",
+        "La Pampa",
         "Misiones",
-        "Santiago del Estero",
-        "Chaco"
+        "Chubut"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "b8eb40287a3a",
@@ -10859,12 +10859,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Salti del Moconá?",
       "choices": [
-        "Formosa",
         "Misiones",
-        "Neuquén",
-        "Jujuy"
+        "Formosa",
+        "Isole Falkland (Malvinas)",
+        "Córdoba"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "eed906364302",
@@ -10872,12 +10872,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Le Missioni Gesuitiche»?",
       "choices": [
+        "Salta",
         "Misiones",
-        "Chubut",
-        "Formosa",
-        "Mendoza"
+        "Río Negro",
+        "Chubut"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "8087329d3454",
@@ -10885,9 +10885,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «La foresta e la yerba mate»?",
       "choices": [
-        "Catamarca",
-        "Santa Cruz",
-        "Salta",
+        "Terra del Fuoco",
+        "Chubut",
+        "Río Negro",
         "Misiones"
       ],
       "correctIndex": 3
@@ -10898,12 +10898,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Volpe grigia della Patagonia»?",
       "choices": [
-        "Jujuy",
-        "Santiago del Estero",
-        "Córdoba",
-        "Neuquén"
+        "Neuquén",
+        "Terra del Fuoco",
+        "Città Autonoma di Buenos Aires",
+        "Tucumán"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Volpe grigia della Patagonia» fa parte della fauna di Neuquén."
     },
     {
@@ -10912,12 +10912,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Pudù»?",
       "choices": [
+        "La Rioja",
         "Neuquén",
-        "Jujuy",
-        "Formosa",
-        "Tucumán"
+        "Salta",
+        "Río Negro"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Pudù» fa parte della fauna di Neuquén."
     },
     {
@@ -10926,10 +10926,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Pehuén (araucaria)»?",
       "choices": [
+        "Jujuy",
         "Catamarca",
-        "Entre Ríos",
         "Neuquén",
-        "La Rioja"
+        "Misiones"
       ],
       "correctIndex": 2,
       "explanation": "«Pehuén (araucaria)» è una pianta tipica di Neuquén."
@@ -10941,9 +10941,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia cresce questa pianta: «Ñire»?",
       "choices": [
         "Neuquén",
-        "Tucumán",
-        "Catamarca",
-        "Santa Cruz"
+        "Buenos Aires",
+        "La Pampa",
+        "Terra del Fuoco"
       ],
       "correctIndex": 0,
       "explanation": "«Ñire» è una pianta tipica di Neuquén."
@@ -10954,12 +10954,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Maitén della cordigliera»?",
       "choices": [
-        "Formosa",
-        "Córdoba",
-        "Chubut",
-        "Neuquén"
+        "Santa Fe",
+        "Neuquén",
+        "Città Autonoma di Buenos Aires",
+        "Formosa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Maitén della cordigliera» è una pianta tipica di Neuquén."
     },
     {
@@ -10968,12 +10968,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Chivito di Neuquén»?",
       "choices": [
-        "Mendoza",
         "Neuquén",
-        "Chaco",
-        "La Rioja"
+        "Città Autonoma di Buenos Aires",
+        "Buenos Aires",
+        "Chaco"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "030b02893ee9",
@@ -10981,12 +10981,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Trota patagonica»?",
       "choices": [
-        "Río Negro",
         "Neuquén",
-        "Entre Ríos",
-        "Buenos Aires"
+        "Buenos Aires",
+        "Salta",
+        "Tucumán"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "1f6a359ccc47",
@@ -10994,12 +10994,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Torta frita patagonica»?",
       "choices": [
-        "La Rioja",
-        "Città Autonoma di Buenos Aires",
-        "Santa Cruz",
-        "Neuquén"
+        "Mendoza",
+        "Isole Falkland (Malvinas)",
+        "Neuquén",
+        "Corrientes"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "a73326bc6e8d",
@@ -11008,9 +11008,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia si trova Villa La Angostura e Parco Nazionale Nahuel Huapi?",
       "choices": [
         "Neuquén",
+        "Río Negro",
         "La Pampa",
-        "Città Autonoma di Buenos Aires",
-        "Córdoba"
+        "Jujuy"
       ],
       "correctIndex": 0
     },
@@ -11020,12 +11020,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova San Martín de los Andes e Strada dei Sette Laghi?",
       "choices": [
-        "Santa Cruz",
+        "Misiones",
+        "Córdoba",
         "Neuquén",
-        "La Rioja",
-        "Santiago del Estero"
+        "Salta"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "c75c180e9ba6",
@@ -11033,9 +11033,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Vulcano Lanín e Parco Nazionale Lanín?",
       "choices": [
-        "Formosa",
+        "Salta",
         "Neuquén",
-        "Entre Ríos",
+        "San Juan",
         "Santiago del Estero"
       ],
       "correctIndex": 1
@@ -11046,12 +11046,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Territorio mapuche e di cordigliera»?",
       "choices": [
-        "San Juan",
-        "Chaco",
-        "Isole Falkland (Malvinas)",
-        "Neuquén"
+        "Salta",
+        "Neuquén",
+        "Corrientes",
+        "Córdoba"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "6f1f3d382075",
@@ -11059,12 +11059,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Vaca Muerta ed energia»?",
       "choices": [
-        "Corrientes",
+        "Santa Cruz",
+        "La Pampa",
         "Neuquén",
-        "La Rioja",
-        "Città Autonoma di Buenos Aires"
+        "Corrientes"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "ee347925f42d",
@@ -11072,12 +11072,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Mara della Patagonia»?",
       "choices": [
-        "San Luis",
-        "Salta",
+        "Mendoza",
         "Río Negro",
-        "La Pampa"
+        "Entre Ríos",
+        "Terra del Fuoco"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Mara della Patagonia» fa parte della fauna di Río Negro."
     },
     {
@@ -11087,9 +11087,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia vive questo animale: «Guanaco»?",
       "choices": [
         "Río Negro",
-        "Formosa",
-        "La Rioja",
-        "Buenos Aires"
+        "Misiones",
+        "Mendoza",
+        "Santa Cruz"
       ],
       "correctIndex": 0,
       "explanation": "«Guanaco» fa parte della fauna di Río Negro."
@@ -11100,12 +11100,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Neneo»?",
       "choices": [
-        "Corrientes",
-        "Isole Falkland (Malvinas)",
-        "Tucumán",
-        "Río Negro"
+        "Río Negro",
+        "Formosa",
+        "Neuquén",
+        "Salta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Neneo» è una pianta tipica di Río Negro."
     },
     {
@@ -11114,12 +11114,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Molle patagonico»?",
       "choices": [
-        "Jujuy",
-        "Río Negro",
         "Entre Ríos",
-        "Santiago del Estero"
+        "Buenos Aires",
+        "Río Negro",
+        "Santa Cruz"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Molle patagonico» è una pianta tipica di Río Negro."
     },
     {
@@ -11128,12 +11128,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Coihue andino»?",
       "choices": [
-        "Entre Ríos",
-        "Río Negro",
-        "Santa Cruz",
-        "San Luis"
+        "Santa Fe",
+        "Neuquén",
+        "Chubut",
+        "Río Negro"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Coihue andino» è una pianta tipica di Río Negro."
     },
     {
@@ -11142,10 +11142,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Trota patagonica»?",
       "choices": [
-        "Città Autonoma di Buenos Aires",
         "La Rioja",
+        "Terra del Fuoco",
         "Río Negro",
-        "Santa Fe"
+        "Catamarca"
       ],
       "correctIndex": 2
     },
@@ -11155,12 +11155,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Agnello allo spiedo»?",
       "choices": [
+        "Mendoza",
+        "Jujuy",
         "Río Negro",
-        "Buenos Aires",
-        "Chubut",
-        "Mendoza"
+        "Neuquén"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "b1c9f7b93d3a",
@@ -11169,11 +11169,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia si trova Bariloche e Circuito Chico?",
       "choices": [
         "Corrientes",
-        "Misiones",
-        "Río Negro",
-        "Mendoza"
+        "Neuquén",
+        "Isole Falkland (Malvinas)",
+        "Río Negro"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "c5c1f1790251",
@@ -11181,12 +11181,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova El Bolsón e Lago Puelo (comarca andina)?",
       "choices": [
-        "Río Negro",
+        "Tucumán",
         "Misiones",
-        "Catamarca",
-        "San Luis"
+        "Río Negro",
+        "Chaco"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "e0ac8ca4e958",
@@ -11194,12 +11194,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Las Grutas e costa del Golfo San Matías?",
       "choices": [
-        "Santa Cruz",
+        "Mendoza",
+        "Entre Ríos",
         "Río Negro",
-        "Santiago del Estero",
-        "Tucumán"
+        "Isole Falkland (Malvinas)"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "190bb701cce9",
@@ -11208,9 +11208,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "A quale provincia appartiene questo fatto storico: «L'Alto Valle frutticolo»?",
       "choices": [
         "Río Negro",
-        "Chaco",
         "Santiago del Estero",
-        "Córdoba"
+        "Buenos Aires",
+        "Corrientes"
       ],
       "correctIndex": 0
     },
@@ -11220,12 +11220,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Costa atlantica e paleontologia»?",
       "choices": [
-        "San Juan",
-        "Isole Falkland (Malvinas)",
+        "Neuquén",
         "Río Negro",
-        "La Pampa"
+        "Isole Falkland (Malvinas)",
+        "Terra del Fuoco"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "0c44bd10f071",
@@ -11233,12 +11233,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Tapiro»?",
       "choices": [
-        "Tucumán",
         "Salta",
-        "La Rioja",
-        "San Luis"
+        "Jujuy",
+        "Tucumán",
+        "Terra del Fuoco"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Tapiro» fa parte della fauna di Salta."
     },
     {
@@ -11247,12 +11247,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Vigogna»?",
       "choices": [
-        "San Juan",
         "Salta",
-        "Neuquén",
-        "La Pampa"
+        "Città Autonoma di Buenos Aires",
+        "Córdoba",
+        "Río Negro"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Vigogna» fa parte della fauna di Salta."
     },
     {
@@ -11261,12 +11261,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Yuchán»?",
       "choices": [
-        "Città Autonoma di Buenos Aires",
-        "Santiago del Estero",
-        "Salta",
-        "Neuquén"
+        "Misiones",
+        "Entre Ríos",
+        "Córdoba",
+        "Salta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Yuchán» è una pianta tipica di Salta."
     },
     {
@@ -11275,12 +11275,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Palo borracho rosa»?",
       "choices": [
-        "Buenos Aires",
-        "Neuquén",
-        "San Juan",
-        "Salta"
+        "Chaco",
+        "Río Negro",
+        "Salta",
+        "Santa Cruz"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Palo borracho rosa» è una pianta tipica di Salta."
     },
     {
@@ -11289,10 +11289,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Tipa bianca»?",
       "choices": [
-        "Formosa",
-        "Tucumán",
+        "Terra del Fuoco",
+        "Jujuy",
         "Salta",
-        "Chubut"
+        "Catamarca"
       ],
       "correctIndex": 2,
       "explanation": "«Tipa bianca» è una pianta tipica di Salta."
@@ -11303,12 +11303,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Empanadas di Salta»?",
       "choices": [
-        "Salta",
         "San Juan",
-        "San Luis",
-        "Città Autonoma di Buenos Aires"
+        "Jujuy",
+        "Misiones",
+        "Salta"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "613ac189d982",
@@ -11316,12 +11316,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Tamales di Salta»?",
       "choices": [
-        "Santa Fe",
-        "Entre Ríos",
+        "Chubut",
+        "Salta",
         "La Rioja",
-        "Salta"
+        "Misiones"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "dbfb7427a975",
@@ -11329,12 +11329,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Humita»?",
       "choices": [
+        "Entre Ríos",
         "Salta",
-        "Santa Cruz",
-        "Tucumán",
-        "Chaco"
+        "Neuquén",
+        "San Juan"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "34e47238b304",
@@ -11342,9 +11342,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Treno delle Nuvole (San Antonio de los Cobres)?",
       "choices": [
-        "Neuquén",
+        "Chubut",
         "Salta",
-        "Buenos Aires",
+        "Santiago del Estero",
         "La Pampa"
       ],
       "correctIndex": 1
@@ -11355,12 +11355,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Cafayate e Quebrada de las Conchas?",
       "choices": [
+        "Santa Fe",
+        "Santiago del Estero",
         "Salta",
-        "Chaco",
-        "San Juan",
-        "Città Autonoma di Buenos Aires"
+        "Mendoza"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "a6454f16c8db",
@@ -11368,12 +11368,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Cachi e Parco Nazionale Los Cardones?",
       "choices": [
+        "Corrientes",
         "Salta",
-        "Misiones",
-        "Neuquén",
-        "Santa Cruz"
+        "Santa Fe",
+        "Chaco"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "aaee98115bbd",
@@ -11381,12 +11381,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Güemes e la guerra d'indipendenza»?",
       "choices": [
+        "Santa Fe",
+        "Buenos Aires",
         "Salta",
-        "Santiago del Estero",
-        "Catamarca",
-        "San Juan"
+        "Córdoba"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "83e2706b8d85",
@@ -11395,11 +11395,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "A quale provincia appartiene questo fatto storico: «Un mosaico di paesaggi»?",
       "choices": [
         "Chubut",
-        "Salta",
-        "Isole Falkland (Malvinas)",
-        "Formosa"
+        "Entre Ríos",
+        "Santa Cruz",
+        "Salta"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "f58fa90e41f0",
@@ -11407,12 +11407,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Guanaco»?",
       "choices": [
-        "Neuquén",
         "San Juan",
-        "La Pampa",
-        "Jujuy"
+        "Jujuy",
+        "Città Autonoma di Buenos Aires",
+        "Santiago del Estero"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Guanaco» fa parte della fauna di San Juan."
     },
     {
@@ -11421,10 +11421,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Mara della Patagonia»?",
       "choices": [
-        "Mendoza",
-        "Santa Fe",
+        "Salta",
+        "La Rioja",
         "San Juan",
-        "La Pampa"
+        "Santiago del Estero"
       ],
       "correctIndex": 2,
       "explanation": "«Mara della Patagonia» fa parte della fauna di San Juan."
@@ -11436,9 +11436,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia cresce questa pianta: «Retamo»?",
       "choices": [
         "San Juan",
-        "Città Autonoma di Buenos Aires",
-        "Tucumán",
-        "Entre Ríos"
+        "Corrientes",
+        "Misiones",
+        "Città Autonoma di Buenos Aires"
       ],
       "correctIndex": 0,
       "explanation": "«Retamo» è una pianta tipica di San Juan."
@@ -11449,12 +11449,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Jarilla di San Juan»?",
       "choices": [
-        "La Rioja",
-        "Terra del Fuoco",
+        "Salta",
+        "San Juan",
         "Tucumán",
-        "San Juan"
+        "Terra del Fuoco"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Jarilla di San Juan» è una pianta tipica di San Juan."
     },
     {
@@ -11463,12 +11463,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Algarrobo nero»?",
       "choices": [
-        "Catamarca",
-        "San Juan",
-        "Misiones",
-        "Mendoza"
+        "Corrientes",
+        "La Rioja",
+        "Buenos Aires",
+        "San Juan"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Algarrobo nero» è una pianta tipica di San Juan."
     },
     {
@@ -11477,12 +11477,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Punta de espalda»?",
       "choices": [
-        "Corrientes",
-        "Neuquén",
-        "Formosa",
-        "San Juan"
+        "San Juan",
+        "Tucumán",
+        "La Pampa",
+        "Misiones"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "c271d91b9eff",
@@ -11490,10 +11490,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Tomaticán»?",
       "choices": [
-        "Entre Ríos",
+        "Buenos Aires",
         "San Juan",
-        "Santa Fe",
-        "Jujuy"
+        "La Pampa",
+        "Santiago del Estero"
       ],
       "correctIndex": 1
     },
@@ -11503,12 +11503,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Sopaipillas»?",
       "choices": [
-        "La Rioja",
-        "Città Autonoma di Buenos Aires",
-        "Río Negro",
-        "San Juan"
+        "Formosa",
+        "Mendoza",
+        "San Juan",
+        "Tucumán"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "59f365b1900a",
@@ -11517,9 +11517,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia si trova Parco Provinciale Ischigualasto (Valle della Luna)?",
       "choices": [
         "San Juan",
-        "La Pampa",
-        "Neuquén",
-        "San Luis"
+        "Santa Fe",
+        "Salta",
+        "Neuquén"
       ],
       "correctIndex": 0
     },
@@ -11529,12 +11529,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Diga Cuesta del Viento (Rodeo)?",
       "choices": [
-        "San Juan",
-        "Terra del Fuoco",
-        "Chaco",
-        "Salta"
+        "Santiago del Estero",
+        "Città Autonoma di Buenos Aires",
+        "La Rioja",
+        "San Juan"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "3ae03e7ea7d0",
@@ -11542,12 +11542,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Parco Nazionale El Leoncito (Barreal)?",
       "choices": [
+        "Neuquén",
+        "Entre Ríos",
         "San Juan",
-        "Catamarca",
-        "Santa Fe",
-        "Isole Falkland (Malvinas)"
+        "Jujuy"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "0f16cfa992b7",
@@ -11555,12 +11555,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Sarmiento e l'istruzione»?",
       "choices": [
-        "Mendoza",
         "San Juan",
-        "Città Autonoma di Buenos Aires",
-        "La Rioja"
+        "La Pampa",
+        "Catamarca",
+        "Isole Falkland (Malvinas)"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "6240da804bbc",
@@ -11568,12 +11568,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Ischigualasto e fossili unici»?",
       "choices": [
+        "Formosa",
         "Corrientes",
-        "La Pampa",
-        "Mendoza",
-        "San Juan"
+        "San Juan",
+        "Entre Ríos"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "51b59b3d3d3e",
@@ -11581,12 +11581,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Armadillo a sei fasce»?",
       "choices": [
-        "Buenos Aires",
+        "Città Autonoma di Buenos Aires",
+        "Corrientes",
         "San Luis",
-        "Santa Cruz",
-        "Tucumán"
+        "San Juan"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Armadillo a sei fasce» fa parte della fauna di San Luis."
     },
     {
@@ -11595,12 +11595,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Volpe grigia»?",
       "choices": [
-        "Chaco",
-        "La Pampa",
-        "Corrientes",
-        "San Luis"
+        "Misiones",
+        "San Luis",
+        "Santa Cruz",
+        "Entre Ríos"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Volpe grigia» fa parte della fauna di San Luis."
     },
     {
@@ -11609,12 +11609,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Algarrobo dolce»?",
       "choices": [
-        "Neuquén",
-        "La Pampa",
+        "Misiones",
         "San Luis",
-        "Santa Cruz"
+        "La Pampa",
+        "Salta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Algarrobo dolce» è una pianta tipica di San Luis."
     },
     {
@@ -11623,12 +11623,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Espinillo di San Luis»?",
       "choices": [
-        "Entre Ríos",
-        "La Rioja",
-        "La Pampa",
-        "San Luis"
+        "San Luis",
+        "Città Autonoma di Buenos Aires",
+        "Catamarca",
+        "Río Negro"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Espinillo di San Luis» è una pianta tipica di San Luis."
     },
     {
@@ -11637,12 +11637,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Quebracho bianco delle sierras»?",
       "choices": [
+        "Isole Falkland (Malvinas)",
+        "Formosa",
         "San Luis",
-        "Misiones",
-        "Buenos Aires",
-        "Isole Falkland (Malvinas)"
+        "La Pampa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Quebracho bianco delle sierras» è una pianta tipica di San Luis."
     },
     {
@@ -11651,12 +11651,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Chivito di San Luis»?",
       "choices": [
-        "Catamarca",
-        "San Luis",
+        "La Pampa",
+        "Santa Fe",
         "Salta",
-        "Corrientes"
+        "San Luis"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "2d4c8cca614c",
@@ -11664,12 +11664,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Empanadas di San Luis»?",
       "choices": [
-        "Entre Ríos",
-        "Río Negro",
-        "San Luis",
-        "Chaco"
+        "Santa Fe",
+        "Neuquén",
+        "Città Autonoma di Buenos Aires",
+        "San Luis"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "4f14984b3415",
@@ -11677,10 +11677,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Carbonada»?",
       "choices": [
-        "Mendoza",
+        "Santa Fe",
         "San Luis",
-        "Santiago del Estero",
-        "Terra del Fuoco"
+        "La Pampa",
+        "Catamarca"
       ],
       "correctIndex": 1
     },
@@ -11690,10 +11690,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Parco Nazionale Sierra de las Quijadas?",
       "choices": [
-        "Salta",
+        "Santiago del Estero",
         "San Luis",
-        "Catamarca",
-        "Santa Fe"
+        "Corrientes",
+        "Città Autonoma di Buenos Aires"
       ],
       "correctIndex": 1
     },
@@ -11703,12 +11703,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Potrero de los Funes?",
       "choices": [
-        "San Luis",
         "Buenos Aires",
-        "Formosa",
-        "Terra del Fuoco"
+        "Catamarca",
+        "Mendoza",
+        "San Luis"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "1295a54954ff",
@@ -11716,10 +11716,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Merlo e Riserva Florofaunistica di Rincón del Este?",
       "choices": [
-        "Santa Cruz",
-        "Salta",
+        "San Juan",
+        "Chubut",
         "San Luis",
-        "Río Negro"
+        "Terra del Fuoco"
       ],
       "correctIndex": 2
     },
@@ -11729,12 +11729,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Posta delle strade interne»?",
       "choices": [
-        "Terra del Fuoco",
-        "Río Negro",
         "San Luis",
-        "Chaco"
+        "Città Autonoma di Buenos Aires",
+        "Catamarca",
+        "Chubut"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "af626ca4e57b",
@@ -11742,12 +11742,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Paesaggio di sierras e saline»?",
       "choices": [
-        "Corrientes",
-        "Formosa",
-        "La Rioja",
-        "San Luis"
+        "San Luis",
+        "Salta",
+        "La Pampa",
+        "Mendoza"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "8ad71a1a138f",
@@ -11755,9 +11755,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Pudù»?",
       "choices": [
-        "Santa Fe",
-        "La Pampa",
-        "Catamarca",
+        "Río Negro",
+        "Entre Ríos",
+        "Santiago del Estero",
         "Santa Cruz"
       ],
       "correctIndex": 3,
@@ -11769,12 +11769,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Guanaco»?",
       "choices": [
-        "Catamarca",
-        "Salta",
         "Santa Cruz",
-        "Río Negro"
+        "Città Autonoma di Buenos Aires",
+        "Chaco",
+        "Tucumán"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Guanaco» fa parte della fauna di Santa Cruz."
     },
     {
@@ -11783,12 +11783,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Mata negra»?",
       "choices": [
+        "San Luis",
+        "Río Negro",
         "Santa Cruz",
-        "Misiones",
-        "Salta",
-        "Santiago del Estero"
+        "Tucumán"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Mata negra» è una pianta tipica di Santa Cruz."
     },
     {
@@ -11797,10 +11797,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Coirón fueghino»?",
       "choices": [
-        "Misiones",
-        "Córdoba",
+        "Chaco",
+        "San Juan",
         "Santa Cruz",
-        "La Pampa"
+        "Neuquén"
       ],
       "correctIndex": 2,
       "explanation": "«Coirón fueghino» è una pianta tipica di Santa Cruz."
@@ -11811,12 +11811,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Neneo australe»?",
       "choices": [
-        "Chubut",
-        "Santa Cruz",
-        "Entre Ríos",
-        "Isole Falkland (Malvinas)"
+        "Città Autonoma di Buenos Aires",
+        "Tucumán",
+        "San Luis",
+        "Santa Cruz"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Neneo australe» è una pianta tipica di Santa Cruz."
     },
     {
@@ -11825,12 +11825,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Casseruola di frutti di mare»?",
       "choices": [
-        "Buenos Aires",
-        "Mendoza",
-        "San Juan",
-        "Santa Cruz"
+        "Misiones",
+        "Neuquén",
+        "Santa Cruz",
+        "Córdoba"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "63c0c8d4b3b0",
@@ -11838,12 +11838,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Agnello di Santa Cruz»?",
       "choices": [
+        "Salta",
         "Tucumán",
-        "Santa Cruz",
-        "La Pampa",
-        "Buenos Aires"
+        "Città Autonoma di Buenos Aires",
+        "Santa Cruz"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "e711daa79e81",
@@ -11851,12 +11851,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Ghiacciaio Perito Moreno (Parco Nazionale Los Glaciares)?",
       "choices": [
-        "Santa Cruz",
-        "Isole Falkland (Malvinas)",
-        "Neuquén",
-        "Città Autonoma di Buenos Aires"
+        "Catamarca",
+        "Terra del Fuoco",
+        "La Rioja",
+        "Santa Cruz"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "db77cbdadba8",
@@ -11864,10 +11864,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova El Chaltén e i sentieri del Fitz Roy?",
       "choices": [
-        "Mendoza",
-        "Formosa",
+        "La Rioja",
+        "Catamarca",
         "Santa Cruz",
-        "Isole Falkland (Malvinas)"
+        "Tucumán"
       ],
       "correctIndex": 2
     },
@@ -11877,12 +11877,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Cueva de las Manos (fiume Pinturas)?",
       "choices": [
-        "Misiones",
+        "Corrientes",
+        "San Luis",
         "Santa Cruz",
-        "Río Negro",
-        "San Juan"
+        "Città Autonoma di Buenos Aires"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "68d2da3314d0",
@@ -11890,12 +11890,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Ghiacci continentali»?",
       "choices": [
-        "La Rioja",
-        "Corrientes",
-        "Formosa",
-        "Santa Cruz"
+        "San Juan",
+        "Terra del Fuoco",
+        "Santa Cruz",
+        "Misiones"
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": "b0a783377673",
@@ -11903,12 +11903,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Cueva de las Manos»?",
       "choices": [
-        "Neuquén",
-        "Santiago del Estero",
+        "Santa Cruz",
+        "Isole Falkland (Malvinas)",
         "San Juan",
-        "Santa Cruz"
+        "Santa Fe"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "bc3f6dc3f93c",
@@ -11916,10 +11916,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Caimano yacaré»?",
       "choices": [
-        "Jujuy",
-        "Santa Fe",
         "Buenos Aires",
-        "Chubut"
+        "Santa Fe",
+        "Isole Falkland (Malvinas)",
+        "Santiago del Estero"
       ],
       "correctIndex": 1,
       "explanation": "«Caimano yacaré» fa parte della fauna di Santa Fe."
@@ -11930,12 +11930,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Capibara»?",
       "choices": [
-        "Jujuy",
-        "Santa Fe",
-        "Misiones",
-        "Chubut"
+        "La Rioja",
+        "La Pampa",
+        "Córdoba",
+        "Santa Fe"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Capibara» fa parte della fauna di Santa Fe."
     },
     {
@@ -11944,12 +11944,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Ceibo»?",
       "choices": [
-        "La Pampa",
-        "Santa Cruz",
-        "Santiago del Estero",
-        "Santa Fe"
+        "Isole Falkland (Malvinas)",
+        "Santa Fe",
+        "Río Negro",
+        "Tucumán"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Ceibo» è una pianta tipica di Santa Fe."
     },
     {
@@ -11958,12 +11958,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Sarandí bianco»?",
       "choices": [
-        "Salta",
-        "Santa Cruz",
         "Santa Fe",
-        "La Pampa"
+        "Misiones",
+        "Santa Cruz",
+        "San Juan"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Sarandí bianco» è una pianta tipica di Santa Fe."
     },
     {
@@ -11972,12 +11972,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Timbó del litorale»?",
       "choices": [
-        "Santa Fe",
-        "Catamarca",
+        "La Rioja",
         "Santiago del Estero",
-        "La Rioja"
+        "Santa Fe",
+        "Corrientes"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Timbó del litorale» è una pianta tipica di Santa Fe."
     },
     {
@@ -11986,12 +11986,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Dorado alla griglia»?",
       "choices": [
+        "San Luis",
+        "Catamarca",
         "Santa Fe",
-        "Salta",
-        "Buenos Aires",
-        "Chubut"
+        "Chaco"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "d7d06ecd9104",
@@ -12000,9 +12000,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Di quale provincia è tipico il piatto «Surubí al forno»?",
       "choices": [
         "Santa Fe",
-        "Santa Cruz",
-        "Jujuy",
-        "Tucumán"
+        "Catamarca",
+        "Neuquén",
+        "La Pampa"
       ],
       "correctIndex": 0
     },
@@ -12012,12 +12012,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Empanada di Santa Fe»?",
       "choices": [
-        "Terra del Fuoco",
-        "Isole Falkland (Malvinas)",
-        "San Juan",
-        "Santa Fe"
+        "Santa Fe",
+        "Santiago del Estero",
+        "Corrientes",
+        "Tucumán"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "7e8e11d889c6",
@@ -12025,12 +12025,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Monumento Nazionale alla Bandiera (Rosario)?",
       "choices": [
-        "Jujuy",
+        "Formosa",
+        "Salta",
         "Santa Fe",
-        "San Luis",
-        "Corrientes"
+        "Città Autonoma di Buenos Aires"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "be8d2ba5bccb",
@@ -12038,10 +12038,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Parco dell'Indipendenza (Rosario)?",
       "choices": [
-        "Mendoza",
+        "Salta",
         "Santa Fe",
-        "Río Negro",
-        "Salta"
+        "Córdoba",
+        "Formosa"
       ],
       "correctIndex": 1
     },
@@ -12051,12 +12051,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Ponte Sospeso e Lungofiume di Santa Fe capitale?",
       "choices": [
-        "Entre Ríos",
         "Santa Fe",
-        "Tucumán",
+        "Terra del Fuoco",
+        "Isole Falkland (Malvinas)",
         "La Rioja"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "1484c5fe413f",
@@ -12064,12 +12064,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Culla della Bandiera»?",
       "choices": [
+        "Isole Falkland (Malvinas)",
+        "San Luis",
         "Santa Fe",
-        "Buenos Aires",
-        "Río Negro",
-        "Terra del Fuoco"
+        "Chubut"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "95e2031f63c8",
@@ -12077,12 +12077,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Porto, fiumi e immigrazione»?",
       "choices": [
-        "Catamarca",
-        "Corrientes",
-        "Entre Ríos",
-        "Santa Fe"
+        "Santa Fe",
+        "Tucumán",
+        "La Rioja",
+        "Buenos Aires"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "d4f3e0a25d71",
@@ -12090,12 +12090,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Pecari dal collare»?",
       "choices": [
-        "Córdoba",
+        "Catamarca",
+        "Salta",
         "Santiago del Estero",
-        "Formosa",
-        "Jujuy"
+        "Città Autonoma di Buenos Aires"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Pecari dal collare» fa parte della fauna di Santiago del Estero."
     },
     {
@@ -12104,10 +12104,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Armadillo a nove fasce»?",
       "choices": [
-        "Neuquén",
-        "San Juan",
+        "Mendoza",
+        "Città Autonoma di Buenos Aires",
         "Santiago del Estero",
-        "Santa Fe"
+        "Corrientes"
       ],
       "correctIndex": 2,
       "explanation": "«Armadillo a nove fasce» fa parte della fauna di Santiago del Estero."
@@ -12118,12 +12118,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Itín»?",
       "choices": [
-        "La Rioja",
+        "Buenos Aires",
+        "Río Negro",
         "Santiago del Estero",
-        "Chubut",
-        "Buenos Aires"
+        "Neuquén"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Itín» è una pianta tipica di Santiago del Estero."
     },
     {
@@ -12132,9 +12132,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Vinal»?",
       "choices": [
-        "Córdoba",
-        "Chaco",
-        "La Pampa",
+        "Formosa",
+        "La Rioja",
+        "Neuquén",
         "Santiago del Estero"
       ],
       "correctIndex": 3,
@@ -12146,8 +12146,8 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Quebracho colorado di Santiago»?",
       "choices": [
-        "Entre Ríos",
-        "Chubut",
+        "Terra del Fuoco",
+        "Catamarca",
         "Salta",
         "Santiago del Estero"
       ],
@@ -12160,12 +12160,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Locro di Santiago»?",
       "choices": [
-        "Città Autonoma di Buenos Aires",
-        "Isole Falkland (Malvinas)",
-        "Neuquén",
-        "Santiago del Estero"
+        "Santiago del Estero",
+        "Terra del Fuoco",
+        "La Pampa",
+        "Tucumán"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "850f31f3a735",
@@ -12173,12 +12173,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Empanadas di Santiago»?",
       "choices": [
-        "Santiago del Estero",
         "La Rioja",
-        "San Juan",
-        "Jujuy"
+        "Buenos Aires",
+        "Santiago del Estero",
+        "Neuquén"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "ff9bac98b05a",
@@ -12186,12 +12186,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Rosquete di Santiago»?",
       "choices": [
-        "Santiago del Estero",
-        "Tucumán",
-        "Entre Ríos",
-        "Salta"
+        "San Juan",
+        "San Luis",
+        "Città Autonoma di Buenos Aires",
+        "Santiago del Estero"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "495eecf8db58",
@@ -12199,12 +12199,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Terme di Río Hondo?",
       "choices": [
-        "Città Autonoma di Buenos Aires",
         "Santiago del Estero",
-        "San Juan",
-        "Tucumán"
+        "Buenos Aires",
+        "Chaco",
+        "Entre Ríos"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "34d68132fca5",
@@ -12212,12 +12212,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Diga Frontal di Río Hondo?",
       "choices": [
-        "Neuquén",
-        "Chubut",
-        "San Luis",
-        "Santiago del Estero"
+        "Santiago del Estero",
+        "Formosa",
+        "Città Autonoma di Buenos Aires",
+        "San Juan"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "f292192611c2",
@@ -12225,12 +12225,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Parco Nazionale Copo?",
       "choices": [
-        "Catamarca",
         "Santiago del Estero",
-        "Santa Cruz",
-        "Neuquén"
+        "Santa Fe",
+        "Jujuy",
+        "Terra del Fuoco"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "a20341ffe2a6",
@@ -12238,12 +12238,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Madre delle città»?",
       "choices": [
-        "La Rioja",
-        "Terra del Fuoco",
+        "Río Negro",
         "Santiago del Estero",
-        "San Luis"
+        "Tucumán",
+        "La Pampa"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "ff1937dee541",
@@ -12251,12 +12251,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Quechua di Santiago»?",
       "choices": [
-        "La Pampa",
-        "Formosa",
-        "La Rioja",
-        "Santiago del Estero"
+        "Misiones",
+        "Santiago del Estero",
+        "Terra del Fuoco",
+        "Mendoza"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "edeb59c24017",
@@ -12264,12 +12264,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Pinguino di Magellano»?",
       "choices": [
-        "Santiago del Estero",
+        "Tucumán",
+        "Città Autonoma di Buenos Aires",
         "Terra del Fuoco",
-        "La Rioja",
-        "Santa Cruz"
+        "Santiago del Estero"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Pinguino di Magellano» fa parte della fauna di Terra del Fuoco."
     },
     {
@@ -12278,10 +12278,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Oca del Magellano»?",
       "choices": [
-        "Città Autonoma di Buenos Aires",
+        "Formosa",
         "Terra del Fuoco",
-        "La Pampa",
-        "Misiones"
+        "Mendoza",
+        "Corrientes"
       ],
       "correctIndex": 1,
       "explanation": "«Oca del Magellano» fa parte della fauna di Terra del Fuoco."
@@ -12292,12 +12292,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Lenga fueghina»?",
       "choices": [
-        "Isole Falkland (Malvinas)",
-        "Santiago del Estero",
         "Terra del Fuoco",
-        "Salta"
+        "Entre Ríos",
+        "Neuquén",
+        "Santiago del Estero"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Lenga fueghina» è una pianta tipica di Terra del Fuoco."
     },
     {
@@ -12306,10 +12306,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Guindo o coihue magellanico»?",
       "choices": [
-        "Jujuy",
+        "Río Negro",
         "Terra del Fuoco",
-        "Entre Ríos",
-        "Tucumán"
+        "San Luis",
+        "San Juan"
       ],
       "correctIndex": 1,
       "explanation": "«Guindo o coihue magellanico» è una pianta tipica di Terra del Fuoco."
@@ -12320,10 +12320,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Canelo fueghino»?",
       "choices": [
-        "Città Autonoma di Buenos Aires",
-        "San Luis",
+        "Santa Cruz",
+        "Catamarca",
         "Terra del Fuoco",
-        "Chaco"
+        "Neuquén"
       ],
       "correctIndex": 2,
       "explanation": "«Canelo fueghino» è una pianta tipica di Terra del Fuoco."
@@ -12334,10 +12334,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Nasello nero»?",
       "choices": [
-        "San Luis",
+        "Formosa",
         "Isole Falkland (Malvinas)",
         "Terra del Fuoco",
-        "Buenos Aires"
+        "San Juan"
       ],
       "correctIndex": 2
     },
@@ -12347,12 +12347,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Agnello fueghino»?",
       "choices": [
-        "San Juan",
         "Terra del Fuoco",
-        "Río Negro",
-        "Chaco"
+        "Santiago del Estero",
+        "Chubut",
+        "Santa Fe"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "81cfd08921a6",
@@ -12360,12 +12360,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Parco Nazionale Terra del Fuoco?",
       "choices": [
-        "Isole Falkland (Malvinas)",
-        "Terra del Fuoco",
-        "Catamarca",
-        "Formosa"
+        "Jujuy",
+        "Formosa",
+        "Chubut",
+        "Terra del Fuoco"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "2cdd84ad7e7f",
@@ -12373,12 +12373,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Canale di Beagle e Faro Les Eclaireurs?",
       "choices": [
-        "San Luis",
-        "Chaco",
-        "Santiago del Estero",
-        "Terra del Fuoco"
+        "Terra del Fuoco",
+        "Buenos Aires",
+        "Città Autonoma di Buenos Aires",
+        "Santiago del Estero"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "60031ef342cf",
@@ -12386,10 +12386,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Treno della Fine del Mondo (Ushuaia)?",
       "choices": [
-        "Misiones",
-        "Entre Ríos",
+        "La Rioja",
+        "Neuquén",
         "Terra del Fuoco",
-        "Mendoza"
+        "La Pampa"
       ],
       "correctIndex": 2
     },
@@ -12399,12 +12399,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Una fine del mondo abitata»?",
       "choices": [
-        "Terra del Fuoco",
-        "Corrientes",
         "Mendoza",
-        "Formosa"
+        "Terra del Fuoco",
+        "Isole Falkland (Malvinas)",
+        "Santa Fe"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "af7b8b14ca6b",
@@ -12412,10 +12412,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Storia selk'nam e yámana»?",
       "choices": [
-        "Córdoba",
-        "San Luis",
+        "Isole Falkland (Malvinas)",
+        "Formosa",
         "Terra del Fuoco",
-        "Chubut"
+        "Santa Fe"
       ],
       "correctIndex": 2
     },
@@ -12425,12 +12425,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Tucano toco»?",
       "choices": [
+        "Terra del Fuoco",
+        "Neuquén",
         "Tucumán",
-        "Isole Falkland (Malvinas)",
-        "Córdoba",
-        "La Rioja"
+        "Buenos Aires"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Tucano toco» fa parte della fauna di Tucumán."
     },
     {
@@ -12440,9 +12440,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "In quale provincia vive questo animale: «Tapiro»?",
       "choices": [
         "Tucumán",
-        "Río Negro",
-        "La Rioja",
-        "Catamarca"
+        "San Luis",
+        "Salta",
+        "Corrientes"
       ],
       "correctIndex": 0,
       "explanation": "«Tapiro» fa parte della fauna di Tucumán."
@@ -12453,12 +12453,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Ontano di montagna»?",
       "choices": [
-        "Neuquén",
-        "Entre Ríos",
-        "Río Negro",
-        "Tucumán"
+        "Tucumán",
+        "Corrientes",
+        "Santa Cruz",
+        "Neuquén"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Ontano di montagna» è una pianta tipica di Tucumán."
     },
     {
@@ -12467,12 +12467,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Lapacho giallo»?",
       "choices": [
+        "Terra del Fuoco",
+        "La Rioja",
         "Tucumán",
-        "Misiones",
-        "Río Negro",
-        "Città Autonoma di Buenos Aires"
+        "Misiones"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Lapacho giallo» è una pianta tipica di Tucumán."
     },
     {
@@ -12481,12 +12481,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Horco molle»?",
       "choices": [
-        "Jujuy",
-        "San Juan",
-        "Terra del Fuoco",
-        "Tucumán"
+        "Santa Cruz",
+        "Santa Fe",
+        "Tucumán",
+        "Chaco"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Horco molle» è una pianta tipica di Tucumán."
     },
     {
@@ -12495,9 +12495,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Sandwich di milanesa»?",
       "choices": [
-        "Córdoba",
-        "Misiones",
-        "Chubut",
+        "Chaco",
+        "San Luis",
+        "Santa Fe",
         "Tucumán"
       ],
       "correctIndex": 3
@@ -12508,12 +12508,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Empanadas di Tucumán»?",
       "choices": [
-        "La Rioja",
-        "Isole Falkland (Malvinas)",
-        "Entre Ríos",
-        "Tucumán"
+        "Córdoba",
+        "Tucumán",
+        "Jujuy",
+        "Santiago del Estero"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "a6a6f8efc88c",
@@ -12521,12 +12521,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Humita di Tucumán»?",
       "choices": [
-        "Tucumán",
-        "Isole Falkland (Malvinas)",
-        "La Rioja",
-        "Río Negro"
+        "La Pampa",
+        "Catamarca",
+        "Buenos Aires",
+        "Tucumán"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "c5f2226d8e3b",
@@ -12534,12 +12534,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Casa Histórica de la Independencia (San Miguel de Tucumán)?",
       "choices": [
+        "Corrientes",
+        "Isole Falkland (Malvinas)",
         "Tucumán",
-        "Río Negro",
-        "Neuquén",
-        "Formosa"
+        "Mendoza"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "cbd16a9b91ce",
@@ -12547,12 +12547,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Tafí del Valle e Diga La Angostura?",
       "choices": [
-        "Jujuy",
-        "Isole Falkland (Malvinas)",
         "Tucumán",
-        "Chubut"
+        "Chaco",
+        "Misiones",
+        "Neuquén"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": "7cc3abb9628c",
@@ -12560,12 +12560,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Rovine di Quilmes?",
       "choices": [
-        "Córdoba",
-        "Buenos Aires",
-        "Tucumán",
-        "Terra del Fuoco"
+        "Città Autonoma di Buenos Aires",
+        "Entre Ríos",
+        "La Rioja",
+        "Tucumán"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "84f79102c415",
@@ -12573,12 +12573,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «La Casa dell'Indipendenza»?",
       "choices": [
-        "Río Negro",
-        "Mendoza",
         "Chubut",
-        "Tucumán"
+        "Tucumán",
+        "Corrientes",
+        "Mendoza"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "56a7111c4659",
@@ -12587,9 +12587,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "A quale provincia appartiene questo fatto storico: «Industria dello zucchero»?",
       "choices": [
         "Tucumán",
-        "Santa Cruz",
-        "Isole Falkland (Malvinas)",
-        "Jujuy"
+        "Santiago del Estero",
+        "La Rioja",
+        "Río Negro"
       ],
       "correctIndex": 0
     },
@@ -12599,9 +12599,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Fornaio rossiccio»?",
       "choices": [
-        "Tucumán",
-        "Neuquén",
-        "La Rioja",
+        "San Luis",
+        "Río Negro",
+        "Corrientes",
         "Città Autonoma di Buenos Aires"
       ],
       "correctIndex": 3,
@@ -12613,12 +12613,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Tiranno beteveo»?",
       "choices": [
-        "San Luis",
-        "Terra del Fuoco",
+        "Chaco",
         "Città Autonoma di Buenos Aires",
-        "Santiago del Estero"
+        "Corrientes",
+        "Santa Fe"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Tiranno beteveo» fa parte della fauna di Città Autonoma di Buenos Aires."
     },
     {
@@ -12627,12 +12627,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Tala ripariale»?",
       "choices": [
-        "Misiones",
-        "Chubut",
+        "Entre Ríos",
         "Città Autonoma di Buenos Aires",
-        "Tucumán"
+        "Chubut",
+        "Santa Cruz"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Tala ripariale» è una pianta tipica di Città Autonoma di Buenos Aires."
     },
     {
@@ -12641,12 +12641,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Espinillo della riva»?",
       "choices": [
-        "Formosa",
-        "Chaco",
-        "Santa Cruz",
-        "Città Autonoma di Buenos Aires"
+        "Città Autonoma di Buenos Aires",
+        "San Luis",
+        "Buenos Aires",
+        "Mendoza"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Espinillo della riva» è una pianta tipica di Città Autonoma di Buenos Aires."
     },
     {
@@ -12655,10 +12655,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Salice criollo costiero»?",
       "choices": [
-        "Santa Fe",
+        "Buenos Aires",
         "Città Autonoma di Buenos Aires",
-        "Isole Falkland (Malvinas)",
-        "San Luis"
+        "Córdoba",
+        "Terra del Fuoco"
       ],
       "correctIndex": 1,
       "explanation": "«Salice criollo costiero» è una pianta tipica di Città Autonoma di Buenos Aires."
@@ -12669,9 +12669,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Pizza porteña»?",
       "choices": [
+        "Terra del Fuoco",
+        "San Juan",
         "Salta",
-        "Buenos Aires",
-        "Santa Fe",
         "Città Autonoma di Buenos Aires"
       ],
       "correctIndex": 3
@@ -12682,12 +12682,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Fugazzeta ripiena»?",
       "choices": [
-        "Formosa",
         "Città Autonoma di Buenos Aires",
-        "Buenos Aires",
-        "Isole Falkland (Malvinas)"
+        "La Pampa",
+        "Corrientes",
+        "Buenos Aires"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": "9da2b52a3f6b",
@@ -12695,10 +12695,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Gelato artigianale»?",
       "choices": [
-        "Salta",
+        "Santa Fe",
         "Città Autonoma di Buenos Aires",
-        "Chubut",
-        "Formosa"
+        "Formosa",
+        "Misiones"
       ],
       "correctIndex": 1
     },
@@ -12708,12 +12708,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Caminito e quartiere La Boca?",
       "choices": [
-        "Catamarca",
-        "Córdoba",
+        "Formosa",
         "Città Autonoma di Buenos Aires",
-        "Chaco"
+        "Santiago del Estero",
+        "Salta"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": "81998f5d84ce",
@@ -12721,9 +12721,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Plaza de Mayo e Cattedrale Metropolitana?",
       "choices": [
+        "Santa Fe",
+        "Jujuy",
         "Isole Falkland (Malvinas)",
-        "La Pampa",
-        "Río Negro",
         "Città Autonoma di Buenos Aires"
       ],
       "correctIndex": 3
@@ -12734,10 +12734,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Teatro Colón e Recoleta?",
       "choices": [
+        "Corrientes",
         "Entre Ríos",
-        "Terra del Fuoco",
         "Città Autonoma di Buenos Aires",
-        "Isole Falkland (Malvinas)"
+        "San Juan"
       ],
       "correctIndex": 2
     },
@@ -12747,12 +12747,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Plaza de Mayo e vita politica»?",
       "choices": [
-        "Città Autonoma di Buenos Aires",
-        "Corrientes",
         "La Rioja",
-        "Santa Cruz"
+        "Città Autonoma di Buenos Aires",
+        "Buenos Aires",
+        "Chubut"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "79e6f0724b1f",
@@ -12760,9 +12760,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Porto e immigrazione di massa»?",
       "choices": [
-        "La Rioja",
-        "Entre Ríos",
-        "Corrientes",
+        "Tucumán",
+        "Neuquén",
+        "San Juan",
         "Città Autonoma di Buenos Aires"
       ],
       "correctIndex": 3
@@ -12773,12 +12773,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Pinguino saltarocce»?",
       "choices": [
-        "Tucumán",
-        "Córdoba",
+        "Isole Falkland (Malvinas)",
+        "Chaco",
         "Río Negro",
-        "Isole Falkland (Malvinas)"
+        "Santa Cruz"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Pinguino saltarocce» fa parte della fauna di Isole Falkland (Malvinas)."
     },
     {
@@ -12787,10 +12787,10 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Albatro sopracciglio nero»?",
       "choices": [
-        "Río Negro",
+        "Terra del Fuoco",
         "Isole Falkland (Malvinas)",
-        "Buenos Aires",
-        "Chaco"
+        "Río Negro",
+        "Córdoba"
       ],
       "correctIndex": 1,
       "explanation": "«Albatro sopracciglio nero» fa parte della fauna di Isole Falkland (Malvinas)."
@@ -12801,12 +12801,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Erba tussac»?",
       "choices": [
-        "Santiago del Estero",
-        "Terra del Fuoco",
-        "Santa Cruz",
-        "Isole Falkland (Malvinas)"
+        "Buenos Aires",
+        "Entre Ríos",
+        "Isole Falkland (Malvinas)",
+        "Santiago del Estero"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Erba tussac» è una pianta tipica di Isole Falkland (Malvinas)."
     },
     {
@@ -12815,9 +12815,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Festuca fueghina»?",
       "choices": [
-        "San Juan",
-        "Santa Cruz",
-        "Neuquén",
+        "Chaco",
+        "Santa Fe",
+        "Tucumán",
         "Isole Falkland (Malvinas)"
       ],
       "correctIndex": 3,
@@ -12829,12 +12829,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Piante a cuscinetto»?",
       "choices": [
-        "Chubut",
-        "Catamarca",
         "Isole Falkland (Malvinas)",
-        "Misiones"
+        "Jujuy",
+        "Terra del Fuoco",
+        "Tucumán"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Piante a cuscinetto» è una pianta tipica di Isole Falkland (Malvinas)."
     },
     {
@@ -12843,12 +12843,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Fish and chips»?",
       "choices": [
-        "Isole Falkland (Malvinas)",
-        "Buenos Aires",
-        "Mendoza",
-        "Città Autonoma di Buenos Aires"
+        "San Juan",
+        "Catamarca",
+        "Santa Fe",
+        "Isole Falkland (Malvinas)"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "829b7c959ca1",
@@ -12856,12 +12856,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "food",
       "prompt": "Di quale provincia è tipico il piatto «Nasello e frutti di mare locali»?",
       "choices": [
-        "Isole Falkland (Malvinas)",
-        "Río Negro",
-        "Jujuy",
-        "Formosa"
+        "Entre Ríos",
+        "Salta",
+        "Tucumán",
+        "Isole Falkland (Malvinas)"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "e8067d5e7915",
@@ -12870,11 +12870,11 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "prompt": "Di quale provincia è tipico il piatto «Agnello delle isole»?",
       "choices": [
         "Catamarca",
-        "Neuquén",
-        "Misiones",
-        "Isole Falkland (Malvinas)"
+        "Isole Falkland (Malvinas)",
+        "Salta",
+        "Chaco"
       ],
-      "correctIndex": 3
+      "correctIndex": 1
     },
     {
       "id": "a8219ca82e06",
@@ -12882,12 +12882,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Puerto Argentino/Stanley e il suo fronte costiero?",
       "choices": [
-        "San Luis",
-        "Catamarca",
-        "Isole Falkland (Malvinas)",
-        "Buenos Aires"
+        "Formosa",
+        "La Rioja",
+        "Tucumán",
+        "Isole Falkland (Malvinas)"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "d5f0ac41cf98",
@@ -12895,9 +12895,9 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Cimitero di Darwin?",
       "choices": [
-        "Chubut",
-        "Terra del Fuoco",
-        "Santiago del Estero",
+        "Buenos Aires",
+        "Mendoza",
+        "San Juan",
         "Isole Falkland (Malvinas)"
       ],
       "correctIndex": 3
@@ -12908,12 +12908,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "tourism",
       "prompt": "In quale provincia si trova Voluntario Hill / Monte Longdon (siti storici)?",
       "choices": [
-        "Isole Falkland (Malvinas)",
-        "Città Autonoma di Buenos Aires",
-        "Córdoba",
-        "San Juan"
+        "Chaco",
+        "Misiones",
+        "Río Negro",
+        "Isole Falkland (Malvinas)"
       ],
-      "correctIndex": 0
+      "correctIndex": 3
     },
     {
       "id": "a5b6ddcbf91f",
@@ -12921,12 +12921,12 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Atlantico Meridionale strategico»?",
       "choices": [
-        "San Luis",
-        "Chaco",
+        "Isole Falkland (Malvinas)",
+        "Entre Ríos",
         "Corrientes",
-        "Isole Falkland (Malvinas)"
+        "Chubut"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "b5eb04acb324",
@@ -12934,12 +12934,8638 @@ export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = {
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Memoria del 1982»?",
       "choices": [
-        "Río Negro",
-        "Mendoza",
-        "La Rioja",
-        "Isole Falkland (Malvinas)"
+        "Chaco",
+        "Santa Fe",
+        "Isole Falkland (Malvinas)",
+        "Chubut"
+      ],
+      "correctIndex": 2
+    }
+  ],
+  "ru": [
+    {
+      "id": "997f7128252b",
+      "provinceSlug": "buenos-aires",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Рыжий печник»?",
+      "choices": [
+        "Буэнос-Айрес",
+        "Ла-Пампа",
+        "Сан-Луис",
+        "Санта-Фе"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Рыжий печник» — часть фауны: Буэнос-Айрес."
+    },
+    {
+      "id": "670e20f06621",
+      "provinceSlug": "buenos-aires",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Болотный олень»?",
+      "choices": [
+        "Сальта",
+        "Санта-Фе",
+        "Кордова",
+        "Буэнос-Айрес"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Болотный олень» — часть фауны: Буэнос-Айрес."
+    },
+    {
+      "id": "b9af50c7c5f7",
+      "provinceSlug": "buenos-aires",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Пампасская трава»?",
+      "choices": [
+        "Буэнос-Айрес",
+        "Сан-Хуан",
+        "Жужуй",
+        "Неукен"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Пампасская трава» — типичное растение: Буэнос-Айрес."
+    },
+    {
+      "id": "fd03c0062f88",
+      "provinceSlug": "buenos-aires",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Сомбра де торо»?",
+      "choices": [
+        "Корриентес",
+        "Сантьяго-дель-Эстеро",
+        "Буэнос-Айрес",
+        "Энтре-Риос"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Сомбра де торо» — типичное растение: Буэнос-Айрес."
+    },
+    {
+      "id": "33da951d8673",
+      "provinceSlug": "buenos-aires",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Красная сарандь»?",
+      "choices": [
+        "Сантьяго-дель-Эстеро",
+        "Тукуман",
+        "Буэнос-Айрес",
+        "Буэнос-Айрес (автономный город)"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Красная сарандь» — типичное растение: Буэнос-Айрес."
+    },
+    {
+      "id": "fd44b88d5c81",
+      "provinceSlug": "buenos-aires",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Асадо Буэнос-Айреса»?",
+      "choices": [
+        "Ла-Пампа",
+        "Буэнос-Айрес",
+        "Тукуман",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "7e3e8371c8ef",
+      "provinceSlug": "buenos-aires",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Милянеса по-неаполитански»?",
+      "choices": [
+        "Корриентес",
+        "Тукуман",
+        "Чубут",
+        "Буэнос-Айрес"
       ],
       "correctIndex": 3
+    },
+    {
+      "id": "78c02ce8706b",
+      "provinceSlug": "buenos-aires",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Дульсе де лече»?",
+      "choices": [
+        "Ла-Пампа",
+        "Сальта",
+        "Санта-Фе",
+        "Буэнос-Айрес"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "702272bbc048",
+      "provinceSlug": "buenos-aires",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Мар-дель-Плата и атлантическое побережье»?",
+      "choices": [
+        "Буэнос-Айрес",
+        "Санта-Крус",
+        "Ла-Пампа",
+        "Кордова"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "5cb32077b554",
+      "provinceSlug": "buenos-aires",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Сьерра-де-ла-Вентана (провинциальный парк Эрнесто Торнкуист)»?",
+      "choices": [
+        "Рио-Негро",
+        "Сан-Луис",
+        "Жужуй",
+        "Буэнос-Айрес"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "6db8ef051c33",
+      "provinceSlug": "buenos-aires",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Дельта Параны в Тигре»?",
+      "choices": [
+        "Чако",
+        "Корриентес",
+        "Буэнос-Айрес",
+        "Рио-Негро"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "19dbc12e92a1",
+      "provinceSlug": "buenos-aires",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Вуэльта-де-Облигадо и суверенитет»?",
+      "choices": [
+        "Чубут",
+        "Жужуй",
+        "Буэнос-Айрес",
+        "Санта-Фе"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "f712df0ec1a0",
+      "provinceSlug": "buenos-aires",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Исторический пограничный край»?",
+      "choices": [
+        "Буэнос-Айрес (автономный город)",
+        "Тукуман",
+        "Формоса",
+        "Буэнос-Айрес"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "fd061b1851c1",
+      "provinceSlug": "catamarca",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Патагонская мара»?",
+      "choices": [
+        "Огненная Земля",
+        "Катамарка",
+        "Кордова",
+        "Сан-Луис"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Патагонская мара» — часть фауны: Катамарка."
+    },
+    {
+      "id": "f285223dede1",
+      "provinceSlug": "catamarca",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Викунья»?",
+      "choices": [
+        "Катамарка",
+        "Неукен",
+        "Ла-Пампа",
+        "Жужуй"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Викунья» — часть фауны: Катамарка."
+    },
+    {
+      "id": "9eb7be952f6c",
+      "provinceSlug": "catamarca",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Кардон»?",
+      "choices": [
+        "Катамарка",
+        "Чако",
+        "Ла-Риоха",
+        "Кордова"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Кардон» — типичное растение: Катамарка."
+    },
+    {
+      "id": "1ebbda478113",
+      "provinceSlug": "catamarca",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Чаньяр»?",
+      "choices": [
+        "Буэнос-Айрес (автономный город)",
+        "Катамарка",
+        "Рио-Негро",
+        "Энтре-Риос"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Чаньяр» — типичное растение: Катамарка."
+    },
+    {
+      "id": "7ddd69fdd9db",
+      "provinceSlug": "catamarca",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Пичана, или тола»?",
+      "choices": [
+        "Чако",
+        "Катамарка",
+        "Чубут",
+        "Формоса"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Пичана, или тола» — типичное растение: Катамарка."
+    },
+    {
+      "id": "0d6237fb65b0",
+      "provinceSlug": "catamarca",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Эмпанады Катамарки»?",
+      "choices": [
+        "Катамарка",
+        "Жужуй",
+        "Буэнос-Айрес",
+        "Санта-Фе"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "8982f78be21c",
+      "provinceSlug": "catamarca",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Локро северо-запада»?",
+      "choices": [
+        "Огненная Земля",
+        "Катамарка",
+        "Сан-Луис",
+        "Ла-Пампа"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "a3c8255f312f",
+      "provinceSlug": "catamarca",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Тамалес»?",
+      "choices": [
+        "Санта-Крус",
+        "Ла-Риоха",
+        "Корриентес",
+        "Катамарка"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d9375104062d",
+      "provinceSlug": "catamarca",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Кампо-де-Пьедра-Помес (Антофагаста-де-ла-Сьерра)»?",
+      "choices": [
+        "Сан-Луис",
+        "Катамарка",
+        "Санта-Фе",
+        "Тукуман"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "c234fa8b6d2c",
+      "provinceSlug": "catamarca",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Маршрут Сейсмилес и перевал Сан-Франсиско»?",
+      "choices": [
+        "Ла-Пампа",
+        "Катамарка",
+        "Неукен",
+        "Корриентес"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "28ff15344b19",
+      "provinceSlug": "catamarca",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Куэста-дель-Портесуэло и Эль-Родео»?",
+      "choices": [
+        "Мендоса",
+        "Катамарка",
+        "Санта-Крус",
+        "Корриентес"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "b491c34ffdb5",
+      "provinceSlug": "catamarca",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Фиамбала и андская дорога»?",
+      "choices": [
+        "Мендоса",
+        "Неукен",
+        "Катамарка",
+        "Корриентес"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "6bedd5d43b9c",
+      "provinceSlug": "catamarca",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Долина и почитание Богородицы»?",
+      "choices": [
+        "Ла-Риоха",
+        "Санта-Фе",
+        "Буэнос-Айрес (автономный город)",
+        "Катамарка"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "e49804858110",
+      "provinceSlug": "chaco",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Гривистый волк»?",
+      "choices": [
+        "Чако",
+        "Чубут",
+        "Ла-Риоха",
+        "Катамарка"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Гривистый волк» — часть фауны: Чако."
+    },
+    {
+      "id": "c2be0f094923",
+      "provinceSlug": "chaco",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Гигантский броненосец»?",
+      "choices": [
+        "Ла-Пампа",
+        "Мендоса",
+        "Чако",
+        "Фолклендские (Мальвинские) острова"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Гигантский броненосец» — часть фауны: Чако."
+    },
+    {
+      "id": "c2da77c940ce",
+      "provinceSlug": "chaco",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Красный кебрачо Чако»?",
+      "choices": [
+        "Чако",
+        "Фолклендские (Мальвинские) острова",
+        "Кордова",
+        "Чубут"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Красный кебрачо Чако» — типичное растение: Чако."
+    },
+    {
+      "id": "979ebf96d93c",
+      "provinceSlug": "chaco",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Белый кебрачо»?",
+      "choices": [
+        "Буэнос-Айрес",
+        "Фолклендские (Мальвинские) острова",
+        "Рио-Негро",
+        "Чако"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Белый кебрачо» — типичное растение: Чако."
+    },
+    {
+      "id": "89d275fc8c45",
+      "provinceSlug": "chaco",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Пальма карандай»?",
+      "choices": [
+        "Формоса",
+        "Мендоса",
+        "Чако",
+        "Сан-Луис"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Пальма карандай» — типичное растение: Чако."
+    },
+    {
+      "id": "e853caed8b12",
+      "provinceSlug": "chaco",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Чипа»?",
+      "choices": [
+        "Катамарка",
+        "Жужуй",
+        "Чако",
+        "Неукен"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "7bc517d330a6",
+      "provinceSlug": "chaco",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Паку на гриле»?",
+      "choices": [
+        "Чако",
+        "Энтре-Риос",
+        "Формоса",
+        "Санта-Фе"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ba2b693abe04",
+      "provinceSlug": "chaco",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Варёная маниока»?",
+      "choices": [
+        "Чако",
+        "Санта-Крус",
+        "Санта-Фе",
+        "Тукуман"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "5f847eae0169",
+      "provinceSlug": "chaco",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Национальный парк Эль-Импенетрабле»?",
+      "choices": [
+        "Кордова",
+        "Неукен",
+        "Санта-Фе",
+        "Чако"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "5dfffc36f4f3",
+      "provinceSlug": "chaco",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Ресистенсия, город скульптур»?",
+      "choices": [
+        "Сантьяго-дель-Эстеро",
+        "Мисьонес",
+        "Чако",
+        "Сальта"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "0cd02cc39517",
+      "provinceSlug": "chaco",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Национальный парк Чако»?",
+      "choices": [
+        "Сан-Хуан",
+        "Мисьонес",
+        "Буэнос-Айрес (автономный город)",
+        "Чако"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "cf1dfeeed051",
+      "provinceSlug": "chaco",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Ресистенсия — музей под открытым небом»?",
+      "choices": [
+        "Ла-Пампа",
+        "Чубут",
+        "Неукен",
+        "Чако"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "9035d20611cc",
+      "provinceSlug": "chaco",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Заросли Чако — исторический ключ»?",
+      "choices": [
+        "Ла-Пампа",
+        "Сантьяго-дель-Эстеро",
+        "Чако",
+        "Катамарка"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "fa60075ab27e",
+      "provinceSlug": "chubut",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Уэмуль»?",
+      "choices": [
+        "Чубут",
+        "Ла-Пампа",
+        "Энтре-Риос",
+        "Рио-Негро"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Уэмуль» — часть фауны: Чубут."
+    },
+    {
+      "id": "9831ef0282de",
+      "provinceSlug": "chubut",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Южный гладкий кит»?",
+      "choices": [
+        "Корриентес",
+        "Чубут",
+        "Буэнос-Айрес",
+        "Рио-Негро"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Южный гладкий кит» — часть фауны: Чубут."
+    },
+    {
+      "id": "eb0e3af3bed1",
+      "provinceSlug": "chubut",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Патагонский кориён»?",
+      "choices": [
+        "Ла-Пампа",
+        "Тукуман",
+        "Чубут",
+        "Чако"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Патагонский кориён» — типичное растение: Чубут."
+    },
+    {
+      "id": "36f0d9e5443e",
+      "provinceSlug": "chubut",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Калафате»?",
+      "choices": [
+        "Сан-Хуан",
+        "Чубут",
+        "Жужуй",
+        "Ла-Пампа"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Калафате» — типичное растение: Чубут."
+    },
+    {
+      "id": "ec60cae349aa",
+      "provinceSlug": "chubut",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Майтен»?",
+      "choices": [
+        "Чубут",
+        "Огненная Земля",
+        "Санта-Фе",
+        "Буэнос-Айрес"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Майтен» — типичное растение: Чубут."
+    },
+    {
+      "id": "07436cb4f988",
+      "provinceSlug": "chubut",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Патагонская баранина»?",
+      "choices": [
+        "Сальта",
+        "Сантьяго-дель-Эстеро",
+        "Формоса",
+        "Чубут"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "598ad1167e64",
+      "provinceSlug": "chubut",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Валлийский пирог»?",
+      "choices": [
+        "Корриентес",
+        "Сальта",
+        "Чубут",
+        "Ла-Риоха"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "9c8b6b7f36e5",
+      "provinceSlug": "chubut",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Речная форель»?",
+      "choices": [
+        "Сан-Хуан",
+        "Неукен",
+        "Чубут",
+        "Кордова"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "3b44b74accb8",
+      "provinceSlug": "chubut",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Полуостров Вальдес»?",
+      "choices": [
+        "Сан-Хуан",
+        "Неукен",
+        "Сан-Луис",
+        "Чубут"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "f27e0cc05068",
+      "provinceSlug": "chubut",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Национальный парк Лос-Алерсес»?",
+      "choices": [
+        "Чубут",
+        "Сан-Хуан",
+        "Фолклендские (Мальвинские) острова",
+        "Жужуй"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "e32a7dcf052f",
+      "provinceSlug": "chubut",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Пунта-Томбо (заповедник пингвинов)»?",
+      "choices": [
+        "Сантьяго-дель-Эстеро",
+        "Чубут",
+        "Буэнос-Айрес",
+        "Сан-Хуан"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "0729f455eb40",
+      "provinceSlug": "chubut",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Валлийская колонизация в долине»?",
+      "choices": [
+        "Буэнос-Айрес (автономный город)",
+        "Чубут",
+        "Санта-Фе",
+        "Рио-Негро"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "5b25d8da4763",
+      "provinceSlug": "chubut",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Патагония двух миров»?",
+      "choices": [
+        "Санта-Фе",
+        "Чубут",
+        "Сантьяго-дель-Эстеро",
+        "Корриентес"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "5624fb35bcaf",
+      "provinceSlug": "cordoba",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Андский кондор»?",
+      "choices": [
+        "Катамарка",
+        "Кордова",
+        "Сальта",
+        "Мисьонес"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Андский кондор» — часть фауны: Кордова."
+    },
+    {
+      "id": "a5d86e05ca61",
+      "provinceSlug": "cordoba",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Пума»?",
+      "choices": [
+        "Фолклендские (Мальвинские) острова",
+        "Тукуман",
+        "Кордова",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Пума» — часть фауны: Кордова."
+    },
+    {
+      "id": "326314d57104",
+      "provinceSlug": "cordoba",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Молле де бебер»?",
+      "choices": [
+        "Фолклендские (Мальвинские) острова",
+        "Кордова",
+        "Ла-Пампа",
+        "Огненная Земля"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Молле де бебер» — типичное растение: Кордова."
+    },
+    {
+      "id": "1857155b2c55",
+      "provinceSlug": "cordoba",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Эспинильо»?",
+      "choices": [
+        "Мисьонес",
+        "Санта-Фе",
+        "Кордова",
+        "Фолклендские (Мальвинские) острова"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Эспинильо» — типичное растение: Кордова."
+    },
+    {
+      "id": "b244ec8c40af",
+      "provinceSlug": "cordoba",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Перинера горная»?",
+      "choices": [
+        "Сан-Хуан",
+        "Чако",
+        "Ла-Пампа",
+        "Кордова"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Перинера горная» — типичное растение: Кордова."
+    },
+    {
+      "id": "ba2527d0e2b0",
+      "provinceSlug": "cordoba",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Козлёнок холмов»?",
+      "choices": [
+        "Ла-Пампа",
+        "Кордова",
+        "Энтре-Риос",
+        "Фолклендские (Мальвинские) острова"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "82bda6dde8a1",
+      "provinceSlug": "cordoba",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Чорипан Кордовы»?",
+      "choices": [
+        "Санта-Фе",
+        "Мендоса",
+        "Рио-Негро",
+        "Кордова"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "ffc692fb5311",
+      "provinceSlug": "cordoba",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Альфахор Кордовы»?",
+      "choices": [
+        "Чубут",
+        "Неукен",
+        "Кордова",
+        "Фолклендские (Мальвинские) острова"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "5c7ad69b41c7",
+      "provinceSlug": "cordoba",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Долина Каламучита (Вилья-Хенераль-Бельграно и Ла-Кумбресита)»?",
+      "choices": [
+        "Сантьяго-дель-Эстеро",
+        "Мисьонес",
+        "Кордова",
+        "Чубут"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "95e4662703ea",
+      "provinceSlug": "cordoba",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Дорога Альтас-Кумбрес»?",
+      "choices": [
+        "Ла-Пампа",
+        "Буэнос-Айрес",
+        "Мендоса",
+        "Кордова"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "4f33c3b918f0",
+      "provinceSlug": "cordoba",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Национальный парк Кебрада-дель-Кондорито»?",
+      "choices": [
+        "Неукен",
+        "Сантьяго-дель-Эстеро",
+        "Кордова",
+        "Мисьонес"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "73f421539318",
+      "provinceSlug": "cordoba",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Исторический университет»?",
+      "choices": [
+        "Сальта",
+        "Кордова",
+        "Буэнос-Айрес",
+        "Чубут"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "1f8b1fa7000f",
+      "provinceSlug": "cordoba",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Университетская реформа 1918 года»?",
+      "choices": [
+        "Катамарка",
+        "Чако",
+        "Санта-Фе",
+        "Кордова"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "f2622fa4120b",
+      "provinceSlug": "corrientes",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Капибара»?",
+      "choices": [
+        "Тукуман",
+        "Корриентес",
+        "Ла-Пампа",
+        "Буэнос-Айрес (автономный город)"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Капибара» — часть фауны: Корриентес."
+    },
+    {
+      "id": "e3bbeb7351a8",
+      "provinceSlug": "corrientes",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Широкомордый кайман»?",
+      "choices": [
+        "Тукуман",
+        "Кордова",
+        "Мендоса",
+        "Корриентес"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Широкомордый кайман» — часть фауны: Корриентес."
+    },
+    {
+      "id": "5bdc3258877e",
+      "provinceSlug": "corrientes",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Ирупе»?",
+      "choices": [
+        "Сан-Луис",
+        "Кордова",
+        "Корриентес",
+        "Сан-Хуан"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Ирупе» — типичное растение: Корриентес."
+    },
+    {
+      "id": "2106ad38430a",
+      "provinceSlug": "corrientes",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Камалоте»?",
+      "choices": [
+        "Ла-Пампа",
+        "Корриентес",
+        "Буэнос-Айрес (автономный город)",
+        "Фолклендские (Мальвинские) острова"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Камалоте» — типичное растение: Корриентес."
+    },
+    {
+      "id": "89421ec556ed",
+      "provinceSlug": "corrientes",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Чёрный лапачо»?",
+      "choices": [
+        "Кордова",
+        "Энтре-Риос",
+        "Корриентес",
+        "Чубут"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Чёрный лапачо» — типичное растение: Корриентес."
+    },
+    {
+      "id": "93571fda7aa4",
+      "provinceSlug": "corrientes",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Мбайпи»?",
+      "choices": [
+        "Фолклендские (Мальвинские) острова",
+        "Тукуман",
+        "Энтре-Риос",
+        "Корриентес"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "802a04be25d8",
+      "provinceSlug": "corrientes",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Суп по-корриентски»?",
+      "choices": [
+        "Рио-Негро",
+        "Санта-Крус",
+        "Чако",
+        "Корриентес"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "2ec4a5f01399",
+      "provinceSlug": "corrientes",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Дорадо на гриле»?",
+      "choices": [
+        "Буэнос-Айрес (автономный город)",
+        "Санта-Крус",
+        "Неукен",
+        "Корриентес"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "0310f185549a",
+      "provinceSlug": "corrientes",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Эстерос-дель-Ибера»?",
+      "choices": [
+        "Катамарка",
+        "Корриентес",
+        "Тукуман",
+        "Огненная Земля"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "f2e90c0f5b50",
+      "provinceSlug": "corrientes",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Набережная и исторический центр города Корриентес»?",
+      "choices": [
+        "Корриентес",
+        "Сан-Хуан",
+        "Сантьяго-дель-Эстеро",
+        "Катамарка"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "33181d9dd268",
+      "provinceSlug": "corrientes",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Национальный парк Мбурукуйя»?",
+      "choices": [
+        "Фолклендские (Мальвинские) острова",
+        "Ла-Пампа",
+        "Корриентес",
+        "Санта-Крус"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "39d97c930301",
+      "provinceSlug": "corrientes",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Живое гуаранийское наследие»?",
+      "choices": [
+        "Рио-Негро",
+        "Корриентес",
+        "Сан-Хуан",
+        "Санта-Крус"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "84c9acc0cb36",
+      "provinceSlug": "corrientes",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Ибера и восстановление дикой природы»?",
+      "choices": [
+        "Формоса",
+        "Корриентес",
+        "Катамарка",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "214a9e1316c3",
+      "provinceSlug": "entre-rios",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Капибара»?",
+      "choices": [
+        "Сантьяго-дель-Эстеро",
+        "Сан-Луис",
+        "Ла-Риоха",
+        "Энтре-Риос"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Капибара» — часть фауны: Энтре-Риос."
+    },
+    {
+      "id": "fd1bd70659ec",
+      "provinceSlug": "entre-rios",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Неотропическая выдра»?",
+      "choices": [
+        "Санта-Крус",
+        "Кордова",
+        "Мендоса",
+        "Энтре-Риос"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Неотропическая выдра» — часть фауны: Энтре-Риос."
+    },
+    {
+      "id": "1cc9d32a38c1",
+      "provinceSlug": "entre-rios",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Креольская ива»?",
+      "choices": [
+        "Огненная Земля",
+        "Энтре-Риос",
+        "Фолклендские (Мальвинские) острова",
+        "Сан-Луис"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Креольская ива» — типичное растение: Энтре-Риос."
+    },
+    {
+      "id": "dc6f93535413",
+      "provinceSlug": "entre-rios",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Тимбо»?",
+      "choices": [
+        "Ла-Риоха",
+        "Сан-Хуан",
+        "Чако",
+        "Энтре-Риос"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Тимбо» — типичное растение: Энтре-Риос."
+    },
+    {
+      "id": "c598126da37f",
+      "provinceSlug": "entre-rios",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Эспинильо речной»?",
+      "choices": [
+        "Энтре-Риос",
+        "Буэнос-Айрес (автономный город)",
+        "Формоса",
+        "Сан-Луис"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Эспинильо речной» — типичное растение: Энтре-Риос."
+    },
+    {
+      "id": "2e5a3972dab2",
+      "provinceSlug": "entre-rios",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Рыба Параны и Уругвая»?",
+      "choices": [
+        "Чако",
+        "Фолклендские (Мальвинские) острова",
+        "Энтре-Риос",
+        "Чубут"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "762ace3d2b4b",
+      "provinceSlug": "entre-rios",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Рыбные эмпанады»?",
+      "choices": [
+        "Энтре-Риос",
+        "Санта-Фе",
+        "Формоса",
+        "Катамарка"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ebfeb0bc0fef",
+      "provinceSlug": "entre-rios",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Асадо с кожей»?",
+      "choices": [
+        "Энтре-Риос",
+        "Чубут",
+        "Сантьяго-дель-Эстеро",
+        "Жужуй"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "045ab613e663",
+      "provinceSlug": "entre-rios",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Национальный парк Эль-Пальмар»?",
+      "choices": [
+        "Ла-Пампа",
+        "Тукуман",
+        "Энтре-Риос",
+        "Чако"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "781ad78a4824",
+      "provinceSlug": "entre-rios",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Термальные источники Федерасьона»?",
+      "choices": [
+        "Энтре-Риос",
+        "Сальта",
+        "Ла-Риоха",
+        "Формоса"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "24d2fd795b46",
+      "provinceSlug": "entre-rios",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Дворец Сан-Хосе (Консепсьон-дель-Уругвай)»?",
+      "choices": [
+        "Энтре-Риос",
+        "Санта-Крус",
+        "Буэнос-Айрес",
+        "Катамарка"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "a9289f071d24",
+      "provinceSlug": "entre-rios",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Столица Конфедерации»?",
+      "choices": [
+        "Буэнос-Айрес",
+        "Тукуман",
+        "Энтре-Риос",
+        "Неукен"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "8692590f05f6",
+      "provinceSlug": "entre-rios",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Дворец Сан-Хосе и Уркиса»?",
+      "choices": [
+        "Мендоса",
+        "Катамарка",
+        "Энтре-Риос",
+        "Ла-Риоха"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d48ae602c05e",
+      "provinceSlug": "formosa",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Аргентинский чёрно-белый тегу»?",
+      "choices": [
+        "Формоса",
+        "Рио-Негро",
+        "Сан-Хуан",
+        "Жужуй"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Аргентинский чёрно-белый тегу» — часть фауны: Формоса."
+    },
+    {
+      "id": "ef5fe19516d7",
+      "provinceSlug": "formosa",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Гигантский муравьед»?",
+      "choices": [
+        "Сан-Хуан",
+        "Формоса",
+        "Сан-Луис",
+        "Мисьонес"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Гигантский муравьед» — часть фауны: Формоса."
+    },
+    {
+      "id": "128fac3e83fd",
+      "provinceSlug": "formosa",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Пало санто»?",
+      "choices": [
+        "Мисьонес",
+        "Неукен",
+        "Формоса",
+        "Ла-Риоха"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Пало санто» — типичное растение: Формоса."
+    },
+    {
+      "id": "1ed1b67d9765",
+      "provinceSlug": "formosa",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Карандай»?",
+      "choices": [
+        "Чако",
+        "Ла-Пампа",
+        "Формоса",
+        "Тукуман"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Карандай» — типичное растение: Формоса."
+    },
+    {
+      "id": "a949d0f0602c",
+      "provinceSlug": "formosa",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Гваякан»?",
+      "choices": [
+        "Санта-Крус",
+        "Сан-Луис",
+        "Формоса",
+        "Рио-Негро"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Гваякан» — типичное растение: Формоса."
+    },
+    {
+      "id": "b484f1f44217",
+      "provinceSlug": "formosa",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Сопа парагвайя»?",
+      "choices": [
+        "Сан-Хуан",
+        "Формоса",
+        "Ла-Пампа",
+        "Сальта"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "a452d92751cd",
+      "provinceSlug": "formosa",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Запечённое паку»?",
+      "choices": [
+        "Рио-Негро",
+        "Сан-Луис",
+        "Тукуман",
+        "Формоса"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "2f7207ae33ee",
+      "provinceSlug": "formosa",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Чипа куэрито»?",
+      "choices": [
+        "Катамарка",
+        "Сан-Луис",
+        "Санта-Фе",
+        "Формоса"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "f74a7bafa4bf",
+      "provinceSlug": "formosa",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Баньядо-Ла-Эстрелья»?",
+      "choices": [
+        "Сан-Луис",
+        "Формоса",
+        "Мендоса",
+        "Тукуман"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "e9e21dcf2ff3",
+      "provinceSlug": "formosa",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Национальный парк Рио-Пилькомайо»?",
+      "choices": [
+        "Ла-Риоха",
+        "Сальта",
+        "Формоса",
+        "Рио-Негро"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "5f5051027c68",
+      "provinceSlug": "formosa",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Биосферный заповедник Лагуна-Ока (город Формоса)»?",
+      "choices": [
+        "Санта-Фе",
+        "Тукуман",
+        "Мисьонес",
+        "Формоса"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "e758a346e4a1",
+      "provinceSlug": "formosa",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Реки и коренные народы»?",
+      "choices": [
+        "Формоса",
+        "Сальта",
+        "Мендоса",
+        "Рио-Негро"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "460e4a56fddb",
+      "provinceSlug": "formosa",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Баньядо-Ла-Эстрелья»?",
+      "choices": [
+        "Ла-Пампа",
+        "Мендоса",
+        "Формоса",
+        "Неукен"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d8c0f3e318f8",
+      "provinceSlug": "jujuy",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Лама»?",
+      "choices": [
+        "Чубут",
+        "Мендоса",
+        "Формоса",
+        "Жужуй"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Лама» — часть фауны: Жужуй."
+    },
+    {
+      "id": "7d52cd20e9c9",
+      "provinceSlug": "jujuy",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Викунья»?",
+      "choices": [
+        "Сантьяго-дель-Эстеро",
+        "Рио-Негро",
+        "Жужуй",
+        "Катамарка"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Викунья» — часть фауны: Жужуй."
+    },
+    {
+      "id": "b59bbed1fc93",
+      "provinceSlug": "jujuy",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Кеньоа»?",
+      "choices": [
+        "Фолклендские (Мальвинские) острова",
+        "Жужуй",
+        "Буэнос-Айрес",
+        "Санта-Фе"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Кеньоа» — типичное растение: Жужуй."
+    },
+    {
+      "id": "6a12238ea0a2",
+      "provinceSlug": "jujuy",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Пуна-тола»?",
+      "choices": [
+        "Буэнос-Айрес",
+        "Неукен",
+        "Жужуй",
+        "Чубут"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Пуна-тола» — типичное растение: Жужуй."
+    },
+    {
+      "id": "635b26a5315d",
+      "provinceSlug": "jujuy",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Себиль»?",
+      "choices": [
+        "Жужуй",
+        "Санта-Фе",
+        "Мисьонес",
+        "Рио-Негро"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Себиль» — типичное растение: Жужуй."
+    },
+    {
+      "id": "779cec89246a",
+      "provinceSlug": "jujuy",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Умита в листьях»?",
+      "choices": [
+        "Формоса",
+        "Чако",
+        "Санта-Фе",
+        "Жужуй"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "dc17461302a6",
+      "provinceSlug": "jujuy",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Тамалес Жужуя»?",
+      "choices": [
+        "Сан-Хуан",
+        "Сан-Луис",
+        "Ла-Риоха",
+        "Жужуй"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "16e5796e1532",
+      "provinceSlug": "jujuy",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Калапурка»?",
+      "choices": [
+        "Ла-Пампа",
+        "Неукен",
+        "Кордова",
+        "Жужуй"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "4521fc846679",
+      "provinceSlug": "jujuy",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Пурмамарка и Холм семи цветов»?",
+      "choices": [
+        "Формоса",
+        "Фолклендские (Мальвинские) острова",
+        "Жужуй",
+        "Сан-Луис"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "37de7a6aa7f9",
+      "provinceSlug": "jujuy",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Кебрада-де-Умауака (Тилькара и Умауака)»?",
+      "choices": [
+        "Корриентес",
+        "Энтре-Риос",
+        "Жужуй",
+        "Буэнос-Айрес (автономный город)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "10009b61fee3",
+      "provinceSlug": "jujuy",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Салинас-Грандес и Куэста-де-Липан»?",
+      "choices": [
+        "Катамарка",
+        "Жужуй",
+        "Сан-Хуан",
+        "Мисьонес"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "90962fdbc3b8",
+      "provinceSlug": "jujuy",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Древняя Кебрада-де-Умауака»?",
+      "choices": [
+        "Сантьяго-дель-Эстеро",
+        "Жужуй",
+        "Энтре-Риос",
+        "Буэнос-Айрес (автономный город)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "147c73b7da52",
+      "provinceSlug": "jujuy",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Бельграно и Флаг в Жужуе»?",
+      "choices": [
+        "Жужуй",
+        "Ла-Пампа",
+        "Неукен",
+        "Катамарка"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "0d28d1cf0f96",
+      "provinceSlug": "la-pampa",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Пума»?",
+      "choices": [
+        "Сан-Хуан",
+        "Ла-Пампа",
+        "Буэнос-Айрес",
+        "Огненная Земля"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Пума» — часть фауны: Ла-Пампа."
+    },
+    {
+      "id": "84bdfd7ba381",
+      "provinceSlug": "la-pampa",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Большой нанду»?",
+      "choices": [
+        "Мисьонес",
+        "Ла-Пампа",
+        "Чако",
+        "Энтре-Риос"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Большой нанду» — часть фауны: Ла-Пампа."
+    },
+    {
+      "id": "e0053477a91c",
+      "provinceSlug": "la-pampa",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Кальден»?",
+      "choices": [
+        "Катамарка",
+        "Ла-Пампа",
+        "Сан-Луис",
+        "Энтре-Риос"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Кальден» — типичное растение: Ла-Пампа."
+    },
+    {
+      "id": "faad3e8fc2fc",
+      "provinceSlug": "la-pampa",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Пампасская харилья»?",
+      "choices": [
+        "Ла-Пампа",
+        "Буэнос-Айрес",
+        "Ла-Риоха",
+        "Санта-Фе"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Пампасская харилья» — типичное растение: Ла-Пампа."
+    },
+    {
+      "id": "7fae6106915c",
+      "provinceSlug": "la-pampa",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Оливковое дерево осла»?",
+      "choices": [
+        "Рио-Негро",
+        "Фолклендские (Мальвинские) острова",
+        "Неукен",
+        "Ла-Пампа"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Оливковое дерево осла» — типичное растение: Ла-Пампа."
+    },
+    {
+      "id": "a5f4e443248e",
+      "provinceSlug": "la-pampa",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Креольское асадо пампы»?",
+      "choices": [
+        "Рио-Негро",
+        "Кордова",
+        "Сантьяго-дель-Эстеро",
+        "Ла-Пампа"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "4ec776a0fd07",
+      "provinceSlug": "la-pampa",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Козлёнок на асадоре»?",
+      "choices": [
+        "Ла-Пампа",
+        "Энтре-Риос",
+        "Жужуй",
+        "Сан-Луис"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "1a685a1982a0",
+      "provinceSlug": "la-pampa",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Торта фрита»?",
+      "choices": [
+        "Буэнос-Айрес (автономный город)",
+        "Ла-Пампа",
+        "Неукен",
+        "Сан-Луис"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "b5ce1b9027e5",
+      "provinceSlug": "la-pampa",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Национальный парк Лихуэ-Калель»?",
+      "choices": [
+        "Ла-Пампа",
+        "Чубут",
+        "Буэнос-Айрес",
+        "Кордова"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "56c0dacf6f36",
+      "provinceSlug": "la-pampa",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Провинциальный заповедник Парке-Луро»?",
+      "choices": [
+        "Фолклендские (Мальвинские) острова",
+        "Буэнос-Айрес",
+        "Чубут",
+        "Ла-Пампа"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "2d996c6c25aa",
+      "provinceSlug": "la-pampa",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Лагуна-де-Утракан и окрестности Гуатраче»?",
+      "choices": [
+        "Ла-Пампа",
+        "Кордова",
+        "Ла-Риоха",
+        "Неукен"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d4a4d2f0989e",
+      "provinceSlug": "la-pampa",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Кальден — дерево-эмблема»?",
+      "choices": [
+        "Энтре-Риос",
+        "Чубут",
+        "Сан-Хуан",
+        "Ла-Пампа"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "537a6cea918d",
+      "provinceSlug": "la-pampa",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Перекрёсток исторических путей»?",
+      "choices": [
+        "Ла-Риоха",
+        "Мендоса",
+        "Ла-Пампа",
+        "Буэнос-Айрес (автономный город)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "1791ce4d7265",
+      "provinceSlug": "la-rioja",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Большой нанду»?",
+      "choices": [
+        "Огненная Земля",
+        "Ла-Риоха",
+        "Кордова",
+        "Жужуй"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Большой нанду» — часть фауны: Ла-Риоха."
+    },
+    {
+      "id": "f66b831f3473",
+      "provinceSlug": "la-rioja",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Гуанако»?",
+      "choices": [
+        "Ла-Риоха",
+        "Чубут",
+        "Мендоса",
+        "Огненная Земля"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Гуанако» — часть фауны: Ла-Риоха."
+    },
+    {
+      "id": "1e716c3835a4",
+      "provinceSlug": "la-rioja",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Харилья»?",
+      "choices": [
+        "Ла-Риоха",
+        "Буэнос-Айрес",
+        "Корриентес",
+        "Ла-Пампа"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Харилья» — типичное растение: Ла-Риоха."
+    },
+    {
+      "id": "d9de1cb13f71",
+      "provinceSlug": "la-rioja",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Ретортуньо»?",
+      "choices": [
+        "Сантьяго-дель-Эстеро",
+        "Жужуй",
+        "Фолклендские (Мальвинские) острова",
+        "Ла-Риоха"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Ретортуньо» — типичное растение: Ла-Риоха."
+    },
+    {
+      "id": "d577c00c3a8c",
+      "provinceSlug": "la-rioja",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Белый альгарробо»?",
+      "choices": [
+        "Ла-Риоха",
+        "Ла-Пампа",
+        "Кордова",
+        "Жужуй"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Белый альгарробо» — типичное растение: Ла-Риоха."
+    },
+    {
+      "id": "f7dd148fb2ec",
+      "provinceSlug": "la-rioja",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Чанфайна риохана»?",
+      "choices": [
+        "Тукуман",
+        "Кордова",
+        "Ла-Риоха",
+        "Рио-Негро"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "e71b6af18f38",
+      "provinceSlug": "la-rioja",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Эмпанады Ла-Риохи»?",
+      "choices": [
+        "Ла-Риоха",
+        "Сан-Хуан",
+        "Чубут",
+        "Ла-Пампа"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "f9aea10f75b7",
+      "provinceSlug": "la-rioja",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Локро Ла-Риохи»?",
+      "choices": [
+        "Ла-Риоха",
+        "Санта-Крус",
+        "Энтре-Риос",
+        "Рио-Негро"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ec9122168592",
+      "provinceSlug": "la-rioja",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Национальный парк Талампайя»?",
+      "choices": [
+        "Ла-Риоха",
+        "Санта-Фе",
+        "Ла-Пампа",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "2ada60d4e1a2",
+      "provinceSlug": "la-rioja",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Куэста-де-Миранда»?",
+      "choices": [
+        "Жужуй",
+        "Энтре-Риос",
+        "Ла-Риоха",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "392365fd0332",
+      "provinceSlug": "la-rioja",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Национальный парк Лагуна-Брава»?",
+      "choices": [
+        "Буэнос-Айрес (автономный город)",
+        "Ла-Риоха",
+        "Чубут",
+        "Энтре-Риос"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "c10b9d03f3d6",
+      "provinceSlug": "la-rioja",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Земля федеральных каудильо»?",
+      "choices": [
+        "Мисьонес",
+        "Сан-Луис",
+        "Ла-Риоха",
+        "Ла-Пампа"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "b55a33ce4d53",
+      "provinceSlug": "la-rioja",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Талампайя и глубокое время»?",
+      "choices": [
+        "Чако",
+        "Ла-Пампа",
+        "Ла-Риоха",
+        "Мисьонес"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "2baf2f245d39",
+      "provinceSlug": "mendoza",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Андский кондор»?",
+      "choices": [
+        "Сальта",
+        "Катамарка",
+        "Мендоса",
+        "Энтре-Риос"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Андский кондор» — часть фауны: Мендоса."
+    },
+    {
+      "id": "2edd9f7eba84",
+      "provinceSlug": "mendoza",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Гуанако»?",
+      "choices": [
+        "Мендоса",
+        "Ла-Риоха",
+        "Жужуй",
+        "Огненная Земля"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Гуанако» — часть фауны: Мендоса."
+    },
+    {
+      "id": "85c6c200c6fc",
+      "provinceSlug": "mendoza",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Аярилья»?",
+      "choices": [
+        "Сан-Хуан",
+        "Рио-Негро",
+        "Мендоса",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Аярилья» — типичное растение: Мендоса."
+    },
+    {
+      "id": "4993545decf7",
+      "provinceSlug": "mendoza",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Смолистые харильи»?",
+      "choices": [
+        "Сальта",
+        "Энтре-Риос",
+        "Санта-Фе",
+        "Мендоса"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Смолистые харильи» — типичное растение: Мендоса."
+    },
+    {
+      "id": "e7d18b9a239e",
+      "provinceSlug": "mendoza",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Чаньяр Мендосы»?",
+      "choices": [
+        "Мендоса",
+        "Санта-Фе",
+        "Сальта",
+        "Тукуман"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Чаньяр Мендосы» — типичное растение: Мендоса."
+    },
+    {
+      "id": "240f8c2ee239",
+      "provinceSlug": "mendoza",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Тортитас мендосинас»?",
+      "choices": [
+        "Рио-Негро",
+        "Энтре-Риос",
+        "Мендоса",
+        "Неукен"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "6348ced138c0",
+      "provinceSlug": "mendoza",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Козлёнок а-ла-льяма»?",
+      "choices": [
+        "Огненная Земля",
+        "Мендоса",
+        "Сан-Луис",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "dc1368da02ac",
+      "provinceSlug": "mendoza",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Эмпанады Мендосы»?",
+      "choices": [
+        "Ла-Пампа",
+        "Буэнос-Айрес (автономный город)",
+        "Мисьонес",
+        "Мендоса"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "4cac7a9280b0",
+      "provinceSlug": "mendoza",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Провинциальный парк Аконкагуа»?",
+      "choices": [
+        "Мисьонес",
+        "Неукен",
+        "Мендоса",
+        "Энтре-Риос"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "fe5b22318a54",
+      "provinceSlug": "mendoza",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Винный маршрут в Лухан-де-Куйо и долине Ухо»?",
+      "choices": [
+        "Энтре-Риос",
+        "Буэнос-Айрес",
+        "Корриентес",
+        "Мендоса"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "bf4404a0b2c9",
+      "provinceSlug": "mendoza",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Пуэнте-дель-Инка и провинциальный парк каньона Атуэль»?",
+      "choices": [
+        "Мендоса",
+        "Сан-Хуан",
+        "Чубут",
+        "Сальта"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "09b23395871b",
+      "provinceSlug": "mendoza",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Колыбель Армии Анд»?",
+      "choices": [
+        "Катамарка",
+        "Мендоса",
+        "Корриентес",
+        "Чако"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ccec3b191290",
+      "provinceSlug": "mendoza",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Оазисы, созданные оросительными каналами»?",
+      "choices": [
+        "Чубут",
+        "Сан-Луис",
+        "Чако",
+        "Мендоса"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "320b2dd5eba2",
+      "provinceSlug": "misiones",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Ягуар»?",
+      "choices": [
+        "Фолклендские (Мальвинские) острова",
+        "Мисьонес",
+        "Санта-Крус",
+        "Неукен"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Ягуар» — часть фауны: Мисьонес."
+    },
+    {
+      "id": "878c0878174f",
+      "provinceSlug": "misiones",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Чёрный ревун»?",
+      "choices": [
+        "Мисьонес",
+        "Сан-Хуан",
+        "Жужуй",
+        "Катамарка"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Чёрный ревун» — часть фауны: Мисьонес."
+    },
+    {
+      "id": "1c81e35be26b",
+      "provinceSlug": "misiones",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Пальмовое сердце Мисьонес»?",
+      "choices": [
+        "Ла-Риоха",
+        "Тукуман",
+        "Корриентес",
+        "Мисьонес"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Пальмовое сердце Мисьонес» — типичное растение: Мисьонес."
+    },
+    {
+      "id": "bec72503db59",
+      "provinceSlug": "misiones",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Розовый лапачо»?",
+      "choices": [
+        "Мисьонес",
+        "Корриентес",
+        "Сантьяго-дель-Эстеро",
+        "Энтре-Риос"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Розовый лапачо» — типичное растение: Мисьонес."
+    },
+    {
+      "id": "510fb689c0af",
+      "provinceSlug": "misiones",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Араукария Мисьонес»?",
+      "choices": [
+        "Мисьонес",
+        "Рио-Негро",
+        "Кордова",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Араукария Мисьонес» — типичное растение: Мисьонес."
+    },
+    {
+      "id": "d45fa34fb3f0",
+      "provinceSlug": "misiones",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Ревиро»?",
+      "choices": [
+        "Неукен",
+        "Корриентес",
+        "Мисьонес",
+        "Санта-Фе"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "9f94e336f6ab",
+      "provinceSlug": "misiones",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Чипа Мисьонес»?",
+      "choices": [
+        "Фолклендские (Мальвинские) острова",
+        "Санта-Крус",
+        "Мисьонес",
+        "Ла-Пампа"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "57be696c8eac",
+      "provinceSlug": "misiones",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Мбежу»?",
+      "choices": [
+        "Ла-Риоха",
+        "Ла-Пампа",
+        "Тукуман",
+        "Мисьонес"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "5afec6959cf4",
+      "provinceSlug": "misiones",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Водопады Игуасу»?",
+      "choices": [
+        "Мисьонес",
+        "Санта-Крус",
+        "Корриентес",
+        "Кордова"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "486920d41163",
+      "provinceSlug": "misiones",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Иезуитские руины Сан-Игнасио-Мини»?",
+      "choices": [
+        "Сан-Луис",
+        "Ла-Пампа",
+        "Мисьонес",
+        "Чубут"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "b8eb40287a3a",
+      "provinceSlug": "misiones",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Водопады Мокона»?",
+      "choices": [
+        "Мисьонес",
+        "Формоса",
+        "Фолклендские (Мальвинские) острова",
+        "Кордова"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eed906364302",
+      "provinceSlug": "misiones",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Иезуитские миссии»?",
+      "choices": [
+        "Сальта",
+        "Мисьонес",
+        "Рио-Негро",
+        "Чубут"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "8087329d3454",
+      "provinceSlug": "misiones",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Дождевой лес и мате»?",
+      "choices": [
+        "Огненная Земля",
+        "Чубут",
+        "Рио-Негро",
+        "Мисьонес"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "22e673af984f",
+      "provinceSlug": "neuquen",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Патагонская серая лисица»?",
+      "choices": [
+        "Неукен",
+        "Огненная Земля",
+        "Буэнос-Айрес (автономный город)",
+        "Тукуман"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Патагонская серая лисица» — часть фауны: Неукен."
+    },
+    {
+      "id": "1eaede0ed2da",
+      "provinceSlug": "neuquen",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Южный пуду»?",
+      "choices": [
+        "Ла-Риоха",
+        "Неукен",
+        "Сальта",
+        "Рио-Негро"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Южный пуду» — часть фауны: Неукен."
+    },
+    {
+      "id": "1fe1da6dff06",
+      "provinceSlug": "neuquen",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Пеуэн (араукария чилийская)»?",
+      "choices": [
+        "Жужуй",
+        "Катамарка",
+        "Неукен",
+        "Мисьонес"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Пеуэн (араукария чилийская)» — типичное растение: Неукен."
+    },
+    {
+      "id": "a3c693be9288",
+      "provinceSlug": "neuquen",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Ньире»?",
+      "choices": [
+        "Неукен",
+        "Буэнос-Айрес",
+        "Ла-Пампа",
+        "Огненная Земля"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Ньире» — типичное растение: Неукен."
+    },
+    {
+      "id": "d532ebd5fd03",
+      "provinceSlug": "neuquen",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Горный майтен»?",
+      "choices": [
+        "Санта-Фе",
+        "Неукен",
+        "Буэнос-Айрес (автономный город)",
+        "Формоса"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Горный майтен» — типичное растение: Неукен."
+    },
+    {
+      "id": "f6587d13a943",
+      "provinceSlug": "neuquen",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Чивито Неукена»?",
+      "choices": [
+        "Неукен",
+        "Буэнос-Айрес (автономный город)",
+        "Буэнос-Айрес",
+        "Чако"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "030b02893ee9",
+      "provinceSlug": "neuquen",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Патагонская форель»?",
+      "choices": [
+        "Неукен",
+        "Буэнос-Айрес",
+        "Сальта",
+        "Тукуман"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "1f6a359ccc47",
+      "provinceSlug": "neuquen",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Патагонская торта фрита»?",
+      "choices": [
+        "Мендоса",
+        "Фолклендские (Мальвинские) острова",
+        "Неукен",
+        "Корриентес"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "a73326bc6e8d",
+      "provinceSlug": "neuquen",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Вилья-Ла-Ангостура и национальный парк Науэль-Уапи»?",
+      "choices": [
+        "Неукен",
+        "Рио-Негро",
+        "Ла-Пампа",
+        "Жужуй"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "dec375e6664e",
+      "provinceSlug": "neuquen",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Сан-Мартин-де-лос-Андес и Дорога семи озёр»?",
+      "choices": [
+        "Мисьонес",
+        "Кордова",
+        "Неукен",
+        "Сальта"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "c75c180e9ba6",
+      "provinceSlug": "neuquen",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Вулкан Ланин и национальный парк Ланин»?",
+      "choices": [
+        "Сальта",
+        "Неукен",
+        "Сан-Хуан",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ca568be072a4",
+      "provinceSlug": "neuquen",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Мапуче и горная территория»?",
+      "choices": [
+        "Сальта",
+        "Неукен",
+        "Корриентес",
+        "Кордова"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "6f1f3d382075",
+      "provinceSlug": "neuquen",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Вака-Муэрта и энергетика»?",
+      "choices": [
+        "Санта-Крус",
+        "Ла-Пампа",
+        "Неукен",
+        "Корриентес"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "ee347925f42d",
+      "provinceSlug": "rio-negro",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Патагонская мара»?",
+      "choices": [
+        "Мендоса",
+        "Рио-Негро",
+        "Энтре-Риос",
+        "Огненная Земля"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Патагонская мара» — часть фауны: Рио-Негро."
+    },
+    {
+      "id": "e4f9ececa001",
+      "provinceSlug": "rio-negro",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Гуанако»?",
+      "choices": [
+        "Рио-Негро",
+        "Мисьонес",
+        "Мендоса",
+        "Санта-Крус"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Гуанако» — часть фауны: Рио-Негро."
+    },
+    {
+      "id": "ca79cce2ab15",
+      "provinceSlug": "rio-negro",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Нэнэо»?",
+      "choices": [
+        "Рио-Негро",
+        "Формоса",
+        "Неукен",
+        "Сальта"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Нэнэо» — типичное растение: Рио-Негро."
+    },
+    {
+      "id": "7295c14457b7",
+      "provinceSlug": "rio-negro",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Патагонский молле»?",
+      "choices": [
+        "Энтре-Риос",
+        "Буэнос-Айрес",
+        "Рио-Негро",
+        "Санта-Крус"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Патагонский молле» — типичное растение: Рио-Негро."
+    },
+    {
+      "id": "a2713de888b6",
+      "provinceSlug": "rio-negro",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Андский койуэ»?",
+      "choices": [
+        "Санта-Фе",
+        "Неукен",
+        "Чубут",
+        "Рио-Негро"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Андский койуэ» — типичное растение: Рио-Негро."
+    },
+    {
+      "id": "8991851246ed",
+      "provinceSlug": "rio-negro",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Патагонская форель»?",
+      "choices": [
+        "Ла-Риоха",
+        "Огненная Земля",
+        "Рио-Негро",
+        "Катамарка"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "95833b265629",
+      "provinceSlug": "rio-negro",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Баранина на вертеле»?",
+      "choices": [
+        "Мендоса",
+        "Жужуй",
+        "Рио-Негро",
+        "Неукен"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "b1c9f7b93d3a",
+      "provinceSlug": "rio-negro",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Барилоче и Чико-Цирк»?",
+      "choices": [
+        "Корриентес",
+        "Неукен",
+        "Фолклендские (Мальвинские) острова",
+        "Рио-Негро"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "c5c1f1790251",
+      "provinceSlug": "rio-negro",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Эль-Больсон и Лаго-Пуэло (андский район)»?",
+      "choices": [
+        "Тукуман",
+        "Мисьонес",
+        "Рио-Негро",
+        "Чако"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "e0ac8ca4e958",
+      "provinceSlug": "rio-negro",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Лас-Грутас и побережье залива Сан-Матиас»?",
+      "choices": [
+        "Мендоса",
+        "Энтре-Риос",
+        "Рио-Негро",
+        "Фолклендские (Мальвинские) острова"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "190bb701cce9",
+      "provinceSlug": "rio-negro",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Плодовое Альто-Валье»?",
+      "choices": [
+        "Рио-Негро",
+        "Сантьяго-дель-Эстеро",
+        "Буэнос-Айрес",
+        "Корриентес"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "0e4b32eda473",
+      "provinceSlug": "rio-negro",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Атлантическое побережье и палеонтология»?",
+      "choices": [
+        "Неукен",
+        "Рио-Негро",
+        "Фолклендские (Мальвинские) острова",
+        "Огненная Земля"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "0c44bd10f071",
+      "provinceSlug": "salta",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Равнинный тапир»?",
+      "choices": [
+        "Сальта",
+        "Жужуй",
+        "Тукуман",
+        "Огненная Земля"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Равнинный тапир» — часть фауны: Сальта."
+    },
+    {
+      "id": "966a3583a2f7",
+      "provinceSlug": "salta",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Викунья»?",
+      "choices": [
+        "Сальта",
+        "Буэнос-Айрес (автономный город)",
+        "Кордова",
+        "Рио-Негро"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Викунья» — часть фауны: Сальта."
+    },
+    {
+      "id": "26676419e439",
+      "provinceSlug": "salta",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Юхан»?",
+      "choices": [
+        "Мисьонес",
+        "Энтре-Риос",
+        "Кордова",
+        "Сальта"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Юхан» — типичное растение: Сальта."
+    },
+    {
+      "id": "043c2b096ce0",
+      "provinceSlug": "salta",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Розовое бутылочное дерево»?",
+      "choices": [
+        "Чако",
+        "Рио-Негро",
+        "Сальта",
+        "Санта-Крус"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Розовое бутылочное дерево» — типичное растение: Сальта."
+    },
+    {
+      "id": "ca9c4100a579",
+      "provinceSlug": "salta",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Белая типа»?",
+      "choices": [
+        "Огненная Земля",
+        "Жужуй",
+        "Сальта",
+        "Катамарка"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Белая типа» — типичное растение: Сальта."
+    },
+    {
+      "id": "083dcec52904",
+      "provinceSlug": "salta",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Эмпанады Сальты»?",
+      "choices": [
+        "Сан-Хуан",
+        "Жужуй",
+        "Мисьонес",
+        "Сальта"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "613ac189d982",
+      "provinceSlug": "salta",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Тамалес Сальты»?",
+      "choices": [
+        "Чубут",
+        "Сальта",
+        "Ла-Риоха",
+        "Мисьонес"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "dbfb7427a975",
+      "provinceSlug": "salta",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Умита»?",
+      "choices": [
+        "Энтре-Риос",
+        "Сальта",
+        "Неукен",
+        "Сан-Хуан"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "34e47238b304",
+      "provinceSlug": "salta",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Поезд в облака (Сан-Антонио-де-лос-Кобрес)»?",
+      "choices": [
+        "Чубут",
+        "Сальта",
+        "Сантьяго-дель-Эстеро",
+        "Ла-Пампа"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "654505720a1c",
+      "provinceSlug": "salta",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Кафаяте и Кебрада-де-лас-Консьяс»?",
+      "choices": [
+        "Санта-Фе",
+        "Сантьяго-дель-Эстеро",
+        "Сальта",
+        "Мендоса"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "a6454f16c8db",
+      "provinceSlug": "salta",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Качи и национальный парк Лос-Кардонес»?",
+      "choices": [
+        "Корриентес",
+        "Сальта",
+        "Санта-Фе",
+        "Чако"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "aaee98115bbd",
+      "provinceSlug": "salta",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Гуэмес и война за независимость»?",
+      "choices": [
+        "Санта-Фе",
+        "Буэнос-Айрес",
+        "Сальта",
+        "Кордова"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "83e2706b8d85",
+      "provinceSlug": "salta",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Мозаика пейзажей»?",
+      "choices": [
+        "Чубут",
+        "Энтре-Риос",
+        "Санта-Крус",
+        "Сальта"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "f58fa90e41f0",
+      "provinceSlug": "san-juan",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Гуанако»?",
+      "choices": [
+        "Сан-Хуан",
+        "Жужуй",
+        "Буэнос-Айрес (автономный город)",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Гуанако» — часть фауны: Сан-Хуан."
+    },
+    {
+      "id": "81d5f4c7eea5",
+      "provinceSlug": "san-juan",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Патагонская мара»?",
+      "choices": [
+        "Сальта",
+        "Ла-Риоха",
+        "Сан-Хуан",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Патагонская мара» — часть фауны: Сан-Хуан."
+    },
+    {
+      "id": "0d5c330de6a0",
+      "provinceSlug": "san-juan",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Ретамо»?",
+      "choices": [
+        "Сан-Хуан",
+        "Корриентес",
+        "Мисьонес",
+        "Буэнос-Айрес (автономный город)"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Ретамо» — типичное растение: Сан-Хуан."
+    },
+    {
+      "id": "6bd0e7a15112",
+      "provinceSlug": "san-juan",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Харилья Сан-Хуана»?",
+      "choices": [
+        "Сальта",
+        "Сан-Хуан",
+        "Тукуман",
+        "Огненная Земля"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Харилья Сан-Хуана» — типичное растение: Сан-Хуан."
+    },
+    {
+      "id": "3f5be0652fab",
+      "provinceSlug": "san-juan",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Чёрный альгарробо»?",
+      "choices": [
+        "Корриентес",
+        "Ла-Риоха",
+        "Буэнос-Айрес",
+        "Сан-Хуан"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Чёрный альгарробо» — типичное растение: Сан-Хуан."
+    },
+    {
+      "id": "b7a1257c0a39",
+      "provinceSlug": "san-juan",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Пунта де эспальда»?",
+      "choices": [
+        "Сан-Хуан",
+        "Тукуман",
+        "Ла-Пампа",
+        "Мисьонес"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c271d91b9eff",
+      "provinceSlug": "san-juan",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Томатикан»?",
+      "choices": [
+        "Буэнос-Айрес",
+        "Сан-Хуан",
+        "Ла-Пампа",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "c77230697628",
+      "provinceSlug": "san-juan",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Сопайпильяс»?",
+      "choices": [
+        "Формоса",
+        "Мендоса",
+        "Сан-Хуан",
+        "Тукуман"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "59f365b1900a",
+      "provinceSlug": "san-juan",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Провинциальный парк Ишигуаласто (Лунная долина)»?",
+      "choices": [
+        "Сан-Хуан",
+        "Санта-Фе",
+        "Сальта",
+        "Неукен"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "0ed532ef03ec",
+      "provinceSlug": "san-juan",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Плотина Куэста-дель-Виенто (Родео)»?",
+      "choices": [
+        "Сантьяго-дель-Эстеро",
+        "Буэнос-Айрес (автономный город)",
+        "Ла-Риоха",
+        "Сан-Хуан"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "3ae03e7ea7d0",
+      "provinceSlug": "san-juan",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Национальный парк Эль-Леонсито (Барреаль)»?",
+      "choices": [
+        "Неукен",
+        "Энтре-Риос",
+        "Сан-Хуан",
+        "Жужуй"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "0f16cfa992b7",
+      "provinceSlug": "san-juan",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Сармьенто и образование»?",
+      "choices": [
+        "Сан-Хуан",
+        "Ла-Пампа",
+        "Катамарка",
+        "Фолклендские (Мальвинские) острова"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "6240da804bbc",
+      "provinceSlug": "san-juan",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Ишигуаласто и уникальные окаменелости»?",
+      "choices": [
+        "Формоса",
+        "Корриентес",
+        "Сан-Хуан",
+        "Энтре-Риос"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "51b59b3d3d3e",
+      "provinceSlug": "san-luis",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Шестипоясный броненосец»?",
+      "choices": [
+        "Буэнос-Айрес (автономный город)",
+        "Корриентес",
+        "Сан-Луис",
+        "Сан-Хуан"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Шестипоясный броненосец» — часть фауны: Сан-Луис."
+    },
+    {
+      "id": "45710dc0a63b",
+      "provinceSlug": "san-luis",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Серая лисица»?",
+      "choices": [
+        "Мисьонес",
+        "Сан-Луис",
+        "Санта-Крус",
+        "Энтре-Риос"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Серая лисица» — часть фауны: Сан-Луис."
+    },
+    {
+      "id": "debf8589acb7",
+      "provinceSlug": "san-luis",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Сладкий альгарробо»?",
+      "choices": [
+        "Мисьонес",
+        "Сан-Луис",
+        "Ла-Пампа",
+        "Сальта"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Сладкий альгарробо» — типичное растение: Сан-Луис."
+    },
+    {
+      "id": "76779c756c5e",
+      "provinceSlug": "san-luis",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Эспинильо Сан-Луиса»?",
+      "choices": [
+        "Сан-Луис",
+        "Буэнос-Айрес (автономный город)",
+        "Катамарка",
+        "Рио-Негро"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Эспинильо Сан-Луиса» — типичное растение: Сан-Луис."
+    },
+    {
+      "id": "dfa583c9d503",
+      "provinceSlug": "san-luis",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Белый кебрачо холмов»?",
+      "choices": [
+        "Фолклендские (Мальвинские) острова",
+        "Формоса",
+        "Сан-Луис",
+        "Ла-Пампа"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Белый кебрачо холмов» — типичное растение: Сан-Луис."
+    },
+    {
+      "id": "1bd0fa5110de",
+      "provinceSlug": "san-luis",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Чивито Сан-Луиса»?",
+      "choices": [
+        "Ла-Пампа",
+        "Санта-Фе",
+        "Сальта",
+        "Сан-Луис"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "2d4c8cca614c",
+      "provinceSlug": "san-luis",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Эмпанады Сан-Луиса»?",
+      "choices": [
+        "Санта-Фе",
+        "Неукен",
+        "Буэнос-Айрес (автономный город)",
+        "Сан-Луис"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "4f14984b3415",
+      "provinceSlug": "san-luis",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Карбонада»?",
+      "choices": [
+        "Санта-Фе",
+        "Сан-Луис",
+        "Ла-Пампа",
+        "Катамарка"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "1a5a1c737daf",
+      "provinceSlug": "san-luis",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Национальный парк Сьерра-де-лас-Кихадас»?",
+      "choices": [
+        "Сантьяго-дель-Эстеро",
+        "Сан-Луис",
+        "Корриентес",
+        "Буэнос-Айрес (автономный город)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "9eea83fc2d59",
+      "provinceSlug": "san-luis",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Потреро-де-лос-Фунес»?",
+      "choices": [
+        "Буэнос-Айрес",
+        "Катамарка",
+        "Мендоса",
+        "Сан-Луис"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "1295a54954ff",
+      "provinceSlug": "san-luis",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Мерло и заповедник флоры и фауны Ринкон-дель-Эсте»?",
+      "choices": [
+        "Сан-Хуан",
+        "Чубут",
+        "Сан-Луис",
+        "Огненная Земля"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "11aa267bc530",
+      "provinceSlug": "san-luis",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Станция внутренних дорог»?",
+      "choices": [
+        "Сан-Луис",
+        "Буэнос-Айрес (автономный город)",
+        "Катамарка",
+        "Чубут"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "af626ca4e57b",
+      "provinceSlug": "san-luis",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Пейзаж холмов и солончаков»?",
+      "choices": [
+        "Сан-Луис",
+        "Сальта",
+        "Ла-Пампа",
+        "Мендоса"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "8ad71a1a138f",
+      "provinceSlug": "santa-cruz",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Южный пуду»?",
+      "choices": [
+        "Рио-Негро",
+        "Энтре-Риос",
+        "Сантьяго-дель-Эстеро",
+        "Санта-Крус"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Южный пуду» — часть фауны: Санта-Крус."
+    },
+    {
+      "id": "35eb17825a58",
+      "provinceSlug": "santa-cruz",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Гуанако»?",
+      "choices": [
+        "Санта-Крус",
+        "Буэнос-Айрес (автономный город)",
+        "Чако",
+        "Тукуман"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Гуанако» — часть фауны: Санта-Крус."
+    },
+    {
+      "id": "8053ae8638c7",
+      "provinceSlug": "santa-cruz",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Мата негра»?",
+      "choices": [
+        "Сан-Луис",
+        "Рио-Негро",
+        "Санта-Крус",
+        "Тукуман"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Мата негра» — типичное растение: Санта-Крус."
+    },
+    {
+      "id": "b21800d8adfd",
+      "provinceSlug": "santa-cruz",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Огнеземельный кориён»?",
+      "choices": [
+        "Чако",
+        "Сан-Хуан",
+        "Санта-Крус",
+        "Неукен"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Огнеземельный кориён» — типичное растение: Санта-Крус."
+    },
+    {
+      "id": "8254767f10ce",
+      "provinceSlug": "santa-cruz",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Южный нэнэо»?",
+      "choices": [
+        "Буэнос-Айрес (автономный город)",
+        "Тукуман",
+        "Сан-Луис",
+        "Санта-Крус"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Южный нэнэо» — типичное растение: Санта-Крус."
+    },
+    {
+      "id": "85cc91e6dedf",
+      "provinceSlug": "santa-cruz",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Кастрюля с морепродуктами»?",
+      "choices": [
+        "Мисьонес",
+        "Неукен",
+        "Санта-Крус",
+        "Кордова"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "63c0c8d4b3b0",
+      "provinceSlug": "santa-cruz",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Баранина Санта-Круса»?",
+      "choices": [
+        "Сальта",
+        "Тукуман",
+        "Буэнос-Айрес (автономный город)",
+        "Санта-Крус"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "e711daa79e81",
+      "provinceSlug": "santa-cruz",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Ледник Перито-Морено (национальный парк Лос-Гласьярес)»?",
+      "choices": [
+        "Катамарка",
+        "Огненная Земля",
+        "Ла-Риоха",
+        "Санта-Крус"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "db77cbdadba8",
+      "provinceSlug": "santa-cruz",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Эль-Чальтен и тропы Фицроя»?",
+      "choices": [
+        "Ла-Риоха",
+        "Катамарка",
+        "Санта-Крус",
+        "Тукуман"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "1dc027962d73",
+      "provinceSlug": "santa-cruz",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Куэва-де-лас-Манос (река Пинтурас)»?",
+      "choices": [
+        "Корриентес",
+        "Сан-Луис",
+        "Санта-Крус",
+        "Буэнос-Айрес (автономный город)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "68d2da3314d0",
+      "provinceSlug": "santa-cruz",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Континентальные ледяные поля»?",
+      "choices": [
+        "Сан-Хуан",
+        "Огненная Земля",
+        "Санта-Крус",
+        "Мисьонес"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "b0a783377673",
+      "provinceSlug": "santa-cruz",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Куэва-де-лас-Манос»?",
+      "choices": [
+        "Санта-Крус",
+        "Фолклендские (Мальвинские) острова",
+        "Сан-Хуан",
+        "Санта-Фе"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "bc3f6dc3f93c",
+      "provinceSlug": "santa-fe",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Парагвайский кайман»?",
+      "choices": [
+        "Буэнос-Айрес",
+        "Санта-Фе",
+        "Фолклендские (Мальвинские) острова",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Парагвайский кайман» — часть фауны: Санта-Фе."
+    },
+    {
+      "id": "3821b6447313",
+      "provinceSlug": "santa-fe",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Капибара»?",
+      "choices": [
+        "Ла-Риоха",
+        "Ла-Пампа",
+        "Кордова",
+        "Санта-Фе"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Капибара» — часть фауны: Санта-Фе."
+    },
+    {
+      "id": "4ff7437e33b0",
+      "provinceSlug": "santa-fe",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Сейбо»?",
+      "choices": [
+        "Фолклендские (Мальвинские) острова",
+        "Санта-Фе",
+        "Рио-Негро",
+        "Тукуман"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Сейбо» — типичное растение: Санта-Фе."
+    },
+    {
+      "id": "38e3ff1e7c14",
+      "provinceSlug": "santa-fe",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Белая сарандь»?",
+      "choices": [
+        "Санта-Фе",
+        "Мисьонес",
+        "Санта-Крус",
+        "Сан-Хуан"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Белая сарандь» — типичное растение: Санта-Фе."
+    },
+    {
+      "id": "74f0dd270e8a",
+      "provinceSlug": "santa-fe",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Прибрежный тимбо»?",
+      "choices": [
+        "Ла-Риоха",
+        "Сантьяго-дель-Эстеро",
+        "Санта-Фе",
+        "Корриентес"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Прибрежный тимбо» — типичное растение: Санта-Фе."
+    },
+    {
+      "id": "0ea135a5a1e7",
+      "provinceSlug": "santa-fe",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Дорадо на гриле»?",
+      "choices": [
+        "Сан-Луис",
+        "Катамарка",
+        "Санта-Фе",
+        "Чако"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d7d06ecd9104",
+      "provinceSlug": "santa-fe",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Запечённый суруби»?",
+      "choices": [
+        "Санта-Фе",
+        "Катамарка",
+        "Неукен",
+        "Ла-Пампа"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "694ebe14341f",
+      "provinceSlug": "santa-fe",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Эмпанада Санта-Фе»?",
+      "choices": [
+        "Санта-Фе",
+        "Сантьяго-дель-Эстеро",
+        "Корриентес",
+        "Тукуман"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "7e8e11d889c6",
+      "provinceSlug": "santa-fe",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Памятник Национальному флагу (Росарио)»?",
+      "choices": [
+        "Формоса",
+        "Сальта",
+        "Санта-Фе",
+        "Буэнос-Айрес (автономный город)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "be8d2ba5bccb",
+      "provinceSlug": "santa-fe",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Парк Независимости (Росарио)»?",
+      "choices": [
+        "Сальта",
+        "Санта-Фе",
+        "Кордова",
+        "Формоса"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "b394659886ab",
+      "provinceSlug": "santa-fe",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Подвесной мост и набережная города Санта-Фе»?",
+      "choices": [
+        "Санта-Фе",
+        "Огненная Земля",
+        "Фолклендские (Мальвинские) острова",
+        "Ла-Риоха"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "1484c5fe413f",
+      "provinceSlug": "santa-fe",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Колыбель Флага»?",
+      "choices": [
+        "Фолклендские (Мальвинские) острова",
+        "Сан-Луис",
+        "Санта-Фе",
+        "Чубут"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "95e2031f63c8",
+      "provinceSlug": "santa-fe",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Порт, реки и иммиграция»?",
+      "choices": [
+        "Санта-Фе",
+        "Тукуман",
+        "Ла-Риоха",
+        "Буэнос-Айрес"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d4f3e0a25d71",
+      "provinceSlug": "santiago-del-estero",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Ошейниковый пекари»?",
+      "choices": [
+        "Катамарка",
+        "Сальта",
+        "Сантьяго-дель-Эстеро",
+        "Буэнос-Айрес (автономный город)"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Ошейниковый пекари» — часть фауны: Сантьяго-дель-Эстеро."
+    },
+    {
+      "id": "0de7f1c4bfbe",
+      "provinceSlug": "santiago-del-estero",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Девятипоясный броненосец»?",
+      "choices": [
+        "Мендоса",
+        "Буэнос-Айрес (автономный город)",
+        "Сантьяго-дель-Эстеро",
+        "Корриентес"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Девятипоясный броненосец» — часть фауны: Сантьяго-дель-Эстеро."
+    },
+    {
+      "id": "9b21c60f9f12",
+      "provinceSlug": "santiago-del-estero",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Итин»?",
+      "choices": [
+        "Буэнос-Айрес",
+        "Рио-Негро",
+        "Сантьяго-дель-Эстеро",
+        "Неукен"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Итин» — типичное растение: Сантьяго-дель-Эстеро."
+    },
+    {
+      "id": "d2bc5b096c23",
+      "provinceSlug": "santiago-del-estero",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Винал»?",
+      "choices": [
+        "Формоса",
+        "Ла-Риоха",
+        "Неукен",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Винал» — типичное растение: Сантьяго-дель-Эстеро."
+    },
+    {
+      "id": "f699dc879422",
+      "provinceSlug": "santiago-del-estero",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Красный кебрачо Сантьяго»?",
+      "choices": [
+        "Огненная Земля",
+        "Катамарка",
+        "Сальта",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Красный кебрачо Сантьяго» — типичное растение: Сантьяго-дель-Эстеро."
+    },
+    {
+      "id": "1946bef7051f",
+      "provinceSlug": "santiago-del-estero",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Локро Сантьяго»?",
+      "choices": [
+        "Сантьяго-дель-Эстеро",
+        "Огненная Земля",
+        "Ла-Пампа",
+        "Тукуман"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "850f31f3a735",
+      "provinceSlug": "santiago-del-estero",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Эмпанады Сантьяго»?",
+      "choices": [
+        "Ла-Риоха",
+        "Буэнос-Айрес",
+        "Сантьяго-дель-Эстеро",
+        "Неукен"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "ff9bac98b05a",
+      "provinceSlug": "santiago-del-estero",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Росквете Сантьяго»?",
+      "choices": [
+        "Сан-Хуан",
+        "Сан-Луис",
+        "Буэнос-Айрес (автономный город)",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "495eecf8db58",
+      "provinceSlug": "santiago-del-estero",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Термы Рио-Ондо»?",
+      "choices": [
+        "Сантьяго-дель-Эстеро",
+        "Буэнос-Айрес",
+        "Чако",
+        "Энтре-Риос"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "34d68132fca5",
+      "provinceSlug": "santiago-del-estero",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Плотина Рио-Ондо»?",
+      "choices": [
+        "Сантьяго-дель-Эстеро",
+        "Формоса",
+        "Буэнос-Айрес (автономный город)",
+        "Сан-Хуан"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "f292192611c2",
+      "provinceSlug": "santiago-del-estero",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Национальный парк Копо»?",
+      "choices": [
+        "Сантьяго-дель-Эстеро",
+        "Санта-Фе",
+        "Жужуй",
+        "Огненная Земля"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "a20341ffe2a6",
+      "provinceSlug": "santiago-del-estero",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Мать городов»?",
+      "choices": [
+        "Рио-Негро",
+        "Сантьяго-дель-Эстеро",
+        "Тукуман",
+        "Ла-Пампа"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ff1937dee541",
+      "provinceSlug": "santiago-del-estero",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Сантьягское кечуа»?",
+      "choices": [
+        "Мисьонес",
+        "Сантьяго-дель-Эстеро",
+        "Огненная Земля",
+        "Мендоса"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "edeb59c24017",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Магелланов пингвин»?",
+      "choices": [
+        "Тукуман",
+        "Буэнос-Айрес (автономный город)",
+        "Огненная Земля",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Магелланов пингвин» — часть фауны: Огненная Земля."
+    },
+    {
+      "id": "b2e4fdb6978d",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Магелланов гусь»?",
+      "choices": [
+        "Формоса",
+        "Огненная Земля",
+        "Мендоса",
+        "Корриентес"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Магелланов гусь» — часть фауны: Огненная Земля."
+    },
+    {
+      "id": "70f4928c9fbd",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Огнеземельная ленга»?",
+      "choices": [
+        "Огненная Земля",
+        "Энтре-Риос",
+        "Неукен",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Огнеземельная ленга» — типичное растение: Огненная Земля."
+    },
+    {
+      "id": "3a87597eab08",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Гуиндо, или магелланов койуэ»?",
+      "choices": [
+        "Рио-Негро",
+        "Огненная Земля",
+        "Сан-Луис",
+        "Сан-Хуан"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Гуиндо, или магелланов койуэ» — типичное растение: Огненная Земля."
+    },
+    {
+      "id": "44476cee7898",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Огнеземельное канело»?",
+      "choices": [
+        "Санта-Крус",
+        "Катамарка",
+        "Огненная Земля",
+        "Неукен"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Огнеземельное канело» — типичное растение: Огненная Земля."
+    },
+    {
+      "id": "9dd98e598a26",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Патагонский клыкач»?",
+      "choices": [
+        "Формоса",
+        "Фолклендские (Мальвинские) острова",
+        "Огненная Земля",
+        "Сан-Хуан"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "e64f1b8c7dc4",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Огнеземельная баранина»?",
+      "choices": [
+        "Огненная Земля",
+        "Сантьяго-дель-Эстеро",
+        "Чубут",
+        "Санта-Фе"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "81cfd08921a6",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Национальный парк Огненная Земля»?",
+      "choices": [
+        "Жужуй",
+        "Формоса",
+        "Чубут",
+        "Огненная Земля"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "2cdd84ad7e7f",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Бигл-канал и маяк Ле-Эклерёр»?",
+      "choices": [
+        "Огненная Земля",
+        "Буэнос-Айрес",
+        "Буэнос-Айрес (автономный город)",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "60031ef342cf",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Поезд на краю света (Ушуайя)»?",
+      "choices": [
+        "Ла-Риоха",
+        "Неукен",
+        "Огненная Земля",
+        "Ла-Пампа"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "5a264aa8743d",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Обитаемый край света»?",
+      "choices": [
+        "Мендоса",
+        "Огненная Земля",
+        "Фолклендские (Мальвинские) острова",
+        "Санта-Фе"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "af7b8b14ca6b",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «История сельк-нам и ямана»?",
+      "choices": [
+        "Фолклендские (Мальвинские) острова",
+        "Формоса",
+        "Огненная Земля",
+        "Санта-Фе"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "5316e1fdc1bd",
+      "provinceSlug": "tucuman",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Большой тукан»?",
+      "choices": [
+        "Огненная Земля",
+        "Неукен",
+        "Тукуман",
+        "Буэнос-Айрес"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Большой тукан» — часть фауны: Тукуман."
+    },
+    {
+      "id": "64d5afc041e0",
+      "provinceSlug": "tucuman",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Равнинный тапир»?",
+      "choices": [
+        "Тукуман",
+        "Сан-Луис",
+        "Сальта",
+        "Корриентес"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Равнинный тапир» — часть фауны: Тукуман."
+    },
+    {
+      "id": "b0f41e88937f",
+      "provinceSlug": "tucuman",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Горная ольха»?",
+      "choices": [
+        "Тукуман",
+        "Корриентес",
+        "Санта-Крус",
+        "Неукен"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Горная ольха» — типичное растение: Тукуман."
+    },
+    {
+      "id": "eeff01a18c14",
+      "provinceSlug": "tucuman",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Жёлтый лапачо»?",
+      "choices": [
+        "Огненная Земля",
+        "Ла-Риоха",
+        "Тукуман",
+        "Мисьонес"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Жёлтый лапачо» — типичное растение: Тукуман."
+    },
+    {
+      "id": "76cca208a983",
+      "provinceSlug": "tucuman",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Орко молле»?",
+      "choices": [
+        "Санта-Крус",
+        "Санта-Фе",
+        "Тукуман",
+        "Чако"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Орко молле» — типичное растение: Тукуман."
+    },
+    {
+      "id": "adf16c60cedc",
+      "provinceSlug": "tucuman",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Сэндвич-милянеса»?",
+      "choices": [
+        "Чако",
+        "Сан-Луис",
+        "Санта-Фе",
+        "Тукуман"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "506a94e043ba",
+      "provinceSlug": "tucuman",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Эмпанады Тукумана»?",
+      "choices": [
+        "Кордова",
+        "Тукуман",
+        "Жужуй",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "a6a6f8efc88c",
+      "provinceSlug": "tucuman",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Умита Тукумана»?",
+      "choices": [
+        "Ла-Пампа",
+        "Катамарка",
+        "Буэнос-Айрес",
+        "Тукуман"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "c5f2226d8e3b",
+      "provinceSlug": "tucuman",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Каса-Историка-де-ла-Индепенденсия (Сан-Мигель-де-Тукуман)»?",
+      "choices": [
+        "Корриентес",
+        "Фолклендские (Мальвинские) острова",
+        "Тукуман",
+        "Мендоса"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "cbd16a9b91ce",
+      "provinceSlug": "tucuman",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Тафи-дель-Валье и плотина Ла-Ангостура»?",
+      "choices": [
+        "Тукуман",
+        "Чако",
+        "Мисьонес",
+        "Неукен"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "7cc3abb9628c",
+      "provinceSlug": "tucuman",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Руины Кильмес»?",
+      "choices": [
+        "Буэнос-Айрес (автономный город)",
+        "Энтре-Риос",
+        "Ла-Риоха",
+        "Тукуман"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "84f79102c415",
+      "provinceSlug": "tucuman",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Дом Независимости»?",
+      "choices": [
+        "Чубут",
+        "Тукуман",
+        "Корриентес",
+        "Мендоса"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "56a7111c4659",
+      "provinceSlug": "tucuman",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Сахарная промышленность»?",
+      "choices": [
+        "Тукуман",
+        "Сантьяго-дель-Эстеро",
+        "Ла-Риоха",
+        "Рио-Негро"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "70ef324568cf",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Рыжий печник»?",
+      "choices": [
+        "Сан-Луис",
+        "Рио-Негро",
+        "Корриентес",
+        "Буэнос-Айрес (автономный город)"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Рыжий печник» — часть фауны: Буэнос-Айрес (автономный город)."
+    },
+    {
+      "id": "bc3c018c4d49",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Большой китискад»?",
+      "choices": [
+        "Чако",
+        "Буэнос-Айрес (автономный город)",
+        "Корриентес",
+        "Санта-Фе"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Большой китискад» — часть фауны: Буэнос-Айрес (автономный город)."
+    },
+    {
+      "id": "0231ca5774ae",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Прибрежная тала»?",
+      "choices": [
+        "Энтре-Риос",
+        "Буэнос-Айрес (автономный город)",
+        "Чубут",
+        "Санта-Крус"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Прибрежная тала» — типичное растение: Буэнос-Айрес (автономный город)."
+    },
+    {
+      "id": "c247fe76efb7",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Эспинильо берега»?",
+      "choices": [
+        "Буэнос-Айрес (автономный город)",
+        "Сан-Луис",
+        "Буэнос-Айрес",
+        "Мендоса"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Эспинильо берега» — типичное растение: Буэнос-Айрес (автономный город)."
+    },
+    {
+      "id": "2cf0f8016b0d",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Прибрежная креольская ива»?",
+      "choices": [
+        "Буэнос-Айрес",
+        "Буэнос-Айрес (автономный город)",
+        "Кордова",
+        "Огненная Земля"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Прибрежная креольская ива» — типичное растение: Буэнос-Айрес (автономный город)."
+    },
+    {
+      "id": "e965a08c2a64",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Портеньская пицца»?",
+      "choices": [
+        "Огненная Земля",
+        "Сан-Хуан",
+        "Сальта",
+        "Буэнос-Айрес (автономный город)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "ad2e4dad90c0",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Фаршированная фугацетта»?",
+      "choices": [
+        "Буэнос-Айрес (автономный город)",
+        "Ла-Пампа",
+        "Корриентес",
+        "Буэнос-Айрес"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "9da2b52a3f6b",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Ремесленное мороженое»?",
+      "choices": [
+        "Санта-Фе",
+        "Буэнос-Айрес (автономный город)",
+        "Формоса",
+        "Мисьонес"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d14f2d870745",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Каминито и район Ла-Бока»?",
+      "choices": [
+        "Формоса",
+        "Буэнос-Айрес (автономный город)",
+        "Сантьяго-дель-Эстеро",
+        "Сальта"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "81998f5d84ce",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Пласа-де-Майо и Кафедральный собор»?",
+      "choices": [
+        "Санта-Фе",
+        "Жужуй",
+        "Фолклендские (Мальвинские) острова",
+        "Буэнос-Айрес (автономный город)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "e8daf9f785d7",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Театр Колон и Реколета»?",
+      "choices": [
+        "Корриентес",
+        "Энтре-Риос",
+        "Буэнос-Айрес (автономный город)",
+        "Сан-Хуан"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "ab67cedc1ff9",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Пласа-де-Майо и политическая жизнь»?",
+      "choices": [
+        "Ла-Риоха",
+        "Буэнос-Айрес (автономный город)",
+        "Буэнос-Айрес",
+        "Чубут"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "79e6f0724b1f",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Порт и массовая иммиграция»?",
+      "choices": [
+        "Тукуман",
+        "Неукен",
+        "Сан-Хуан",
+        "Буэнос-Айрес (автономный город)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "1227b7531440",
+      "provinceSlug": "islas-malvinas",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Хохлатый пингвин»?",
+      "choices": [
+        "Фолклендские (Мальвинские) острова",
+        "Чако",
+        "Рио-Негро",
+        "Санта-Крус"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Хохлатый пингвин» — часть фауны: Фолклендские (Мальвинские) острова."
+    },
+    {
+      "id": "94106ac98d56",
+      "provinceSlug": "islas-malvinas",
+      "category": "fauna",
+      "prompt": "В какой провинции обитает это животное: «Чернобровый альбатрос»?",
+      "choices": [
+        "Огненная Земля",
+        "Фолклендские (Мальвинские) острова",
+        "Рио-Негро",
+        "Кордова"
+      ],
+      "correctIndex": 1,
+      "explanation": "«Чернобровый альбатрос» — часть фауны: Фолклендские (Мальвинские) острова."
+    },
+    {
+      "id": "6627fb0a6675",
+      "provinceSlug": "islas-malvinas",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Трава туссок»?",
+      "choices": [
+        "Буэнос-Айрес",
+        "Энтре-Риос",
+        "Фолклендские (Мальвинские) острова",
+        "Сантьяго-дель-Эстеро"
+      ],
+      "correctIndex": 2,
+      "explanation": "«Трава туссок» — типичное растение: Фолклендские (Мальвинские) острова."
+    },
+    {
+      "id": "7cddd8299b0a",
+      "provinceSlug": "islas-malvinas",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Огнеземельная овсяница»?",
+      "choices": [
+        "Чако",
+        "Санта-Фе",
+        "Тукуман",
+        "Фолклендские (Мальвинские) острова"
+      ],
+      "correctIndex": 3,
+      "explanation": "«Огнеземельная овсяница» — типичное растение: Фолклендские (Мальвинские) острова."
+    },
+    {
+      "id": "eb9c7813776d",
+      "provinceSlug": "islas-malvinas",
+      "category": "flora",
+      "prompt": "В какой провинции растёт это растение: «Подушечные растения»?",
+      "choices": [
+        "Фолклендские (Мальвинские) острова",
+        "Жужуй",
+        "Огненная Земля",
+        "Тукуман"
+      ],
+      "correctIndex": 0,
+      "explanation": "«Подушечные растения» — типичное растение: Фолклендские (Мальвинские) острова."
+    },
+    {
+      "id": "cdd6182f3b46",
+      "provinceSlug": "islas-malvinas",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Фиш-энд-чипс»?",
+      "choices": [
+        "Сан-Хуан",
+        "Катамарка",
+        "Санта-Фе",
+        "Фолклендские (Мальвинские) острова"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "829b7c959ca1",
+      "provinceSlug": "islas-malvinas",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Местный хек и морепродукты»?",
+      "choices": [
+        "Энтре-Риос",
+        "Сальта",
+        "Тукуман",
+        "Фолклендские (Мальвинские) острова"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "e8067d5e7915",
+      "provinceSlug": "islas-malvinas",
+      "category": "food",
+      "prompt": "Для какой провинции типично блюдо «Островная баранина»?",
+      "choices": [
+        "Катамарка",
+        "Фолклендские (Мальвинские) острова",
+        "Сальта",
+        "Чако"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "a8219ca82e06",
+      "provinceSlug": "islas-malvinas",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Пуэрто-Архентино/Стэнли и его набережная»?",
+      "choices": [
+        "Формоса",
+        "Ла-Риоха",
+        "Тукуман",
+        "Фолклендские (Мальвинские) острова"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d5f0ac41cf98",
+      "provinceSlug": "islas-malvinas",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Кладбище Дарвин»?",
+      "choices": [
+        "Буэнос-Айрес",
+        "Мендоса",
+        "Сан-Хуан",
+        "Фолклендские (Мальвинские) острова"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "8edf2e826564",
+      "provinceSlug": "islas-malvinas",
+      "category": "tourism",
+      "prompt": "В какой провинции находится «Холм Волунтарио / гора Лонгдон (исторические места)»?",
+      "choices": [
+        "Чако",
+        "Мисьонес",
+        "Рио-Негро",
+        "Фолклендские (Мальвинские) острова"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "a5b6ddcbf91f",
+      "provinceSlug": "islas-malvinas",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Стратегическая Южная Атлантика»?",
+      "choices": [
+        "Фолклендские (Мальвинские) острова",
+        "Энтре-Риос",
+        "Корриентес",
+        "Чубут"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "b5eb04acb324",
+      "provinceSlug": "islas-malvinas",
+      "category": "history",
+      "prompt": "К какой провинции относится этот исторический факт: «Память 1982 года»?",
+      "choices": [
+        "Чако",
+        "Санта-Фе",
+        "Фолклендские (Мальвинские) острова",
+        "Чубут"
+      ],
+      "correctIndex": 2
+    }
+  ],
+  "ar": [
+    {
+      "id": "997f7128252b",
+      "provinceSlug": "buenos-aires",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الفرّان الأحمر»؟",
+      "choices": [
+        "بوينس آيرس",
+        "لا بامبا",
+        "سان لويس",
+        "سانتا في"
+      ],
+      "correctIndex": 0,
+      "explanation": "«الفرّان الأحمر» جزء من حيوانات بوينس آيرس."
+    },
+    {
+      "id": "670e20f06621",
+      "provinceSlug": "buenos-aires",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «أيل المستنقعات»؟",
+      "choices": [
+        "سالتا",
+        "سانتا في",
+        "كوردوبا",
+        "بوينس آيرس"
+      ],
+      "correctIndex": 3,
+      "explanation": "«أيل المستنقعات» جزء من حيوانات بوينس آيرس."
+    },
+    {
+      "id": "b9af50c7c5f7",
+      "provinceSlug": "buenos-aires",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «عشبة البامبا»؟",
+      "choices": [
+        "بوينس آيرس",
+        "سان خوان",
+        "خوخوي",
+        "نيوكين"
+      ],
+      "correctIndex": 0,
+      "explanation": "«عشبة البامبا» نبات مشهور في بوينس آيرس."
+    },
+    {
+      "id": "fd03c0062f88",
+      "provinceSlug": "buenos-aires",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «سومبرا دي تورو»؟",
+      "choices": [
+        "كورينتس",
+        "سانتياغو ديل إستيرو",
+        "بوينس آيرس",
+        "إنتري ريوس"
+      ],
+      "correctIndex": 2,
+      "explanation": "«سومبرا دي تورو» نبات مشهور في بوينس آيرس."
+    },
+    {
+      "id": "33da951d8673",
+      "provinceSlug": "buenos-aires",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «ساراندي الأحمر»؟",
+      "choices": [
+        "سانتياغو ديل إستيرو",
+        "توكومان",
+        "بوينس آيرس",
+        "بوينس آيرس (المدينة المستقلة)"
+      ],
+      "correctIndex": 2,
+      "explanation": "«ساراندي الأحمر» نبات مشهور في بوينس آيرس."
+    },
+    {
+      "id": "fd44b88d5c81",
+      "provinceSlug": "buenos-aires",
+      "category": "food",
+      "prompt": "طبق «أسادو بوينس آيرس» مشهور في أي مقاطعة؟",
+      "choices": [
+        "لا بامبا",
+        "بوينس آيرس",
+        "توكومان",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "7e3e8371c8ef",
+      "provinceSlug": "buenos-aires",
+      "category": "food",
+      "prompt": "طبق «ميلانيسا نابوليتانا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "كورينتس",
+        "توكومان",
+        "تشوبوت",
+        "بوينس آيرس"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "78c02ce8706b",
+      "provinceSlug": "buenos-aires",
+      "category": "food",
+      "prompt": "طبق «دولسي دي ليتشي» مشهور في أي مقاطعة؟",
+      "choices": [
+        "لا بامبا",
+        "سالتا",
+        "سانتا في",
+        "بوينس آيرس"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "702272bbc048",
+      "provinceSlug": "buenos-aires",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «مار دل بلاتا والساحل الأطلسي»؟",
+      "choices": [
+        "بوينس آيرس",
+        "سانتا كروز",
+        "لا بامبا",
+        "كوردوبا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "5cb32077b554",
+      "provinceSlug": "buenos-aires",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «سييرا دي لا فينتانا (منتزه إرنستو تورنكويست الإقليمي)»؟",
+      "choices": [
+        "ريو نيغرو",
+        "سان لويس",
+        "خوخوي",
+        "بوينس آيرس"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "6db8ef051c33",
+      "provinceSlug": "buenos-aires",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «دلتا بارانا في تيغري»؟",
+      "choices": [
+        "تشاكو",
+        "كورينتس",
+        "بوينس آيرس",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "19dbc12e92a1",
+      "provinceSlug": "buenos-aires",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «فويلتا دي أوبليغادو والسيادة»؟",
+      "choices": [
+        "تشوبوت",
+        "خوخوي",
+        "بوينس آيرس",
+        "سانتا في"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "f712df0ec1a0",
+      "provinceSlug": "buenos-aires",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «إقليم حدودي تاريخي»؟",
+      "choices": [
+        "بوينس آيرس (المدينة المستقلة)",
+        "توكومان",
+        "فورموسا",
+        "بوينس آيرس"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "fd061b1851c1",
+      "provinceSlug": "catamarca",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «المارا الباتاغونية»؟",
+      "choices": [
+        "أرض النار",
+        "كاتاماركا",
+        "كوردوبا",
+        "سان لويس"
+      ],
+      "correctIndex": 1,
+      "explanation": "«المارا الباتاغونية» جزء من حيوانات كاتاماركا."
+    },
+    {
+      "id": "f285223dede1",
+      "provinceSlug": "catamarca",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الفيكونا»؟",
+      "choices": [
+        "كاتاماركا",
+        "نيوكين",
+        "لا بامبا",
+        "خوخوي"
+      ],
+      "correctIndex": 0,
+      "explanation": "«الفيكونا» جزء من حيوانات كاتاماركا."
+    },
+    {
+      "id": "9eb7be952f6c",
+      "provinceSlug": "catamarca",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «الكاردون»؟",
+      "choices": [
+        "كاتاماركا",
+        "تشاكو",
+        "لا ريوخا",
+        "كوردوبا"
+      ],
+      "correctIndex": 0,
+      "explanation": "«الكاردون» نبات مشهور في كاتاماركا."
+    },
+    {
+      "id": "1ebbda478113",
+      "provinceSlug": "catamarca",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «التشانيار»؟",
+      "choices": [
+        "بوينس آيرس (المدينة المستقلة)",
+        "كاتاماركا",
+        "ريو نيغرو",
+        "إنتري ريوس"
+      ],
+      "correctIndex": 1,
+      "explanation": "«التشانيار» نبات مشهور في كاتاماركا."
+    },
+    {
+      "id": "7ddd69fdd9db",
+      "provinceSlug": "catamarca",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «بيشانا أو تولا»؟",
+      "choices": [
+        "تشاكو",
+        "كاتاماركا",
+        "تشوبوت",
+        "فورموسا"
+      ],
+      "correctIndex": 1,
+      "explanation": "«بيشانا أو تولا» نبات مشهور في كاتاماركا."
+    },
+    {
+      "id": "0d6237fb65b0",
+      "provinceSlug": "catamarca",
+      "category": "food",
+      "prompt": "طبق «إمبانادات كاتاماركا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "كاتاماركا",
+        "خوخوي",
+        "بوينس آيرس",
+        "سانتا في"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "8982f78be21c",
+      "provinceSlug": "catamarca",
+      "category": "food",
+      "prompt": "طبق «لوكرو الشمال الغربي» مشهور في أي مقاطعة؟",
+      "choices": [
+        "أرض النار",
+        "كاتاماركا",
+        "سان لويس",
+        "لا بامبا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "a3c8255f312f",
+      "provinceSlug": "catamarca",
+      "category": "food",
+      "prompt": "طبق «تاماليس» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سانتا كروز",
+        "لا ريوخا",
+        "كورينتس",
+        "كاتاماركا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d9375104062d",
+      "provinceSlug": "catamarca",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «حقل الحجر الخفاف (أنتوفاغاستا دي لا سييرا)»؟",
+      "choices": [
+        "سان لويس",
+        "كاتاماركا",
+        "سانتا في",
+        "توكومان"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "c234fa8b6d2c",
+      "provinceSlug": "catamarca",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «طريق السيسميليس وممر سان فرانسيسكو»؟",
+      "choices": [
+        "لا بامبا",
+        "كاتاماركا",
+        "نيوكين",
+        "كورينتس"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "28ff15344b19",
+      "provinceSlug": "catamarca",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «كويستا دل بورتيثويلو وإل رودِيو»؟",
+      "choices": [
+        "مندوزا",
+        "كاتاماركا",
+        "سانتا كروز",
+        "كورينتس"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "b491c34ffdb5",
+      "provinceSlug": "catamarca",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «فيامبالا والطريق الأنديزي»؟",
+      "choices": [
+        "مندوزا",
+        "نيوكين",
+        "كاتاماركا",
+        "كورينتس"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "6bedd5d43b9c",
+      "provinceSlug": "catamarca",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «الوادي والتعبّد لمريم»؟",
+      "choices": [
+        "لا ريوخا",
+        "سانتا في",
+        "بوينس آيرس (المدينة المستقلة)",
+        "كاتاماركا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "e49804858110",
+      "provinceSlug": "chaco",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «ذئب المان»؟",
+      "choices": [
+        "تشاكو",
+        "تشوبوت",
+        "لا ريوخا",
+        "كاتاماركا"
+      ],
+      "correctIndex": 0,
+      "explanation": "«ذئب المان» جزء من حيوانات تشاكو."
+    },
+    {
+      "id": "c2be0f094923",
+      "provinceSlug": "chaco",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «المدرّع العملاق»؟",
+      "choices": [
+        "لا بامبا",
+        "مندوزا",
+        "تشاكو",
+        "جزر فوكلاند (مالفيناس)"
+      ],
+      "correctIndex": 2,
+      "explanation": "«المدرّع العملاق» جزء من حيوانات تشاكو."
+    },
+    {
+      "id": "c2da77c940ce",
+      "provinceSlug": "chaco",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «الكيبراتشو الأحمر في تشاكو»؟",
+      "choices": [
+        "تشاكو",
+        "جزر فوكلاند (مالفيناس)",
+        "كوردوبا",
+        "تشوبوت"
+      ],
+      "correctIndex": 0,
+      "explanation": "«الكيبراتشو الأحمر في تشاكو» نبات مشهور في تشاكو."
+    },
+    {
+      "id": "979ebf96d93c",
+      "provinceSlug": "chaco",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «الكيبراتشو الأبيض»؟",
+      "choices": [
+        "بوينس آيرس",
+        "جزر فوكلاند (مالفيناس)",
+        "ريو نيغرو",
+        "تشاكو"
+      ],
+      "correctIndex": 3,
+      "explanation": "«الكيبراتشو الأبيض» نبات مشهور في تشاكو."
+    },
+    {
+      "id": "89d275fc8c45",
+      "provinceSlug": "chaco",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «نخلة كارانداي»؟",
+      "choices": [
+        "فورموسا",
+        "مندوزا",
+        "تشاكو",
+        "سان لويس"
+      ],
+      "correctIndex": 2,
+      "explanation": "«نخلة كارانداي» نبات مشهور في تشاكو."
+    },
+    {
+      "id": "e853caed8b12",
+      "provinceSlug": "chaco",
+      "category": "food",
+      "prompt": "طبق «تشيبا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "كاتاماركا",
+        "خوخوي",
+        "تشاكو",
+        "نيوكين"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "7bc517d330a6",
+      "provinceSlug": "chaco",
+      "category": "food",
+      "prompt": "طبق «باكو مشوي» مشهور في أي مقاطعة؟",
+      "choices": [
+        "تشاكو",
+        "إنتري ريوس",
+        "فورموسا",
+        "سانتا في"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ba2b693abe04",
+      "provinceSlug": "chaco",
+      "category": "food",
+      "prompt": "طبق «كسافا مسلوقة» مشهور في أي مقاطعة؟",
+      "choices": [
+        "تشاكو",
+        "سانتا كروز",
+        "سانتا في",
+        "توكومان"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "5f847eae0169",
+      "provinceSlug": "chaco",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه إل إمبينيترابل الوطني»؟",
+      "choices": [
+        "كوردوبا",
+        "نيوكين",
+        "سانتا في",
+        "تشاكو"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "5dfffc36f4f3",
+      "provinceSlug": "chaco",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «ريسيستنسيا، مدينة المنحوتات»؟",
+      "choices": [
+        "سانتياغو ديل إستيرو",
+        "ميسيونس",
+        "تشاكو",
+        "سالتا"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "0cd02cc39517",
+      "provinceSlug": "chaco",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه تشاكو الوطني»؟",
+      "choices": [
+        "سان خوان",
+        "ميسيونس",
+        "بوينس آيرس (المدينة المستقلة)",
+        "تشاكو"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "cf1dfeeed051",
+      "provinceSlug": "chaco",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «ريسيستنسيا، متحف في الهواء الطلق»؟",
+      "choices": [
+        "لا بامبا",
+        "تشوبوت",
+        "نيوكين",
+        "تشاكو"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "9035d20611cc",
+      "provinceSlug": "chaco",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «أحراش تشاكو، مفتاح تاريخي»؟",
+      "choices": [
+        "لا بامبا",
+        "سانتياغو ديل إستيرو",
+        "تشاكو",
+        "كاتاماركا"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "fa60075ab27e",
+      "provinceSlug": "chubut",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الهيمول»؟",
+      "choices": [
+        "تشوبوت",
+        "لا بامبا",
+        "إنتري ريوس",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 0,
+      "explanation": "«الهيمول» جزء من حيوانات تشوبوت."
+    },
+    {
+      "id": "9831ef0282de",
+      "provinceSlug": "chubut",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الحوت الأملس الجنوبي»؟",
+      "choices": [
+        "كورينتس",
+        "تشوبوت",
+        "بوينس آيرس",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 1,
+      "explanation": "«الحوت الأملس الجنوبي» جزء من حيوانات تشوبوت."
+    },
+    {
+      "id": "eb0e3af3bed1",
+      "provinceSlug": "chubut",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «كويرون باتاغونيا»؟",
+      "choices": [
+        "لا بامبا",
+        "توكومان",
+        "تشوبوت",
+        "تشاكو"
+      ],
+      "correctIndex": 2,
+      "explanation": "«كويرون باتاغونيا» نبات مشهور في تشوبوت."
+    },
+    {
+      "id": "36f0d9e5443e",
+      "provinceSlug": "chubut",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «كالافاتي»؟",
+      "choices": [
+        "سان خوان",
+        "تشوبوت",
+        "خوخوي",
+        "لا بامبا"
+      ],
+      "correctIndex": 1,
+      "explanation": "«كالافاتي» نبات مشهور في تشوبوت."
+    },
+    {
+      "id": "ec60cae349aa",
+      "provinceSlug": "chubut",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «مايتين»؟",
+      "choices": [
+        "تشوبوت",
+        "أرض النار",
+        "سانتا في",
+        "بوينس آيرس"
+      ],
+      "correctIndex": 0,
+      "explanation": "«مايتين» نبات مشهور في تشوبوت."
+    },
+    {
+      "id": "07436cb4f988",
+      "provinceSlug": "chubut",
+      "category": "food",
+      "prompt": "طبق «لحم ضأن باتاغونيا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سالتا",
+        "سانتياغو ديل إستيرو",
+        "فورموسا",
+        "تشوبوت"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "598ad1167e64",
+      "provinceSlug": "chubut",
+      "category": "food",
+      "prompt": "طبق «كعكة ويلزية» مشهور في أي مقاطعة؟",
+      "choices": [
+        "كورينتس",
+        "سالتا",
+        "تشوبوت",
+        "لا ريوخا"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "9c8b6b7f36e5",
+      "provinceSlug": "chubut",
+      "category": "food",
+      "prompt": "طبق «سمك السلمون المرقط النهري» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سان خوان",
+        "نيوكين",
+        "تشوبوت",
+        "كوردوبا"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "3b44b74accb8",
+      "provinceSlug": "chubut",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «شبه جزيرة فالديس»؟",
+      "choices": [
+        "سان خوان",
+        "نيوكين",
+        "سان لويس",
+        "تشوبوت"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "f27e0cc05068",
+      "provinceSlug": "chubut",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه لوس ألرسيس الوطني»؟",
+      "choices": [
+        "تشوبوت",
+        "سان خوان",
+        "جزر فوكلاند (مالفيناس)",
+        "خوخوي"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "e32a7dcf052f",
+      "provinceSlug": "chubut",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «بونتا تومبو (محمية البطاريق)»؟",
+      "choices": [
+        "سانتياغو ديل إستيرو",
+        "تشوبوت",
+        "بوينس آيرس",
+        "سان خوان"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "0729f455eb40",
+      "provinceSlug": "chubut",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «الاستعمار الويلزي في الوادي»؟",
+      "choices": [
+        "بوينس آيرس (المدينة المستقلة)",
+        "تشوبوت",
+        "سانتا في",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "5b25d8da4763",
+      "provinceSlug": "chubut",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «باتاغونيا العالمين»؟",
+      "choices": [
+        "سانتا في",
+        "تشوبوت",
+        "سانتياغو ديل إستيرو",
+        "كورينتس"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "5624fb35bcaf",
+      "provinceSlug": "cordoba",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «كندور الأنديز»؟",
+      "choices": [
+        "كاتاماركا",
+        "كوردوبا",
+        "سالتا",
+        "ميسيونس"
+      ],
+      "correctIndex": 1,
+      "explanation": "«كندور الأنديز» جزء من حيوانات كوردوبا."
+    },
+    {
+      "id": "a5d86e05ca61",
+      "provinceSlug": "cordoba",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «البوما»؟",
+      "choices": [
+        "جزر فوكلاند (مالفيناس)",
+        "توكومان",
+        "كوردوبا",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 2,
+      "explanation": "«البوما» جزء من حيوانات كوردوبا."
+    },
+    {
+      "id": "326314d57104",
+      "provinceSlug": "cordoba",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «مولّي دي بيبير»؟",
+      "choices": [
+        "جزر فوكلاند (مالفيناس)",
+        "كوردوبا",
+        "لا بامبا",
+        "أرض النار"
+      ],
+      "correctIndex": 1,
+      "explanation": "«مولّي دي بيبير» نبات مشهور في كوردوبا."
+    },
+    {
+      "id": "1857155b2c55",
+      "provinceSlug": "cordoba",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «إسبينيّو»؟",
+      "choices": [
+        "ميسيونس",
+        "سانتا في",
+        "كوردوبا",
+        "جزر فوكلاند (مالفيناس)"
+      ],
+      "correctIndex": 2,
+      "explanation": "«إسبينيّو» نبات مشهور في كوردوبا."
+    },
+    {
+      "id": "b244ec8c40af",
+      "provinceSlug": "cordoba",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «بيبيرينا الجبلية»؟",
+      "choices": [
+        "سان خوان",
+        "تشاكو",
+        "لا بامبا",
+        "كوردوبا"
+      ],
+      "correctIndex": 3,
+      "explanation": "«بيبيرينا الجبلية» نبات مشهور في كوردوبا."
+    },
+    {
+      "id": "ba2527d0e2b0",
+      "provinceSlug": "cordoba",
+      "category": "food",
+      "prompt": "طبق «جدي التلال» مشهور في أي مقاطعة؟",
+      "choices": [
+        "لا بامبا",
+        "كوردوبا",
+        "إنتري ريوس",
+        "جزر فوكلاند (مالفيناس)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "82bda6dde8a1",
+      "provinceSlug": "cordoba",
+      "category": "food",
+      "prompt": "طبق «تشوريبان كوردوبا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سانتا في",
+        "مندوزا",
+        "ريو نيغرو",
+        "كوردوبا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "ffc692fb5311",
+      "provinceSlug": "cordoba",
+      "category": "food",
+      "prompt": "طبق «ألفاخور كوردوبا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "تشوبوت",
+        "نيوكين",
+        "كوردوبا",
+        "جزر فوكلاند (مالفيناس)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "5c7ad69b41c7",
+      "provinceSlug": "cordoba",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «وادي كالاموتشيتا (فيا خنرال بلغرانو ولا كومبريثيتا)»؟",
+      "choices": [
+        "سانتياغو ديل إستيرو",
+        "ميسيونس",
+        "كوردوبا",
+        "تشوبوت"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "95e4662703ea",
+      "provinceSlug": "cordoba",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «طريق القمم العالية»؟",
+      "choices": [
+        "لا بامبا",
+        "بوينس آيرس",
+        "مندوزا",
+        "كوردوبا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "4f33c3b918f0",
+      "provinceSlug": "cordoba",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه كيبرادا دل كوندوريتو الوطني»؟",
+      "choices": [
+        "نيوكين",
+        "سانتياغو ديل إستيرو",
+        "كوردوبا",
+        "ميسيونس"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "73f421539318",
+      "provinceSlug": "cordoba",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «جامعة تاريخية»؟",
+      "choices": [
+        "سالتا",
+        "كوردوبا",
+        "بوينس آيرس",
+        "تشوبوت"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "1f8b1fa7000f",
+      "provinceSlug": "cordoba",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «إصلاح الجامعة عام 1918»؟",
+      "choices": [
+        "كاتاماركا",
+        "تشاكو",
+        "سانتا في",
+        "كوردوبا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "f2622fa4120b",
+      "provinceSlug": "corrientes",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الكابيبارا»؟",
+      "choices": [
+        "توكومان",
+        "كورينتس",
+        "لا بامبا",
+        "بوينس آيرس (المدينة المستقلة)"
+      ],
+      "correctIndex": 1,
+      "explanation": "«الكابيبارا» جزء من حيوانات كورينتس."
+    },
+    {
+      "id": "e3bbeb7351a8",
+      "provinceSlug": "corrientes",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الكايمان عريض الخطم»؟",
+      "choices": [
+        "توكومان",
+        "كوردوبا",
+        "مندوزا",
+        "كورينتس"
+      ],
+      "correctIndex": 3,
+      "explanation": "«الكايمان عريض الخطم» جزء من حيوانات كورينتس."
+    },
+    {
+      "id": "5bdc3258877e",
+      "provinceSlug": "corrientes",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «إيروبي»؟",
+      "choices": [
+        "سان لويس",
+        "كوردوبا",
+        "كورينتس",
+        "سان خوان"
+      ],
+      "correctIndex": 2,
+      "explanation": "«إيروبي» نبات مشهور في كورينتس."
+    },
+    {
+      "id": "2106ad38430a",
+      "provinceSlug": "corrientes",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «كامالوتي»؟",
+      "choices": [
+        "لا بامبا",
+        "كورينتس",
+        "بوينس آيرس (المدينة المستقلة)",
+        "جزر فوكلاند (مالفيناس)"
+      ],
+      "correctIndex": 1,
+      "explanation": "«كامالوتي» نبات مشهور في كورينتس."
+    },
+    {
+      "id": "89421ec556ed",
+      "provinceSlug": "corrientes",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «لاباتشو الأسود»؟",
+      "choices": [
+        "كوردوبا",
+        "إنتري ريوس",
+        "كورينتس",
+        "تشوبوت"
+      ],
+      "correctIndex": 2,
+      "explanation": "«لاباتشو الأسود» نبات مشهور في كورينتس."
+    },
+    {
+      "id": "93571fda7aa4",
+      "provinceSlug": "corrientes",
+      "category": "food",
+      "prompt": "طبق «مبايبي» مشهور في أي مقاطعة؟",
+      "choices": [
+        "جزر فوكلاند (مالفيناس)",
+        "توكومان",
+        "إنتري ريوس",
+        "كورينتس"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "802a04be25d8",
+      "provinceSlug": "corrientes",
+      "category": "food",
+      "prompt": "طبق «حساء كورينتس» مشهور في أي مقاطعة؟",
+      "choices": [
+        "ريو نيغرو",
+        "سانتا كروز",
+        "تشاكو",
+        "كورينتس"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "2ec4a5f01399",
+      "provinceSlug": "corrientes",
+      "category": "food",
+      "prompt": "طبق «دورادو مشوي» مشهور في أي مقاطعة؟",
+      "choices": [
+        "بوينس آيرس (المدينة المستقلة)",
+        "سانتا كروز",
+        "نيوكين",
+        "كورينتس"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "0310f185549a",
+      "provinceSlug": "corrientes",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «مستنقعات إيبيرا»؟",
+      "choices": [
+        "كاتاماركا",
+        "كورينتس",
+        "توكومان",
+        "أرض النار"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "f2e90c0f5b50",
+      "provinceSlug": "corrientes",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «الواجهة النهرية والمركز التاريخي لمدينة كورينتس»؟",
+      "choices": [
+        "كورينتس",
+        "سان خوان",
+        "سانتياغو ديل إستيرو",
+        "كاتاماركا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "33181d9dd268",
+      "provinceSlug": "corrientes",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه مبوروكويّا الوطني»؟",
+      "choices": [
+        "جزر فوكلاند (مالفيناس)",
+        "لا بامبا",
+        "كورينتس",
+        "سانتا كروز"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "39d97c930301",
+      "provinceSlug": "corrientes",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «إرث غواراني حيّ»؟",
+      "choices": [
+        "ريو نيغرو",
+        "كورينتس",
+        "سان خوان",
+        "سانتا كروز"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "84c9acc0cb36",
+      "provinceSlug": "corrientes",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «إيبيرا واستعادة الحياة البرية»؟",
+      "choices": [
+        "فورموسا",
+        "كورينتس",
+        "كاتاماركا",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "214a9e1316c3",
+      "provinceSlug": "entre-rios",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الكابيبارا»؟",
+      "choices": [
+        "سانتياغو ديل إستيرو",
+        "سان لويس",
+        "لا ريوخا",
+        "إنتري ريوس"
+      ],
+      "correctIndex": 3,
+      "explanation": "«الكابيبارا» جزء من حيوانات إنتري ريوس."
+    },
+    {
+      "id": "fd1bd70659ec",
+      "provinceSlug": "entre-rios",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «ثعلب الماء الاستوائي الجديد»؟",
+      "choices": [
+        "سانتا كروز",
+        "كوردوبا",
+        "مندوزا",
+        "إنتري ريوس"
+      ],
+      "correctIndex": 3,
+      "explanation": "«ثعلب الماء الاستوائي الجديد» جزء من حيوانات إنتري ريوس."
+    },
+    {
+      "id": "1cc9d32a38c1",
+      "provinceSlug": "entre-rios",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «صفصاف كريولي»؟",
+      "choices": [
+        "أرض النار",
+        "إنتري ريوس",
+        "جزر فوكلاند (مالفيناس)",
+        "سان لويس"
+      ],
+      "correctIndex": 1,
+      "explanation": "«صفصاف كريولي» نبات مشهور في إنتري ريوس."
+    },
+    {
+      "id": "dc6f93535413",
+      "provinceSlug": "entre-rios",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «تيمبو»؟",
+      "choices": [
+        "لا ريوخا",
+        "سان خوان",
+        "تشاكو",
+        "إنتري ريوس"
+      ],
+      "correctIndex": 3,
+      "explanation": "«تيمبو» نبات مشهور في إنتري ريوس."
+    },
+    {
+      "id": "c598126da37f",
+      "provinceSlug": "entre-rios",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «إسبينيّو النهري»؟",
+      "choices": [
+        "إنتري ريوس",
+        "بوينس آيرس (المدينة المستقلة)",
+        "فورموسا",
+        "سان لويس"
+      ],
+      "correctIndex": 0,
+      "explanation": "«إسبينيّو النهري» نبات مشهور في إنتري ريوس."
+    },
+    {
+      "id": "2e5a3972dab2",
+      "provinceSlug": "entre-rios",
+      "category": "food",
+      "prompt": "طبق «سمك بارانا وأوروغواي» مشهور في أي مقاطعة؟",
+      "choices": [
+        "تشاكو",
+        "جزر فوكلاند (مالفيناس)",
+        "إنتري ريوس",
+        "تشوبوت"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "762ace3d2b4b",
+      "provinceSlug": "entre-rios",
+      "category": "food",
+      "prompt": "طبق «إمبانادات السمك» مشهور في أي مقاطعة؟",
+      "choices": [
+        "إنتري ريوس",
+        "سانتا في",
+        "فورموسا",
+        "كاتاماركا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ebfeb0bc0fef",
+      "provinceSlug": "entre-rios",
+      "category": "food",
+      "prompt": "طبق «أسادو بالجلد» مشهور في أي مقاطعة؟",
+      "choices": [
+        "إنتري ريوس",
+        "تشوبوت",
+        "سانتياغو ديل إستيرو",
+        "خوخوي"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "045ab613e663",
+      "provinceSlug": "entre-rios",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه إل بالمار الوطني»؟",
+      "choices": [
+        "لا بامبا",
+        "توكومان",
+        "إنتري ريوس",
+        "تشاكو"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "781ad78a4824",
+      "provinceSlug": "entre-rios",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «ينابيع فيديراسيون الحارة»؟",
+      "choices": [
+        "إنتري ريوس",
+        "سالتا",
+        "لا ريوخا",
+        "فورموسا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "24d2fd795b46",
+      "provinceSlug": "entre-rios",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «قصر سان خوسيه (كونسيبسيون ديل أوروغواي)»؟",
+      "choices": [
+        "إنتري ريوس",
+        "سانتا كروز",
+        "بوينس آيرس",
+        "كاتاماركا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "a9289f071d24",
+      "provinceSlug": "entre-rios",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «عاصمة الاتحاد»؟",
+      "choices": [
+        "بوينس آيرس",
+        "توكومان",
+        "إنتري ريوس",
+        "نيوكين"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "8692590f05f6",
+      "provinceSlug": "entre-rios",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «قصر سان خوسيه وأوركيسا»؟",
+      "choices": [
+        "مندوزا",
+        "كاتاماركا",
+        "إنتري ريوس",
+        "لا ريوخا"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d48ae602c05e",
+      "provinceSlug": "formosa",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «التيغو الأرجنتيني الأبيض والأسود»؟",
+      "choices": [
+        "فورموسا",
+        "ريو نيغرو",
+        "سان خوان",
+        "خوخوي"
+      ],
+      "correctIndex": 0,
+      "explanation": "«التيغو الأرجنتيني الأبيض والأسود» جزء من حيوانات فورموسا."
+    },
+    {
+      "id": "ef5fe19516d7",
+      "provinceSlug": "formosa",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «آكل النمل العملاق»؟",
+      "choices": [
+        "سان خوان",
+        "فورموسا",
+        "سان لويس",
+        "ميسيونس"
+      ],
+      "correctIndex": 1,
+      "explanation": "«آكل النمل العملاق» جزء من حيوانات فورموسا."
+    },
+    {
+      "id": "128fac3e83fd",
+      "provinceSlug": "formosa",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «بالو سانتو»؟",
+      "choices": [
+        "ميسيونس",
+        "نيوكين",
+        "فورموسا",
+        "لا ريوخا"
+      ],
+      "correctIndex": 2,
+      "explanation": "«بالو سانتو» نبات مشهور في فورموسا."
+    },
+    {
+      "id": "1ed1b67d9765",
+      "provinceSlug": "formosa",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «كارانداي»؟",
+      "choices": [
+        "تشاكو",
+        "لا بامبا",
+        "فورموسا",
+        "توكومان"
+      ],
+      "correctIndex": 2,
+      "explanation": "«كارانداي» نبات مشهور في فورموسا."
+    },
+    {
+      "id": "a949d0f0602c",
+      "provinceSlug": "formosa",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «غواياكان»؟",
+      "choices": [
+        "سانتا كروز",
+        "سان لويس",
+        "فورموسا",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 2,
+      "explanation": "«غواياكان» نبات مشهور في فورموسا."
+    },
+    {
+      "id": "b484f1f44217",
+      "provinceSlug": "formosa",
+      "category": "food",
+      "prompt": "طبق «سوبا باراغوايا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سان خوان",
+        "فورموسا",
+        "لا بامبا",
+        "سالتا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "a452d92751cd",
+      "provinceSlug": "formosa",
+      "category": "food",
+      "prompt": "طبق «باكو مخبوز» مشهور في أي مقاطعة؟",
+      "choices": [
+        "ريو نيغرو",
+        "سان لويس",
+        "توكومان",
+        "فورموسا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "2f7207ae33ee",
+      "provinceSlug": "formosa",
+      "category": "food",
+      "prompt": "طبق «تشيبا كويريتو» مشهور في أي مقاطعة؟",
+      "choices": [
+        "كاتاماركا",
+        "سان لويس",
+        "سانتا في",
+        "فورموسا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "f74a7bafa4bf",
+      "provinceSlug": "formosa",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «بانيادو لا إستريّا»؟",
+      "choices": [
+        "سان لويس",
+        "فورموسا",
+        "مندوزا",
+        "توكومان"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "e9e21dcf2ff3",
+      "provinceSlug": "formosa",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه ريو بيلكومايو الوطني»؟",
+      "choices": [
+        "لا ريوخا",
+        "سالتا",
+        "فورموسا",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "5f5051027c68",
+      "provinceSlug": "formosa",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «محمية لاغونا أوكا للمحيط الحيوي (مدينة فورموسا)»؟",
+      "choices": [
+        "سانتا في",
+        "توكومان",
+        "ميسيونس",
+        "فورموسا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "e758a346e4a1",
+      "provinceSlug": "formosa",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «الأنهار والشعوب الأصلية»؟",
+      "choices": [
+        "فورموسا",
+        "سالتا",
+        "مندوزا",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "460e4a56fddb",
+      "provinceSlug": "formosa",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «بانيادو لا إستريّا»؟",
+      "choices": [
+        "لا بامبا",
+        "مندوزا",
+        "فورموسا",
+        "نيوكين"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d8c0f3e318f8",
+      "provinceSlug": "jujuy",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «اللاما»؟",
+      "choices": [
+        "تشوبوت",
+        "مندوزا",
+        "فورموسا",
+        "خوخوي"
+      ],
+      "correctIndex": 3,
+      "explanation": "«اللاما» جزء من حيوانات خوخوي."
+    },
+    {
+      "id": "7d52cd20e9c9",
+      "provinceSlug": "jujuy",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الفيكونا»؟",
+      "choices": [
+        "سانتياغو ديل إستيرو",
+        "ريو نيغرو",
+        "خوخوي",
+        "كاتاماركا"
+      ],
+      "correctIndex": 2,
+      "explanation": "«الفيكونا» جزء من حيوانات خوخوي."
+    },
+    {
+      "id": "b59bbed1fc93",
+      "provinceSlug": "jujuy",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «كينوا (كينيوا)»؟",
+      "choices": [
+        "جزر فوكلاند (مالفيناس)",
+        "خوخوي",
+        "بوينس آيرس",
+        "سانتا في"
+      ],
+      "correctIndex": 1,
+      "explanation": "«كينوا (كينيوا)» نبات مشهور في خوخوي."
+    },
+    {
+      "id": "6a12238ea0a2",
+      "provinceSlug": "jujuy",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «تولا البونا»؟",
+      "choices": [
+        "بوينس آيرس",
+        "نيوكين",
+        "خوخوي",
+        "تشوبوت"
+      ],
+      "correctIndex": 2,
+      "explanation": "«تولا البونا» نبات مشهور في خوخوي."
+    },
+    {
+      "id": "635b26a5315d",
+      "provinceSlug": "jujuy",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «سيبيل»؟",
+      "choices": [
+        "خوخوي",
+        "سانتا في",
+        "ميسيونس",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 0,
+      "explanation": "«سيبيل» نبات مشهور في خوخوي."
+    },
+    {
+      "id": "779cec89246a",
+      "provinceSlug": "jujuy",
+      "category": "food",
+      "prompt": "طبق «أوميتا بالأوراق» مشهور في أي مقاطعة؟",
+      "choices": [
+        "فورموسا",
+        "تشاكو",
+        "سانتا في",
+        "خوخوي"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "dc17461302a6",
+      "provinceSlug": "jujuy",
+      "category": "food",
+      "prompt": "طبق «تاماليس خوخوي» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سان خوان",
+        "سان لويس",
+        "لا ريوخا",
+        "خوخوي"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "16e5796e1532",
+      "provinceSlug": "jujuy",
+      "category": "food",
+      "prompt": "طبق «كالابورقا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "لا بامبا",
+        "نيوكين",
+        "كوردوبا",
+        "خوخوي"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "4521fc846679",
+      "provinceSlug": "jujuy",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «بورمامارقة وتل الألوان السبعة»؟",
+      "choices": [
+        "فورموسا",
+        "جزر فوكلاند (مالفيناس)",
+        "خوخوي",
+        "سان لويس"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "37de7a6aa7f9",
+      "provinceSlug": "jujuy",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «كيبرادا دي أوماواكا (تيلكارا وأوماواكا)»؟",
+      "choices": [
+        "كورينتس",
+        "إنتري ريوس",
+        "خوخوي",
+        "بوينس آيرس (المدينة المستقلة)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "10009b61fee3",
+      "provinceSlug": "jujuy",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «ساليناس غراندس وكويستا دي ليبان»؟",
+      "choices": [
+        "كاتاماركا",
+        "خوخوي",
+        "سان خوان",
+        "ميسيونس"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "90962fdbc3b8",
+      "provinceSlug": "jujuy",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «كيبرادا دي أوماواكا القديمة»؟",
+      "choices": [
+        "سانتياغو ديل إستيرو",
+        "خوخوي",
+        "إنتري ريوس",
+        "بوينس آيرس (المدينة المستقلة)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "147c73b7da52",
+      "provinceSlug": "jujuy",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «بلغرانو والعلم في خوخوي»؟",
+      "choices": [
+        "خوخوي",
+        "لا بامبا",
+        "نيوكين",
+        "كاتاماركا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "0d28d1cf0f96",
+      "provinceSlug": "la-pampa",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «البوما»؟",
+      "choices": [
+        "سان خوان",
+        "لا بامبا",
+        "بوينس آيرس",
+        "أرض النار"
+      ],
+      "correctIndex": 1,
+      "explanation": "«البوما» جزء من حيوانات لا بامبا."
+    },
+    {
+      "id": "84bdfd7ba381",
+      "provinceSlug": "la-pampa",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الرياء الكبير (النَّندو)»؟",
+      "choices": [
+        "ميسيونس",
+        "لا بامبا",
+        "تشاكو",
+        "إنتري ريوس"
+      ],
+      "correctIndex": 1,
+      "explanation": "«الرياء الكبير (النَّندو)» جزء من حيوانات لا بامبا."
+    },
+    {
+      "id": "e0053477a91c",
+      "provinceSlug": "la-pampa",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «كالدين»؟",
+      "choices": [
+        "كاتاماركا",
+        "لا بامبا",
+        "سان لويس",
+        "إنتري ريوس"
+      ],
+      "correctIndex": 1,
+      "explanation": "«كالدين» نبات مشهور في لا بامبا."
+    },
+    {
+      "id": "faad3e8fc2fc",
+      "provinceSlug": "la-pampa",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «خاريّا البامبا»؟",
+      "choices": [
+        "لا بامبا",
+        "بوينس آيرس",
+        "لا ريوخا",
+        "سانتا في"
+      ],
+      "correctIndex": 0,
+      "explanation": "«خاريّا البامبا» نبات مشهور في لا بامبا."
+    },
+    {
+      "id": "7fae6106915c",
+      "provinceSlug": "la-pampa",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «زيتون الحمار»؟",
+      "choices": [
+        "ريو نيغرو",
+        "جزر فوكلاند (مالفيناس)",
+        "نيوكين",
+        "لا بامبا"
+      ],
+      "correctIndex": 3,
+      "explanation": "«زيتون الحمار» نبات مشهور في لا بامبا."
+    },
+    {
+      "id": "a5f4e443248e",
+      "provinceSlug": "la-pampa",
+      "category": "food",
+      "prompt": "طبق «أسادو كريولي في البامبا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "ريو نيغرو",
+        "كوردوبا",
+        "سانتياغو ديل إستيرو",
+        "لا بامبا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "4ec776a0fd07",
+      "provinceSlug": "la-pampa",
+      "category": "food",
+      "prompt": "طبق «جدي على الشواية» مشهور في أي مقاطعة؟",
+      "choices": [
+        "لا بامبا",
+        "إنتري ريوس",
+        "خوخوي",
+        "سان لويس"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "1a685a1982a0",
+      "provinceSlug": "la-pampa",
+      "category": "food",
+      "prompt": "طبق «تورتا فريتا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "بوينس آيرس (المدينة المستقلة)",
+        "لا بامبا",
+        "نيوكين",
+        "سان لويس"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "b5ce1b9027e5",
+      "provinceSlug": "la-pampa",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه ليهوي كاليل الوطني»؟",
+      "choices": [
+        "لا بامبا",
+        "تشوبوت",
+        "بوينس آيرس",
+        "كوردوبا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "56c0dacf6f36",
+      "provinceSlug": "la-pampa",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «محمية بارك لورو الإقليمية»؟",
+      "choices": [
+        "جزر فوكلاند (مالفيناس)",
+        "بوينس آيرس",
+        "تشوبوت",
+        "لا بامبا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "2d996c6c25aa",
+      "provinceSlug": "la-pampa",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «لاغونا أوتراكان ومنطقة غواتراتشي»؟",
+      "choices": [
+        "لا بامبا",
+        "كوردوبا",
+        "لا ريوخا",
+        "نيوكين"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d4a4d2f0989e",
+      "provinceSlug": "la-pampa",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «الكالدين، الشجرة الرمز»؟",
+      "choices": [
+        "إنتري ريوس",
+        "تشوبوت",
+        "سان خوان",
+        "لا بامبا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "537a6cea918d",
+      "provinceSlug": "la-pampa",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «مفترق طرق تاريخية»؟",
+      "choices": [
+        "لا ريوخا",
+        "مندوزا",
+        "لا بامبا",
+        "بوينس آيرس (المدينة المستقلة)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "1791ce4d7265",
+      "provinceSlug": "la-rioja",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الرياء الكبير (النَّندو)»؟",
+      "choices": [
+        "أرض النار",
+        "لا ريوخا",
+        "كوردوبا",
+        "خوخوي"
+      ],
+      "correctIndex": 1,
+      "explanation": "«الرياء الكبير (النَّندو)» جزء من حيوانات لا ريوخا."
+    },
+    {
+      "id": "f66b831f3473",
+      "provinceSlug": "la-rioja",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الغواناكو»؟",
+      "choices": [
+        "لا ريوخا",
+        "تشوبوت",
+        "مندوزا",
+        "أرض النار"
+      ],
+      "correctIndex": 0,
+      "explanation": "«الغواناكو» جزء من حيوانات لا ريوخا."
+    },
+    {
+      "id": "1e716c3835a4",
+      "provinceSlug": "la-rioja",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «خاريّا»؟",
+      "choices": [
+        "لا ريوخا",
+        "بوينس آيرس",
+        "كورينتس",
+        "لا بامبا"
+      ],
+      "correctIndex": 0,
+      "explanation": "«خاريّا» نبات مشهور في لا ريوخا."
+    },
+    {
+      "id": "d9de1cb13f71",
+      "provinceSlug": "la-rioja",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «ريتورتونيو»؟",
+      "choices": [
+        "سانتياغو ديل إستيرو",
+        "خوخوي",
+        "جزر فوكلاند (مالفيناس)",
+        "لا ريوخا"
+      ],
+      "correctIndex": 3,
+      "explanation": "«ريتورتونيو» نبات مشهور في لا ريوخا."
+    },
+    {
+      "id": "d577c00c3a8c",
+      "provinceSlug": "la-rioja",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «الألغاروبو الأبيض»؟",
+      "choices": [
+        "لا ريوخا",
+        "لا بامبا",
+        "كوردوبا",
+        "خوخوي"
+      ],
+      "correctIndex": 0,
+      "explanation": "«الألغاروبو الأبيض» نبات مشهور في لا ريوخا."
+    },
+    {
+      "id": "f7dd148fb2ec",
+      "provinceSlug": "la-rioja",
+      "category": "food",
+      "prompt": "طبق «تشانفاينا ريوخانا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "توكومان",
+        "كوردوبا",
+        "لا ريوخا",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "e71b6af18f38",
+      "provinceSlug": "la-rioja",
+      "category": "food",
+      "prompt": "طبق «إمبانادات لا ريوخا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "لا ريوخا",
+        "سان خوان",
+        "تشوبوت",
+        "لا بامبا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "f9aea10f75b7",
+      "provinceSlug": "la-rioja",
+      "category": "food",
+      "prompt": "طبق «لوكرو لا ريوخا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "لا ريوخا",
+        "سانتا كروز",
+        "إنتري ريوس",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "ec9122168592",
+      "provinceSlug": "la-rioja",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه تالامبايا الوطني»؟",
+      "choices": [
+        "لا ريوخا",
+        "سانتا في",
+        "لا بامبا",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "2ada60d4e1a2",
+      "provinceSlug": "la-rioja",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «كويستا دي ميراندا»؟",
+      "choices": [
+        "خوخوي",
+        "إنتري ريوس",
+        "لا ريوخا",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "392365fd0332",
+      "provinceSlug": "la-rioja",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه لاغونا برافا الوطني»؟",
+      "choices": [
+        "بوينس آيرس (المدينة المستقلة)",
+        "لا ريوخا",
+        "تشوبوت",
+        "إنتري ريوس"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "c10b9d03f3d6",
+      "provinceSlug": "la-rioja",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «أرض زعماء الاتحاديين»؟",
+      "choices": [
+        "ميسيونس",
+        "سان لويس",
+        "لا ريوخا",
+        "لا بامبا"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "b55a33ce4d53",
+      "provinceSlug": "la-rioja",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «تالامبايا والزمن العميق»؟",
+      "choices": [
+        "تشاكو",
+        "لا بامبا",
+        "لا ريوخا",
+        "ميسيونس"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "2baf2f245d39",
+      "provinceSlug": "mendoza",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «كندور الأنديز»؟",
+      "choices": [
+        "سالتا",
+        "كاتاماركا",
+        "مندوزا",
+        "إنتري ريوس"
+      ],
+      "correctIndex": 2,
+      "explanation": "«كندور الأنديز» جزء من حيوانات مندوزا."
+    },
+    {
+      "id": "2edd9f7eba84",
+      "provinceSlug": "mendoza",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الغواناكو»؟",
+      "choices": [
+        "مندوزا",
+        "لا ريوخا",
+        "خوخوي",
+        "أرض النار"
+      ],
+      "correctIndex": 0,
+      "explanation": "«الغواناكو» جزء من حيوانات مندوزا."
+    },
+    {
+      "id": "85c6c200c6fc",
+      "provinceSlug": "mendoza",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «أخاريّيا»؟",
+      "choices": [
+        "سان خوان",
+        "ريو نيغرو",
+        "مندوزا",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 2,
+      "explanation": "«أخاريّيا» نبات مشهور في مندوزا."
+    },
+    {
+      "id": "4993545decf7",
+      "provinceSlug": "mendoza",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «خاريّات راتنجية»؟",
+      "choices": [
+        "سالتا",
+        "إنتري ريوس",
+        "سانتا في",
+        "مندوزا"
+      ],
+      "correctIndex": 3,
+      "explanation": "«خاريّات راتنجية» نبات مشهور في مندوزا."
+    },
+    {
+      "id": "e7d18b9a239e",
+      "provinceSlug": "mendoza",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «تشانيار مندوزا»؟",
+      "choices": [
+        "مندوزا",
+        "سانتا في",
+        "سالتا",
+        "توكومان"
+      ],
+      "correctIndex": 0,
+      "explanation": "«تشانيار مندوزا» نبات مشهور في مندوزا."
+    },
+    {
+      "id": "240f8c2ee239",
+      "provinceSlug": "mendoza",
+      "category": "food",
+      "prompt": "طبق «تورتيتاس مندوسينا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "ريو نيغرو",
+        "إنتري ريوس",
+        "مندوزا",
+        "نيوكين"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "6348ced138c0",
+      "provinceSlug": "mendoza",
+      "category": "food",
+      "prompt": "طبق «جدي على اللهب» مشهور في أي مقاطعة؟",
+      "choices": [
+        "أرض النار",
+        "مندوزا",
+        "سان لويس",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "dc1368da02ac",
+      "provinceSlug": "mendoza",
+      "category": "food",
+      "prompt": "طبق «إمبانادات مندوزا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "لا بامبا",
+        "بوينس آيرس (المدينة المستقلة)",
+        "ميسيونس",
+        "مندوزا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "4cac7a9280b0",
+      "provinceSlug": "mendoza",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه أكونكاغوا الإقليمي»؟",
+      "choices": [
+        "ميسيونس",
+        "نيوكين",
+        "مندوزا",
+        "إنتري ريوس"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "fe5b22318a54",
+      "provinceSlug": "mendoza",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «طريق النبيذ في لوخان دي كويو ووادي أوكو»؟",
+      "choices": [
+        "إنتري ريوس",
+        "بوينس آيرس",
+        "كورينتس",
+        "مندوزا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "bf4404a0b2c9",
+      "provinceSlug": "mendoza",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «بوينتي ديل إنكا ومنتزه وادي أتويل الإقليمي»؟",
+      "choices": [
+        "مندوزا",
+        "سان خوان",
+        "تشوبوت",
+        "سالتا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "09b23395871b",
+      "provinceSlug": "mendoza",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «مهد جيش الأنديز»؟",
+      "choices": [
+        "كاتاماركا",
+        "مندوزا",
+        "كورينتس",
+        "تشاكو"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ccec3b191290",
+      "provinceSlug": "mendoza",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «واحات صنعتها قنوات الري»؟",
+      "choices": [
+        "تشوبوت",
+        "سان لويس",
+        "تشاكو",
+        "مندوزا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "320b2dd5eba2",
+      "provinceSlug": "misiones",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «اليغوار»؟",
+      "choices": [
+        "جزر فوكلاند (مالفيناس)",
+        "ميسيونس",
+        "سانتا كروز",
+        "نيوكين"
+      ],
+      "correctIndex": 1,
+      "explanation": "«اليغوار» جزء من حيوانات ميسيونس."
+    },
+    {
+      "id": "878c0878174f",
+      "provinceSlug": "misiones",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «القرد العواء الأسود»؟",
+      "choices": [
+        "ميسيونس",
+        "سان خوان",
+        "خوخوي",
+        "كاتاماركا"
+      ],
+      "correctIndex": 0,
+      "explanation": "«القرد العواء الأسود» جزء من حيوانات ميسيونس."
+    },
+    {
+      "id": "1c81e35be26b",
+      "provinceSlug": "misiones",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «قلب نخيل ميسيونس»؟",
+      "choices": [
+        "لا ريوخا",
+        "توكومان",
+        "كورينتس",
+        "ميسيونس"
+      ],
+      "correctIndex": 3,
+      "explanation": "«قلب نخيل ميسيونس» نبات مشهور في ميسيونس."
+    },
+    {
+      "id": "bec72503db59",
+      "provinceSlug": "misiones",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «لاباتشو الوردي»؟",
+      "choices": [
+        "ميسيونس",
+        "كورينتس",
+        "سانتياغو ديل إستيرو",
+        "إنتري ريوس"
+      ],
+      "correctIndex": 0,
+      "explanation": "«لاباتشو الوردي» نبات مشهور في ميسيونس."
+    },
+    {
+      "id": "510fb689c0af",
+      "provinceSlug": "misiones",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «أروكاريا ميسيونس»؟",
+      "choices": [
+        "ميسيونس",
+        "ريو نيغرو",
+        "كوردوبا",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 0,
+      "explanation": "«أروكاريا ميسيونس» نبات مشهور في ميسيونس."
+    },
+    {
+      "id": "d45fa34fb3f0",
+      "provinceSlug": "misiones",
+      "category": "food",
+      "prompt": "طبق «ريفيرو» مشهور في أي مقاطعة؟",
+      "choices": [
+        "نيوكين",
+        "كورينتس",
+        "ميسيونس",
+        "سانتا في"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "9f94e336f6ab",
+      "provinceSlug": "misiones",
+      "category": "food",
+      "prompt": "طبق «تشيبا ميسيونس» مشهور في أي مقاطعة؟",
+      "choices": [
+        "جزر فوكلاند (مالفيناس)",
+        "سانتا كروز",
+        "ميسيونس",
+        "لا بامبا"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "57be696c8eac",
+      "provinceSlug": "misiones",
+      "category": "food",
+      "prompt": "طبق «مبيخو» مشهور في أي مقاطعة؟",
+      "choices": [
+        "لا ريوخا",
+        "لا بامبا",
+        "توكومان",
+        "ميسيونس"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "5afec6959cf4",
+      "provinceSlug": "misiones",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «شلالات إغواسو»؟",
+      "choices": [
+        "ميسيونس",
+        "سانتا كروز",
+        "كورينتس",
+        "كوردوبا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "486920d41163",
+      "provinceSlug": "misiones",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «أطلال سان إغناسيو ميني اليسوعية»؟",
+      "choices": [
+        "سان لويس",
+        "لا بامبا",
+        "ميسيونس",
+        "تشوبوت"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "b8eb40287a3a",
+      "provinceSlug": "misiones",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «شلالات موكونا»؟",
+      "choices": [
+        "ميسيونس",
+        "فورموسا",
+        "جزر فوكلاند (مالفيناس)",
+        "كوردوبا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eed906364302",
+      "provinceSlug": "misiones",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «البعثات اليسوعية»؟",
+      "choices": [
+        "سالتا",
+        "ميسيونس",
+        "ريو نيغرو",
+        "تشوبوت"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "8087329d3454",
+      "provinceSlug": "misiones",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «الغابة المطيرة والمتّه»؟",
+      "choices": [
+        "أرض النار",
+        "تشوبوت",
+        "ريو نيغرو",
+        "ميسيونس"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "22e673af984f",
+      "provinceSlug": "neuquen",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الثعلب الرمادي الباتاغوني»؟",
+      "choices": [
+        "نيوكين",
+        "أرض النار",
+        "بوينس آيرس (المدينة المستقلة)",
+        "توكومان"
+      ],
+      "correctIndex": 0,
+      "explanation": "«الثعلب الرمادي الباتاغوني» جزء من حيوانات نيوكين."
+    },
+    {
+      "id": "1eaede0ed2da",
+      "provinceSlug": "neuquen",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «البودو الجنوبي»؟",
+      "choices": [
+        "لا ريوخا",
+        "نيوكين",
+        "سالتا",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 1,
+      "explanation": "«البودو الجنوبي» جزء من حيوانات نيوكين."
+    },
+    {
+      "id": "1fe1da6dff06",
+      "provinceSlug": "neuquen",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «بيوين (أروكاريا تشيلي)»؟",
+      "choices": [
+        "خوخوي",
+        "كاتاماركا",
+        "نيوكين",
+        "ميسيونس"
+      ],
+      "correctIndex": 2,
+      "explanation": "«بيوين (أروكاريا تشيلي)» نبات مشهور في نيوكين."
+    },
+    {
+      "id": "a3c693be9288",
+      "provinceSlug": "neuquen",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «نيري»؟",
+      "choices": [
+        "نيوكين",
+        "بوينس آيرس",
+        "لا بامبا",
+        "أرض النار"
+      ],
+      "correctIndex": 0,
+      "explanation": "«نيري» نبات مشهور في نيوكين."
+    },
+    {
+      "id": "d532ebd5fd03",
+      "provinceSlug": "neuquen",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «مايتين الجبلي»؟",
+      "choices": [
+        "سانتا في",
+        "نيوكين",
+        "بوينس آيرس (المدينة المستقلة)",
+        "فورموسا"
+      ],
+      "correctIndex": 1,
+      "explanation": "«مايتين الجبلي» نبات مشهور في نيوكين."
+    },
+    {
+      "id": "f6587d13a943",
+      "provinceSlug": "neuquen",
+      "category": "food",
+      "prompt": "طبق «تشيفيتو نيوكين» مشهور في أي مقاطعة؟",
+      "choices": [
+        "نيوكين",
+        "بوينس آيرس (المدينة المستقلة)",
+        "بوينس آيرس",
+        "تشاكو"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "030b02893ee9",
+      "provinceSlug": "neuquen",
+      "category": "food",
+      "prompt": "طبق «سلمون مرقط باتاغوني» مشهور في أي مقاطعة؟",
+      "choices": [
+        "نيوكين",
+        "بوينس آيرس",
+        "سالتا",
+        "توكومان"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "1f6a359ccc47",
+      "provinceSlug": "neuquen",
+      "category": "food",
+      "prompt": "طبق «تورتا فريتا باتاغونية» مشهور في أي مقاطعة؟",
+      "choices": [
+        "مندوزا",
+        "جزر فوكلاند (مالفيناس)",
+        "نيوكين",
+        "كورينتس"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "a73326bc6e8d",
+      "provinceSlug": "neuquen",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «فيا لا أنغوستورا ومنتزه نواويل واپي الوطني»؟",
+      "choices": [
+        "نيوكين",
+        "ريو نيغرو",
+        "لا بامبا",
+        "خوخوي"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "dec375e6664e",
+      "provinceSlug": "neuquen",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «سان مارتين دي لوس أندس وطريق البحيرات السبع»؟",
+      "choices": [
+        "ميسيونس",
+        "كوردوبا",
+        "نيوكين",
+        "سالتا"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "c75c180e9ba6",
+      "provinceSlug": "neuquen",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «بركان لانين ومنتزه لانين الوطني»؟",
+      "choices": [
+        "سالتا",
+        "نيوكين",
+        "سان خوان",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ca568be072a4",
+      "provinceSlug": "neuquen",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «المابوتشي والأرض الجبلية»؟",
+      "choices": [
+        "سالتا",
+        "نيوكين",
+        "كورينتس",
+        "كوردوبا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "6f1f3d382075",
+      "provinceSlug": "neuquen",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «فاكا مويرتا والطاقة»؟",
+      "choices": [
+        "سانتا كروز",
+        "لا بامبا",
+        "نيوكين",
+        "كورينتس"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "ee347925f42d",
+      "provinceSlug": "rio-negro",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «المارا الباتاغونية»؟",
+      "choices": [
+        "مندوزا",
+        "ريو نيغرو",
+        "إنتري ريوس",
+        "أرض النار"
+      ],
+      "correctIndex": 1,
+      "explanation": "«المارا الباتاغونية» جزء من حيوانات ريو نيغرو."
+    },
+    {
+      "id": "e4f9ececa001",
+      "provinceSlug": "rio-negro",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الغواناكو»؟",
+      "choices": [
+        "ريو نيغرو",
+        "ميسيونس",
+        "مندوزا",
+        "سانتا كروز"
+      ],
+      "correctIndex": 0,
+      "explanation": "«الغواناكو» جزء من حيوانات ريو نيغرو."
+    },
+    {
+      "id": "ca79cce2ab15",
+      "provinceSlug": "rio-negro",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «نينيو»؟",
+      "choices": [
+        "ريو نيغرو",
+        "فورموسا",
+        "نيوكين",
+        "سالتا"
+      ],
+      "correctIndex": 0,
+      "explanation": "«نينيو» نبات مشهور في ريو نيغرو."
+    },
+    {
+      "id": "7295c14457b7",
+      "provinceSlug": "rio-negro",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «مولّي باتاغونيا»؟",
+      "choices": [
+        "إنتري ريوس",
+        "بوينس آيرس",
+        "ريو نيغرو",
+        "سانتا كروز"
+      ],
+      "correctIndex": 2,
+      "explanation": "«مولّي باتاغونيا» نبات مشهور في ريو نيغرو."
+    },
+    {
+      "id": "a2713de888b6",
+      "provinceSlug": "rio-negro",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «كويهوي الأنديز»؟",
+      "choices": [
+        "سانتا في",
+        "نيوكين",
+        "تشوبوت",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 3,
+      "explanation": "«كويهوي الأنديز» نبات مشهور في ريو نيغرو."
+    },
+    {
+      "id": "8991851246ed",
+      "provinceSlug": "rio-negro",
+      "category": "food",
+      "prompt": "طبق «سلمون مرقط باتاغوني» مشهور في أي مقاطعة؟",
+      "choices": [
+        "لا ريوخا",
+        "أرض النار",
+        "ريو نيغرو",
+        "كاتاماركا"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "95833b265629",
+      "provinceSlug": "rio-negro",
+      "category": "food",
+      "prompt": "طبق «خروف على السفود» مشهور في أي مقاطعة؟",
+      "choices": [
+        "مندوزا",
+        "خوخوي",
+        "ريو نيغرو",
+        "نيوكين"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "b1c9f7b93d3a",
+      "provinceSlug": "rio-negro",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «باريلوتشي ودائرة تشيكو»؟",
+      "choices": [
+        "كورينتس",
+        "نيوكين",
+        "جزر فوكلاند (مالفيناس)",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "c5c1f1790251",
+      "provinceSlug": "rio-negro",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «إل بولسون ولاغو بوييلو (المنطقة الأنديزية)»؟",
+      "choices": [
+        "توكومان",
+        "ميسيونس",
+        "ريو نيغرو",
+        "تشاكو"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "e0ac8ca4e958",
+      "provinceSlug": "rio-negro",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «لاس غروتاس وساحل خليج سان ماتياس»؟",
+      "choices": [
+        "مندوزا",
+        "إنتري ريوس",
+        "ريو نيغرو",
+        "جزر فوكلاند (مالفيناس)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "190bb701cce9",
+      "provinceSlug": "rio-negro",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «ألتو فاليه المثمر»؟",
+      "choices": [
+        "ريو نيغرو",
+        "سانتياغو ديل إستيرو",
+        "بوينس آيرس",
+        "كورينتس"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "0e4b32eda473",
+      "provinceSlug": "rio-negro",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «الساحل الأطلسي وعلم الأحافير»؟",
+      "choices": [
+        "نيوكين",
+        "ريو نيغرو",
+        "جزر فوكلاند (مالفيناس)",
+        "أرض النار"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "0c44bd10f071",
+      "provinceSlug": "salta",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «التابير الأرضي»؟",
+      "choices": [
+        "سالتا",
+        "خوخوي",
+        "توكومان",
+        "أرض النار"
+      ],
+      "correctIndex": 0,
+      "explanation": "«التابير الأرضي» جزء من حيوانات سالتا."
+    },
+    {
+      "id": "966a3583a2f7",
+      "provinceSlug": "salta",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الفيكونا»؟",
+      "choices": [
+        "سالتا",
+        "بوينس آيرس (المدينة المستقلة)",
+        "كوردوبا",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 0,
+      "explanation": "«الفيكونا» جزء من حيوانات سالتا."
+    },
+    {
+      "id": "26676419e439",
+      "provinceSlug": "salta",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «يوتشان»؟",
+      "choices": [
+        "ميسيونس",
+        "إنتري ريوس",
+        "كوردوبا",
+        "سالتا"
+      ],
+      "correctIndex": 3,
+      "explanation": "«يوتشان» نبات مشهور في سالتا."
+    },
+    {
+      "id": "043c2b096ce0",
+      "provinceSlug": "salta",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «شجرة الحرير الوردية»؟",
+      "choices": [
+        "تشاكو",
+        "ريو نيغرو",
+        "سالتا",
+        "سانتا كروز"
+      ],
+      "correctIndex": 2,
+      "explanation": "«شجرة الحرير الوردية» نبات مشهور في سالتا."
+    },
+    {
+      "id": "ca9c4100a579",
+      "provinceSlug": "salta",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «تيبا بيضاء»؟",
+      "choices": [
+        "أرض النار",
+        "خوخوي",
+        "سالتا",
+        "كاتاماركا"
+      ],
+      "correctIndex": 2,
+      "explanation": "«تيبا بيضاء» نبات مشهور في سالتا."
+    },
+    {
+      "id": "083dcec52904",
+      "provinceSlug": "salta",
+      "category": "food",
+      "prompt": "طبق «إمبانادات سالتا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سان خوان",
+        "خوخوي",
+        "ميسيونس",
+        "سالتا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "613ac189d982",
+      "provinceSlug": "salta",
+      "category": "food",
+      "prompt": "طبق «تاماليس سالتا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "تشوبوت",
+        "سالتا",
+        "لا ريوخا",
+        "ميسيونس"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "dbfb7427a975",
+      "provinceSlug": "salta",
+      "category": "food",
+      "prompt": "طبق «أوميتا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "إنتري ريوس",
+        "سالتا",
+        "نيوكين",
+        "سان خوان"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "34e47238b304",
+      "provinceSlug": "salta",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «قطار الغيوم (سان أنطونيو دي لوس كوبريس)»؟",
+      "choices": [
+        "تشوبوت",
+        "سالتا",
+        "سانتياغو ديل إستيرو",
+        "لا بامبا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "654505720a1c",
+      "provinceSlug": "salta",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «كافاياتي وكيبرادا دي لاس كونتشاس»؟",
+      "choices": [
+        "سانتا في",
+        "سانتياغو ديل إستيرو",
+        "سالتا",
+        "مندوزا"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "a6454f16c8db",
+      "provinceSlug": "salta",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «كاتشي ومنتزه لوس كاردونيس الوطني»؟",
+      "choices": [
+        "كورينتس",
+        "سالتا",
+        "سانتا في",
+        "تشاكو"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "aaee98115bbd",
+      "provinceSlug": "salta",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «غويمس وحرب الاستقلال»؟",
+      "choices": [
+        "سانتا في",
+        "بوينس آيرس",
+        "سالتا",
+        "كوردوبا"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "83e2706b8d85",
+      "provinceSlug": "salta",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «فسيفساء من المناظر»؟",
+      "choices": [
+        "تشوبوت",
+        "إنتري ريوس",
+        "سانتا كروز",
+        "سالتا"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "f58fa90e41f0",
+      "provinceSlug": "san-juan",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الغواناكو»؟",
+      "choices": [
+        "سان خوان",
+        "خوخوي",
+        "بوينس آيرس (المدينة المستقلة)",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 0,
+      "explanation": "«الغواناكو» جزء من حيوانات سان خوان."
+    },
+    {
+      "id": "81d5f4c7eea5",
+      "provinceSlug": "san-juan",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «المارا الباتاغونية»؟",
+      "choices": [
+        "سالتا",
+        "لا ريوخا",
+        "سان خوان",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 2,
+      "explanation": "«المارا الباتاغونية» جزء من حيوانات سان خوان."
+    },
+    {
+      "id": "0d5c330de6a0",
+      "provinceSlug": "san-juan",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «ريتامو»؟",
+      "choices": [
+        "سان خوان",
+        "كورينتس",
+        "ميسيونس",
+        "بوينس آيرس (المدينة المستقلة)"
+      ],
+      "correctIndex": 0,
+      "explanation": "«ريتامو» نبات مشهور في سان خوان."
+    },
+    {
+      "id": "6bd0e7a15112",
+      "provinceSlug": "san-juan",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «خاريّا سان خوان»؟",
+      "choices": [
+        "سالتا",
+        "سان خوان",
+        "توكومان",
+        "أرض النار"
+      ],
+      "correctIndex": 1,
+      "explanation": "«خاريّا سان خوان» نبات مشهور في سان خوان."
+    },
+    {
+      "id": "3f5be0652fab",
+      "provinceSlug": "san-juan",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «الألغاروبو الأسود»؟",
+      "choices": [
+        "كورينتس",
+        "لا ريوخا",
+        "بوينس آيرس",
+        "سان خوان"
+      ],
+      "correctIndex": 3,
+      "explanation": "«الألغاروبو الأسود» نبات مشهور في سان خوان."
+    },
+    {
+      "id": "b7a1257c0a39",
+      "provinceSlug": "san-juan",
+      "category": "food",
+      "prompt": "طبق «بونتا دي إسبالدا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سان خوان",
+        "توكومان",
+        "لا بامبا",
+        "ميسيونس"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c271d91b9eff",
+      "provinceSlug": "san-juan",
+      "category": "food",
+      "prompt": "طبق «توماتيكان» مشهور في أي مقاطعة؟",
+      "choices": [
+        "بوينس آيرس",
+        "سان خوان",
+        "لا بامبا",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "c77230697628",
+      "provinceSlug": "san-juan",
+      "category": "food",
+      "prompt": "طبق «سوبايبيّاس» مشهور في أي مقاطعة؟",
+      "choices": [
+        "فورموسا",
+        "مندوزا",
+        "سان خوان",
+        "توكومان"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "59f365b1900a",
+      "provinceSlug": "san-juan",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه إيشيغوالاستو الإقليمي (وادي القمر)»؟",
+      "choices": [
+        "سان خوان",
+        "سانتا في",
+        "سالتا",
+        "نيوكين"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "0ed532ef03ec",
+      "provinceSlug": "san-juan",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «سد كويستا ديل فيينتو (رودِيو)»؟",
+      "choices": [
+        "سانتياغو ديل إستيرو",
+        "بوينس آيرس (المدينة المستقلة)",
+        "لا ريوخا",
+        "سان خوان"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "3ae03e7ea7d0",
+      "provinceSlug": "san-juan",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه إل ليونسيتو الوطني (باريال)»؟",
+      "choices": [
+        "نيوكين",
+        "إنتري ريوس",
+        "سان خوان",
+        "خوخوي"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "0f16cfa992b7",
+      "provinceSlug": "san-juan",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «سارمينتو والتعليم»؟",
+      "choices": [
+        "سان خوان",
+        "لا بامبا",
+        "كاتاماركا",
+        "جزر فوكلاند (مالفيناس)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "6240da804bbc",
+      "provinceSlug": "san-juan",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «إيشيغوالاستو وأحافير فريدة»؟",
+      "choices": [
+        "فورموسا",
+        "كورينتس",
+        "سان خوان",
+        "إنتري ريوس"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "51b59b3d3d3e",
+      "provinceSlug": "san-luis",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «المدرّع ذو الأحزمة الست»؟",
+      "choices": [
+        "بوينس آيرس (المدينة المستقلة)",
+        "كورينتس",
+        "سان لويس",
+        "سان خوان"
+      ],
+      "correctIndex": 2,
+      "explanation": "«المدرّع ذو الأحزمة الست» جزء من حيوانات سان لويس."
+    },
+    {
+      "id": "45710dc0a63b",
+      "provinceSlug": "san-luis",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الثعلب الرمادي»؟",
+      "choices": [
+        "ميسيونس",
+        "سان لويس",
+        "سانتا كروز",
+        "إنتري ريوس"
+      ],
+      "correctIndex": 1,
+      "explanation": "«الثعلب الرمادي» جزء من حيوانات سان لويس."
+    },
+    {
+      "id": "debf8589acb7",
+      "provinceSlug": "san-luis",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «الألغاروبو الحلو»؟",
+      "choices": [
+        "ميسيونس",
+        "سان لويس",
+        "لا بامبا",
+        "سالتا"
+      ],
+      "correctIndex": 1,
+      "explanation": "«الألغاروبو الحلو» نبات مشهور في سان لويس."
+    },
+    {
+      "id": "76779c756c5e",
+      "provinceSlug": "san-luis",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «إسبينيّو سان لويس»؟",
+      "choices": [
+        "سان لويس",
+        "بوينس آيرس (المدينة المستقلة)",
+        "كاتاماركا",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 0,
+      "explanation": "«إسبينيّو سان لويس» نبات مشهور في سان لويس."
+    },
+    {
+      "id": "dfa583c9d503",
+      "provinceSlug": "san-luis",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «الكيبراتشو الأبيض في التلال»؟",
+      "choices": [
+        "جزر فوكلاند (مالفيناس)",
+        "فورموسا",
+        "سان لويس",
+        "لا بامبا"
+      ],
+      "correctIndex": 2,
+      "explanation": "«الكيبراتشو الأبيض في التلال» نبات مشهور في سان لويس."
+    },
+    {
+      "id": "1bd0fa5110de",
+      "provinceSlug": "san-luis",
+      "category": "food",
+      "prompt": "طبق «تشيفيتو سان لويس» مشهور في أي مقاطعة؟",
+      "choices": [
+        "لا بامبا",
+        "سانتا في",
+        "سالتا",
+        "سان لويس"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "2d4c8cca614c",
+      "provinceSlug": "san-luis",
+      "category": "food",
+      "prompt": "طبق «إمبانادات سان لويس» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سانتا في",
+        "نيوكين",
+        "بوينس آيرس (المدينة المستقلة)",
+        "سان لويس"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "4f14984b3415",
+      "provinceSlug": "san-luis",
+      "category": "food",
+      "prompt": "طبق «كاربوناده» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سانتا في",
+        "سان لويس",
+        "لا بامبا",
+        "كاتاماركا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "1a5a1c737daf",
+      "provinceSlug": "san-luis",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه سييرا دي لاس كيخاداس الوطني»؟",
+      "choices": [
+        "سانتياغو ديل إستيرو",
+        "سان لويس",
+        "كورينتس",
+        "بوينس آيرس (المدينة المستقلة)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "9eea83fc2d59",
+      "provinceSlug": "san-luis",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «بوتريرو دي لوس فونيس»؟",
+      "choices": [
+        "بوينس آيرس",
+        "كاتاماركا",
+        "مندوزا",
+        "سان لويس"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "1295a54954ff",
+      "provinceSlug": "san-luis",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «ميرلو ومحمية رينكون ديل إستي للنباتات والحيوانات»؟",
+      "choices": [
+        "سان خوان",
+        "تشوبوت",
+        "سان لويس",
+        "أرض النار"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "11aa267bc530",
+      "provinceSlug": "san-luis",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «محطة طرق الداخل»؟",
+      "choices": [
+        "سان لويس",
+        "بوينس آيرس (المدينة المستقلة)",
+        "كاتاماركا",
+        "تشوبوت"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "af626ca4e57b",
+      "provinceSlug": "san-luis",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «منظر تلال وسبخات»؟",
+      "choices": [
+        "سان لويس",
+        "سالتا",
+        "لا بامبا",
+        "مندوزا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "8ad71a1a138f",
+      "provinceSlug": "santa-cruz",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «البودو الجنوبي»؟",
+      "choices": [
+        "ريو نيغرو",
+        "إنتري ريوس",
+        "سانتياغو ديل إستيرو",
+        "سانتا كروز"
+      ],
+      "correctIndex": 3,
+      "explanation": "«البودو الجنوبي» جزء من حيوانات سانتا كروز."
+    },
+    {
+      "id": "35eb17825a58",
+      "provinceSlug": "santa-cruz",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الغواناكو»؟",
+      "choices": [
+        "سانتا كروز",
+        "بوينس آيرس (المدينة المستقلة)",
+        "تشاكو",
+        "توكومان"
+      ],
+      "correctIndex": 0,
+      "explanation": "«الغواناكو» جزء من حيوانات سانتا كروز."
+    },
+    {
+      "id": "8053ae8638c7",
+      "provinceSlug": "santa-cruz",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «ماتا نيغرا»؟",
+      "choices": [
+        "سان لويس",
+        "ريو نيغرو",
+        "سانتا كروز",
+        "توكومان"
+      ],
+      "correctIndex": 2,
+      "explanation": "«ماتا نيغرا» نبات مشهور في سانتا كروز."
+    },
+    {
+      "id": "b21800d8adfd",
+      "provinceSlug": "santa-cruz",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «كويرون أرض النار»؟",
+      "choices": [
+        "تشاكو",
+        "سان خوان",
+        "سانتا كروز",
+        "نيوكين"
+      ],
+      "correctIndex": 2,
+      "explanation": "«كويرون أرض النار» نبات مشهور في سانتا كروز."
+    },
+    {
+      "id": "8254767f10ce",
+      "provinceSlug": "santa-cruz",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «نينيو الجنوب»؟",
+      "choices": [
+        "بوينس آيرس (المدينة المستقلة)",
+        "توكومان",
+        "سان لويس",
+        "سانتا كروز"
+      ],
+      "correctIndex": 3,
+      "explanation": "«نينيو الجنوب» نبات مشهور في سانتا كروز."
+    },
+    {
+      "id": "85cc91e6dedf",
+      "provinceSlug": "santa-cruz",
+      "category": "food",
+      "prompt": "طبق «قدر المأكولات البحرية» مشهور في أي مقاطعة؟",
+      "choices": [
+        "ميسيونس",
+        "نيوكين",
+        "سانتا كروز",
+        "كوردوبا"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "63c0c8d4b3b0",
+      "provinceSlug": "santa-cruz",
+      "category": "food",
+      "prompt": "طبق «لحم ضأن سانتا كروز» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سالتا",
+        "توكومان",
+        "بوينس آيرس (المدينة المستقلة)",
+        "سانتا كروز"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "e711daa79e81",
+      "provinceSlug": "santa-cruz",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «نهر بيريتو مورينو الجليدي (منتزه لوس غلاسياريس الوطني)»؟",
+      "choices": [
+        "كاتاماركا",
+        "أرض النار",
+        "لا ريوخا",
+        "سانتا كروز"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "db77cbdadba8",
+      "provinceSlug": "santa-cruz",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «إل تشالتن وممرات فيتزروي»؟",
+      "choices": [
+        "لا ريوخا",
+        "كاتاماركا",
+        "سانتا كروز",
+        "توكومان"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "1dc027962d73",
+      "provinceSlug": "santa-cruz",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «كويفا دي لاس مانوس (نهر بينتوراس)»؟",
+      "choices": [
+        "كورينتس",
+        "سان لويس",
+        "سانتا كروز",
+        "بوينس آيرس (المدينة المستقلة)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "68d2da3314d0",
+      "provinceSlug": "santa-cruz",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «حقول الجليد القارية»؟",
+      "choices": [
+        "سان خوان",
+        "أرض النار",
+        "سانتا كروز",
+        "ميسيونس"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "b0a783377673",
+      "provinceSlug": "santa-cruz",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «كويفا دي لاس مانوس»؟",
+      "choices": [
+        "سانتا كروز",
+        "جزر فوكلاند (مالفيناس)",
+        "سان خوان",
+        "سانتا في"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "bc3f6dc3f93c",
+      "provinceSlug": "santa-fe",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «كايمان ياكاري»؟",
+      "choices": [
+        "بوينس آيرس",
+        "سانتا في",
+        "جزر فوكلاند (مالفيناس)",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 1,
+      "explanation": "«كايمان ياكاري» جزء من حيوانات سانتا في."
+    },
+    {
+      "id": "3821b6447313",
+      "provinceSlug": "santa-fe",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الكابيبارا»؟",
+      "choices": [
+        "لا ريوخا",
+        "لا بامبا",
+        "كوردوبا",
+        "سانتا في"
+      ],
+      "correctIndex": 3,
+      "explanation": "«الكابيبارا» جزء من حيوانات سانتا في."
+    },
+    {
+      "id": "4ff7437e33b0",
+      "provinceSlug": "santa-fe",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «سيبو»؟",
+      "choices": [
+        "جزر فوكلاند (مالفيناس)",
+        "سانتا في",
+        "ريو نيغرو",
+        "توكومان"
+      ],
+      "correctIndex": 1,
+      "explanation": "«سيبو» نبات مشهور في سانتا في."
+    },
+    {
+      "id": "38e3ff1e7c14",
+      "provinceSlug": "santa-fe",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «ساراندي أبيض»؟",
+      "choices": [
+        "سانتا في",
+        "ميسيونس",
+        "سانتا كروز",
+        "سان خوان"
+      ],
+      "correctIndex": 0,
+      "explanation": "«ساراندي أبيض» نبات مشهور في سانتا في."
+    },
+    {
+      "id": "74f0dd270e8a",
+      "provinceSlug": "santa-fe",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «تيمبو الساحل»؟",
+      "choices": [
+        "لا ريوخا",
+        "سانتياغو ديل إستيرو",
+        "سانتا في",
+        "كورينتس"
+      ],
+      "correctIndex": 2,
+      "explanation": "«تيمبو الساحل» نبات مشهور في سانتا في."
+    },
+    {
+      "id": "0ea135a5a1e7",
+      "provinceSlug": "santa-fe",
+      "category": "food",
+      "prompt": "طبق «دورادو مشوي» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سان لويس",
+        "كاتاماركا",
+        "سانتا في",
+        "تشاكو"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "d7d06ecd9104",
+      "provinceSlug": "santa-fe",
+      "category": "food",
+      "prompt": "طبق «سوروبي مخبوز» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سانتا في",
+        "كاتاماركا",
+        "نيوكين",
+        "لا بامبا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "694ebe14341f",
+      "provinceSlug": "santa-fe",
+      "category": "food",
+      "prompt": "طبق «إمبانادا سانتا في» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سانتا في",
+        "سانتياغو ديل إستيرو",
+        "كورينتس",
+        "توكومان"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "7e8e11d889c6",
+      "provinceSlug": "santa-fe",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «نصب العلم الوطني (روساريو)»؟",
+      "choices": [
+        "فورموسا",
+        "سالتا",
+        "سانتا في",
+        "بوينس آيرس (المدينة المستقلة)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "be8d2ba5bccb",
+      "provinceSlug": "santa-fe",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه الاستقلال (روساريو)»؟",
+      "choices": [
+        "سالتا",
+        "سانتا في",
+        "كوردوبا",
+        "فورموسا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "b394659886ab",
+      "provinceSlug": "santa-fe",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «الجسر المعلق وواجهة مدينة سانتا في النهرية»؟",
+      "choices": [
+        "سانتا في",
+        "أرض النار",
+        "جزر فوكلاند (مالفيناس)",
+        "لا ريوخا"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "1484c5fe413f",
+      "provinceSlug": "santa-fe",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «مهد العلم»؟",
+      "choices": [
+        "جزر فوكلاند (مالفيناس)",
+        "سان لويس",
+        "سانتا في",
+        "تشوبوت"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "95e2031f63c8",
+      "provinceSlug": "santa-fe",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «الميناء والأنهار والهجرة»؟",
+      "choices": [
+        "سانتا في",
+        "توكومان",
+        "لا ريوخا",
+        "بوينس آيرس"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "d4f3e0a25d71",
+      "provinceSlug": "santiago-del-estero",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «البكاري ذو الطوق»؟",
+      "choices": [
+        "كاتاماركا",
+        "سالتا",
+        "سانتياغو ديل إستيرو",
+        "بوينس آيرس (المدينة المستقلة)"
+      ],
+      "correctIndex": 2,
+      "explanation": "«البكاري ذو الطوق» جزء من حيوانات سانتياغو ديل إستيرو."
+    },
+    {
+      "id": "0de7f1c4bfbe",
+      "provinceSlug": "santiago-del-estero",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «المدرّع ذو الأحزمة التسعة»؟",
+      "choices": [
+        "مندوزا",
+        "بوينس آيرس (المدينة المستقلة)",
+        "سانتياغو ديل إستيرو",
+        "كورينتس"
+      ],
+      "correctIndex": 2,
+      "explanation": "«المدرّع ذو الأحزمة التسعة» جزء من حيوانات سانتياغو ديل إستيرو."
+    },
+    {
+      "id": "9b21c60f9f12",
+      "provinceSlug": "santiago-del-estero",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «إيتين»؟",
+      "choices": [
+        "بوينس آيرس",
+        "ريو نيغرو",
+        "سانتياغو ديل إستيرو",
+        "نيوكين"
+      ],
+      "correctIndex": 2,
+      "explanation": "«إيتين» نبات مشهور في سانتياغو ديل إستيرو."
+    },
+    {
+      "id": "d2bc5b096c23",
+      "provinceSlug": "santiago-del-estero",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «فينال»؟",
+      "choices": [
+        "فورموسا",
+        "لا ريوخا",
+        "نيوكين",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 3,
+      "explanation": "«فينال» نبات مشهور في سانتياغو ديل إستيرو."
+    },
+    {
+      "id": "f699dc879422",
+      "provinceSlug": "santiago-del-estero",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «كيبراتشو سانتياغو الأحمر»؟",
+      "choices": [
+        "أرض النار",
+        "كاتاماركا",
+        "سالتا",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 3,
+      "explanation": "«كيبراتشو سانتياغو الأحمر» نبات مشهور في سانتياغو ديل إستيرو."
+    },
+    {
+      "id": "1946bef7051f",
+      "provinceSlug": "santiago-del-estero",
+      "category": "food",
+      "prompt": "طبق «لوكرو سانتياغو» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سانتياغو ديل إستيرو",
+        "أرض النار",
+        "لا بامبا",
+        "توكومان"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "850f31f3a735",
+      "provinceSlug": "santiago-del-estero",
+      "category": "food",
+      "prompt": "طبق «إمبانادات سانتياغو» مشهور في أي مقاطعة؟",
+      "choices": [
+        "لا ريوخا",
+        "بوينس آيرس",
+        "سانتياغو ديل إستيرو",
+        "نيوكين"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "ff9bac98b05a",
+      "provinceSlug": "santiago-del-estero",
+      "category": "food",
+      "prompt": "طبق «روسكيتي سانتياغو» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سان خوان",
+        "سان لويس",
+        "بوينس آيرس (المدينة المستقلة)",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "495eecf8db58",
+      "provinceSlug": "santiago-del-estero",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «ينابيع ريو أوندو الحارة»؟",
+      "choices": [
+        "سانتياغو ديل إستيرو",
+        "بوينس آيرس",
+        "تشاكو",
+        "إنتري ريوس"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "34d68132fca5",
+      "provinceSlug": "santiago-del-estero",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «سد ريو أوندو»؟",
+      "choices": [
+        "سانتياغو ديل إستيرو",
+        "فورموسا",
+        "بوينس آيرس (المدينة المستقلة)",
+        "سان خوان"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "f292192611c2",
+      "provinceSlug": "santiago-del-estero",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه كوبو الوطني»؟",
+      "choices": [
+        "سانتياغو ديل إستيرو",
+        "سانتا في",
+        "خوخوي",
+        "أرض النار"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "a20341ffe2a6",
+      "provinceSlug": "santiago-del-estero",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «أم المدن»؟",
+      "choices": [
+        "ريو نيغرو",
+        "سانتياغو ديل إستيرو",
+        "توكومان",
+        "لا بامبا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "ff1937dee541",
+      "provinceSlug": "santiago-del-estero",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «كيتشوا سانتياغو»؟",
+      "choices": [
+        "ميسيونس",
+        "سانتياغو ديل إستيرو",
+        "أرض النار",
+        "مندوزا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "edeb59c24017",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «بطريق ماجلان»؟",
+      "choices": [
+        "توكومان",
+        "بوينس آيرس (المدينة المستقلة)",
+        "أرض النار",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 2,
+      "explanation": "«بطريق ماجلان» جزء من حيوانات أرض النار."
+    },
+    {
+      "id": "b2e4fdb6978d",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «إوزّ المرتفعات»؟",
+      "choices": [
+        "فورموسا",
+        "أرض النار",
+        "مندوزا",
+        "كورينتس"
+      ],
+      "correctIndex": 1,
+      "explanation": "«إوزّ المرتفعات» جزء من حيوانات أرض النار."
+    },
+    {
+      "id": "70f4928c9fbd",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «لنغا أرض النار»؟",
+      "choices": [
+        "أرض النار",
+        "إنتري ريوس",
+        "نيوكين",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 0,
+      "explanation": "«لنغا أرض النار» نبات مشهور في أرض النار."
+    },
+    {
+      "id": "3a87597eab08",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «غيندو أو كويهوي ماجلان»؟",
+      "choices": [
+        "ريو نيغرو",
+        "أرض النار",
+        "سان لويس",
+        "سان خوان"
+      ],
+      "correctIndex": 1,
+      "explanation": "«غيندو أو كويهوي ماجلان» نبات مشهور في أرض النار."
+    },
+    {
+      "id": "44476cee7898",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «كانيلو أرض النار»؟",
+      "choices": [
+        "سانتا كروز",
+        "كاتاماركا",
+        "أرض النار",
+        "نيوكين"
+      ],
+      "correctIndex": 2,
+      "explanation": "«كانيلو أرض النار» نبات مشهور في أرض النار."
+    },
+    {
+      "id": "9dd98e598a26",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "food",
+      "prompt": "طبق «سمك الباتاغون الأسنان» مشهور في أي مقاطعة؟",
+      "choices": [
+        "فورموسا",
+        "جزر فوكلاند (مالفيناس)",
+        "أرض النار",
+        "سان خوان"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "e64f1b8c7dc4",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "food",
+      "prompt": "طبق «لحم ضأن أرض النار» مشهور في أي مقاطعة؟",
+      "choices": [
+        "أرض النار",
+        "سانتياغو ديل إستيرو",
+        "تشوبوت",
+        "سانتا في"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "81cfd08921a6",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «منتزه أرض النار الوطني»؟",
+      "choices": [
+        "خوخوي",
+        "فورموسا",
+        "تشوبوت",
+        "أرض النار"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "2cdd84ad7e7f",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «قناة بيغل ومنارة ليه إكليرور»؟",
+      "choices": [
+        "أرض النار",
+        "بوينس آيرس",
+        "بوينس آيرس (المدينة المستقلة)",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "60031ef342cf",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «قطار نهاية العالم (أوشوايا)»؟",
+      "choices": [
+        "لا ريوخا",
+        "نيوكين",
+        "أرض النار",
+        "لا بامبا"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "5a264aa8743d",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «نهاية عالم مأهولة»؟",
+      "choices": [
+        "مندوزا",
+        "أرض النار",
+        "جزر فوكلاند (مالفيناس)",
+        "سانتا في"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "af7b8b14ca6b",
+      "provinceSlug": "tierra-del-fuego",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «تاريخ السلك نام واليامانا»؟",
+      "choices": [
+        "جزر فوكلاند (مالفيناس)",
+        "فورموسا",
+        "أرض النار",
+        "سانتا في"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "5316e1fdc1bd",
+      "provinceSlug": "tucuman",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «التوكان الكبير»؟",
+      "choices": [
+        "أرض النار",
+        "نيوكين",
+        "توكومان",
+        "بوينس آيرس"
+      ],
+      "correctIndex": 2,
+      "explanation": "«التوكان الكبير» جزء من حيوانات توكومان."
+    },
+    {
+      "id": "64d5afc041e0",
+      "provinceSlug": "tucuman",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «التابير الأرضي»؟",
+      "choices": [
+        "توكومان",
+        "سان لويس",
+        "سالتا",
+        "كورينتس"
+      ],
+      "correctIndex": 0,
+      "explanation": "«التابير الأرضي» جزء من حيوانات توكومان."
+    },
+    {
+      "id": "b0f41e88937f",
+      "provinceSlug": "tucuman",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «الحور الجبلي (الألدر)»؟",
+      "choices": [
+        "توكومان",
+        "كورينتس",
+        "سانتا كروز",
+        "نيوكين"
+      ],
+      "correctIndex": 0,
+      "explanation": "«الحور الجبلي (الألدر)» نبات مشهور في توكومان."
+    },
+    {
+      "id": "eeff01a18c14",
+      "provinceSlug": "tucuman",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «لاباتشو أصفر»؟",
+      "choices": [
+        "أرض النار",
+        "لا ريوخا",
+        "توكومان",
+        "ميسيونس"
+      ],
+      "correctIndex": 2,
+      "explanation": "«لاباتشو أصفر» نبات مشهور في توكومان."
+    },
+    {
+      "id": "76cca208a983",
+      "provinceSlug": "tucuman",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «أوركو مولّي»؟",
+      "choices": [
+        "سانتا كروز",
+        "سانتا في",
+        "توكومان",
+        "تشاكو"
+      ],
+      "correctIndex": 2,
+      "explanation": "«أوركو مولّي» نبات مشهور في توكومان."
+    },
+    {
+      "id": "adf16c60cedc",
+      "provinceSlug": "tucuman",
+      "category": "food",
+      "prompt": "طبق «ساندويتش ميلانيسا» مشهور في أي مقاطعة؟",
+      "choices": [
+        "تشاكو",
+        "سان لويس",
+        "سانتا في",
+        "توكومان"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "506a94e043ba",
+      "provinceSlug": "tucuman",
+      "category": "food",
+      "prompt": "طبق «إمبانادات توكومان» مشهور في أي مقاطعة؟",
+      "choices": [
+        "كوردوبا",
+        "توكومان",
+        "خوخوي",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "a6a6f8efc88c",
+      "provinceSlug": "tucuman",
+      "category": "food",
+      "prompt": "طبق «أوميتا توكومان» مشهور في أي مقاطعة؟",
+      "choices": [
+        "لا بامبا",
+        "كاتاماركا",
+        "بوينس آيرس",
+        "توكومان"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "c5f2226d8e3b",
+      "provinceSlug": "tucuman",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «البيت التاريخي للاستقلال (سان ميغيل دي توكومان)»؟",
+      "choices": [
+        "كورينتس",
+        "جزر فوكلاند (مالفيناس)",
+        "توكومان",
+        "مندوزا"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "cbd16a9b91ce",
+      "provinceSlug": "tucuman",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «تافي ديل بالي وسد لا أنغوستورا»؟",
+      "choices": [
+        "توكومان",
+        "تشاكو",
+        "ميسيونس",
+        "نيوكين"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "7cc3abb9628c",
+      "provinceSlug": "tucuman",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «أطلال كيلميس»؟",
+      "choices": [
+        "بوينس آيرس (المدينة المستقلة)",
+        "إنتري ريوس",
+        "لا ريوخا",
+        "توكومان"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "84f79102c415",
+      "provinceSlug": "tucuman",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «بيت الاستقلال»؟",
+      "choices": [
+        "تشوبوت",
+        "توكومان",
+        "كورينتس",
+        "مندوزا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "56a7111c4659",
+      "provinceSlug": "tucuman",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «صناعة السكر»؟",
+      "choices": [
+        "توكومان",
+        "سانتياغو ديل إستيرو",
+        "لا ريوخا",
+        "ريو نيغرو"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "70ef324568cf",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الفرّان الأحمر»؟",
+      "choices": [
+        "سان لويس",
+        "ريو نيغرو",
+        "كورينتس",
+        "بوينس آيرس (المدينة المستقلة)"
+      ],
+      "correctIndex": 3,
+      "explanation": "«الفرّان الأحمر» جزء من حيوانات بوينس آيرس (المدينة المستقلة)."
+    },
+    {
+      "id": "bc3c018c4d49",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الكيسكاديه الكبير»؟",
+      "choices": [
+        "تشاكو",
+        "بوينس آيرس (المدينة المستقلة)",
+        "كورينتس",
+        "سانتا في"
+      ],
+      "correctIndex": 1,
+      "explanation": "«الكيسكاديه الكبير» جزء من حيوانات بوينس آيرس (المدينة المستقلة)."
+    },
+    {
+      "id": "0231ca5774ae",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «تالا الضفاف»؟",
+      "choices": [
+        "إنتري ريوس",
+        "بوينس آيرس (المدينة المستقلة)",
+        "تشوبوت",
+        "سانتا كروز"
+      ],
+      "correctIndex": 1,
+      "explanation": "«تالا الضفاف» نبات مشهور في بوينس آيرس (المدينة المستقلة)."
+    },
+    {
+      "id": "c247fe76efb7",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «إسبينيّو الضفة»؟",
+      "choices": [
+        "بوينس آيرس (المدينة المستقلة)",
+        "سان لويس",
+        "بوينس آيرس",
+        "مندوزا"
+      ],
+      "correctIndex": 0,
+      "explanation": "«إسبينيّو الضفة» نبات مشهور في بوينس آيرس (المدينة المستقلة)."
+    },
+    {
+      "id": "2cf0f8016b0d",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «صفصاف كريولي ساحلي»؟",
+      "choices": [
+        "بوينس آيرس",
+        "بوينس آيرس (المدينة المستقلة)",
+        "كوردوبا",
+        "أرض النار"
+      ],
+      "correctIndex": 1,
+      "explanation": "«صفصاف كريولي ساحلي» نبات مشهور في بوينس آيرس (المدينة المستقلة)."
+    },
+    {
+      "id": "e965a08c2a64",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "food",
+      "prompt": "طبق «بيتزا بوينس آيرس» مشهور في أي مقاطعة؟",
+      "choices": [
+        "أرض النار",
+        "سان خوان",
+        "سالتا",
+        "بوينس آيرس (المدينة المستقلة)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "ad2e4dad90c0",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "food",
+      "prompt": "طبق «فوغاتسيتا محشوة» مشهور في أي مقاطعة؟",
+      "choices": [
+        "بوينس آيرس (المدينة المستقلة)",
+        "لا بامبا",
+        "كورينتس",
+        "بوينس آيرس"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "9da2b52a3f6b",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "food",
+      "prompt": "طبق «مثلجات حرفية» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سانتا في",
+        "بوينس آيرس (المدينة المستقلة)",
+        "فورموسا",
+        "ميسيونس"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "d14f2d870745",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «كامينيتو وحي لا بوكا»؟",
+      "choices": [
+        "فورموسا",
+        "بوينس آيرس (المدينة المستقلة)",
+        "سانتياغو ديل إستيرو",
+        "سالتا"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "81998f5d84ce",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «بلاثا دي مايو والكاتدرائية الكبرى»؟",
+      "choices": [
+        "سانتا في",
+        "خوخوي",
+        "جزر فوكلاند (مالفيناس)",
+        "بوينس آيرس (المدينة المستقلة)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "e8daf9f785d7",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «مسرح كولون وريكوليتا»؟",
+      "choices": [
+        "كورينتس",
+        "إنتري ريوس",
+        "بوينس آيرس (المدينة المستقلة)",
+        "سان خوان"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "ab67cedc1ff9",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «بلاثا دي مايو والحياة السياسية»؟",
+      "choices": [
+        "لا ريوخا",
+        "بوينس آيرس (المدينة المستقلة)",
+        "بوينس آيرس",
+        "تشوبوت"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "79e6f0724b1f",
+      "provinceSlug": "ciudad-autonoma-buenos-aires",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «الميناء والهجرة الجماعية»؟",
+      "choices": [
+        "توكومان",
+        "نيوكين",
+        "سان خوان",
+        "بوينس آيرس (المدينة المستقلة)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "1227b7531440",
+      "provinceSlug": "islas-malvinas",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «بطريق الصخور»؟",
+      "choices": [
+        "جزر فوكلاند (مالفيناس)",
+        "تشاكو",
+        "ريو نيغرو",
+        "سانتا كروز"
+      ],
+      "correctIndex": 0,
+      "explanation": "«بطريق الصخور» جزء من حيوانات جزر فوكلاند (مالفيناس)."
+    },
+    {
+      "id": "94106ac98d56",
+      "provinceSlug": "islas-malvinas",
+      "category": "fauna",
+      "prompt": "في أي مقاطعة يعيش هذا الحيوان: «القطرس أسود الحاجب»؟",
+      "choices": [
+        "أرض النار",
+        "جزر فوكلاند (مالفيناس)",
+        "ريو نيغرو",
+        "كوردوبا"
+      ],
+      "correctIndex": 1,
+      "explanation": "«القطرس أسود الحاجب» جزء من حيوانات جزر فوكلاند (مالفيناس)."
+    },
+    {
+      "id": "6627fb0a6675",
+      "provinceSlug": "islas-malvinas",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «عشبة توساك»؟",
+      "choices": [
+        "بوينس آيرس",
+        "إنتري ريوس",
+        "جزر فوكلاند (مالفيناس)",
+        "سانتياغو ديل إستيرو"
+      ],
+      "correctIndex": 2,
+      "explanation": "«عشبة توساك» نبات مشهور في جزر فوكلاند (مالفيناس)."
+    },
+    {
+      "id": "7cddd8299b0a",
+      "provinceSlug": "islas-malvinas",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «فسكيو أرض النار»؟",
+      "choices": [
+        "تشاكو",
+        "سانتا في",
+        "توكومان",
+        "جزر فوكلاند (مالفيناس)"
+      ],
+      "correctIndex": 3,
+      "explanation": "«فسكيو أرض النار» نبات مشهور في جزر فوكلاند (مالفيناس)."
+    },
+    {
+      "id": "eb9c7813776d",
+      "provinceSlug": "islas-malvinas",
+      "category": "flora",
+      "prompt": "في أي مقاطعة ينمو هذا النبات: «نباتات الوسائد»؟",
+      "choices": [
+        "جزر فوكلاند (مالفيناس)",
+        "خوخوي",
+        "أرض النار",
+        "توكومان"
+      ],
+      "correctIndex": 0,
+      "explanation": "«نباتات الوسائد» نبات مشهور في جزر فوكلاند (مالفيناس)."
+    },
+    {
+      "id": "cdd6182f3b46",
+      "provinceSlug": "islas-malvinas",
+      "category": "food",
+      "prompt": "طبق «فيش آند تشيبس» مشهور في أي مقاطعة؟",
+      "choices": [
+        "سان خوان",
+        "كاتاماركا",
+        "سانتا في",
+        "جزر فوكلاند (مالفيناس)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "829b7c959ca1",
+      "provinceSlug": "islas-malvinas",
+      "category": "food",
+      "prompt": "طبق «هيك محلي وأطعمة بحرية» مشهور في أي مقاطعة؟",
+      "choices": [
+        "إنتري ريوس",
+        "سالتا",
+        "توكومان",
+        "جزر فوكلاند (مالفيناس)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "e8067d5e7915",
+      "provinceSlug": "islas-malvinas",
+      "category": "food",
+      "prompt": "طبق «ضأن الجزر» مشهور في أي مقاطعة؟",
+      "choices": [
+        "كاتاماركا",
+        "جزر فوكلاند (مالفيناس)",
+        "سالتا",
+        "تشاكو"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "a8219ca82e06",
+      "provinceSlug": "islas-malvinas",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «بويرتو أرخنتينو/ستانلي وواجهتها المائية»؟",
+      "choices": [
+        "فورموسا",
+        "لا ريوخا",
+        "توكومان",
+        "جزر فوكلاند (مالفيناس)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "d5f0ac41cf98",
+      "provinceSlug": "islas-malvinas",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «مقبرة داروين»؟",
+      "choices": [
+        "بوينس آيرس",
+        "مندوزا",
+        "سان خوان",
+        "جزر فوكلاند (مالفيناس)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "8edf2e826564",
+      "provinceSlug": "islas-malvinas",
+      "category": "tourism",
+      "prompt": "في أي مقاطعة يقع «تل فولونتاريو / جبل لونغدون (مواقع تاريخية)»؟",
+      "choices": [
+        "تشاكو",
+        "ميسيونس",
+        "ريو نيغرو",
+        "جزر فوكلاند (مالفيناس)"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "a5b6ddcbf91f",
+      "provinceSlug": "islas-malvinas",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «الأطلسي الجنوبي الاستراتيجي»؟",
+      "choices": [
+        "جزر فوكلاند (مالفيناس)",
+        "إنتري ريوس",
+        "كورينتس",
+        "تشوبوت"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "b5eb04acb324",
+      "provinceSlug": "islas-malvinas",
+      "category": "history",
+      "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «ذاكرة 1982»؟",
+      "choices": [
+        "تشاكو",
+        "سانتا في",
+        "جزر فوكلاند (مالفيناس)",
+        "تشوبوت"
+      ],
+      "correctIndex": 2
     }
   ]
 };

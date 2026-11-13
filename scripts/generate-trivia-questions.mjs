@@ -10,7 +10,7 @@ import { createHash } from "node:crypto";
 import { resolveArgentinaZones } from "./lib/argentina-content.mjs";
 import { loadTsNamedExport } from "./lib/load-ts-export.mjs";
 
-const LOCALES = ["es", "en", "it"];
+const LOCALES = ["es", "en", "it", "ru", "ar"];
 const SOURCE = "es";
 
 const D = "src/data/provinces/content/";
@@ -89,41 +89,57 @@ const T = {
     es: (n) => `¿En qué provincia vive el ${n}?`,
     en: (n) => `In which province does this animal live: “${n}”?`,
     it: (n) => `In quale provincia vive questo animale: «${n}»?`,
+    ru: (n) => `В какой провинции обитает это животное: «${n}»?`,
+    ar: (n) => `في أي مقاطعة يعيش هذا الحيوان: «${n}»؟`,
   },
   faunaProvExp: {
     es: (n, z) => `El ${n} es parte de la fauna de ${z}.`,
     en: (n, z) => `“${n}” is part of the wildlife of ${z}.`,
     it: (n, z) => `«${n}» fa parte della fauna di ${z}.`,
+    ru: (n, z) => `«${n}» — часть фауны: ${z}.`,
+    ar: (n, z) => `«${n}» جزء من حيوانات ${z}.`,
   },
   floraProv: {
     es: (n) => `¿En qué provincia crece el ${n}?`,
     en: (n) => `In which province does this plant grow: “${n}”?`,
     it: (n) => `In quale provincia cresce questa pianta: «${n}»?`,
+    ru: (n) => `В какой провинции растёт это растение: «${n}»?`,
+    ar: (n) => `في أي مقاطعة ينمو هذا النبات: «${n}»؟`,
   },
   floraProvExp: {
     es: (n, z) => `El ${n} es flora representativa de ${z}.`,
     en: (n, z) => `“${n}” is a typical plant of ${z}.`,
     it: (n, z) => `«${n}» è una pianta tipica di ${z}.`,
+    ru: (n, z) => `«${n}» — типичное растение: ${z}.`,
+    ar: (n, z) => `«${n}» نبات مشهور في ${z}.`,
   },
   faunaWhich: {
     es: (z) => `¿Cuál de estos animales es de ${z}?`,
     en: (z) => `Which of these animals is from ${z}?`,
     it: (z) => `Quale di questi animali è di ${z}?`,
+    ru: (z) => `Какое из этих животных обитает в провинции ${z}?`,
+    ar: (z) => `أيّ هذه الحيوانات يعيش في ${z}؟`,
   },
   foodProv: {
     es: (n) => `¿En qué provincia es típico el plato "${n}"?`,
     en: (n) => `Which province is the dish “${n}” typical of?`,
     it: (n) => `Di quale provincia è tipico il piatto «${n}»?`,
+    ru: (n) => `Для какой провинции типично блюдо «${n}»?`,
+    ar: (n) => `طبق «${n}» مشهور في أي مقاطعة؟`,
   },
   tourismProv: {
     es: (n) => `¿En qué provincia está ${n}?`,
     en: (n) => `In which province is ${n}?`,
     it: (n) => `In quale provincia si trova ${n}?`,
+    ru: (n) => `В какой провинции находится «${n}»?`,
+    ar: (n) => `في أي مقاطعة يقع «${n}»؟`,
   },
   historyProv: {
     es: (s) => `¿A qué provincia corresponde este hecho histórico: "${s}"?`,
     en: (s) => `Which province does this historical fact belong to: “${s}”?`,
     it: (s) => `A quale provincia appartiene questo fatto storico: «${s}»?`,
+    ru: (s) => `К какой провинции относится этот исторический факт: «${s}»?`,
+    ar: (s) => `إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «${s}»؟`,
   },
 };
 
@@ -192,7 +208,7 @@ const file = `/** Generado por scripts/generate-trivia-questions.mjs — no edit
 import type { Locale } from "@/lib/i18n/locale";
 import type { TriviaQuestion } from "@/lib/trivia/types";
 
-export const TRIVIA_QUESTIONS: Record<Locale, TriviaQuestion[]> = ${JSON.stringify(out, null, 2)};
+export const TRIVIA_QUESTIONS: Partial<Record<Locale, TriviaQuestion[]>> = ${JSON.stringify(out, null, 2)};
 `;
 writeFileSync("src/data/trivia/trivia-questions.generated.ts", file, "utf8");
 console.log(`OK: ${uniquePlan.length} preguntas x ${LOCALES.length} idiomas → src/data/trivia/trivia-questions.generated.ts`);

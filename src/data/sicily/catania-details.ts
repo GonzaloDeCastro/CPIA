@@ -4,7 +4,16 @@
  */
 import type { Locale } from "@/lib/i18n/locale";
 
-export type L10n = Record<Locale, string>;
+import { CATANIA_DETAILS_TR } from "./catania-details.i18n";
+
+/** es/en/it siempre existen; ru/ar se completan desde catania-details.i18n.ts. */
+export type L10n = Record<"es" | "en" | "it", string> &
+  Partial<Record<"ru" | "ar", string>>;
+
+/** Texto en el idioma pedido; si falta, cae al inglés. */
+export function tx(text: L10n, locale: Locale): string {
+  return text[locale] ?? text.en;
+}
 
 export type CataniaDetailSection = {
   heading: L10n;
@@ -250,6 +259,24 @@ const CITY: CataniaDetail = {
 };
 
 export const CATANIA_DETAILS: CataniaDetail[] = [CITY, TREE];
+
+for (const detail of CATANIA_DETAILS) {
+  for (const loc of ["ru", "ar"] as const) {
+    const tr = CATANIA_DETAILS_TR[loc][detail.slug];
+    detail.title[loc] = tr.title;
+    detail.intro[loc] = tr.intro;
+    detail.heroAlt[loc] = tr.heroAlt;
+    detail.facts.forEach((f, i) => {
+      f.label[loc] = tr.facts[i].label;
+      f.value[loc] = tr.facts[i].value;
+    });
+    detail.sections.forEach((sec, i) => {
+      sec.heading[loc] = tr.sections[i].heading;
+      sec.body[loc] = tr.sections[i].body;
+      if (sec.alt && tr.sections[i].alt) sec.alt[loc] = tr.sections[i].alt;
+    });
+  }
+}
 
 export function getCataniaDetail(slug: string): CataniaDetail | undefined {
   return CATANIA_DETAILS.find((d) => d.slug === slug);

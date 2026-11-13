@@ -134,8 +134,87 @@ export const TRIVIA_COPY_EN: TriviaCopy = {
   },
 };
 
-export const TRIVIA_COPY: Record<"es" | "en" | "it", TriviaCopy> = {
+
+function ruPlural(n: number, one: string, few: string, many: string): string {
+  const m10 = n % 10;
+  const m100 = n % 100;
+  if (m10 === 1 && m100 !== 11) return one;
+  if (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) return few;
+  return many;
+}
+
+export const TRIVIA_COPY_RU: TriviaCopy = {
+  title: "Викторина по регионам",
+  subtitle: "Случайные вопросы о растениях, животных, еде, местах и истории.",
+  lobbyTitle: "Кто играет?",
+  lobbyHint: "От 1 до 4 игроков за одним экраном. В каждом ходе новый вопрос.",
+  playerCount: "Количество игроков",
+  playerLabel: (n) => `Игрок ${n}`,
+  playerPlaceholder: (n) => `Имя игрока ${n}`,
+  questionsPerPlayer: "Вопросов на игрока",
+  questionsOption: (n) => `${n} ${ruPlural(n, "вопрос", "вопроса", "вопросов")}`,
+  errorNames: "Напиши имя каждого игрока.",
+  errorDuplicates: "Имена должны быть разными.",
+  start: "Начать викторину!",
+  handoff: (name) => `Ход игрока ${name}!`,
+  turn: (n, total) => `Ход ${n} из ${total}`,
+  time: (s) => `Время: ${s} с`,
+  turnOf: (name) => `Ход игрока ${name}`,
+  correct: (s) => `Верно! +1 очко (${s} с)`,
+  wrong: "Почти! Правильный ответ:",
+  scores: "Очки",
+  points: (n) => `${n} ${ruPlural(n, "очко", "очка", "очков")}`,
+  tie: "Ничья! Победители",
+  winner: "Победитель!",
+  prize: (label) => `Приз: ${label}. Скачай свой сертификат с иллюстрацией.`,
+  download: (name) => `Скачать карточку: ${name}`,
+  playAgain: "Играть снова",
+  back: "Вернуться к карте",
+  certificate: {
+    headline: "Ты победил!",
+    points: (n) => `${n} ${ruPlural(n, "очко", "очка", "очков")} в Mapa Jugar`,
+    footer: "Исследуй мир с Mapa Jugar",
+  },
+};
+
+export const TRIVIA_COPY_AR: TriviaCopy = {
+  title: "مسابقة المناطق",
+  subtitle: "أسئلة عشوائية عن النباتات والحيوانات والطعام والأماكن والتاريخ.",
+  lobbyTitle: "من سيلعب؟",
+  lobbyHint: "من لاعب إلى 4 لاعبين على الشاشة نفسها. في كل دور سؤال جديد.",
+  playerCount: "عدد اللاعبين",
+  playerLabel: (n) => `اللاعب ${n}`,
+  playerPlaceholder: (n) => `اسم اللاعب ${n}`,
+  questionsPerPlayer: "عدد الأسئلة لكل لاعب",
+  questionsOption: (n) => `${n} أسئلة`,
+  errorNames: "اكتب اسم كل لاعب.",
+  errorDuplicates: "يجب أن تكون الأسماء مختلفة.",
+  start: "ابدأ المسابقة!",
+  handoff: (name) => `حان دور ${name}!`,
+  turn: (n, total) => `الدور ${n} من ${total}`,
+  time: (s) => `الوقت: ${s} ث`,
+  turnOf: (name) => `دور ${name}`,
+  correct: (s) => `إجابة صحيحة! +1 نقطة (${s} ث)`,
+  wrong: "تقريبًا! الإجابة الصحيحة كانت:",
+  scores: "النقاط",
+  points: (n) => `${n} نقطة`,
+  tie: "تعادل! الفائزون",
+  winner: "الفائز!",
+  prize: (label) => `الجائزة: ${label}. حمّل شهادتك مع الرسم التوضيحي.`,
+  download: (name) => `تحميل بطاقة ${name}`,
+  playAgain: "العب مرة أخرى",
+  back: "العودة إلى الخريطة",
+  certificate: {
+    headline: "لقد فزت!",
+    points: (n) => `${n} نقطة في Mapa Jugar`,
+    footer: "استكشف العالم مع Mapa Jugar",
+  },
+};
+
+export const TRIVIA_COPY: Record<"es" | "en" | "it" | "ru" | "ar", TriviaCopy> = {
   es: TRIVIA_COPY_ES,
   en: TRIVIA_COPY_EN,
   it: TRIVIA_COPY_IT,
+  ru: TRIVIA_COPY_RU,
+  ar: TRIVIA_COPY_AR,
 };

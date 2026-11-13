@@ -112,3 +112,17 @@ body {
   outline: 3px solid var(--ring-focus);
   outline-offset: 2px;
 }
+
+
+/* Árabe: fuente propia y escritura de derecha a izquierda */
+html[lang="ar"] {
+  --font-sans: var(--font-cairo), var(--font-nunito), ui-sans-serif, system-ui,
+    sans-serif;
+  --font-display: var(--font-cairo), var(--font-nunito), ui-sans-serif,
+    system-ui, sans-serif;
+}
+
+/* Los textos alineados "a la izquierda" pasan a alinearse al inicio de la línea (derecha en RTL). */
+html[dir="rtl"] .text-left {
+  text-align: right;
+}

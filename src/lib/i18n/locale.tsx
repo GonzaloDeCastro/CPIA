@@ -12,23 +12,25 @@ import {
 
 import { UI, type UiCopy } from "./ui";
 
-export type Locale = "es" | "en" | "it";
+export type Locale = "es" | "en" | "it" | "ru" | "ar";
 
 export const LOCALES: { id: Locale; label: string; flag: string; name: string }[] = [
   { id: "es", label: "ES", flag: "🇦🇷", name: "Español" },
   { id: "en", label: "EN", flag: "🇬🇧", name: "English" },
   { id: "it", label: "IT", flag: "🇮🇹", name: "Italiano" },
+  { id: "ru", label: "RU", flag: "🇷🇺", name: "Русский" },
+  { id: "ar", label: "AR", flag: "🇸🇦", name: "العربية" },
 ];
 
 const STORAGE_KEY = "mapajugar-locale";
-const HTML_LANG: Record<Locale, string> = { es: "es-AR", en: "en", it: "it" };
+const HTML_LANG: Record<Locale, string> = { es: "es-AR", en: "en", it: "it", ru: "ru", ar: "ar" };
 
 type Ctx = { locale: Locale; setLocale: (l: Locale) => void };
 
 const LocaleContext = createContext<Ctx>({ locale: "es", setLocale: () => {} });
 
 function isLocale(v: unknown): v is Locale {
-  return v === "es" || v === "en" || v === "it";
+  return v === "es" || v === "en" || v === "it" || v === "ru" || v === "ar";
 }
 
 export function LocaleProvider({ children }: { children: ReactNode }) {
@@ -45,6 +47,7 @@ export function LocaleProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     document.documentElement.lang = HTML_LANG[locale];
+    document.documentElement.dir = locale === "ar" ? "rtl" : "ltr";
   }, [locale]);
 
   const setLocale = useCallback((l: Locale) => {
