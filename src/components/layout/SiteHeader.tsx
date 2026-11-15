@@ -3,14 +3,17 @@
 import Link from "next/link";
 import { useState } from "react";
 
-import { useUi } from "@/lib/i18n/locale";
+import { GUIDA_COPY } from "@/lib/guida/copy";
+import { useLocale, useUi } from "@/lib/i18n/locale";
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
   const ui = useUi();
+  const { locale } = useLocale();
   const NAV_LINKS = [
     { href: "/mapa", label: ui.nav.map },
     { href: "/trivia", label: ui.nav.trivia },
+    { href: "/guida", label: GUIDA_COPY[locale].nav },
   ];
 
   return (
@@ -26,7 +29,12 @@ export function SiteHeader() {
           className="hidden items-center gap-1 sm:flex"
           aria-label={ui.nav.main}
         >
-  
+          <Link
+            href="/guida"
+            className="inline-flex min-h-12 items-center rounded-full px-4 text-sm font-bold text-white hover:bg-white/15"
+          >
+            {GUIDA_COPY[locale].nav}
+          </Link>
           <Link
             href="/mapa"
             className="ms-1 inline-flex min-h-12 items-center rounded-full bg-sun px-5 py-2.5 text-center text-sm font-extrabold text-sun-ink shadow-[var(--shadow-card)] transition-[filter] hover:brightness-110"
