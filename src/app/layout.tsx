@@ -2,8 +2,6 @@
 import { Cairo, Fredoka, Nunito } from "next/font/google";
 
 import { LanguageSelector } from "@/components/layout/LanguageSelector";
-import { DonationHint } from "@/components/donation/DonationHint";
-import { getDonationConfig } from "@/lib/config/donation";
 import { LocaleProvider } from "@/lib/i18n/locale";
 
 import "./globals.css";
@@ -68,8 +66,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const donation = getDonationConfig();
-
   return (
     <html lang="es-AR" suppressHydrationWarning>
       <body
@@ -80,12 +76,6 @@ export default function RootLayout({
           {children}
           <LanguageSelector />
         </LocaleProvider>
-        {donation.enabled ? (
-          <DonationHint
-            paypalUrl={donation.paypalUrl || undefined}
-            qrPath={donation.qrPath}
-          />
-        ) : null}
       </body>
     </html>
   );

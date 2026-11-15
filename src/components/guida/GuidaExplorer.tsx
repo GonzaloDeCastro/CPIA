@@ -25,7 +25,7 @@ export function GuidaExplorer() {
 
   const [filter, setFilter] = useState<GuidaCategory | "all">("all");
   const [selectedId, setSelectedId] = useState<string | null>(null);
-  const [tab, setTab] = useState<Tab>("simple");
+  const [tab, setTab] = useState<Tab | null>(null);
   const [speaking, setSpeaking] = useState(false);
 
   const mapEl = useRef<HTMLDivElement>(null);
@@ -83,7 +83,7 @@ export function GuidaExplorer() {
         L.marker([p.lat, p.lng], { icon, title: p.name, keyboard: true })
           .on("click", () => {
             setSelectedId(p.id);
-            setTab("simple");
+            setTab(null);
           })
           .addTo(layer);
       }
@@ -105,8 +105,10 @@ export function GuidaExplorer() {
     };
   }, [selectedId, tab, locale]);
   useEffect(() => setSpeaking(false), [selectedId, tab, locale]);
+  useEffect(() => setTab(null), [locale]);
 
-  const activeTab: Tab = tab === "mine" && locale === "it" ? "simple" : tab;
+  // Por defecto se lee en el idioma elegido; el italiano fácil queda en su pestaña.
+  const activeTab: Tab = tab === null || (tab === "mine" && locale === "it") ? (locale === "it" ? "simple" : "mine") : tab;
 
   function textFor(p: GuidaPlace): { text: string; lang: Locale } {
     if (activeTab === "simple") return { text: p.text.it, lang: "it" };
@@ -132,8 +134,8 @@ export function GuidaExplorer() {
   }
 
   const tabs: { id: Tab; label: string }[] = [
-    { id: "simple", label: copy.tabs.simple },
     ...(locale === "it" ? [] : [{ id: "mine" as Tab, label: copy.tabs.mine }]),
+    { id: "simple", label: copy.tabs.simple },
     { id: "info", label: copy.tabs.info },
   ];
 
@@ -229,7 +231,7 @@ export function GuidaExplorer() {
               type="button"
               onClick={() => {
                 setSelectedId(p.id);
-                setTab("simple");
+                setTab(null);
               }}
               className={`flex min-h-12 w-full items-center gap-3 rounded-xl border-2 bg-green-900 px-3 text-start text-green-50 ${
                 p.id === selectedId ? "border-lime-300" : "border-green-700 hover:border-green-400"
