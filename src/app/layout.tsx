@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+﻿import type { Metadata, Viewport } from "next";
 import { Cairo, Fredoka, Nunito } from "next/font/google";
 
 import { LanguageSelector } from "@/components/layout/LanguageSelector";
@@ -36,7 +36,7 @@ const siteUrl = `${siteUrlRaw.replace(/\/$/, "")}/`;
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Mapa Jugar — Explorá Argentina, Italia y Sicilia",
+    default: "Mapa Jugar â€” ExplorÃ¡ Argentina, Italia y Sicilia",
     template: "%s | Mapa Jugar",
   },
   description:
@@ -48,15 +48,15 @@ export const metadata: Metadata = {
     locale: "es_AR",
     url: "/",
     siteName: "Mapa Jugar",
-    title: "Mapa Jugar — Explorá Argentina, Italia y Sicilia",
+    title: "Mapa Jugar â€” ExplorÃ¡ Argentina, Italia y Sicilia",
     description:
-      "Descubrí Argentina, Italia y Sicilia jugando con el mapa: flora, fauna, sabores y destinos.",
+      "DescubrÃ­ Argentina, Italia y Sicilia jugando con el mapa: flora, fauna, sabores y destinos.",
   },
 };
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#0f3d5c" },
+    { media: "(prefers-color-scheme: light)", color: "#14532d" },
     { media: "(prefers-color-scheme: dark)", color: "#0c2438" },
   ],
   width: "device-width",

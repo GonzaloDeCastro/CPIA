@@ -10,8 +10,8 @@ import { GUIDA_COPY, SPEECH_LANG } from "@/lib/guida/copy";
 import { useLocale, type Locale } from "@/lib/i18n/locale";
 
 const CATEGORY_COLOR: Record<GuidaCategory, string> = {
-  sport: "#c2410c",
-  arte: "#6d28d9",
+  sport: "#15803d",
+  arte: "#4d7c0f",
   benessere: "#0f766e",
 };
 const CATEGORIES: GuidaCategory[] = ["sport", "arte", "benessere"];
@@ -139,13 +139,13 @@ export function GuidaExplorer() {
 
   const chip = (active: boolean) =>
     `min-h-11 rounded-full border-2 px-4 text-sm font-bold transition-colors ${
-      active ? "border-slate-900 bg-slate-900 text-white" : "border-slate-300 bg-white text-slate-900 hover:border-slate-900"
+      active ? "border-lime-300 bg-lime-300 text-green-950" : "border-green-600 bg-green-800 text-green-50 hover:border-lime-300"
     }`;
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
-      <h1 className="font-display text-2xl font-extrabold text-slate-900 sm:text-3xl">{copy.title}</h1>
-      <p className="mt-1 text-base text-slate-700">{copy.subtitle}</p>
+      <h1 className="font-display text-2xl font-extrabold text-heading sm:text-3xl">{copy.title}</h1>
+      <p className="mt-1 text-base text-foreground-muted">{copy.subtitle}</p>
 
       <div className="mt-4 flex flex-wrap items-center gap-2" role="group">
         <button type="button" className={chip(filter === "all")} aria-pressed={filter === "all"} onClick={() => setFilter("all")}>
@@ -157,27 +157,27 @@ export function GuidaExplorer() {
             {copy.categories[c]}
           </button>
         ))}
-        <span className="ms-auto text-sm font-semibold text-slate-700">{copy.places(visible.length)}</span>
+        <span className="ms-auto text-sm font-semibold text-foreground-muted">{copy.places(visible.length)}</span>
       </div>
 
       <div className="mt-4 grid gap-4 lg:grid-cols-[1.4fr_1fr]">
         <div
           ref={mapEl}
-          className="h-[360px] w-full overflow-hidden rounded-2xl border border-slate-300 sm:h-[480px]"
+          className="h-[360px] w-full overflow-hidden rounded-2xl border border-green-700 sm:h-[480px]"
           role="application"
           aria-label={copy.title}
           dir="ltr"
         />
 
-        <section className="rounded-2xl border border-slate-300 bg-white p-4 text-slate-900" aria-live="polite">
+        <section className="rounded-2xl border border-green-700 bg-green-950 p-4 text-green-50" aria-live="polite">
           {selected ? (
             <>
-              <p className="text-sm font-bold" style={{ color: CATEGORY_COLOR[selected.category] }}>
+              <p className="text-sm font-bold text-lime-300">
                 {copy.categories[selected.category]} · {selected.town}
               </p>
-              <h2 className="font-display text-xl font-extrabold">{selected.name}</h2>
+              <h2 className="font-display text-xl font-extrabold text-white">{selected.name}</h2>
               {selected.isExample ? (
-                <p className="mt-1 inline-block rounded-md bg-amber-100 px-2 py-1 text-sm font-semibold text-amber-900">
+                <p className="mt-1 inline-block rounded-md bg-amber-200 px-2 py-1 text-sm font-semibold text-amber-950">
                   {copy.example}
                 </p>
               ) : null}
@@ -206,7 +206,7 @@ export function GuidaExplorer() {
                     </p>
                     <button
                       type="button"
-                      className="mt-3 min-h-12 rounded-full bg-sky-deep px-5 text-base font-extrabold text-white hover:brightness-110"
+                      className="mt-3 min-h-12 rounded-full bg-lime-300 px-5 text-base font-extrabold text-green-950 hover:brightness-110"
                       onClick={() => toggleAudio(text, lang)}
                       aria-pressed={speaking}
                     >
@@ -217,7 +217,7 @@ export function GuidaExplorer() {
               })()}
             </>
           ) : (
-            <p className="text-base text-slate-700">{copy.pickPlace}</p>
+            <p className="text-base text-green-200">{copy.pickPlace}</p>
           )}
         </section>
       </div>
@@ -231,8 +231,8 @@ export function GuidaExplorer() {
                 setSelectedId(p.id);
                 setTab("simple");
               }}
-              className={`flex min-h-12 w-full items-center gap-3 rounded-xl border-2 bg-white px-3 text-start text-slate-900 ${
-                p.id === selectedId ? "border-slate-900" : "border-slate-200 hover:border-slate-500"
+              className={`flex min-h-12 w-full items-center gap-3 rounded-xl border-2 bg-green-900 px-3 text-start text-green-50 ${
+                p.id === selectedId ? "border-lime-300" : "border-green-700 hover:border-green-400"
               }`}
             >
               <span aria-hidden className="h-4 w-4 shrink-0 rounded-full" style={{ background: CATEGORY_COLOR[p.category] }} />

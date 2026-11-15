@@ -2,47 +2,47 @@
 
 :root {
   /* Fondos y superficies */
-  --background: #e8f4fc;
+  --background: #e6f4ea;
   --background-warm: #fff8e7;
-  --foreground: #1a2e3b;
-  --foreground-muted: #4a6572;
+  --foreground: #12301f;
+  --foreground-muted: #3f6150;
   --surface: rgba(255, 255, 255, 0.92);
   --surface-elevated: #ffffff;
 
   /* Marca / acentos */
-  --sky-deep: #0f3d5c;
+  --sky-deep: #14532d;
   /* Títulos y textos que antes usaban sky-deep: más claros y legibles */
-  --heading-text: #156f94;
-  --text-on-sun: #0a3048;
-  --water: #1e88e5;
+  --heading-text: #166534;
+  --text-on-sun: #14301f;
+  --water: #2f9e6e;
   --pampa: #7cb342;
   --forest: #2e7d57;
   --sun: #f9a825;
   --terracotta: #f4511e;
-  --celeste: #4fc3f7;
+  --celeste: #86efac;
   --earth: #f5efe6;
 
   /* Mapa SVG */
   --map-stroke: rgba(255, 255, 255, 0.72);
-  --map-shadow: 0 12px 40px rgba(15, 61, 92, 0.12);
+  --map-shadow: 0 12px 40px rgba(20, 83, 45, 0.14);
 
   /* Interacción */
-  --ring-focus: #4fc3f7;
-  --shadow-card: 0 8px 24px rgba(15, 61, 92, 0.08);
-  --shadow-elevated: 0 12px 32px rgba(15, 61, 92, 0.12);
+  --ring-focus: #86efac;
+  --shadow-card: 0 8px 24px rgba(20, 83, 45, 0.10);
+  --shadow-elevated: 0 12px 32px rgba(20, 83, 45, 0.14);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0c2438;
-    --background-warm: #132f45;
+    --background: #0b2a1a;
+    --background-warm: #123a25;
     --foreground: #f8fafc;
-    --foreground-muted: #94b8cc;
-    --heading-text: #7dd3fc;
-    --text-on-sun: #0c2438;
-    --surface: rgba(19, 47, 69, 0.85);
-    --surface-elevated: #153a52;
-    --earth: #1a3344;
+    --foreground-muted: #a7d4b8;
+    --heading-text: #86efac;
+    --text-on-sun: #0b2a1a;
+    --surface: rgba(18, 58, 37, 0.88);
+    --surface-elevated: #14472c;
+    --earth: #1b4a30;
     --map-stroke: rgba(255, 255, 255, 0.35);
     --shadow-card: 0 8px 28px rgba(0, 0, 0, 0.25);
     --shadow-elevated: 0 14px 36px rgba(0, 0, 0, 0.35);
