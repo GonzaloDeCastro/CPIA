@@ -126,3 +126,27 @@ html[lang="ar"] {
 html[dir="rtl"] .text-left {
   text-align: right;
 }
+
+/* Modo alto contraste de la guía */
+html.guida-hc {
+  --background: #000000;
+  --foreground: #ffffff;
+  --foreground-muted: #ffffff;
+  --heading-text: #ffe600;
+}
+html.guida-hc body {
+  background: #000;
+}
+html.guida-hc .bg-green-950,
+html.guida-hc .bg-green-900,
+html.guida-hc .bg-green-800 {
+  background-color: #000 !important;
+  border-color: #fff !important;
+}
+html.guida-hc .text-lime-300 {
+  color: #ffe600 !important;
+}
+html.guida-hc .bg-lime-300 {
+  background-color: #ffe600 !important;
+  color: #000 !important;
+}

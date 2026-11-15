@@ -3,10 +3,12 @@
 import "leaflet/dist/leaflet.css";
 
 import type { Map as LeafletMap, LayerGroup } from "leaflet";
+import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 import { approvedPlaces, type GuidaCategory, type GuidaPlace } from "@/data/guida/places";
 import { GUIDA_COPY, SPEECH_LANG } from "@/lib/guida/copy";
+import { EXTRAS_COPY, GUIDA_ROUTES, PHRASES } from "@/lib/guida/extras";
 import { useLocale, type Locale } from "@/lib/i18n/locale";
 
 const CATEGORY_COLOR: Record<GuidaCategory, string> = {
@@ -26,16 +28,25 @@ export function GuidaExplorer() {
   const [filter, setFilter] = useState<GuidaCategory | "all">("all");
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [tab, setTab] = useState<Tab | null>(null);
-  const [speaking, setSpeaking] = useState(false);
+  const [speakingKey, setSpeakingKey] = useState<string | null>(null);
+  const speaking = speakingKey === "place";
+  const [routeId, setRouteId] = useState<string | null>(null);
+  const [bigText, setBigText] = useState(false);
+  const [contrast, setContrast] = useState(false);
+  const extras = EXTRAS_COPY[locale];
 
   const mapEl = useRef<HTMLDivElement>(null);
   const mapRef = useRef<LeafletMap | null>(null);
   const layerRef = useRef<LayerGroup | null>(null);
   const [mapReady, setMapReady] = useState(false);
 
+  const route = GUIDA_ROUTES.find((r) => r.id === routeId) ?? null;
   const visible = useMemo(
-    () => places.filter((p) => filter === "all" || p.category === filter),
-    [places, filter],
+    () =>
+      places.filter(
+        (p) => (filter === "all" || p.category === filter) && (!route || route.placeIds.includes(p.id)),
+      ),
+    [places, filter, route],
   );
   const selected = places.find((p) => p.id === selectedId) ?? null;
 
@@ -87,11 +98,21 @@ export function GuidaExplorer() {
           })
           .addTo(layer);
       }
+      if (route) {
+        const pts = route.placeIds
+          .map((id) => visible.find((p) => p.id === id))
+          .filter((p): p is GuidaPlace => Boolean(p))
+          .map((p) => [p.lat, p.lng] as [number, number]);
+        if (pts.length > 1) {
+          L.polyline(pts, { color: "#bef264", weight: 4, dashArray: "8 8", opacity: 0.95 }).addTo(layer);
+        }
+        if (pts.length > 0 && mapRef.current) mapRef.current.fitBounds(L.latLngBounds(pts), { padding: [60, 60], maxZoom: 13 });
+      }
     })();
     return () => {
       cancelled = true;
     };
-  }, [mapReady, visible, selectedId, copy]);
+  }, [mapReady, visible, selectedId, copy, route]);
 
   // Centra el mapa en la ficha elegida.
   useEffect(() => {
@@ -104,7 +125,36 @@ export function GuidaExplorer() {
       if (typeof window !== "undefined" && "speechSynthesis" in window) window.speechSynthesis.cancel();
     };
   }, [selectedId, tab, locale]);
-  useEffect(() => setSpeaking(false), [selectedId, tab, locale]);
+  useEffect(() => setSpeakingKey(null), [selectedId, tab, locale]);
+
+  // Accesibilidad: preferencias guardadas en el navegador (si hay storage).
+  useEffect(() => {
+    try {
+      setBigText(window.localStorage.getItem("guida-big") === "1");
+      setContrast(window.localStorage.getItem("guida-hc") === "1");
+    } catch {
+      /* sin storage */
+    }
+  }, []);
+  useEffect(() => {
+    const root = document.documentElement;
+    root.style.fontSize = bigText ? "125%" : "";
+    root.classList.toggle("guida-hc", contrast);
+    return () => {
+      root.style.fontSize = "";
+      root.classList.remove("guida-hc");
+    };
+  }, [bigText, contrast]);
+  function toggleA11y(kind: "big" | "hc") {
+    const next = kind === "big" ? !bigText : !contrast;
+    if (kind === "big") setBigText(next);
+    else setContrast(next);
+    try {
+      window.localStorage.setItem(kind === "big" ? "guida-big" : "guida-hc", next ? "1" : "0");
+    } catch {
+      /* ignorar */
+    }
+  }
   useEffect(() => setTab(null), [locale]);
 
   // Por defecto se lee en el idioma elegido; el italiano fácil queda en su pestaña.
@@ -116,21 +166,21 @@ export function GuidaExplorer() {
     return { text: p.practical[locale], lang: locale };
   }
 
-  function toggleAudio(text: string, lang: Locale) {
+  function toggleAudio(key: string, text: string, lang: Locale) {
     if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
     const synth = window.speechSynthesis;
-    if (speaking) {
+    if (speakingKey === key) {
       synth.cancel();
-      setSpeaking(false);
+      setSpeakingKey(null);
       return;
     }
     const u = new SpeechSynthesisUtterance(text);
     u.lang = SPEECH_LANG[lang];
-    u.onend = () => setSpeaking(false);
-    u.onerror = () => setSpeaking(false);
+    u.onend = () => setSpeakingKey(null);
+    u.onerror = () => setSpeakingKey(null);
     synth.cancel();
     synth.speak(u);
-    setSpeaking(true);
+    setSpeakingKey(key);
   }
 
   const tabs: { id: Tab; label: string }[] = [
@@ -145,9 +195,20 @@ export function GuidaExplorer() {
     }`;
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
+    <div className="mx-auto max-w-6xl px-4 pb-28 pt-6 sm:px-6">
       <h1 className="font-display text-2xl font-extrabold text-heading sm:text-3xl">{copy.title}</h1>
       <p className="mt-1 text-base text-foreground-muted">{copy.subtitle}</p>
+      <div className="mt-3 flex flex-wrap items-center gap-2" role="group" aria-label={extras.a11y.label}>
+        <button type="button" className={chip(bigText)} aria-pressed={bigText} onClick={() => toggleA11y("big")}>
+          Aa {extras.a11y.bigText}
+        </button>
+        <button type="button" className={chip(contrast)} aria-pressed={contrast} onClick={() => toggleA11y("hc")}>
+          ◐ {extras.a11y.contrast}
+        </button>
+        <Link href="/guida/progetto" className="ms-auto inline-flex min-h-11 items-center rounded-full bg-lime-300 px-4 text-sm font-extrabold text-green-950 hover:brightness-110">
+          {extras.projectLink} →
+        </Link>
+      </div>
 
       <div className="mt-4 flex flex-wrap items-center gap-2" role="group">
         <button type="button" className={chip(filter === "all")} aria-pressed={filter === "all"} onClick={() => setFilter("all")}>
@@ -160,6 +221,28 @@ export function GuidaExplorer() {
           </button>
         ))}
         <span className="ms-auto text-sm font-semibold text-foreground-muted">{copy.places(visible.length)}</span>
+      </div>
+
+      <div className="mt-2 flex flex-wrap items-center gap-2" role="group" aria-label={extras.routes}>
+        <span className="text-sm font-bold text-heading">{extras.routes}:</span>
+        <button type="button" className={chip(routeId === null)} aria-pressed={routeId === null} onClick={() => setRouteId(null)}>
+          {extras.allRoutes}
+        </button>
+        {GUIDA_ROUTES.map((r) => (
+          <button
+            key={r.id}
+            type="button"
+            className={chip(routeId === r.id)}
+            aria-pressed={routeId === r.id}
+            onClick={() => {
+              setRouteId(r.id);
+              setFilter("all");
+              setSelectedId(null);
+            }}
+          >
+            {r.name[locale]}
+          </button>
+        ))}
       </div>
 
       <div className="mt-4 grid gap-4 lg:grid-cols-[1.4fr_1fr]">
@@ -209,11 +292,19 @@ export function GuidaExplorer() {
                     <button
                       type="button"
                       className="mt-3 min-h-12 rounded-full bg-lime-300 px-5 text-base font-extrabold text-green-950 hover:brightness-110"
-                      onClick={() => toggleAudio(text, lang)}
+                      onClick={() => toggleAudio("place", text, lang)}
                       aria-pressed={speaking}
                     >
                       {speaking ? `■ ${copy.stop}` : `▶ ${copy.listen}`}
                     </button>
+                    <a
+                      href={`https://www.openstreetmap.org/directions?to=${selected.lat}%2C${selected.lng}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ms-2 mt-3 inline-flex min-h-12 items-center rounded-full border-2 border-lime-300 px-5 text-base font-extrabold text-lime-300 hover:bg-green-900"
+                    >
+                      ➜ {extras.directions}
+                    </a>
                   </>
                 );
               })()}
@@ -240,6 +331,32 @@ export function GuidaExplorer() {
               <span aria-hidden className="h-4 w-4 shrink-0 rounded-full" style={{ background: CATEGORY_COLOR[p.category] }} />
               <span className="text-sm font-bold">{p.name}</span>
             </button>
+          </li>
+        ))}
+      </ul>
+
+      <h2 className="mt-8 font-display text-2xl font-extrabold text-heading">{extras.phrasesTitle}</h2>
+      <p className="mt-1 text-sm text-foreground-muted">{extras.phrasesHint}</p>
+      <ul className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {PHRASES.map((ph) => (
+          <li key={ph.it} className="flex items-start gap-3 rounded-2xl border border-green-700 bg-green-950 p-4 text-green-50">
+            <button
+              type="button"
+              className="min-h-12 min-w-12 shrink-0 rounded-full bg-lime-300 text-lg font-extrabold text-green-950 hover:brightness-110"
+              aria-label={`${copy.listen}: ${ph.it}`}
+              aria-pressed={speakingKey === ph.it}
+              onClick={() => toggleAudio(ph.it, ph.it, "it")}
+            >
+              {speakingKey === ph.it ? "■" : "▶"}
+            </button>
+            <div>
+              <p className="text-lg font-extrabold text-white" lang="it">{ph.it}</p>
+              {locale !== "it" ? (
+                <p className="mt-1 text-base text-green-100" lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
+                  {ph.tr[locale]}
+                </p>
+              ) : null}
+            </div>
           </li>
         ))}
       </ul>

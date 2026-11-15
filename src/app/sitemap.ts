@@ -65,6 +65,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     { url: `${base}/guida/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/guida/progetto/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
     {
       url: `${base}/mapa/`,
