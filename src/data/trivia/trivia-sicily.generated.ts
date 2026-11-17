@@ -10,12 +10,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Cernícalo primilla»?",
       "choices": [
+        "Palermo",
         "Agrigento",
-        "Ragusa",
-        "Catania",
-        "Caltanissetta"
+        "Enna",
+        "Siracusa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Cernícalo primilla» forma parte de la fauna de Agrigento."
     },
     {
@@ -24,12 +24,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Tortuga marina»?",
       "choices": [
+        "Palermo",
         "Catania",
-        "Enna",
-        "Agrigento",
-        "Palermo"
+        "Trapani",
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Tortuga marina» forma parte de la fauna de Agrigento."
     },
     {
@@ -38,12 +38,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Gaviota de Audouin»?",
       "choices": [
-        "Mesina",
         "Agrigento",
-        "Trapani",
-        "Palermo"
+        "Caltanissetta",
+        "Palermo",
+        "Trapani"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Gaviota de Audouin» forma parte de la fauna de Agrigento."
     },
     {
@@ -52,12 +52,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Almendro»?",
       "choices": [
+        "Ragusa",
+        "Mesina",
         "Palermo",
-        "Catania",
-        "Agrigento",
-        "Enna"
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Almendro» es una planta típica de Agrigento."
     },
     {
@@ -67,9 +67,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "¿En qué provincia crece esta planta: «Chumbera»?",
       "choices": [
         "Agrigento",
-        "Ragusa",
         "Enna",
-        "Palermo"
+        "Caltanissetta",
+        "Siracusa"
       ],
       "correctIndex": 0,
       "explanation": "«Chumbera» es una planta típica de Agrigento."
@@ -80,12 +80,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Olivo»?",
       "choices": [
-        "Caltanissetta",
         "Agrigento",
-        "Trapani",
-        "Mesina"
+        "Caltanissetta",
+        "Catania",
+        "Enna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Olivo» es una planta típica de Agrigento."
     },
     {
@@ -94,12 +94,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Macco de habas»?",
       "choices": [
-        "Agrigento",
-        "Siracusa",
-        "Catania",
-        "Palermo"
+        "Ragusa",
+        "Caltanissetta",
+        "Palermo",
+        "Agrigento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Macco de habas» es un plato típico de Agrigento."
     },
     {
@@ -108,12 +108,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Blancmange»?",
       "choices": [
+        "Mesina",
         "Enna",
-        "Agrigento",
-        "Trapani",
-        "Catania"
+        "Palermo",
+        "Agrigento"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Blancmange» es un plato típico de Agrigento."
     },
     {
@@ -122,12 +122,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Caponata»?",
       "choices": [
+        "Trapani",
+        "Ragusa",
         "Siracusa",
-        "Enna",
-        "Agrigento",
-        "Palermo"
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Caponata» es un plato típico de Agrigento."
     },
     {
@@ -136,10 +136,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Valle de los Templos»?",
       "choices": [
-        "Caltanissetta",
-        "Catania",
+        "Ragusa",
+        "Trapani",
         "Agrigento",
-        "Enna"
+        "Siracusa"
       ],
       "correctIndex": 2,
       "explanation": "«Valle de los Templos» se encuentra en Agrigento."
@@ -151,9 +151,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "¿En qué provincia se encuentra «Escalera de los Turcos»?",
       "choices": [
         "Agrigento",
-        "Catania",
         "Enna",
-        "Mesina"
+        "Caltanissetta",
+        "Palermo"
       ],
       "correctIndex": 0,
       "explanation": "«Escalera de los Turcos» se encuentra en Agrigento."
@@ -164,12 +164,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Lampedusa»?",
       "choices": [
+        "Siracusa",
+        "Caltanissetta",
         "Agrigento",
-        "Trapani",
-        "Enna",
         "Ragusa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Lampedusa» se encuentra en Agrigento."
     },
     {
@@ -178,9 +178,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Templo de la Concordia»?",
       "choices": [
-        "Caltanissetta",
         "Ragusa",
-        "Siracusa",
+        "Enna",
+        "Caltanissetta",
         "Agrigento"
       ],
       "correctIndex": 3,
@@ -193,9 +193,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Empédocles»?",
       "choices": [
         "Agrigento",
-        "Catania",
-        "Mesina",
-        "Palermo"
+        "Enna",
+        "Caltanissetta",
+        "Catania"
       ],
       "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Agrigento."
@@ -206,9 +206,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Luigi Pirandello»?",
       "choices": [
-        "Palermo",
-        "Siracusa",
-        "Caltanissetta",
+        "Catania",
+        "Ragusa",
+        "Trapani",
         "Agrigento"
       ],
       "correctIndex": 3,
@@ -220,12 +220,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Puercoespín»?",
       "choices": [
+        "Agrigento",
+        "Palermo",
         "Caltanissetta",
-        "Trapani",
-        "Siracusa",
-        "Agrigento"
+        "Siracusa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Puercoespín» forma parte de la fauna de Caltanissetta."
     },
     {
@@ -234,12 +234,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Zorro»?",
       "choices": [
-        "Mesina",
-        "Caltanissetta",
+        "Palermo",
         "Agrigento",
-        "Trapani"
+        "Caltanissetta",
+        "Ragusa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Zorro» forma parte de la fauna de Caltanissetta."
     },
     {
@@ -248,12 +248,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Busardo ratonero»?",
       "choices": [
-        "Palermo",
-        "Agrigento",
+        "Mesina",
         "Caltanissetta",
-        "Trapani"
+        "Agrigento",
+        "Palermo"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Busardo ratonero» forma parte de la fauna de Caltanissetta."
     },
     {
@@ -262,12 +262,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Trigo duro»?",
       "choices": [
-        "Caltanissetta",
-        "Mesina",
         "Trapani",
-        "Catania"
+        "Catania",
+        "Caltanissetta",
+        "Palermo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Trigo duro» es una planta típica de Caltanissetta."
     },
     {
@@ -277,9 +277,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "¿En qué provincia crece esta planta: «Cañaheja»?",
       "choices": [
         "Caltanissetta",
-        "Palermo",
         "Agrigento",
-        "Mesina"
+        "Enna",
+        "Trapani"
       ],
       "correctIndex": 0,
       "explanation": "«Cañaheja» es una planta típica de Caltanissetta."
@@ -290,12 +290,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Lentisco»?",
       "choices": [
-        "Ragusa",
         "Enna",
-        "Caltanissetta",
-        "Mesina"
+        "Trapani",
+        "Mesina",
+        "Caltanissetta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Lentisco» es una planta típica de Caltanissetta."
     },
     {
@@ -304,10 +304,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Turrón de Caltanissetta»?",
       "choices": [
-        "Agrigento",
-        "Trapani",
+        "Palermo",
+        "Mesina",
         "Caltanissetta",
-        "Mesina"
+        "Trapani"
       ],
       "correctIndex": 2,
       "explanation": "«Turrón de Caltanissetta» es un plato típico de Caltanissetta."
@@ -318,12 +318,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Cavatelli»?",
       "choices": [
-        "Catania",
-        "Mesina",
-        "Agrigento",
-        "Caltanissetta"
+        "Palermo",
+        "Trapani",
+        "Caltanissetta",
+        "Siracusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Cavatelli» es un plato típico de Caltanissetta."
     },
     {
@@ -332,12 +332,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Pagnotta del Dittaino»?",
       "choices": [
-        "Agrigento",
+        "Catania",
         "Ragusa",
-        "Enna",
-        "Caltanissetta"
+        "Caltanissetta",
+        "Agrigento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Pagnotta del Dittaino» es un plato típico de Caltanissetta."
     },
     {
@@ -346,12 +346,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Castillo de Mussomeli»?",
       "choices": [
+        "Palermo",
+        "Enna",
         "Caltanissetta",
-        "Mesina",
-        "Ragusa",
-        "Enna"
+        "Agrigento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Castillo de Mussomeli» se encuentra en Caltanissetta."
     },
     {
@@ -360,12 +360,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Catedral de Caltanissetta»?",
       "choices": [
-        "Trapani",
-        "Agrigento",
-        "Caltanissetta",
-        "Enna"
+        "Palermo",
+        "Mesina",
+        "Siracusa",
+        "Caltanissetta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Catedral de Caltanissetta» se encuentra en Caltanissetta."
     },
     {
@@ -374,12 +374,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Monte Capodarso»?",
       "choices": [
-        "Ragusa",
-        "Agrigento",
-        "Siracusa",
-        "Caltanissetta"
+        "Caltanissetta",
+        "Catania",
+        "Palermo",
+        "Siracusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Monte Capodarso» se encuentra en Caltanissetta."
     },
     {
@@ -388,12 +388,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Minas de azufre»?",
       "choices": [
-        "Ragusa",
-        "Mesina",
-        "Catania",
-        "Caltanissetta"
+        "Siracusa",
+        "Caltanissetta",
+        "Trapani",
+        "Palermo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Caltanissetta."
     },
     {
@@ -403,9 +403,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Fasci Sicilianos»?",
       "choices": [
         "Catania",
-        "Trapani",
+        "Ragusa",
         "Caltanissetta",
-        "Enna"
+        "Agrigento"
       ],
       "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Caltanissetta."
@@ -416,12 +416,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «La Gela griega»?",
       "choices": [
-        "Trapani",
-        "Palermo",
         "Caltanissetta",
-        "Siracusa"
+        "Agrigento",
+        "Palermo",
+        "Mesina"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Caltanissetta."
     },
     {
@@ -430,12 +430,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Perdiz siciliana»?",
       "choices": [
-        "Catania",
-        "Palermo",
+        "Trapani",
         "Caltanissetta",
-        "Ragusa"
+        "Mesina",
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Perdiz siciliana» forma parte de la fauna de Catania."
     },
     {
@@ -444,12 +444,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Zorro»?",
       "choices": [
-        "Mesina",
         "Catania",
-        "Trapani",
+        "Enna",
+        "Mesina",
         "Ragusa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Zorro» forma parte de la fauna de Catania."
     },
     {
@@ -458,12 +458,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Erizo»?",
       "choices": [
-        "Catania",
-        "Palermo",
-        "Ragusa",
-        "Mesina"
+        "Caltanissetta",
+        "Agrigento",
+        "Trapani",
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Erizo» forma parte de la fauna de Catania."
     },
     {
@@ -472,12 +472,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Gato montés»?",
       "choices": [
-        "Caltanissetta",
-        "Catania",
         "Agrigento",
-        "Mesina"
+        "Trapani",
+        "Siracusa",
+        "Catania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Gato montés» forma parte de la fauna de Catania."
     },
     {
@@ -486,12 +486,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Águila real»?",
       "choices": [
-        "Mesina",
-        "Ragusa",
         "Catania",
-        "Siracusa"
+        "Ragusa",
+        "Enna",
+        "Mesina"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Águila real» forma parte de la fauna de Catania."
     },
     {
@@ -501,8 +501,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "¿En qué provincia vive este animal: «Puercoespín»?",
       "choices": [
         "Catania",
-        "Agrigento",
         "Trapani",
+        "Mesina",
         "Palermo"
       ],
       "correctIndex": 0,
@@ -514,12 +514,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Retama del Etna»?",
       "choices": [
-        "Palermo",
-        "Catania",
-        "Trapani",
-        "Siracusa"
+        "Enna",
+        "Agrigento",
+        "Siracusa",
+        "Catania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Retama del Etna» es una planta típica de Catania."
     },
     {
@@ -528,12 +528,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Castaño»?",
       "choices": [
-        "Catania",
         "Trapani",
         "Palermo",
-        "Agrigento"
+        "Agrigento",
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Castaño» es una planta típica de Catania."
     },
     {
@@ -542,12 +542,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Pistacho»?",
       "choices": [
-        "Ragusa",
-        "Palermo",
-        "Trapani",
-        "Catania"
+        "Enna",
+        "Catania",
+        "Siracusa",
+        "Caltanissetta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Pistacho» es una planta típica de Catania."
     },
     {
@@ -556,12 +556,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Abedul del Etna»?",
       "choices": [
-        "Palermo",
-        "Agrigento",
+        "Siracusa",
         "Catania",
-        "Mesina"
+        "Ragusa",
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Abedul del Etna» es una planta típica de Catania."
     },
     {
@@ -570,12 +570,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Tuna (nopal)»?",
       "choices": [
+        "Caltanissetta",
         "Catania",
-        "Enna",
-        "Mesina",
-        "Caltanissetta"
+        "Siracusa",
+        "Ragusa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Tuna (nopal)» es una planta típica de Catania."
     },
     {
@@ -584,12 +584,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Naranja roja»?",
       "choices": [
-        "Catania",
-        "Trapani",
+        "Agrigento",
+        "Ragusa",
         "Enna",
-        "Caltanissetta"
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Naranja roja» es una planta típica de Catania."
     },
     {
@@ -598,9 +598,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Vid del Etna»?",
       "choices": [
-        "Mesina",
+        "Caltanissetta",
+        "Ragusa",
         "Enna",
-        "Siracusa",
         "Catania"
       ],
       "correctIndex": 3,
@@ -612,10 +612,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Pasta alla Norma»?",
       "choices": [
-        "Mesina",
+        "Caltanissetta",
         "Catania",
-        "Siracusa",
-        "Agrigento"
+        "Mesina",
+        "Siracusa"
       ],
       "correctIndex": 1,
       "explanation": "«Pasta alla Norma» es un plato típico de Catania."
@@ -626,12 +626,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Arancino»?",
       "choices": [
-        "Catania",
         "Siracusa",
-        "Palermo",
-        "Caltanissetta"
+        "Agrigento",
+        "Ragusa",
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Arancino» es un plato típico de Catania."
     },
     {
@@ -641,11 +641,11 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "¿De qué provincia es típico este plato: «Granita»?",
       "choices": [
         "Caltanissetta",
-        "Enna",
-        "Ragusa",
-        "Catania"
+        "Palermo",
+        "Catania",
+        "Mesina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Granita» es un plato típico de Catania."
     },
     {
@@ -655,9 +655,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "¿De qué provincia es típico este plato: «Brioche col tuppo»?",
       "choices": [
         "Catania",
-        "Agrigento",
-        "Trapani",
-        "Enna"
+        "Enna",
+        "Caltanissetta",
+        "Siracusa"
       ],
       "correctIndex": 0,
       "explanation": "«Brioche col tuppo» es un plato típico de Catania."
@@ -668,12 +668,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Cipollina»?",
       "choices": [
-        "Siracusa",
-        "Palermo",
         "Catania",
-        "Ragusa"
+        "Ragusa",
+        "Palermo",
+        "Mesina"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Cipollina» es un plato típico de Catania."
     },
     {
@@ -682,8 +682,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Minne di Sant'Agata»?",
       "choices": [
-        "Trapani",
-        "Enna",
+        "Mesina",
+        "Caltanissetta",
         "Siracusa",
         "Catania"
       ],
@@ -696,12 +696,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Cannolo»?",
       "choices": [
-        "Palermo",
-        "Ragusa",
+        "Caltanissetta",
+        "Catania",
         "Agrigento",
-        "Catania"
+        "Trapani"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Cannolo» es un plato típico de Catania."
     },
     {
@@ -710,12 +710,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Vino del Etna»?",
       "choices": [
-        "Ragusa",
-        "Agrigento",
-        "Caltanissetta",
-        "Catania"
+        "Enna",
+        "Catania",
+        "Palermo",
+        "Mesina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Vino del Etna» es un plato típico de Catania."
     },
     {
@@ -724,10 +724,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Etna»?",
       "choices": [
-        "Enna",
-        "Agrigento",
+        "Siracusa",
+        "Mesina",
         "Catania",
-        "Siracusa"
+        "Caltanissetta"
       ],
       "correctIndex": 2,
       "explanation": "«Etna» se encuentra en Catania."
@@ -738,12 +738,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Fuente del Elefante»?",
       "choices": [
-        "Mesina",
         "Palermo",
-        "Agrigento",
-        "Catania"
+        "Catania",
+        "Ragusa",
+        "Enna"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Fuente del Elefante» se encuentra en Catania."
     },
     {
@@ -752,12 +752,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Caltagirone»?",
       "choices": [
-        "Ragusa",
         "Catania",
-        "Siracusa",
-        "Enna"
+        "Trapani",
+        "Mesina",
+        "Agrigento"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Caltagirone» se encuentra en Catania."
     },
     {
@@ -766,12 +766,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Catania, la capital»?",
       "choices": [
-        "Enna",
+        "Trapani",
+        "Siracusa",
         "Catania",
-        "Ragusa",
-        "Palermo"
+        "Ragusa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Catania, la capital» se encuentra en Catania."
     },
     {
@@ -782,8 +782,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "choices": [
         "Mesina",
         "Catania",
-        "Enna",
-        "Ragusa"
+        "Ragusa",
+        "Siracusa"
       ],
       "correctIndex": 1,
       "explanation": "«Teatro romano» se encuentra en Catania."
@@ -794,12 +794,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Castillo Ursino»?",
       "choices": [
+        "Caltanissetta",
+        "Agrigento",
         "Enna",
-        "Catania",
-        "Ragusa",
-        "Palermo"
+        "Catania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Castillo Ursino» se encuentra en Catania."
     },
     {
@@ -808,12 +808,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Vía de los Crociferi»?",
       "choices": [
-        "Ragusa",
         "Caltanissetta",
-        "Siracusa",
-        "Catania"
+        "Catania",
+        "Enna",
+        "Trapani"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Vía de los Crociferi» se encuentra en Catania."
     },
     {
@@ -822,12 +822,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Riviera de los Cíclopes»?",
       "choices": [
-        "Enna",
-        "Siracusa",
         "Catania",
-        "Mesina"
+        "Palermo",
+        "Enna",
+        "Ragusa"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Riviera de los Cíclopes» se encuentra en Catania."
     },
     {
@@ -836,12 +836,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Acireale»?",
       "choices": [
-        "Enna",
-        "Trapani",
-        "Ragusa",
-        "Catania"
+        "Catania",
+        "Siracusa",
+        "Caltanissetta",
+        "Mesina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Acireale» se encuentra en Catania."
     },
     {
@@ -850,9 +850,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Erupción de 1669»?",
       "choices": [
-        "Siracusa",
-        "Agrigento",
+        "Trapani",
         "Mesina",
+        "Palermo",
         "Catania"
       ],
       "correctIndex": 3,
@@ -864,12 +864,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Santa Águeda»?",
       "choices": [
-        "Trapani",
-        "Enna",
         "Catania",
-        "Agrigento"
+        "Palermo",
+        "Ragusa",
+        "Trapani"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Catania."
     },
     {
@@ -878,12 +878,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Vincenzo Bellini»?",
       "choices": [
-        "Agrigento",
+        "Mesina",
+        "Palermo",
         "Enna",
-        "Catania",
-        "Palermo"
+        "Catania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Catania."
     },
     {
@@ -892,12 +892,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Terremoto de 1693»?",
       "choices": [
-        "Siracusa",
         "Caltanissetta",
-        "Catania",
-        "Trapani"
+        "Enna",
+        "Agrigento",
+        "Catania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Catania."
     },
     {
@@ -906,12 +906,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Giovanni Verga»?",
       "choices": [
-        "Mesina",
+        "Ragusa",
+        "Caltanissetta",
         "Catania",
-        "Agrigento",
-        "Palermo"
+        "Mesina"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Catania."
     },
     {
@@ -920,12 +920,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Universidad de Catania»?",
       "choices": [
-        "Mesina",
-        "Agrigento",
-        "Ragusa",
-        "Catania"
+        "Enna",
+        "Caltanissetta",
+        "Catania",
+        "Palermo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Catania."
     },
     {
@@ -934,12 +934,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Puercoespín»?",
       "choices": [
-        "Mesina",
+        "Enna",
         "Siracusa",
         "Palermo",
-        "Enna"
+        "Agrigento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Puercoespín» forma parte de la fauna de Enna."
     },
     {
@@ -948,12 +948,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Busardo ratonero»?",
       "choices": [
-        "Enna",
-        "Trapani",
+        "Catania",
         "Agrigento",
-        "Catania"
+        "Enna",
+        "Palermo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Busardo ratonero» forma parte de la fauna de Enna."
     },
     {
@@ -962,12 +962,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Cernícalo vulgar»?",
       "choices": [
-        "Palermo",
+        "Caltanissetta",
         "Mesina",
-        "Enna",
-        "Agrigento"
+        "Siracusa",
+        "Enna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Cernícalo vulgar» forma parte de la fauna de Enna."
     },
     {
@@ -976,10 +976,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Zulla»?",
       "choices": [
-        "Caltanissetta",
+        "Ragusa",
         "Enna",
-        "Catania",
-        "Palermo"
+        "Caltanissetta",
+        "Catania"
       ],
       "correctIndex": 1,
       "explanation": "«Zulla» es una planta típica de Enna."
@@ -990,12 +990,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Amapola»?",
       "choices": [
-        "Siracusa",
-        "Enna",
+        "Palermo",
+        "Caltanissetta",
         "Catania",
-        "Agrigento"
+        "Enna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Amapola» es una planta típica de Enna."
     },
     {
@@ -1004,8 +1004,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Encina»?",
       "choices": [
-        "Caltanissetta",
-        "Palermo",
+        "Trapani",
+        "Agrigento",
         "Enna",
         "Ragusa"
       ],
@@ -1018,12 +1018,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Piacentinu ennese»?",
       "choices": [
-        "Caltanissetta",
-        "Palermo",
         "Enna",
-        "Mesina"
+        "Catania",
+        "Mesina",
+        "Siracusa"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Piacentinu ennese» es un plato típico de Enna."
     },
     {
@@ -1032,12 +1032,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Cassatella de Agira»?",
       "choices": [
-        "Agrigento",
         "Ragusa",
-        "Mesina",
-        "Enna"
+        "Enna",
+        "Catania",
+        "Caltanissetta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Cassatella de Agira» es un plato típico de Enna."
     },
     {
@@ -1046,12 +1046,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Pecorino siciliano»?",
       "choices": [
-        "Siracusa",
-        "Trapani",
+        "Mesina",
         "Enna",
-        "Mesina"
+        "Siracusa",
+        "Palermo"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Pecorino siciliano» es un plato típico de Enna."
     },
     {
@@ -1060,12 +1060,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Castillo de Lombardía»?",
       "choices": [
-        "Mesina",
-        "Siracusa",
+        "Palermo",
         "Catania",
-        "Enna"
+        "Enna",
+        "Siracusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Castillo de Lombardía» se encuentra en Enna."
     },
     {
@@ -1074,12 +1074,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Villa romana del Casale»?",
       "choices": [
-        "Caltanissetta",
-        "Agrigento",
+        "Ragusa",
         "Enna",
-        "Catania"
+        "Siracusa",
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Villa romana del Casale» se encuentra en Enna."
     },
     {
@@ -1088,12 +1088,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Lago de Pergusa»?",
       "choices": [
-        "Palermo",
-        "Mesina",
-        "Ragusa",
-        "Enna"
+        "Catania",
+        "Siracusa",
+        "Enna",
+        "Trapani"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Lago de Pergusa» se encuentra en Enna."
     },
     {
@@ -1102,12 +1102,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Piazza Armerina»?",
       "choices": [
-        "Caltanissetta",
-        "Catania",
-        "Palermo",
-        "Enna"
+        "Enna",
+        "Ragusa",
+        "Mesina",
+        "Catania"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Enna."
     },
     {
@@ -1116,12 +1116,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Federico II»?",
       "choices": [
-        "Enna",
-        "Mesina",
+        "Agrigento",
+        "Caltanissetta",
         "Trapani",
-        "Agrigento"
+        "Enna"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Enna."
     },
     {
@@ -1130,12 +1130,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «El rapto de Proserpina»?",
       "choices": [
-        "Mesina",
-        "Palermo",
-        "Ragusa",
-        "Enna"
+        "Enna",
+        "Catania",
+        "Siracusa",
+        "Ragusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Enna."
     },
     {
@@ -1144,12 +1144,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Pez espada»?",
       "choices": [
+        "Catania",
         "Mesina",
-        "Enna",
-        "Trapani",
-        "Caltanissetta"
+        "Agrigento",
+        "Palermo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Pez espada» forma parte de la fauna de Mesina."
     },
     {
@@ -1158,12 +1158,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Halcón de Eleonora»?",
       "choices": [
-        "Trapani",
         "Mesina",
-        "Catania",
-        "Agrigento"
+        "Ragusa",
+        "Agrigento",
+        "Enna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Halcón de Eleonora» forma parte de la fauna de Mesina."
     },
     {
@@ -1172,12 +1172,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Delfín listado»?",
       "choices": [
-        "Trapani",
         "Ragusa",
-        "Siracusa",
-        "Mesina"
+        "Enna",
+        "Mesina",
+        "Agrigento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Delfín listado» forma parte de la fauna de Mesina."
     },
     {
@@ -1186,10 +1186,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Haya»?",
       "choices": [
-        "Enna",
+        "Siracusa",
         "Mesina",
-        "Ragusa",
-        "Palermo"
+        "Agrigento",
+        "Ragusa"
       ],
       "correctIndex": 1,
       "explanation": "«Haya» es una planta típica de Mesina."
@@ -1200,9 +1200,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Limonero»?",
       "choices": [
-        "Trapani",
+        "Ragusa",
+        "Agrigento",
         "Enna",
-        "Palermo",
         "Mesina"
       ],
       "correctIndex": 3,
@@ -1214,12 +1214,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Retama»?",
       "choices": [
+        "Trapani",
+        "Caltanissetta",
         "Mesina",
-        "Catania",
-        "Siracusa",
-        "Enna"
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Retama» es una planta típica de Mesina."
     },
     {
@@ -1228,12 +1228,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Pasta 'ncasciata»?",
       "choices": [
-        "Mesina",
-        "Trapani",
         "Ragusa",
-        "Palermo"
+        "Palermo",
+        "Caltanissetta",
+        "Mesina"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Pasta 'ncasciata» es un plato típico de Mesina."
     },
     {
@@ -1243,8 +1243,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "¿De qué provincia es típico este plato: «Pidone»?",
       "choices": [
         "Ragusa",
-        "Caltanissetta",
-        "Catania",
+        "Agrigento",
+        "Palermo",
         "Mesina"
       ],
       "correctIndex": 3,
@@ -1256,9 +1256,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Granita con crema»?",
       "choices": [
-        "Enna",
-        "Caltanissetta",
+        "Ragusa",
         "Agrigento",
+        "Caltanissetta",
         "Mesina"
       ],
       "correctIndex": 3,
@@ -1270,12 +1270,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Islas Eolias»?",
       "choices": [
-        "Agrigento",
-        "Mesina",
+        "Enna",
         "Ragusa",
-        "Siracusa"
+        "Caltanissetta",
+        "Mesina"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Islas Eolias» se encuentra en Mesina."
     },
     {
@@ -1284,12 +1284,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Taormina»?",
       "choices": [
-        "Palermo",
-        "Catania",
+        "Siracusa",
         "Mesina",
+        "Ragusa",
         "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Taormina» se encuentra en Mesina."
     },
     {
@@ -1298,9 +1298,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Tindari»?",
       "choices": [
-        "Caltanissetta",
-        "Ragusa",
         "Palermo",
+        "Catania",
+        "Agrigento",
         "Mesina"
       ],
       "correctIndex": 3,
@@ -1312,12 +1312,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Terremoto de 1908»?",
       "choices": [
-        "Caltanissetta",
-        "Mesina",
         "Siracusa",
-        "Ragusa"
+        "Agrigento",
+        "Caltanissetta",
+        "Mesina"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Mesina."
     },
     {
@@ -1326,12 +1326,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Estrecho de Mesina»?",
       "choices": [
-        "Caltanissetta",
+        "Palermo",
+        "Enna",
         "Mesina",
-        "Siracusa",
-        "Catania"
+        "Caltanissetta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Mesina."
     },
     {
@@ -1340,10 +1340,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Antonello da Messina»?",
       "choices": [
-        "Ragusa",
-        "Palermo",
+        "Catania",
+        "Enna",
         "Mesina",
-        "Caltanissetta"
+        "Siracusa"
       ],
       "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Mesina."
@@ -1355,11 +1355,11 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "¿En qué provincia vive este animal: «Halcón peregrino»?",
       "choices": [
         "Siracusa",
-        "Catania",
-        "Agrigento",
-        "Palermo"
+        "Palermo",
+        "Ragusa",
+        "Agrigento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Halcón peregrino» forma parte de la fauna de Palermo."
     },
     {
@@ -1368,12 +1368,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Mochuelo»?",
       "choices": [
+        "Enna",
         "Palermo",
-        "Trapani",
-        "Catania",
-        "Siracusa"
+        "Caltanissetta",
+        "Mesina"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Mochuelo» forma parte de la fauna de Palermo."
     },
     {
@@ -1382,12 +1382,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Lagartija siciliana»?",
       "choices": [
-        "Ragusa",
-        "Enna",
+        "Catania",
         "Palermo",
-        "Agrigento"
+        "Ragusa",
+        "Siracusa"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Lagartija siciliana» forma parte de la fauna de Palermo."
     },
     {
@@ -1396,12 +1396,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Naranjo amargo»?",
       "choices": [
-        "Siracusa",
-        "Caltanissetta",
         "Palermo",
+        "Caltanissetta",
+        "Mesina",
         "Ragusa"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Naranjo amargo» es una planta típica de Palermo."
     },
     {
@@ -1410,12 +1410,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Ficus magnoloide»?",
       "choices": [
-        "Palermo",
         "Siracusa",
+        "Agrigento",
         "Ragusa",
-        "Mesina"
+        "Palermo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Ficus magnoloide» es una planta típica de Palermo."
     },
     {
@@ -1424,12 +1424,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Palmito»?",
       "choices": [
-        "Catania",
+        "Caltanissetta",
+        "Palermo",
         "Siracusa",
-        "Mesina",
-        "Palermo"
+        "Mesina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Palmito» es una planta típica de Palermo."
     },
     {
@@ -1438,12 +1438,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Panelle»?",
       "choices": [
-        "Palermo",
+        "Agrigento",
         "Mesina",
-        "Caltanissetta",
-        "Enna"
+        "Ragusa",
+        "Palermo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Panelle» es un plato típico de Palermo."
     },
     {
@@ -1452,12 +1452,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Sfincione»?",
       "choices": [
-        "Agrigento",
-        "Catania",
         "Palermo",
-        "Enna"
+        "Caltanissetta",
+        "Trapani",
+        "Catania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Sfincione» es un plato típico de Palermo."
     },
     {
@@ -1466,12 +1466,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Pasta con sardinas»?",
       "choices": [
-        "Mesina",
-        "Enna",
         "Palermo",
-        "Ragusa"
+        "Siracusa",
+        "Catania",
+        "Caltanissetta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Pasta con sardinas» es un plato típico de Palermo."
     },
     {
@@ -1480,12 +1480,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Arancina»?",
       "choices": [
+        "Trapani",
         "Palermo",
-        "Catania",
         "Caltanissetta",
         "Enna"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Arancina» es un plato típico de Palermo."
     },
     {
@@ -1496,8 +1496,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "choices": [
         "Ragusa",
         "Palermo",
-        "Trapani",
-        "Enna"
+        "Catania",
+        "Mesina"
       ],
       "correctIndex": 1,
       "explanation": "«Capilla Palatina» se encuentra en Palermo."
@@ -1508,12 +1508,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Catedral de Monreale»?",
       "choices": [
-        "Catania",
-        "Palermo",
+        "Enna",
+        "Trapani",
         "Ragusa",
-        "Agrigento"
+        "Palermo"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Catedral de Monreale» se encuentra en Palermo."
     },
     {
@@ -1522,12 +1522,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Cefalú»?",
       "choices": [
+        "Siracusa",
+        "Caltanissetta",
         "Enna",
-        "Agrigento",
-        "Palermo",
-        "Ragusa"
+        "Palermo"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Cefalú» se encuentra en Palermo."
     },
     {
@@ -1536,12 +1536,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Vísperas Sicilianas»?",
       "choices": [
-        "Catania",
-        "Ragusa",
         "Palermo",
-        "Mesina"
+        "Siracusa",
+        "Ragusa",
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Palermo."
     },
     {
@@ -1550,12 +1550,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Roger II»?",
       "choices": [
-        "Trapani",
         "Palermo",
-        "Agrigento",
-        "Enna"
+        "Siracusa",
+        "Caltanissetta",
+        "Trapani"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Palermo."
     },
     {
@@ -1564,12 +1564,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Palacio de los Normandos»?",
       "choices": [
-        "Agrigento",
-        "Ragusa",
-        "Mesina",
-        "Palermo"
+        "Caltanissetta",
+        "Siracusa",
+        "Palermo",
+        "Ragusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Palermo."
     },
     {
@@ -1578,12 +1578,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Carraca europea»?",
       "choices": [
+        "Enna",
         "Ragusa",
-        "Trapani",
-        "Siracusa",
-        "Enna"
+        "Agrigento",
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Carraca europea» forma parte de la fauna de Ragusa."
     },
     {
@@ -1592,9 +1592,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Puercoespín»?",
       "choices": [
+        "Mesina",
+        "Palermo",
         "Trapani",
-        "Siracusa",
-        "Agrigento",
         "Ragusa"
       ],
       "correctIndex": 3,
@@ -1606,12 +1606,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Alcaudón común»?",
       "choices": [
-        "Agrigento",
-        "Enna",
-        "Palermo",
-        "Ragusa"
+        "Ragusa",
+        "Caltanissetta",
+        "Trapani",
+        "Siracusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Alcaudón común» forma parte de la fauna de Ragusa."
     },
     {
@@ -1620,12 +1620,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Algarrobo»?",
       "choices": [
-        "Catania",
-        "Caltanissetta",
-        "Mesina",
-        "Ragusa"
+        "Ragusa",
+        "Enna",
+        "Palermo",
+        "Siracusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Algarrobo» es una planta típica de Ragusa."
     },
     {
@@ -1634,12 +1634,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Tomillo»?",
       "choices": [
-        "Palermo",
-        "Trapani",
+        "Agrigento",
         "Ragusa",
-        "Caltanissetta"
+        "Mesina",
+        "Enna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Tomillo» es una planta típica de Ragusa."
     },
     {
@@ -1648,9 +1648,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Olivo»?",
       "choices": [
-        "Trapani",
-        "Mesina",
-        "Catania",
+        "Enna",
+        "Caltanissetta",
+        "Palermo",
         "Ragusa"
       ],
       "correctIndex": 3,
@@ -1664,8 +1664,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "choices": [
         "Catania",
         "Ragusa",
-        "Mesina",
-        "Caltanissetta"
+        "Enna",
+        "Agrigento"
       ],
       "correctIndex": 1,
       "explanation": "«Chocolate de Modica» es un plato típico de Ragusa."
@@ -1676,10 +1676,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Scaccia»?",
       "choices": [
-        "Mesina",
+        "Palermo",
         "Ragusa",
         "Trapani",
-        "Palermo"
+        "Catania"
       ],
       "correctIndex": 1,
       "explanation": "«Scaccia» es un plato típico de Ragusa."
@@ -1690,12 +1690,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Ragusano»?",
       "choices": [
-        "Enna",
-        "Agrigento",
         "Catania",
-        "Ragusa"
+        "Ragusa",
+        "Enna",
+        "Palermo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Ragusano» es un plato típico de Ragusa."
     },
     {
@@ -1704,12 +1704,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Ragusa Ibla»?",
       "choices": [
-        "Siracusa",
-        "Ragusa",
+        "Enna",
+        "Mesina",
         "Trapani",
-        "Mesina"
+        "Ragusa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Ragusa Ibla» se encuentra en Ragusa."
     },
     {
@@ -1719,11 +1719,11 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "¿En qué provincia se encuentra «Modica»?",
       "choices": [
         "Caltanissetta",
-        "Catania",
-        "Ragusa",
-        "Siracusa"
+        "Trapani",
+        "Mesina",
+        "Ragusa"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Modica» se encuentra en Ragusa."
     },
     {
@@ -1732,12 +1732,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Scicli»?",
       "choices": [
-        "Siracusa",
-        "Mesina",
+        "Catania",
         "Enna",
-        "Ragusa"
+        "Ragusa",
+        "Agrigento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Scicli» se encuentra en Ragusa."
     },
     {
@@ -1746,12 +1746,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Condado de Modica»?",
       "choices": [
-        "Caltanissetta",
-        "Palermo",
+        "Catania",
         "Ragusa",
-        "Trapani"
+        "Mesina",
+        "Caltanissetta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Ragusa."
     },
     {
@@ -1760,12 +1760,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Terremoto de 1693»?",
       "choices": [
-        "Trapani",
+        "Ragusa",
         "Agrigento",
         "Palermo",
-        "Ragusa"
+        "Trapani"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Ragusa."
     },
     {
@@ -1775,8 +1775,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Cava d'Ispica»?",
       "choices": [
         "Agrigento",
+        "Palermo",
         "Siracusa",
-        "Enna",
         "Ragusa"
       ],
       "correctIndex": 3,
@@ -1788,12 +1788,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Flamenco»?",
       "choices": [
+        "Mesina",
+        "Agrigento",
         "Siracusa",
-        "Palermo",
-        "Caltanissetta",
         "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Flamenco» forma parte de la fauna de Siracusa."
     },
     {
@@ -1802,12 +1802,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Avoceta»?",
       "choices": [
-        "Catania",
-        "Agrigento",
+        "Mesina",
         "Siracusa",
-        "Mesina"
+        "Agrigento",
+        "Catania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Avoceta» forma parte de la fauna de Siracusa."
     },
     {
@@ -1816,12 +1816,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Tortuga marina»?",
       "choices": [
+        "Catania",
         "Siracusa",
-        "Mesina",
         "Trapani",
         "Caltanissetta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Tortuga marina» forma parte de la fauna de Siracusa."
     },
     {
@@ -1830,12 +1830,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Papiro»?",
       "choices": [
-        "Mesina",
         "Siracusa",
-        "Catania",
-        "Palermo"
+        "Caltanissetta",
+        "Trapani",
+        "Mesina"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Papiro» es una planta típica de Siracusa."
     },
     {
@@ -1844,12 +1844,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Almendro»?",
       "choices": [
-        "Siracusa",
-        "Catania",
-        "Ragusa",
-        "Trapani"
+        "Palermo",
+        "Enna",
+        "Trapani",
+        "Siracusa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Almendro» es una planta típica de Siracusa."
     },
     {
@@ -1858,10 +1858,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Granado»?",
       "choices": [
-        "Agrigento",
+        "Enna",
         "Siracusa",
-        "Mesina",
-        "Enna"
+        "Ragusa",
+        "Caltanissetta"
       ],
       "correctIndex": 1,
       "explanation": "«Granado» es una planta típica de Siracusa."
@@ -1872,12 +1872,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Pasta a la siracusana»?",
       "choices": [
-        "Catania",
-        "Palermo",
-        "Trapani",
-        "Siracusa"
+        "Agrigento",
+        "Siracusa",
+        "Ragusa",
+        "Mesina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Pasta a la siracusana» es un plato típico de Siracusa."
     },
     {
@@ -1886,10 +1886,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Almendra de Avola»?",
       "choices": [
-        "Caltanissetta",
+        "Enna",
         "Siracusa",
-        "Ragusa",
-        "Trapani"
+        "Palermo",
+        "Catania"
       ],
       "correctIndex": 1,
       "explanation": "«Almendra de Avola» es un plato típico de Siracusa."
@@ -1901,9 +1901,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "¿De qué provincia es típico este plato: «Sardinas a beccafico»?",
       "choices": [
         "Siracusa",
+        "Catania",
         "Ragusa",
-        "Mesina",
-        "Trapani"
+        "Agrigento"
       ],
       "correctIndex": 0,
       "explanation": "«Sardinas a beccafico» es un plato típico de Siracusa."
@@ -1914,12 +1914,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Ortigia»?",
       "choices": [
-        "Enna",
         "Siracusa",
+        "Trapani",
         "Ragusa",
-        "Palermo"
+        "Enna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Ortigia» se encuentra en Siracusa."
     },
     {
@@ -1928,12 +1928,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Teatro griego»?",
       "choices": [
-        "Agrigento",
+        "Enna",
+        "Siracusa",
         "Mesina",
-        "Trapani",
-        "Siracusa"
+        "Trapani"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Teatro griego» se encuentra en Siracusa."
     },
     {
@@ -1942,10 +1942,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Noto»?",
       "choices": [
-        "Catania",
         "Ragusa",
+        "Caltanissetta",
         "Siracusa",
-        "Agrigento"
+        "Catania"
       ],
       "correctIndex": 2,
       "explanation": "«Noto» se encuentra en Siracusa."
@@ -1956,10 +1956,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Catedral de Siracusa»?",
       "choices": [
-        "Ragusa",
-        "Enna",
+        "Agrigento",
+        "Caltanissetta",
         "Siracusa",
-        "Palermo"
+        "Trapani"
       ],
       "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Siracusa."
@@ -1970,12 +1970,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Arquímedes»?",
       "choices": [
-        "Palermo",
-        "Siracusa",
+        "Caltanissetta",
+        "Trapani",
         "Ragusa",
-        "Trapani"
+        "Siracusa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Siracusa."
     },
     {
@@ -1984,12 +1984,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Dionisio I»?",
       "choices": [
-        "Palermo",
         "Siracusa",
-        "Caltanissetta",
+        "Trapani",
+        "Palermo",
         "Catania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Siracusa."
     },
     {
@@ -1998,12 +1998,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Flamenco»?",
       "choices": [
-        "Trapani",
-        "Ragusa",
-        "Mesina",
-        "Enna"
+        "Palermo",
+        "Caltanissetta",
+        "Agrigento",
+        "Trapani"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Flamenco» forma parte de la fauna de Trapani."
     },
     {
@@ -2012,10 +2012,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "¿En qué provincia vive este animal: «Atún rojo»?",
       "choices": [
-        "Ragusa",
-        "Catania",
+        "Caltanissetta",
+        "Agrigento",
         "Trapani",
-        "Enna"
+        "Siracusa"
       ],
       "correctIndex": 2,
       "explanation": "«Atún rojo» forma parte de la fauna de Trapani."
@@ -2027,7 +2027,7 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "¿En qué provincia vive este animal: «Pardela cenicienta»?",
       "choices": [
         "Palermo",
-        "Agrigento",
+        "Ragusa",
         "Catania",
         "Trapani"
       ],
@@ -2040,12 +2040,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Alcaparro»?",
       "choices": [
-        "Trapani",
-        "Ragusa",
         "Siracusa",
-        "Caltanissetta"
+        "Caltanissetta",
+        "Palermo",
+        "Trapani"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Alcaparro» es una planta típica de Trapani."
     },
     {
@@ -2054,12 +2054,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Zibibbo»?",
       "choices": [
-        "Mesina",
         "Trapani",
-        "Enna",
-        "Caltanissetta"
+        "Caltanissetta",
+        "Siracusa",
+        "Palermo"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Zibibbo» es una planta típica de Trapani."
     },
     {
@@ -2068,12 +2068,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "¿En qué provincia crece esta planta: «Palmito»?",
       "choices": [
+        "Caltanissetta",
         "Agrigento",
         "Enna",
-        "Trapani",
-        "Mesina"
+        "Trapani"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Palmito» es una planta típica de Trapani."
     },
     {
@@ -2082,12 +2082,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Cuscús a la trapanesa»?",
       "choices": [
-        "Enna",
+        "Siracusa",
         "Palermo",
-        "Trapani",
-        "Ragusa"
+        "Ragusa",
+        "Trapani"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Cuscús a la trapanesa» es un plato típico de Trapani."
     },
     {
@@ -2096,12 +2096,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Pesto a la trapanesa»?",
       "choices": [
-        "Caltanissetta",
-        "Mesina",
-        "Catania",
-        "Trapani"
+        "Ragusa",
+        "Trapani",
+        "Siracusa",
+        "Mesina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Pesto a la trapanesa» es un plato típico de Trapani."
     },
     {
@@ -2110,12 +2110,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "¿De qué provincia es típico este plato: «Busiate»?",
       "choices": [
-        "Agrigento",
-        "Ragusa",
-        "Palermo",
-        "Trapani"
+        "Trapani",
+        "Mesina",
+        "Siracusa",
+        "Catania"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Busiate» es un plato típico de Trapani."
     },
     {
@@ -2124,12 +2124,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Erice»?",
       "choices": [
-        "Trapani",
-        "Caltanissetta",
+        "Siracusa",
+        "Catania",
         "Ragusa",
-        "Enna"
+        "Trapani"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Erice» se encuentra en Trapani."
     },
     {
@@ -2138,12 +2138,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Salinas de Trapani»?",
       "choices": [
-        "Ragusa",
+        "Mesina",
         "Enna",
-        "Agrigento",
-        "Trapani"
+        "Trapani",
+        "Siracusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Salinas de Trapani» se encuentra en Trapani."
     },
     {
@@ -2152,10 +2152,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "¿En qué provincia se encuentra «Segesta»?",
       "choices": [
-        "Caltanissetta",
+        "Ragusa",
         "Trapani",
-        "Catania",
-        "Siracusa"
+        "Mesina",
+        "Enna"
       ],
       "correctIndex": 1,
       "explanation": "«Segesta» se encuentra en Trapani."
@@ -2166,12 +2166,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Mozia»?",
       "choices": [
+        "Catania",
         "Trapani",
-        "Caltanissetta",
-        "Ragusa",
-        "Palermo"
+        "Mesina",
+        "Agrigento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Trapani."
     },
     {
@@ -2180,12 +2180,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Élimos»?",
       "choices": [
-        "Trapani",
-        "Mesina",
         "Palermo",
-        "Agrigento"
+        "Trapani",
+        "Enna",
+        "Siracusa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Trapani."
     },
     {
@@ -2194,10 +2194,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "¿A qué provincia pertenece este hecho histórico: «Almadraba Florio»?",
       "choices": [
+        "Mesina",
         "Ragusa",
-        "Catania",
         "Trapani",
-        "Agrigento"
+        "Caltanissetta"
       ],
       "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Trapani."
@@ -2210,12 +2210,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Lesser kestrel”?",
       "choices": [
+        "Palermo",
         "Agrigento",
-        "Ragusa",
-        "Catania",
-        "Caltanissetta"
+        "Enna",
+        "Syracuse"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Lesser kestrel” is part of the wildlife of Agrigento."
     },
     {
@@ -2224,12 +2224,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Sea turtle”?",
       "choices": [
+        "Palermo",
         "Catania",
-        "Enna",
-        "Agrigento",
-        "Palermo"
+        "Trapani",
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Sea turtle” is part of the wildlife of Agrigento."
     },
     {
@@ -2238,12 +2238,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Audouin's gull”?",
       "choices": [
-        "Messina",
         "Agrigento",
-        "Trapani",
-        "Palermo"
+        "Caltanissetta",
+        "Palermo",
+        "Trapani"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Audouin's gull” is part of the wildlife of Agrigento."
     },
     {
@@ -2252,12 +2252,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Almond tree”?",
       "choices": [
+        "Ragusa",
+        "Messina",
         "Palermo",
-        "Catania",
-        "Agrigento",
-        "Enna"
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Almond tree” is a typical plant of Agrigento."
     },
     {
@@ -2267,9 +2267,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "In which province does this plant grow: “Prickly pear”?",
       "choices": [
         "Agrigento",
-        "Ragusa",
         "Enna",
-        "Palermo"
+        "Caltanissetta",
+        "Syracuse"
       ],
       "correctIndex": 0,
       "explanation": "“Prickly pear” is a typical plant of Agrigento."
@@ -2280,12 +2280,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Olive tree”?",
       "choices": [
-        "Caltanissetta",
         "Agrigento",
-        "Trapani",
-        "Messina"
+        "Caltanissetta",
+        "Catania",
+        "Enna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Olive tree” is a typical plant of Agrigento."
     },
     {
@@ -2294,12 +2294,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Fava bean macco”?",
       "choices": [
-        "Agrigento",
-        "Syracuse",
-        "Catania",
-        "Palermo"
+        "Ragusa",
+        "Caltanissetta",
+        "Palermo",
+        "Agrigento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Fava bean macco” is a typical dish of Agrigento."
     },
     {
@@ -2308,12 +2308,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Biancomangiare”?",
       "choices": [
+        "Messina",
         "Enna",
-        "Agrigento",
-        "Trapani",
-        "Catania"
+        "Palermo",
+        "Agrigento"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Biancomangiare” is a typical dish of Agrigento."
     },
     {
@@ -2322,12 +2322,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Caponata”?",
       "choices": [
+        "Trapani",
+        "Ragusa",
         "Syracuse",
-        "Enna",
-        "Agrigento",
-        "Palermo"
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Caponata” is a typical dish of Agrigento."
     },
     {
@@ -2336,10 +2336,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Valley of the Temples”?",
       "choices": [
-        "Caltanissetta",
-        "Catania",
+        "Ragusa",
+        "Trapani",
         "Agrigento",
-        "Enna"
+        "Syracuse"
       ],
       "correctIndex": 2,
       "explanation": "“Valley of the Temples” is in Agrigento."
@@ -2351,9 +2351,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "In which province is “Scala dei Turchi”?",
       "choices": [
         "Agrigento",
-        "Catania",
         "Enna",
-        "Messina"
+        "Caltanissetta",
+        "Palermo"
       ],
       "correctIndex": 0,
       "explanation": "“Scala dei Turchi” is in Agrigento."
@@ -2364,12 +2364,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Lampedusa”?",
       "choices": [
+        "Syracuse",
+        "Caltanissetta",
         "Agrigento",
-        "Trapani",
-        "Enna",
         "Ragusa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Lampedusa” is in Agrigento."
     },
     {
@@ -2378,9 +2378,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Temple of Concordia”?",
       "choices": [
-        "Caltanissetta",
         "Ragusa",
-        "Syracuse",
+        "Enna",
+        "Caltanissetta",
         "Agrigento"
       ],
       "correctIndex": 3,
@@ -2393,9 +2393,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "Which province does this historical fact belong to: “Empedocles”?",
       "choices": [
         "Agrigento",
-        "Catania",
-        "Messina",
-        "Palermo"
+        "Enna",
+        "Caltanissetta",
+        "Catania"
       ],
       "correctIndex": 0,
       "explanation": "This fact is about Agrigento."
@@ -2406,9 +2406,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Luigi Pirandello”?",
       "choices": [
-        "Palermo",
-        "Syracuse",
-        "Caltanissetta",
+        "Catania",
+        "Ragusa",
+        "Trapani",
         "Agrigento"
       ],
       "correctIndex": 3,
@@ -2420,12 +2420,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Crested porcupine”?",
       "choices": [
+        "Agrigento",
+        "Palermo",
         "Caltanissetta",
-        "Trapani",
-        "Syracuse",
-        "Agrigento"
+        "Syracuse"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Crested porcupine” is part of the wildlife of Caltanissetta."
     },
     {
@@ -2434,12 +2434,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Fox”?",
       "choices": [
-        "Messina",
-        "Caltanissetta",
+        "Palermo",
         "Agrigento",
-        "Trapani"
+        "Caltanissetta",
+        "Ragusa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Fox” is part of the wildlife of Caltanissetta."
     },
     {
@@ -2448,12 +2448,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Common buzzard”?",
       "choices": [
-        "Palermo",
-        "Agrigento",
+        "Messina",
         "Caltanissetta",
-        "Trapani"
+        "Agrigento",
+        "Palermo"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Common buzzard” is part of the wildlife of Caltanissetta."
     },
     {
@@ -2462,12 +2462,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Durum wheat”?",
       "choices": [
-        "Caltanissetta",
-        "Messina",
         "Trapani",
-        "Catania"
+        "Catania",
+        "Caltanissetta",
+        "Palermo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Durum wheat” is a typical plant of Caltanissetta."
     },
     {
@@ -2477,9 +2477,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "In which province does this plant grow: “Giant fennel”?",
       "choices": [
         "Caltanissetta",
-        "Palermo",
         "Agrigento",
-        "Messina"
+        "Enna",
+        "Trapani"
       ],
       "correctIndex": 0,
       "explanation": "“Giant fennel” is a typical plant of Caltanissetta."
@@ -2490,12 +2490,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Mastic tree”?",
       "choices": [
-        "Ragusa",
         "Enna",
-        "Caltanissetta",
-        "Messina"
+        "Trapani",
+        "Messina",
+        "Caltanissetta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Mastic tree” is a typical plant of Caltanissetta."
     },
     {
@@ -2504,10 +2504,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Caltanissetta nougat”?",
       "choices": [
-        "Agrigento",
-        "Trapani",
+        "Palermo",
+        "Messina",
         "Caltanissetta",
-        "Messina"
+        "Trapani"
       ],
       "correctIndex": 2,
       "explanation": "“Caltanissetta nougat” is a typical dish of Caltanissetta."
@@ -2518,12 +2518,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Cavatelli”?",
       "choices": [
-        "Catania",
-        "Messina",
-        "Agrigento",
-        "Caltanissetta"
+        "Palermo",
+        "Trapani",
+        "Caltanissetta",
+        "Syracuse"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Cavatelli” is a typical dish of Caltanissetta."
     },
     {
@@ -2532,12 +2532,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Pagnotta del Dittaino”?",
       "choices": [
-        "Agrigento",
+        "Catania",
         "Ragusa",
-        "Enna",
-        "Caltanissetta"
+        "Caltanissetta",
+        "Agrigento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Pagnotta del Dittaino” is a typical dish of Caltanissetta."
     },
     {
@@ -2546,12 +2546,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Mussomeli Castle”?",
       "choices": [
+        "Palermo",
+        "Enna",
         "Caltanissetta",
-        "Messina",
-        "Ragusa",
-        "Enna"
+        "Agrigento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Mussomeli Castle” is in Caltanissetta."
     },
     {
@@ -2560,12 +2560,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Caltanissetta Cathedral”?",
       "choices": [
-        "Trapani",
-        "Agrigento",
-        "Caltanissetta",
-        "Enna"
+        "Palermo",
+        "Messina",
+        "Syracuse",
+        "Caltanissetta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Caltanissetta Cathedral” is in Caltanissetta."
     },
     {
@@ -2574,12 +2574,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Monte Capodarso”?",
       "choices": [
-        "Ragusa",
-        "Agrigento",
-        "Syracuse",
-        "Caltanissetta"
+        "Caltanissetta",
+        "Catania",
+        "Palermo",
+        "Syracuse"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Monte Capodarso” is in Caltanissetta."
     },
     {
@@ -2588,12 +2588,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Sulphur mines”?",
       "choices": [
-        "Ragusa",
-        "Messina",
-        "Catania",
-        "Caltanissetta"
+        "Syracuse",
+        "Caltanissetta",
+        "Trapani",
+        "Palermo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "This fact is about Caltanissetta."
     },
     {
@@ -2603,9 +2603,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "Which province does this historical fact belong to: “Sicilian Fasci”?",
       "choices": [
         "Catania",
-        "Trapani",
+        "Ragusa",
         "Caltanissetta",
-        "Enna"
+        "Agrigento"
       ],
       "correctIndex": 2,
       "explanation": "This fact is about Caltanissetta."
@@ -2616,12 +2616,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Greek Gela”?",
       "choices": [
-        "Trapani",
-        "Palermo",
         "Caltanissetta",
-        "Syracuse"
+        "Agrigento",
+        "Palermo",
+        "Messina"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "This fact is about Caltanissetta."
     },
     {
@@ -2630,12 +2630,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Sicilian rock partridge”?",
       "choices": [
-        "Catania",
-        "Palermo",
+        "Trapani",
         "Caltanissetta",
-        "Ragusa"
+        "Messina",
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Sicilian rock partridge” is part of the wildlife of Catania."
     },
     {
@@ -2644,12 +2644,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Fox”?",
       "choices": [
-        "Messina",
         "Catania",
-        "Trapani",
+        "Enna",
+        "Messina",
         "Ragusa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Fox” is part of the wildlife of Catania."
     },
     {
@@ -2658,12 +2658,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Hedgehog”?",
       "choices": [
-        "Catania",
-        "Palermo",
-        "Ragusa",
-        "Messina"
+        "Caltanissetta",
+        "Agrigento",
+        "Trapani",
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Hedgehog” is part of the wildlife of Catania."
     },
     {
@@ -2672,12 +2672,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Wildcat”?",
       "choices": [
-        "Caltanissetta",
-        "Catania",
         "Agrigento",
-        "Messina"
+        "Trapani",
+        "Syracuse",
+        "Catania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Wildcat” is part of the wildlife of Catania."
     },
     {
@@ -2686,12 +2686,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Golden eagle”?",
       "choices": [
-        "Messina",
-        "Ragusa",
         "Catania",
-        "Syracuse"
+        "Ragusa",
+        "Enna",
+        "Messina"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Golden eagle” is part of the wildlife of Catania."
     },
     {
@@ -2701,8 +2701,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "In which province does this animal live: “Crested porcupine”?",
       "choices": [
         "Catania",
-        "Agrigento",
         "Trapani",
+        "Messina",
         "Palermo"
       ],
       "correctIndex": 0,
@@ -2714,12 +2714,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Etna broom”?",
       "choices": [
-        "Palermo",
-        "Catania",
-        "Trapani",
-        "Syracuse"
+        "Enna",
+        "Agrigento",
+        "Syracuse",
+        "Catania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Etna broom” is a typical plant of Catania."
     },
     {
@@ -2728,12 +2728,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Sweet chestnut”?",
       "choices": [
-        "Catania",
         "Trapani",
         "Palermo",
-        "Agrigento"
+        "Agrigento",
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Sweet chestnut” is a typical plant of Catania."
     },
     {
@@ -2742,12 +2742,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Pistachio”?",
       "choices": [
-        "Ragusa",
-        "Palermo",
-        "Trapani",
-        "Catania"
+        "Enna",
+        "Catania",
+        "Syracuse",
+        "Caltanissetta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Pistachio” is a typical plant of Catania."
     },
     {
@@ -2756,12 +2756,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Etna birch”?",
       "choices": [
-        "Palermo",
-        "Agrigento",
+        "Syracuse",
         "Catania",
-        "Messina"
+        "Ragusa",
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Etna birch” is a typical plant of Catania."
     },
     {
@@ -2770,12 +2770,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Prickly pear”?",
       "choices": [
+        "Caltanissetta",
         "Catania",
-        "Enna",
-        "Messina",
-        "Caltanissetta"
+        "Syracuse",
+        "Ragusa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Prickly pear” is a typical plant of Catania."
     },
     {
@@ -2784,12 +2784,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Blood orange”?",
       "choices": [
-        "Catania",
-        "Trapani",
+        "Agrigento",
+        "Ragusa",
         "Enna",
-        "Caltanissetta"
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Blood orange” is a typical plant of Catania."
     },
     {
@@ -2798,9 +2798,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Etna grapevine”?",
       "choices": [
-        "Messina",
+        "Caltanissetta",
+        "Ragusa",
         "Enna",
-        "Syracuse",
         "Catania"
       ],
       "correctIndex": 3,
@@ -2812,10 +2812,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Pasta alla Norma”?",
       "choices": [
-        "Messina",
+        "Caltanissetta",
         "Catania",
-        "Syracuse",
-        "Agrigento"
+        "Messina",
+        "Syracuse"
       ],
       "correctIndex": 1,
       "explanation": "“Pasta alla Norma” is a typical dish of Catania."
@@ -2826,12 +2826,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Arancino”?",
       "choices": [
-        "Catania",
         "Syracuse",
-        "Palermo",
-        "Caltanissetta"
+        "Agrigento",
+        "Ragusa",
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Arancino” is a typical dish of Catania."
     },
     {
@@ -2841,11 +2841,11 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "Which province is this dish typical of: “Granita”?",
       "choices": [
         "Caltanissetta",
-        "Enna",
-        "Ragusa",
-        "Catania"
+        "Palermo",
+        "Catania",
+        "Messina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Granita” is a typical dish of Catania."
     },
     {
@@ -2855,9 +2855,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "Which province is this dish typical of: “Brioche col tuppo”?",
       "choices": [
         "Catania",
-        "Agrigento",
-        "Trapani",
-        "Enna"
+        "Enna",
+        "Caltanissetta",
+        "Syracuse"
       ],
       "correctIndex": 0,
       "explanation": "“Brioche col tuppo” is a typical dish of Catania."
@@ -2868,12 +2868,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Cipollina”?",
       "choices": [
-        "Syracuse",
-        "Palermo",
         "Catania",
-        "Ragusa"
+        "Ragusa",
+        "Palermo",
+        "Messina"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Cipollina” is a typical dish of Catania."
     },
     {
@@ -2882,8 +2882,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Minne di Sant'Agata”?",
       "choices": [
-        "Trapani",
-        "Enna",
+        "Messina",
+        "Caltanissetta",
         "Syracuse",
         "Catania"
       ],
@@ -2896,12 +2896,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Cannolo”?",
       "choices": [
-        "Palermo",
-        "Ragusa",
+        "Caltanissetta",
+        "Catania",
         "Agrigento",
-        "Catania"
+        "Trapani"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Cannolo” is a typical dish of Catania."
     },
     {
@@ -2910,12 +2910,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Etna wine”?",
       "choices": [
-        "Ragusa",
-        "Agrigento",
-        "Caltanissetta",
-        "Catania"
+        "Enna",
+        "Catania",
+        "Palermo",
+        "Messina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Etna wine” is a typical dish of Catania."
     },
     {
@@ -2924,10 +2924,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Etna”?",
       "choices": [
-        "Enna",
-        "Agrigento",
+        "Syracuse",
+        "Messina",
         "Catania",
-        "Syracuse"
+        "Caltanissetta"
       ],
       "correctIndex": 2,
       "explanation": "“Etna” is in Catania."
@@ -2938,12 +2938,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Elephant Fountain”?",
       "choices": [
-        "Messina",
         "Palermo",
-        "Agrigento",
-        "Catania"
+        "Catania",
+        "Ragusa",
+        "Enna"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Elephant Fountain” is in Catania."
     },
     {
@@ -2952,12 +2952,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Caltagirone”?",
       "choices": [
-        "Ragusa",
         "Catania",
-        "Syracuse",
-        "Enna"
+        "Trapani",
+        "Messina",
+        "Agrigento"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Caltagirone” is in Catania."
     },
     {
@@ -2966,12 +2966,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Catania, the capital”?",
       "choices": [
-        "Enna",
+        "Trapani",
+        "Syracuse",
         "Catania",
-        "Ragusa",
-        "Palermo"
+        "Ragusa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Catania, the capital” is in Catania."
     },
     {
@@ -2982,8 +2982,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "choices": [
         "Messina",
         "Catania",
-        "Enna",
-        "Ragusa"
+        "Ragusa",
+        "Syracuse"
       ],
       "correctIndex": 1,
       "explanation": "“Roman Theatre” is in Catania."
@@ -2994,12 +2994,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Ursino Castle”?",
       "choices": [
+        "Caltanissetta",
+        "Agrigento",
         "Enna",
-        "Catania",
-        "Ragusa",
-        "Palermo"
+        "Catania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Ursino Castle” is in Catania."
     },
     {
@@ -3008,12 +3008,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Via dei Crociferi”?",
       "choices": [
-        "Ragusa",
         "Caltanissetta",
-        "Syracuse",
-        "Catania"
+        "Catania",
+        "Enna",
+        "Trapani"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Via dei Crociferi” is in Catania."
     },
     {
@@ -3022,12 +3022,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Cyclops Riviera”?",
       "choices": [
-        "Enna",
-        "Syracuse",
         "Catania",
-        "Messina"
+        "Palermo",
+        "Enna",
+        "Ragusa"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Cyclops Riviera” is in Catania."
     },
     {
@@ -3036,12 +3036,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Acireale”?",
       "choices": [
-        "Enna",
-        "Trapani",
-        "Ragusa",
-        "Catania"
+        "Catania",
+        "Syracuse",
+        "Caltanissetta",
+        "Messina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Acireale” is in Catania."
     },
     {
@@ -3050,9 +3050,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The 1669 eruption”?",
       "choices": [
-        "Syracuse",
-        "Agrigento",
+        "Trapani",
         "Messina",
+        "Palermo",
         "Catania"
       ],
       "correctIndex": 3,
@@ -3064,12 +3064,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Saint Agatha”?",
       "choices": [
-        "Trapani",
-        "Enna",
         "Catania",
-        "Agrigento"
+        "Palermo",
+        "Ragusa",
+        "Trapani"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "This fact is about Catania."
     },
     {
@@ -3078,12 +3078,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Vincenzo Bellini”?",
       "choices": [
-        "Agrigento",
+        "Messina",
+        "Palermo",
         "Enna",
-        "Catania",
-        "Palermo"
+        "Catania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "This fact is about Catania."
     },
     {
@@ -3092,12 +3092,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The 1693 earthquake”?",
       "choices": [
-        "Syracuse",
         "Caltanissetta",
-        "Catania",
-        "Trapani"
+        "Enna",
+        "Agrigento",
+        "Catania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "This fact is about Catania."
     },
     {
@@ -3106,12 +3106,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Giovanni Verga”?",
       "choices": [
-        "Messina",
+        "Ragusa",
+        "Caltanissetta",
         "Catania",
-        "Agrigento",
-        "Palermo"
+        "Messina"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "This fact is about Catania."
     },
     {
@@ -3120,12 +3120,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “University of Catania”?",
       "choices": [
-        "Messina",
-        "Agrigento",
-        "Ragusa",
-        "Catania"
+        "Enna",
+        "Caltanissetta",
+        "Catania",
+        "Palermo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "This fact is about Catania."
     },
     {
@@ -3134,12 +3134,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Crested porcupine”?",
       "choices": [
-        "Messina",
+        "Enna",
         "Syracuse",
         "Palermo",
-        "Enna"
+        "Agrigento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Crested porcupine” is part of the wildlife of Enna."
     },
     {
@@ -3148,12 +3148,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Common buzzard”?",
       "choices": [
-        "Enna",
-        "Trapani",
+        "Catania",
         "Agrigento",
-        "Catania"
+        "Enna",
+        "Palermo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Common buzzard” is part of the wildlife of Enna."
     },
     {
@@ -3162,12 +3162,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Common kestrel”?",
       "choices": [
-        "Palermo",
+        "Caltanissetta",
         "Messina",
-        "Enna",
-        "Agrigento"
+        "Syracuse",
+        "Enna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Common kestrel” is part of the wildlife of Enna."
     },
     {
@@ -3176,10 +3176,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Sulla”?",
       "choices": [
-        "Caltanissetta",
+        "Ragusa",
         "Enna",
-        "Catania",
-        "Palermo"
+        "Caltanissetta",
+        "Catania"
       ],
       "correctIndex": 1,
       "explanation": "“Sulla” is a typical plant of Enna."
@@ -3190,12 +3190,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Poppy”?",
       "choices": [
-        "Syracuse",
-        "Enna",
+        "Palermo",
+        "Caltanissetta",
         "Catania",
-        "Agrigento"
+        "Enna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Poppy” is a typical plant of Enna."
     },
     {
@@ -3204,8 +3204,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Holm oak”?",
       "choices": [
-        "Caltanissetta",
-        "Palermo",
+        "Trapani",
+        "Agrigento",
         "Enna",
         "Ragusa"
       ],
@@ -3218,12 +3218,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Piacentinu ennese”?",
       "choices": [
-        "Caltanissetta",
-        "Palermo",
         "Enna",
-        "Messina"
+        "Catania",
+        "Messina",
+        "Syracuse"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Piacentinu ennese” is a typical dish of Enna."
     },
     {
@@ -3232,12 +3232,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Cassatella of Agira”?",
       "choices": [
-        "Agrigento",
         "Ragusa",
-        "Messina",
-        "Enna"
+        "Enna",
+        "Catania",
+        "Caltanissetta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Cassatella of Agira” is a typical dish of Enna."
     },
     {
@@ -3246,12 +3246,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Sicilian pecorino”?",
       "choices": [
-        "Syracuse",
-        "Trapani",
+        "Messina",
         "Enna",
-        "Messina"
+        "Syracuse",
+        "Palermo"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Sicilian pecorino” is a typical dish of Enna."
     },
     {
@@ -3260,12 +3260,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Lombardia Castle”?",
       "choices": [
-        "Messina",
-        "Syracuse",
+        "Palermo",
         "Catania",
-        "Enna"
+        "Enna",
+        "Syracuse"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Lombardia Castle” is in Enna."
     },
     {
@@ -3274,12 +3274,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Villa Romana del Casale”?",
       "choices": [
-        "Caltanissetta",
-        "Agrigento",
+        "Ragusa",
         "Enna",
-        "Catania"
+        "Syracuse",
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Villa Romana del Casale” is in Enna."
     },
     {
@@ -3288,12 +3288,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Lake Pergusa”?",
       "choices": [
-        "Palermo",
-        "Messina",
-        "Ragusa",
-        "Enna"
+        "Catania",
+        "Syracuse",
+        "Enna",
+        "Trapani"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Lake Pergusa” is in Enna."
     },
     {
@@ -3302,12 +3302,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Piazza Armerina”?",
       "choices": [
-        "Caltanissetta",
-        "Catania",
-        "Palermo",
-        "Enna"
+        "Enna",
+        "Ragusa",
+        "Messina",
+        "Catania"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "This fact is about Enna."
     },
     {
@@ -3316,12 +3316,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Frederick II”?",
       "choices": [
-        "Enna",
-        "Messina",
+        "Agrigento",
+        "Caltanissetta",
         "Trapani",
-        "Agrigento"
+        "Enna"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "This fact is about Enna."
     },
     {
@@ -3330,12 +3330,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The abduction of Proserpina”?",
       "choices": [
-        "Messina",
-        "Palermo",
-        "Ragusa",
-        "Enna"
+        "Enna",
+        "Catania",
+        "Syracuse",
+        "Ragusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "This fact is about Enna."
     },
     {
@@ -3344,12 +3344,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Swordfish”?",
       "choices": [
+        "Catania",
         "Messina",
-        "Enna",
-        "Trapani",
-        "Caltanissetta"
+        "Agrigento",
+        "Palermo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Swordfish” is part of the wildlife of Messina."
     },
     {
@@ -3358,12 +3358,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Eleonora's falcon”?",
       "choices": [
-        "Trapani",
         "Messina",
-        "Catania",
-        "Agrigento"
+        "Ragusa",
+        "Agrigento",
+        "Enna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Eleonora's falcon” is part of the wildlife of Messina."
     },
     {
@@ -3372,12 +3372,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Striped dolphin”?",
       "choices": [
-        "Trapani",
         "Ragusa",
-        "Syracuse",
-        "Messina"
+        "Enna",
+        "Messina",
+        "Agrigento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Striped dolphin” is part of the wildlife of Messina."
     },
     {
@@ -3386,10 +3386,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Beech”?",
       "choices": [
-        "Enna",
+        "Syracuse",
         "Messina",
-        "Ragusa",
-        "Palermo"
+        "Agrigento",
+        "Ragusa"
       ],
       "correctIndex": 1,
       "explanation": "“Beech” is a typical plant of Messina."
@@ -3400,9 +3400,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Lemon tree”?",
       "choices": [
-        "Trapani",
+        "Ragusa",
+        "Agrigento",
         "Enna",
-        "Palermo",
         "Messina"
       ],
       "correctIndex": 3,
@@ -3414,12 +3414,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Broom”?",
       "choices": [
+        "Trapani",
+        "Caltanissetta",
         "Messina",
-        "Catania",
-        "Syracuse",
-        "Enna"
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Broom” is a typical plant of Messina."
     },
     {
@@ -3428,12 +3428,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Pasta 'ncasciata”?",
       "choices": [
-        "Messina",
-        "Trapani",
         "Ragusa",
-        "Palermo"
+        "Palermo",
+        "Caltanissetta",
+        "Messina"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Pasta 'ncasciata” is a typical dish of Messina."
     },
     {
@@ -3443,8 +3443,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "Which province is this dish typical of: “Pidone”?",
       "choices": [
         "Ragusa",
-        "Caltanissetta",
-        "Catania",
+        "Agrigento",
+        "Palermo",
         "Messina"
       ],
       "correctIndex": 3,
@@ -3456,9 +3456,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Granita with cream”?",
       "choices": [
-        "Enna",
-        "Caltanissetta",
+        "Ragusa",
         "Agrigento",
+        "Caltanissetta",
         "Messina"
       ],
       "correctIndex": 3,
@@ -3470,12 +3470,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Aeolian Islands”?",
       "choices": [
-        "Agrigento",
-        "Messina",
+        "Enna",
         "Ragusa",
-        "Syracuse"
+        "Caltanissetta",
+        "Messina"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Aeolian Islands” is in Messina."
     },
     {
@@ -3484,12 +3484,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Taormina”?",
       "choices": [
-        "Palermo",
-        "Catania",
+        "Syracuse",
         "Messina",
+        "Ragusa",
         "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Taormina” is in Messina."
     },
     {
@@ -3498,9 +3498,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Tindari”?",
       "choices": [
-        "Caltanissetta",
-        "Ragusa",
         "Palermo",
+        "Catania",
+        "Agrigento",
         "Messina"
       ],
       "correctIndex": 3,
@@ -3512,12 +3512,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The 1908 earthquake”?",
       "choices": [
-        "Caltanissetta",
-        "Messina",
         "Syracuse",
-        "Ragusa"
+        "Agrigento",
+        "Caltanissetta",
+        "Messina"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "This fact is about Messina."
     },
     {
@@ -3526,12 +3526,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Strait of Messina”?",
       "choices": [
-        "Caltanissetta",
+        "Palermo",
+        "Enna",
         "Messina",
-        "Syracuse",
-        "Catania"
+        "Caltanissetta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "This fact is about Messina."
     },
     {
@@ -3540,10 +3540,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Antonello da Messina”?",
       "choices": [
-        "Ragusa",
-        "Palermo",
+        "Catania",
+        "Enna",
         "Messina",
-        "Caltanissetta"
+        "Syracuse"
       ],
       "correctIndex": 2,
       "explanation": "This fact is about Messina."
@@ -3555,11 +3555,11 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "In which province does this animal live: “Peregrine falcon”?",
       "choices": [
         "Syracuse",
-        "Catania",
-        "Agrigento",
-        "Palermo"
+        "Palermo",
+        "Ragusa",
+        "Agrigento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Peregrine falcon” is part of the wildlife of Palermo."
     },
     {
@@ -3568,12 +3568,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Little owl”?",
       "choices": [
+        "Enna",
         "Palermo",
-        "Trapani",
-        "Catania",
-        "Syracuse"
+        "Caltanissetta",
+        "Messina"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Little owl” is part of the wildlife of Palermo."
     },
     {
@@ -3582,12 +3582,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Italian wall lizard”?",
       "choices": [
-        "Ragusa",
-        "Enna",
+        "Catania",
         "Palermo",
-        "Agrigento"
+        "Ragusa",
+        "Syracuse"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Italian wall lizard” is part of the wildlife of Palermo."
     },
     {
@@ -3596,12 +3596,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Bitter orange”?",
       "choices": [
-        "Syracuse",
-        "Caltanissetta",
         "Palermo",
+        "Caltanissetta",
+        "Messina",
         "Ragusa"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Bitter orange” is a typical plant of Palermo."
     },
     {
@@ -3610,12 +3610,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Moreton Bay fig”?",
       "choices": [
-        "Palermo",
         "Syracuse",
+        "Agrigento",
         "Ragusa",
-        "Messina"
+        "Palermo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Moreton Bay fig” is a typical plant of Palermo."
     },
     {
@@ -3624,12 +3624,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Dwarf fan palm”?",
       "choices": [
-        "Catania",
+        "Caltanissetta",
+        "Palermo",
         "Syracuse",
-        "Messina",
-        "Palermo"
+        "Messina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Dwarf fan palm” is a typical plant of Palermo."
     },
     {
@@ -3638,12 +3638,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Panelle”?",
       "choices": [
-        "Palermo",
+        "Agrigento",
         "Messina",
-        "Caltanissetta",
-        "Enna"
+        "Ragusa",
+        "Palermo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Panelle” is a typical dish of Palermo."
     },
     {
@@ -3652,12 +3652,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Sfincione”?",
       "choices": [
-        "Agrigento",
-        "Catania",
         "Palermo",
-        "Enna"
+        "Caltanissetta",
+        "Trapani",
+        "Catania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Sfincione” is a typical dish of Palermo."
     },
     {
@@ -3666,12 +3666,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Pasta with sardines”?",
       "choices": [
-        "Messina",
-        "Enna",
         "Palermo",
-        "Ragusa"
+        "Syracuse",
+        "Catania",
+        "Caltanissetta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Pasta with sardines” is a typical dish of Palermo."
     },
     {
@@ -3680,12 +3680,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Arancina”?",
       "choices": [
+        "Trapani",
         "Palermo",
-        "Catania",
         "Caltanissetta",
         "Enna"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Arancina” is a typical dish of Palermo."
     },
     {
@@ -3696,8 +3696,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "choices": [
         "Ragusa",
         "Palermo",
-        "Trapani",
-        "Enna"
+        "Catania",
+        "Messina"
       ],
       "correctIndex": 1,
       "explanation": "“Palatine Chapel” is in Palermo."
@@ -3708,12 +3708,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Monreale Cathedral”?",
       "choices": [
-        "Catania",
-        "Palermo",
+        "Enna",
+        "Trapani",
         "Ragusa",
-        "Agrigento"
+        "Palermo"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Monreale Cathedral” is in Palermo."
     },
     {
@@ -3722,12 +3722,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Cefalù”?",
       "choices": [
+        "Syracuse",
+        "Caltanissetta",
         "Enna",
-        "Agrigento",
-        "Palermo",
-        "Ragusa"
+        "Palermo"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Cefalù” is in Palermo."
     },
     {
@@ -3736,12 +3736,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Sicilian Vespers”?",
       "choices": [
-        "Catania",
-        "Ragusa",
         "Palermo",
-        "Messina"
+        "Syracuse",
+        "Ragusa",
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "This fact is about Palermo."
     },
     {
@@ -3750,12 +3750,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Roger II”?",
       "choices": [
-        "Trapani",
         "Palermo",
-        "Agrigento",
-        "Enna"
+        "Syracuse",
+        "Caltanissetta",
+        "Trapani"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "This fact is about Palermo."
     },
     {
@@ -3764,12 +3764,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Palace of the Normans”?",
       "choices": [
-        "Agrigento",
-        "Ragusa",
-        "Messina",
-        "Palermo"
+        "Caltanissetta",
+        "Syracuse",
+        "Palermo",
+        "Ragusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "This fact is about Palermo."
     },
     {
@@ -3778,12 +3778,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “European roller”?",
       "choices": [
+        "Enna",
         "Ragusa",
-        "Trapani",
-        "Syracuse",
-        "Enna"
+        "Agrigento",
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“European roller” is part of the wildlife of Ragusa."
     },
     {
@@ -3792,9 +3792,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Crested porcupine”?",
       "choices": [
+        "Messina",
+        "Palermo",
         "Trapani",
-        "Syracuse",
-        "Agrigento",
         "Ragusa"
       ],
       "correctIndex": 3,
@@ -3806,12 +3806,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Red-backed shrike”?",
       "choices": [
-        "Agrigento",
-        "Enna",
-        "Palermo",
-        "Ragusa"
+        "Ragusa",
+        "Caltanissetta",
+        "Trapani",
+        "Syracuse"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Red-backed shrike” is part of the wildlife of Ragusa."
     },
     {
@@ -3820,12 +3820,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Carob tree”?",
       "choices": [
-        "Catania",
-        "Caltanissetta",
-        "Messina",
-        "Ragusa"
+        "Ragusa",
+        "Enna",
+        "Palermo",
+        "Syracuse"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Carob tree” is a typical plant of Ragusa."
     },
     {
@@ -3834,12 +3834,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Thyme”?",
       "choices": [
-        "Palermo",
-        "Trapani",
+        "Agrigento",
         "Ragusa",
-        "Caltanissetta"
+        "Messina",
+        "Enna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Thyme” is a typical plant of Ragusa."
     },
     {
@@ -3848,9 +3848,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Olive tree”?",
       "choices": [
-        "Trapani",
-        "Messina",
-        "Catania",
+        "Enna",
+        "Caltanissetta",
+        "Palermo",
         "Ragusa"
       ],
       "correctIndex": 3,
@@ -3864,8 +3864,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "choices": [
         "Catania",
         "Ragusa",
-        "Messina",
-        "Caltanissetta"
+        "Enna",
+        "Agrigento"
       ],
       "correctIndex": 1,
       "explanation": "“Modica chocolate” is a typical dish of Ragusa."
@@ -3876,10 +3876,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Scaccia”?",
       "choices": [
-        "Messina",
+        "Palermo",
         "Ragusa",
         "Trapani",
-        "Palermo"
+        "Catania"
       ],
       "correctIndex": 1,
       "explanation": "“Scaccia” is a typical dish of Ragusa."
@@ -3890,12 +3890,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Ragusano”?",
       "choices": [
-        "Enna",
-        "Agrigento",
         "Catania",
-        "Ragusa"
+        "Ragusa",
+        "Enna",
+        "Palermo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Ragusano” is a typical dish of Ragusa."
     },
     {
@@ -3904,12 +3904,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Ragusa Ibla”?",
       "choices": [
-        "Syracuse",
-        "Ragusa",
+        "Enna",
+        "Messina",
         "Trapani",
-        "Messina"
+        "Ragusa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Ragusa Ibla” is in Ragusa."
     },
     {
@@ -3919,11 +3919,11 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "In which province is “Modica”?",
       "choices": [
         "Caltanissetta",
-        "Catania",
-        "Ragusa",
-        "Syracuse"
+        "Trapani",
+        "Messina",
+        "Ragusa"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Modica” is in Ragusa."
     },
     {
@@ -3932,12 +3932,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Scicli”?",
       "choices": [
-        "Syracuse",
-        "Messina",
+        "Catania",
         "Enna",
-        "Ragusa"
+        "Ragusa",
+        "Agrigento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Scicli” is in Ragusa."
     },
     {
@@ -3946,12 +3946,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “County of Modica”?",
       "choices": [
-        "Caltanissetta",
-        "Palermo",
+        "Catania",
         "Ragusa",
-        "Trapani"
+        "Messina",
+        "Caltanissetta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "This fact is about Ragusa."
     },
     {
@@ -3960,12 +3960,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “The 1693 earthquake”?",
       "choices": [
-        "Trapani",
+        "Ragusa",
         "Agrigento",
         "Palermo",
-        "Ragusa"
+        "Trapani"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "This fact is about Ragusa."
     },
     {
@@ -3975,8 +3975,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "Which province does this historical fact belong to: “Cava d'Ispica”?",
       "choices": [
         "Agrigento",
+        "Palermo",
         "Syracuse",
-        "Enna",
         "Ragusa"
       ],
       "correctIndex": 3,
@@ -3988,12 +3988,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Flamingo”?",
       "choices": [
+        "Messina",
+        "Agrigento",
         "Syracuse",
-        "Palermo",
-        "Caltanissetta",
         "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Flamingo” is part of the wildlife of Syracuse."
     },
     {
@@ -4002,12 +4002,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Pied avocet”?",
       "choices": [
-        "Catania",
-        "Agrigento",
+        "Messina",
         "Syracuse",
-        "Messina"
+        "Agrigento",
+        "Catania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Pied avocet” is part of the wildlife of Syracuse."
     },
     {
@@ -4016,12 +4016,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Sea turtle”?",
       "choices": [
+        "Catania",
         "Syracuse",
-        "Messina",
         "Trapani",
         "Caltanissetta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Sea turtle” is part of the wildlife of Syracuse."
     },
     {
@@ -4030,12 +4030,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Papyrus”?",
       "choices": [
-        "Messina",
         "Syracuse",
-        "Catania",
-        "Palermo"
+        "Caltanissetta",
+        "Trapani",
+        "Messina"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Papyrus” is a typical plant of Syracuse."
     },
     {
@@ -4044,12 +4044,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Almond tree”?",
       "choices": [
-        "Syracuse",
-        "Catania",
-        "Ragusa",
-        "Trapani"
+        "Palermo",
+        "Enna",
+        "Trapani",
+        "Syracuse"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Almond tree” is a typical plant of Syracuse."
     },
     {
@@ -4058,10 +4058,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Pomegranate”?",
       "choices": [
-        "Agrigento",
+        "Enna",
         "Syracuse",
-        "Messina",
-        "Enna"
+        "Ragusa",
+        "Caltanissetta"
       ],
       "correctIndex": 1,
       "explanation": "“Pomegranate” is a typical plant of Syracuse."
@@ -4072,12 +4072,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Syracuse-style pasta”?",
       "choices": [
-        "Catania",
-        "Palermo",
-        "Trapani",
-        "Syracuse"
+        "Agrigento",
+        "Syracuse",
+        "Ragusa",
+        "Messina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Syracuse-style pasta” is a typical dish of Syracuse."
     },
     {
@@ -4086,10 +4086,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Avola almond”?",
       "choices": [
-        "Caltanissetta",
+        "Enna",
         "Syracuse",
-        "Ragusa",
-        "Trapani"
+        "Palermo",
+        "Catania"
       ],
       "correctIndex": 1,
       "explanation": "“Avola almond” is a typical dish of Syracuse."
@@ -4101,9 +4101,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "Which province is this dish typical of: “Sarde a beccafico”?",
       "choices": [
         "Syracuse",
+        "Catania",
         "Ragusa",
-        "Messina",
-        "Trapani"
+        "Agrigento"
       ],
       "correctIndex": 0,
       "explanation": "“Sarde a beccafico” is a typical dish of Syracuse."
@@ -4114,12 +4114,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Ortigia”?",
       "choices": [
-        "Enna",
         "Syracuse",
+        "Trapani",
         "Ragusa",
-        "Palermo"
+        "Enna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Ortigia” is in Syracuse."
     },
     {
@@ -4128,12 +4128,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Greek Theatre”?",
       "choices": [
-        "Agrigento",
+        "Enna",
+        "Syracuse",
         "Messina",
-        "Trapani",
-        "Syracuse"
+        "Trapani"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Greek Theatre” is in Syracuse."
     },
     {
@@ -4142,10 +4142,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Noto”?",
       "choices": [
-        "Catania",
         "Ragusa",
+        "Caltanissetta",
         "Syracuse",
-        "Agrigento"
+        "Catania"
       ],
       "correctIndex": 2,
       "explanation": "“Noto” is in Syracuse."
@@ -4156,10 +4156,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Syracuse Cathedral”?",
       "choices": [
-        "Ragusa",
-        "Enna",
+        "Agrigento",
+        "Caltanissetta",
         "Syracuse",
-        "Palermo"
+        "Trapani"
       ],
       "correctIndex": 2,
       "explanation": "This fact is about Syracuse."
@@ -4170,12 +4170,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Archimedes”?",
       "choices": [
-        "Palermo",
-        "Syracuse",
+        "Caltanissetta",
+        "Trapani",
         "Ragusa",
-        "Trapani"
+        "Syracuse"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "This fact is about Syracuse."
     },
     {
@@ -4184,12 +4184,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Dionysius I”?",
       "choices": [
-        "Palermo",
         "Syracuse",
-        "Caltanissetta",
+        "Trapani",
+        "Palermo",
         "Catania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "This fact is about Syracuse."
     },
     {
@@ -4198,12 +4198,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Flamingo”?",
       "choices": [
-        "Trapani",
-        "Ragusa",
-        "Messina",
-        "Enna"
+        "Palermo",
+        "Caltanissetta",
+        "Agrigento",
+        "Trapani"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Flamingo” is part of the wildlife of Trapani."
     },
     {
@@ -4212,10 +4212,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In which province does this animal live: “Bluefin tuna”?",
       "choices": [
-        "Ragusa",
-        "Catania",
+        "Caltanissetta",
+        "Agrigento",
         "Trapani",
-        "Enna"
+        "Syracuse"
       ],
       "correctIndex": 2,
       "explanation": "“Bluefin tuna” is part of the wildlife of Trapani."
@@ -4227,7 +4227,7 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "In which province does this animal live: “Scopoli's shearwater”?",
       "choices": [
         "Palermo",
-        "Agrigento",
+        "Ragusa",
         "Catania",
         "Trapani"
       ],
@@ -4240,12 +4240,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Caper”?",
       "choices": [
-        "Trapani",
-        "Ragusa",
         "Syracuse",
-        "Caltanissetta"
+        "Caltanissetta",
+        "Palermo",
+        "Trapani"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Caper” is a typical plant of Trapani."
     },
     {
@@ -4254,12 +4254,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Zibibbo”?",
       "choices": [
-        "Messina",
         "Trapani",
-        "Enna",
-        "Caltanissetta"
+        "Caltanissetta",
+        "Syracuse",
+        "Palermo"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Zibibbo” is a typical plant of Trapani."
     },
     {
@@ -4268,12 +4268,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In which province does this plant grow: “Dwarf fan palm”?",
       "choices": [
+        "Caltanissetta",
         "Agrigento",
         "Enna",
-        "Trapani",
-        "Messina"
+        "Trapani"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Dwarf fan palm” is a typical plant of Trapani."
     },
     {
@@ -4282,12 +4282,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Trapani-style couscous”?",
       "choices": [
-        "Enna",
+        "Syracuse",
         "Palermo",
-        "Trapani",
-        "Ragusa"
+        "Ragusa",
+        "Trapani"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Trapani-style couscous” is a typical dish of Trapani."
     },
     {
@@ -4296,12 +4296,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Trapani-style pesto”?",
       "choices": [
-        "Caltanissetta",
-        "Messina",
-        "Catania",
-        "Trapani"
+        "Ragusa",
+        "Trapani",
+        "Syracuse",
+        "Messina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Trapani-style pesto” is a typical dish of Trapani."
     },
     {
@@ -4310,12 +4310,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Which province is this dish typical of: “Busiate”?",
       "choices": [
-        "Agrigento",
-        "Ragusa",
-        "Palermo",
-        "Trapani"
+        "Trapani",
+        "Messina",
+        "Syracuse",
+        "Catania"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Busiate” is a typical dish of Trapani."
     },
     {
@@ -4324,12 +4324,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Erice”?",
       "choices": [
-        "Trapani",
-        "Caltanissetta",
+        "Syracuse",
+        "Catania",
         "Ragusa",
-        "Enna"
+        "Trapani"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Erice” is in Trapani."
     },
     {
@@ -4338,12 +4338,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Trapani Salt Pans”?",
       "choices": [
-        "Ragusa",
+        "Messina",
         "Enna",
-        "Agrigento",
-        "Trapani"
+        "Trapani",
+        "Syracuse"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Trapani Salt Pans” is in Trapani."
     },
     {
@@ -4352,10 +4352,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In which province is “Segesta”?",
       "choices": [
-        "Caltanissetta",
+        "Ragusa",
         "Trapani",
-        "Catania",
-        "Syracuse"
+        "Messina",
+        "Enna"
       ],
       "correctIndex": 1,
       "explanation": "“Segesta” is in Trapani."
@@ -4366,12 +4366,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Motya”?",
       "choices": [
+        "Catania",
         "Trapani",
-        "Caltanissetta",
-        "Ragusa",
-        "Palermo"
+        "Messina",
+        "Agrigento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "This fact is about Trapani."
     },
     {
@@ -4380,12 +4380,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Elymians”?",
       "choices": [
-        "Trapani",
-        "Messina",
         "Palermo",
-        "Agrigento"
+        "Trapani",
+        "Enna",
+        "Syracuse"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "This fact is about Trapani."
     },
     {
@@ -4394,10 +4394,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "Which province does this historical fact belong to: “Florio Tonnara”?",
       "choices": [
+        "Messina",
         "Ragusa",
-        "Catania",
         "Trapani",
-        "Agrigento"
+        "Caltanissetta"
       ],
       "correctIndex": 2,
       "explanation": "This fact is about Trapani."
@@ -4410,12 +4410,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Grillaio»?",
       "choices": [
+        "Palermo",
         "Agrigento",
-        "Ragusa",
-        "Catania",
-        "Caltanissetta"
+        "Enna",
+        "Siracusa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Grillaio» fa parte della fauna di Agrigento."
     },
     {
@@ -4424,12 +4424,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Tartaruga marina»?",
       "choices": [
+        "Palermo",
         "Catania",
-        "Enna",
-        "Agrigento",
-        "Palermo"
+        "Trapani",
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Tartaruga marina» fa parte della fauna di Agrigento."
     },
     {
@@ -4438,12 +4438,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Gabbiano corso»?",
       "choices": [
-        "Messina",
         "Agrigento",
-        "Trapani",
-        "Palermo"
+        "Caltanissetta",
+        "Palermo",
+        "Trapani"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Gabbiano corso» fa parte della fauna di Agrigento."
     },
     {
@@ -4452,12 +4452,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Mandorlo»?",
       "choices": [
+        "Ragusa",
+        "Messina",
         "Palermo",
-        "Catania",
-        "Agrigento",
-        "Enna"
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Mandorlo» è una pianta tipica di Agrigento."
     },
     {
@@ -4467,9 +4467,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "In quale provincia cresce questa pianta: «Fico d'India»?",
       "choices": [
         "Agrigento",
-        "Ragusa",
         "Enna",
-        "Palermo"
+        "Caltanissetta",
+        "Siracusa"
       ],
       "correctIndex": 0,
       "explanation": "«Fico d'India» è una pianta tipica di Agrigento."
@@ -4480,12 +4480,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Ulivo»?",
       "choices": [
-        "Caltanissetta",
         "Agrigento",
-        "Trapani",
-        "Messina"
+        "Caltanissetta",
+        "Catania",
+        "Enna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Ulivo» è una pianta tipica di Agrigento."
     },
     {
@@ -4494,12 +4494,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Macco di fave»?",
       "choices": [
-        "Agrigento",
-        "Siracusa",
-        "Catania",
-        "Palermo"
+        "Ragusa",
+        "Caltanissetta",
+        "Palermo",
+        "Agrigento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Macco di fave» è un piatto tipico di Agrigento."
     },
     {
@@ -4508,12 +4508,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Biancomangiare»?",
       "choices": [
+        "Messina",
         "Enna",
-        "Agrigento",
-        "Trapani",
-        "Catania"
+        "Palermo",
+        "Agrigento"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Biancomangiare» è un piatto tipico di Agrigento."
     },
     {
@@ -4522,12 +4522,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Caponata»?",
       "choices": [
+        "Trapani",
+        "Ragusa",
         "Siracusa",
-        "Enna",
-        "Agrigento",
-        "Palermo"
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Caponata» è un piatto tipico di Agrigento."
     },
     {
@@ -4536,10 +4536,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Valle dei Templi»?",
       "choices": [
-        "Caltanissetta",
-        "Catania",
+        "Ragusa",
+        "Trapani",
         "Agrigento",
-        "Enna"
+        "Siracusa"
       ],
       "correctIndex": 2,
       "explanation": "«Valle dei Templi» si trova in Agrigento."
@@ -4551,9 +4551,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "In quale provincia si trova «Scala dei Turchi»?",
       "choices": [
         "Agrigento",
-        "Catania",
         "Enna",
-        "Messina"
+        "Caltanissetta",
+        "Palermo"
       ],
       "correctIndex": 0,
       "explanation": "«Scala dei Turchi» si trova in Agrigento."
@@ -4564,12 +4564,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Lampedusa»?",
       "choices": [
+        "Siracusa",
+        "Caltanissetta",
         "Agrigento",
-        "Trapani",
-        "Enna",
         "Ragusa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Lampedusa» si trova in Agrigento."
     },
     {
@@ -4578,9 +4578,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Tempio della Concordia»?",
       "choices": [
-        "Caltanissetta",
         "Ragusa",
-        "Siracusa",
+        "Enna",
+        "Caltanissetta",
         "Agrigento"
       ],
       "correctIndex": 3,
@@ -4593,9 +4593,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "A quale provincia appartiene questo fatto storico: «Empedocle»?",
       "choices": [
         "Agrigento",
-        "Catania",
-        "Messina",
-        "Palermo"
+        "Enna",
+        "Caltanissetta",
+        "Catania"
       ],
       "correctIndex": 0,
       "explanation": "Questo fatto riguarda Agrigento."
@@ -4606,9 +4606,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Luigi Pirandello»?",
       "choices": [
-        "Palermo",
-        "Siracusa",
-        "Caltanissetta",
+        "Catania",
+        "Ragusa",
+        "Trapani",
         "Agrigento"
       ],
       "correctIndex": 3,
@@ -4620,12 +4620,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Istrice»?",
       "choices": [
+        "Agrigento",
+        "Palermo",
         "Caltanissetta",
-        "Trapani",
-        "Siracusa",
-        "Agrigento"
+        "Siracusa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Istrice» fa parte della fauna di Caltanissetta."
     },
     {
@@ -4634,12 +4634,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Volpe»?",
       "choices": [
-        "Messina",
-        "Caltanissetta",
+        "Palermo",
         "Agrigento",
-        "Trapani"
+        "Caltanissetta",
+        "Ragusa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Volpe» fa parte della fauna di Caltanissetta."
     },
     {
@@ -4648,12 +4648,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Poiana»?",
       "choices": [
-        "Palermo",
-        "Agrigento",
+        "Messina",
         "Caltanissetta",
-        "Trapani"
+        "Agrigento",
+        "Palermo"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Poiana» fa parte della fauna di Caltanissetta."
     },
     {
@@ -4662,12 +4662,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Grano duro»?",
       "choices": [
-        "Caltanissetta",
-        "Messina",
         "Trapani",
-        "Catania"
+        "Catania",
+        "Caltanissetta",
+        "Palermo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Grano duro» è una pianta tipica di Caltanissetta."
     },
     {
@@ -4677,9 +4677,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "In quale provincia cresce questa pianta: «Ferula»?",
       "choices": [
         "Caltanissetta",
-        "Palermo",
         "Agrigento",
-        "Messina"
+        "Enna",
+        "Trapani"
       ],
       "correctIndex": 0,
       "explanation": "«Ferula» è una pianta tipica di Caltanissetta."
@@ -4690,12 +4690,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Lentisco»?",
       "choices": [
-        "Ragusa",
         "Enna",
-        "Caltanissetta",
-        "Messina"
+        "Trapani",
+        "Messina",
+        "Caltanissetta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Lentisco» è una pianta tipica di Caltanissetta."
     },
     {
@@ -4704,10 +4704,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Torrone di Caltanissetta»?",
       "choices": [
-        "Agrigento",
-        "Trapani",
+        "Palermo",
+        "Messina",
         "Caltanissetta",
-        "Messina"
+        "Trapani"
       ],
       "correctIndex": 2,
       "explanation": "«Torrone di Caltanissetta» è un piatto tipico di Caltanissetta."
@@ -4718,12 +4718,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Cavatelli»?",
       "choices": [
-        "Catania",
-        "Messina",
-        "Agrigento",
-        "Caltanissetta"
+        "Palermo",
+        "Trapani",
+        "Caltanissetta",
+        "Siracusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Cavatelli» è un piatto tipico di Caltanissetta."
     },
     {
@@ -4732,12 +4732,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Pagnotta del Dittaino»?",
       "choices": [
-        "Agrigento",
+        "Catania",
         "Ragusa",
-        "Enna",
-        "Caltanissetta"
+        "Caltanissetta",
+        "Agrigento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Pagnotta del Dittaino» è un piatto tipico di Caltanissetta."
     },
     {
@@ -4746,12 +4746,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Castello di Mussomeli»?",
       "choices": [
+        "Palermo",
+        "Enna",
         "Caltanissetta",
-        "Messina",
-        "Ragusa",
-        "Enna"
+        "Agrigento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Castello di Mussomeli» si trova in Caltanissetta."
     },
     {
@@ -4760,12 +4760,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Cattedrale di Caltanissetta»?",
       "choices": [
-        "Trapani",
-        "Agrigento",
-        "Caltanissetta",
-        "Enna"
+        "Palermo",
+        "Messina",
+        "Siracusa",
+        "Caltanissetta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Cattedrale di Caltanissetta» si trova in Caltanissetta."
     },
     {
@@ -4774,12 +4774,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Monte Capodarso»?",
       "choices": [
-        "Ragusa",
-        "Agrigento",
-        "Siracusa",
-        "Caltanissetta"
+        "Caltanissetta",
+        "Catania",
+        "Palermo",
+        "Siracusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Monte Capodarso» si trova in Caltanissetta."
     },
     {
@@ -4788,12 +4788,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Solfare»?",
       "choices": [
-        "Ragusa",
-        "Messina",
-        "Catania",
-        "Caltanissetta"
+        "Siracusa",
+        "Caltanissetta",
+        "Trapani",
+        "Palermo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Questo fatto riguarda Caltanissetta."
     },
     {
@@ -4803,9 +4803,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "A quale provincia appartiene questo fatto storico: «Fasci siciliani»?",
       "choices": [
         "Catania",
-        "Trapani",
+        "Ragusa",
         "Caltanissetta",
-        "Enna"
+        "Agrigento"
       ],
       "correctIndex": 2,
       "explanation": "Questo fatto riguarda Caltanissetta."
@@ -4816,12 +4816,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Gela greca»?",
       "choices": [
-        "Trapani",
-        "Palermo",
         "Caltanissetta",
-        "Siracusa"
+        "Agrigento",
+        "Palermo",
+        "Messina"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Caltanissetta."
     },
     {
@@ -4830,12 +4830,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Coturnice siciliana»?",
       "choices": [
-        "Catania",
-        "Palermo",
+        "Trapani",
         "Caltanissetta",
-        "Ragusa"
+        "Messina",
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Coturnice siciliana» fa parte della fauna di Catania."
     },
     {
@@ -4844,12 +4844,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Volpe»?",
       "choices": [
-        "Messina",
         "Catania",
-        "Trapani",
+        "Enna",
+        "Messina",
         "Ragusa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Volpe» fa parte della fauna di Catania."
     },
     {
@@ -4858,12 +4858,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Riccio»?",
       "choices": [
-        "Catania",
-        "Palermo",
-        "Ragusa",
-        "Messina"
+        "Caltanissetta",
+        "Agrigento",
+        "Trapani",
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Riccio» fa parte della fauna di Catania."
     },
     {
@@ -4872,12 +4872,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Gatto selvatico»?",
       "choices": [
-        "Caltanissetta",
-        "Catania",
         "Agrigento",
-        "Messina"
+        "Trapani",
+        "Siracusa",
+        "Catania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Gatto selvatico» fa parte della fauna di Catania."
     },
     {
@@ -4886,12 +4886,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Aquila reale»?",
       "choices": [
-        "Messina",
-        "Ragusa",
         "Catania",
-        "Siracusa"
+        "Ragusa",
+        "Enna",
+        "Messina"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Aquila reale» fa parte della fauna di Catania."
     },
     {
@@ -4901,8 +4901,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "In quale provincia vive questo animale: «Istrice»?",
       "choices": [
         "Catania",
-        "Agrigento",
         "Trapani",
+        "Messina",
         "Palermo"
       ],
       "correctIndex": 0,
@@ -4914,12 +4914,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Ginestra dell'Etna»?",
       "choices": [
-        "Palermo",
-        "Catania",
-        "Trapani",
-        "Siracusa"
+        "Enna",
+        "Agrigento",
+        "Siracusa",
+        "Catania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Ginestra dell'Etna» è una pianta tipica di Catania."
     },
     {
@@ -4928,12 +4928,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Castagno»?",
       "choices": [
-        "Catania",
         "Trapani",
         "Palermo",
-        "Agrigento"
+        "Agrigento",
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Castagno» è una pianta tipica di Catania."
     },
     {
@@ -4942,12 +4942,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Pistacchio»?",
       "choices": [
-        "Ragusa",
-        "Palermo",
-        "Trapani",
-        "Catania"
+        "Enna",
+        "Catania",
+        "Siracusa",
+        "Caltanissetta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Pistacchio» è una pianta tipica di Catania."
     },
     {
@@ -4956,12 +4956,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Betulla dell'Etna»?",
       "choices": [
-        "Palermo",
-        "Agrigento",
+        "Siracusa",
         "Catania",
-        "Messina"
+        "Ragusa",
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Betulla dell'Etna» è una pianta tipica di Catania."
     },
     {
@@ -4970,12 +4970,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Fico d'India»?",
       "choices": [
+        "Caltanissetta",
         "Catania",
-        "Enna",
-        "Messina",
-        "Caltanissetta"
+        "Siracusa",
+        "Ragusa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Fico d'India» è una pianta tipica di Catania."
     },
     {
@@ -4984,12 +4984,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Arancia rossa»?",
       "choices": [
-        "Catania",
-        "Trapani",
+        "Agrigento",
+        "Ragusa",
         "Enna",
-        "Caltanissetta"
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Arancia rossa» è una pianta tipica di Catania."
     },
     {
@@ -4998,9 +4998,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Vite dell'Etna»?",
       "choices": [
-        "Messina",
+        "Caltanissetta",
+        "Ragusa",
         "Enna",
-        "Siracusa",
         "Catania"
       ],
       "correctIndex": 3,
@@ -5012,10 +5012,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Pasta alla Norma»?",
       "choices": [
-        "Messina",
+        "Caltanissetta",
         "Catania",
-        "Siracusa",
-        "Agrigento"
+        "Messina",
+        "Siracusa"
       ],
       "correctIndex": 1,
       "explanation": "«Pasta alla Norma» è un piatto tipico di Catania."
@@ -5026,12 +5026,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Arancino»?",
       "choices": [
-        "Catania",
         "Siracusa",
-        "Palermo",
-        "Caltanissetta"
+        "Agrigento",
+        "Ragusa",
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Arancino» è un piatto tipico di Catania."
     },
     {
@@ -5041,11 +5041,11 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "Di quale provincia è tipico questo piatto: «Granita»?",
       "choices": [
         "Caltanissetta",
-        "Enna",
-        "Ragusa",
-        "Catania"
+        "Palermo",
+        "Catania",
+        "Messina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Granita» è un piatto tipico di Catania."
     },
     {
@@ -5055,9 +5055,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "Di quale provincia è tipico questo piatto: «Brioche col tuppo»?",
       "choices": [
         "Catania",
-        "Agrigento",
-        "Trapani",
-        "Enna"
+        "Enna",
+        "Caltanissetta",
+        "Siracusa"
       ],
       "correctIndex": 0,
       "explanation": "«Brioche col tuppo» è un piatto tipico di Catania."
@@ -5068,12 +5068,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Cipollina»?",
       "choices": [
-        "Siracusa",
-        "Palermo",
         "Catania",
-        "Ragusa"
+        "Ragusa",
+        "Palermo",
+        "Messina"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Cipollina» è un piatto tipico di Catania."
     },
     {
@@ -5082,8 +5082,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Minne di Sant'Agata»?",
       "choices": [
-        "Trapani",
-        "Enna",
+        "Messina",
+        "Caltanissetta",
         "Siracusa",
         "Catania"
       ],
@@ -5096,12 +5096,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Cannolo»?",
       "choices": [
-        "Palermo",
-        "Ragusa",
+        "Caltanissetta",
+        "Catania",
         "Agrigento",
-        "Catania"
+        "Trapani"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Cannolo» è un piatto tipico di Catania."
     },
     {
@@ -5110,12 +5110,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Vino dell'Etna»?",
       "choices": [
-        "Ragusa",
-        "Agrigento",
-        "Caltanissetta",
-        "Catania"
+        "Enna",
+        "Catania",
+        "Palermo",
+        "Messina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Vino dell'Etna» è un piatto tipico di Catania."
     },
     {
@@ -5124,10 +5124,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Etna»?",
       "choices": [
-        "Enna",
-        "Agrigento",
+        "Siracusa",
+        "Messina",
         "Catania",
-        "Siracusa"
+        "Caltanissetta"
       ],
       "correctIndex": 2,
       "explanation": "«Etna» si trova in Catania."
@@ -5138,12 +5138,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Fontana dell'Elefante»?",
       "choices": [
-        "Messina",
         "Palermo",
-        "Agrigento",
-        "Catania"
+        "Catania",
+        "Ragusa",
+        "Enna"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Fontana dell'Elefante» si trova in Catania."
     },
     {
@@ -5152,12 +5152,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Caltagirone»?",
       "choices": [
-        "Ragusa",
         "Catania",
-        "Siracusa",
-        "Enna"
+        "Trapani",
+        "Messina",
+        "Agrigento"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Caltagirone» si trova in Catania."
     },
     {
@@ -5166,12 +5166,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Catania, il capoluogo»?",
       "choices": [
-        "Enna",
+        "Trapani",
+        "Siracusa",
         "Catania",
-        "Ragusa",
-        "Palermo"
+        "Ragusa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Catania, il capoluogo» si trova in Catania."
     },
     {
@@ -5182,8 +5182,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "choices": [
         "Messina",
         "Catania",
-        "Enna",
-        "Ragusa"
+        "Ragusa",
+        "Siracusa"
       ],
       "correctIndex": 1,
       "explanation": "«Teatro romano» si trova in Catania."
@@ -5194,12 +5194,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Castello Ursino»?",
       "choices": [
+        "Caltanissetta",
+        "Agrigento",
         "Enna",
-        "Catania",
-        "Ragusa",
-        "Palermo"
+        "Catania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Castello Ursino» si trova in Catania."
     },
     {
@@ -5208,12 +5208,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Via dei Crociferi»?",
       "choices": [
-        "Ragusa",
         "Caltanissetta",
-        "Siracusa",
-        "Catania"
+        "Catania",
+        "Enna",
+        "Trapani"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Via dei Crociferi» si trova in Catania."
     },
     {
@@ -5222,12 +5222,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Riviera dei Ciclopi»?",
       "choices": [
-        "Enna",
-        "Siracusa",
         "Catania",
-        "Messina"
+        "Palermo",
+        "Enna",
+        "Ragusa"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Riviera dei Ciclopi» si trova in Catania."
     },
     {
@@ -5236,12 +5236,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Acireale»?",
       "choices": [
-        "Enna",
-        "Trapani",
-        "Ragusa",
-        "Catania"
+        "Catania",
+        "Siracusa",
+        "Caltanissetta",
+        "Messina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Acireale» si trova in Catania."
     },
     {
@@ -5250,9 +5250,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Eruzione del 1669»?",
       "choices": [
-        "Siracusa",
-        "Agrigento",
+        "Trapani",
         "Messina",
+        "Palermo",
         "Catania"
       ],
       "correctIndex": 3,
@@ -5264,12 +5264,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Sant'Agata»?",
       "choices": [
-        "Trapani",
-        "Enna",
         "Catania",
-        "Agrigento"
+        "Palermo",
+        "Ragusa",
+        "Trapani"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Catania."
     },
     {
@@ -5278,12 +5278,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Vincenzo Bellini»?",
       "choices": [
-        "Agrigento",
+        "Messina",
+        "Palermo",
         "Enna",
-        "Catania",
-        "Palermo"
+        "Catania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Catania."
     },
     {
@@ -5292,12 +5292,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Terremoto del 1693»?",
       "choices": [
-        "Siracusa",
         "Caltanissetta",
-        "Catania",
-        "Trapani"
+        "Enna",
+        "Agrigento",
+        "Catania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Catania."
     },
     {
@@ -5306,12 +5306,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Giovanni Verga»?",
       "choices": [
-        "Messina",
+        "Ragusa",
+        "Caltanissetta",
         "Catania",
-        "Agrigento",
-        "Palermo"
+        "Messina"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Catania."
     },
     {
@@ -5320,12 +5320,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Università di Catania»?",
       "choices": [
-        "Messina",
-        "Agrigento",
-        "Ragusa",
-        "Catania"
+        "Enna",
+        "Caltanissetta",
+        "Catania",
+        "Palermo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Catania."
     },
     {
@@ -5334,12 +5334,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Istrice»?",
       "choices": [
-        "Messina",
+        "Enna",
         "Siracusa",
         "Palermo",
-        "Enna"
+        "Agrigento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Istrice» fa parte della fauna di Enna."
     },
     {
@@ -5348,12 +5348,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Poiana»?",
       "choices": [
-        "Enna",
-        "Trapani",
+        "Catania",
         "Agrigento",
-        "Catania"
+        "Enna",
+        "Palermo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Poiana» fa parte della fauna di Enna."
     },
     {
@@ -5362,12 +5362,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Gheppio»?",
       "choices": [
-        "Palermo",
+        "Caltanissetta",
         "Messina",
-        "Enna",
-        "Agrigento"
+        "Siracusa",
+        "Enna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Gheppio» fa parte della fauna di Enna."
     },
     {
@@ -5376,10 +5376,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Sulla»?",
       "choices": [
-        "Caltanissetta",
+        "Ragusa",
         "Enna",
-        "Catania",
-        "Palermo"
+        "Caltanissetta",
+        "Catania"
       ],
       "correctIndex": 1,
       "explanation": "«Sulla» è una pianta tipica di Enna."
@@ -5390,12 +5390,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Papavero»?",
       "choices": [
-        "Siracusa",
-        "Enna",
+        "Palermo",
+        "Caltanissetta",
         "Catania",
-        "Agrigento"
+        "Enna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Papavero» è una pianta tipica di Enna."
     },
     {
@@ -5404,8 +5404,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Leccio»?",
       "choices": [
-        "Caltanissetta",
-        "Palermo",
+        "Trapani",
+        "Agrigento",
         "Enna",
         "Ragusa"
       ],
@@ -5418,12 +5418,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Piacentinu ennese»?",
       "choices": [
-        "Caltanissetta",
-        "Palermo",
         "Enna",
-        "Messina"
+        "Catania",
+        "Messina",
+        "Siracusa"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Piacentinu ennese» è un piatto tipico di Enna."
     },
     {
@@ -5432,12 +5432,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Cassatella di Agira»?",
       "choices": [
-        "Agrigento",
         "Ragusa",
-        "Messina",
-        "Enna"
+        "Enna",
+        "Catania",
+        "Caltanissetta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Cassatella di Agira» è un piatto tipico di Enna."
     },
     {
@@ -5446,12 +5446,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Pecorino siciliano»?",
       "choices": [
-        "Siracusa",
-        "Trapani",
+        "Messina",
         "Enna",
-        "Messina"
+        "Siracusa",
+        "Palermo"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Pecorino siciliano» è un piatto tipico di Enna."
     },
     {
@@ -5460,12 +5460,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Castello di Lombardia»?",
       "choices": [
-        "Messina",
-        "Siracusa",
+        "Palermo",
         "Catania",
-        "Enna"
+        "Enna",
+        "Siracusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Castello di Lombardia» si trova in Enna."
     },
     {
@@ -5474,12 +5474,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Villa romana del Casale»?",
       "choices": [
-        "Caltanissetta",
-        "Agrigento",
+        "Ragusa",
         "Enna",
-        "Catania"
+        "Siracusa",
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Villa romana del Casale» si trova in Enna."
     },
     {
@@ -5488,12 +5488,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Lago di Pergusa»?",
       "choices": [
-        "Palermo",
-        "Messina",
-        "Ragusa",
-        "Enna"
+        "Catania",
+        "Siracusa",
+        "Enna",
+        "Trapani"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Lago di Pergusa» si trova in Enna."
     },
     {
@@ -5502,12 +5502,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Piazza Armerina»?",
       "choices": [
-        "Caltanissetta",
-        "Catania",
-        "Palermo",
-        "Enna"
+        "Enna",
+        "Ragusa",
+        "Messina",
+        "Catania"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Enna."
     },
     {
@@ -5516,12 +5516,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Federico II»?",
       "choices": [
-        "Enna",
-        "Messina",
+        "Agrigento",
+        "Caltanissetta",
         "Trapani",
-        "Agrigento"
+        "Enna"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Enna."
     },
     {
@@ -5530,12 +5530,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Ratto di Proserpina»?",
       "choices": [
-        "Messina",
-        "Palermo",
-        "Ragusa",
-        "Enna"
+        "Enna",
+        "Catania",
+        "Siracusa",
+        "Ragusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Enna."
     },
     {
@@ -5544,12 +5544,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Pesce spada»?",
       "choices": [
+        "Catania",
         "Messina",
-        "Enna",
-        "Trapani",
-        "Caltanissetta"
+        "Agrigento",
+        "Palermo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Pesce spada» fa parte della fauna di Messina."
     },
     {
@@ -5558,12 +5558,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Falco della regina»?",
       "choices": [
-        "Trapani",
         "Messina",
-        "Catania",
-        "Agrigento"
+        "Ragusa",
+        "Agrigento",
+        "Enna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Falco della regina» fa parte della fauna di Messina."
     },
     {
@@ -5572,12 +5572,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Delfino striato»?",
       "choices": [
-        "Trapani",
         "Ragusa",
-        "Siracusa",
-        "Messina"
+        "Enna",
+        "Messina",
+        "Agrigento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Delfino striato» fa parte della fauna di Messina."
     },
     {
@@ -5586,10 +5586,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Faggio»?",
       "choices": [
-        "Enna",
+        "Siracusa",
         "Messina",
-        "Ragusa",
-        "Palermo"
+        "Agrigento",
+        "Ragusa"
       ],
       "correctIndex": 1,
       "explanation": "«Faggio» è una pianta tipica di Messina."
@@ -5600,9 +5600,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Limone»?",
       "choices": [
-        "Trapani",
+        "Ragusa",
+        "Agrigento",
         "Enna",
-        "Palermo",
         "Messina"
       ],
       "correctIndex": 3,
@@ -5614,12 +5614,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Ginestra»?",
       "choices": [
+        "Trapani",
+        "Caltanissetta",
         "Messina",
-        "Catania",
-        "Siracusa",
-        "Enna"
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Ginestra» è una pianta tipica di Messina."
     },
     {
@@ -5628,12 +5628,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Pasta 'ncasciata»?",
       "choices": [
-        "Messina",
-        "Trapani",
         "Ragusa",
-        "Palermo"
+        "Palermo",
+        "Caltanissetta",
+        "Messina"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Pasta 'ncasciata» è un piatto tipico di Messina."
     },
     {
@@ -5643,8 +5643,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "Di quale provincia è tipico questo piatto: «Pidone»?",
       "choices": [
         "Ragusa",
-        "Caltanissetta",
-        "Catania",
+        "Agrigento",
+        "Palermo",
         "Messina"
       ],
       "correctIndex": 3,
@@ -5656,9 +5656,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Granita con panna»?",
       "choices": [
-        "Enna",
-        "Caltanissetta",
+        "Ragusa",
         "Agrigento",
+        "Caltanissetta",
         "Messina"
       ],
       "correctIndex": 3,
@@ -5670,12 +5670,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Isole Eolie»?",
       "choices": [
-        "Agrigento",
-        "Messina",
+        "Enna",
         "Ragusa",
-        "Siracusa"
+        "Caltanissetta",
+        "Messina"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Isole Eolie» si trova in Messina."
     },
     {
@@ -5684,12 +5684,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Taormina»?",
       "choices": [
-        "Palermo",
-        "Catania",
+        "Siracusa",
         "Messina",
+        "Ragusa",
         "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Taormina» si trova in Messina."
     },
     {
@@ -5698,9 +5698,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Tindari»?",
       "choices": [
-        "Caltanissetta",
-        "Ragusa",
         "Palermo",
+        "Catania",
+        "Agrigento",
         "Messina"
       ],
       "correctIndex": 3,
@@ -5712,12 +5712,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Terremoto del 1908»?",
       "choices": [
-        "Caltanissetta",
-        "Messina",
         "Siracusa",
-        "Ragusa"
+        "Agrigento",
+        "Caltanissetta",
+        "Messina"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Messina."
     },
     {
@@ -5726,12 +5726,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Stretto di Messina»?",
       "choices": [
-        "Caltanissetta",
+        "Palermo",
+        "Enna",
         "Messina",
-        "Siracusa",
-        "Catania"
+        "Caltanissetta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Messina."
     },
     {
@@ -5740,10 +5740,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Antonello da Messina»?",
       "choices": [
-        "Ragusa",
-        "Palermo",
+        "Catania",
+        "Enna",
         "Messina",
-        "Caltanissetta"
+        "Siracusa"
       ],
       "correctIndex": 2,
       "explanation": "Questo fatto riguarda Messina."
@@ -5755,11 +5755,11 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "In quale provincia vive questo animale: «Falco pellegrino»?",
       "choices": [
         "Siracusa",
-        "Catania",
-        "Agrigento",
-        "Palermo"
+        "Palermo",
+        "Ragusa",
+        "Agrigento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Falco pellegrino» fa parte della fauna di Palermo."
     },
     {
@@ -5768,12 +5768,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Civetta»?",
       "choices": [
+        "Enna",
         "Palermo",
-        "Trapani",
-        "Catania",
-        "Siracusa"
+        "Caltanissetta",
+        "Messina"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Civetta» fa parte della fauna di Palermo."
     },
     {
@@ -5782,12 +5782,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Lucertola siciliana»?",
       "choices": [
-        "Ragusa",
-        "Enna",
+        "Catania",
         "Palermo",
-        "Agrigento"
+        "Ragusa",
+        "Siracusa"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Lucertola siciliana» fa parte della fauna di Palermo."
     },
     {
@@ -5796,12 +5796,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Arancio amaro»?",
       "choices": [
-        "Siracusa",
-        "Caltanissetta",
         "Palermo",
+        "Caltanissetta",
+        "Messina",
         "Ragusa"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Arancio amaro» è una pianta tipica di Palermo."
     },
     {
@@ -5810,12 +5810,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Ficus magnolioide»?",
       "choices": [
-        "Palermo",
         "Siracusa",
+        "Agrigento",
         "Ragusa",
-        "Messina"
+        "Palermo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Ficus magnolioide» è una pianta tipica di Palermo."
     },
     {
@@ -5824,12 +5824,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Palma nana»?",
       "choices": [
-        "Catania",
+        "Caltanissetta",
+        "Palermo",
         "Siracusa",
-        "Messina",
-        "Palermo"
+        "Messina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Palma nana» è una pianta tipica di Palermo."
     },
     {
@@ -5838,12 +5838,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Panelle»?",
       "choices": [
-        "Palermo",
+        "Agrigento",
         "Messina",
-        "Caltanissetta",
-        "Enna"
+        "Ragusa",
+        "Palermo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Panelle» è un piatto tipico di Palermo."
     },
     {
@@ -5852,12 +5852,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Sfincione»?",
       "choices": [
-        "Agrigento",
-        "Catania",
         "Palermo",
-        "Enna"
+        "Caltanissetta",
+        "Trapani",
+        "Catania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Sfincione» è un piatto tipico di Palermo."
     },
     {
@@ -5866,12 +5866,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Pasta con le sarde»?",
       "choices": [
-        "Messina",
-        "Enna",
         "Palermo",
-        "Ragusa"
+        "Siracusa",
+        "Catania",
+        "Caltanissetta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Pasta con le sarde» è un piatto tipico di Palermo."
     },
     {
@@ -5880,12 +5880,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Arancina»?",
       "choices": [
+        "Trapani",
         "Palermo",
-        "Catania",
         "Caltanissetta",
         "Enna"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Arancina» è un piatto tipico di Palermo."
     },
     {
@@ -5896,8 +5896,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "choices": [
         "Ragusa",
         "Palermo",
-        "Trapani",
-        "Enna"
+        "Catania",
+        "Messina"
       ],
       "correctIndex": 1,
       "explanation": "«Cappella Palatina» si trova in Palermo."
@@ -5908,12 +5908,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Duomo di Monreale»?",
       "choices": [
-        "Catania",
-        "Palermo",
+        "Enna",
+        "Trapani",
         "Ragusa",
-        "Agrigento"
+        "Palermo"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Duomo di Monreale» si trova in Palermo."
     },
     {
@@ -5922,12 +5922,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Cefalù»?",
       "choices": [
+        "Siracusa",
+        "Caltanissetta",
         "Enna",
-        "Agrigento",
-        "Palermo",
-        "Ragusa"
+        "Palermo"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Cefalù» si trova in Palermo."
     },
     {
@@ -5936,12 +5936,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Vespri siciliani»?",
       "choices": [
-        "Catania",
-        "Ragusa",
         "Palermo",
-        "Messina"
+        "Siracusa",
+        "Ragusa",
+        "Agrigento"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Palermo."
     },
     {
@@ -5950,12 +5950,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Ruggero II»?",
       "choices": [
-        "Trapani",
         "Palermo",
-        "Agrigento",
-        "Enna"
+        "Siracusa",
+        "Caltanissetta",
+        "Trapani"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Palermo."
     },
     {
@@ -5964,12 +5964,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Palazzo dei Normanni»?",
       "choices": [
-        "Agrigento",
-        "Ragusa",
-        "Messina",
-        "Palermo"
+        "Caltanissetta",
+        "Siracusa",
+        "Palermo",
+        "Ragusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Palermo."
     },
     {
@@ -5978,12 +5978,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Ghiandaia marina»?",
       "choices": [
+        "Enna",
         "Ragusa",
-        "Trapani",
-        "Siracusa",
-        "Enna"
+        "Agrigento",
+        "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Ghiandaia marina» fa parte della fauna di Ragusa."
     },
     {
@@ -5992,9 +5992,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Istrice»?",
       "choices": [
+        "Messina",
+        "Palermo",
         "Trapani",
-        "Siracusa",
-        "Agrigento",
         "Ragusa"
       ],
       "correctIndex": 3,
@@ -6006,12 +6006,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Averla capirossa»?",
       "choices": [
-        "Agrigento",
-        "Enna",
-        "Palermo",
-        "Ragusa"
+        "Ragusa",
+        "Caltanissetta",
+        "Trapani",
+        "Siracusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Averla capirossa» fa parte della fauna di Ragusa."
     },
     {
@@ -6020,12 +6020,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Carrubo»?",
       "choices": [
-        "Catania",
-        "Caltanissetta",
-        "Messina",
-        "Ragusa"
+        "Ragusa",
+        "Enna",
+        "Palermo",
+        "Siracusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Carrubo» è una pianta tipica di Ragusa."
     },
     {
@@ -6034,12 +6034,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Timo»?",
       "choices": [
-        "Palermo",
-        "Trapani",
+        "Agrigento",
         "Ragusa",
-        "Caltanissetta"
+        "Messina",
+        "Enna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Timo» è una pianta tipica di Ragusa."
     },
     {
@@ -6048,9 +6048,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Ulivo»?",
       "choices": [
-        "Trapani",
-        "Messina",
-        "Catania",
+        "Enna",
+        "Caltanissetta",
+        "Palermo",
         "Ragusa"
       ],
       "correctIndex": 3,
@@ -6064,8 +6064,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "choices": [
         "Catania",
         "Ragusa",
-        "Messina",
-        "Caltanissetta"
+        "Enna",
+        "Agrigento"
       ],
       "correctIndex": 1,
       "explanation": "«Cioccolato di Modica» è un piatto tipico di Ragusa."
@@ -6076,10 +6076,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Scaccia»?",
       "choices": [
-        "Messina",
+        "Palermo",
         "Ragusa",
         "Trapani",
-        "Palermo"
+        "Catania"
       ],
       "correctIndex": 1,
       "explanation": "«Scaccia» è un piatto tipico di Ragusa."
@@ -6090,12 +6090,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Ragusano»?",
       "choices": [
-        "Enna",
-        "Agrigento",
         "Catania",
-        "Ragusa"
+        "Ragusa",
+        "Enna",
+        "Palermo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Ragusano» è un piatto tipico di Ragusa."
     },
     {
@@ -6104,12 +6104,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Ragusa Ibla»?",
       "choices": [
-        "Siracusa",
-        "Ragusa",
+        "Enna",
+        "Messina",
         "Trapani",
-        "Messina"
+        "Ragusa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Ragusa Ibla» si trova in Ragusa."
     },
     {
@@ -6119,11 +6119,11 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "In quale provincia si trova «Modica»?",
       "choices": [
         "Caltanissetta",
-        "Catania",
-        "Ragusa",
-        "Siracusa"
+        "Trapani",
+        "Messina",
+        "Ragusa"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Modica» si trova in Ragusa."
     },
     {
@@ -6132,12 +6132,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Scicli»?",
       "choices": [
-        "Siracusa",
-        "Messina",
+        "Catania",
         "Enna",
-        "Ragusa"
+        "Ragusa",
+        "Agrigento"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Scicli» si trova in Ragusa."
     },
     {
@@ -6146,12 +6146,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Contea di Modica»?",
       "choices": [
-        "Caltanissetta",
-        "Palermo",
+        "Catania",
         "Ragusa",
-        "Trapani"
+        "Messina",
+        "Caltanissetta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "Questo fatto riguarda Ragusa."
     },
     {
@@ -6160,12 +6160,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Terremoto del 1693»?",
       "choices": [
-        "Trapani",
+        "Ragusa",
         "Agrigento",
         "Palermo",
-        "Ragusa"
+        "Trapani"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Ragusa."
     },
     {
@@ -6175,8 +6175,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "A quale provincia appartiene questo fatto storico: «Cava d'Ispica»?",
       "choices": [
         "Agrigento",
+        "Palermo",
         "Siracusa",
-        "Enna",
         "Ragusa"
       ],
       "correctIndex": 3,
@@ -6188,12 +6188,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Fenicottero»?",
       "choices": [
+        "Messina",
+        "Agrigento",
         "Siracusa",
-        "Palermo",
-        "Caltanissetta",
         "Catania"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Fenicottero» fa parte della fauna di Siracusa."
     },
     {
@@ -6202,12 +6202,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Avocetta»?",
       "choices": [
-        "Catania",
-        "Agrigento",
+        "Messina",
         "Siracusa",
-        "Messina"
+        "Agrigento",
+        "Catania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Avocetta» fa parte della fauna di Siracusa."
     },
     {
@@ -6216,12 +6216,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Tartaruga marina»?",
       "choices": [
+        "Catania",
         "Siracusa",
-        "Messina",
         "Trapani",
         "Caltanissetta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Tartaruga marina» fa parte della fauna di Siracusa."
     },
     {
@@ -6230,12 +6230,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Papiro»?",
       "choices": [
-        "Messina",
         "Siracusa",
-        "Catania",
-        "Palermo"
+        "Caltanissetta",
+        "Trapani",
+        "Messina"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Papiro» è una pianta tipica di Siracusa."
     },
     {
@@ -6244,12 +6244,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Mandorlo»?",
       "choices": [
-        "Siracusa",
-        "Catania",
-        "Ragusa",
-        "Trapani"
+        "Palermo",
+        "Enna",
+        "Trapani",
+        "Siracusa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Mandorlo» è una pianta tipica di Siracusa."
     },
     {
@@ -6258,10 +6258,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Melograno»?",
       "choices": [
-        "Agrigento",
+        "Enna",
         "Siracusa",
-        "Messina",
-        "Enna"
+        "Ragusa",
+        "Caltanissetta"
       ],
       "correctIndex": 1,
       "explanation": "«Melograno» è una pianta tipica di Siracusa."
@@ -6272,12 +6272,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Pasta alla siracusana»?",
       "choices": [
-        "Catania",
-        "Palermo",
-        "Trapani",
-        "Siracusa"
+        "Agrigento",
+        "Siracusa",
+        "Ragusa",
+        "Messina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Pasta alla siracusana» è un piatto tipico di Siracusa."
     },
     {
@@ -6286,10 +6286,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Mandorla di Avola»?",
       "choices": [
-        "Caltanissetta",
+        "Enna",
         "Siracusa",
-        "Ragusa",
-        "Trapani"
+        "Palermo",
+        "Catania"
       ],
       "correctIndex": 1,
       "explanation": "«Mandorla di Avola» è un piatto tipico di Siracusa."
@@ -6301,9 +6301,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "Di quale provincia è tipico questo piatto: «Sarde a beccafico»?",
       "choices": [
         "Siracusa",
+        "Catania",
         "Ragusa",
-        "Messina",
-        "Trapani"
+        "Agrigento"
       ],
       "correctIndex": 0,
       "explanation": "«Sarde a beccafico» è un piatto tipico di Siracusa."
@@ -6314,12 +6314,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Ortigia»?",
       "choices": [
-        "Enna",
         "Siracusa",
+        "Trapani",
         "Ragusa",
-        "Palermo"
+        "Enna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Ortigia» si trova in Siracusa."
     },
     {
@@ -6328,12 +6328,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Teatro greco»?",
       "choices": [
-        "Agrigento",
+        "Enna",
+        "Siracusa",
         "Messina",
-        "Trapani",
-        "Siracusa"
+        "Trapani"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Teatro greco» si trova in Siracusa."
     },
     {
@@ -6342,10 +6342,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Noto»?",
       "choices": [
-        "Catania",
         "Ragusa",
+        "Caltanissetta",
         "Siracusa",
-        "Agrigento"
+        "Catania"
       ],
       "correctIndex": 2,
       "explanation": "«Noto» si trova in Siracusa."
@@ -6356,10 +6356,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Duomo di Siracusa»?",
       "choices": [
-        "Ragusa",
-        "Enna",
+        "Agrigento",
+        "Caltanissetta",
         "Siracusa",
-        "Palermo"
+        "Trapani"
       ],
       "correctIndex": 2,
       "explanation": "Questo fatto riguarda Siracusa."
@@ -6370,12 +6370,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Archimede»?",
       "choices": [
-        "Palermo",
-        "Siracusa",
+        "Caltanissetta",
+        "Trapani",
         "Ragusa",
-        "Trapani"
+        "Siracusa"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Siracusa."
     },
     {
@@ -6384,12 +6384,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Dionisio I»?",
       "choices": [
-        "Palermo",
         "Siracusa",
-        "Caltanissetta",
+        "Trapani",
+        "Palermo",
         "Catania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Siracusa."
     },
     {
@@ -6398,12 +6398,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Fenicottero»?",
       "choices": [
-        "Trapani",
-        "Ragusa",
-        "Messina",
-        "Enna"
+        "Palermo",
+        "Caltanissetta",
+        "Agrigento",
+        "Trapani"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Fenicottero» fa parte della fauna di Trapani."
     },
     {
@@ -6412,10 +6412,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "In quale provincia vive questo animale: «Tonno rosso»?",
       "choices": [
-        "Ragusa",
-        "Catania",
+        "Caltanissetta",
+        "Agrigento",
         "Trapani",
-        "Enna"
+        "Siracusa"
       ],
       "correctIndex": 2,
       "explanation": "«Tonno rosso» fa parte della fauna di Trapani."
@@ -6427,7 +6427,7 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "In quale provincia vive questo animale: «Berta maggiore»?",
       "choices": [
         "Palermo",
-        "Agrigento",
+        "Ragusa",
         "Catania",
         "Trapani"
       ],
@@ -6440,12 +6440,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Cappero»?",
       "choices": [
-        "Trapani",
-        "Ragusa",
         "Siracusa",
-        "Caltanissetta"
+        "Caltanissetta",
+        "Palermo",
+        "Trapani"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Cappero» è una pianta tipica di Trapani."
     },
     {
@@ -6454,12 +6454,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Zibibbo»?",
       "choices": [
-        "Messina",
         "Trapani",
-        "Enna",
-        "Caltanissetta"
+        "Caltanissetta",
+        "Siracusa",
+        "Palermo"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Zibibbo» è una pianta tipica di Trapani."
     },
     {
@@ -6468,12 +6468,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "In quale provincia cresce questa pianta: «Palma nana»?",
       "choices": [
+        "Caltanissetta",
         "Agrigento",
         "Enna",
-        "Trapani",
-        "Messina"
+        "Trapani"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Palma nana» è una pianta tipica di Trapani."
     },
     {
@@ -6482,12 +6482,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Cuscus alla trapanese»?",
       "choices": [
-        "Enna",
+        "Siracusa",
         "Palermo",
-        "Trapani",
-        "Ragusa"
+        "Ragusa",
+        "Trapani"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Cuscus alla trapanese» è un piatto tipico di Trapani."
     },
     {
@@ -6496,12 +6496,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Pesto alla trapanese»?",
       "choices": [
-        "Caltanissetta",
-        "Messina",
-        "Catania",
-        "Trapani"
+        "Ragusa",
+        "Trapani",
+        "Siracusa",
+        "Messina"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Pesto alla trapanese» è un piatto tipico di Trapani."
     },
     {
@@ -6510,12 +6510,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "Di quale provincia è tipico questo piatto: «Busiate»?",
       "choices": [
-        "Agrigento",
-        "Ragusa",
-        "Palermo",
-        "Trapani"
+        "Trapani",
+        "Messina",
+        "Siracusa",
+        "Catania"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Busiate» è un piatto tipico di Trapani."
     },
     {
@@ -6524,12 +6524,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Erice»?",
       "choices": [
-        "Trapani",
-        "Caltanissetta",
+        "Siracusa",
+        "Catania",
         "Ragusa",
-        "Enna"
+        "Trapani"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Erice» si trova in Trapani."
     },
     {
@@ -6538,12 +6538,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Saline di Trapani»?",
       "choices": [
-        "Ragusa",
+        "Messina",
         "Enna",
-        "Agrigento",
-        "Trapani"
+        "Trapani",
+        "Siracusa"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Saline di Trapani» si trova in Trapani."
     },
     {
@@ -6552,10 +6552,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "In quale provincia si trova «Segesta»?",
       "choices": [
-        "Caltanissetta",
+        "Ragusa",
         "Trapani",
-        "Catania",
-        "Siracusa"
+        "Messina",
+        "Enna"
       ],
       "correctIndex": 1,
       "explanation": "«Segesta» si trova in Trapani."
@@ -6566,12 +6566,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Mozia»?",
       "choices": [
+        "Catania",
         "Trapani",
-        "Caltanissetta",
-        "Ragusa",
-        "Palermo"
+        "Messina",
+        "Agrigento"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Questo fatto riguarda Trapani."
     },
     {
@@ -6580,12 +6580,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Elimi»?",
       "choices": [
-        "Trapani",
-        "Messina",
         "Palermo",
-        "Agrigento"
+        "Trapani",
+        "Enna",
+        "Siracusa"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Questo fatto riguarda Trapani."
     },
     {
@@ -6594,2213 +6594,13 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "A quale provincia appartiene questo fatto storico: «Tonnara Florio»?",
       "choices": [
+        "Messina",
         "Ragusa",
-        "Catania",
         "Trapani",
-        "Agrigento"
+        "Caltanissetta"
       ],
       "correctIndex": 2,
       "explanation": "Questo fatto riguarda Trapani."
-    }
-  ],
-  "ru": [
-    {
-      "id": "7fc5c2cb3934",
-      "provinceSlug": "agrigento",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Малая пустельга»?",
-      "choices": [
-        "Агридженто",
-        "Рагуза",
-        "Катания",
-        "Кальтаниссетта"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Малая пустельга» — часть фауны: Агридженто."
-    },
-    {
-      "id": "21c644d22d51",
-      "provinceSlug": "agrigento",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Морская черепаха»?",
-      "choices": [
-        "Катания",
-        "Энна",
-        "Агридженто",
-        "Палермо"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Морская черепаха» — часть фауны: Агридженто."
-    },
-    {
-      "id": "6ae304c9f037",
-      "provinceSlug": "agrigento",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Средиземноморская чайка»?",
-      "choices": [
-        "Мессина",
-        "Агридженто",
-        "Трапани",
-        "Палермо"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Средиземноморская чайка» — часть фауны: Агридженто."
-    },
-    {
-      "id": "83bbeec5ad73",
-      "provinceSlug": "agrigento",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Миндаль»?",
-      "choices": [
-        "Палермо",
-        "Катания",
-        "Агридженто",
-        "Энна"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Миндаль» — типичное растение: Агридженто."
-    },
-    {
-      "id": "9f9649a80924",
-      "provinceSlug": "agrigento",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Опунция»?",
-      "choices": [
-        "Агридженто",
-        "Рагуза",
-        "Энна",
-        "Палермо"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Опунция» — типичное растение: Агридженто."
-    },
-    {
-      "id": "5fcbb7cefa76",
-      "provinceSlug": "agrigento",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Олива»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Агридженто",
-        "Трапани",
-        "Мессина"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Олива» — типичное растение: Агридженто."
-    },
-    {
-      "id": "1feeeb400d5a",
-      "provinceSlug": "agrigento",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Макко из бобов»?",
-      "choices": [
-        "Агридженто",
-        "Сиракузы",
-        "Катания",
-        "Палермо"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Макко из бобов» — типичное блюдо: Агридженто."
-    },
-    {
-      "id": "7134eb7672fe",
-      "provinceSlug": "agrigento",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Бланманже»?",
-      "choices": [
-        "Энна",
-        "Агридженто",
-        "Трапани",
-        "Катания"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Бланманже» — типичное блюдо: Агридженто."
-    },
-    {
-      "id": "d69678688f60",
-      "provinceSlug": "agrigento",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Капоната»?",
-      "choices": [
-        "Сиракузы",
-        "Энна",
-        "Агридженто",
-        "Палермо"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Капоната» — типичное блюдо: Агридженто."
-    },
-    {
-      "id": "6da59035103a",
-      "provinceSlug": "agrigento",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Долина храмов»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Катания",
-        "Агридженто",
-        "Энна"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Долина храмов» находится здесь: Агридженто."
-    },
-    {
-      "id": "ca83580c2615",
-      "provinceSlug": "agrigento",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Лестница Турков»?",
-      "choices": [
-        "Агридженто",
-        "Катания",
-        "Энна",
-        "Мессина"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Лестница Турков» находится здесь: Агридженто."
-    },
-    {
-      "id": "4428fb2747c8",
-      "provinceSlug": "agrigento",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Лампедуза»?",
-      "choices": [
-        "Агридженто",
-        "Трапани",
-        "Энна",
-        "Рагуза"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Лампедуза» находится здесь: Агридженто."
-    },
-    {
-      "id": "d146a127c988",
-      "provinceSlug": "agrigento",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Храм Согласия»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Рагуза",
-        "Сиракузы",
-        "Агридженто"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Агридженто."
-    },
-    {
-      "id": "d2097d18a222",
-      "provinceSlug": "agrigento",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Эмпедокл»?",
-      "choices": [
-        "Агридженто",
-        "Катания",
-        "Мессина",
-        "Палермо"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Агридженто."
-    },
-    {
-      "id": "e64000cb484f",
-      "provinceSlug": "agrigento",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Луиджи Пиранделло»?",
-      "choices": [
-        "Палермо",
-        "Сиракузы",
-        "Кальтаниссетта",
-        "Агридженто"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Агридженто."
-    },
-    {
-      "id": "6d6fb8f0c688",
-      "provinceSlug": "caltanissetta",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Дикобраз»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Трапани",
-        "Сиракузы",
-        "Агридженто"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Дикобраз» — часть фауны: Кальтаниссетта."
-    },
-    {
-      "id": "590df86ea822",
-      "provinceSlug": "caltanissetta",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Лисица»?",
-      "choices": [
-        "Мессина",
-        "Кальтаниссетта",
-        "Агридженто",
-        "Трапани"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Лисица» — часть фауны: Кальтаниссетта."
-    },
-    {
-      "id": "04854ceaac2d",
-      "provinceSlug": "caltanissetta",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Обыкновенный канюк»?",
-      "choices": [
-        "Палермо",
-        "Агридженто",
-        "Кальтаниссетта",
-        "Трапани"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Обыкновенный канюк» — часть фауны: Кальтаниссетта."
-    },
-    {
-      "id": "efa24d6f5c71",
-      "provinceSlug": "caltanissetta",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Твёрдая пшеница»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Мессина",
-        "Трапани",
-        "Катания"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Твёрдая пшеница» — типичное растение: Кальтаниссетта."
-    },
-    {
-      "id": "60fa4cb6d98d",
-      "provinceSlug": "caltanissetta",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Ферула»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Палермо",
-        "Агридженто",
-        "Мессина"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Ферула» — типичное растение: Кальтаниссетта."
-    },
-    {
-      "id": "817ad5b9643b",
-      "provinceSlug": "caltanissetta",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Мастиковое дерево»?",
-      "choices": [
-        "Рагуза",
-        "Энна",
-        "Кальтаниссетта",
-        "Мессина"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Мастиковое дерево» — типичное растение: Кальтаниссетта."
-    },
-    {
-      "id": "0f509053818e",
-      "provinceSlug": "caltanissetta",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Нуга из Кальтаниссетты»?",
-      "choices": [
-        "Агридженто",
-        "Трапани",
-        "Кальтаниссетта",
-        "Мессина"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Нуга из Кальтаниссетты» — типичное блюдо: Кальтаниссетта."
-    },
-    {
-      "id": "ca8997b2ec40",
-      "provinceSlug": "caltanissetta",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Кавателли»?",
-      "choices": [
-        "Катания",
-        "Мессина",
-        "Агридженто",
-        "Кальтаниссетта"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Кавателли» — типичное блюдо: Кальтаниссетта."
-    },
-    {
-      "id": "1ce05d882610",
-      "provinceSlug": "caltanissetta",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Пани Диттаино»?",
-      "choices": [
-        "Агридженто",
-        "Рагуза",
-        "Энна",
-        "Кальтаниссетта"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Пани Диттаино» — типичное блюдо: Кальтаниссетта."
-    },
-    {
-      "id": "8963aa223590",
-      "provinceSlug": "caltanissetta",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Замок Муссомели»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Мессина",
-        "Рагуза",
-        "Энна"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Замок Муссомели» находится здесь: Кальтаниссетта."
-    },
-    {
-      "id": "3c171d3d1cd6",
-      "provinceSlug": "caltanissetta",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Собор Кальтаниссетты»?",
-      "choices": [
-        "Трапани",
-        "Агридженто",
-        "Кальтаниссетта",
-        "Энна"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Собор Кальтаниссетты» находится здесь: Кальтаниссетта."
-    },
-    {
-      "id": "bf0fd7ea758c",
-      "provinceSlug": "caltanissetta",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Гора Каподарсо»?",
-      "choices": [
-        "Рагуза",
-        "Агридженто",
-        "Сиракузы",
-        "Кальтаниссетта"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Гора Каподарсо» находится здесь: Кальтаниссетта."
-    },
-    {
-      "id": "d246eaa157e1",
-      "provinceSlug": "caltanissetta",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Серные шахты»?",
-      "choices": [
-        "Рагуза",
-        "Мессина",
-        "Катания",
-        "Кальтаниссетта"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Кальтаниссетта."
-    },
-    {
-      "id": "2d7b4e31c4b0",
-      "provinceSlug": "caltanissetta",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Сицилийские фаши»?",
-      "choices": [
-        "Катания",
-        "Трапани",
-        "Кальтаниссетта",
-        "Энна"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Кальтаниссетта."
-    },
-    {
-      "id": "c7e391e936e9",
-      "provinceSlug": "caltanissetta",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Греческая Джела»?",
-      "choices": [
-        "Трапани",
-        "Палермо",
-        "Кальтаниссетта",
-        "Сиракузы"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Кальтаниссетта."
-    },
-    {
-      "id": "5591dc125f78",
-      "provinceSlug": "catania",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Сицилийская каменная куропатка»?",
-      "choices": [
-        "Катания",
-        "Палермо",
-        "Кальтаниссетта",
-        "Рагуза"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Сицилийская каменная куропатка» — часть фауны: Катания."
-    },
-    {
-      "id": "9003e58b3dae",
-      "provinceSlug": "catania",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Лисица»?",
-      "choices": [
-        "Мессина",
-        "Катания",
-        "Трапани",
-        "Рагуза"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Лисица» — часть фауны: Катания."
-    },
-    {
-      "id": "01589354270d",
-      "provinceSlug": "catania",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Ёж»?",
-      "choices": [
-        "Катания",
-        "Палермо",
-        "Рагуза",
-        "Мессина"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Ёж» — часть фауны: Катания."
-    },
-    {
-      "id": "d9bc8a0e7618",
-      "provinceSlug": "catania",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Дикая кошка»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Катания",
-        "Агридженто",
-        "Мессина"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Дикая кошка» — часть фауны: Катания."
-    },
-    {
-      "id": "7d6e2c00102e",
-      "provinceSlug": "catania",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Беркут»?",
-      "choices": [
-        "Мессина",
-        "Рагуза",
-        "Катания",
-        "Сиракузы"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Беркут» — часть фауны: Катания."
-    },
-    {
-      "id": "e8faea9e94cc",
-      "provinceSlug": "catania",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Дикобраз»?",
-      "choices": [
-        "Катания",
-        "Агридженто",
-        "Трапани",
-        "Палермо"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Дикобраз» — часть фауны: Катания."
-    },
-    {
-      "id": "d89e386e3d8a",
-      "provinceSlug": "catania",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Этнинский дрок»?",
-      "choices": [
-        "Палермо",
-        "Катания",
-        "Трапани",
-        "Сиракузы"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Этнинский дрок» — типичное растение: Катания."
-    },
-    {
-      "id": "8b61422ef864",
-      "provinceSlug": "catania",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Каштан»?",
-      "choices": [
-        "Катания",
-        "Трапани",
-        "Палермо",
-        "Агридженто"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Каштан» — типичное растение: Катания."
-    },
-    {
-      "id": "f06756d76281",
-      "provinceSlug": "catania",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Фисташка»?",
-      "choices": [
-        "Рагуза",
-        "Палермо",
-        "Трапани",
-        "Катания"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Фисташка» — типичное растение: Катания."
-    },
-    {
-      "id": "ccd67ab212d7",
-      "provinceSlug": "catania",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Этнинская берёза»?",
-      "choices": [
-        "Палермо",
-        "Агридженто",
-        "Катания",
-        "Мессина"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Этнинская берёза» — типичное растение: Катания."
-    },
-    {
-      "id": "683b9abc50fc",
-      "provinceSlug": "catania",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Опунция (индийская смоковница)»?",
-      "choices": [
-        "Катания",
-        "Энна",
-        "Мессина",
-        "Кальтаниссетта"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Опунция (индийская смоковница)» — типичное растение: Катания."
-    },
-    {
-      "id": "ec62b7fd145e",
-      "provinceSlug": "catania",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Красный апельсин»?",
-      "choices": [
-        "Катания",
-        "Трапани",
-        "Энна",
-        "Кальтаниссетта"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Красный апельсин» — типичное растение: Катания."
-    },
-    {
-      "id": "b8a5f00b8ce5",
-      "provinceSlug": "catania",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Этнинская лоза»?",
-      "choices": [
-        "Мессина",
-        "Энна",
-        "Сиракузы",
-        "Катания"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Этнинская лоза» — типичное растение: Катания."
-    },
-    {
-      "id": "57fa12e81f4d",
-      "provinceSlug": "catania",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Паста алла Норма»?",
-      "choices": [
-        "Мессина",
-        "Катания",
-        "Сиракузы",
-        "Агридженто"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Паста алла Норма» — типичное блюдо: Катания."
-    },
-    {
-      "id": "e5985147279a",
-      "provinceSlug": "catania",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Аранчино»?",
-      "choices": [
-        "Катания",
-        "Сиракузы",
-        "Палермо",
-        "Кальтаниссетта"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Аранчино» — типичное блюдо: Катания."
-    },
-    {
-      "id": "bbd7b9e864af",
-      "provinceSlug": "catania",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Гранита»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Энна",
-        "Рагуза",
-        "Катания"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Гранита» — типичное блюдо: Катания."
-    },
-    {
-      "id": "899937a81804",
-      "provinceSlug": "catania",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Бриошь с хохолком»?",
-      "choices": [
-        "Катания",
-        "Агридженто",
-        "Трапани",
-        "Энна"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Бриошь с хохолком» — типичное блюдо: Катания."
-    },
-    {
-      "id": "8ac275551574",
-      "provinceSlug": "catania",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Чиполлина»?",
-      "choices": [
-        "Сиракузы",
-        "Палермо",
-        "Катания",
-        "Рагуза"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Чиполлина» — типичное блюдо: Катания."
-    },
-    {
-      "id": "11188d7d526f",
-      "provinceSlug": "catania",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Минне ди Сант-Агата»?",
-      "choices": [
-        "Трапани",
-        "Энна",
-        "Сиракузы",
-        "Катания"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Минне ди Сант-Агата» — типичное блюдо: Катания."
-    },
-    {
-      "id": "df9aa543cd89",
-      "provinceSlug": "catania",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Канноли»?",
-      "choices": [
-        "Палермо",
-        "Рагуза",
-        "Агридженто",
-        "Катания"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Канноли» — типичное блюдо: Катания."
-    },
-    {
-      "id": "a8e6ab5e3374",
-      "provinceSlug": "catania",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Этнинское вино»?",
-      "choices": [
-        "Рагуза",
-        "Агридженто",
-        "Кальтаниссетта",
-        "Катания"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Этнинское вино» — типичное блюдо: Катания."
-    },
-    {
-      "id": "21a9455c46fa",
-      "provinceSlug": "catania",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Этна»?",
-      "choices": [
-        "Энна",
-        "Агридженто",
-        "Катания",
-        "Сиракузы"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Этна» находится здесь: Катания."
-    },
-    {
-      "id": "10466b6e1f96",
-      "provinceSlug": "catania",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Фонтан Слона»?",
-      "choices": [
-        "Мессина",
-        "Палермо",
-        "Агридженто",
-        "Катания"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Фонтан Слона» находится здесь: Катания."
-    },
-    {
-      "id": "ca2e463a3ce8",
-      "provinceSlug": "catania",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Кальтаджироне»?",
-      "choices": [
-        "Рагуза",
-        "Катания",
-        "Сиракузы",
-        "Энна"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Кальтаджироне» находится здесь: Катания."
-    },
-    {
-      "id": "118a19d712e4",
-      "provinceSlug": "catania",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Катания, главный город»?",
-      "choices": [
-        "Энна",
-        "Катания",
-        "Рагуза",
-        "Палермо"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Катания, главный город» находится здесь: Катания."
-    },
-    {
-      "id": "e32ffb14b9cf",
-      "provinceSlug": "catania",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Римский театр»?",
-      "choices": [
-        "Мессина",
-        "Катания",
-        "Энна",
-        "Рагуза"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Римский театр» находится здесь: Катания."
-    },
-    {
-      "id": "c2d2f61a5511",
-      "provinceSlug": "catania",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Замок Урсино»?",
-      "choices": [
-        "Энна",
-        "Катания",
-        "Рагуза",
-        "Палермо"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Замок Урсино» находится здесь: Катания."
-    },
-    {
-      "id": "db8dfadac988",
-      "provinceSlug": "catania",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Улица Кроцифери»?",
-      "choices": [
-        "Рагуза",
-        "Кальтаниссетта",
-        "Сиракузы",
-        "Катания"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Улица Кроцифери» находится здесь: Катания."
-    },
-    {
-      "id": "58b86327afae",
-      "provinceSlug": "catania",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Ривьера Циклопов»?",
-      "choices": [
-        "Энна",
-        "Сиракузы",
-        "Катания",
-        "Мессина"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Ривьера Циклопов» находится здесь: Катания."
-    },
-    {
-      "id": "e6a4c953be35",
-      "provinceSlug": "catania",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Ачиреале»?",
-      "choices": [
-        "Энна",
-        "Трапани",
-        "Рагуза",
-        "Катания"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Ачиреале» находится здесь: Катания."
-    },
-    {
-      "id": "6eca5daef49c",
-      "provinceSlug": "catania",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Извержение 1669 года»?",
-      "choices": [
-        "Сиракузы",
-        "Агридженто",
-        "Мессина",
-        "Катания"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Катания."
-    },
-    {
-      "id": "0127b7c44636",
-      "provinceSlug": "catania",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Святая Агата»?",
-      "choices": [
-        "Трапани",
-        "Энна",
-        "Катания",
-        "Агридженто"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Катания."
-    },
-    {
-      "id": "b8fc1ac921cb",
-      "provinceSlug": "catania",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Винченцо Беллини»?",
-      "choices": [
-        "Агридженто",
-        "Энна",
-        "Катания",
-        "Палермо"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Катания."
-    },
-    {
-      "id": "35d1bdd38904",
-      "provinceSlug": "catania",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Землетрясение 1693 года»?",
-      "choices": [
-        "Сиракузы",
-        "Кальтаниссетта",
-        "Катания",
-        "Трапани"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Катания."
-    },
-    {
-      "id": "16e2c5f6ffd2",
-      "provinceSlug": "catania",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Джованни Верга»?",
-      "choices": [
-        "Мессина",
-        "Катания",
-        "Агридженто",
-        "Палермо"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Катания."
-    },
-    {
-      "id": "adf477ff3435",
-      "provinceSlug": "catania",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Университет Катании»?",
-      "choices": [
-        "Мессина",
-        "Агридженто",
-        "Рагуза",
-        "Катания"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Катания."
-    },
-    {
-      "id": "2695a8960f0b",
-      "provinceSlug": "enna",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Дикобраз»?",
-      "choices": [
-        "Мессина",
-        "Сиракузы",
-        "Палермо",
-        "Энна"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Дикобраз» — часть фауны: Энна."
-    },
-    {
-      "id": "6938e1c37751",
-      "provinceSlug": "enna",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Обыкновенный канюк»?",
-      "choices": [
-        "Энна",
-        "Трапани",
-        "Агридженто",
-        "Катания"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Обыкновенный канюк» — часть фауны: Энна."
-    },
-    {
-      "id": "f0b702839d6d",
-      "provinceSlug": "enna",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Обыкновенная пустельга»?",
-      "choices": [
-        "Палермо",
-        "Мессина",
-        "Энна",
-        "Агридженто"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Обыкновенная пустельга» — часть фауны: Энна."
-    },
-    {
-      "id": "c2602be75071",
-      "provinceSlug": "enna",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Копеечник венечный»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Энна",
-        "Катания",
-        "Палермо"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Копеечник венечный» — типичное растение: Энна."
-    },
-    {
-      "id": "5c3c73b9bf82",
-      "provinceSlug": "enna",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Мак»?",
-      "choices": [
-        "Сиракузы",
-        "Энна",
-        "Катания",
-        "Агридженто"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Мак» — типичное растение: Энна."
-    },
-    {
-      "id": "45c675e219b5",
-      "provinceSlug": "enna",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Каменный дуб»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Палермо",
-        "Энна",
-        "Рагуза"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Каменный дуб» — типичное растение: Энна."
-    },
-    {
-      "id": "c6a853765764",
-      "provinceSlug": "enna",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Пьячентину из Энны»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Палермо",
-        "Энна",
-        "Мессина"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Пьячентину из Энны» — типичное блюдо: Энна."
-    },
-    {
-      "id": "56a86eb6c184",
-      "provinceSlug": "enna",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Кассателла из Аджиры»?",
-      "choices": [
-        "Агридженто",
-        "Рагуза",
-        "Мессина",
-        "Энна"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Кассателла из Аджиры» — типичное блюдо: Энна."
-    },
-    {
-      "id": "58c146fcbe8c",
-      "provinceSlug": "enna",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Сицилийский пекорино»?",
-      "choices": [
-        "Сиракузы",
-        "Трапани",
-        "Энна",
-        "Мессина"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Сицилийский пекорино» — типичное блюдо: Энна."
-    },
-    {
-      "id": "1202ba6f0245",
-      "provinceSlug": "enna",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Замок Ломбардии»?",
-      "choices": [
-        "Мессина",
-        "Сиракузы",
-        "Катания",
-        "Энна"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Замок Ломбардии» находится здесь: Энна."
-    },
-    {
-      "id": "ac426a30e1a0",
-      "provinceSlug": "enna",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Римская вилла дель Казале»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Агридженто",
-        "Энна",
-        "Катания"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Римская вилла дель Казале» находится здесь: Энна."
-    },
-    {
-      "id": "2056f8170666",
-      "provinceSlug": "enna",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Озеро Пергуса»?",
-      "choices": [
-        "Палермо",
-        "Мессина",
-        "Рагуза",
-        "Энна"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Озеро Пергуса» находится здесь: Энна."
-    },
-    {
-      "id": "1edc04c4f55f",
-      "provinceSlug": "enna",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Пьяцца-Армерина»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Катания",
-        "Палермо",
-        "Энна"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Энна."
-    },
-    {
-      "id": "14467c160f5c",
-      "provinceSlug": "enna",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Фридрих II»?",
-      "choices": [
-        "Энна",
-        "Мессина",
-        "Трапани",
-        "Агридженто"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Энна."
-    },
-    {
-      "id": "8b1fc1a1f61c",
-      "provinceSlug": "enna",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Похищение Прозерпины»?",
-      "choices": [
-        "Мессина",
-        "Палермо",
-        "Рагуза",
-        "Энна"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Энна."
-    },
-    {
-      "id": "736476fef507",
-      "provinceSlug": "messina",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Меч-рыба»?",
-      "choices": [
-        "Мессина",
-        "Энна",
-        "Трапани",
-        "Кальтаниссетта"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Меч-рыба» — часть фауны: Мессина."
-    },
-    {
-      "id": "c828a9082e0a",
-      "provinceSlug": "messina",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Сокол Элеоноры»?",
-      "choices": [
-        "Трапани",
-        "Мессина",
-        "Катания",
-        "Агридженто"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Сокол Элеоноры» — часть фауны: Мессина."
-    },
-    {
-      "id": "9a6cc6e4fb5e",
-      "provinceSlug": "messina",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Полосатый дельфин»?",
-      "choices": [
-        "Трапани",
-        "Рагуза",
-        "Сиракузы",
-        "Мессина"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Полосатый дельфин» — часть фауны: Мессина."
-    },
-    {
-      "id": "314a1f698ddf",
-      "provinceSlug": "messina",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Бук»?",
-      "choices": [
-        "Энна",
-        "Мессина",
-        "Рагуза",
-        "Палермо"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Бук» — типичное растение: Мессина."
-    },
-    {
-      "id": "e4946f86fc30",
-      "provinceSlug": "messina",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Лимон»?",
-      "choices": [
-        "Трапани",
-        "Энна",
-        "Палермо",
-        "Мессина"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Лимон» — типичное растение: Мессина."
-    },
-    {
-      "id": "5fbbcee9712a",
-      "provinceSlug": "messina",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Дрок»?",
-      "choices": [
-        "Мессина",
-        "Катания",
-        "Сиракузы",
-        "Энна"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Дрок» — типичное растение: Мессина."
-    },
-    {
-      "id": "a1bd9925b4c6",
-      "provinceSlug": "messina",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Паста 'нкашата»?",
-      "choices": [
-        "Мессина",
-        "Трапани",
-        "Рагуза",
-        "Палермо"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Паста 'нкашата» — типичное блюдо: Мессина."
-    },
-    {
-      "id": "72a6a3cd713c",
-      "provinceSlug": "messina",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Пидоне»?",
-      "choices": [
-        "Рагуза",
-        "Кальтаниссетта",
-        "Катания",
-        "Мессина"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Пидоне» — типичное блюдо: Мессина."
-    },
-    {
-      "id": "64bbf36ccdf4",
-      "provinceSlug": "messina",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Гранита со сливками»?",
-      "choices": [
-        "Энна",
-        "Кальтаниссетта",
-        "Агридженто",
-        "Мессина"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Гранита со сливками» — типичное блюдо: Мессина."
-    },
-    {
-      "id": "32e685a3a8b3",
-      "provinceSlug": "messina",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Эолийские острова»?",
-      "choices": [
-        "Агридженто",
-        "Мессина",
-        "Рагуза",
-        "Сиракузы"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Эолийские острова» находится здесь: Мессина."
-    },
-    {
-      "id": "90eb481b7cc9",
-      "provinceSlug": "messina",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Таормина»?",
-      "choices": [
-        "Палермо",
-        "Катания",
-        "Мессина",
-        "Агридженто"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Таормина» находится здесь: Мессина."
-    },
-    {
-      "id": "61b7bc98e435",
-      "provinceSlug": "messina",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Тиндари»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Рагуза",
-        "Палермо",
-        "Мессина"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Тиндари» находится здесь: Мессина."
-    },
-    {
-      "id": "0f62f5b170e9",
-      "provinceSlug": "messina",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Землетрясение 1908 года»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Мессина",
-        "Сиракузы",
-        "Рагуза"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Мессина."
-    },
-    {
-      "id": "576ac7e74843",
-      "provinceSlug": "messina",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Мессинский пролив»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Мессина",
-        "Сиракузы",
-        "Катания"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Мессина."
-    },
-    {
-      "id": "236bc90aa97c",
-      "provinceSlug": "messina",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Антонелло да Мессина»?",
-      "choices": [
-        "Рагуза",
-        "Палермо",
-        "Мессина",
-        "Кальтаниссетта"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Мессина."
-    },
-    {
-      "id": "0cc37608eb5f",
-      "provinceSlug": "palermo",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Сапсан»?",
-      "choices": [
-        "Сиракузы",
-        "Катания",
-        "Агридженто",
-        "Палермо"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Сапсан» — часть фауны: Палермо."
-    },
-    {
-      "id": "96574a01092b",
-      "provinceSlug": "palermo",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Домовый сыч»?",
-      "choices": [
-        "Палермо",
-        "Трапани",
-        "Катания",
-        "Сиракузы"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Домовый сыч» — часть фауны: Палермо."
-    },
-    {
-      "id": "a24390dac517",
-      "provinceSlug": "palermo",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Сицилийская стенная ящерица»?",
-      "choices": [
-        "Рагуза",
-        "Энна",
-        "Палермо",
-        "Агридженто"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Сицилийская стенная ящерица» — часть фауны: Палермо."
-    },
-    {
-      "id": "758f886a07b1",
-      "provinceSlug": "palermo",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Горький апельсин»?",
-      "choices": [
-        "Сиракузы",
-        "Кальтаниссетта",
-        "Палермо",
-        "Рагуза"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Горький апельсин» — типичное растение: Палермо."
-    },
-    {
-      "id": "0f54bdb47c76",
-      "provinceSlug": "palermo",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Фикус магнолиелистный»?",
-      "choices": [
-        "Палермо",
-        "Сиракузы",
-        "Рагуза",
-        "Мессина"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Фикус магнолиелистный» — типичное растение: Палермо."
-    },
-    {
-      "id": "a1c5a1300c87",
-      "provinceSlug": "palermo",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Хамеропс»?",
-      "choices": [
-        "Катания",
-        "Сиракузы",
-        "Мессина",
-        "Палермо"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Хамеропс» — типичное растение: Палермо."
-    },
-    {
-      "id": "a3b89da86ad7",
-      "provinceSlug": "palermo",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Панелле»?",
-      "choices": [
-        "Палермо",
-        "Мессина",
-        "Кальтаниссетта",
-        "Энна"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Панелле» — типичное блюдо: Палермо."
-    },
-    {
-      "id": "c2c86bc01f81",
-      "provinceSlug": "palermo",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Сфинчоне»?",
-      "choices": [
-        "Агридженто",
-        "Катания",
-        "Палермо",
-        "Энна"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Сфинчоне» — типичное блюдо: Палермо."
-    },
-    {
-      "id": "1e8f31f3bf91",
-      "provinceSlug": "palermo",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Паста с сардинами»?",
-      "choices": [
-        "Мессина",
-        "Энна",
-        "Палермо",
-        "Рагуза"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Паста с сардинами» — типичное блюдо: Палермо."
-    },
-    {
-      "id": "b6a5105cecd2",
-      "provinceSlug": "palermo",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Аранчина»?",
-      "choices": [
-        "Палермо",
-        "Катания",
-        "Кальтаниссетта",
-        "Энна"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Аранчина» — типичное блюдо: Палермо."
-    },
-    {
-      "id": "fb7c23beb2c2",
-      "provinceSlug": "palermo",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Палатинская капелла»?",
-      "choices": [
-        "Рагуза",
-        "Палермо",
-        "Трапани",
-        "Энна"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Палатинская капелла» находится здесь: Палермо."
-    },
-    {
-      "id": "05c26b97f595",
-      "provinceSlug": "palermo",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Собор Монреале»?",
-      "choices": [
-        "Катания",
-        "Палермо",
-        "Рагуза",
-        "Агридженто"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Собор Монреале» находится здесь: Палермо."
-    },
-    {
-      "id": "6adc91fcd3aa",
-      "provinceSlug": "palermo",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Чефалу»?",
-      "choices": [
-        "Энна",
-        "Агридженто",
-        "Палермо",
-        "Рагуза"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Чефалу» находится здесь: Палермо."
-    },
-    {
-      "id": "aa57de8e15cc",
-      "provinceSlug": "palermo",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Сицилийская вечерня»?",
-      "choices": [
-        "Катания",
-        "Рагуза",
-        "Палермо",
-        "Мессина"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Палермо."
-    },
-    {
-      "id": "7f16f3dcd05f",
-      "provinceSlug": "palermo",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Рожер II»?",
-      "choices": [
-        "Трапани",
-        "Палермо",
-        "Агридженто",
-        "Энна"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Палермо."
-    },
-    {
-      "id": "7641a90089d2",
-      "provinceSlug": "palermo",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Норманнский дворец»?",
-      "choices": [
-        "Агридженто",
-        "Рагуза",
-        "Мессина",
-        "Палермо"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Палермо."
-    },
-    {
-      "id": "6e02facd63ba",
-      "provinceSlug": "ragusa",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Сизоворонка»?",
-      "choices": [
-        "Рагуза",
-        "Трапани",
-        "Сиракузы",
-        "Энна"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Сизоворонка» — часть фауны: Рагуза."
-    },
-    {
-      "id": "041837ab37ce",
-      "provinceSlug": "ragusa",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Дикобраз»?",
-      "choices": [
-        "Трапани",
-        "Сиракузы",
-        "Агридженто",
-        "Рагуза"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Дикобраз» — часть фауны: Рагуза."
-    },
-    {
-      "id": "5d73f6dd3ab5",
-      "provinceSlug": "ragusa",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Обыкновенный сорокопут»?",
-      "choices": [
-        "Агридженто",
-        "Энна",
-        "Палермо",
-        "Рагуза"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Обыкновенный сорокопут» — часть фауны: Рагуза."
-    },
-    {
-      "id": "02f18cc839a2",
-      "provinceSlug": "ragusa",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Рожковое дерево»?",
-      "choices": [
-        "Катания",
-        "Кальтаниссетта",
-        "Мессина",
-        "Рагуза"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Рожковое дерево» — типичное растение: Рагуза."
-    },
-    {
-      "id": "6737b51edc27",
-      "provinceSlug": "ragusa",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Тимьян»?",
-      "choices": [
-        "Палермо",
-        "Трапани",
-        "Рагуза",
-        "Кальтаниссетта"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Тимьян» — типичное растение: Рагуза."
-    },
-    {
-      "id": "1b2adfa21434",
-      "provinceSlug": "ragusa",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Олива»?",
-      "choices": [
-        "Трапани",
-        "Мессина",
-        "Катания",
-        "Рагуза"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Олива» — типичное растение: Рагуза."
-    },
-    {
-      "id": "1272a95f8ac4",
-      "provinceSlug": "ragusa",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Шоколад Модики»?",
-      "choices": [
-        "Катания",
-        "Рагуза",
-        "Мессина",
-        "Кальтаниссетта"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Шоколад Модики» — типичное блюдо: Рагуза."
-    },
-    {
-      "id": "ea1e65d3f4b5",
-      "provinceSlug": "ragusa",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Скачча»?",
-      "choices": [
-        "Мессина",
-        "Рагуза",
-        "Трапани",
-        "Палермо"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Скачча» — типичное блюдо: Рагуза."
-    },
-    {
-      "id": "76b734c7986d",
-      "provinceSlug": "ragusa",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Рагусано»?",
-      "choices": [
-        "Энна",
-        "Агридженто",
-        "Катания",
-        "Рагуза"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Рагусано» — типичное блюдо: Рагуза."
-    },
-    {
-      "id": "b92d276e74ee",
-      "provinceSlug": "ragusa",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Рагуза-Ибла»?",
-      "choices": [
-        "Сиракузы",
-        "Рагуза",
-        "Трапани",
-        "Мессина"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Рагуза-Ибла» находится здесь: Рагуза."
-    },
-    {
-      "id": "ad56ce8953c5",
-      "provinceSlug": "ragusa",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Модика»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Катания",
-        "Рагуза",
-        "Сиракузы"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Модика» находится здесь: Рагуза."
-    },
-    {
-      "id": "8d4f2cb5099b",
-      "provinceSlug": "ragusa",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Шикли»?",
-      "choices": [
-        "Сиракузы",
-        "Мессина",
-        "Энна",
-        "Рагуза"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Шикли» находится здесь: Рагуза."
-    },
-    {
-      "id": "16e7a3b64b39",
-      "provinceSlug": "ragusa",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Графство Модика»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Палермо",
-        "Рагуза",
-        "Трапани"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Рагуза."
-    },
-    {
-      "id": "967f667de3f1",
-      "provinceSlug": "ragusa",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Землетрясение 1693 года»?",
-      "choices": [
-        "Трапани",
-        "Агридженто",
-        "Палермо",
-        "Рагуза"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Рагуза."
-    },
-    {
-      "id": "613f98a5d64d",
-      "provinceSlug": "ragusa",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Кава д'Испика»?",
-      "choices": [
-        "Агридженто",
-        "Сиракузы",
-        "Энна",
-        "Рагуза"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Рагуза."
-    },
-    {
-      "id": "c21b638d3949",
-      "provinceSlug": "siracusa",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Фламинго»?",
-      "choices": [
-        "Сиракузы",
-        "Палермо",
-        "Кальтаниссетта",
-        "Катания"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Фламинго» — часть фауны: Сиракузы."
-    },
-    {
-      "id": "a7e616f64058",
-      "provinceSlug": "siracusa",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Шилоклювка»?",
-      "choices": [
-        "Катания",
-        "Агридженто",
-        "Сиракузы",
-        "Мессина"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Шилоклювка» — часть фауны: Сиракузы."
-    },
-    {
-      "id": "6691a1424e04",
-      "provinceSlug": "siracusa",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Морская черепаха»?",
-      "choices": [
-        "Сиракузы",
-        "Мессина",
-        "Трапани",
-        "Кальтаниссетта"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Морская черепаха» — часть фауны: Сиракузы."
-    },
-    {
-      "id": "ce83d20b22d6",
-      "provinceSlug": "siracusa",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Папирус»?",
-      "choices": [
-        "Мессина",
-        "Сиракузы",
-        "Катания",
-        "Палермо"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Папирус» — типичное растение: Сиракузы."
-    },
-    {
-      "id": "a6668ee3f3fe",
-      "provinceSlug": "siracusa",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Миндаль»?",
-      "choices": [
-        "Сиракузы",
-        "Катания",
-        "Рагуза",
-        "Трапани"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Миндаль» — типичное растение: Сиракузы."
-    },
-    {
-      "id": "831f8fa1bc55",
-      "provinceSlug": "siracusa",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Гранат»?",
-      "choices": [
-        "Агридженто",
-        "Сиракузы",
-        "Мессина",
-        "Энна"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Гранат» — типичное растение: Сиракузы."
-    },
-    {
-      "id": "7429641bfac5",
-      "provinceSlug": "siracusa",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Паста по-сиракузски»?",
-      "choices": [
-        "Катания",
-        "Палермо",
-        "Трапани",
-        "Сиракузы"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Паста по-сиракузски» — типичное блюдо: Сиракузы."
-    },
-    {
-      "id": "f497810729b1",
-      "provinceSlug": "siracusa",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Миндаль из Аволы»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Сиракузы",
-        "Рагуза",
-        "Трапани"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Миндаль из Аволы» — типичное блюдо: Сиракузы."
-    },
-    {
-      "id": "8ab5ef41b488",
-      "provinceSlug": "siracusa",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Сардины а-беккафико»?",
-      "choices": [
-        "Сиракузы",
-        "Рагуза",
-        "Мессина",
-        "Трапани"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Сардины а-беккафико» — типичное блюдо: Сиракузы."
-    },
-    {
-      "id": "4bc58393a4d4",
-      "provinceSlug": "siracusa",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Ортиджа»?",
-      "choices": [
-        "Энна",
-        "Сиракузы",
-        "Рагуза",
-        "Палермо"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Ортиджа» находится здесь: Сиракузы."
-    },
-    {
-      "id": "cf94d30360a6",
-      "provinceSlug": "siracusa",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Греческий театр»?",
-      "choices": [
-        "Агридженто",
-        "Мессина",
-        "Трапани",
-        "Сиракузы"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Греческий театр» находится здесь: Сиракузы."
-    },
-    {
-      "id": "d65d90d08503",
-      "provinceSlug": "siracusa",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Ното»?",
-      "choices": [
-        "Катания",
-        "Рагуза",
-        "Сиракузы",
-        "Агридженто"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Ното» находится здесь: Сиракузы."
-    },
-    {
-      "id": "03605ee38d82",
-      "provinceSlug": "siracusa",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Собор Сиракуз»?",
-      "choices": [
-        "Рагуза",
-        "Энна",
-        "Сиракузы",
-        "Палермо"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Сиракузы."
-    },
-    {
-      "id": "c8614ee31689",
-      "provinceSlug": "siracusa",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Архимед»?",
-      "choices": [
-        "Палермо",
-        "Сиракузы",
-        "Рагуза",
-        "Трапани"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Сиракузы."
-    },
-    {
-      "id": "5600177be7a2",
-      "provinceSlug": "siracusa",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Дионисий I»?",
-      "choices": [
-        "Палермо",
-        "Сиракузы",
-        "Кальтаниссетта",
-        "Катания"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Сиракузы."
-    },
-    {
-      "id": "39eca2ad114b",
-      "provinceSlug": "trapani",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Фламинго»?",
-      "choices": [
-        "Трапани",
-        "Рагуза",
-        "Мессина",
-        "Энна"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Фламинго» — часть фауны: Трапани."
-    },
-    {
-      "id": "82203e5f2379",
-      "provinceSlug": "trapani",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Красный тунец»?",
-      "choices": [
-        "Рагуза",
-        "Катания",
-        "Трапани",
-        "Энна"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Красный тунец» — часть фауны: Трапани."
-    },
-    {
-      "id": "d8f125aa22cb",
-      "provinceSlug": "trapani",
-      "category": "fauna",
-      "prompt": "В какой провинции обитает это животное: «Малый буревестник»?",
-      "choices": [
-        "Палермо",
-        "Агридженто",
-        "Катания",
-        "Трапани"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Малый буревестник» — часть фауны: Трапани."
-    },
-    {
-      "id": "228388020c52",
-      "provinceSlug": "trapani",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Каперсы»?",
-      "choices": [
-        "Трапани",
-        "Рагуза",
-        "Сиракузы",
-        "Кальтаниссетта"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Каперсы» — типичное растение: Трапани."
-    },
-    {
-      "id": "afb3ead7eec0",
-      "provinceSlug": "trapani",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Зибиббо»?",
-      "choices": [
-        "Мессина",
-        "Трапани",
-        "Энна",
-        "Кальтаниссетта"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Зибиббо» — типичное растение: Трапани."
-    },
-    {
-      "id": "3cc1e006532d",
-      "provinceSlug": "trapani",
-      "category": "flora",
-      "prompt": "В какой провинции растёт это растение: «Хамеропс»?",
-      "choices": [
-        "Агридженто",
-        "Энна",
-        "Трапани",
-        "Мессина"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Хамеропс» — типичное растение: Трапани."
-    },
-    {
-      "id": "00e184636033",
-      "provinceSlug": "trapani",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Кускус по-трапански»?",
-      "choices": [
-        "Энна",
-        "Палермо",
-        "Трапани",
-        "Рагуза"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Кускус по-трапански» — типичное блюдо: Трапани."
-    },
-    {
-      "id": "e440c5f1b745",
-      "provinceSlug": "trapani",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Песто по-трапански»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Мессина",
-        "Катания",
-        "Трапани"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Песто по-трапански» — типичное блюдо: Трапани."
-    },
-    {
-      "id": "a1b7d1ec4c46",
-      "provinceSlug": "trapani",
-      "category": "food",
-      "prompt": "Для какой провинции типично это блюдо: «Бузиате»?",
-      "choices": [
-        "Агридженто",
-        "Рагуза",
-        "Палермо",
-        "Трапани"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Бузиате» — типичное блюдо: Трапани."
-    },
-    {
-      "id": "481a9f84ee5c",
-      "provinceSlug": "trapani",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Эриче»?",
-      "choices": [
-        "Трапани",
-        "Кальтаниссетта",
-        "Рагуза",
-        "Энна"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Эриче» находится здесь: Трапани."
-    },
-    {
-      "id": "57a4d3e40c6b",
-      "provinceSlug": "trapani",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Соляные пруды Трапани»?",
-      "choices": [
-        "Рагуза",
-        "Энна",
-        "Агридженто",
-        "Трапани"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Соляные пруды Трапани» находится здесь: Трапани."
-    },
-    {
-      "id": "edd3f376470c",
-      "provinceSlug": "trapani",
-      "category": "tourism",
-      "prompt": "В какой провинции находится это место: «Сегеста»?",
-      "choices": [
-        "Кальтаниссетта",
-        "Трапани",
-        "Катания",
-        "Сиракузы"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Сегеста» находится здесь: Трапани."
-    },
-    {
-      "id": "49bd188cb6f4",
-      "provinceSlug": "trapani",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Мотия»?",
-      "choices": [
-        "Трапани",
-        "Кальтаниссетта",
-        "Рагуза",
-        "Палермо"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Трапани."
-    },
-    {
-      "id": "5af2316cad35",
-      "provinceSlug": "trapani",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Элимы»?",
-      "choices": [
-        "Трапани",
-        "Мессина",
-        "Палермо",
-        "Агридженто"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Трапани."
-    },
-    {
-      "id": "24ccdbdcf038",
-      "provinceSlug": "trapani",
-      "category": "history",
-      "prompt": "К какой провинции относится этот исторический факт: «Тонная ловля Флорио»?",
-      "choices": [
-        "Рагуза",
-        "Катания",
-        "Трапани",
-        "Агридженто"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Трапани."
     }
   ],
   "ar": [
@@ -8810,12 +6610,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الباز الصغير»؟",
       "choices": [
+        "باليرمو",
         "أغريجنتو",
-        "راغوزا",
-        "كاتانيا",
-        "كالتانيسيتا"
+        "إنّا",
+        "سيراكوزا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«الباز الصغير» جزء من حيوانات أغريجنتو."
     },
     {
@@ -8824,12 +6624,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «السلحفاة البحرية»؟",
       "choices": [
+        "باليرمو",
         "كاتانيا",
-        "إنّا",
-        "أغريجنتو",
-        "باليرمو"
+        "تراباني",
+        "أغريجنتو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«السلحفاة البحرية» جزء من حيوانات أغريجنتو."
     },
     {
@@ -8838,12 +6638,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «نورس أودوان»؟",
       "choices": [
-        "ميسينا",
         "أغريجنتو",
-        "تراباني",
-        "باليرمو"
+        "كالتانيسيتا",
+        "باليرمو",
+        "تراباني"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«نورس أودوان» جزء من حيوانات أغريجنتو."
     },
     {
@@ -8852,12 +6652,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «اللوز»؟",
       "choices": [
+        "راغوزا",
+        "ميسينا",
         "باليرمو",
-        "كاتانيا",
-        "أغريجنتو",
-        "إنّا"
+        "أغريجنتو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«اللوز» نبات مشهور في أغريجنتو."
     },
     {
@@ -8867,9 +6667,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "في أي مقاطعة ينمو هذا النبات: «التين الشوكي»؟",
       "choices": [
         "أغريجنتو",
-        "راغوزا",
         "إنّا",
-        "باليرمو"
+        "كالتانيسيتا",
+        "سيراكوزا"
       ],
       "correctIndex": 0,
       "explanation": "«التين الشوكي» نبات مشهور في أغريجنتو."
@@ -8880,12 +6680,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الزيتون»؟",
       "choices": [
-        "كالتانيسيتا",
         "أغريجنتو",
-        "تراباني",
-        "ميسينا"
+        "كالتانيسيتا",
+        "كاتانيا",
+        "إنّا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«الزيتون» نبات مشهور في أغريجنتو."
     },
     {
@@ -8894,12 +6694,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «ماكو الفول»؟",
       "choices": [
-        "أغريجنتو",
-        "سيراكوزا",
-        "كاتانيا",
-        "باليرمو"
+        "راغوزا",
+        "كالتانيسيتا",
+        "باليرمو",
+        "أغريجنتو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«ماكو الفول» طبق مشهور في أغريجنتو."
     },
     {
@@ -8908,12 +6708,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «بلانمونجيه»؟",
       "choices": [
+        "ميسينا",
         "إنّا",
-        "أغريجنتو",
-        "تراباني",
-        "كاتانيا"
+        "باليرمو",
+        "أغريجنتو"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«بلانمونجيه» طبق مشهور في أغريجنتو."
     },
     {
@@ -8922,12 +6722,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «كابوناتا»؟",
       "choices": [
+        "تراباني",
+        "راغوزا",
         "سيراكوزا",
-        "إنّا",
-        "أغريجنتو",
-        "باليرمو"
+        "أغريجنتو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«كابوناتا» طبق مشهور في أغريجنتو."
     },
     {
@@ -8936,10 +6736,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «وادي المعابد»؟",
       "choices": [
-        "كالتانيسيتا",
-        "كاتانيا",
+        "راغوزا",
+        "تراباني",
         "أغريجنتو",
-        "إنّا"
+        "سيراكوزا"
       ],
       "correctIndex": 2,
       "explanation": "يقع «وادي المعابد» في أغريجنتو."
@@ -8951,9 +6751,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "في أي مقاطعة يقع «سلّم الأتراك»؟",
       "choices": [
         "أغريجنتو",
-        "كاتانيا",
         "إنّا",
-        "ميسينا"
+        "كالتانيسيتا",
+        "باليرمو"
       ],
       "correctIndex": 0,
       "explanation": "يقع «سلّم الأتراك» في أغريجنتو."
@@ -8964,12 +6764,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «لامبيدوزا»؟",
       "choices": [
+        "سيراكوزا",
+        "كالتانيسيتا",
         "أغريجنتو",
-        "تراباني",
-        "إنّا",
         "راغوزا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "يقع «لامبيدوزا» في أغريجنتو."
     },
     {
@@ -8978,9 +6778,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «معبد كونكورديا»؟",
       "choices": [
-        "كالتانيسيتا",
         "راغوزا",
-        "سيراكوزا",
+        "إنّا",
+        "كالتانيسيتا",
         "أغريجنتو"
       ],
       "correctIndex": 3,
@@ -8993,9 +6793,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «إمبيدوكليس»؟",
       "choices": [
         "أغريجنتو",
-        "كاتانيا",
-        "ميسينا",
-        "باليرمو"
+        "إنّا",
+        "كالتانيسيتا",
+        "كاتانيا"
       ],
       "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ أغريجنتو."
@@ -9006,9 +6806,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «لويجي بيراندلو»؟",
       "choices": [
-        "باليرمو",
-        "سيراكوزا",
-        "كالتانيسيتا",
+        "كاتانيا",
+        "راغوزا",
+        "تراباني",
         "أغريجنتو"
       ],
       "correctIndex": 3,
@@ -9020,12 +6820,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «النيص»؟",
       "choices": [
+        "أغريجنتو",
+        "باليرمو",
         "كالتانيسيتا",
-        "تراباني",
-        "سيراكوزا",
-        "أغريجنتو"
+        "سيراكوزا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«النيص» جزء من حيوانات كالتانيسيتا."
     },
     {
@@ -9034,12 +6834,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الثعلب»؟",
       "choices": [
-        "ميسينا",
-        "كالتانيسيتا",
+        "باليرمو",
         "أغريجنتو",
-        "تراباني"
+        "كالتانيسيتا",
+        "راغوزا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«الثعلب» جزء من حيوانات كالتانيسيتا."
     },
     {
@@ -9048,12 +6848,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الصقر الأوراسي (الباشق)»؟",
       "choices": [
-        "باليرمو",
-        "أغريجنتو",
+        "ميسينا",
         "كالتانيسيتا",
-        "تراباني"
+        "أغريجنتو",
+        "باليرمو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«الصقر الأوراسي (الباشق)» جزء من حيوانات كالتانيسيتا."
     },
     {
@@ -9062,12 +6862,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «القمح الصلب»؟",
       "choices": [
-        "كالتانيسيتا",
-        "ميسينا",
         "تراباني",
-        "كاتانيا"
+        "كاتانيا",
+        "كالتانيسيتا",
+        "باليرمو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«القمح الصلب» نبات مشهور في كالتانيسيتا."
     },
     {
@@ -9077,9 +6877,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الفيرولا»؟",
       "choices": [
         "كالتانيسيتا",
-        "باليرمو",
         "أغريجنتو",
-        "ميسينا"
+        "إنّا",
+        "تراباني"
       ],
       "correctIndex": 0,
       "explanation": "«الفيرولا» نبات مشهور في كالتانيسيتا."
@@ -9090,12 +6890,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الضرو (المصطكي)»؟",
       "choices": [
-        "راغوزا",
         "إنّا",
-        "كالتانيسيتا",
-        "ميسينا"
+        "تراباني",
+        "ميسينا",
+        "كالتانيسيتا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«الضرو (المصطكي)» نبات مشهور في كالتانيسيتا."
     },
     {
@@ -9104,10 +6904,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «نوغا كالتانيسيتا»؟",
       "choices": [
-        "أغريجنتو",
-        "تراباني",
+        "باليرمو",
+        "ميسينا",
         "كالتانيسيتا",
-        "ميسينا"
+        "تراباني"
       ],
       "correctIndex": 2,
       "explanation": "«نوغا كالتانيسيتا» طبق مشهور في كالتانيسيتا."
@@ -9118,12 +6918,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «كافاتيلي»؟",
       "choices": [
-        "كاتانيا",
-        "ميسينا",
-        "أغريجنتو",
-        "كالتانيسيتا"
+        "باليرمو",
+        "تراباني",
+        "كالتانيسيتا",
+        "سيراكوزا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«كافاتيلي» طبق مشهور في كالتانيسيتا."
     },
     {
@@ -9132,12 +6932,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «خبز ديتّاينو»؟",
       "choices": [
-        "أغريجنتو",
+        "كاتانيا",
         "راغوزا",
-        "إنّا",
-        "كالتانيسيتا"
+        "كالتانيسيتا",
+        "أغريجنتو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«خبز ديتّاينو» طبق مشهور في كالتانيسيتا."
     },
     {
@@ -9146,12 +6946,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «قلعة موسوميلي»؟",
       "choices": [
+        "باليرمو",
+        "إنّا",
         "كالتانيسيتا",
-        "ميسينا",
-        "راغوزا",
-        "إنّا"
+        "أغريجنتو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "يقع «قلعة موسوميلي» في كالتانيسيتا."
     },
     {
@@ -9160,12 +6960,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «كاتدرائية كالتانيسيتا»؟",
       "choices": [
-        "تراباني",
-        "أغريجنتو",
-        "كالتانيسيتا",
-        "إنّا"
+        "باليرمو",
+        "ميسينا",
+        "سيراكوزا",
+        "كالتانيسيتا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "يقع «كاتدرائية كالتانيسيتا» في كالتانيسيتا."
     },
     {
@@ -9174,12 +6974,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «جبل كابوداريو»؟",
       "choices": [
-        "راغوزا",
-        "أغريجنتو",
-        "سيراكوزا",
-        "كالتانيسيتا"
+        "كالتانيسيتا",
+        "كاتانيا",
+        "باليرمو",
+        "سيراكوزا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "يقع «جبل كابوداريو» في كالتانيسيتا."
     },
     {
@@ -9188,12 +6988,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «مناجم الكبريت»؟",
       "choices": [
-        "راغوزا",
-        "ميسينا",
-        "كاتانيا",
-        "كالتانيسيتا"
+        "سيراكوزا",
+        "كالتانيسيتا",
+        "تراباني",
+        "باليرمو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "تتعلق هذه الحقيقة بـ كالتانيسيتا."
     },
     {
@@ -9203,9 +7003,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «فاشي سيشيليانو»؟",
       "choices": [
         "كاتانيا",
-        "تراباني",
+        "راغوزا",
         "كالتانيسيتا",
-        "إنّا"
+        "أغريجنتو"
       ],
       "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ كالتانيسيتا."
@@ -9216,12 +7016,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «جيلا الإغريقية»؟",
       "choices": [
-        "تراباني",
-        "باليرمو",
         "كالتانيسيتا",
-        "سيراكوزا"
+        "أغريجنتو",
+        "باليرمو",
+        "ميسينا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ كالتانيسيتا."
     },
     {
@@ -9230,12 +7030,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الحجل الصقلي»؟",
       "choices": [
-        "كاتانيا",
-        "باليرمو",
+        "تراباني",
         "كالتانيسيتا",
-        "راغوزا"
+        "ميسينا",
+        "كاتانيا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«الحجل الصقلي» جزء من حيوانات كاتانيا."
     },
     {
@@ -9244,12 +7044,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الثعلب»؟",
       "choices": [
-        "ميسينا",
         "كاتانيا",
-        "تراباني",
+        "إنّا",
+        "ميسينا",
         "راغوزا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«الثعلب» جزء من حيوانات كاتانيا."
     },
     {
@@ -9258,12 +7058,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «القنفذ»؟",
       "choices": [
-        "كاتانيا",
-        "باليرمو",
-        "راغوزا",
-        "ميسينا"
+        "كالتانيسيتا",
+        "أغريجنتو",
+        "تراباني",
+        "كاتانيا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«القنفذ» جزء من حيوانات كاتانيا."
     },
     {
@@ -9272,12 +7072,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «القط البري»؟",
       "choices": [
-        "كالتانيسيتا",
-        "كاتانيا",
         "أغريجنتو",
-        "ميسينا"
+        "تراباني",
+        "سيراكوزا",
+        "كاتانيا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«القط البري» جزء من حيوانات كاتانيا."
     },
     {
@@ -9286,12 +7086,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «النسر الذهبي»؟",
       "choices": [
-        "ميسينا",
-        "راغوزا",
         "كاتانيا",
-        "سيراكوزا"
+        "راغوزا",
+        "إنّا",
+        "ميسينا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«النسر الذهبي» جزء من حيوانات كاتانيا."
     },
     {
@@ -9301,8 +7101,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «النيص»؟",
       "choices": [
         "كاتانيا",
-        "أغريجنتو",
         "تراباني",
+        "ميسينا",
         "باليرمو"
       ],
       "correctIndex": 0,
@@ -9314,12 +7114,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «جنيسترا إتنا (الرتم)»؟",
       "choices": [
-        "باليرمو",
-        "كاتانيا",
-        "تراباني",
-        "سيراكوزا"
+        "إنّا",
+        "أغريجنتو",
+        "سيراكوزا",
+        "كاتانيا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«جنيسترا إتنا (الرتم)» نبات مشهور في كاتانيا."
     },
     {
@@ -9328,12 +7128,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الكستناء»؟",
       "choices": [
-        "كاتانيا",
         "تراباني",
         "باليرمو",
-        "أغريجنتو"
+        "أغريجنتو",
+        "كاتانيا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«الكستناء» نبات مشهور في كاتانيا."
     },
     {
@@ -9342,12 +7142,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الفستق»؟",
       "choices": [
-        "راغوزا",
-        "باليرمو",
-        "تراباني",
-        "كاتانيا"
+        "إنّا",
+        "كاتانيا",
+        "سيراكوزا",
+        "كالتانيسيتا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«الفستق» نبات مشهور في كاتانيا."
     },
     {
@@ -9356,12 +7156,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «بتولا إتنا»؟",
       "choices": [
-        "باليرمو",
-        "أغريجنتو",
+        "سيراكوزا",
         "كاتانيا",
-        "ميسينا"
+        "راغوزا",
+        "أغريجنتو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«بتولا إتنا» نبات مشهور في كاتانيا."
     },
     {
@@ -9370,12 +7170,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «التين الشوكي»؟",
       "choices": [
+        "كالتانيسيتا",
         "كاتانيا",
-        "إنّا",
-        "ميسينا",
-        "كالتانيسيتا"
+        "سيراكوزا",
+        "راغوزا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«التين الشوكي» نبات مشهور في كاتانيا."
     },
     {
@@ -9384,12 +7184,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «البرتقال الأحمر»؟",
       "choices": [
-        "كاتانيا",
-        "تراباني",
+        "أغريجنتو",
+        "راغوزا",
         "إنّا",
-        "كالتانيسيتا"
+        "كاتانيا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«البرتقال الأحمر» نبات مشهور في كاتانيا."
     },
     {
@@ -9398,9 +7198,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «كروم إتنا»؟",
       "choices": [
-        "ميسينا",
+        "كالتانيسيتا",
+        "راغوزا",
         "إنّا",
-        "سيراكوزا",
         "كاتانيا"
       ],
       "correctIndex": 3,
@@ -9412,10 +7212,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «باستا ألّا نورما»؟",
       "choices": [
-        "ميسينا",
+        "كالتانيسيتا",
         "كاتانيا",
-        "سيراكوزا",
-        "أغريجنتو"
+        "ميسينا",
+        "سيراكوزا"
       ],
       "correctIndex": 1,
       "explanation": "«باستا ألّا نورما» طبق مشهور في كاتانيا."
@@ -9426,12 +7226,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «أرانتشينو»؟",
       "choices": [
-        "كاتانيا",
         "سيراكوزا",
-        "باليرمو",
-        "كالتانيسيتا"
+        "أغريجنتو",
+        "راغوزا",
+        "كاتانيا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«أرانتشينو» طبق مشهور في كاتانيا."
     },
     {
@@ -9441,11 +7241,11 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «غرانيتا»؟",
       "choices": [
         "كالتانيسيتا",
-        "إنّا",
-        "راغوزا",
-        "كاتانيا"
+        "باليرمو",
+        "كاتانيا",
+        "ميسينا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«غرانيتا» طبق مشهور في كاتانيا."
     },
     {
@@ -9455,9 +7255,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «بريوش كول توبّو»؟",
       "choices": [
         "كاتانيا",
-        "أغريجنتو",
-        "تراباني",
-        "إنّا"
+        "إنّا",
+        "كالتانيسيتا",
+        "سيراكوزا"
       ],
       "correctIndex": 0,
       "explanation": "«بريوش كول توبّو» طبق مشهور في كاتانيا."
@@ -9468,12 +7268,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «تشيبولّينا»؟",
       "choices": [
-        "سيراكوزا",
-        "باليرمو",
         "كاتانيا",
-        "راغوزا"
+        "راغوزا",
+        "باليرمو",
+        "ميسينا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«تشيبولّينا» طبق مشهور في كاتانيا."
     },
     {
@@ -9482,8 +7282,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «مينّي دي سانت أغاثا»؟",
       "choices": [
-        "تراباني",
-        "إنّا",
+        "ميسينا",
+        "كالتانيسيتا",
         "سيراكوزا",
         "كاتانيا"
       ],
@@ -9496,12 +7296,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «كانولو»؟",
       "choices": [
-        "باليرمو",
-        "راغوزا",
+        "كالتانيسيتا",
+        "كاتانيا",
         "أغريجنتو",
-        "كاتانيا"
+        "تراباني"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«كانولو» طبق مشهور في كاتانيا."
     },
     {
@@ -9510,12 +7310,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «نبيذ إتنا»؟",
       "choices": [
-        "راغوزا",
-        "أغريجنتو",
-        "كالتانيسيتا",
-        "كاتانيا"
+        "إنّا",
+        "كاتانيا",
+        "باليرمو",
+        "ميسينا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«نبيذ إتنا» طبق مشهور في كاتانيا."
     },
     {
@@ -9524,10 +7324,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «جبل إتنا»؟",
       "choices": [
-        "إنّا",
-        "أغريجنتو",
+        "سيراكوزا",
+        "ميسينا",
         "كاتانيا",
-        "سيراكوزا"
+        "كالتانيسيتا"
       ],
       "correctIndex": 2,
       "explanation": "يقع «جبل إتنا» في كاتانيا."
@@ -9538,12 +7338,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «نافورة الفيل»؟",
       "choices": [
-        "ميسينا",
         "باليرمو",
-        "أغريجنتو",
-        "كاتانيا"
+        "كاتانيا",
+        "راغوزا",
+        "إنّا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "يقع «نافورة الفيل» في كاتانيا."
     },
     {
@@ -9552,12 +7352,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «كالتاجيروني»؟",
       "choices": [
-        "راغوزا",
         "كاتانيا",
-        "سيراكوزا",
-        "إنّا"
+        "تراباني",
+        "ميسينا",
+        "أغريجنتو"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "يقع «كالتاجيروني» في كاتانيا."
     },
     {
@@ -9566,12 +7366,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «كاتانيا، العاصمة»؟",
       "choices": [
-        "إنّا",
+        "تراباني",
+        "سيراكوزا",
         "كاتانيا",
-        "راغوزا",
-        "باليرمو"
+        "راغوزا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "يقع «كاتانيا، العاصمة» في كاتانيا."
     },
     {
@@ -9582,8 +7382,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "choices": [
         "ميسينا",
         "كاتانيا",
-        "إنّا",
-        "راغوزا"
+        "راغوزا",
+        "سيراكوزا"
       ],
       "correctIndex": 1,
       "explanation": "يقع «المسرح الروماني» في كاتانيا."
@@ -9594,12 +7394,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «قلعة أورسينو»؟",
       "choices": [
+        "كالتانيسيتا",
+        "أغريجنتو",
         "إنّا",
-        "كاتانيا",
-        "راغوزا",
-        "باليرمو"
+        "كاتانيا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "يقع «قلعة أورسينو» في كاتانيا."
     },
     {
@@ -9608,12 +7408,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «شارع كروتشيفيري»؟",
       "choices": [
-        "راغوزا",
         "كالتانيسيتا",
-        "سيراكوزا",
-        "كاتانيا"
+        "كاتانيا",
+        "إنّا",
+        "تراباني"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "يقع «شارع كروتشيفيري» في كاتانيا."
     },
     {
@@ -9622,12 +7422,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «ريفييرا الجبابرة»؟",
       "choices": [
-        "إنّا",
-        "سيراكوزا",
         "كاتانيا",
-        "ميسينا"
+        "باليرمو",
+        "إنّا",
+        "راغوزا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "يقع «ريفييرا الجبابرة» في كاتانيا."
     },
     {
@@ -9636,12 +7436,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «أتشيريالي»؟",
       "choices": [
-        "إنّا",
-        "تراباني",
-        "راغوزا",
-        "كاتانيا"
+        "كاتانيا",
+        "سيراكوزا",
+        "كالتانيسيتا",
+        "ميسينا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "يقع «أتشيريالي» في كاتانيا."
     },
     {
@@ -9650,9 +7450,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «ثوران عام 1669»؟",
       "choices": [
-        "سيراكوزا",
-        "أغريجنتو",
+        "تراباني",
         "ميسينا",
+        "باليرمو",
         "كاتانيا"
       ],
       "correctIndex": 3,
@@ -9664,12 +7464,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «القدّيسة أغاثا»؟",
       "choices": [
-        "تراباني",
-        "إنّا",
         "كاتانيا",
-        "أغريجنتو"
+        "باليرمو",
+        "راغوزا",
+        "تراباني"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ كاتانيا."
     },
     {
@@ -9678,12 +7478,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «فينتشنزو بيليني»؟",
       "choices": [
-        "أغريجنتو",
+        "ميسينا",
+        "باليرمو",
         "إنّا",
-        "كاتانيا",
-        "باليرمو"
+        "كاتانيا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ كاتانيا."
     },
     {
@@ -9692,12 +7492,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «زلزال عام 1693»؟",
       "choices": [
-        "سيراكوزا",
         "كالتانيسيتا",
-        "كاتانيا",
-        "تراباني"
+        "إنّا",
+        "أغريجنتو",
+        "كاتانيا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ كاتانيا."
     },
     {
@@ -9706,12 +7506,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «جيوفاني فيرغا»؟",
       "choices": [
-        "ميسينا",
+        "راغوزا",
+        "كالتانيسيتا",
         "كاتانيا",
-        "أغريجنتو",
-        "باليرمو"
+        "ميسينا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ كاتانيا."
     },
     {
@@ -9720,12 +7520,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «جامعة كاتانيا»؟",
       "choices": [
-        "ميسينا",
-        "أغريجنتو",
-        "راغوزا",
-        "كاتانيا"
+        "إنّا",
+        "كالتانيسيتا",
+        "كاتانيا",
+        "باليرمو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ كاتانيا."
     },
     {
@@ -9734,12 +7534,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «النيص»؟",
       "choices": [
-        "ميسينا",
+        "إنّا",
         "سيراكوزا",
         "باليرمو",
-        "إنّا"
+        "أغريجنتو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«النيص» جزء من حيوانات إنّا."
     },
     {
@@ -9748,12 +7548,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الباشق (الصقر الأوراسي)»؟",
       "choices": [
-        "إنّا",
-        "تراباني",
+        "كاتانيا",
         "أغريجنتو",
-        "كاتانيا"
+        "إنّا",
+        "باليرمو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«الباشق (الصقر الأوراسي)» جزء من حيوانات إنّا."
     },
     {
@@ -9762,12 +7562,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الصقر الدوري»؟",
       "choices": [
-        "باليرمو",
+        "كالتانيسيتا",
         "ميسينا",
-        "إنّا",
-        "أغريجنتو"
+        "سيراكوزا",
+        "إنّا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«الصقر الدوري» جزء من حيوانات إنّا."
     },
     {
@@ -9776,10 +7576,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «السولا (القرنفلية)»؟",
       "choices": [
-        "كالتانيسيتا",
+        "راغوزا",
         "إنّا",
-        "كاتانيا",
-        "باليرمو"
+        "كالتانيسيتا",
+        "كاتانيا"
       ],
       "correctIndex": 1,
       "explanation": "«السولا (القرنفلية)» نبات مشهور في إنّا."
@@ -9790,12 +7590,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الخشخاش»؟",
       "choices": [
-        "سيراكوزا",
-        "إنّا",
+        "باليرمو",
+        "كالتانيسيتا",
         "كاتانيا",
-        "أغريجنتو"
+        "إنّا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«الخشخاش» نبات مشهور في إنّا."
     },
     {
@@ -9804,8 +7604,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «البلوط الدائم الخضرة»؟",
       "choices": [
-        "كالتانيسيتا",
-        "باليرمو",
+        "تراباني",
+        "أغريجنتو",
         "إنّا",
         "راغوزا"
       ],
@@ -9818,12 +7618,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «بياتشينتينو إنّا»؟",
       "choices": [
-        "كالتانيسيتا",
-        "باليرمو",
         "إنّا",
-        "ميسينا"
+        "كاتانيا",
+        "ميسينا",
+        "سيراكوزا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«بياتشينتينو إنّا» طبق مشهور في إنّا."
     },
     {
@@ -9832,12 +7632,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «كاساتيلا أجيرا»؟",
       "choices": [
-        "أغريجنتو",
         "راغوزا",
-        "ميسينا",
-        "إنّا"
+        "إنّا",
+        "كاتانيا",
+        "كالتانيسيتا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«كاساتيلا أجيرا» طبق مشهور في إنّا."
     },
     {
@@ -9846,12 +7646,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «البيكورينو الصقلي»؟",
       "choices": [
-        "سيراكوزا",
-        "تراباني",
+        "ميسينا",
         "إنّا",
-        "ميسينا"
+        "سيراكوزا",
+        "باليرمو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«البيكورينو الصقلي» طبق مشهور في إنّا."
     },
     {
@@ -9860,12 +7660,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «قلعة لومبارديا»؟",
       "choices": [
-        "ميسينا",
-        "سيراكوزا",
+        "باليرمو",
         "كاتانيا",
-        "إنّا"
+        "إنّا",
+        "سيراكوزا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "يقع «قلعة لومبارديا» في إنّا."
     },
     {
@@ -9874,12 +7674,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «فيلا كازالي الرومانية»؟",
       "choices": [
-        "كالتانيسيتا",
-        "أغريجنتو",
+        "راغوزا",
         "إنّا",
-        "كاتانيا"
+        "سيراكوزا",
+        "أغريجنتو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "يقع «فيلا كازالي الرومانية» في إنّا."
     },
     {
@@ -9888,12 +7688,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «بحيرة بيرغوزا»؟",
       "choices": [
-        "باليرمو",
-        "ميسينا",
-        "راغوزا",
-        "إنّا"
+        "كاتانيا",
+        "سيراكوزا",
+        "إنّا",
+        "تراباني"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "يقع «بحيرة بيرغوزا» في إنّا."
     },
     {
@@ -9902,12 +7702,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «بياتسا أرميرينا»؟",
       "choices": [
-        "كالتانيسيتا",
-        "كاتانيا",
-        "باليرمو",
-        "إنّا"
+        "إنّا",
+        "راغوزا",
+        "ميسينا",
+        "كاتانيا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ إنّا."
     },
     {
@@ -9916,12 +7716,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «فريدريك الثاني»؟",
       "choices": [
-        "إنّا",
-        "ميسينا",
+        "أغريجنتو",
+        "كالتانيسيتا",
         "تراباني",
-        "أغريجنتو"
+        "إنّا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ إنّا."
     },
     {
@@ -9930,12 +7730,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «اختطاف بروسيربينا»؟",
       "choices": [
-        "ميسينا",
-        "باليرمو",
-        "راغوزا",
-        "إنّا"
+        "إنّا",
+        "كاتانيا",
+        "سيراكوزا",
+        "راغوزا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ إنّا."
     },
     {
@@ -9944,12 +7744,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «سمك أبو سيف»؟",
       "choices": [
+        "كاتانيا",
         "ميسينا",
-        "إنّا",
-        "تراباني",
-        "كالتانيسيتا"
+        "أغريجنتو",
+        "باليرمو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«سمك أبو سيف» جزء من حيوانات ميسينا."
     },
     {
@@ -9958,12 +7758,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «صقر إليونورا»؟",
       "choices": [
-        "تراباني",
         "ميسينا",
-        "كاتانيا",
-        "أغريجنتو"
+        "راغوزا",
+        "أغريجنتو",
+        "إنّا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«صقر إليونورا» جزء من حيوانات ميسينا."
     },
     {
@@ -9972,12 +7772,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الدلفين المخطط»؟",
       "choices": [
-        "تراباني",
         "راغوزا",
-        "سيراكوزا",
-        "ميسينا"
+        "إنّا",
+        "ميسينا",
+        "أغريجنتو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«الدلفين المخطط» جزء من حيوانات ميسينا."
     },
     {
@@ -9986,10 +7786,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الزان»؟",
       "choices": [
-        "إنّا",
+        "سيراكوزا",
         "ميسينا",
-        "راغوزا",
-        "باليرمو"
+        "أغريجنتو",
+        "راغوزا"
       ],
       "correctIndex": 1,
       "explanation": "«الزان» نبات مشهور في ميسينا."
@@ -10000,9 +7800,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الليمون»؟",
       "choices": [
-        "تراباني",
+        "راغوزا",
+        "أغريجنتو",
         "إنّا",
-        "باليرمو",
         "ميسينا"
       ],
       "correctIndex": 3,
@@ -10014,12 +7814,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الرتم (الجنيسترا)»؟",
       "choices": [
+        "تراباني",
+        "كالتانيسيتا",
         "ميسينا",
-        "كاتانيا",
-        "سيراكوزا",
-        "إنّا"
+        "كاتانيا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«الرتم (الجنيسترا)» نبات مشهور في ميسينا."
     },
     {
@@ -10028,12 +7828,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «باستا نكاشاتا»؟",
       "choices": [
-        "ميسينا",
-        "تراباني",
         "راغوزا",
-        "باليرمو"
+        "باليرمو",
+        "كالتانيسيتا",
+        "ميسينا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«باستا نكاشاتا» طبق مشهور في ميسينا."
     },
     {
@@ -10043,8 +7843,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «بيدوني»؟",
       "choices": [
         "راغوزا",
-        "كالتانيسيتا",
-        "كاتانيا",
+        "أغريجنتو",
+        "باليرمو",
         "ميسينا"
       ],
       "correctIndex": 3,
@@ -10056,9 +7856,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «غرانيتا بالكريمة»؟",
       "choices": [
-        "إنّا",
-        "كالتانيسيتا",
+        "راغوزا",
         "أغريجنتو",
+        "كالتانيسيتا",
         "ميسينا"
       ],
       "correctIndex": 3,
@@ -10070,12 +7870,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «جزر إيوليان»؟",
       "choices": [
-        "أغريجنتو",
-        "ميسينا",
+        "إنّا",
         "راغوزا",
-        "سيراكوزا"
+        "كالتانيسيتا",
+        "ميسينا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "يقع «جزر إيوليان» في ميسينا."
     },
     {
@@ -10084,12 +7884,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «تاورمينا»؟",
       "choices": [
-        "باليرمو",
-        "كاتانيا",
+        "سيراكوزا",
         "ميسينا",
+        "راغوزا",
         "أغريجنتو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "يقع «تاورمينا» في ميسينا."
     },
     {
@@ -10098,9 +7898,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «تيندارِي»؟",
       "choices": [
-        "كالتانيسيتا",
-        "راغوزا",
         "باليرمو",
+        "كاتانيا",
+        "أغريجنتو",
         "ميسينا"
       ],
       "correctIndex": 3,
@@ -10112,12 +7912,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «زلزال عام 1908»؟",
       "choices": [
-        "كالتانيسيتا",
-        "ميسينا",
         "سيراكوزا",
-        "راغوزا"
+        "أغريجنتو",
+        "كالتانيسيتا",
+        "ميسينا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ ميسينا."
     },
     {
@@ -10126,12 +7926,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «مضيق ميسينا»؟",
       "choices": [
-        "كالتانيسيتا",
+        "باليرمو",
+        "إنّا",
         "ميسينا",
-        "سيراكوزا",
-        "كاتانيا"
+        "كالتانيسيتا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ ميسينا."
     },
     {
@@ -10140,10 +7940,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «أنطونيللو دا ميسينا»؟",
       "choices": [
-        "راغوزا",
-        "باليرمو",
+        "كاتانيا",
+        "إنّا",
         "ميسينا",
-        "كالتانيسيتا"
+        "سيراكوزا"
       ],
       "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ ميسينا."
@@ -10155,11 +7955,11 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الصقر الحر»؟",
       "choices": [
         "سيراكوزا",
-        "كاتانيا",
-        "أغريجنتو",
-        "باليرمو"
+        "باليرمو",
+        "راغوزا",
+        "أغريجنتو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«الصقر الحر» جزء من حيوانات باليرمو."
     },
     {
@@ -10168,12 +7968,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «البومة الصغيرة»؟",
       "choices": [
+        "إنّا",
         "باليرمو",
-        "تراباني",
-        "كاتانيا",
-        "سيراكوزا"
+        "كالتانيسيتا",
+        "ميسينا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«البومة الصغيرة» جزء من حيوانات باليرمو."
     },
     {
@@ -10182,12 +7982,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «سحلية صقلية»؟",
       "choices": [
-        "راغوزا",
-        "إنّا",
+        "كاتانيا",
         "باليرمو",
-        "أغريجنتو"
+        "راغوزا",
+        "سيراكوزا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«سحلية صقلية» جزء من حيوانات باليرمو."
     },
     {
@@ -10196,12 +7996,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «النارنج»؟",
       "choices": [
-        "سيراكوزا",
-        "كالتانيسيتا",
         "باليرمو",
+        "كالتانيسيتا",
+        "ميسينا",
         "راغوزا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«النارنج» نبات مشهور في باليرمو."
     },
     {
@@ -10210,12 +8010,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «التين المانوليّ (الفيكس)»؟",
       "choices": [
-        "باليرمو",
         "سيراكوزا",
+        "أغريجنتو",
         "راغوزا",
-        "ميسينا"
+        "باليرمو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«التين المانوليّ (الفيكس)» نبات مشهور في باليرمو."
     },
     {
@@ -10224,12 +8024,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الدوم القزم (النخيل القصير)»؟",
       "choices": [
-        "كاتانيا",
+        "كالتانيسيتا",
+        "باليرمو",
         "سيراكوزا",
-        "ميسينا",
-        "باليرمو"
+        "ميسينا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«الدوم القزم (النخيل القصير)» نبات مشهور في باليرمو."
     },
     {
@@ -10238,12 +8038,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «بانيلّي»؟",
       "choices": [
-        "باليرمو",
+        "أغريجنتو",
         "ميسينا",
-        "كالتانيسيتا",
-        "إنّا"
+        "راغوزا",
+        "باليرمو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«بانيلّي» طبق مشهور في باليرمو."
     },
     {
@@ -10252,12 +8052,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «سفينتشوني»؟",
       "choices": [
-        "أغريجنتو",
-        "كاتانيا",
         "باليرمو",
-        "إنّا"
+        "كالتانيسيتا",
+        "تراباني",
+        "كاتانيا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«سفينتشوني» طبق مشهور في باليرمو."
     },
     {
@@ -10266,12 +8066,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «معكرونة بالسردين»؟",
       "choices": [
-        "ميسينا",
-        "إنّا",
         "باليرمو",
-        "راغوزا"
+        "سيراكوزا",
+        "كاتانيا",
+        "كالتانيسيتا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«معكرونة بالسردين» طبق مشهور في باليرمو."
     },
     {
@@ -10280,12 +8080,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «أرانتشينا»؟",
       "choices": [
+        "تراباني",
         "باليرمو",
-        "كاتانيا",
         "كالتانيسيتا",
         "إنّا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«أرانتشينا» طبق مشهور في باليرمو."
     },
     {
@@ -10296,8 +8096,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "choices": [
         "راغوزا",
         "باليرمو",
-        "تراباني",
-        "إنّا"
+        "كاتانيا",
+        "ميسينا"
       ],
       "correctIndex": 1,
       "explanation": "يقع «الكنيسة البالاتينية» في باليرمو."
@@ -10308,12 +8108,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «كاتدرائية مونريالي»؟",
       "choices": [
-        "كاتانيا",
-        "باليرمو",
+        "إنّا",
+        "تراباني",
         "راغوزا",
-        "أغريجنتو"
+        "باليرمو"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "يقع «كاتدرائية مونريالي» في باليرمو."
     },
     {
@@ -10322,12 +8122,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «تشيفالو»؟",
       "choices": [
+        "سيراكوزا",
+        "كالتانيسيتا",
         "إنّا",
-        "أغريجنتو",
-        "باليرمو",
-        "راغوزا"
+        "باليرمو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "يقع «تشيفالو» في باليرمو."
     },
     {
@@ -10336,12 +8136,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «صلاة المساء الصقلية»؟",
       "choices": [
-        "كاتانيا",
-        "راغوزا",
         "باليرمو",
-        "ميسينا"
+        "سيراكوزا",
+        "راغوزا",
+        "أغريجنتو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ باليرمو."
     },
     {
@@ -10350,12 +8150,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «روجر الثاني»؟",
       "choices": [
-        "تراباني",
         "باليرمو",
-        "أغريجنتو",
-        "إنّا"
+        "سيراكوزا",
+        "كالتانيسيتا",
+        "تراباني"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ باليرمو."
     },
     {
@@ -10364,12 +8164,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «قصر النورمان»؟",
       "choices": [
-        "أغريجنتو",
-        "راغوزا",
-        "ميسينا",
-        "باليرمو"
+        "كالتانيسيتا",
+        "سيراكوزا",
+        "باليرمو",
+        "راغوزا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ باليرمو."
     },
     {
@@ -10378,12 +8178,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الوروار الأوروبي»؟",
       "choices": [
+        "إنّا",
         "راغوزا",
-        "تراباني",
-        "سيراكوزا",
-        "إنّا"
+        "أغريجنتو",
+        "كاتانيا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«الوروار الأوروبي» جزء من حيوانات راغوزا."
     },
     {
@@ -10392,9 +8192,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «النيص»؟",
       "choices": [
+        "ميسينا",
+        "باليرمو",
         "تراباني",
-        "سيراكوزا",
-        "أغريجنتو",
         "راغوزا"
       ],
       "correctIndex": 3,
@@ -10406,12 +8206,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الصرد الأحمر الرأس»؟",
       "choices": [
-        "أغريجنتو",
-        "إنّا",
-        "باليرمو",
-        "راغوزا"
+        "راغوزا",
+        "كالتانيسيتا",
+        "تراباني",
+        "سيراكوزا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«الصرد الأحمر الرأس» جزء من حيوانات راغوزا."
     },
     {
@@ -10420,12 +8220,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الخرنوب»؟",
       "choices": [
-        "كاتانيا",
-        "كالتانيسيتا",
-        "ميسينا",
-        "راغوزا"
+        "راغوزا",
+        "إنّا",
+        "باليرمو",
+        "سيراكوزا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«الخرنوب» نبات مشهور في راغوزا."
     },
     {
@@ -10434,12 +8234,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الزعتر»؟",
       "choices": [
-        "باليرمو",
-        "تراباني",
+        "أغريجنتو",
         "راغوزا",
-        "كالتانيسيتا"
+        "ميسينا",
+        "إنّا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«الزعتر» نبات مشهور في راغوزا."
     },
     {
@@ -10448,9 +8248,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الزيتون»؟",
       "choices": [
-        "تراباني",
-        "ميسينا",
-        "كاتانيا",
+        "إنّا",
+        "كالتانيسيتا",
+        "باليرمو",
         "راغوزا"
       ],
       "correctIndex": 3,
@@ -10464,8 +8264,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "choices": [
         "كاتانيا",
         "راغوزا",
-        "ميسينا",
-        "كالتانيسيتا"
+        "إنّا",
+        "أغريجنتو"
       ],
       "correctIndex": 1,
       "explanation": "«شوكولاتة موديكا» طبق مشهور في راغوزا."
@@ -10476,10 +8276,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «سكاتشا»؟",
       "choices": [
-        "ميسينا",
+        "باليرمو",
         "راغوزا",
         "تراباني",
-        "باليرمو"
+        "كاتانيا"
       ],
       "correctIndex": 1,
       "explanation": "«سكاتشا» طبق مشهور في راغوزا."
@@ -10490,12 +8290,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «راغوزانو»؟",
       "choices": [
-        "إنّا",
-        "أغريجنتو",
         "كاتانيا",
-        "راغوزا"
+        "راغوزا",
+        "إنّا",
+        "باليرمو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«راغوزانو» طبق مشهور في راغوزا."
     },
     {
@@ -10504,12 +8304,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «راغوزا إيبلا»؟",
       "choices": [
-        "سيراكوزا",
-        "راغوزا",
+        "إنّا",
+        "ميسينا",
         "تراباني",
-        "ميسينا"
+        "راغوزا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "يقع «راغوزا إيبلا» في راغوزا."
     },
     {
@@ -10519,11 +8319,11 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "في أي مقاطعة يقع «موديكا»؟",
       "choices": [
         "كالتانيسيتا",
-        "كاتانيا",
-        "راغوزا",
-        "سيراكوزا"
+        "تراباني",
+        "ميسينا",
+        "راغوزا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "يقع «موديكا» في راغوزا."
     },
     {
@@ -10532,12 +8332,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «شيكلي»؟",
       "choices": [
-        "سيراكوزا",
-        "ميسينا",
+        "كاتانيا",
         "إنّا",
-        "راغوزا"
+        "راغوزا",
+        "أغريجنتو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "يقع «شيكلي» في راغوزا."
     },
     {
@@ -10546,12 +8346,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «كونتية موديكا»؟",
       "choices": [
-        "كالتانيسيتا",
-        "باليرمو",
+        "كاتانيا",
         "راغوزا",
-        "تراباني"
+        "ميسينا",
+        "كالتانيسيتا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "تتعلق هذه الحقيقة بـ راغوزا."
     },
     {
@@ -10560,12 +8360,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «زلزال عام 1693»؟",
       "choices": [
-        "تراباني",
+        "راغوزا",
         "أغريجنتو",
         "باليرمو",
-        "راغوزا"
+        "تراباني"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ راغوزا."
     },
     {
@@ -10575,8 +8375,8 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «كافا دي إسبيكا»؟",
       "choices": [
         "أغريجنتو",
+        "باليرمو",
         "سيراكوزا",
-        "إنّا",
         "راغوزا"
       ],
       "correctIndex": 3,
@@ -10588,12 +8388,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الفلامنغو»؟",
       "choices": [
+        "ميسينا",
+        "أغريجنتو",
         "سيراكوزا",
-        "باليرمو",
-        "كالتانيسيتا",
         "كاتانيا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«الفلامنغو» جزء من حيوانات سيراكوزا."
     },
     {
@@ -10602,12 +8402,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الأفوسيت»؟",
       "choices": [
-        "كاتانيا",
-        "أغريجنتو",
+        "ميسينا",
         "سيراكوزا",
-        "ميسينا"
+        "أغريجنتو",
+        "كاتانيا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«الأفوسيت» جزء من حيوانات سيراكوزا."
     },
     {
@@ -10616,12 +8416,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «السلحفاة البحرية»؟",
       "choices": [
+        "كاتانيا",
         "سيراكوزا",
-        "ميسينا",
         "تراباني",
         "كالتانيسيتا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«السلحفاة البحرية» جزء من حيوانات سيراكوزا."
     },
     {
@@ -10630,12 +8430,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «البردي»؟",
       "choices": [
-        "ميسينا",
         "سيراكوزا",
-        "كاتانيا",
-        "باليرمو"
+        "كالتانيسيتا",
+        "تراباني",
+        "ميسينا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«البردي» نبات مشهور في سيراكوزا."
     },
     {
@@ -10644,12 +8444,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «اللوز»؟",
       "choices": [
-        "سيراكوزا",
-        "كاتانيا",
-        "راغوزا",
-        "تراباني"
+        "باليرمو",
+        "إنّا",
+        "تراباني",
+        "سيراكوزا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«اللوز» نبات مشهور في سيراكوزا."
     },
     {
@@ -10658,10 +8458,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الرمان»؟",
       "choices": [
-        "أغريجنتو",
+        "إنّا",
         "سيراكوزا",
-        "ميسينا",
-        "إنّا"
+        "راغوزا",
+        "كالتانيسيتا"
       ],
       "correctIndex": 1,
       "explanation": "«الرمان» نبات مشهور في سيراكوزا."
@@ -10672,12 +8472,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «معكرونة على الطريقة السيراكوزية»؟",
       "choices": [
-        "كاتانيا",
-        "باليرمو",
-        "تراباني",
-        "سيراكوزا"
+        "أغريجنتو",
+        "سيراكوزا",
+        "راغوزا",
+        "ميسينا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«معكرونة على الطريقة السيراكوزية» طبق مشهور في سيراكوزا."
     },
     {
@@ -10686,10 +8486,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «لوز أفولا»؟",
       "choices": [
-        "كالتانيسيتا",
+        "إنّا",
         "سيراكوزا",
-        "راغوزا",
-        "تراباني"
+        "باليرمو",
+        "كاتانيا"
       ],
       "correctIndex": 1,
       "explanation": "«لوز أفولا» طبق مشهور في سيراكوزا."
@@ -10701,9 +8501,9 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «سردين على طريقة بيكافيكو»؟",
       "choices": [
         "سيراكوزا",
+        "كاتانيا",
         "راغوزا",
-        "ميسينا",
-        "تراباني"
+        "أغريجنتو"
       ],
       "correctIndex": 0,
       "explanation": "«سردين على طريقة بيكافيكو» طبق مشهور في سيراكوزا."
@@ -10714,12 +8514,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «أورتيجيا»؟",
       "choices": [
-        "إنّا",
         "سيراكوزا",
+        "تراباني",
         "راغوزا",
-        "باليرمو"
+        "إنّا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "يقع «أورتيجيا» في سيراكوزا."
     },
     {
@@ -10728,12 +8528,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «المسرح الإغريقي»؟",
       "choices": [
-        "أغريجنتو",
+        "إنّا",
+        "سيراكوزا",
         "ميسينا",
-        "تراباني",
-        "سيراكوزا"
+        "تراباني"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "يقع «المسرح الإغريقي» في سيراكوزا."
     },
     {
@@ -10742,10 +8542,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «نوتو»؟",
       "choices": [
-        "كاتانيا",
         "راغوزا",
+        "كالتانيسيتا",
         "سيراكوزا",
-        "أغريجنتو"
+        "كاتانيا"
       ],
       "correctIndex": 2,
       "explanation": "يقع «نوتو» في سيراكوزا."
@@ -10756,10 +8556,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «كاتدرائية سيراكوزا»؟",
       "choices": [
-        "راغوزا",
-        "إنّا",
+        "أغريجنتو",
+        "كالتانيسيتا",
         "سيراكوزا",
-        "باليرمو"
+        "تراباني"
       ],
       "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ سيراكوزا."
@@ -10770,12 +8570,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «أرخميدس»؟",
       "choices": [
-        "باليرمو",
-        "سيراكوزا",
+        "كالتانيسيتا",
+        "تراباني",
         "راغوزا",
-        "تراباني"
+        "سيراكوزا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ سيراكوزا."
     },
     {
@@ -10784,12 +8584,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «ديونيسيوس الأول»؟",
       "choices": [
-        "باليرمو",
         "سيراكوزا",
-        "كالتانيسيتا",
+        "تراباني",
+        "باليرمو",
         "كاتانيا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ سيراكوزا."
     },
     {
@@ -10798,12 +8598,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الفلامنغو»؟",
       "choices": [
-        "تراباني",
-        "راغوزا",
-        "ميسينا",
-        "إنّا"
+        "باليرمو",
+        "كالتانيسيتا",
+        "أغريجنتو",
+        "تراباني"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«الفلامنغو» جزء من حيوانات تراباني."
     },
     {
@@ -10812,10 +8612,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "fauna",
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «التونة الحمراء»؟",
       "choices": [
-        "راغوزا",
-        "كاتانيا",
+        "كالتانيسيتا",
+        "أغريجنتو",
         "تراباني",
-        "إنّا"
+        "سيراكوزا"
       ],
       "correctIndex": 2,
       "explanation": "«التونة الحمراء» جزء من حيوانات تراباني."
@@ -10827,7 +8627,7 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "prompt": "في أي مقاطعة يعيش هذا الحيوان: «الزلزلة الرمادية (الشيرواتر)»؟",
       "choices": [
         "باليرمو",
-        "أغريجنتو",
+        "راغوزا",
         "كاتانيا",
         "تراباني"
       ],
@@ -10840,12 +8640,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الكبر»؟",
       "choices": [
-        "تراباني",
-        "راغوزا",
         "سيراكوزا",
-        "كالتانيسيتا"
+        "كالتانيسيتا",
+        "باليرمو",
+        "تراباني"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«الكبر» نبات مشهور في تراباني."
     },
     {
@@ -10854,12 +8654,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «زيبيبو»؟",
       "choices": [
-        "ميسينا",
         "تراباني",
-        "إنّا",
-        "كالتانيسيتا"
+        "كالتانيسيتا",
+        "سيراكوزا",
+        "باليرمو"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«زيبيبو» نبات مشهور في تراباني."
     },
     {
@@ -10868,12 +8668,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "flora",
       "prompt": "في أي مقاطعة ينمو هذا النبات: «الدوم القزم (النخيل القصير)»؟",
       "choices": [
+        "كالتانيسيتا",
         "أغريجنتو",
         "إنّا",
-        "تراباني",
-        "ميسينا"
+        "تراباني"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«الدوم القزم (النخيل القصير)» نبات مشهور في تراباني."
     },
     {
@@ -10882,12 +8682,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «كسكس على طريقة تراباني»؟",
       "choices": [
-        "إنّا",
+        "سيراكوزا",
         "باليرمو",
-        "تراباني",
-        "راغوزا"
+        "راغوزا",
+        "تراباني"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«كسكس على طريقة تراباني» طبق مشهور في تراباني."
     },
     {
@@ -10896,12 +8696,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «بيستو تراباني»؟",
       "choices": [
-        "كالتانيسيتا",
-        "ميسينا",
-        "كاتانيا",
-        "تراباني"
+        "راغوزا",
+        "تراباني",
+        "سيراكوزا",
+        "ميسينا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«بيستو تراباني» طبق مشهور في تراباني."
     },
     {
@@ -10910,12 +8710,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي مقاطعة: «بوزياتي»؟",
       "choices": [
-        "أغريجنتو",
-        "راغوزا",
-        "باليرمو",
-        "تراباني"
+        "تراباني",
+        "ميسينا",
+        "سيراكوزا",
+        "كاتانيا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«بوزياتي» طبق مشهور في تراباني."
     },
     {
@@ -10924,12 +8724,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «إريتشي»؟",
       "choices": [
-        "تراباني",
-        "كالتانيسيتا",
+        "سيراكوزا",
+        "كاتانيا",
         "راغوزا",
-        "إنّا"
+        "تراباني"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "يقع «إريتشي» في تراباني."
     },
     {
@@ -10938,12 +8738,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «ملاحات تراباني»؟",
       "choices": [
-        "راغوزا",
+        "ميسينا",
         "إنّا",
-        "أغريجنتو",
-        "تراباني"
+        "تراباني",
+        "سيراكوزا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "يقع «ملاحات تراباني» في تراباني."
     },
     {
@@ -10952,10 +8752,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "tourism",
       "prompt": "في أي مقاطعة يقع «سيجستا»؟",
       "choices": [
-        "كالتانيسيتا",
+        "راغوزا",
         "تراباني",
-        "كاتانيا",
-        "سيراكوزا"
+        "ميسينا",
+        "إنّا"
       ],
       "correctIndex": 1,
       "explanation": "يقع «سيجستا» في تراباني."
@@ -10966,12 +8766,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «موزيا»؟",
       "choices": [
+        "كاتانيا",
         "تراباني",
-        "كالتانيسيتا",
-        "راغوزا",
-        "باليرمو"
+        "ميسينا",
+        "أغريجنتو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "تتعلق هذه الحقيقة بـ تراباني."
     },
     {
@@ -10980,12 +8780,12 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «الإيليميون»؟",
       "choices": [
-        "تراباني",
-        "ميسينا",
         "باليرمو",
-        "أغريجنتو"
+        "تراباني",
+        "إنّا",
+        "سيراكوزا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "تتعلق هذه الحقيقة بـ تراباني."
     },
     {
@@ -10994,10 +8794,10 @@ export const TRIVIA_QUESTIONS_SICILY: Partial<Record<Locale, TriviaQuestion[]>> 
       "category": "history",
       "prompt": "إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «مصيدة فلوريو»؟",
       "choices": [
+        "ميسينا",
         "راغوزا",
-        "كاتانيا",
         "تراباني",
-        "أغريجنتو"
+        "كالتانيسيتا"
       ],
       "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ تراباني."

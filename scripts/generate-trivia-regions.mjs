@@ -9,13 +9,13 @@ import { createHash } from "node:crypto";
 
 import { loadTsNamedExport } from "./lib/load-ts-export.mjs";
 
-const LOCALES = ["es", "en", "it", "ru", "ar"];
+const LOCALES = ["es", "en", "it", "fr", "ar"];
 const SOURCE = "it";
 
 const DATASETS = [
   {
     key: "italy",
-    unit: { es: "región", en: "region", it: "regione", ru: "области", ar: "منطقة" },
+    unit: { es: "región", en: "region", it: "regione", fr: "région", ar: "منطقة" },
     regionsFile: "src/data/italy/regions.generated.ts",
     regionsExport: "ITALY_REGIONS",
     contentFile: "src/data/italy/content.generated.ts",
@@ -25,7 +25,7 @@ const DATASETS = [
   },
   {
     key: "sicily",
-    unit: { es: "provincia", en: "province", it: "provincia", ru: "провинции", ar: "مقاطعة" },
+    unit: { es: "provincia", en: "province", it: "provincia", fr: "province", ar: "مقاطعة" },
     regionsFile: "src/data/sicily/provinces.generated.ts",
     regionsExport: "SICILY_PROVINCES",
     contentFile: "src/data/sicily/content.generated.ts",
@@ -35,7 +35,7 @@ const DATASETS = [
   },
   {
     key: "campania",
-    unit: { es: "provincia", en: "province", it: "provincia", ru: "провинции", ar: "مقاطعة" },
+    unit: { es: "provincia", en: "province", it: "provincia", fr: "province", ar: "مقاطعة" },
     regionsFile: "src/data/campania/provinces.generated.ts",
     regionsExport: "CAMPANIA_PROVINCES",
     contentFile: "src/data/campania/content.generated.ts",
@@ -76,35 +76,35 @@ const SPECS = [
     es: [(n, u) => `¿En qué ${u} vive este animal: «${n}»?`, (n, z) => `«${n}» forma parte de la fauna de ${z}.`],
     en: [(n, u) => `In which ${u} does this animal live: “${n}”?`, (n, z) => `“${n}” is part of the wildlife of ${z}.`],
     it: [(n, u) => `In quale ${u} vive questo animale: «${n}»?`, (n, z) => `«${n}» fa parte della fauna di ${z}.`],
-    ru: [(n, u) => `В какой ${u} обитает это животное: «${n}»?`, (n, z) => `«${n}» — часть фауны: ${z}.`],
+    fr: [(n, u) => `Dans quelle ${u} vit cet animal : « ${n} » ?`, (n, z) => `« ${n} » fait partie de la faune de ${z}.`],
     ar: [(n, u) => `في أي ${u} يعيش هذا الحيوان: «${n}»؟`, (n, z) => `«${n}» جزء من حيوانات ${z}.`],
   }],
   ["plants", "flora", {
     es: [(n, u) => `¿En qué ${u} crece esta planta: «${n}»?`, (n, z) => `«${n}» es una planta típica de ${z}.`],
     en: [(n, u) => `In which ${u} does this plant grow: “${n}”?`, (n, z) => `“${n}” is a typical plant of ${z}.`],
     it: [(n, u) => `In quale ${u} cresce questa pianta: «${n}»?`, (n, z) => `«${n}» è una pianta tipica di ${z}.`],
-    ru: [(n, u) => `В какой ${u} растёт это растение: «${n}»?`, (n, z) => `«${n}» — типичное растение: ${z}.`],
+    fr: [(n, u) => `Dans quelle ${u} pousse cette plante : « ${n} » ?`, (n, z) => `« ${n} » est une plante typique de ${z}.`],
     ar: [(n, u) => `في أي ${u} ينمو هذا النبات: «${n}»؟`, (n, z) => `«${n}» نبات مشهور في ${z}.`],
   }],
   ["foods", "food", {
     es: [(n, u) => `¿De qué ${u} es típico este plato: «${n}»?`, (n, z) => `«${n}» es un plato típico de ${z}.`],
     en: [(n, u) => `Which ${u} is this dish typical of: “${n}”?`, (n, z) => `“${n}” is a typical dish of ${z}.`],
     it: [(n, u) => `Di quale ${u} è tipico questo piatto: «${n}»?`, (n, z) => `«${n}» è un piatto tipico di ${z}.`],
-    ru: [(n, u) => `Для какой ${u} типично это блюдо: «${n}»?`, (n, z) => `«${n}» — типичное блюдо: ${z}.`],
+    fr: [(n, u) => `De quelle ${u} ce plat est-il typique : « ${n} » ?`, (n, z) => `« ${n} » est un plat typique de ${z}.`],
     ar: [(n, u) => `هذا الطبق مشهور في أي ${u}: «${n}»؟`, (n, z) => `«${n}» طبق مشهور في ${z}.`],
   }],
   ["tourism", "tourism", {
     es: [(n, u) => `¿En qué ${u} se encuentra «${n}»?`, (n, z) => `«${n}» se encuentra en ${z}.`],
     en: [(n, u) => `In which ${u} is “${n}”?`, (n, z) => `“${n}” is in ${z}.`],
     it: [(n, u) => `In quale ${u} si trova «${n}»?`, (n, z) => `«${n}» si trova in ${z}.`],
-    ru: [(n, u) => `В какой ${u} находится это место: «${n}»?`, (n, z) => `«${n}» находится здесь: ${z}.`],
+    fr: [(n, u) => `Dans quelle ${u} se trouve « ${n} » ?`, (n, z) => `« ${n} » se trouve en ${z}.`],
     ar: [(n, u) => `في أي ${u} يقع «${n}»؟`, (n, z) => `يقع «${n}» في ${z}.`],
   }],
   ["curiosities", "history", {
     es: [(n, u) => `¿A qué ${u} pertenece este hecho histórico: «${shorten(n)}»?`, (n, z) => `Este hecho tiene que ver con ${z}.`],
     en: [(n, u) => `Which ${u} does this historical fact belong to: “${shorten(n)}”?`, (n, z) => `This fact is about ${z}.`],
     it: [(n, u) => `A quale ${u} appartiene questo fatto storico: «${shorten(n)}»?`, (n, z) => `Questo fatto riguarda ${z}.`],
-    ru: [(n, u) => `К какой ${u} относится этот исторический факт: «${shorten(n)}»?`, (n, z) => `Этот факт связан с: ${z}.`],
+    fr: [(n, u) => `À quelle ${u} appartient ce fait historique : « ${shorten(n)} » ?`, (n, z) => `Ce fait concerne ${z}.`],
     ar: [(n, u) => `إلى أي ${u} تنتمي هذه الحقيقة التاريخية: «${shorten(n)}»؟`, (n, z) => `تتعلق هذه الحقيقة بـ ${z}.`],
   }],
 ];

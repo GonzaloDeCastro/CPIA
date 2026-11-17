@@ -10,12 +10,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Íbice alpino»?",
       "choices": [
+        "Umbría",
         "Valle de Aosta",
-        "Friuli-Venecia Julia",
-        "Basilicata",
-        "Apulia"
+        "Marcas",
+        "Sicilia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Íbice alpino» forma parte de la fauna de Valle de Aosta."
     },
     {
@@ -24,12 +24,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Rebeco alpino»?",
       "choices": [
-        "Toscana",
-        "Apulia",
+        "Liguria",
         "Friuli-Venecia Julia",
-        "Valle de Aosta"
+        "Valle de Aosta",
+        "Lacio"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Rebeco alpino» forma parte de la fauna de Valle de Aosta."
     },
     {
@@ -38,12 +38,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Águila real»?",
       "choices": [
-        "Lombardía",
-        "Campania",
-        "Liguria",
-        "Valle de Aosta"
+        "Trentino-Alto Adigio",
+        "Friuli-Venecia Julia",
+        "Valle de Aosta",
+        "Molise"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Águila real» forma parte de la fauna de Valle de Aosta."
     },
     {
@@ -52,12 +52,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Edelweiss»?",
       "choices": [
-        "Valle de Aosta",
         "Friuli-Venecia Julia",
-        "Campania",
-        "Marcas"
+        "Lacio",
+        "Emilia-Romaña",
+        "Valle de Aosta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Edelweiss» es una planta típica de Valle de Aosta."
     },
     {
@@ -66,12 +66,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Alerce»?",
       "choices": [
-        "Basilicata",
-        "Lacio",
-        "Véneto",
-        "Valle de Aosta"
+        "Cerdeña",
+        "Emilia-Romaña",
+        "Valle de Aosta",
+        "Basilicata"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Alerce» es una planta típica de Valle de Aosta."
     },
     {
@@ -80,12 +80,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Genciana»?",
       "choices": [
-        "Molise",
-        "Valle de Aosta",
-        "Friuli-Venecia Julia",
-        "Lacio"
+        "Cerdeña",
+        "Campania",
+        "Piamonte",
+        "Valle de Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Genciana» es una planta típica de Valle de Aosta."
     },
     {
@@ -94,12 +94,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Fontina»?",
       "choices": [
+        "Calabria",
         "Valle de Aosta",
-        "Marcas",
-        "Lacio",
-        "Emilia-Romaña"
+        "Abruzos",
+        "Piamonte"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Fontina» es un plato típico de Valle de Aosta."
     },
     {
@@ -108,12 +108,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Polenta concia»?",
       "choices": [
-        "Basilicata",
         "Valle de Aosta",
-        "Toscana",
-        "Calabria"
+        "Apulia",
+        "Sicilia",
+        "Lacio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Polenta concia» es un plato típico de Valle de Aosta."
     },
     {
@@ -124,8 +124,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "Valle de Aosta",
         "Toscana",
-        "Abruzos",
-        "Liguria"
+        "Molise",
+        "Marcas"
       ],
       "correctIndex": 0,
       "explanation": "«Carbonade» es un plato típico de Valle de Aosta."
@@ -136,12 +136,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Mont Blanc»?",
       "choices": [
-        "Trentino-Alto Adigio",
+        "Liguria",
+        "Campania",
         "Valle de Aosta",
-        "Emilia-Romaña",
-        "Marcas"
+        "Basilicata"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Mont Blanc» se encuentra en Valle de Aosta."
     },
     {
@@ -150,12 +150,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Cervino»?",
       "choices": [
-        "Basilicata",
-        "Valle de Aosta",
-        "Lombardía",
-        "Apulia"
+        "Toscana",
+        "Piamonte",
+        "Calabria",
+        "Valle de Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Cervino» se encuentra en Valle de Aosta."
     },
     {
@@ -164,12 +164,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Castillo de Fénis»?",
       "choices": [
-        "Cerdeña",
-        "Piamonte",
-        "Toscana",
-        "Valle de Aosta"
+        "Lacio",
+        "Umbría",
+        "Valle de Aosta",
+        "Piamonte"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Castillo de Fénis» se encuentra en Valle de Aosta."
     },
     {
@@ -178,12 +178,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Aosta romana»?",
       "choices": [
-        "Liguria",
-        "Marcas",
-        "Valle de Aosta",
-        "Abruzos"
+        "Umbría",
+        "Trentino-Alto Adigio",
+        "Toscana",
+        "Valle de Aosta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Valle de Aosta."
     },
     {
@@ -192,12 +192,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Parque Nacional del Gran Paradiso»?",
       "choices": [
-        "Liguria",
-        "Abruzos",
         "Valle de Aosta",
-        "Emilia-Romaña"
+        "Lombardía",
+        "Cerdeña",
+        "Véneto"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Valle de Aosta."
     },
     {
@@ -206,10 +206,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Túnel del Mont Blanc»?",
       "choices": [
-        "Toscana",
+        "Campania",
         "Valle de Aosta",
-        "Liguria",
-        "Trentino-Alto Adigio"
+        "Toscana",
+        "Lacio"
       ],
       "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Valle de Aosta."
@@ -220,12 +220,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Garza real»?",
       "choices": [
-        "Lacio",
-        "Molise",
-        "Liguria",
-        "Piamonte"
+        "Piamonte",
+        "Basilicata",
+        "Marcas",
+        "Lacio"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Garza real» forma parte de la fauna de Piamonte."
     },
     {
@@ -234,12 +234,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Lobo»?",
       "choices": [
+        "Sicilia",
+        "Friuli-Venecia Julia",
         "Valle de Aosta",
-        "Piamonte",
-        "Apulia",
-        "Cerdeña"
+        "Piamonte"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Lobo» forma parte de la fauna de Piamonte."
     },
     {
@@ -248,12 +248,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Jabalí»?",
       "choices": [
-        "Calabria",
-        "Lombardía",
-        "Campania",
-        "Piamonte"
+        "Piamonte",
+        "Sicilia",
+        "Cerdeña",
+        "Abruzos"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Jabalí» forma parte de la fauna de Piamonte."
     },
     {
@@ -262,12 +262,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Castaño»?",
       "choices": [
-        "Basilicata",
-        "Cerdeña",
+        "Emilia-Romaña",
         "Piamonte",
-        "Sicilia"
+        "Friuli-Venecia Julia",
+        "Basilicata"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Castaño» es una planta típica de Piamonte."
     },
     {
@@ -276,12 +276,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Vid»?",
       "choices": [
-        "Cerdeña",
         "Piamonte",
-        "Trentino-Alto Adigio",
-        "Calabria"
+        "Calabria",
+        "Lombardía",
+        "Lacio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Vid» es una planta típica de Piamonte."
     },
     {
@@ -290,12 +290,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Arroz»?",
       "choices": [
-        "Véneto",
+        "Piamonte",
         "Umbría",
-        "Liguria",
-        "Piamonte"
+        "Véneto",
+        "Apulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Arroz» es una planta típica de Piamonte."
     },
     {
@@ -305,11 +305,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿De qué región es típico este plato: «Bagna càuda»?",
       "choices": [
         "Calabria",
-        "Abruzos",
-        "Piamonte",
-        "Sicilia"
+        "Molise",
+        "Emilia-Romaña",
+        "Piamonte"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Bagna càuda» es un plato típico de Piamonte."
     },
     {
@@ -318,12 +318,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Agnolotti»?",
       "choices": [
-        "Molise",
-        "Piamonte",
-        "Campania",
-        "Trentino-Alto Adigio"
+        "Calabria",
+        "Cerdeña",
+        "Valle de Aosta",
+        "Piamonte"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Agnolotti» es un plato típico de Piamonte."
     },
     {
@@ -332,9 +332,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Gianduiotto»?",
       "choices": [
-        "Lombardía",
+        "Marcas",
         "Piamonte",
-        "Sicilia",
+        "Calabria",
         "Basilicata"
       ],
       "correctIndex": 1,
@@ -346,12 +346,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Mole Antonelliana»?",
       "choices": [
-        "Lacio",
-        "Friuli-Venecia Julia",
         "Piamonte",
-        "Toscana"
+        "Emilia-Romaña",
+        "Cerdeña",
+        "Sicilia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Mole Antonelliana» se encuentra en Piamonte."
     },
     {
@@ -360,12 +360,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Langhe»?",
       "choices": [
-        "Piamonte",
-        "Lacio",
         "Emilia-Romaña",
-        "Lombardía"
+        "Piamonte",
+        "Apulia",
+        "Lacio"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Langhe» se encuentra en Piamonte."
     },
     {
@@ -374,12 +374,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Lago Mayor»?",
       "choices": [
-        "Calabria",
-        "Véneto",
-        "Piamonte",
-        "Abruzos"
+        "Valle de Aosta",
+        "Liguria",
+        "Abruzos",
+        "Piamonte"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Lago Mayor» se encuentra en Piamonte."
     },
     {
@@ -388,12 +388,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Turín capital»?",
       "choices": [
-        "Toscana",
         "Piamonte",
+        "Calabria",
         "Valle de Aosta",
-        "Apulia"
+        "Sicilia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Piamonte."
     },
     {
@@ -402,10 +402,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Sacra di San Michele»?",
       "choices": [
-        "Apulia",
-        "Lacio",
+        "Emilia-Romaña",
+        "Valle de Aosta",
         "Piamonte",
-        "Véneto"
+        "Trentino-Alto Adigio"
       ],
       "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Piamonte."
@@ -416,10 +416,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Palacete de caza de Stupinigi»?",
       "choices": [
-        "Véneto",
-        "Calabria",
+        "Emilia-Romaña",
+        "Basilicata",
         "Piamonte",
-        "Abruzos"
+        "Friuli-Venecia Julia"
       ],
       "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Piamonte."
@@ -430,12 +430,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Gaviota patiamarilla»?",
       "choices": [
-        "Liguria",
-        "Apulia",
         "Calabria",
-        "Trentino-Alto Adigio"
+        "Trentino-Alto Adigio",
+        "Toscana",
+        "Liguria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Gaviota patiamarilla» forma parte de la fauna de Liguria."
     },
     {
@@ -444,12 +444,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Delfín mular»?",
       "choices": [
-        "Valle de Aosta",
+        "Trentino-Alto Adigio",
+        "Lombardía",
         "Liguria",
-        "Abruzos",
-        "Emilia-Romaña"
+        "Valle de Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Delfín mular» forma parte de la fauna de Liguria."
     },
     {
@@ -458,9 +458,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Halcón peregrino»?",
       "choices": [
-        "Toscana",
+        "Campania",
         "Friuli-Venecia Julia",
-        "Calabria",
+        "Sicilia",
         "Liguria"
       ],
       "correctIndex": 3,
@@ -472,12 +472,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Albahaca genovesa»?",
       "choices": [
-        "Sicilia",
-        "Apulia",
-        "Liguria",
-        "Emilia-Romaña"
+        "Toscana",
+        "Trentino-Alto Adigio",
+        "Campania",
+        "Liguria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Albahaca genovesa» es una planta típica de Liguria."
     },
     {
@@ -486,12 +486,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Olivo»?",
       "choices": [
-        "Sicilia",
-        "Friuli-Venecia Julia",
-        "Calabria",
-        "Liguria"
+        "Emilia-Romaña",
+        "Abruzos",
+        "Liguria",
+        "Friuli-Venecia Julia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Olivo» es una planta típica de Liguria."
     },
     {
@@ -500,10 +500,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Mimosa»?",
       "choices": [
-        "Véneto",
+        "Marcas",
         "Liguria",
-        "Emilia-Romaña",
-        "Valle de Aosta"
+        "Abruzos",
+        "Emilia-Romaña"
       ],
       "correctIndex": 1,
       "explanation": "«Mimosa» es una planta típica de Liguria."
@@ -515,9 +515,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿De qué región es típico este plato: «Pesto genovés»?",
       "choices": [
         "Liguria",
-        "Molise",
-        "Piamonte",
-        "Marcas"
+        "Marcas",
+        "Calabria",
+        "Emilia-Romaña"
       ],
       "correctIndex": 0,
       "explanation": "«Pesto genovés» es un plato típico de Liguria."
@@ -528,9 +528,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Focaccia genovesa»?",
       "choices": [
-        "Basilicata",
-        "Molise",
-        "Calabria",
+        "Cerdeña",
+        "Apulia",
+        "Trentino-Alto Adigio",
         "Liguria"
       ],
       "correctIndex": 3,
@@ -542,9 +542,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Trofie al pesto»?",
       "choices": [
+        "Friuli-Venecia Julia",
         "Lombardía",
-        "Toscana",
-        "Basilicata",
+        "Véneto",
         "Liguria"
       ],
       "correctIndex": 3,
@@ -556,9 +556,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Cinque Terre»?",
       "choices": [
-        "Basilicata",
-        "Cerdeña",
-        "Toscana",
+        "Friuli-Venecia Julia",
+        "Lacio",
+        "Marcas",
         "Liguria"
       ],
       "correctIndex": 3,
@@ -571,11 +571,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿En qué región se encuentra «Portofino»?",
       "choices": [
         "Valle de Aosta",
-        "Emilia-Romaña",
-        "Piamonte",
-        "Liguria"
+        "Liguria",
+        "Cerdeña",
+        "Abruzos"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Portofino» se encuentra en Liguria."
     },
     {
@@ -584,12 +584,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Acuario de Génova»?",
       "choices": [
+        "Umbría",
+        "Toscana",
         "Liguria",
-        "Sicilia",
-        "Apulia",
-        "Marcas"
+        "Lombardía"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Acuario de Génova» se encuentra en Liguria."
     },
     {
@@ -598,12 +598,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «República de Génova»?",
       "choices": [
-        "Lombardía",
         "Liguria",
-        "Friuli-Venecia Julia",
-        "Sicilia"
+        "Valle de Aosta",
+        "Lombardía",
+        "Cerdeña"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Liguria."
     },
     {
@@ -612,10 +612,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Cristóbal Colón»?",
       "choices": [
-        "Campania",
-        "Cerdeña",
+        "Sicilia",
+        "Apulia",
         "Liguria",
-        "Abruzos"
+        "Toscana"
       ],
       "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Liguria."
@@ -627,9 +627,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿A qué región pertenece este hecho histórico: «Palacios de los Rolli»?",
       "choices": [
         "Liguria",
-        "Friuli-Venecia Julia",
         "Basilicata",
-        "Piamonte"
+        "Piamonte",
+        "Abruzos"
       ],
       "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Liguria."
@@ -640,12 +640,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Cisne vulgar»?",
       "choices": [
-        "Molise",
-        "Sicilia",
         "Lombardía",
+        "Emilia-Romaña",
+        "Calabria",
         "Piamonte"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Cisne vulgar» forma parte de la fauna de Lombardía."
     },
     {
@@ -654,9 +654,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Garza real»?",
       "choices": [
-        "Liguria",
-        "Umbría",
-        "Campania",
+        "Cerdeña",
+        "Calabria",
+        "Lacio",
         "Lombardía"
       ],
       "correctIndex": 3,
@@ -668,12 +668,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Rebeco alpino»?",
       "choices": [
-        "Umbría",
-        "Marcas",
-        "Piamonte",
-        "Lombardía"
+        "Lombardía",
+        "Liguria",
+        "Calabria",
+        "Cerdeña"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Rebeco alpino» forma parte de la fauna de Lombardía."
     },
     {
@@ -682,10 +682,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Haya»?",
       "choices": [
-        "Campania",
-        "Calabria",
+        "Basilicata",
+        "Piamonte",
         "Lombardía",
-        "Apulia"
+        "Véneto"
       ],
       "correctIndex": 2,
       "explanation": "«Haya» es una planta típica de Lombardía."
@@ -696,12 +696,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Nenúfar»?",
       "choices": [
-        "Cerdeña",
-        "Valle de Aosta",
+        "Abruzos",
         "Lombardía",
+        "Piamonte",
         "Calabria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Nenúfar» es una planta típica de Lombardía."
     },
     {
@@ -710,12 +710,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Álamo»?",
       "choices": [
-        "Friuli-Venecia Julia",
-        "Cerdeña",
-        "Calabria",
-        "Lombardía"
+        "Piamonte",
+        "Abruzos",
+        "Lombardía",
+        "Véneto"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Álamo» es una planta típica de Lombardía."
     },
     {
@@ -724,12 +724,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Risotto a la milanesa»?",
       "choices": [
-        "Abruzos",
-        "Marcas",
         "Lombardía",
+        "Lacio",
+        "Toscana",
         "Basilicata"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Risotto a la milanesa» es un plato típico de Lombardía."
     },
     {
@@ -738,12 +738,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Ossobuco»?",
       "choices": [
-        "Basilicata",
-        "Friuli-Venecia Julia",
-        "Lombardía",
-        "Apulia"
+        "Calabria",
+        "Piamonte",
+        "Toscana",
+        "Lombardía"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Ossobuco» es un plato típico de Lombardía."
     },
     {
@@ -752,10 +752,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Panettone»?",
       "choices": [
-        "Valle de Aosta",
+        "Abruzos",
         "Lombardía",
-        "Cerdeña",
-        "Friuli-Venecia Julia"
+        "Valle de Aosta",
+        "Calabria"
       ],
       "correctIndex": 1,
       "explanation": "«Panettone» es un plato típico de Lombardía."
@@ -766,12 +766,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Duomo de Milán»?",
       "choices": [
-        "Valle de Aosta",
-        "Umbría",
-        "Friuli-Venecia Julia",
-        "Lombardía"
+        "Molise",
+        "Lombardía",
+        "Marcas",
+        "Cerdeña"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Duomo de Milán» se encuentra en Lombardía."
     },
     {
@@ -780,12 +780,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Lago de Como»?",
       "choices": [
-        "Lombardía",
         "Abruzos",
-        "Liguria",
-        "Toscana"
+        "Lombardía",
+        "Apulia",
+        "Piamonte"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Lago de Como» se encuentra en Lombardía."
     },
     {
@@ -794,12 +794,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «La Última Cena de Leonardo»?",
       "choices": [
-        "Piamonte",
-        "Lombardía",
-        "Lacio",
-        "Basilicata"
+        "Emilia-Romaña",
+        "Sicilia",
+        "Basilicata",
+        "Lombardía"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«La Última Cena de Leonardo» se encuentra en Lombardía."
     },
     {
@@ -809,9 +809,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿A qué región pertenece este hecho histórico: «Milán capital del Imperio»?",
       "choices": [
         "Lombardía",
-        "Trentino-Alto Adigio",
-        "Sicilia",
-        "Friuli-Venecia Julia"
+        "Emilia-Romaña",
+        "Molise",
+        "Abruzos"
       ],
       "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Lombardía."
@@ -822,12 +822,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Batalla de Legnano»?",
       "choices": [
-        "Molise",
-        "Liguria",
-        "Lombardía",
-        "Piamonte"
+        "Toscana",
+        "Valle de Aosta",
+        "Calabria",
+        "Lombardía"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Lombardía."
     },
     {
@@ -836,10 +836,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Leonardo en Milán»?",
       "choices": [
-        "Piamonte",
+        "Marcas",
         "Lombardía",
-        "Trentino-Alto Adigio",
-        "Friuli-Venecia Julia"
+        "Piamonte",
+        "Abruzos"
       ],
       "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Lombardía."
@@ -850,10 +850,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Oso pardo»?",
       "choices": [
-        "Véneto",
-        "Abruzos",
+        "Lacio",
+        "Liguria",
         "Trentino-Alto Adigio",
-        "Cerdeña"
+        "Campania"
       ],
       "correctIndex": 2,
       "explanation": "«Oso pardo» forma parte de la fauna de Trentino-Alto Adigio."
@@ -864,12 +864,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Rebeco alpino»?",
       "choices": [
-        "Sicilia",
-        "Liguria",
-        "Lacio",
-        "Trentino-Alto Adigio"
+        "Emilia-Romaña",
+        "Friuli-Venecia Julia",
+        "Trentino-Alto Adigio",
+        "Basilicata"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Rebeco alpino» forma parte de la fauna de Trentino-Alto Adigio."
     },
     {
@@ -878,10 +878,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Ciervo rojo»?",
       "choices": [
-        "Umbría",
+        "Véneto",
         "Trentino-Alto Adigio",
-        "Cerdeña",
-        "Molise"
+        "Lombardía",
+        "Toscana"
       ],
       "correctIndex": 1,
       "explanation": "«Ciervo rojo» forma parte de la fauna de Trentino-Alto Adigio."
@@ -893,11 +893,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿En qué región crece esta planta: «Abeto rojo»?",
       "choices": [
         "Véneto",
-        "Apulia",
-        "Toscana",
-        "Trentino-Alto Adigio"
+        "Calabria",
+        "Trentino-Alto Adigio",
+        "Emilia-Romaña"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Abeto rojo» es una planta típica de Trentino-Alto Adigio."
     },
     {
@@ -906,12 +906,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Manzano»?",
       "choices": [
+        "Campania",
+        "Lombardía",
         "Trentino-Alto Adigio",
-        "Sicilia",
-        "Apulia",
-        "Abruzos"
+        "Apulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Manzano» es una planta típica de Trentino-Alto Adigio."
     },
     {
@@ -920,12 +920,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Genciana»?",
       "choices": [
-        "Trentino-Alto Adigio",
-        "Friuli-Venecia Julia",
-        "Calabria",
-        "Campania"
+        "Apulia",
+        "Lacio",
+        "Véneto",
+        "Trentino-Alto Adigio"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Genciana» es una planta típica de Trentino-Alto Adigio."
     },
     {
@@ -935,11 +935,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿De qué región es típico este plato: «Canederli»?",
       "choices": [
         "Piamonte",
-        "Molise",
         "Trentino-Alto Adigio",
-        "Toscana"
+        "Cerdeña",
+        "Apulia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Canederli» es un plato típico de Trentino-Alto Adigio."
     },
     {
@@ -948,12 +948,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Speck»?",
       "choices": [
+        "Valle de Aosta",
+        "Calabria",
         "Trentino-Alto Adigio",
-        "Véneto",
-        "Toscana",
-        "Marcas"
+        "Friuli-Venecia Julia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Speck» es un plato típico de Trentino-Alto Adigio."
     },
     {
@@ -962,12 +962,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Strudel de manzana»?",
       "choices": [
+        "Basilicata",
         "Trentino-Alto Adigio",
-        "Umbría",
         "Marcas",
-        "Basilicata"
+        "Toscana"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Strudel de manzana» es un plato típico de Trentino-Alto Adigio."
     },
     {
@@ -976,12 +976,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Dolomitas»?",
       "choices": [
+        "Campania",
+        "Trentino-Alto Adigio",
         "Calabria",
-        "Liguria",
-        "Cerdeña",
-        "Trentino-Alto Adigio"
+        "Umbría"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Dolomitas» se encuentra en Trentino-Alto Adigio."
     },
     {
@@ -990,12 +990,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Lago de Braies»?",
       "choices": [
-        "Liguria",
-        "Calabria",
         "Trentino-Alto Adigio",
-        "Cerdeña"
+        "Sicilia",
+        "Piamonte",
+        "Basilicata"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Lago de Braies» se encuentra en Trentino-Alto Adigio."
     },
     {
@@ -1004,12 +1004,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Castel Tirolo»?",
       "choices": [
-        "Sicilia",
-        "Piamonte",
-        "Friuli-Venecia Julia",
-        "Trentino-Alto Adigio"
+        "Abruzos",
+        "Molise",
+        "Trentino-Alto Adigio",
+        "Valle de Aosta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Castel Tirolo» se encuentra en Trentino-Alto Adigio."
     },
     {
@@ -1018,12 +1018,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Concilio de Trento»?",
       "choices": [
-        "Trentino-Alto Adigio",
+        "Basilicata",
+        "Apulia",
         "Valle de Aosta",
-        "Friuli-Venecia Julia",
-        "Sicilia"
+        "Trentino-Alto Adigio"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Trentino-Alto Adigio."
     },
     {
@@ -1032,12 +1032,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Ötzi»?",
       "choices": [
-        "Trentino-Alto Adigio",
-        "Umbría",
-        "Véneto",
-        "Apulia"
+        "Liguria",
+        "Sicilia",
+        "Toscana",
+        "Trentino-Alto Adigio"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Trentino-Alto Adigio."
     },
     {
@@ -1046,12 +1046,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «El paso a Italia»?",
       "choices": [
-        "Cerdeña",
-        "Trentino-Alto Adigio",
-        "Lombardía",
-        "Liguria"
+        "Piamonte",
+        "Friuli-Venecia Julia",
+        "Emilia-Romaña",
+        "Trentino-Alto Adigio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Trentino-Alto Adigio."
     },
     {
@@ -1061,9 +1061,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿En qué región vive este animal: «Flamenco»?",
       "choices": [
         "Liguria",
-        "Piamonte",
+        "Calabria",
         "Véneto",
-        "Toscana"
+        "Friuli-Venecia Julia"
       ],
       "correctIndex": 2,
       "explanation": "«Flamenco» forma parte de la fauna de Véneto."
@@ -1074,9 +1074,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Garza real»?",
       "choices": [
-        "Molise",
-        "Apulia",
-        "Lacio",
+        "Abruzos",
+        "Trentino-Alto Adigio",
+        "Calabria",
         "Véneto"
       ],
       "correctIndex": 3,
@@ -1089,9 +1089,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿En qué región vive este animal: «Rebeco alpino»?",
       "choices": [
         "Véneto",
-        "Umbría",
-        "Cerdeña",
-        "Apulia"
+        "Friuli-Venecia Julia",
+        "Toscana",
+        "Piamonte"
       ],
       "correctIndex": 0,
       "explanation": "«Rebeco alpino» forma parte de la fauna de Véneto."
@@ -1102,12 +1102,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Vid»?",
       "choices": [
-        "Calabria",
-        "Basilicata",
+        "Lombardía",
         "Abruzos",
-        "Véneto"
+        "Véneto",
+        "Molise"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Vid» es una planta típica de Véneto."
     },
     {
@@ -1117,11 +1117,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿En qué región crece esta planta: «Ciprés»?",
       "choices": [
         "Trentino-Alto Adigio",
-        "Véneto",
-        "Sicilia",
-        "Lacio"
+        "Lacio",
+        "Basilicata",
+        "Véneto"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Ciprés» es una planta típica de Véneto."
     },
     {
@@ -1130,12 +1130,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Salicornia»?",
       "choices": [
-        "Apulia",
-        "Piamonte",
+        "Basilicata",
         "Véneto",
-        "Cerdeña"
+        "Campania",
+        "Umbría"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Salicornia» es una planta típica de Véneto."
     },
     {
@@ -1144,12 +1144,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Tiramisú»?",
       "choices": [
-        "Abruzos",
-        "Molise",
-        "Véneto",
-        "Basilicata"
+        "Liguria",
+        "Toscana",
+        "Apulia",
+        "Véneto"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Tiramisú» es un plato típico de Véneto."
     },
     {
@@ -1158,12 +1158,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Baccalà mantecato»?",
       "choices": [
-        "Apulia",
+        "Valle de Aosta",
+        "Friuli-Venecia Julia",
         "Véneto",
-        "Abruzos",
-        "Campania"
+        "Marcas"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Baccalà mantecato» es un plato típico de Véneto."
     },
     {
@@ -1172,12 +1172,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Risotto al negro de sepia»?",
       "choices": [
+        "Apulia",
         "Véneto",
-        "Calabria",
-        "Lombardía",
-        "Piamonte"
+        "Campania",
+        "Cerdeña"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Risotto al negro de sepia» es un plato típico de Véneto."
     },
     {
@@ -1186,12 +1186,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Venecia»?",
       "choices": [
-        "Véneto",
-        "Apulia",
-        "Molise",
-        "Umbría"
+        "Trentino-Alto Adigio",
+        "Friuli-Venecia Julia",
+        "Campania",
+        "Véneto"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Venecia» se encuentra en Véneto."
     },
     {
@@ -1201,9 +1201,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿En qué región se encuentra «Arena de Verona»?",
       "choices": [
         "Véneto",
-        "Cerdeña",
-        "Emilia-Romaña",
-        "Liguria"
+        "Toscana",
+        "Piamonte",
+        "Lacio"
       ],
       "correctIndex": 0,
       "explanation": "«Arena de Verona» se encuentra en Véneto."
@@ -1214,12 +1214,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Villas palladianas»?",
       "choices": [
-        "Véneto",
-        "Lombardía",
-        "Liguria",
-        "Lacio"
+        "Molise",
+        "Trentino-Alto Adigio",
+        "Lacio",
+        "Véneto"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Villas palladianas» se encuentra en Véneto."
     },
     {
@@ -1228,12 +1228,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «República de Venecia»?",
       "choices": [
+        "Apulia",
         "Valle de Aosta",
-        "Campania",
-        "Véneto",
-        "Friuli-Venecia Julia"
+        "Trentino-Alto Adigio",
+        "Véneto"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Véneto."
     },
     {
@@ -1243,9 +1243,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿A qué región pertenece este hecho histórico: «Marco Polo»?",
       "choices": [
         "Véneto",
-        "Liguria",
-        "Campania",
-        "Sicilia"
+        "Friuli-Venecia Julia",
+        "Molise",
+        "Trentino-Alto Adigio"
       ],
       "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Véneto."
@@ -1256,12 +1256,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Basílica de San Marcos»?",
       "choices": [
+        "Marcas",
+        "Cerdeña",
         "Véneto",
-        "Lacio",
-        "Molise",
-        "Emilia-Romaña"
+        "Lombardía"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Véneto."
     },
     {
@@ -1270,12 +1270,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Ciervo rojo»?",
       "choices": [
-        "Liguria",
+        "Umbría",
+        "Véneto",
         "Friuli-Venecia Julia",
-        "Lacio",
         "Emilia-Romaña"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Ciervo rojo» forma parte de la fauna de Friuli-Venecia Julia."
     },
     {
@@ -1284,9 +1284,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Garza real»?",
       "choices": [
-        "Abruzos",
-        "Toscana",
-        "Sicilia",
+        "Basilicata",
+        "Valle de Aosta",
+        "Lacio",
         "Friuli-Venecia Julia"
       ],
       "correctIndex": 3,
@@ -1300,8 +1300,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "Friuli-Venecia Julia",
         "Marcas",
-        "Basilicata",
-        "Toscana"
+        "Lacio",
+        "Molise"
       ],
       "correctIndex": 0,
       "explanation": "«Oso pardo» forma parte de la fauna de Friuli-Venecia Julia."
@@ -1312,12 +1312,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Vid»?",
       "choices": [
-        "Lombardía",
-        "Umbría",
-        "Molise",
-        "Friuli-Venecia Julia"
+        "Lacio",
+        "Friuli-Venecia Julia",
+        "Basilicata",
+        "Molise"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Vid» es una planta típica de Friuli-Venecia Julia."
     },
     {
@@ -1326,12 +1326,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Haya»?",
       "choices": [
-        "Piamonte",
-        "Umbría",
-        "Campania",
-        "Friuli-Venecia Julia"
+        "Cerdeña",
+        "Friuli-Venecia Julia",
+        "Valle de Aosta",
+        "Marcas"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Haya» es una planta típica de Friuli-Venecia Julia."
     },
     {
@@ -1340,12 +1340,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Tilo»?",
       "choices": [
-        "Friuli-Venecia Julia",
-        "Piamonte",
-        "Basilicata",
-        "Valle de Aosta"
+        "Liguria",
+        "Umbría",
+        "Apulia",
+        "Friuli-Venecia Julia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Tilo» es una planta típica de Friuli-Venecia Julia."
     },
     {
@@ -1354,10 +1354,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Frico»?",
       "choices": [
-        "Cerdeña",
+        "Calabria",
         "Friuli-Venecia Julia",
-        "Lombardía",
-        "Marcas"
+        "Umbría",
+        "Apulia"
       ],
       "correctIndex": 1,
       "explanation": "«Frico» es un plato típico de Friuli-Venecia Julia."
@@ -1368,10 +1368,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Jamón de San Daniele»?",
       "choices": [
-        "Emilia-Romaña",
-        "Valle de Aosta",
+        "Molise",
+        "Marcas",
         "Friuli-Venecia Julia",
-        "Véneto"
+        "Valle de Aosta"
       ],
       "correctIndex": 2,
       "explanation": "«Jamón de San Daniele» es un plato típico de Friuli-Venecia Julia."
@@ -1382,12 +1382,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Gubana»?",
       "choices": [
-        "Liguria",
-        "Lombardía",
-        "Abruzos",
-        "Friuli-Venecia Julia"
+        "Cerdeña",
+        "Friuli-Venecia Julia",
+        "Toscana",
+        "Trentino-Alto Adigio"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Gubana» es un plato típico de Friuli-Venecia Julia."
     },
     {
@@ -1396,12 +1396,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Trieste»?",
       "choices": [
-        "Molise",
-        "Toscana",
+        "Friuli-Venecia Julia",
         "Umbría",
-        "Friuli-Venecia Julia"
+        "Emilia-Romaña",
+        "Apulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Trieste» se encuentra en Friuli-Venecia Julia."
     },
     {
@@ -1411,9 +1411,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿En qué región se encuentra «Aquilea»?",
       "choices": [
         "Friuli-Venecia Julia",
-        "Calabria",
         "Campania",
-        "Basilicata"
+        "Abruzos",
+        "Sicilia"
       ],
       "correctIndex": 0,
       "explanation": "«Aquilea» se encuentra en Friuli-Venecia Julia."
@@ -1424,12 +1424,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Laguna de Grado»?",
       "choices": [
-        "Friuli-Venecia Julia",
-        "Calabria",
-        "Apulia",
-        "Cerdeña"
+        "Piamonte",
+        "Lombardía",
+        "Sicilia",
+        "Friuli-Venecia Julia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Laguna de Grado» se encuentra en Friuli-Venecia Julia."
     },
     {
@@ -1438,12 +1438,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Aquilea romana»?",
       "choices": [
-        "Marcas",
-        "Friuli-Venecia Julia",
+        "Liguria",
         "Lombardía",
-        "Véneto"
+        "Molise",
+        "Friuli-Venecia Julia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Friuli-Venecia Julia."
     },
     {
@@ -1452,12 +1452,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Trieste de los Habsburgo»?",
       "choices": [
-        "Valle de Aosta",
-        "Basilicata",
-        "Friuli-Venecia Julia",
-        "Umbría"
+        "Piamonte",
+        "Véneto",
+        "Toscana",
+        "Friuli-Venecia Julia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Friuli-Venecia Julia."
     },
     {
@@ -1466,12 +1466,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Lenguas de la región»?",
       "choices": [
-        "Véneto",
-        "Lacio",
         "Friuli-Venecia Julia",
-        "Sicilia"
+        "Cerdeña",
+        "Campania",
+        "Apulia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Friuli-Venecia Julia."
     },
     {
@@ -1480,12 +1480,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Flamenco»?",
       "choices": [
-        "Emilia-Romaña",
-        "Calabria",
-        "Toscana",
-        "Liguria"
+        "Lacio",
+        "Trentino-Alto Adigio",
+        "Umbría",
+        "Emilia-Romaña"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Flamenco» forma parte de la fauna de Emilia-Romaña."
     },
     {
@@ -1494,12 +1494,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Lobo»?",
       "choices": [
-        "Sicilia",
-        "Trentino-Alto Adigio",
-        "Abruzos",
-        "Emilia-Romaña"
+        "Emilia-Romaña",
+        "Véneto",
+        "Valle de Aosta",
+        "Sicilia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Lobo» forma parte de la fauna de Emilia-Romaña."
     },
     {
@@ -1508,12 +1508,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Garza real»?",
       "choices": [
-        "Calabria",
-        "Valle de Aosta",
-        "Marcas",
-        "Emilia-Romaña"
+        "Emilia-Romaña",
+        "Basilicata",
+        "Liguria",
+        "Molise"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Garza real» forma parte de la fauna de Emilia-Romaña."
     },
     {
@@ -1522,12 +1522,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Vid»?",
       "choices": [
-        "Sicilia",
-        "Liguria",
-        "Lacio",
-        "Emilia-Romaña"
+        "Basilicata",
+        "Emilia-Romaña",
+        "Valle de Aosta",
+        "Cerdeña"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Vid» es una planta típica de Emilia-Romaña."
     },
     {
@@ -1536,9 +1536,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Álamo»?",
       "choices": [
-        "Calabria",
-        "Lacio",
-        "Umbría",
+        "Basilicata",
+        "Piamonte",
+        "Marcas",
         "Emilia-Romaña"
       ],
       "correctIndex": 3,
@@ -1550,10 +1550,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Cerezo»?",
       "choices": [
+        "Sicilia",
         "Abruzos",
-        "Toscana",
         "Emilia-Romaña",
-        "Basilicata"
+        "Lacio"
       ],
       "correctIndex": 2,
       "explanation": "«Cerezo» es una planta típica de Emilia-Romaña."
@@ -1564,12 +1564,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Tagliatelle al ragú»?",
       "choices": [
-        "Toscana",
         "Emilia-Romaña",
-        "Valle de Aosta",
-        "Sicilia"
+        "Lacio",
+        "Lombardía",
+        "Basilicata"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Tagliatelle al ragú» es un plato típico de Emilia-Romaña."
     },
     {
@@ -1578,12 +1578,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Tortellini»?",
       "choices": [
-        "Apulia",
-        "Campania",
-        "Emilia-Romaña",
-        "Valle de Aosta"
+        "Véneto",
+        "Sicilia",
+        "Valle de Aosta",
+        "Emilia-Romaña"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Tortellini» es un plato típico de Emilia-Romaña."
     },
     {
@@ -1592,10 +1592,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Parmigiano Reggiano»?",
       "choices": [
-        "Trentino-Alto Adigio",
+        "Liguria",
         "Emilia-Romaña",
-        "Sicilia",
-        "Friuli-Venecia Julia"
+        "Toscana",
+        "Marcas"
       ],
       "correctIndex": 1,
       "explanation": "«Parmigiano Reggiano» es un plato típico de Emilia-Romaña."
@@ -1606,12 +1606,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Bolonia»?",
       "choices": [
+        "Toscana",
         "Emilia-Romaña",
-        "Basilicata",
-        "Umbría",
-        "Calabria"
+        "Lacio",
+        "Friuli-Venecia Julia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Bolonia» se encuentra en Emilia-Romaña."
     },
     {
@@ -1620,12 +1620,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Rávena»?",
       "choices": [
-        "Liguria",
-        "Trentino-Alto Adigio",
-        "Valle de Aosta",
-        "Emilia-Romaña"
+        "Marcas",
+        "Abruzos",
+        "Emilia-Romaña",
+        "Cerdeña"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Rávena» se encuentra en Emilia-Romaña."
     },
     {
@@ -1634,10 +1634,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Delta del Po»?",
       "choices": [
-        "Apulia",
+        "Liguria",
         "Emilia-Romaña",
         "Marcas",
-        "Campania"
+        "Véneto"
       ],
       "correctIndex": 1,
       "explanation": "«Delta del Po» se encuentra en Emilia-Romaña."
@@ -1648,12 +1648,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Universidad de Bolonia»?",
       "choices": [
+        "Umbría",
+        "Friuli-Venecia Julia",
         "Emilia-Romaña",
-        "Lacio",
-        "Sicilia",
-        "Liguria"
+        "Marcas"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Emilia-Romaña."
     },
     {
@@ -1662,12 +1662,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Vía Emilia»?",
       "choices": [
+        "Friuli-Venecia Julia",
+        "Trentino-Alto Adigio",
         "Emilia-Romaña",
-        "Umbría",
-        "Véneto",
-        "Piamonte"
+        "Abruzos"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Emilia-Romaña."
     },
     {
@@ -1676,12 +1676,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Rávena capital»?",
       "choices": [
-        "Basilicata",
-        "Marcas",
         "Emilia-Romaña",
-        "Véneto"
+        "Lacio",
+        "Apulia",
+        "Valle de Aosta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Emilia-Romaña."
     },
     {
@@ -1690,10 +1690,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Jabalí»?",
       "choices": [
-        "Lombardía",
-        "Friuli-Venecia Julia",
+        "Sicilia",
+        "Emilia-Romaña",
         "Toscana",
-        "Marcas"
+        "Véneto"
       ],
       "correctIndex": 2,
       "explanation": "«Jabalí» forma parte de la fauna de Toscana."
@@ -1704,12 +1704,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Corzo»?",
       "choices": [
-        "Piamonte",
         "Toscana",
-        "Cerdeña",
-        "Sicilia"
+        "Umbría",
+        "Friuli-Venecia Julia",
+        "Valle de Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Corzo» forma parte de la fauna de Toscana."
     },
     {
@@ -1718,12 +1718,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Lobo»?",
       "choices": [
-        "Sicilia",
-        "Toscana",
-        "Véneto",
-        "Friuli-Venecia Julia"
+        "Lombardía",
+        "Valle de Aosta",
+        "Trentino-Alto Adigio",
+        "Toscana"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Lobo» forma parte de la fauna de Toscana."
     },
     {
@@ -1732,12 +1732,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Ciprés»?",
       "choices": [
-        "Liguria",
-        "Emilia-Romaña",
-        "Sicilia",
-        "Toscana"
+        "Friuli-Venecia Julia",
+        "Valle de Aosta",
+        "Toscana",
+        "Abruzos"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Ciprés» es una planta típica de Toscana."
     },
     {
@@ -1746,12 +1746,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Olivo»?",
       "choices": [
-        "Sicilia",
         "Toscana",
+        "Abruzos",
         "Calabria",
-        "Campania"
+        "Cerdeña"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Olivo» es una planta típica de Toscana."
     },
     {
@@ -1760,9 +1760,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Vid»?",
       "choices": [
-        "Umbría",
-        "Abruzos",
+        "Trentino-Alto Adigio",
         "Cerdeña",
+        "Valle de Aosta",
         "Toscana"
       ],
       "correctIndex": 3,
@@ -1774,12 +1774,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Bistec a la florentina»?",
       "choices": [
-        "Cerdeña",
-        "Abruzos",
         "Toscana",
-        "Trentino-Alto Adigio"
+        "Trentino-Alto Adigio",
+        "Umbría",
+        "Calabria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Bistec a la florentina» es un plato típico de Toscana."
     },
     {
@@ -1788,12 +1788,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Ribollita»?",
       "choices": [
-        "Toscana",
         "Friuli-Venecia Julia",
-        "Trentino-Alto Adigio",
+        "Toscana",
+        "Sicilia",
         "Lacio"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Ribollita» es un plato típico de Toscana."
     },
     {
@@ -1802,10 +1802,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Cantucci»?",
       "choices": [
-        "Liguria",
+        "Marcas",
         "Toscana",
-        "Apulia",
-        "Marcas"
+        "Piamonte",
+        "Véneto"
       ],
       "correctIndex": 1,
       "explanation": "«Cantucci» es un plato típico de Toscana."
@@ -1816,12 +1816,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Florencia»?",
       "choices": [
+        "Sicilia",
         "Toscana",
-        "Lacio",
-        "Emilia-Romaña",
-        "Sicilia"
+        "Piamonte",
+        "Trentino-Alto Adigio"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Florencia» se encuentra en Toscana."
     },
     {
@@ -1830,12 +1830,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Torre de Pisa»?",
       "choices": [
-        "Abruzos",
         "Toscana",
-        "Trentino-Alto Adigio",
-        "Calabria"
+        "Sicilia",
+        "Umbría",
+        "Liguria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Torre de Pisa» se encuentra en Toscana."
     },
     {
@@ -1844,12 +1844,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Chianti»?",
       "choices": [
-        "Liguria",
-        "Toscana",
-        "Sicilia",
-        "Cerdeña"
+        "Valle de Aosta",
+        "Molise",
+        "Lacio",
+        "Toscana"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Chianti» se encuentra en Toscana."
     },
     {
@@ -1858,12 +1858,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Renacimiento en Florencia»?",
       "choices": [
-        "Toscana",
-        "Campania",
-        "Molise",
-        "Liguria"
+        "Umbría",
+        "Sicilia",
+        "Valle de Aosta",
+        "Toscana"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Toscana."
     },
     {
@@ -1872,12 +1872,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Cúpula de Brunelleschi»?",
       "choices": [
-        "Toscana",
         "Lacio",
-        "Lombardía",
+        "Véneto",
+        "Toscana",
         "Umbría"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Toscana."
     },
     {
@@ -1886,9 +1886,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Palio de Siena»?",
       "choices": [
-        "Véneto",
-        "Liguria",
-        "Molise",
+        "Emilia-Romaña",
+        "Apulia",
+        "Sicilia",
         "Toscana"
       ],
       "correctIndex": 3,
@@ -1900,12 +1900,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Jabalí»?",
       "choices": [
-        "Emilia-Romaña",
+        "Cerdeña",
+        "Calabria",
         "Umbría",
-        "Basilicata",
-        "Sicilia"
+        "Abruzos"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Jabalí» forma parte de la fauna de Umbría."
     },
     {
@@ -1914,12 +1914,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Lobo»?",
       "choices": [
+        "Liguria",
         "Apulia",
         "Umbría",
-        "Sicilia",
-        "Abruzos"
+        "Sicilia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Lobo» forma parte de la fauna de Umbría."
     },
     {
@@ -1928,12 +1928,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Halcón peregrino»?",
       "choices": [
-        "Véneto",
-        "Molise",
+        "Marcas",
         "Umbría",
-        "Piamonte"
+        "Trentino-Alto Adigio",
+        "Friuli-Venecia Julia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Halcón peregrino» forma parte de la fauna de Umbría."
     },
     {
@@ -1942,12 +1942,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Olivo»?",
       "choices": [
-        "Emilia-Romaña",
+        "Umbría",
+        "Véneto",
         "Trentino-Alto Adigio",
-        "Valle de Aosta",
-        "Umbría"
+        "Friuli-Venecia Julia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Olivo» es una planta típica de Umbría."
     },
     {
@@ -1956,10 +1956,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Roble pubescente»?",
       "choices": [
-        "Apulia",
+        "Calabria",
         "Umbría",
-        "Friuli-Venecia Julia",
-        "Valle de Aosta"
+        "Piamonte",
+        "Friuli-Venecia Julia"
       ],
       "correctIndex": 1,
       "explanation": "«Roble pubescente» es una planta típica de Umbría."
@@ -1970,12 +1970,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Lenteja de Castelluccio»?",
       "choices": [
-        "Toscana",
-        "Umbría",
-        "Friuli-Venecia Julia",
-        "Cerdeña"
+        "Abruzos",
+        "Molise",
+        "Trentino-Alto Adigio",
+        "Umbría"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Lenteja de Castelluccio» es una planta típica de Umbría."
     },
     {
@@ -1984,12 +1984,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Strangozzi con trufa»?",
       "choices": [
-        "Lacio",
         "Umbría",
-        "Trentino-Alto Adigio",
-        "Lombardía"
+        "Cerdeña",
+        "Véneto",
+        "Campania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Strangozzi con trufa» es un plato típico de Umbría."
     },
     {
@@ -1998,12 +1998,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Lentejas de Castelluccio»?",
       "choices": [
-        "Campania",
-        "Emilia-Romaña",
+        "Umbría",
+        "Calabria",
         "Piamonte",
-        "Umbría"
+        "Apulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Lentejas de Castelluccio» es un plato típico de Umbría."
     },
     {
@@ -2012,12 +2012,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Porchetta»?",
       "choices": [
+        "Friuli-Venecia Julia",
+        "Cerdeña",
         "Umbría",
-        "Trentino-Alto Adigio",
-        "Toscana",
-        "Sicilia"
+        "Trentino-Alto Adigio"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Porchetta» es un plato típico de Umbría."
     },
     {
@@ -2026,12 +2026,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Asís»?",
       "choices": [
-        "Umbría",
-        "Piamonte",
-        "Cerdeña",
-        "Basilicata"
+        "Lombardía",
+        "Abruzos",
+        "Friuli-Venecia Julia",
+        "Umbría"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Asís» se encuentra en Umbría."
     },
     {
@@ -2041,9 +2041,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿En qué región se encuentra «Cascada de las Marmore»?",
       "choices": [
         "Umbría",
-        "Liguria",
-        "Cerdeña",
-        "Friuli-Venecia Julia"
+        "Marcas",
+        "Basilicata",
+        "Sicilia"
       ],
       "correctIndex": 0,
       "explanation": "«Cascada de las Marmore» se encuentra en Umbría."
@@ -2054,12 +2054,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Orvieto»?",
       "choices": [
-        "Liguria",
-        "Abruzos",
+        "Piamonte",
         "Umbría",
+        "Abruzos",
         "Trentino-Alto Adigio"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Orvieto» se encuentra en Umbría."
     },
     {
@@ -2068,12 +2068,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «San Francisco»?",
       "choices": [
-        "Toscana",
-        "Campania",
+        "Basilicata",
         "Umbría",
-        "Piamonte"
+        "Piamonte",
+        "Apulia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Umbría."
     },
     {
@@ -2082,12 +2082,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Las Marmore y los romanos»?",
       "choices": [
-        "Toscana",
-        "Calabria",
         "Umbría",
-        "Friuli-Venecia Julia"
+        "Friuli-Venecia Julia",
+        "Valle de Aosta",
+        "Emilia-Romaña"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Umbría."
     },
     {
@@ -2096,12 +2096,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Perugia etrusca»?",
       "choices": [
-        "Calabria",
-        "Marcas",
-        "Umbría",
-        "Friuli-Venecia Julia"
+        "Liguria",
+        "Toscana",
+        "Véneto",
+        "Umbría"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Umbría."
     },
     {
@@ -2110,12 +2110,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Águila real»?",
       "choices": [
-        "Lombardía",
+        "Abruzos",
+        "Piamonte",
         "Marcas",
-        "Lacio",
-        "Cerdeña"
+        "Liguria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Águila real» forma parte de la fauna de Marcas."
     },
     {
@@ -2124,12 +2124,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Lobo»?",
       "choices": [
-        "Cerdeña",
+        "Trentino-Alto Adigio",
+        "Abruzos",
         "Marcas",
-        "Campania",
-        "Véneto"
+        "Valle de Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Lobo» forma parte de la fauna de Marcas."
     },
     {
@@ -2139,9 +2139,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿En qué región vive este animal: «Gaviota patiamarilla»?",
       "choices": [
         "Marcas",
-        "Valle de Aosta",
-        "Calabria",
-        "Molise"
+        "Sicilia",
+        "Emilia-Romaña",
+        "Friuli-Venecia Julia"
       ],
       "correctIndex": 0,
       "explanation": "«Gaviota patiamarilla» forma parte de la fauna de Marcas."
@@ -2152,12 +2152,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Girasol»?",
       "choices": [
-        "Toscana",
-        "Umbría",
-        "Marcas",
-        "Calabria"
+        "Valle de Aosta",
+        "Lacio",
+        "Basilicata",
+        "Marcas"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Girasol» es una planta típica de Marcas."
     },
     {
@@ -2166,12 +2166,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Olivo»?",
       "choices": [
-        "Friuli-Venecia Julia",
         "Marcas",
-        "Piamonte",
+        "Valle de Aosta",
+        "Véneto",
         "Cerdeña"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Olivo» es una planta típica de Marcas."
     },
     {
@@ -2182,8 +2182,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "Marcas",
         "Abruzos",
-        "Valle de Aosta",
-        "Liguria"
+        "Calabria",
+        "Véneto"
       ],
       "correctIndex": 0,
       "explanation": "«Encina» es una planta típica de Marcas."
@@ -2194,9 +2194,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Aceitunas a la ascolana»?",
       "choices": [
-        "Campania",
-        "Valle de Aosta",
-        "Liguria",
+        "Piamonte",
+        "Emilia-Romaña",
+        "Véneto",
         "Marcas"
       ],
       "correctIndex": 3,
@@ -2208,10 +2208,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Brodetto»?",
       "choices": [
-        "Apulia",
+        "Umbría",
         "Marcas",
-        "Campania",
-        "Abruzos"
+        "Lombardía",
+        "Lacio"
       ],
       "correctIndex": 1,
       "explanation": "«Brodetto» es un plato típico de Marcas."
@@ -2222,12 +2222,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Vincisgrassi»?",
       "choices": [
-        "Calabria",
+        "Emilia-Romaña",
+        "Abruzos",
         "Marcas",
-        "Campania",
-        "Abruzos"
+        "Campania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Vincisgrassi» es un plato típico de Marcas."
     },
     {
@@ -2236,12 +2236,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Urbino»?",
       "choices": [
-        "Piamonte",
-        "Calabria",
-        "Marcas",
-        "Friuli-Venecia Julia"
+        "Sicilia",
+        "Valle de Aosta",
+        "Abruzos",
+        "Marcas"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Urbino» se encuentra en Marcas."
     },
     {
@@ -2250,12 +2250,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Grutas de Frasassi»?",
       "choices": [
-        "Liguria",
-        "Campania",
+        "Molise",
         "Marcas",
-        "Cerdeña"
+        "Basilicata",
+        "Emilia-Romaña"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Grutas de Frasassi» se encuentra en Marcas."
     },
     {
@@ -2264,12 +2264,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Monte Conero»?",
       "choices": [
-        "Piamonte",
-        "Véneto",
-        "Marcas",
-        "Lacio"
+        "Molise",
+        "Calabria",
+        "Abruzos",
+        "Marcas"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Monte Conero» se encuentra en Marcas."
     },
     {
@@ -2278,12 +2278,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Rafael»?",
       "choices": [
-        "Toscana",
-        "Piamonte",
-        "Marcas",
-        "Liguria"
+        "Sicilia",
+        "Basilicata",
+        "Liguria",
+        "Marcas"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Marcas."
     },
     {
@@ -2292,12 +2292,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Palacio Ducal de Urbino»?",
       "choices": [
-        "Lombardía",
-        "Marcas",
+        "Véneto",
+        "Apulia",
         "Molise",
-        "Sicilia"
+        "Marcas"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Marcas."
     },
     {
@@ -2306,12 +2306,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Loreto»?",
       "choices": [
-        "Molise",
-        "Friuli-Venecia Julia",
-        "Campania",
-        "Marcas"
+        "Basilicata",
+        "Abruzos",
+        "Marcas",
+        "Véneto"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Marcas."
     },
     {
@@ -2320,10 +2320,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Gaviota patiamarilla»?",
       "choices": [
-        "Sicilia",
+        "Valle de Aosta",
         "Lacio",
-        "Toscana",
-        "Trentino-Alto Adigio"
+        "Trentino-Alto Adigio",
+        "Basilicata"
       ],
       "correctIndex": 1,
       "explanation": "«Gaviota patiamarilla» forma parte de la fauna de Lacio."
@@ -2334,12 +2334,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Lobo»?",
       "choices": [
-        "Trentino-Alto Adigio",
-        "Abruzos",
         "Lacio",
-        "Friuli-Venecia Julia"
+        "Cerdeña",
+        "Campania",
+        "Valle de Aosta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Lobo» forma parte de la fauna de Lacio."
     },
     {
@@ -2348,12 +2348,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Jabalí»?",
       "choices": [
-        "Campania",
-        "Lacio",
-        "Cerdeña",
-        "Valle de Aosta"
+        "Véneto",
+        "Emilia-Romaña",
+        "Calabria",
+        "Lacio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Jabalí» forma parte de la fauna de Lacio."
     },
     {
@@ -2362,12 +2362,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Pino piñonero»?",
       "choices": [
-        "Lombardía",
-        "Véneto",
+        "Cerdeña",
         "Lacio",
+        "Sicilia",
         "Umbría"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Pino piñonero» es una planta típica de Lacio."
     },
     {
@@ -2376,12 +2376,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Encina»?",
       "choices": [
-        "Toscana",
-        "Abruzos",
+        "Trentino-Alto Adigio",
+        "Lacio",
         "Friuli-Venecia Julia",
-        "Lacio"
+        "Valle de Aosta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Encina» es una planta típica de Lacio."
     },
     {
@@ -2390,12 +2390,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Olivo»?",
       "choices": [
-        "Trentino-Alto Adigio",
-        "Lacio",
-        "Calabria",
-        "Friuli-Venecia Julia"
+        "Piamonte",
+        "Campania",
+        "Emilia-Romaña",
+        "Lacio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Olivo» es una planta típica de Lacio."
     },
     {
@@ -2404,12 +2404,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Carbonara»?",
       "choices": [
-        "Marcas",
         "Lacio",
         "Toscana",
-        "Lombardía"
+        "Campania",
+        "Trentino-Alto Adigio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Carbonara» es un plato típico de Lacio."
     },
     {
@@ -2418,12 +2418,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Supplì»?",
       "choices": [
+        "Sicilia",
         "Lacio",
-        "Apulia",
-        "Abruzos",
-        "Piamonte"
+        "Trentino-Alto Adigio",
+        "Umbría"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Supplì» es un plato típico de Lacio."
     },
     {
@@ -2432,12 +2432,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Alcauciles a la judía»?",
       "choices": [
-        "Sicilia",
-        "Lacio",
+        "Friuli-Venecia Julia",
+        "Trentino-Alto Adigio",
         "Emilia-Romaña",
-        "Toscana"
+        "Lacio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Alcauciles a la judía» es un plato típico de Lacio."
     },
     {
@@ -2446,12 +2446,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Coliseo»?",
       "choices": [
-        "Emilia-Romaña",
-        "Sicilia",
-        "Calabria",
-        "Lacio"
+        "Umbría",
+        "Cerdeña",
+        "Lacio",
+        "Friuli-Venecia Julia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Coliseo» se encuentra en Lacio."
     },
     {
@@ -2460,12 +2460,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Fontana de Trevi»?",
       "choices": [
-        "Molise",
-        "Liguria",
         "Lombardía",
-        "Lacio"
+        "Lacio",
+        "Piamonte",
+        "Abruzos"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Fontana de Trevi» se encuentra en Lacio."
     },
     {
@@ -2474,12 +2474,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Villa d'Este»?",
       "choices": [
-        "Friuli-Venecia Julia",
-        "Apulia",
-        "Umbría",
-        "Lacio"
+        "Véneto",
+        "Lacio",
+        "Calabria",
+        "Piamonte"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Villa d'Este» se encuentra en Lacio."
     },
     {
@@ -2488,10 +2488,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Fundación de Roma»?",
       "choices": [
-        "Emilia-Romaña",
+        "Lombardía",
         "Lacio",
-        "Umbría",
-        "Apulia"
+        "Campania",
+        "Basilicata"
       ],
       "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Lacio."
@@ -2502,12 +2502,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Imperio romano»?",
       "choices": [
-        "Valle de Aosta",
-        "Toscana",
-        "Lacio",
-        "Basilicata"
+        "Lombardía",
+        "Marcas",
+        "Calabria",
+        "Lacio"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Lacio."
     },
     {
@@ -2516,12 +2516,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Roma capital»?",
       "choices": [
+        "Abruzos",
         "Lacio",
-        "Umbría",
-        "Liguria",
-        "Molise"
+        "Emilia-Romaña",
+        "Friuli-Venecia Julia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Lacio."
     },
     {
@@ -2531,9 +2531,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿En qué región vive este animal: «Oso marsicano»?",
       "choices": [
         "Abruzos",
-        "Calabria",
-        "Marcas",
-        "Molise"
+        "Toscana",
+        "Lombardía",
+        "Campania"
       ],
       "correctIndex": 0,
       "explanation": "«Oso marsicano» forma parte de la fauna de Abruzos."
@@ -2544,12 +2544,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Rebeco de los Abruzos»?",
       "choices": [
-        "Emilia-Romaña",
-        "Abruzos",
+        "Liguria",
         "Molise",
-        "Basilicata"
+        "Cerdeña",
+        "Abruzos"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Rebeco de los Abruzos» forma parte de la fauna de Abruzos."
     },
     {
@@ -2558,12 +2558,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Lobo apenino»?",
       "choices": [
-        "Piamonte",
-        "Campania",
+        "Basilicata",
         "Abruzos",
-        "Sicilia"
+        "Calabria",
+        "Emilia-Romaña"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Lobo apenino» forma parte de la fauna de Abruzos."
     },
     {
@@ -2572,12 +2572,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Haya»?",
       "choices": [
-        "Emilia-Romaña",
-        "Trentino-Alto Adigio",
+        "Véneto",
         "Sicilia",
-        "Abruzos"
+        "Abruzos",
+        "Trentino-Alto Adigio"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Haya» es una planta típica de Abruzos."
     },
     {
@@ -2586,12 +2586,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Azafrán»?",
       "choices": [
-        "Umbría",
-        "Marcas",
-        "Liguria",
-        "Abruzos"
+        "Toscana",
+        "Véneto",
+        "Abruzos",
+        "Umbría"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Azafrán» es una planta típica de Abruzos."
     },
     {
@@ -2600,12 +2600,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Genciana»?",
       "choices": [
-        "Apulia",
-        "Molise",
-        "Abruzos",
-        "Campania"
+        "Calabria",
+        "Lombardía",
+        "Lacio",
+        "Abruzos"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Genciana» es una planta típica de Abruzos."
     },
     {
@@ -2614,12 +2614,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Arrosticini»?",
       "choices": [
-        "Emilia-Romaña",
-        "Lombardía",
-        "Abruzos",
-        "Friuli-Venecia Julia"
+        "Sicilia",
+        "Cerdeña",
+        "Basilicata",
+        "Abruzos"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Arrosticini» es un plato típico de Abruzos."
     },
     {
@@ -2628,12 +2628,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Espaguetis a la chitarra»?",
       "choices": [
-        "Lombardía",
-        "Campania",
         "Abruzos",
-        "Liguria"
+        "Lacio",
+        "Trentino-Alto Adigio",
+        "Basilicata"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Espaguetis a la chitarra» es un plato típico de Abruzos."
     },
     {
@@ -2642,12 +2642,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Confetti de Sulmona»?",
       "choices": [
+        "Lacio",
         "Abruzos",
-        "Toscana",
-        "Umbría",
-        "Basilicata"
+        "Marcas",
+        "Calabria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Confetti de Sulmona» es un plato típico de Abruzos."
     },
     {
@@ -2656,12 +2656,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Gran Sasso»?",
       "choices": [
-        "Sicilia",
-        "Piamonte",
         "Abruzos",
-        "Friuli-Venecia Julia"
+        "Toscana",
+        "Liguria",
+        "Emilia-Romaña"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Gran Sasso» se encuentra en Abruzos."
     },
     {
@@ -2670,10 +2670,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Trabocchi»?",
       "choices": [
-        "Sicilia",
-        "Cerdeña",
+        "Lombardía",
+        "Basilicata",
         "Abruzos",
-        "Campania"
+        "Calabria"
       ],
       "correctIndex": 2,
       "explanation": "«Trabocchi» se encuentra en Abruzos."
@@ -2684,12 +2684,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Rocca Calascio»?",
       "choices": [
-        "Apulia",
-        "Piamonte",
-        "Lombardía",
-        "Abruzos"
+        "Trentino-Alto Adigio",
+        "Umbría",
+        "Abruzos",
+        "Lombardía"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Rocca Calascio» se encuentra en Abruzos."
     },
     {
@@ -2698,12 +2698,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Parque de Abruzos»?",
       "choices": [
-        "Abruzos",
         "Marcas",
-        "Friuli-Venecia Julia",
-        "Liguria"
+        "Liguria",
+        "Abruzos",
+        "Valle de Aosta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Abruzos."
     },
     {
@@ -2712,12 +2712,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Trashumancia»?",
       "choices": [
-        "Véneto",
+        "Umbría",
+        "Sicilia",
         "Abruzos",
-        "Cerdeña",
-        "Trentino-Alto Adigio"
+        "Emilia-Romaña"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Abruzos."
     },
     {
@@ -2726,10 +2726,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Basílica de Collemaggio»?",
       "choices": [
-        "Molise",
+        "Toscana",
         "Abruzos",
-        "Sicilia",
-        "Emilia-Romaña"
+        "Molise",
+        "Apulia"
       ],
       "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Abruzos."
@@ -2740,12 +2740,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Lobo»?",
       "choices": [
-        "Abruzos",
-        "Valle de Aosta",
         "Campania",
-        "Molise"
+        "Cerdeña",
+        "Molise",
+        "Abruzos"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Lobo» forma parte de la fauna de Molise."
     },
     {
@@ -2754,12 +2754,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Jabalí»?",
       "choices": [
-        "Trentino-Alto Adigio",
-        "Valle de Aosta",
-        "Apulia",
-        "Molise"
+        "Cerdeña",
+        "Abruzos",
+        "Molise",
+        "Apulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Jabalí» forma parte de la fauna de Molise."
     },
     {
@@ -2768,12 +2768,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Tortuga marina»?",
       "choices": [
+        "Abruzos",
+        "Piamonte",
         "Molise",
-        "Emilia-Romaña",
-        "Liguria",
         "Friuli-Venecia Julia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Tortuga marina» forma parte de la fauna de Molise."
     },
     {
@@ -2782,12 +2782,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Olivo»?",
       "choices": [
-        "Cerdeña",
-        "Abruzos",
-        "Emilia-Romaña",
-        "Molise"
+        "Campania",
+        "Trentino-Alto Adigio",
+        "Molise",
+        "Valle de Aosta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Olivo» es una planta típica de Molise."
     },
     {
@@ -2797,9 +2797,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿En qué región crece esta planta: «Roble pubescente»?",
       "choices": [
         "Molise",
-        "Abruzos",
-        "Lacio",
-        "Valle de Aosta"
+        "Calabria",
+        "Toscana",
+        "Marcas"
       ],
       "correctIndex": 0,
       "explanation": "«Roble pubescente» es una planta típica de Molise."
@@ -2810,12 +2810,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Haya»?",
       "choices": [
-        "Molise",
         "Cerdeña",
-        "Apulia",
-        "Véneto"
+        "Emilia-Romaña",
+        "Molise",
+        "Apulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Haya» es una planta típica de Molise."
     },
     {
@@ -2824,12 +2824,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Cavatelli»?",
       "choices": [
-        "Valle de Aosta",
         "Molise",
-        "Basilicata",
-        "Lacio"
+        "Trentino-Alto Adigio",
+        "Marcas",
+        "Valle de Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Cavatelli» es un plato típico de Molise."
     },
     {
@@ -2838,10 +2838,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Caciocavallo»?",
       "choices": [
-        "Sicilia",
-        "Campania",
+        "Lacio",
+        "Liguria",
         "Molise",
-        "Cerdeña"
+        "Sicilia"
       ],
       "correctIndex": 2,
       "explanation": "«Caciocavallo» es un plato típico de Molise."
@@ -2852,12 +2852,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Pallotte cacio e uova»?",
       "choices": [
-        "Calabria",
         "Molise",
-        "Lombardía",
-        "Campania"
+        "Umbría",
+        "Basilicata",
+        "Piamonte"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Pallotte cacio e uova» es un plato típico de Molise."
     },
     {
@@ -2866,10 +2866,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Termoli»?",
       "choices": [
-        "Valle de Aosta",
+        "Abruzos",
         "Molise",
-        "Lombardía",
-        "Sicilia"
+        "Friuli-Venecia Julia",
+        "Trentino-Alto Adigio"
       ],
       "correctIndex": 1,
       "explanation": "«Termoli» se encuentra en Molise."
@@ -2880,12 +2880,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Saepinum»?",
       "choices": [
+        "Emilia-Romaña",
         "Molise",
-        "Friuli-Venecia Julia",
-        "Apulia",
-        "Lombardía"
+        "Marcas",
+        "Liguria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Saepinum» se encuentra en Molise."
     },
     {
@@ -2894,12 +2894,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Agnone»?",
       "choices": [
-        "Lombardía",
-        "Umbría",
-        "Molise",
-        "Véneto"
+        "Lacio",
+        "Apulia",
+        "Basilicata",
+        "Molise"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Agnone» se encuentra en Molise."
     },
     {
@@ -2908,12 +2908,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Región desde 1963»?",
       "choices": [
-        "Emilia-Romaña",
         "Molise",
-        "Valle de Aosta",
-        "Lombardía"
+        "Cerdeña",
+        "Véneto",
+        "Basilicata"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Molise."
     },
     {
@@ -2922,12 +2922,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Tratturi»?",
       "choices": [
-        "Molise",
-        "Campania",
-        "Lombardía",
-        "Liguria"
+        "Véneto",
+        "Liguria",
+        "Abruzos",
+        "Molise"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Molise."
     },
     {
@@ -2936,12 +2936,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Tabla de Agnone»?",
       "choices": [
-        "Valle de Aosta",
+        "Trentino-Alto Adigio",
+        "Véneto",
         "Molise",
-        "Marcas",
-        "Trentino-Alto Adigio"
+        "Sicilia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Molise."
     },
     {
@@ -2950,10 +2950,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Gaviota patiamarilla»?",
       "choices": [
-        "Cerdeña",
-        "Friuli-Venecia Julia",
+        "Molise",
+        "Basilicata",
         "Campania",
-        "Sicilia"
+        "Umbría"
       ],
       "correctIndex": 2,
       "explanation": "«Gaviota patiamarilla» forma parte de la fauna de Campania."
@@ -2964,10 +2964,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Pardela cenicienta»?",
       "choices": [
-        "Umbría",
+        "Trentino-Alto Adigio",
         "Campania",
-        "Lombardía",
-        "Piamonte"
+        "Abruzos",
+        "Sicilia"
       ],
       "correctIndex": 1,
       "explanation": "«Pardela cenicienta» forma parte de la fauna de Campania."
@@ -2978,12 +2978,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Delfín mular»?",
       "choices": [
-        "Lombardía",
-        "Basilicata",
         "Campania",
-        "Trentino-Alto Adigio"
+        "Friuli-Venecia Julia",
+        "Calabria",
+        "Marcas"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Delfín mular» forma parte de la fauna de Campania."
     },
     {
@@ -2992,12 +2992,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Limón»?",
       "choices": [
-        "Marcas",
-        "Campania",
-        "Piamonte",
-        "Valle de Aosta"
+        "Abruzos",
+        "Umbría",
+        "Véneto",
+        "Campania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Limón» es una planta típica de Campania."
     },
     {
@@ -3006,12 +3006,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Tomate»?",
       "choices": [
-        "Umbría",
-        "Véneto",
-        "Toscana",
-        "Campania"
+        "Sicilia",
+        "Apulia",
+        "Campania",
+        "Abruzos"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Tomate» es una planta típica de Campania."
     },
     {
@@ -3020,12 +3020,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Vid»?",
       "choices": [
-        "Abruzos",
         "Campania",
         "Umbría",
-        "Cerdeña"
+        "Abruzos",
+        "Lombardía"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Vid» es una planta típica de Campania."
     },
     {
@@ -3034,12 +3034,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Pizza napolitana»?",
       "choices": [
-        "Cerdeña",
-        "Apulia",
         "Campania",
-        "Sicilia"
+        "Basilicata",
+        "Piamonte",
+        "Lombardía"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Pizza napolitana» es un plato típico de Campania."
     },
     {
@@ -3048,12 +3048,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Mozzarella de búfala»?",
       "choices": [
-        "Lombardía",
+        "Friuli-Venecia Julia",
+        "Molise",
         "Campania",
-        "Liguria",
-        "Molise"
+        "Liguria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Mozzarella de búfala» es un plato típico de Campania."
     },
     {
@@ -3062,12 +3062,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Sfogliatella»?",
       "choices": [
-        "Apulia",
-        "Cerdeña",
-        "Molise",
-        "Campania"
+        "Campania",
+        "Marcas",
+        "Trentino-Alto Adigio",
+        "Sicilia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Sfogliatella» es un plato típico de Campania."
     },
     {
@@ -3076,12 +3076,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Pompeya»?",
       "choices": [
+        "Cerdeña",
         "Campania",
-        "Calabria",
-        "Valle de Aosta",
-        "Trentino-Alto Adigio"
+        "Toscana",
+        "Abruzos"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Pompeya» se encuentra en Campania."
     },
     {
@@ -3090,12 +3090,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Costa Amalfitana»?",
       "choices": [
+        "Emilia-Romaña",
+        "Trentino-Alto Adigio",
         "Campania",
-        "Cerdeña",
-        "Sicilia",
         "Molise"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Costa Amalfitana» se encuentra en Campania."
     },
     {
@@ -3104,12 +3104,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Vesubio»?",
       "choices": [
-        "Campania",
         "Piamonte",
-        "Lacio",
-        "Liguria"
+        "Campania",
+        "Friuli-Venecia Julia",
+        "Lombardía"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Vesubio» se encuentra en Campania."
     },
     {
@@ -3118,12 +3118,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Erupción del 79»?",
       "choices": [
-        "Molise",
-        "Toscana",
         "Calabria",
-        "Campania"
+        "Emilia-Romaña",
+        "Campania",
+        "Umbría"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Campania."
     },
     {
@@ -3132,12 +3132,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «República de Amalfi»?",
       "choices": [
-        "Abruzos",
         "Campania",
-        "Liguria",
-        "Friuli-Venecia Julia"
+        "Marcas",
+        "Molise",
+        "Emilia-Romaña"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Campania."
     },
     {
@@ -3146,12 +3146,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Reino de Nápoles»?",
       "choices": [
-        "Calabria",
-        "Liguria",
         "Véneto",
-        "Campania"
+        "Molise",
+        "Campania",
+        "Piamonte"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Campania."
     },
     {
@@ -3160,12 +3160,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Flamenco»?",
       "choices": [
-        "Apulia",
         "Friuli-Venecia Julia",
-        "Trentino-Alto Adigio",
-        "Lacio"
+        "Apulia",
+        "Molise",
+        "Toscana"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Flamenco» forma parte de la fauna de Apulia."
     },
     {
@@ -3175,9 +3175,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿En qué región vive este animal: «Cernícalo primilla»?",
       "choices": [
         "Apulia",
-        "Piamonte",
-        "Calabria",
-        "Lacio"
+        "Basilicata",
+        "Cerdeña",
+        "Valle de Aosta"
       ],
       "correctIndex": 0,
       "explanation": "«Cernícalo primilla» forma parte de la fauna de Apulia."
@@ -3188,12 +3188,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Tortuga marina»?",
       "choices": [
-        "Emilia-Romaña",
-        "Abruzos",
-        "Apulia",
-        "Toscana"
+        "Liguria",
+        "Basilicata",
+        "Piamonte",
+        "Apulia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Tortuga marina» forma parte de la fauna de Apulia."
     },
     {
@@ -3202,12 +3202,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Olivo»?",
       "choices": [
-        "Apulia",
-        "Emilia-Romaña",
-        "Calabria",
-        "Véneto"
+        "Véneto",
+        "Cerdeña",
+        "Sicilia",
+        "Apulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Olivo» es una planta típica de Apulia."
     },
     {
@@ -3216,12 +3216,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Chumbera»?",
       "choices": [
-        "Apulia",
+        "Basilicata",
         "Friuli-Venecia Julia",
-        "Calabria",
-        "Liguria"
+        "Marcas",
+        "Apulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Chumbera» es una planta típica de Apulia."
     },
     {
@@ -3230,12 +3230,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Vid»?",
       "choices": [
-        "Marcas",
         "Apulia",
-        "Calabria",
-        "Trentino-Alto Adigio"
+        "Lacio",
+        "Umbría",
+        "Marcas"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Vid» es una planta típica de Apulia."
     },
     {
@@ -3244,12 +3244,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Orecchiette»?",
       "choices": [
+        "Piamonte",
         "Apulia",
-        "Toscana",
-        "Molise",
-        "Valle de Aosta"
+        "Véneto",
+        "Basilicata"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Orecchiette» es un plato típico de Apulia."
     },
     {
@@ -3258,12 +3258,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Burrata»?",
       "choices": [
+        "Lacio",
+        "Sicilia",
         "Apulia",
-        "Trentino-Alto Adigio",
-        "Calabria",
-        "Basilicata"
+        "Véneto"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Burrata» es un plato típico de Apulia."
     },
     {
@@ -3272,12 +3272,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Panzerotto»?",
       "choices": [
+        "Molise",
         "Apulia",
-        "Sicilia",
-        "Campania",
-        "Liguria"
+        "Abruzos",
+        "Trentino-Alto Adigio"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Panzerotto» es un plato típico de Apulia."
     },
     {
@@ -3286,12 +3286,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Alberobello»?",
       "choices": [
+        "Liguria",
         "Apulia",
-        "Friuli-Venecia Julia",
-        "Cerdeña",
-        "Basilicata"
+        "Sicilia",
+        "Molise"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Alberobello» se encuentra en Apulia."
     },
     {
@@ -3300,10 +3300,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Castel del Monte»?",
       "choices": [
-        "Lombardía",
+        "Piamonte",
         "Apulia",
-        "Véneto",
-        "Friuli-Venecia Julia"
+        "Liguria",
+        "Lacio"
       ],
       "correctIndex": 1,
       "explanation": "«Castel del Monte» se encuentra en Apulia."
@@ -3314,8 +3314,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Lecce»?",
       "choices": [
-        "Marcas",
-        "Friuli-Venecia Julia",
+        "Véneto",
+        "Valle de Aosta",
         "Liguria",
         "Apulia"
       ],
@@ -3328,12 +3328,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Federico II»?",
       "choices": [
+        "Toscana",
         "Apulia",
-        "Calabria",
-        "Molise",
-        "Cerdeña"
+        "Véneto",
+        "Valle de Aosta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Apulia."
     },
     {
@@ -3342,7 +3342,7 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Trulli»?",
       "choices": [
-        "Liguria",
+        "Emilia-Romaña",
         "Abruzos",
         "Apulia",
         "Sicilia"
@@ -3356,12 +3356,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Puerto de Brindisi»?",
       "choices": [
-        "Apulia",
         "Lombardía",
-        "Liguria",
-        "Basilicata"
+        "Lacio",
+        "Apulia",
+        "Molise"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Apulia."
     },
     {
@@ -3370,12 +3370,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Lobo»?",
       "choices": [
-        "Campania",
         "Basilicata",
-        "Apulia",
-        "Lombardía"
+        "Sicilia",
+        "Lombardía",
+        "Cerdeña"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Lobo» forma parte de la fauna de Basilicata."
     },
     {
@@ -3384,9 +3384,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Corzo»?",
       "choices": [
-        "Umbría",
         "Molise",
         "Cerdeña",
+        "Sicilia",
         "Basilicata"
       ],
       "correctIndex": 3,
@@ -3398,12 +3398,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Águila real»?",
       "choices": [
-        "Basilicata",
-        "Umbría",
-        "Campania",
-        "Lacio"
+        "Calabria",
+        "Toscana",
+        "Abruzos",
+        "Basilicata"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Águila real» forma parte de la fauna de Basilicata."
     },
     {
@@ -3412,10 +3412,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Pino loricado»?",
       "choices": [
-        "Molise",
-        "Cerdeña",
+        "Valle de Aosta",
+        "Liguria",
         "Basilicata",
-        "Sicilia"
+        "Lombardía"
       ],
       "correctIndex": 2,
       "explanation": "«Pino loricado» es una planta típica de Basilicata."
@@ -3426,12 +3426,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Pimiento de Senise»?",
       "choices": [
-        "Toscana",
-        "Marcas",
         "Basilicata",
-        "Piamonte"
+        "Cerdeña",
+        "Friuli-Venecia Julia",
+        "Valle de Aosta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Pimiento de Senise» es una planta típica de Basilicata."
     },
     {
@@ -3440,12 +3440,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Olivo»?",
       "choices": [
-        "Trentino-Alto Adigio",
-        "Sicilia",
+        "Emilia-Romaña",
         "Basilicata",
-        "Piamonte"
+        "Véneto",
+        "Lombardía"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Olivo» es una planta típica de Basilicata."
     },
     {
@@ -3454,12 +3454,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Peperoni cruschi»?",
       "choices": [
+        "Toscana",
+        "Basilicata",
         "Friuli-Venecia Julia",
-        "Marcas",
-        "Liguria",
-        "Basilicata"
+        "Apulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Peperoni cruschi» es un plato típico de Basilicata."
     },
     {
@@ -3469,11 +3469,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿De qué región es típico este plato: «Pan de Matera»?",
       "choices": [
         "Molise",
-        "Calabria",
         "Basilicata",
-        "Valle de Aosta"
+        "Apulia",
+        "Friuli-Venecia Julia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Pan de Matera» es un plato típico de Basilicata."
     },
     {
@@ -3483,11 +3483,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿De qué región es típico este plato: «Lucanica»?",
       "choices": [
         "Friuli-Venecia Julia",
-        "Trentino-Alto Adigio",
-        "Campania",
-        "Basilicata"
+        "Basilicata",
+        "Véneto",
+        "Marcas"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Lucanica» es un plato típico de Basilicata."
     },
     {
@@ -3496,12 +3496,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Sassi de Matera»?",
       "choices": [
-        "Basilicata",
-        "Valle de Aosta",
-        "Campania",
-        "Trentino-Alto Adigio"
+        "Marcas",
+        "Véneto",
+        "Liguria",
+        "Basilicata"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Sassi de Matera» se encuentra en Basilicata."
     },
     {
@@ -3511,11 +3511,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿En qué región se encuentra «Parque del Pollino»?",
       "choices": [
         "Lombardía",
+        "Cerdeña",
         "Basilicata",
-        "Marcas",
-        "Umbría"
+        "Friuli-Venecia Julia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Parque del Pollino» se encuentra en Basilicata."
     },
     {
@@ -3524,12 +3524,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Maratea»?",
       "choices": [
+        "Umbría",
         "Basilicata",
-        "Toscana",
-        "Marcas",
-        "Campania"
+        "Campania",
+        "Valle de Aosta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Maratea» se encuentra en Basilicata."
     },
     {
@@ -3538,12 +3538,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Los Sassi habitados»?",
       "choices": [
-        "Marcas",
         "Basilicata",
         "Valle de Aosta",
-        "Lacio"
+        "Abruzos",
+        "Molise"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Basilicata."
     },
     {
@@ -3552,10 +3552,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Metaponto»?",
       "choices": [
-        "Lombardía",
-        "Trentino-Alto Adigio",
+        "Valle de Aosta",
+        "Piamonte",
         "Basilicata",
-        "Calabria"
+        "Véneto"
       ],
       "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Basilicata."
@@ -3566,12 +3566,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Bandoleros del siglo XIX»?",
       "choices": [
-        "Abruzos",
-        "Valle de Aosta",
+        "Friuli-Venecia Julia",
+        "Basilicata",
         "Emilia-Romaña",
-        "Basilicata"
+        "Sicilia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Basilicata."
     },
     {
@@ -3580,12 +3580,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Lobo»?",
       "choices": [
-        "Apulia",
         "Liguria",
-        "Abruzos",
-        "Calabria"
+        "Cerdeña",
+        "Calabria",
+        "Trentino-Alto Adigio"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Lobo» forma parte de la fauna de Calabria."
     },
     {
@@ -3594,12 +3594,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Ciervo»?",
       "choices": [
-        "Molise",
-        "Umbría",
         "Calabria",
-        "Friuli-Venecia Julia"
+        "Campania",
+        "Molise",
+        "Marcas"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Ciervo» forma parte de la fauna de Calabria."
     },
     {
@@ -3608,12 +3608,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Tortuga marina»?",
       "choices": [
+        "Trentino-Alto Adigio",
+        "Toscana",
         "Calabria",
-        "Lacio",
-        "Umbría",
-        "Piamonte"
+        "Véneto"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Tortuga marina» forma parte de la fauna de Calabria."
     },
     {
@@ -3622,12 +3622,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Bergamota»?",
       "choices": [
-        "Calabria",
-        "Toscana",
+        "Lacio",
         "Liguria",
-        "Véneto"
+        "Calabria",
+        "Piamonte"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Bergamota» es una planta típica de Calabria."
     },
     {
@@ -3636,12 +3636,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Higuera»?",
       "choices": [
-        "Véneto",
+        "Trentino-Alto Adigio",
+        "Campania",
         "Calabria",
-        "Piamonte",
-        "Molise"
+        "Cerdeña"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Higuera» es una planta típica de Calabria."
     },
     {
@@ -3650,12 +3650,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Pino loricado»?",
       "choices": [
-        "Emilia-Romaña",
-        "Molise",
+        "Sicilia",
         "Calabria",
-        "Lombardía"
+        "Apulia",
+        "Umbría"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Pino loricado» es una planta típica de Calabria."
     },
     {
@@ -3664,12 +3664,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «'Nduja»?",
       "choices": [
+        "Friuli-Venecia Julia",
         "Calabria",
-        "Liguria",
-        "Véneto",
-        "Friuli-Venecia Julia"
+        "Molise",
+        "Marcas"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«'Nduja» es un plato típico de Calabria."
     },
     {
@@ -3678,12 +3678,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Tartufo de Pizzo»?",
       "choices": [
-        "Molise",
+        "Calabria",
         "Piamonte",
-        "Toscana",
-        "Calabria"
+        "Trentino-Alto Adigio",
+        "Marcas"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Tartufo de Pizzo» es un plato típico de Calabria."
     },
     {
@@ -3692,12 +3692,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Cebolla de Tropea»?",
       "choices": [
-        "Trentino-Alto Adigio",
-        "Lacio",
-        "Calabria",
-        "Lombardía"
+        "Emilia-Romaña",
+        "Liguria",
+        "Abruzos",
+        "Calabria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Cebolla de Tropea» es un plato típico de Calabria."
     },
     {
@@ -3706,12 +3706,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Tropea»?",
       "choices": [
+        "Calabria",
         "Umbría",
-        "Campania",
-        "Marcas",
-        "Calabria"
+        "Friuli-Venecia Julia",
+        "Piamonte"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Tropea» se encuentra en Calabria."
     },
     {
@@ -3720,12 +3720,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Bronces de Riace»?",
       "choices": [
-        "Calabria",
         "Sicilia",
-        "Campania",
-        "Véneto"
+        "Basilicata",
+        "Toscana",
+        "Calabria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Bronces de Riace» se encuentra en Calabria."
     },
     {
@@ -3734,12 +3734,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Scilla»?",
       "choices": [
-        "Umbría",
-        "Calabria",
-        "Marcas",
-        "Molise"
+        "Lacio",
+        "Cerdeña",
+        "Véneto",
+        "Calabria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Scilla» se encuentra en Calabria."
     },
     {
@@ -3748,10 +3748,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Magna Grecia»?",
       "choices": [
-        "Friuli-Venecia Julia",
-        "Toscana",
+        "Véneto",
+        "Basilicata",
         "Calabria",
-        "Apulia"
+        "Umbría"
       ],
       "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Calabria."
@@ -3762,12 +3762,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Bronces de Riace»?",
       "choices": [
-        "Basilicata",
-        "Trentino-Alto Adigio",
-        "Valle de Aosta",
-        "Calabria"
+        "Molise",
+        "Calabria",
+        "Piamonte",
+        "Campania"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Este hecho tiene que ver con Calabria."
     },
     {
@@ -3776,12 +3776,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Estrecho de Mesina»?",
       "choices": [
-        "Emilia-Romaña",
-        "Calabria",
-        "Abruzos",
-        "Campania"
+        "Lombardía",
+        "Apulia",
+        "Campania",
+        "Calabria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Este hecho tiene que ver con Calabria."
     },
     {
@@ -3790,12 +3790,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Flamenco»?",
       "choices": [
-        "Umbría",
-        "Lombardía",
-        "Sicilia",
-        "Lacio"
+        "Marcas",
+        "Basilicata",
+        "Campania",
+        "Sicilia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Flamenco» forma parte de la fauna de Sicilia."
     },
     {
@@ -3806,8 +3806,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "Sicilia",
         "Trentino-Alto Adigio",
-        "Piamonte",
-        "Campania"
+        "Véneto",
+        "Apulia"
       ],
       "correctIndex": 0,
       "explanation": "«Buitre leonado» forma parte de la fauna de Sicilia."
@@ -3819,9 +3819,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿En qué región vive este animal: «Tortuga marina»?",
       "choices": [
         "Sicilia",
-        "Véneto",
-        "Toscana",
-        "Campania"
+        "Cerdeña",
+        "Valle de Aosta",
+        "Emilia-Romaña"
       ],
       "correctIndex": 0,
       "explanation": "«Tortuga marina» forma parte de la fauna de Sicilia."
@@ -3832,12 +3832,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Naranjo»?",
       "choices": [
-        "Sicilia",
-        "Umbría",
-        "Lombardía",
-        "Véneto"
+        "Basilicata",
+        "Molise",
+        "Apulia",
+        "Sicilia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Naranjo» es una planta típica de Sicilia."
     },
     {
@@ -3846,12 +3846,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Chumbera»?",
       "choices": [
-        "Lacio",
-        "Umbría",
-        "Valle de Aosta",
-        "Sicilia"
+        "Basilicata",
+        "Molise",
+        "Sicilia",
+        "Calabria"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Chumbera» es una planta típica de Sicilia."
     },
     {
@@ -3860,12 +3860,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Papiro»?",
       "choices": [
-        "Emilia-Romaña",
-        "Abruzos",
         "Sicilia",
-        "Valle de Aosta"
+        "Véneto",
+        "Piamonte",
+        "Campania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Papiro» es una planta típica de Sicilia."
     },
     {
@@ -3874,10 +3874,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Cannolo»?",
       "choices": [
-        "Calabria",
+        "Emilia-Romaña",
         "Sicilia",
-        "Véneto",
-        "Basilicata"
+        "Friuli-Venecia Julia",
+        "Lombardía"
       ],
       "correctIndex": 1,
       "explanation": "«Cannolo» es un plato típico de Sicilia."
@@ -3888,10 +3888,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Arancina»?",
       "choices": [
-        "Friuli-Venecia Julia",
         "Lacio",
+        "Liguria",
         "Sicilia",
-        "Campania"
+        "Lombardía"
       ],
       "correctIndex": 2,
       "explanation": "«Arancina» es un plato típico de Sicilia."
@@ -3902,12 +3902,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Cassata»?",
       "choices": [
-        "Liguria",
-        "Abruzos",
+        "Sicilia",
         "Molise",
-        "Sicilia"
+        "Calabria",
+        "Trentino-Alto Adigio"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Cassata» es un plato típico de Sicilia."
     },
     {
@@ -3916,12 +3916,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Etna»?",
       "choices": [
+        "Abruzos",
         "Umbría",
-        "Sicilia",
-        "Lombardía",
-        "Toscana"
+        "Lacio",
+        "Sicilia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Etna» se encuentra en Sicilia."
     },
     {
@@ -3930,12 +3930,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Valle de los Templos»?",
       "choices": [
-        "Basilicata",
-        "Molise",
-        "Marcas",
-        "Sicilia"
+        "Calabria",
+        "Sicilia",
+        "Apulia",
+        "Lacio"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Valle de los Templos» se encuentra en Sicilia."
     },
     {
@@ -3944,12 +3944,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Taormina»?",
       "choices": [
-        "Basilicata",
+        "Sicilia",
         "Trentino-Alto Adigio",
-        "Lacio",
-        "Sicilia"
+        "Liguria",
+        "Abruzos"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Taormina» se encuentra en Sicilia."
     },
     {
@@ -3958,12 +3958,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Magna Grecia»?",
       "choices": [
-        "Marcas",
         "Sicilia",
-        "Basilicata",
+        "Umbría",
+        "Lombardía",
         "Liguria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Sicilia."
     },
     {
@@ -3972,12 +3972,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Árabes en Sicilia»?",
       "choices": [
-        "Abruzos",
-        "Calabria",
-        "Cerdeña",
-        "Sicilia"
+        "Sicilia",
+        "Piamonte",
+        "Marcas",
+        "Abruzos"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Sicilia."
     },
     {
@@ -3986,12 +3986,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Normandos en Palermo»?",
       "choices": [
-        "Valle de Aosta",
         "Sicilia",
+        "Calabria",
         "Cerdeña",
-        "Molise"
+        "Apulia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Sicilia."
     },
     {
@@ -4000,12 +4000,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Muflón»?",
       "choices": [
-        "Friuli-Venecia Julia",
+        "Emilia-Romaña",
+        "Umbría",
         "Cerdeña",
-        "Véneto",
-        "Apulia"
+        "Friuli-Venecia Julia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Muflón» forma parte de la fauna de Cerdeña."
     },
     {
@@ -4014,12 +4014,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Ciervo sardo»?",
       "choices": [
-        "Trentino-Alto Adigio",
+        "Abruzos",
+        "Sicilia",
         "Cerdeña",
-        "Liguria",
-        "Apulia"
+        "Lombardía"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Ciervo sardo» forma parte de la fauna de Cerdeña."
     },
     {
@@ -4028,12 +4028,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "¿En qué región vive este animal: «Flamenco»?",
       "choices": [
-        "Valle de Aosta",
-        "Basilicata",
+        "Friuli-Venecia Julia",
         "Cerdeña",
-        "Lombardía"
+        "Valle de Aosta",
+        "Lacio"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Flamenco» forma parte de la fauna de Cerdeña."
     },
     {
@@ -4042,12 +4042,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Madroño»?",
       "choices": [
+        "Calabria",
+        "Abruzos",
         "Cerdeña",
-        "Trentino-Alto Adigio",
-        "Umbría",
-        "Lombardía"
+        "Lacio"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Madroño» es una planta típica de Cerdeña."
     },
     {
@@ -4056,12 +4056,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "¿En qué región crece esta planta: «Alcornoque»?",
       "choices": [
-        "Sicilia",
-        "Calabria",
+        "Valle de Aosta",
         "Cerdeña",
-        "Piamonte"
+        "Véneto",
+        "Sicilia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Alcornoque» es una planta típica de Cerdeña."
     },
     {
@@ -4071,9 +4071,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿En qué región crece esta planta: «Mirto»?",
       "choices": [
         "Cerdeña",
-        "Abruzos",
-        "Trentino-Alto Adigio",
-        "Campania"
+        "Sicilia",
+        "Emilia-Romaña",
+        "Piamonte"
       ],
       "correctIndex": 0,
       "explanation": "«Mirto» es una planta típica de Cerdeña."
@@ -4084,12 +4084,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Culurgiones»?",
       "choices": [
-        "Lacio",
-        "Apulia",
+        "Umbría",
         "Cerdeña",
-        "Calabria"
+        "Véneto",
+        "Campania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Culurgiones» es un plato típico de Cerdeña."
     },
     {
@@ -4098,12 +4098,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Pane carasau»?",
       "choices": [
-        "Marcas",
         "Cerdeña",
-        "Toscana",
-        "Sicilia"
+        "Molise",
+        "Basilicata",
+        "Valle de Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Pane carasau» es un plato típico de Cerdeña."
     },
     {
@@ -4112,12 +4112,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "¿De qué región es típico este plato: «Seadas»?",
       "choices": [
-        "Apulia",
-        "Marcas",
-        "Calabria",
-        "Cerdeña"
+        "Toscana",
+        "Cerdeña",
+        "Trentino-Alto Adigio",
+        "Véneto"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Seadas» es un plato típico de Cerdeña."
     },
     {
@@ -4126,12 +4126,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Nuraga Santu Antine»?",
       "choices": [
-        "Friuli-Venecia Julia",
-        "Campania",
+        "Umbría",
         "Cerdeña",
-        "Marcas"
+        "Piamonte",
+        "Basilicata"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Nuraga Santu Antine» se encuentra en Cerdeña."
     },
     {
@@ -4140,12 +4140,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Costa Esmeralda»?",
       "choices": [
-        "Umbría",
-        "Liguria",
+        "Valle de Aosta",
         "Cerdeña",
-        "Trentino-Alto Adigio"
+        "Calabria",
+        "Lacio"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Costa Esmeralda» se encuentra en Cerdeña."
     },
     {
@@ -4154,12 +4154,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "¿En qué región se encuentra «Cagliari»?",
       "choices": [
+        "Cerdeña",
+        "Piamonte",
         "Umbría",
-        "Trentino-Alto Adigio",
-        "Liguria",
-        "Cerdeña"
+        "Emilia-Romaña"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Cagliari» se encuentra en Cerdeña."
     },
     {
@@ -4168,12 +4168,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Civilización nurágica»?",
       "choices": [
-        "Friuli-Venecia Julia",
-        "Cerdeña",
+        "Lacio",
         "Lombardía",
-        "Molise"
+        "Cerdeña",
+        "Valle de Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Cerdeña."
     },
     {
@@ -4183,9 +4183,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "¿A qué región pertenece este hecho histórico: «Su Nuraxi»?",
       "choices": [
         "Cerdeña",
-        "Molise",
-        "Sicilia",
-        "Lombardía"
+        "Basilicata",
+        "Véneto",
+        "Friuli-Venecia Julia"
       ],
       "correctIndex": 0,
       "explanation": "Este hecho tiene que ver con Cerdeña."
@@ -4196,12 +4196,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "¿A qué región pertenece este hecho histórico: «Los Judicados»?",
       "choices": [
+        "Campania",
+        "Piamonte",
         "Cerdeña",
-        "Toscana",
-        "Emilia-Romaña",
-        "Valle de Aosta"
+        "Apulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Este hecho tiene que ver con Cerdeña."
     }
   ],
@@ -4212,12 +4212,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Alpine ibex”?",
       "choices": [
+        "Umbria",
         "Aosta Valley",
-        "Friuli-Venezia Giulia",
-        "Basilicata",
-        "Apulia"
+        "Marche",
+        "Sicily"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Alpine ibex” is part of the wildlife of Aosta Valley."
     },
     {
@@ -4226,12 +4226,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Alpine chamois”?",
       "choices": [
-        "Tuscany",
-        "Apulia",
+        "Liguria",
         "Friuli-Venezia Giulia",
-        "Aosta Valley"
+        "Aosta Valley",
+        "Lazio"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Alpine chamois” is part of the wildlife of Aosta Valley."
     },
     {
@@ -4240,12 +4240,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Golden eagle”?",
       "choices": [
-        "Lombardy",
-        "Campania",
-        "Liguria",
-        "Aosta Valley"
+        "Trentino-South Tyrol",
+        "Friuli-Venezia Giulia",
+        "Aosta Valley",
+        "Molise"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Golden eagle” is part of the wildlife of Aosta Valley."
     },
     {
@@ -4254,12 +4254,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Edelweiss”?",
       "choices": [
-        "Aosta Valley",
         "Friuli-Venezia Giulia",
-        "Campania",
-        "Marche"
+        "Lazio",
+        "Emilia-Romagna",
+        "Aosta Valley"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Edelweiss” is a typical plant of Aosta Valley."
     },
     {
@@ -4268,12 +4268,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Larch”?",
       "choices": [
-        "Basilicata",
-        "Lazio",
-        "Veneto",
-        "Aosta Valley"
+        "Sardinia",
+        "Emilia-Romagna",
+        "Aosta Valley",
+        "Basilicata"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Larch” is a typical plant of Aosta Valley."
     },
     {
@@ -4282,12 +4282,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Gentian”?",
       "choices": [
-        "Molise",
-        "Aosta Valley",
-        "Friuli-Venezia Giulia",
-        "Lazio"
+        "Sardinia",
+        "Campania",
+        "Piedmont",
+        "Aosta Valley"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Gentian” is a typical plant of Aosta Valley."
     },
     {
@@ -4296,12 +4296,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Fontina”?",
       "choices": [
+        "Calabria",
         "Aosta Valley",
-        "Marche",
-        "Lazio",
-        "Emilia-Romagna"
+        "Abruzzo",
+        "Piedmont"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Fontina” is a typical dish of Aosta Valley."
     },
     {
@@ -4310,12 +4310,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Polenta concia”?",
       "choices": [
-        "Basilicata",
         "Aosta Valley",
-        "Tuscany",
-        "Calabria"
+        "Apulia",
+        "Sicily",
+        "Lazio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Polenta concia” is a typical dish of Aosta Valley."
     },
     {
@@ -4326,8 +4326,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "Aosta Valley",
         "Tuscany",
-        "Abruzzo",
-        "Liguria"
+        "Molise",
+        "Marche"
       ],
       "correctIndex": 0,
       "explanation": "“Carbonade” is a typical dish of Aosta Valley."
@@ -4338,12 +4338,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Mont Blanc”?",
       "choices": [
-        "Trentino-South Tyrol",
+        "Liguria",
+        "Campania",
         "Aosta Valley",
-        "Emilia-Romagna",
-        "Marche"
+        "Basilicata"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Mont Blanc” is in Aosta Valley."
     },
     {
@@ -4352,12 +4352,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Matterhorn”?",
       "choices": [
-        "Basilicata",
-        "Aosta Valley",
-        "Lombardy",
-        "Apulia"
+        "Tuscany",
+        "Piedmont",
+        "Calabria",
+        "Aosta Valley"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Matterhorn” is in Aosta Valley."
     },
     {
@@ -4366,12 +4366,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Fénis Castle”?",
       "choices": [
-        "Sardinia",
-        "Piedmont",
-        "Tuscany",
-        "Aosta Valley"
+        "Lazio",
+        "Umbria",
+        "Aosta Valley",
+        "Piedmont"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Fénis Castle” is in Aosta Valley."
     },
     {
@@ -4380,12 +4380,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Roman Aosta”?",
       "choices": [
-        "Liguria",
-        "Marche",
-        "Aosta Valley",
-        "Abruzzo"
+        "Umbria",
+        "Trentino-South Tyrol",
+        "Tuscany",
+        "Aosta Valley"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "This fact is about Aosta Valley."
     },
     {
@@ -4394,12 +4394,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Gran Paradiso National Park”?",
       "choices": [
-        "Liguria",
-        "Abruzzo",
         "Aosta Valley",
-        "Emilia-Romagna"
+        "Lombardy",
+        "Sardinia",
+        "Veneto"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "This fact is about Aosta Valley."
     },
     {
@@ -4408,10 +4408,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Mont Blanc Tunnel”?",
       "choices": [
-        "Tuscany",
+        "Campania",
         "Aosta Valley",
-        "Liguria",
-        "Trentino-South Tyrol"
+        "Tuscany",
+        "Lazio"
       ],
       "correctIndex": 1,
       "explanation": "This fact is about Aosta Valley."
@@ -4422,12 +4422,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Grey heron”?",
       "choices": [
-        "Lazio",
-        "Molise",
-        "Liguria",
-        "Piedmont"
+        "Piedmont",
+        "Basilicata",
+        "Marche",
+        "Lazio"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Grey heron” is part of the wildlife of Piedmont."
     },
     {
@@ -4436,12 +4436,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Wolf”?",
       "choices": [
+        "Sicily",
+        "Friuli-Venezia Giulia",
         "Aosta Valley",
-        "Piedmont",
-        "Apulia",
-        "Sardinia"
+        "Piedmont"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Wolf” is part of the wildlife of Piedmont."
     },
     {
@@ -4450,12 +4450,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Wild boar”?",
       "choices": [
-        "Calabria",
-        "Lombardy",
-        "Campania",
-        "Piedmont"
+        "Piedmont",
+        "Sicily",
+        "Sardinia",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Wild boar” is part of the wildlife of Piedmont."
     },
     {
@@ -4464,12 +4464,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Sweet chestnut”?",
       "choices": [
-        "Basilicata",
-        "Sardinia",
+        "Emilia-Romagna",
         "Piedmont",
-        "Sicily"
+        "Friuli-Venezia Giulia",
+        "Basilicata"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Sweet chestnut” is a typical plant of Piedmont."
     },
     {
@@ -4478,12 +4478,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Grapevine”?",
       "choices": [
-        "Sardinia",
         "Piedmont",
-        "Trentino-South Tyrol",
-        "Calabria"
+        "Calabria",
+        "Lombardy",
+        "Lazio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Grapevine” is a typical plant of Piedmont."
     },
     {
@@ -4492,12 +4492,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Rice”?",
       "choices": [
-        "Veneto",
+        "Piedmont",
         "Umbria",
-        "Liguria",
-        "Piedmont"
+        "Veneto",
+        "Apulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Rice” is a typical plant of Piedmont."
     },
     {
@@ -4507,11 +4507,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "Which region is this dish typical of: “Bagna càuda”?",
       "choices": [
         "Calabria",
-        "Abruzzo",
-        "Piedmont",
-        "Sicily"
+        "Molise",
+        "Emilia-Romagna",
+        "Piedmont"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Bagna càuda” is a typical dish of Piedmont."
     },
     {
@@ -4520,12 +4520,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Agnolotti”?",
       "choices": [
-        "Molise",
-        "Piedmont",
-        "Campania",
-        "Trentino-South Tyrol"
+        "Calabria",
+        "Sardinia",
+        "Aosta Valley",
+        "Piedmont"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Agnolotti” is a typical dish of Piedmont."
     },
     {
@@ -4534,9 +4534,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Gianduiotto”?",
       "choices": [
-        "Lombardy",
+        "Marche",
         "Piedmont",
-        "Sicily",
+        "Calabria",
         "Basilicata"
       ],
       "correctIndex": 1,
@@ -4548,12 +4548,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Mole Antonelliana”?",
       "choices": [
-        "Lazio",
-        "Friuli-Venezia Giulia",
         "Piedmont",
-        "Tuscany"
+        "Emilia-Romagna",
+        "Sardinia",
+        "Sicily"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Mole Antonelliana” is in Piedmont."
     },
     {
@@ -4562,12 +4562,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Langhe”?",
       "choices": [
-        "Piedmont",
-        "Lazio",
         "Emilia-Romagna",
-        "Lombardy"
+        "Piedmont",
+        "Apulia",
+        "Lazio"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Langhe” is in Piedmont."
     },
     {
@@ -4576,12 +4576,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Lake Maggiore”?",
       "choices": [
-        "Calabria",
-        "Veneto",
-        "Piedmont",
-        "Abruzzo"
+        "Aosta Valley",
+        "Liguria",
+        "Abruzzo",
+        "Piedmont"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Lake Maggiore” is in Piedmont."
     },
     {
@@ -4590,12 +4590,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Turin the capital”?",
       "choices": [
-        "Tuscany",
         "Piedmont",
+        "Calabria",
         "Aosta Valley",
-        "Apulia"
+        "Sicily"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "This fact is about Piedmont."
     },
     {
@@ -4604,10 +4604,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Sacra di San Michele”?",
       "choices": [
-        "Apulia",
-        "Lazio",
+        "Emilia-Romagna",
+        "Aosta Valley",
         "Piedmont",
-        "Veneto"
+        "Trentino-South Tyrol"
       ],
       "correctIndex": 2,
       "explanation": "This fact is about Piedmont."
@@ -4618,10 +4618,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Stupinigi Hunting Lodge”?",
       "choices": [
-        "Veneto",
-        "Calabria",
+        "Emilia-Romagna",
+        "Basilicata",
         "Piedmont",
-        "Abruzzo"
+        "Friuli-Venezia Giulia"
       ],
       "correctIndex": 2,
       "explanation": "This fact is about Piedmont."
@@ -4632,12 +4632,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Yellow-legged gull”?",
       "choices": [
-        "Liguria",
-        "Apulia",
         "Calabria",
-        "Trentino-South Tyrol"
+        "Trentino-South Tyrol",
+        "Tuscany",
+        "Liguria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Yellow-legged gull” is part of the wildlife of Liguria."
     },
     {
@@ -4646,12 +4646,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Bottlenose dolphin”?",
       "choices": [
-        "Aosta Valley",
+        "Trentino-South Tyrol",
+        "Lombardy",
         "Liguria",
-        "Abruzzo",
-        "Emilia-Romagna"
+        "Aosta Valley"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Bottlenose dolphin” is part of the wildlife of Liguria."
     },
     {
@@ -4660,9 +4660,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Peregrine falcon”?",
       "choices": [
-        "Tuscany",
+        "Campania",
         "Friuli-Venezia Giulia",
-        "Calabria",
+        "Sicily",
         "Liguria"
       ],
       "correctIndex": 3,
@@ -4674,12 +4674,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Genoese basil”?",
       "choices": [
-        "Sicily",
-        "Apulia",
-        "Liguria",
-        "Emilia-Romagna"
+        "Tuscany",
+        "Trentino-South Tyrol",
+        "Campania",
+        "Liguria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Genoese basil” is a typical plant of Liguria."
     },
     {
@@ -4688,12 +4688,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Olive tree”?",
       "choices": [
-        "Sicily",
-        "Friuli-Venezia Giulia",
-        "Calabria",
-        "Liguria"
+        "Emilia-Romagna",
+        "Abruzzo",
+        "Liguria",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Olive tree” is a typical plant of Liguria."
     },
     {
@@ -4702,10 +4702,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Mimosa”?",
       "choices": [
-        "Veneto",
+        "Marche",
         "Liguria",
-        "Emilia-Romagna",
-        "Aosta Valley"
+        "Abruzzo",
+        "Emilia-Romagna"
       ],
       "correctIndex": 1,
       "explanation": "“Mimosa” is a typical plant of Liguria."
@@ -4717,9 +4717,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "Which region is this dish typical of: “Genoese pesto”?",
       "choices": [
         "Liguria",
-        "Molise",
-        "Piedmont",
-        "Marche"
+        "Marche",
+        "Calabria",
+        "Emilia-Romagna"
       ],
       "correctIndex": 0,
       "explanation": "“Genoese pesto” is a typical dish of Liguria."
@@ -4730,9 +4730,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Genoese focaccia”?",
       "choices": [
-        "Basilicata",
-        "Molise",
-        "Calabria",
+        "Sardinia",
+        "Apulia",
+        "Trentino-South Tyrol",
         "Liguria"
       ],
       "correctIndex": 3,
@@ -4744,9 +4744,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Trofie with pesto”?",
       "choices": [
+        "Friuli-Venezia Giulia",
         "Lombardy",
-        "Tuscany",
-        "Basilicata",
+        "Veneto",
         "Liguria"
       ],
       "correctIndex": 3,
@@ -4758,9 +4758,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Cinque Terre”?",
       "choices": [
-        "Basilicata",
-        "Sardinia",
-        "Tuscany",
+        "Friuli-Venezia Giulia",
+        "Lazio",
+        "Marche",
         "Liguria"
       ],
       "correctIndex": 3,
@@ -4773,11 +4773,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In which region is “Portofino”?",
       "choices": [
         "Aosta Valley",
-        "Emilia-Romagna",
-        "Piedmont",
-        "Liguria"
+        "Liguria",
+        "Sardinia",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Portofino” is in Liguria."
     },
     {
@@ -4786,12 +4786,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Genoa Aquarium”?",
       "choices": [
+        "Umbria",
+        "Tuscany",
         "Liguria",
-        "Sicily",
-        "Apulia",
-        "Marche"
+        "Lombardy"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Genoa Aquarium” is in Liguria."
     },
     {
@@ -4800,12 +4800,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Republic of Genoa”?",
       "choices": [
-        "Lombardy",
         "Liguria",
-        "Friuli-Venezia Giulia",
-        "Sicily"
+        "Aosta Valley",
+        "Lombardy",
+        "Sardinia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "This fact is about Liguria."
     },
     {
@@ -4814,10 +4814,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Christopher Columbus”?",
       "choices": [
-        "Campania",
-        "Sardinia",
+        "Sicily",
+        "Apulia",
         "Liguria",
-        "Abruzzo"
+        "Tuscany"
       ],
       "correctIndex": 2,
       "explanation": "This fact is about Liguria."
@@ -4829,9 +4829,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "Which region does this historical fact belong to: “Palazzi dei Rolli”?",
       "choices": [
         "Liguria",
-        "Friuli-Venezia Giulia",
         "Basilicata",
-        "Piedmont"
+        "Piedmont",
+        "Abruzzo"
       ],
       "correctIndex": 0,
       "explanation": "This fact is about Liguria."
@@ -4842,12 +4842,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Mute swan”?",
       "choices": [
-        "Molise",
-        "Sicily",
         "Lombardy",
+        "Emilia-Romagna",
+        "Calabria",
         "Piedmont"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Mute swan” is part of the wildlife of Lombardy."
     },
     {
@@ -4856,9 +4856,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Grey heron”?",
       "choices": [
-        "Liguria",
-        "Umbria",
-        "Campania",
+        "Sardinia",
+        "Calabria",
+        "Lazio",
         "Lombardy"
       ],
       "correctIndex": 3,
@@ -4870,12 +4870,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Alpine chamois”?",
       "choices": [
-        "Umbria",
-        "Marche",
-        "Piedmont",
-        "Lombardy"
+        "Lombardy",
+        "Liguria",
+        "Calabria",
+        "Sardinia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Alpine chamois” is part of the wildlife of Lombardy."
     },
     {
@@ -4884,10 +4884,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Beech”?",
       "choices": [
-        "Campania",
-        "Calabria",
+        "Basilicata",
+        "Piedmont",
         "Lombardy",
-        "Apulia"
+        "Veneto"
       ],
       "correctIndex": 2,
       "explanation": "“Beech” is a typical plant of Lombardy."
@@ -4898,12 +4898,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Water lily”?",
       "choices": [
-        "Sardinia",
-        "Aosta Valley",
+        "Abruzzo",
         "Lombardy",
+        "Piedmont",
         "Calabria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Water lily” is a typical plant of Lombardy."
     },
     {
@@ -4912,12 +4912,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Poplar”?",
       "choices": [
-        "Friuli-Venezia Giulia",
-        "Sardinia",
-        "Calabria",
-        "Lombardy"
+        "Piedmont",
+        "Abruzzo",
+        "Lombardy",
+        "Veneto"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Poplar” is a typical plant of Lombardy."
     },
     {
@@ -4926,12 +4926,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Milanese risotto”?",
       "choices": [
-        "Abruzzo",
-        "Marche",
         "Lombardy",
+        "Lazio",
+        "Tuscany",
         "Basilicata"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Milanese risotto” is a typical dish of Lombardy."
     },
     {
@@ -4940,12 +4940,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Ossobuco”?",
       "choices": [
-        "Basilicata",
-        "Friuli-Venezia Giulia",
-        "Lombardy",
-        "Apulia"
+        "Calabria",
+        "Piedmont",
+        "Tuscany",
+        "Lombardy"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Ossobuco” is a typical dish of Lombardy."
     },
     {
@@ -4954,10 +4954,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Panettone”?",
       "choices": [
-        "Aosta Valley",
+        "Abruzzo",
         "Lombardy",
-        "Sardinia",
-        "Friuli-Venezia Giulia"
+        "Aosta Valley",
+        "Calabria"
       ],
       "correctIndex": 1,
       "explanation": "“Panettone” is a typical dish of Lombardy."
@@ -4968,12 +4968,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Milan Cathedral”?",
       "choices": [
-        "Aosta Valley",
-        "Umbria",
-        "Friuli-Venezia Giulia",
-        "Lombardy"
+        "Molise",
+        "Lombardy",
+        "Marche",
+        "Sardinia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Milan Cathedral” is in Lombardy."
     },
     {
@@ -4982,12 +4982,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Lake Como”?",
       "choices": [
-        "Lombardy",
         "Abruzzo",
-        "Liguria",
-        "Tuscany"
+        "Lombardy",
+        "Apulia",
+        "Piedmont"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Lake Como” is in Lombardy."
     },
     {
@@ -4996,12 +4996,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Leonardo's Last Supper”?",
       "choices": [
-        "Piedmont",
-        "Lombardy",
-        "Lazio",
-        "Basilicata"
+        "Emilia-Romagna",
+        "Sicily",
+        "Basilicata",
+        "Lombardy"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Leonardo's Last Supper” is in Lombardy."
     },
     {
@@ -5011,9 +5011,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "Which region does this historical fact belong to: “Milan, capital of the Empire”?",
       "choices": [
         "Lombardy",
-        "Trentino-South Tyrol",
-        "Sicily",
-        "Friuli-Venezia Giulia"
+        "Emilia-Romagna",
+        "Molise",
+        "Abruzzo"
       ],
       "correctIndex": 0,
       "explanation": "This fact is about Lombardy."
@@ -5024,12 +5024,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Battle of Legnano”?",
       "choices": [
-        "Molise",
-        "Liguria",
-        "Lombardy",
-        "Piedmont"
+        "Tuscany",
+        "Aosta Valley",
+        "Calabria",
+        "Lombardy"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "This fact is about Lombardy."
     },
     {
@@ -5038,10 +5038,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Leonardo in Milan”?",
       "choices": [
-        "Piedmont",
+        "Marche",
         "Lombardy",
-        "Trentino-South Tyrol",
-        "Friuli-Venezia Giulia"
+        "Piedmont",
+        "Abruzzo"
       ],
       "correctIndex": 1,
       "explanation": "This fact is about Lombardy."
@@ -5052,10 +5052,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Brown bear”?",
       "choices": [
-        "Veneto",
-        "Abruzzo",
+        "Lazio",
+        "Liguria",
         "Trentino-South Tyrol",
-        "Sardinia"
+        "Campania"
       ],
       "correctIndex": 2,
       "explanation": "“Brown bear” is part of the wildlife of Trentino-South Tyrol."
@@ -5066,12 +5066,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Alpine chamois”?",
       "choices": [
-        "Sicily",
-        "Liguria",
-        "Lazio",
-        "Trentino-South Tyrol"
+        "Emilia-Romagna",
+        "Friuli-Venezia Giulia",
+        "Trentino-South Tyrol",
+        "Basilicata"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Alpine chamois” is part of the wildlife of Trentino-South Tyrol."
     },
     {
@@ -5080,10 +5080,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Red deer”?",
       "choices": [
-        "Umbria",
+        "Veneto",
         "Trentino-South Tyrol",
-        "Sardinia",
-        "Molise"
+        "Lombardy",
+        "Tuscany"
       ],
       "correctIndex": 1,
       "explanation": "“Red deer” is part of the wildlife of Trentino-South Tyrol."
@@ -5095,11 +5095,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In which region does this plant grow: “Norway spruce”?",
       "choices": [
         "Veneto",
-        "Apulia",
-        "Tuscany",
-        "Trentino-South Tyrol"
+        "Calabria",
+        "Trentino-South Tyrol",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Norway spruce” is a typical plant of Trentino-South Tyrol."
     },
     {
@@ -5108,12 +5108,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Apple tree”?",
       "choices": [
+        "Campania",
+        "Lombardy",
         "Trentino-South Tyrol",
-        "Sicily",
-        "Apulia",
-        "Abruzzo"
+        "Apulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Apple tree” is a typical plant of Trentino-South Tyrol."
     },
     {
@@ -5122,12 +5122,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Gentian”?",
       "choices": [
-        "Trentino-South Tyrol",
-        "Friuli-Venezia Giulia",
-        "Calabria",
-        "Campania"
+        "Apulia",
+        "Lazio",
+        "Veneto",
+        "Trentino-South Tyrol"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Gentian” is a typical plant of Trentino-South Tyrol."
     },
     {
@@ -5137,11 +5137,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "Which region is this dish typical of: “Canederli”?",
       "choices": [
         "Piedmont",
-        "Molise",
         "Trentino-South Tyrol",
-        "Tuscany"
+        "Sardinia",
+        "Apulia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Canederli” is a typical dish of Trentino-South Tyrol."
     },
     {
@@ -5150,12 +5150,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Speck”?",
       "choices": [
+        "Aosta Valley",
+        "Calabria",
         "Trentino-South Tyrol",
-        "Veneto",
-        "Tuscany",
-        "Marche"
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Speck” is a typical dish of Trentino-South Tyrol."
     },
     {
@@ -5164,12 +5164,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Apple strudel”?",
       "choices": [
+        "Basilicata",
         "Trentino-South Tyrol",
-        "Umbria",
         "Marche",
-        "Basilicata"
+        "Tuscany"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Apple strudel” is a typical dish of Trentino-South Tyrol."
     },
     {
@@ -5178,12 +5178,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Dolomites”?",
       "choices": [
+        "Campania",
+        "Trentino-South Tyrol",
         "Calabria",
-        "Liguria",
-        "Sardinia",
-        "Trentino-South Tyrol"
+        "Umbria"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Dolomites” is in Trentino-South Tyrol."
     },
     {
@@ -5192,12 +5192,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Lake Braies”?",
       "choices": [
-        "Liguria",
-        "Calabria",
         "Trentino-South Tyrol",
-        "Sardinia"
+        "Sicily",
+        "Piedmont",
+        "Basilicata"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Lake Braies” is in Trentino-South Tyrol."
     },
     {
@@ -5206,12 +5206,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Tyrol Castle”?",
       "choices": [
-        "Sicily",
-        "Piedmont",
-        "Friuli-Venezia Giulia",
-        "Trentino-South Tyrol"
+        "Abruzzo",
+        "Molise",
+        "Trentino-South Tyrol",
+        "Aosta Valley"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Tyrol Castle” is in Trentino-South Tyrol."
     },
     {
@@ -5220,12 +5220,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Council of Trent”?",
       "choices": [
-        "Trentino-South Tyrol",
+        "Basilicata",
+        "Apulia",
         "Aosta Valley",
-        "Friuli-Venezia Giulia",
-        "Sicily"
+        "Trentino-South Tyrol"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "This fact is about Trentino-South Tyrol."
     },
     {
@@ -5234,12 +5234,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Ötzi”?",
       "choices": [
-        "Trentino-South Tyrol",
-        "Umbria",
-        "Veneto",
-        "Apulia"
+        "Liguria",
+        "Sicily",
+        "Tuscany",
+        "Trentino-South Tyrol"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "This fact is about Trentino-South Tyrol."
     },
     {
@@ -5248,12 +5248,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “The passage to Italy”?",
       "choices": [
-        "Sardinia",
-        "Trentino-South Tyrol",
-        "Lombardy",
-        "Liguria"
+        "Piedmont",
+        "Friuli-Venezia Giulia",
+        "Emilia-Romagna",
+        "Trentino-South Tyrol"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "This fact is about Trentino-South Tyrol."
     },
     {
@@ -5263,9 +5263,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In which region does this animal live: “Flamingo”?",
       "choices": [
         "Liguria",
-        "Piedmont",
+        "Calabria",
         "Veneto",
-        "Tuscany"
+        "Friuli-Venezia Giulia"
       ],
       "correctIndex": 2,
       "explanation": "“Flamingo” is part of the wildlife of Veneto."
@@ -5276,9 +5276,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Grey heron”?",
       "choices": [
-        "Molise",
-        "Apulia",
-        "Lazio",
+        "Abruzzo",
+        "Trentino-South Tyrol",
+        "Calabria",
         "Veneto"
       ],
       "correctIndex": 3,
@@ -5291,9 +5291,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In which region does this animal live: “Alpine chamois”?",
       "choices": [
         "Veneto",
-        "Umbria",
-        "Sardinia",
-        "Apulia"
+        "Friuli-Venezia Giulia",
+        "Tuscany",
+        "Piedmont"
       ],
       "correctIndex": 0,
       "explanation": "“Alpine chamois” is part of the wildlife of Veneto."
@@ -5304,12 +5304,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Grapevine”?",
       "choices": [
-        "Calabria",
-        "Basilicata",
+        "Lombardy",
         "Abruzzo",
-        "Veneto"
+        "Veneto",
+        "Molise"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Grapevine” is a typical plant of Veneto."
     },
     {
@@ -5319,11 +5319,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In which region does this plant grow: “Cypress”?",
       "choices": [
         "Trentino-South Tyrol",
-        "Veneto",
-        "Sicily",
-        "Lazio"
+        "Lazio",
+        "Basilicata",
+        "Veneto"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Cypress” is a typical plant of Veneto."
     },
     {
@@ -5332,12 +5332,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Glasswort”?",
       "choices": [
-        "Apulia",
-        "Piedmont",
+        "Basilicata",
         "Veneto",
-        "Sardinia"
+        "Campania",
+        "Umbria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Glasswort” is a typical plant of Veneto."
     },
     {
@@ -5346,12 +5346,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Tiramisù”?",
       "choices": [
-        "Abruzzo",
-        "Molise",
-        "Veneto",
-        "Basilicata"
+        "Liguria",
+        "Tuscany",
+        "Apulia",
+        "Veneto"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Tiramisù” is a typical dish of Veneto."
     },
     {
@@ -5360,12 +5360,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Baccalà mantecato”?",
       "choices": [
-        "Apulia",
+        "Aosta Valley",
+        "Friuli-Venezia Giulia",
         "Veneto",
-        "Abruzzo",
-        "Campania"
+        "Marche"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Baccalà mantecato” is a typical dish of Veneto."
     },
     {
@@ -5374,12 +5374,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Cuttlefish-ink risotto”?",
       "choices": [
+        "Apulia",
         "Veneto",
-        "Calabria",
-        "Lombardy",
-        "Piedmont"
+        "Campania",
+        "Sardinia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Cuttlefish-ink risotto” is a typical dish of Veneto."
     },
     {
@@ -5388,12 +5388,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Venice”?",
       "choices": [
-        "Veneto",
-        "Apulia",
-        "Molise",
-        "Umbria"
+        "Trentino-South Tyrol",
+        "Friuli-Venezia Giulia",
+        "Campania",
+        "Veneto"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Venice” is in Veneto."
     },
     {
@@ -5403,9 +5403,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In which region is “Verona Arena”?",
       "choices": [
         "Veneto",
-        "Sardinia",
-        "Emilia-Romagna",
-        "Liguria"
+        "Tuscany",
+        "Piedmont",
+        "Lazio"
       ],
       "correctIndex": 0,
       "explanation": "“Verona Arena” is in Veneto."
@@ -5416,12 +5416,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Palladian villas”?",
       "choices": [
-        "Veneto",
-        "Lombardy",
-        "Liguria",
-        "Lazio"
+        "Molise",
+        "Trentino-South Tyrol",
+        "Lazio",
+        "Veneto"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Palladian villas” is in Veneto."
     },
     {
@@ -5430,12 +5430,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Republic of Venice”?",
       "choices": [
+        "Apulia",
         "Aosta Valley",
-        "Campania",
-        "Veneto",
-        "Friuli-Venezia Giulia"
+        "Trentino-South Tyrol",
+        "Veneto"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "This fact is about Veneto."
     },
     {
@@ -5445,9 +5445,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "Which region does this historical fact belong to: “Marco Polo”?",
       "choices": [
         "Veneto",
-        "Liguria",
-        "Campania",
-        "Sicily"
+        "Friuli-Venezia Giulia",
+        "Molise",
+        "Trentino-South Tyrol"
       ],
       "correctIndex": 0,
       "explanation": "This fact is about Veneto."
@@ -5458,12 +5458,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “St Mark's Basilica”?",
       "choices": [
+        "Marche",
+        "Sardinia",
         "Veneto",
-        "Lazio",
-        "Molise",
-        "Emilia-Romagna"
+        "Lombardy"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "This fact is about Veneto."
     },
     {
@@ -5472,12 +5472,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Red deer”?",
       "choices": [
-        "Liguria",
+        "Umbria",
+        "Veneto",
         "Friuli-Venezia Giulia",
-        "Lazio",
         "Emilia-Romagna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Red deer” is part of the wildlife of Friuli-Venezia Giulia."
     },
     {
@@ -5486,9 +5486,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Grey heron”?",
       "choices": [
-        "Abruzzo",
-        "Tuscany",
-        "Sicily",
+        "Basilicata",
+        "Aosta Valley",
+        "Lazio",
         "Friuli-Venezia Giulia"
       ],
       "correctIndex": 3,
@@ -5502,8 +5502,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "Friuli-Venezia Giulia",
         "Marche",
-        "Basilicata",
-        "Tuscany"
+        "Lazio",
+        "Molise"
       ],
       "correctIndex": 0,
       "explanation": "“Brown bear” is part of the wildlife of Friuli-Venezia Giulia."
@@ -5514,12 +5514,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Grapevine”?",
       "choices": [
-        "Lombardy",
-        "Umbria",
-        "Molise",
-        "Friuli-Venezia Giulia"
+        "Lazio",
+        "Friuli-Venezia Giulia",
+        "Basilicata",
+        "Molise"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Grapevine” is a typical plant of Friuli-Venezia Giulia."
     },
     {
@@ -5528,12 +5528,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Beech”?",
       "choices": [
-        "Piedmont",
-        "Umbria",
-        "Campania",
-        "Friuli-Venezia Giulia"
+        "Sardinia",
+        "Friuli-Venezia Giulia",
+        "Aosta Valley",
+        "Marche"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Beech” is a typical plant of Friuli-Venezia Giulia."
     },
     {
@@ -5542,12 +5542,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Linden”?",
       "choices": [
-        "Friuli-Venezia Giulia",
-        "Piedmont",
-        "Basilicata",
-        "Aosta Valley"
+        "Liguria",
+        "Umbria",
+        "Apulia",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Linden” is a typical plant of Friuli-Venezia Giulia."
     },
     {
@@ -5556,10 +5556,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Frico”?",
       "choices": [
-        "Sardinia",
+        "Calabria",
         "Friuli-Venezia Giulia",
-        "Lombardy",
-        "Marche"
+        "Umbria",
+        "Apulia"
       ],
       "correctIndex": 1,
       "explanation": "“Frico” is a typical dish of Friuli-Venezia Giulia."
@@ -5570,10 +5570,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “San Daniele ham”?",
       "choices": [
-        "Emilia-Romagna",
-        "Aosta Valley",
+        "Molise",
+        "Marche",
         "Friuli-Venezia Giulia",
-        "Veneto"
+        "Aosta Valley"
       ],
       "correctIndex": 2,
       "explanation": "“San Daniele ham” is a typical dish of Friuli-Venezia Giulia."
@@ -5584,12 +5584,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Gubana”?",
       "choices": [
-        "Liguria",
-        "Lombardy",
-        "Abruzzo",
-        "Friuli-Venezia Giulia"
+        "Sardinia",
+        "Friuli-Venezia Giulia",
+        "Tuscany",
+        "Trentino-South Tyrol"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Gubana” is a typical dish of Friuli-Venezia Giulia."
     },
     {
@@ -5598,12 +5598,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Trieste”?",
       "choices": [
-        "Molise",
-        "Tuscany",
+        "Friuli-Venezia Giulia",
         "Umbria",
-        "Friuli-Venezia Giulia"
+        "Emilia-Romagna",
+        "Apulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Trieste” is in Friuli-Venezia Giulia."
     },
     {
@@ -5613,9 +5613,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In which region is “Aquileia”?",
       "choices": [
         "Friuli-Venezia Giulia",
-        "Calabria",
         "Campania",
-        "Basilicata"
+        "Abruzzo",
+        "Sicily"
       ],
       "correctIndex": 0,
       "explanation": "“Aquileia” is in Friuli-Venezia Giulia."
@@ -5626,12 +5626,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Grado Lagoon”?",
       "choices": [
-        "Friuli-Venezia Giulia",
-        "Calabria",
-        "Apulia",
-        "Sardinia"
+        "Piedmont",
+        "Lombardy",
+        "Sicily",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Grado Lagoon” is in Friuli-Venezia Giulia."
     },
     {
@@ -5640,12 +5640,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Roman Aquileia”?",
       "choices": [
-        "Marche",
-        "Friuli-Venezia Giulia",
+        "Liguria",
         "Lombardy",
-        "Veneto"
+        "Molise",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "This fact is about Friuli-Venezia Giulia."
     },
     {
@@ -5654,12 +5654,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Habsburg Trieste”?",
       "choices": [
-        "Aosta Valley",
-        "Basilicata",
-        "Friuli-Venezia Giulia",
-        "Umbria"
+        "Piedmont",
+        "Veneto",
+        "Tuscany",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "This fact is about Friuli-Venezia Giulia."
     },
     {
@@ -5668,12 +5668,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Languages of the region”?",
       "choices": [
-        "Veneto",
-        "Lazio",
         "Friuli-Venezia Giulia",
-        "Sicily"
+        "Sardinia",
+        "Campania",
+        "Apulia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "This fact is about Friuli-Venezia Giulia."
     },
     {
@@ -5682,12 +5682,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Flamingo”?",
       "choices": [
-        "Emilia-Romagna",
-        "Calabria",
-        "Tuscany",
-        "Liguria"
+        "Lazio",
+        "Trentino-South Tyrol",
+        "Umbria",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Flamingo” is part of the wildlife of Emilia-Romagna."
     },
     {
@@ -5696,12 +5696,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Wolf”?",
       "choices": [
-        "Sicily",
-        "Trentino-South Tyrol",
-        "Abruzzo",
-        "Emilia-Romagna"
+        "Emilia-Romagna",
+        "Veneto",
+        "Aosta Valley",
+        "Sicily"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Wolf” is part of the wildlife of Emilia-Romagna."
     },
     {
@@ -5710,12 +5710,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Grey heron”?",
       "choices": [
-        "Calabria",
-        "Aosta Valley",
-        "Marche",
-        "Emilia-Romagna"
+        "Emilia-Romagna",
+        "Basilicata",
+        "Liguria",
+        "Molise"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Grey heron” is part of the wildlife of Emilia-Romagna."
     },
     {
@@ -5724,12 +5724,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Grapevine”?",
       "choices": [
-        "Sicily",
-        "Liguria",
-        "Lazio",
-        "Emilia-Romagna"
+        "Basilicata",
+        "Emilia-Romagna",
+        "Aosta Valley",
+        "Sardinia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Grapevine” is a typical plant of Emilia-Romagna."
     },
     {
@@ -5738,9 +5738,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Poplar”?",
       "choices": [
-        "Calabria",
-        "Lazio",
-        "Umbria",
+        "Basilicata",
+        "Piedmont",
+        "Marche",
         "Emilia-Romagna"
       ],
       "correctIndex": 3,
@@ -5752,10 +5752,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Cherry tree”?",
       "choices": [
+        "Sicily",
         "Abruzzo",
-        "Tuscany",
         "Emilia-Romagna",
-        "Basilicata"
+        "Lazio"
       ],
       "correctIndex": 2,
       "explanation": "“Cherry tree” is a typical plant of Emilia-Romagna."
@@ -5766,12 +5766,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Tagliatelle al ragù”?",
       "choices": [
-        "Tuscany",
         "Emilia-Romagna",
-        "Aosta Valley",
-        "Sicily"
+        "Lazio",
+        "Lombardy",
+        "Basilicata"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Tagliatelle al ragù” is a typical dish of Emilia-Romagna."
     },
     {
@@ -5780,12 +5780,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Tortellini”?",
       "choices": [
-        "Apulia",
-        "Campania",
-        "Emilia-Romagna",
-        "Aosta Valley"
+        "Veneto",
+        "Sicily",
+        "Aosta Valley",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Tortellini” is a typical dish of Emilia-Romagna."
     },
     {
@@ -5794,10 +5794,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Parmigiano Reggiano”?",
       "choices": [
-        "Trentino-South Tyrol",
+        "Liguria",
         "Emilia-Romagna",
-        "Sicily",
-        "Friuli-Venezia Giulia"
+        "Tuscany",
+        "Marche"
       ],
       "correctIndex": 1,
       "explanation": "“Parmigiano Reggiano” is a typical dish of Emilia-Romagna."
@@ -5808,12 +5808,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Bologna”?",
       "choices": [
+        "Tuscany",
         "Emilia-Romagna",
-        "Basilicata",
-        "Umbria",
-        "Calabria"
+        "Lazio",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Bologna” is in Emilia-Romagna."
     },
     {
@@ -5822,12 +5822,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Ravenna”?",
       "choices": [
-        "Liguria",
-        "Trentino-South Tyrol",
-        "Aosta Valley",
-        "Emilia-Romagna"
+        "Marche",
+        "Abruzzo",
+        "Emilia-Romagna",
+        "Sardinia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Ravenna” is in Emilia-Romagna."
     },
     {
@@ -5836,10 +5836,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Po Delta”?",
       "choices": [
-        "Apulia",
+        "Liguria",
         "Emilia-Romagna",
         "Marche",
-        "Campania"
+        "Veneto"
       ],
       "correctIndex": 1,
       "explanation": "“Po Delta” is in Emilia-Romagna."
@@ -5850,12 +5850,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “University of Bologna”?",
       "choices": [
+        "Umbria",
+        "Friuli-Venezia Giulia",
         "Emilia-Romagna",
-        "Lazio",
-        "Sicily",
-        "Liguria"
+        "Marche"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "This fact is about Emilia-Romagna."
     },
     {
@@ -5864,12 +5864,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Via Emilia”?",
       "choices": [
+        "Friuli-Venezia Giulia",
+        "Trentino-South Tyrol",
         "Emilia-Romagna",
-        "Umbria",
-        "Veneto",
-        "Piedmont"
+        "Abruzzo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "This fact is about Emilia-Romagna."
     },
     {
@@ -5878,12 +5878,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Ravenna the capital”?",
       "choices": [
-        "Basilicata",
-        "Marche",
         "Emilia-Romagna",
-        "Veneto"
+        "Lazio",
+        "Apulia",
+        "Aosta Valley"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "This fact is about Emilia-Romagna."
     },
     {
@@ -5892,10 +5892,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Wild boar”?",
       "choices": [
-        "Lombardy",
-        "Friuli-Venezia Giulia",
+        "Sicily",
+        "Emilia-Romagna",
         "Tuscany",
-        "Marche"
+        "Veneto"
       ],
       "correctIndex": 2,
       "explanation": "“Wild boar” is part of the wildlife of Tuscany."
@@ -5906,12 +5906,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Roe deer”?",
       "choices": [
-        "Piedmont",
         "Tuscany",
-        "Sardinia",
-        "Sicily"
+        "Umbria",
+        "Friuli-Venezia Giulia",
+        "Aosta Valley"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Roe deer” is part of the wildlife of Tuscany."
     },
     {
@@ -5920,12 +5920,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Wolf”?",
       "choices": [
-        "Sicily",
-        "Tuscany",
-        "Veneto",
-        "Friuli-Venezia Giulia"
+        "Lombardy",
+        "Aosta Valley",
+        "Trentino-South Tyrol",
+        "Tuscany"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Wolf” is part of the wildlife of Tuscany."
     },
     {
@@ -5934,12 +5934,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Cypress”?",
       "choices": [
-        "Liguria",
-        "Emilia-Romagna",
-        "Sicily",
-        "Tuscany"
+        "Friuli-Venezia Giulia",
+        "Aosta Valley",
+        "Tuscany",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Cypress” is a typical plant of Tuscany."
     },
     {
@@ -5948,12 +5948,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Olive tree”?",
       "choices": [
-        "Sicily",
         "Tuscany",
+        "Abruzzo",
         "Calabria",
-        "Campania"
+        "Sardinia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Olive tree” is a typical plant of Tuscany."
     },
     {
@@ -5962,9 +5962,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Grapevine”?",
       "choices": [
-        "Umbria",
-        "Abruzzo",
+        "Trentino-South Tyrol",
         "Sardinia",
+        "Aosta Valley",
         "Tuscany"
       ],
       "correctIndex": 3,
@@ -5976,12 +5976,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Florentine steak”?",
       "choices": [
-        "Sardinia",
-        "Abruzzo",
         "Tuscany",
-        "Trentino-South Tyrol"
+        "Trentino-South Tyrol",
+        "Umbria",
+        "Calabria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Florentine steak” is a typical dish of Tuscany."
     },
     {
@@ -5990,12 +5990,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Ribollita”?",
       "choices": [
-        "Tuscany",
         "Friuli-Venezia Giulia",
-        "Trentino-South Tyrol",
+        "Tuscany",
+        "Sicily",
         "Lazio"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Ribollita” is a typical dish of Tuscany."
     },
     {
@@ -6004,10 +6004,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Cantucci”?",
       "choices": [
-        "Liguria",
+        "Marche",
         "Tuscany",
-        "Apulia",
-        "Marche"
+        "Piedmont",
+        "Veneto"
       ],
       "correctIndex": 1,
       "explanation": "“Cantucci” is a typical dish of Tuscany."
@@ -6018,12 +6018,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Florence”?",
       "choices": [
+        "Sicily",
         "Tuscany",
-        "Lazio",
-        "Emilia-Romagna",
-        "Sicily"
+        "Piedmont",
+        "Trentino-South Tyrol"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Florence” is in Tuscany."
     },
     {
@@ -6032,12 +6032,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Leaning Tower of Pisa”?",
       "choices": [
-        "Abruzzo",
         "Tuscany",
-        "Trentino-South Tyrol",
-        "Calabria"
+        "Sicily",
+        "Umbria",
+        "Liguria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Leaning Tower of Pisa” is in Tuscany."
     },
     {
@@ -6046,12 +6046,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Chianti”?",
       "choices": [
-        "Liguria",
-        "Tuscany",
-        "Sicily",
-        "Sardinia"
+        "Aosta Valley",
+        "Molise",
+        "Lazio",
+        "Tuscany"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Chianti” is in Tuscany."
     },
     {
@@ -6060,12 +6060,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Renaissance in Florence”?",
       "choices": [
-        "Tuscany",
-        "Campania",
-        "Molise",
-        "Liguria"
+        "Umbria",
+        "Sicily",
+        "Aosta Valley",
+        "Tuscany"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "This fact is about Tuscany."
     },
     {
@@ -6074,12 +6074,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Brunelleschi's Dome”?",
       "choices": [
-        "Tuscany",
         "Lazio",
-        "Lombardy",
+        "Veneto",
+        "Tuscany",
         "Umbria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "This fact is about Tuscany."
     },
     {
@@ -6088,9 +6088,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Palio of Siena”?",
       "choices": [
-        "Veneto",
-        "Liguria",
-        "Molise",
+        "Emilia-Romagna",
+        "Apulia",
+        "Sicily",
         "Tuscany"
       ],
       "correctIndex": 3,
@@ -6102,12 +6102,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Wild boar”?",
       "choices": [
-        "Emilia-Romagna",
+        "Sardinia",
+        "Calabria",
         "Umbria",
-        "Basilicata",
-        "Sicily"
+        "Abruzzo"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Wild boar” is part of the wildlife of Umbria."
     },
     {
@@ -6116,12 +6116,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Wolf”?",
       "choices": [
+        "Liguria",
         "Apulia",
         "Umbria",
-        "Sicily",
-        "Abruzzo"
+        "Sicily"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Wolf” is part of the wildlife of Umbria."
     },
     {
@@ -6130,12 +6130,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Peregrine falcon”?",
       "choices": [
-        "Veneto",
-        "Molise",
+        "Marche",
         "Umbria",
-        "Piedmont"
+        "Trentino-South Tyrol",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Peregrine falcon” is part of the wildlife of Umbria."
     },
     {
@@ -6144,12 +6144,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Olive tree”?",
       "choices": [
-        "Emilia-Romagna",
+        "Umbria",
+        "Veneto",
         "Trentino-South Tyrol",
-        "Aosta Valley",
-        "Umbria"
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Olive tree” is a typical plant of Umbria."
     },
     {
@@ -6158,10 +6158,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Downy oak”?",
       "choices": [
-        "Apulia",
+        "Calabria",
         "Umbria",
-        "Friuli-Venezia Giulia",
-        "Aosta Valley"
+        "Piedmont",
+        "Friuli-Venezia Giulia"
       ],
       "correctIndex": 1,
       "explanation": "“Downy oak” is a typical plant of Umbria."
@@ -6172,12 +6172,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Castelluccio lentil”?",
       "choices": [
-        "Tuscany",
-        "Umbria",
-        "Friuli-Venezia Giulia",
-        "Sardinia"
+        "Abruzzo",
+        "Molise",
+        "Trentino-South Tyrol",
+        "Umbria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Castelluccio lentil” is a typical plant of Umbria."
     },
     {
@@ -6186,12 +6186,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Strangozzi with truffle”?",
       "choices": [
-        "Lazio",
         "Umbria",
-        "Trentino-South Tyrol",
-        "Lombardy"
+        "Sardinia",
+        "Veneto",
+        "Campania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Strangozzi with truffle” is a typical dish of Umbria."
     },
     {
@@ -6200,12 +6200,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Castelluccio lentils”?",
       "choices": [
-        "Campania",
-        "Emilia-Romagna",
+        "Umbria",
+        "Calabria",
         "Piedmont",
-        "Umbria"
+        "Apulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Castelluccio lentils” is a typical dish of Umbria."
     },
     {
@@ -6214,12 +6214,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Porchetta”?",
       "choices": [
+        "Friuli-Venezia Giulia",
+        "Sardinia",
         "Umbria",
-        "Trentino-South Tyrol",
-        "Tuscany",
-        "Sicily"
+        "Trentino-South Tyrol"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Porchetta” is a typical dish of Umbria."
     },
     {
@@ -6228,12 +6228,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Assisi”?",
       "choices": [
-        "Umbria",
-        "Piedmont",
-        "Sardinia",
-        "Basilicata"
+        "Lombardy",
+        "Abruzzo",
+        "Friuli-Venezia Giulia",
+        "Umbria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Assisi” is in Umbria."
     },
     {
@@ -6243,9 +6243,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In which region is “Marmore Falls”?",
       "choices": [
         "Umbria",
-        "Liguria",
-        "Sardinia",
-        "Friuli-Venezia Giulia"
+        "Marche",
+        "Basilicata",
+        "Sicily"
       ],
       "correctIndex": 0,
       "explanation": "“Marmore Falls” is in Umbria."
@@ -6256,12 +6256,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Orvieto”?",
       "choices": [
-        "Liguria",
-        "Abruzzo",
+        "Piedmont",
         "Umbria",
+        "Abruzzo",
         "Trentino-South Tyrol"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Orvieto” is in Umbria."
     },
     {
@@ -6270,12 +6270,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Saint Francis”?",
       "choices": [
-        "Tuscany",
-        "Campania",
+        "Basilicata",
         "Umbria",
-        "Piedmont"
+        "Piedmont",
+        "Apulia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "This fact is about Umbria."
     },
     {
@@ -6284,12 +6284,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Marmore and the Romans”?",
       "choices": [
-        "Tuscany",
-        "Calabria",
         "Umbria",
-        "Friuli-Venezia Giulia"
+        "Friuli-Venezia Giulia",
+        "Aosta Valley",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "This fact is about Umbria."
     },
     {
@@ -6298,12 +6298,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Etruscan Perugia”?",
       "choices": [
-        "Calabria",
-        "Marche",
-        "Umbria",
-        "Friuli-Venezia Giulia"
+        "Liguria",
+        "Tuscany",
+        "Veneto",
+        "Umbria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "This fact is about Umbria."
     },
     {
@@ -6312,12 +6312,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Golden eagle”?",
       "choices": [
-        "Lombardy",
+        "Abruzzo",
+        "Piedmont",
         "Marche",
-        "Lazio",
-        "Sardinia"
+        "Liguria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Golden eagle” is part of the wildlife of Marche."
     },
     {
@@ -6326,12 +6326,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Wolf”?",
       "choices": [
-        "Sardinia",
+        "Trentino-South Tyrol",
+        "Abruzzo",
         "Marche",
-        "Campania",
-        "Veneto"
+        "Aosta Valley"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Wolf” is part of the wildlife of Marche."
     },
     {
@@ -6341,9 +6341,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In which region does this animal live: “Yellow-legged gull”?",
       "choices": [
         "Marche",
-        "Aosta Valley",
-        "Calabria",
-        "Molise"
+        "Sicily",
+        "Emilia-Romagna",
+        "Friuli-Venezia Giulia"
       ],
       "correctIndex": 0,
       "explanation": "“Yellow-legged gull” is part of the wildlife of Marche."
@@ -6354,12 +6354,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Sunflower”?",
       "choices": [
-        "Tuscany",
-        "Umbria",
-        "Marche",
-        "Calabria"
+        "Aosta Valley",
+        "Lazio",
+        "Basilicata",
+        "Marche"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Sunflower” is a typical plant of Marche."
     },
     {
@@ -6368,12 +6368,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Olive tree”?",
       "choices": [
-        "Friuli-Venezia Giulia",
         "Marche",
-        "Piedmont",
+        "Aosta Valley",
+        "Veneto",
         "Sardinia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Olive tree” is a typical plant of Marche."
     },
     {
@@ -6384,8 +6384,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "Marche",
         "Abruzzo",
-        "Aosta Valley",
-        "Liguria"
+        "Calabria",
+        "Veneto"
       ],
       "correctIndex": 0,
       "explanation": "“Holm oak” is a typical plant of Marche."
@@ -6396,9 +6396,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Ascoli-style olives”?",
       "choices": [
-        "Campania",
-        "Aosta Valley",
-        "Liguria",
+        "Piedmont",
+        "Emilia-Romagna",
+        "Veneto",
         "Marche"
       ],
       "correctIndex": 3,
@@ -6410,10 +6410,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Brodetto”?",
       "choices": [
-        "Apulia",
+        "Umbria",
         "Marche",
-        "Campania",
-        "Abruzzo"
+        "Lombardy",
+        "Lazio"
       ],
       "correctIndex": 1,
       "explanation": "“Brodetto” is a typical dish of Marche."
@@ -6424,12 +6424,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Vincisgrassi”?",
       "choices": [
-        "Calabria",
+        "Emilia-Romagna",
+        "Abruzzo",
         "Marche",
-        "Campania",
-        "Abruzzo"
+        "Campania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Vincisgrassi” is a typical dish of Marche."
     },
     {
@@ -6438,12 +6438,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Urbino”?",
       "choices": [
-        "Piedmont",
-        "Calabria",
-        "Marche",
-        "Friuli-Venezia Giulia"
+        "Sicily",
+        "Aosta Valley",
+        "Abruzzo",
+        "Marche"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Urbino” is in Marche."
     },
     {
@@ -6452,12 +6452,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Frasassi Caves”?",
       "choices": [
-        "Liguria",
-        "Campania",
+        "Molise",
         "Marche",
-        "Sardinia"
+        "Basilicata",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Frasassi Caves” is in Marche."
     },
     {
@@ -6466,12 +6466,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Monte Conero”?",
       "choices": [
-        "Piedmont",
-        "Veneto",
-        "Marche",
-        "Lazio"
+        "Molise",
+        "Calabria",
+        "Abruzzo",
+        "Marche"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Monte Conero” is in Marche."
     },
     {
@@ -6480,12 +6480,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Raphael”?",
       "choices": [
-        "Tuscany",
-        "Piedmont",
-        "Marche",
-        "Liguria"
+        "Sicily",
+        "Basilicata",
+        "Liguria",
+        "Marche"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "This fact is about Marche."
     },
     {
@@ -6494,12 +6494,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Ducal Palace of Urbino”?",
       "choices": [
-        "Lombardy",
-        "Marche",
+        "Veneto",
+        "Apulia",
         "Molise",
-        "Sicily"
+        "Marche"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "This fact is about Marche."
     },
     {
@@ -6508,12 +6508,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Loreto”?",
       "choices": [
-        "Molise",
-        "Friuli-Venezia Giulia",
-        "Campania",
-        "Marche"
+        "Basilicata",
+        "Abruzzo",
+        "Marche",
+        "Veneto"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "This fact is about Marche."
     },
     {
@@ -6522,10 +6522,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Yellow-legged gull”?",
       "choices": [
-        "Sicily",
+        "Aosta Valley",
         "Lazio",
-        "Tuscany",
-        "Trentino-South Tyrol"
+        "Trentino-South Tyrol",
+        "Basilicata"
       ],
       "correctIndex": 1,
       "explanation": "“Yellow-legged gull” is part of the wildlife of Lazio."
@@ -6536,12 +6536,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Wolf”?",
       "choices": [
-        "Trentino-South Tyrol",
-        "Abruzzo",
         "Lazio",
-        "Friuli-Venezia Giulia"
+        "Sardinia",
+        "Campania",
+        "Aosta Valley"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Wolf” is part of the wildlife of Lazio."
     },
     {
@@ -6550,12 +6550,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Wild boar”?",
       "choices": [
-        "Campania",
-        "Lazio",
-        "Sardinia",
-        "Aosta Valley"
+        "Veneto",
+        "Emilia-Romagna",
+        "Calabria",
+        "Lazio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Wild boar” is part of the wildlife of Lazio."
     },
     {
@@ -6564,12 +6564,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Stone pine”?",
       "choices": [
-        "Lombardy",
-        "Veneto",
+        "Sardinia",
         "Lazio",
+        "Sicily",
         "Umbria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Stone pine” is a typical plant of Lazio."
     },
     {
@@ -6578,12 +6578,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Holm oak”?",
       "choices": [
-        "Tuscany",
-        "Abruzzo",
+        "Trentino-South Tyrol",
+        "Lazio",
         "Friuli-Venezia Giulia",
-        "Lazio"
+        "Aosta Valley"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Holm oak” is a typical plant of Lazio."
     },
     {
@@ -6592,12 +6592,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Olive tree”?",
       "choices": [
-        "Trentino-South Tyrol",
-        "Lazio",
-        "Calabria",
-        "Friuli-Venezia Giulia"
+        "Piedmont",
+        "Campania",
+        "Emilia-Romagna",
+        "Lazio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Olive tree” is a typical plant of Lazio."
     },
     {
@@ -6606,12 +6606,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Carbonara”?",
       "choices": [
-        "Marche",
         "Lazio",
         "Tuscany",
-        "Lombardy"
+        "Campania",
+        "Trentino-South Tyrol"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Carbonara” is a typical dish of Lazio."
     },
     {
@@ -6620,12 +6620,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Supplì”?",
       "choices": [
+        "Sicily",
         "Lazio",
-        "Apulia",
-        "Abruzzo",
-        "Piedmont"
+        "Trentino-South Tyrol",
+        "Umbria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Supplì” is a typical dish of Lazio."
     },
     {
@@ -6634,12 +6634,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Jewish-style artichokes”?",
       "choices": [
-        "Sicily",
-        "Lazio",
+        "Friuli-Venezia Giulia",
+        "Trentino-South Tyrol",
         "Emilia-Romagna",
-        "Tuscany"
+        "Lazio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Jewish-style artichokes” is a typical dish of Lazio."
     },
     {
@@ -6648,12 +6648,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Colosseum”?",
       "choices": [
-        "Emilia-Romagna",
-        "Sicily",
-        "Calabria",
-        "Lazio"
+        "Umbria",
+        "Sardinia",
+        "Lazio",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Colosseum” is in Lazio."
     },
     {
@@ -6662,12 +6662,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Trevi Fountain”?",
       "choices": [
-        "Molise",
-        "Liguria",
         "Lombardy",
-        "Lazio"
+        "Lazio",
+        "Piedmont",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Trevi Fountain” is in Lazio."
     },
     {
@@ -6676,12 +6676,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Villa d'Este”?",
       "choices": [
-        "Friuli-Venezia Giulia",
-        "Apulia",
-        "Umbria",
-        "Lazio"
+        "Veneto",
+        "Lazio",
+        "Calabria",
+        "Piedmont"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Villa d'Este” is in Lazio."
     },
     {
@@ -6690,10 +6690,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Founding of Rome”?",
       "choices": [
-        "Emilia-Romagna",
+        "Lombardy",
         "Lazio",
-        "Umbria",
-        "Apulia"
+        "Campania",
+        "Basilicata"
       ],
       "correctIndex": 1,
       "explanation": "This fact is about Lazio."
@@ -6704,12 +6704,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Roman Empire”?",
       "choices": [
-        "Aosta Valley",
-        "Tuscany",
-        "Lazio",
-        "Basilicata"
+        "Lombardy",
+        "Marche",
+        "Calabria",
+        "Lazio"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "This fact is about Lazio."
     },
     {
@@ -6718,12 +6718,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Rome the capital”?",
       "choices": [
+        "Abruzzo",
         "Lazio",
-        "Umbria",
-        "Liguria",
-        "Molise"
+        "Emilia-Romagna",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "This fact is about Lazio."
     },
     {
@@ -6733,9 +6733,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In which region does this animal live: “Marsican bear”?",
       "choices": [
         "Abruzzo",
-        "Calabria",
-        "Marche",
-        "Molise"
+        "Tuscany",
+        "Lombardy",
+        "Campania"
       ],
       "correctIndex": 0,
       "explanation": "“Marsican bear” is part of the wildlife of Abruzzo."
@@ -6746,12 +6746,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Abruzzo chamois”?",
       "choices": [
-        "Emilia-Romagna",
-        "Abruzzo",
+        "Liguria",
         "Molise",
-        "Basilicata"
+        "Sardinia",
+        "Abruzzo"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Abruzzo chamois” is part of the wildlife of Abruzzo."
     },
     {
@@ -6760,12 +6760,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Apennine wolf”?",
       "choices": [
-        "Piedmont",
-        "Campania",
+        "Basilicata",
         "Abruzzo",
-        "Sicily"
+        "Calabria",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Apennine wolf” is part of the wildlife of Abruzzo."
     },
     {
@@ -6774,12 +6774,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Beech”?",
       "choices": [
-        "Emilia-Romagna",
-        "Trentino-South Tyrol",
+        "Veneto",
         "Sicily",
-        "Abruzzo"
+        "Abruzzo",
+        "Trentino-South Tyrol"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Beech” is a typical plant of Abruzzo."
     },
     {
@@ -6788,12 +6788,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Saffron crocus”?",
       "choices": [
-        "Umbria",
-        "Marche",
-        "Liguria",
-        "Abruzzo"
+        "Tuscany",
+        "Veneto",
+        "Abruzzo",
+        "Umbria"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Saffron crocus” is a typical plant of Abruzzo."
     },
     {
@@ -6802,12 +6802,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Gentian”?",
       "choices": [
-        "Apulia",
-        "Molise",
-        "Abruzzo",
-        "Campania"
+        "Calabria",
+        "Lombardy",
+        "Lazio",
+        "Abruzzo"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Gentian” is a typical plant of Abruzzo."
     },
     {
@@ -6816,12 +6816,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Arrosticini”?",
       "choices": [
-        "Emilia-Romagna",
-        "Lombardy",
-        "Abruzzo",
-        "Friuli-Venezia Giulia"
+        "Sicily",
+        "Sardinia",
+        "Basilicata",
+        "Abruzzo"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Arrosticini” is a typical dish of Abruzzo."
     },
     {
@@ -6830,12 +6830,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Spaghetti alla chitarra”?",
       "choices": [
-        "Lombardy",
-        "Campania",
         "Abruzzo",
-        "Liguria"
+        "Lazio",
+        "Trentino-South Tyrol",
+        "Basilicata"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Spaghetti alla chitarra” is a typical dish of Abruzzo."
     },
     {
@@ -6844,12 +6844,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Sulmona sugared almonds”?",
       "choices": [
+        "Lazio",
         "Abruzzo",
-        "Tuscany",
-        "Umbria",
-        "Basilicata"
+        "Marche",
+        "Calabria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Sulmona sugared almonds” is a typical dish of Abruzzo."
     },
     {
@@ -6858,12 +6858,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Gran Sasso”?",
       "choices": [
-        "Sicily",
-        "Piedmont",
         "Abruzzo",
-        "Friuli-Venezia Giulia"
+        "Tuscany",
+        "Liguria",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Gran Sasso” is in Abruzzo."
     },
     {
@@ -6872,10 +6872,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Trabocchi”?",
       "choices": [
-        "Sicily",
-        "Sardinia",
+        "Lombardy",
+        "Basilicata",
         "Abruzzo",
-        "Campania"
+        "Calabria"
       ],
       "correctIndex": 2,
       "explanation": "“Trabocchi” is in Abruzzo."
@@ -6886,12 +6886,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Rocca Calascio”?",
       "choices": [
-        "Apulia",
-        "Piedmont",
-        "Lombardy",
-        "Abruzzo"
+        "Trentino-South Tyrol",
+        "Umbria",
+        "Abruzzo",
+        "Lombardy"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Rocca Calascio” is in Abruzzo."
     },
     {
@@ -6900,12 +6900,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Abruzzo Park”?",
       "choices": [
-        "Abruzzo",
         "Marche",
-        "Friuli-Venezia Giulia",
-        "Liguria"
+        "Liguria",
+        "Abruzzo",
+        "Aosta Valley"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "This fact is about Abruzzo."
     },
     {
@@ -6914,12 +6914,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Transhumance”?",
       "choices": [
-        "Veneto",
+        "Umbria",
+        "Sicily",
         "Abruzzo",
-        "Sardinia",
-        "Trentino-South Tyrol"
+        "Emilia-Romagna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "This fact is about Abruzzo."
     },
     {
@@ -6928,10 +6928,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Basilica of Collemaggio”?",
       "choices": [
-        "Molise",
+        "Tuscany",
         "Abruzzo",
-        "Sicily",
-        "Emilia-Romagna"
+        "Molise",
+        "Apulia"
       ],
       "correctIndex": 1,
       "explanation": "This fact is about Abruzzo."
@@ -6942,12 +6942,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Wolf”?",
       "choices": [
-        "Abruzzo",
-        "Aosta Valley",
         "Campania",
-        "Molise"
+        "Sardinia",
+        "Molise",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Wolf” is part of the wildlife of Molise."
     },
     {
@@ -6956,12 +6956,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Wild boar”?",
       "choices": [
-        "Trentino-South Tyrol",
-        "Aosta Valley",
-        "Apulia",
-        "Molise"
+        "Sardinia",
+        "Abruzzo",
+        "Molise",
+        "Apulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Wild boar” is part of the wildlife of Molise."
     },
     {
@@ -6970,12 +6970,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Sea turtle”?",
       "choices": [
+        "Abruzzo",
+        "Piedmont",
         "Molise",
-        "Emilia-Romagna",
-        "Liguria",
         "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Sea turtle” is part of the wildlife of Molise."
     },
     {
@@ -6984,12 +6984,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Olive tree”?",
       "choices": [
-        "Sardinia",
-        "Abruzzo",
-        "Emilia-Romagna",
-        "Molise"
+        "Campania",
+        "Trentino-South Tyrol",
+        "Molise",
+        "Aosta Valley"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Olive tree” is a typical plant of Molise."
     },
     {
@@ -6999,9 +6999,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In which region does this plant grow: “Downy oak”?",
       "choices": [
         "Molise",
-        "Abruzzo",
-        "Lazio",
-        "Aosta Valley"
+        "Calabria",
+        "Tuscany",
+        "Marche"
       ],
       "correctIndex": 0,
       "explanation": "“Downy oak” is a typical plant of Molise."
@@ -7012,12 +7012,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Beech”?",
       "choices": [
-        "Molise",
         "Sardinia",
-        "Apulia",
-        "Veneto"
+        "Emilia-Romagna",
+        "Molise",
+        "Apulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Beech” is a typical plant of Molise."
     },
     {
@@ -7026,12 +7026,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Cavatelli”?",
       "choices": [
-        "Aosta Valley",
         "Molise",
-        "Basilicata",
-        "Lazio"
+        "Trentino-South Tyrol",
+        "Marche",
+        "Aosta Valley"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Cavatelli” is a typical dish of Molise."
     },
     {
@@ -7040,10 +7040,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Caciocavallo”?",
       "choices": [
-        "Sicily",
-        "Campania",
+        "Lazio",
+        "Liguria",
         "Molise",
-        "Sardinia"
+        "Sicily"
       ],
       "correctIndex": 2,
       "explanation": "“Caciocavallo” is a typical dish of Molise."
@@ -7054,12 +7054,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Pallotte cacio e uova”?",
       "choices": [
-        "Calabria",
         "Molise",
-        "Lombardy",
-        "Campania"
+        "Umbria",
+        "Basilicata",
+        "Piedmont"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Pallotte cacio e uova” is a typical dish of Molise."
     },
     {
@@ -7068,10 +7068,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Termoli”?",
       "choices": [
-        "Aosta Valley",
+        "Abruzzo",
         "Molise",
-        "Lombardy",
-        "Sicily"
+        "Friuli-Venezia Giulia",
+        "Trentino-South Tyrol"
       ],
       "correctIndex": 1,
       "explanation": "“Termoli” is in Molise."
@@ -7082,12 +7082,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Saepinum”?",
       "choices": [
+        "Emilia-Romagna",
         "Molise",
-        "Friuli-Venezia Giulia",
-        "Apulia",
-        "Lombardy"
+        "Marche",
+        "Liguria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Saepinum” is in Molise."
     },
     {
@@ -7096,12 +7096,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Agnone”?",
       "choices": [
-        "Lombardy",
-        "Umbria",
-        "Molise",
-        "Veneto"
+        "Lazio",
+        "Apulia",
+        "Basilicata",
+        "Molise"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Agnone” is in Molise."
     },
     {
@@ -7110,12 +7110,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “A region since 1963”?",
       "choices": [
-        "Emilia-Romagna",
         "Molise",
-        "Aosta Valley",
-        "Lombardy"
+        "Sardinia",
+        "Veneto",
+        "Basilicata"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "This fact is about Molise."
     },
     {
@@ -7124,12 +7124,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Tratturi”?",
       "choices": [
-        "Molise",
-        "Campania",
-        "Lombardy",
-        "Liguria"
+        "Veneto",
+        "Liguria",
+        "Abruzzo",
+        "Molise"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "This fact is about Molise."
     },
     {
@@ -7138,12 +7138,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Agnone Tablet”?",
       "choices": [
-        "Aosta Valley",
+        "Trentino-South Tyrol",
+        "Veneto",
         "Molise",
-        "Marche",
-        "Trentino-South Tyrol"
+        "Sicily"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "This fact is about Molise."
     },
     {
@@ -7152,10 +7152,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Yellow-legged gull”?",
       "choices": [
-        "Sardinia",
-        "Friuli-Venezia Giulia",
+        "Molise",
+        "Basilicata",
         "Campania",
-        "Sicily"
+        "Umbria"
       ],
       "correctIndex": 2,
       "explanation": "“Yellow-legged gull” is part of the wildlife of Campania."
@@ -7166,10 +7166,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Scopoli's shearwater”?",
       "choices": [
-        "Umbria",
+        "Trentino-South Tyrol",
         "Campania",
-        "Lombardy",
-        "Piedmont"
+        "Abruzzo",
+        "Sicily"
       ],
       "correctIndex": 1,
       "explanation": "“Scopoli's shearwater” is part of the wildlife of Campania."
@@ -7180,12 +7180,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Bottlenose dolphin”?",
       "choices": [
-        "Lombardy",
-        "Basilicata",
         "Campania",
-        "Trentino-South Tyrol"
+        "Friuli-Venezia Giulia",
+        "Calabria",
+        "Marche"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Bottlenose dolphin” is part of the wildlife of Campania."
     },
     {
@@ -7194,12 +7194,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Lemon”?",
       "choices": [
-        "Marche",
-        "Campania",
-        "Piedmont",
-        "Aosta Valley"
+        "Abruzzo",
+        "Umbria",
+        "Veneto",
+        "Campania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Lemon” is a typical plant of Campania."
     },
     {
@@ -7208,12 +7208,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Tomato”?",
       "choices": [
-        "Umbria",
-        "Veneto",
-        "Tuscany",
-        "Campania"
+        "Sicily",
+        "Apulia",
+        "Campania",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Tomato” is a typical plant of Campania."
     },
     {
@@ -7222,12 +7222,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Grapevine”?",
       "choices": [
-        "Abruzzo",
         "Campania",
         "Umbria",
-        "Sardinia"
+        "Abruzzo",
+        "Lombardy"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Grapevine” is a typical plant of Campania."
     },
     {
@@ -7236,12 +7236,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Neapolitan pizza”?",
       "choices": [
-        "Sardinia",
-        "Apulia",
         "Campania",
-        "Sicily"
+        "Basilicata",
+        "Piedmont",
+        "Lombardy"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Neapolitan pizza” is a typical dish of Campania."
     },
     {
@@ -7250,12 +7250,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Buffalo mozzarella”?",
       "choices": [
-        "Lombardy",
+        "Friuli-Venezia Giulia",
+        "Molise",
         "Campania",
-        "Liguria",
-        "Molise"
+        "Liguria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Buffalo mozzarella” is a typical dish of Campania."
     },
     {
@@ -7264,12 +7264,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Sfogliatella”?",
       "choices": [
-        "Apulia",
-        "Sardinia",
-        "Molise",
-        "Campania"
+        "Campania",
+        "Marche",
+        "Trentino-South Tyrol",
+        "Sicily"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Sfogliatella” is a typical dish of Campania."
     },
     {
@@ -7278,12 +7278,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Pompeii”?",
       "choices": [
+        "Sardinia",
         "Campania",
-        "Calabria",
-        "Aosta Valley",
-        "Trentino-South Tyrol"
+        "Tuscany",
+        "Abruzzo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Pompeii” is in Campania."
     },
     {
@@ -7292,12 +7292,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Amalfi Coast”?",
       "choices": [
+        "Emilia-Romagna",
+        "Trentino-South Tyrol",
         "Campania",
-        "Sardinia",
-        "Sicily",
         "Molise"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Amalfi Coast” is in Campania."
     },
     {
@@ -7306,12 +7306,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Vesuvius”?",
       "choices": [
-        "Campania",
         "Piedmont",
-        "Lazio",
-        "Liguria"
+        "Campania",
+        "Friuli-Venezia Giulia",
+        "Lombardy"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Vesuvius” is in Campania."
     },
     {
@@ -7320,12 +7320,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Eruption of AD 79”?",
       "choices": [
-        "Molise",
-        "Tuscany",
         "Calabria",
-        "Campania"
+        "Emilia-Romagna",
+        "Campania",
+        "Umbria"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "This fact is about Campania."
     },
     {
@@ -7334,12 +7334,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Republic of Amalfi”?",
       "choices": [
-        "Abruzzo",
         "Campania",
-        "Liguria",
-        "Friuli-Venezia Giulia"
+        "Marche",
+        "Molise",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "This fact is about Campania."
     },
     {
@@ -7348,12 +7348,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Kingdom of Naples”?",
       "choices": [
-        "Calabria",
-        "Liguria",
         "Veneto",
-        "Campania"
+        "Molise",
+        "Campania",
+        "Piedmont"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "This fact is about Campania."
     },
     {
@@ -7362,12 +7362,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Flamingo”?",
       "choices": [
-        "Apulia",
         "Friuli-Venezia Giulia",
-        "Trentino-South Tyrol",
-        "Lazio"
+        "Apulia",
+        "Molise",
+        "Tuscany"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Flamingo” is part of the wildlife of Apulia."
     },
     {
@@ -7377,9 +7377,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In which region does this animal live: “Lesser kestrel”?",
       "choices": [
         "Apulia",
-        "Piedmont",
-        "Calabria",
-        "Lazio"
+        "Basilicata",
+        "Sardinia",
+        "Aosta Valley"
       ],
       "correctIndex": 0,
       "explanation": "“Lesser kestrel” is part of the wildlife of Apulia."
@@ -7390,12 +7390,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Sea turtle”?",
       "choices": [
-        "Emilia-Romagna",
-        "Abruzzo",
-        "Apulia",
-        "Tuscany"
+        "Liguria",
+        "Basilicata",
+        "Piedmont",
+        "Apulia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Sea turtle” is part of the wildlife of Apulia."
     },
     {
@@ -7404,12 +7404,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Olive tree”?",
       "choices": [
-        "Apulia",
-        "Emilia-Romagna",
-        "Calabria",
-        "Veneto"
+        "Veneto",
+        "Sardinia",
+        "Sicily",
+        "Apulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Olive tree” is a typical plant of Apulia."
     },
     {
@@ -7418,12 +7418,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Prickly pear”?",
       "choices": [
-        "Apulia",
+        "Basilicata",
         "Friuli-Venezia Giulia",
-        "Calabria",
-        "Liguria"
+        "Marche",
+        "Apulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Prickly pear” is a typical plant of Apulia."
     },
     {
@@ -7432,12 +7432,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Grapevine”?",
       "choices": [
-        "Marche",
         "Apulia",
-        "Calabria",
-        "Trentino-South Tyrol"
+        "Lazio",
+        "Umbria",
+        "Marche"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Grapevine” is a typical plant of Apulia."
     },
     {
@@ -7446,12 +7446,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Orecchiette”?",
       "choices": [
+        "Piedmont",
         "Apulia",
-        "Tuscany",
-        "Molise",
-        "Aosta Valley"
+        "Veneto",
+        "Basilicata"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Orecchiette” is a typical dish of Apulia."
     },
     {
@@ -7460,12 +7460,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Burrata”?",
       "choices": [
+        "Lazio",
+        "Sicily",
         "Apulia",
-        "Trentino-South Tyrol",
-        "Calabria",
-        "Basilicata"
+        "Veneto"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Burrata” is a typical dish of Apulia."
     },
     {
@@ -7474,12 +7474,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Panzerotto”?",
       "choices": [
+        "Molise",
         "Apulia",
-        "Sicily",
-        "Campania",
-        "Liguria"
+        "Abruzzo",
+        "Trentino-South Tyrol"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Panzerotto” is a typical dish of Apulia."
     },
     {
@@ -7488,12 +7488,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Alberobello”?",
       "choices": [
+        "Liguria",
         "Apulia",
-        "Friuli-Venezia Giulia",
-        "Sardinia",
-        "Basilicata"
+        "Sicily",
+        "Molise"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Alberobello” is in Apulia."
     },
     {
@@ -7502,10 +7502,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Castel del Monte”?",
       "choices": [
-        "Lombardy",
+        "Piedmont",
         "Apulia",
-        "Veneto",
-        "Friuli-Venezia Giulia"
+        "Liguria",
+        "Lazio"
       ],
       "correctIndex": 1,
       "explanation": "“Castel del Monte” is in Apulia."
@@ -7516,8 +7516,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Lecce”?",
       "choices": [
-        "Marche",
-        "Friuli-Venezia Giulia",
+        "Veneto",
+        "Aosta Valley",
         "Liguria",
         "Apulia"
       ],
@@ -7530,12 +7530,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Frederick II”?",
       "choices": [
+        "Tuscany",
         "Apulia",
-        "Calabria",
-        "Molise",
-        "Sardinia"
+        "Veneto",
+        "Aosta Valley"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "This fact is about Apulia."
     },
     {
@@ -7544,7 +7544,7 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Trulli”?",
       "choices": [
-        "Liguria",
+        "Emilia-Romagna",
         "Abruzzo",
         "Apulia",
         "Sicily"
@@ -7558,12 +7558,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Port of Brindisi”?",
       "choices": [
-        "Apulia",
         "Lombardy",
-        "Liguria",
-        "Basilicata"
+        "Lazio",
+        "Apulia",
+        "Molise"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "This fact is about Apulia."
     },
     {
@@ -7572,12 +7572,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Wolf”?",
       "choices": [
-        "Campania",
         "Basilicata",
-        "Apulia",
-        "Lombardy"
+        "Sicily",
+        "Lombardy",
+        "Sardinia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Wolf” is part of the wildlife of Basilicata."
     },
     {
@@ -7586,9 +7586,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Roe deer”?",
       "choices": [
-        "Umbria",
         "Molise",
         "Sardinia",
+        "Sicily",
         "Basilicata"
       ],
       "correctIndex": 3,
@@ -7600,12 +7600,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Golden eagle”?",
       "choices": [
-        "Basilicata",
-        "Umbria",
-        "Campania",
-        "Lazio"
+        "Calabria",
+        "Tuscany",
+        "Abruzzo",
+        "Basilicata"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Golden eagle” is part of the wildlife of Basilicata."
     },
     {
@@ -7614,10 +7614,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Bosnian pine”?",
       "choices": [
-        "Molise",
-        "Sardinia",
+        "Aosta Valley",
+        "Liguria",
         "Basilicata",
-        "Sicily"
+        "Lombardy"
       ],
       "correctIndex": 2,
       "explanation": "“Bosnian pine” is a typical plant of Basilicata."
@@ -7628,12 +7628,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Senise pepper”?",
       "choices": [
-        "Tuscany",
-        "Marche",
         "Basilicata",
-        "Piedmont"
+        "Sardinia",
+        "Friuli-Venezia Giulia",
+        "Aosta Valley"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Senise pepper” is a typical plant of Basilicata."
     },
     {
@@ -7642,12 +7642,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Olive tree”?",
       "choices": [
-        "Trentino-South Tyrol",
-        "Sicily",
+        "Emilia-Romagna",
         "Basilicata",
-        "Piedmont"
+        "Veneto",
+        "Lombardy"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Olive tree” is a typical plant of Basilicata."
     },
     {
@@ -7656,12 +7656,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Peperoni cruschi”?",
       "choices": [
+        "Tuscany",
+        "Basilicata",
         "Friuli-Venezia Giulia",
-        "Marche",
-        "Liguria",
-        "Basilicata"
+        "Apulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Peperoni cruschi” is a typical dish of Basilicata."
     },
     {
@@ -7671,11 +7671,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "Which region is this dish typical of: “Matera bread”?",
       "choices": [
         "Molise",
-        "Calabria",
         "Basilicata",
-        "Aosta Valley"
+        "Apulia",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Matera bread” is a typical dish of Basilicata."
     },
     {
@@ -7685,11 +7685,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "Which region is this dish typical of: “Lucanica”?",
       "choices": [
         "Friuli-Venezia Giulia",
-        "Trentino-South Tyrol",
-        "Campania",
-        "Basilicata"
+        "Basilicata",
+        "Veneto",
+        "Marche"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Lucanica” is a typical dish of Basilicata."
     },
     {
@@ -7698,12 +7698,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Sassi of Matera”?",
       "choices": [
-        "Basilicata",
-        "Aosta Valley",
-        "Campania",
-        "Trentino-South Tyrol"
+        "Marche",
+        "Veneto",
+        "Liguria",
+        "Basilicata"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Sassi of Matera” is in Basilicata."
     },
     {
@@ -7713,11 +7713,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In which region is “Pollino Park”?",
       "choices": [
         "Lombardy",
+        "Sardinia",
         "Basilicata",
-        "Marche",
-        "Umbria"
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Pollino Park” is in Basilicata."
     },
     {
@@ -7726,12 +7726,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Maratea”?",
       "choices": [
+        "Umbria",
         "Basilicata",
-        "Tuscany",
-        "Marche",
-        "Campania"
+        "Campania",
+        "Aosta Valley"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“Maratea” is in Basilicata."
     },
     {
@@ -7740,12 +7740,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “The inhabited Sassi”?",
       "choices": [
-        "Marche",
         "Basilicata",
         "Aosta Valley",
-        "Lazio"
+        "Abruzzo",
+        "Molise"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "This fact is about Basilicata."
     },
     {
@@ -7754,10 +7754,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Metaponto”?",
       "choices": [
-        "Lombardy",
-        "Trentino-South Tyrol",
+        "Aosta Valley",
+        "Piedmont",
         "Basilicata",
-        "Calabria"
+        "Veneto"
       ],
       "correctIndex": 2,
       "explanation": "This fact is about Basilicata."
@@ -7768,12 +7768,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “19th-century brigands”?",
       "choices": [
-        "Abruzzo",
-        "Aosta Valley",
+        "Friuli-Venezia Giulia",
+        "Basilicata",
         "Emilia-Romagna",
-        "Basilicata"
+        "Sicily"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "This fact is about Basilicata."
     },
     {
@@ -7782,12 +7782,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Wolf”?",
       "choices": [
-        "Apulia",
         "Liguria",
-        "Abruzzo",
-        "Calabria"
+        "Sardinia",
+        "Calabria",
+        "Trentino-South Tyrol"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Wolf” is part of the wildlife of Calabria."
     },
     {
@@ -7796,12 +7796,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Deer”?",
       "choices": [
-        "Molise",
-        "Umbria",
         "Calabria",
-        "Friuli-Venezia Giulia"
+        "Campania",
+        "Molise",
+        "Marche"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Deer” is part of the wildlife of Calabria."
     },
     {
@@ -7810,12 +7810,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Sea turtle”?",
       "choices": [
+        "Trentino-South Tyrol",
+        "Tuscany",
         "Calabria",
-        "Lazio",
-        "Umbria",
-        "Piedmont"
+        "Veneto"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Sea turtle” is part of the wildlife of Calabria."
     },
     {
@@ -7824,12 +7824,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Bergamot”?",
       "choices": [
-        "Calabria",
-        "Tuscany",
+        "Lazio",
         "Liguria",
-        "Veneto"
+        "Calabria",
+        "Piedmont"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Bergamot” is a typical plant of Calabria."
     },
     {
@@ -7838,12 +7838,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Fig tree”?",
       "choices": [
-        "Veneto",
+        "Trentino-South Tyrol",
+        "Campania",
         "Calabria",
-        "Piedmont",
-        "Molise"
+        "Sardinia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Fig tree” is a typical plant of Calabria."
     },
     {
@@ -7852,12 +7852,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Bosnian pine”?",
       "choices": [
-        "Emilia-Romagna",
-        "Molise",
+        "Sicily",
         "Calabria",
-        "Lombardy"
+        "Apulia",
+        "Umbria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Bosnian pine” is a typical plant of Calabria."
     },
     {
@@ -7866,12 +7866,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “'Nduja”?",
       "choices": [
+        "Friuli-Venezia Giulia",
         "Calabria",
-        "Liguria",
-        "Veneto",
-        "Friuli-Venezia Giulia"
+        "Molise",
+        "Marche"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "“'Nduja” is a typical dish of Calabria."
     },
     {
@@ -7880,12 +7880,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Pizzo tartufo”?",
       "choices": [
-        "Molise",
+        "Calabria",
         "Piedmont",
-        "Tuscany",
-        "Calabria"
+        "Trentino-South Tyrol",
+        "Marche"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Pizzo tartufo” is a typical dish of Calabria."
     },
     {
@@ -7894,12 +7894,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Tropea onion”?",
       "choices": [
-        "Trentino-South Tyrol",
-        "Lazio",
-        "Calabria",
-        "Lombardy"
+        "Emilia-Romagna",
+        "Liguria",
+        "Abruzzo",
+        "Calabria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Tropea onion” is a typical dish of Calabria."
     },
     {
@@ -7908,12 +7908,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Tropea”?",
       "choices": [
+        "Calabria",
         "Umbria",
-        "Campania",
-        "Marche",
-        "Calabria"
+        "Friuli-Venezia Giulia",
+        "Piedmont"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Tropea” is in Calabria."
     },
     {
@@ -7922,12 +7922,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Riace Bronzes”?",
       "choices": [
-        "Calabria",
         "Sicily",
-        "Campania",
-        "Veneto"
+        "Basilicata",
+        "Tuscany",
+        "Calabria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Riace Bronzes” is in Calabria."
     },
     {
@@ -7936,12 +7936,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Scilla”?",
       "choices": [
-        "Umbria",
-        "Calabria",
-        "Marche",
-        "Molise"
+        "Lazio",
+        "Sardinia",
+        "Veneto",
+        "Calabria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Scilla” is in Calabria."
     },
     {
@@ -7950,10 +7950,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Magna Graecia”?",
       "choices": [
-        "Friuli-Venezia Giulia",
-        "Tuscany",
+        "Veneto",
+        "Basilicata",
         "Calabria",
-        "Apulia"
+        "Umbria"
       ],
       "correctIndex": 2,
       "explanation": "This fact is about Calabria."
@@ -7964,12 +7964,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Riace Bronzes”?",
       "choices": [
-        "Basilicata",
-        "Trentino-South Tyrol",
-        "Aosta Valley",
-        "Calabria"
+        "Molise",
+        "Calabria",
+        "Piedmont",
+        "Campania"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "This fact is about Calabria."
     },
     {
@@ -7978,12 +7978,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Strait of Messina”?",
       "choices": [
-        "Emilia-Romagna",
-        "Calabria",
-        "Abruzzo",
-        "Campania"
+        "Lombardy",
+        "Apulia",
+        "Campania",
+        "Calabria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "This fact is about Calabria."
     },
     {
@@ -7992,12 +7992,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Flamingo”?",
       "choices": [
-        "Umbria",
-        "Lombardy",
-        "Sicily",
-        "Lazio"
+        "Marche",
+        "Basilicata",
+        "Campania",
+        "Sicily"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "“Flamingo” is part of the wildlife of Sicily."
     },
     {
@@ -8008,8 +8008,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "Sicily",
         "Trentino-South Tyrol",
-        "Piedmont",
-        "Campania"
+        "Veneto",
+        "Apulia"
       ],
       "correctIndex": 0,
       "explanation": "“Griffon vulture” is part of the wildlife of Sicily."
@@ -8021,9 +8021,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In which region does this animal live: “Sea turtle”?",
       "choices": [
         "Sicily",
-        "Veneto",
-        "Tuscany",
-        "Campania"
+        "Sardinia",
+        "Aosta Valley",
+        "Emilia-Romagna"
       ],
       "correctIndex": 0,
       "explanation": "“Sea turtle” is part of the wildlife of Sicily."
@@ -8034,12 +8034,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Orange tree”?",
       "choices": [
-        "Sicily",
-        "Umbria",
-        "Lombardy",
-        "Veneto"
+        "Basilicata",
+        "Molise",
+        "Apulia",
+        "Sicily"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "“Orange tree” is a typical plant of Sicily."
     },
     {
@@ -8048,12 +8048,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Prickly pear”?",
       "choices": [
-        "Lazio",
-        "Umbria",
-        "Aosta Valley",
-        "Sicily"
+        "Basilicata",
+        "Molise",
+        "Sicily",
+        "Calabria"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "“Prickly pear” is a typical plant of Sicily."
     },
     {
@@ -8062,12 +8062,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Papyrus”?",
       "choices": [
-        "Emilia-Romagna",
-        "Abruzzo",
         "Sicily",
-        "Aosta Valley"
+        "Veneto",
+        "Piedmont",
+        "Campania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "“Papyrus” is a typical plant of Sicily."
     },
     {
@@ -8076,10 +8076,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Cannolo”?",
       "choices": [
-        "Calabria",
+        "Emilia-Romagna",
         "Sicily",
-        "Veneto",
-        "Basilicata"
+        "Friuli-Venezia Giulia",
+        "Lombardy"
       ],
       "correctIndex": 1,
       "explanation": "“Cannolo” is a typical dish of Sicily."
@@ -8090,10 +8090,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Arancina”?",
       "choices": [
-        "Friuli-Venezia Giulia",
         "Lazio",
+        "Liguria",
         "Sicily",
-        "Campania"
+        "Lombardy"
       ],
       "correctIndex": 2,
       "explanation": "“Arancina” is a typical dish of Sicily."
@@ -8104,12 +8104,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Cassata”?",
       "choices": [
-        "Liguria",
-        "Abruzzo",
+        "Sicily",
         "Molise",
-        "Sicily"
+        "Calabria",
+        "Trentino-South Tyrol"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Cassata” is a typical dish of Sicily."
     },
     {
@@ -8118,12 +8118,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Etna”?",
       "choices": [
+        "Abruzzo",
         "Umbria",
-        "Sicily",
-        "Lombardy",
-        "Tuscany"
+        "Lazio",
+        "Sicily"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "“Etna” is in Sicily."
     },
     {
@@ -8132,12 +8132,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Valley of the Temples”?",
       "choices": [
-        "Basilicata",
-        "Molise",
-        "Marche",
-        "Sicily"
+        "Calabria",
+        "Sicily",
+        "Apulia",
+        "Lazio"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Valley of the Temples” is in Sicily."
     },
     {
@@ -8146,12 +8146,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Taormina”?",
       "choices": [
-        "Basilicata",
+        "Sicily",
         "Trentino-South Tyrol",
-        "Lazio",
-        "Sicily"
+        "Liguria",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Taormina” is in Sicily."
     },
     {
@@ -8160,12 +8160,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Magna Graecia”?",
       "choices": [
-        "Marche",
         "Sicily",
-        "Basilicata",
+        "Umbria",
+        "Lombardy",
         "Liguria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "This fact is about Sicily."
     },
     {
@@ -8174,12 +8174,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Arabs in Sicily”?",
       "choices": [
-        "Abruzzo",
-        "Calabria",
-        "Sardinia",
-        "Sicily"
+        "Sicily",
+        "Piedmont",
+        "Marche",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "This fact is about Sicily."
     },
     {
@@ -8188,12 +8188,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Normans in Palermo”?",
       "choices": [
-        "Aosta Valley",
         "Sicily",
+        "Calabria",
         "Sardinia",
-        "Molise"
+        "Apulia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "This fact is about Sicily."
     },
     {
@@ -8202,12 +8202,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Mouflon”?",
       "choices": [
-        "Friuli-Venezia Giulia",
+        "Emilia-Romagna",
+        "Umbria",
         "Sardinia",
-        "Veneto",
-        "Apulia"
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Mouflon” is part of the wildlife of Sardinia."
     },
     {
@@ -8216,12 +8216,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Sardinian deer”?",
       "choices": [
-        "Trentino-South Tyrol",
+        "Abruzzo",
+        "Sicily",
         "Sardinia",
-        "Liguria",
-        "Apulia"
+        "Lombardy"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "“Sardinian deer” is part of the wildlife of Sardinia."
     },
     {
@@ -8230,12 +8230,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In which region does this animal live: “Flamingo”?",
       "choices": [
-        "Aosta Valley",
-        "Basilicata",
+        "Friuli-Venezia Giulia",
         "Sardinia",
-        "Lombardy"
+        "Aosta Valley",
+        "Lazio"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Flamingo” is part of the wildlife of Sardinia."
     },
     {
@@ -8244,12 +8244,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Strawberry tree”?",
       "choices": [
+        "Calabria",
+        "Abruzzo",
         "Sardinia",
-        "Trentino-South Tyrol",
-        "Umbria",
-        "Lombardy"
+        "Lazio"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "“Strawberry tree” is a typical plant of Sardinia."
     },
     {
@@ -8258,12 +8258,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In which region does this plant grow: “Cork oak”?",
       "choices": [
-        "Sicily",
-        "Calabria",
+        "Aosta Valley",
         "Sardinia",
-        "Piedmont"
+        "Veneto",
+        "Sicily"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Cork oak” is a typical plant of Sardinia."
     },
     {
@@ -8273,9 +8273,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In which region does this plant grow: “Myrtle”?",
       "choices": [
         "Sardinia",
-        "Abruzzo",
-        "Trentino-South Tyrol",
-        "Campania"
+        "Sicily",
+        "Emilia-Romagna",
+        "Piedmont"
       ],
       "correctIndex": 0,
       "explanation": "“Myrtle” is a typical plant of Sardinia."
@@ -8286,12 +8286,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Culurgiones”?",
       "choices": [
-        "Lazio",
-        "Apulia",
+        "Umbria",
         "Sardinia",
-        "Calabria"
+        "Veneto",
+        "Campania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Culurgiones” is a typical dish of Sardinia."
     },
     {
@@ -8300,12 +8300,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Pane carasau”?",
       "choices": [
-        "Marche",
         "Sardinia",
-        "Tuscany",
-        "Sicily"
+        "Molise",
+        "Basilicata",
+        "Aosta Valley"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "“Pane carasau” is a typical dish of Sardinia."
     },
     {
@@ -8314,12 +8314,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Which region is this dish typical of: “Seadas”?",
       "choices": [
-        "Apulia",
-        "Marche",
-        "Calabria",
-        "Sardinia"
+        "Tuscany",
+        "Sardinia",
+        "Trentino-South Tyrol",
+        "Veneto"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "“Seadas” is a typical dish of Sardinia."
     },
     {
@@ -8328,12 +8328,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Nuraghe Santu Antine”?",
       "choices": [
-        "Friuli-Venezia Giulia",
-        "Campania",
+        "Umbria",
         "Sardinia",
-        "Marche"
+        "Piedmont",
+        "Basilicata"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Nuraghe Santu Antine” is in Sardinia."
     },
     {
@@ -8342,12 +8342,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Costa Smeralda”?",
       "choices": [
-        "Umbria",
-        "Liguria",
+        "Aosta Valley",
         "Sardinia",
-        "Trentino-South Tyrol"
+        "Calabria",
+        "Lazio"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "“Costa Smeralda” is in Sardinia."
     },
     {
@@ -8356,12 +8356,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In which region is “Cagliari”?",
       "choices": [
+        "Sardinia",
+        "Piedmont",
         "Umbria",
-        "Trentino-South Tyrol",
-        "Liguria",
-        "Sardinia"
+        "Emilia-Romagna"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "“Cagliari” is in Sardinia."
     },
     {
@@ -8370,12 +8370,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “Nuragic civilisation”?",
       "choices": [
-        "Friuli-Venezia Giulia",
-        "Sardinia",
+        "Lazio",
         "Lombardy",
-        "Molise"
+        "Sardinia",
+        "Aosta Valley"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "This fact is about Sardinia."
     },
     {
@@ -8385,9 +8385,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "Which region does this historical fact belong to: “Su Nuraxi”?",
       "choices": [
         "Sardinia",
-        "Molise",
-        "Sicily",
-        "Lombardy"
+        "Basilicata",
+        "Veneto",
+        "Friuli-Venezia Giulia"
       ],
       "correctIndex": 0,
       "explanation": "This fact is about Sardinia."
@@ -8398,12 +8398,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "Which region does this historical fact belong to: “The Judicates”?",
       "choices": [
+        "Campania",
+        "Piedmont",
         "Sardinia",
-        "Tuscany",
-        "Emilia-Romagna",
-        "Aosta Valley"
+        "Apulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "This fact is about Sardinia."
     }
   ],
@@ -8414,12 +8414,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Stambecco»?",
       "choices": [
+        "Umbria",
         "Valle d'Aosta",
-        "Friuli-Venezia Giulia",
-        "Basilicata",
-        "Puglia"
+        "Marche",
+        "Sicilia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Stambecco» fa parte della fauna di Valle d'Aosta."
     },
     {
@@ -8428,12 +8428,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Camoscio alpino»?",
       "choices": [
-        "Toscana",
-        "Puglia",
+        "Liguria",
         "Friuli-Venezia Giulia",
-        "Valle d'Aosta"
+        "Valle d'Aosta",
+        "Lazio"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Camoscio alpino» fa parte della fauna di Valle d'Aosta."
     },
     {
@@ -8442,12 +8442,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Aquila reale»?",
       "choices": [
-        "Lombardia",
-        "Campania",
-        "Liguria",
-        "Valle d'Aosta"
+        "Trentino-Alto Adige",
+        "Friuli-Venezia Giulia",
+        "Valle d'Aosta",
+        "Molise"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Aquila reale» fa parte della fauna di Valle d'Aosta."
     },
     {
@@ -8456,12 +8456,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Stella alpina»?",
       "choices": [
-        "Valle d'Aosta",
         "Friuli-Venezia Giulia",
-        "Campania",
-        "Marche"
+        "Lazio",
+        "Emilia-Romagna",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Stella alpina» è una pianta tipica di Valle d'Aosta."
     },
     {
@@ -8470,12 +8470,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Larice»?",
       "choices": [
-        "Basilicata",
-        "Lazio",
-        "Veneto",
-        "Valle d'Aosta"
+        "Sardegna",
+        "Emilia-Romagna",
+        "Valle d'Aosta",
+        "Basilicata"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Larice» è una pianta tipica di Valle d'Aosta."
     },
     {
@@ -8484,12 +8484,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Genziana»?",
       "choices": [
-        "Molise",
-        "Valle d'Aosta",
-        "Friuli-Venezia Giulia",
-        "Lazio"
+        "Sardegna",
+        "Campania",
+        "Piemonte",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Genziana» è una pianta tipica di Valle d'Aosta."
     },
     {
@@ -8498,12 +8498,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Fontina»?",
       "choices": [
+        "Calabria",
         "Valle d'Aosta",
-        "Marche",
-        "Lazio",
-        "Emilia-Romagna"
+        "Abruzzo",
+        "Piemonte"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Fontina» è un piatto tipico di Valle d'Aosta."
     },
     {
@@ -8512,12 +8512,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Polenta concia»?",
       "choices": [
-        "Basilicata",
         "Valle d'Aosta",
-        "Toscana",
-        "Calabria"
+        "Puglia",
+        "Sicilia",
+        "Lazio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Polenta concia» è un piatto tipico di Valle d'Aosta."
     },
     {
@@ -8528,8 +8528,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "Valle d'Aosta",
         "Toscana",
-        "Abruzzo",
-        "Liguria"
+        "Molise",
+        "Marche"
       ],
       "correctIndex": 0,
       "explanation": "«Carbonade» è un piatto tipico di Valle d'Aosta."
@@ -8540,12 +8540,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Monte Bianco»?",
       "choices": [
-        "Trentino-Alto Adige",
+        "Liguria",
+        "Campania",
         "Valle d'Aosta",
-        "Emilia-Romagna",
-        "Marche"
+        "Basilicata"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Monte Bianco» si trova in Valle d'Aosta."
     },
     {
@@ -8554,12 +8554,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Cervino»?",
       "choices": [
-        "Basilicata",
-        "Valle d'Aosta",
-        "Lombardia",
-        "Puglia"
+        "Toscana",
+        "Piemonte",
+        "Calabria",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Cervino» si trova in Valle d'Aosta."
     },
     {
@@ -8568,12 +8568,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Castello di Fénis»?",
       "choices": [
-        "Sardegna",
-        "Piemonte",
-        "Toscana",
-        "Valle d'Aosta"
+        "Lazio",
+        "Umbria",
+        "Valle d'Aosta",
+        "Piemonte"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Castello di Fénis» si trova in Valle d'Aosta."
     },
     {
@@ -8582,12 +8582,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Aosta romana»?",
       "choices": [
-        "Liguria",
-        "Marche",
-        "Valle d'Aosta",
-        "Abruzzo"
+        "Umbria",
+        "Trentino-Alto Adige",
+        "Toscana",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Valle d'Aosta."
     },
     {
@@ -8596,12 +8596,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Parco Nazionale del Gran Paradiso»?",
       "choices": [
-        "Liguria",
-        "Abruzzo",
         "Valle d'Aosta",
-        "Emilia-Romagna"
+        "Lombardia",
+        "Sardegna",
+        "Veneto"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Valle d'Aosta."
     },
     {
@@ -8610,10 +8610,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Traforo del Monte Bianco»?",
       "choices": [
-        "Toscana",
+        "Campania",
         "Valle d'Aosta",
-        "Liguria",
-        "Trentino-Alto Adige"
+        "Toscana",
+        "Lazio"
       ],
       "correctIndex": 1,
       "explanation": "Questo fatto riguarda Valle d'Aosta."
@@ -8624,12 +8624,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Airone cenerino»?",
       "choices": [
-        "Lazio",
-        "Molise",
-        "Liguria",
-        "Piemonte"
+        "Piemonte",
+        "Basilicata",
+        "Marche",
+        "Lazio"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Airone cenerino» fa parte della fauna di Piemonte."
     },
     {
@@ -8638,12 +8638,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Lupo»?",
       "choices": [
+        "Sicilia",
+        "Friuli-Venezia Giulia",
         "Valle d'Aosta",
-        "Piemonte",
-        "Puglia",
-        "Sardegna"
+        "Piemonte"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Lupo» fa parte della fauna di Piemonte."
     },
     {
@@ -8652,12 +8652,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Cinghiale»?",
       "choices": [
-        "Calabria",
-        "Lombardia",
-        "Campania",
-        "Piemonte"
+        "Piemonte",
+        "Sicilia",
+        "Sardegna",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Cinghiale» fa parte della fauna di Piemonte."
     },
     {
@@ -8666,12 +8666,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Castagno»?",
       "choices": [
-        "Basilicata",
-        "Sardegna",
+        "Emilia-Romagna",
         "Piemonte",
-        "Sicilia"
+        "Friuli-Venezia Giulia",
+        "Basilicata"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Castagno» è una pianta tipica di Piemonte."
     },
     {
@@ -8680,12 +8680,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Vite»?",
       "choices": [
-        "Sardegna",
         "Piemonte",
-        "Trentino-Alto Adige",
-        "Calabria"
+        "Calabria",
+        "Lombardia",
+        "Lazio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Vite» è una pianta tipica di Piemonte."
     },
     {
@@ -8694,12 +8694,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Riso»?",
       "choices": [
-        "Veneto",
+        "Piemonte",
         "Umbria",
-        "Liguria",
-        "Piemonte"
+        "Veneto",
+        "Puglia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Riso» è una pianta tipica di Piemonte."
     },
     {
@@ -8709,11 +8709,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "Di quale regione è tipico questo piatto: «Bagna càuda»?",
       "choices": [
         "Calabria",
-        "Abruzzo",
-        "Piemonte",
-        "Sicilia"
+        "Molise",
+        "Emilia-Romagna",
+        "Piemonte"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Bagna càuda» è un piatto tipico di Piemonte."
     },
     {
@@ -8722,12 +8722,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Agnolotti»?",
       "choices": [
-        "Molise",
-        "Piemonte",
-        "Campania",
-        "Trentino-Alto Adige"
+        "Calabria",
+        "Sardegna",
+        "Valle d'Aosta",
+        "Piemonte"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Agnolotti» è un piatto tipico di Piemonte."
     },
     {
@@ -8736,9 +8736,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Gianduiotto»?",
       "choices": [
-        "Lombardia",
+        "Marche",
         "Piemonte",
-        "Sicilia",
+        "Calabria",
         "Basilicata"
       ],
       "correctIndex": 1,
@@ -8750,12 +8750,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Mole Antonelliana»?",
       "choices": [
-        "Lazio",
-        "Friuli-Venezia Giulia",
         "Piemonte",
-        "Toscana"
+        "Emilia-Romagna",
+        "Sardegna",
+        "Sicilia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Mole Antonelliana» si trova in Piemonte."
     },
     {
@@ -8764,12 +8764,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Langhe»?",
       "choices": [
-        "Piemonte",
-        "Lazio",
         "Emilia-Romagna",
-        "Lombardia"
+        "Piemonte",
+        "Puglia",
+        "Lazio"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Langhe» si trova in Piemonte."
     },
     {
@@ -8778,12 +8778,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Lago Maggiore»?",
       "choices": [
-        "Calabria",
-        "Veneto",
-        "Piemonte",
-        "Abruzzo"
+        "Valle d'Aosta",
+        "Liguria",
+        "Abruzzo",
+        "Piemonte"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Lago Maggiore» si trova in Piemonte."
     },
     {
@@ -8792,12 +8792,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Torino capitale»?",
       "choices": [
-        "Toscana",
         "Piemonte",
+        "Calabria",
         "Valle d'Aosta",
-        "Puglia"
+        "Sicilia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Piemonte."
     },
     {
@@ -8806,10 +8806,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Sacra di San Michele»?",
       "choices": [
-        "Puglia",
-        "Lazio",
+        "Emilia-Romagna",
+        "Valle d'Aosta",
         "Piemonte",
-        "Veneto"
+        "Trentino-Alto Adige"
       ],
       "correctIndex": 2,
       "explanation": "Questo fatto riguarda Piemonte."
@@ -8820,10 +8820,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Palazzina di caccia di Stupinigi»?",
       "choices": [
-        "Veneto",
-        "Calabria",
+        "Emilia-Romagna",
+        "Basilicata",
         "Piemonte",
-        "Abruzzo"
+        "Friuli-Venezia Giulia"
       ],
       "correctIndex": 2,
       "explanation": "Questo fatto riguarda Piemonte."
@@ -8834,12 +8834,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Gabbiano reale»?",
       "choices": [
-        "Liguria",
-        "Puglia",
         "Calabria",
-        "Trentino-Alto Adige"
+        "Trentino-Alto Adige",
+        "Toscana",
+        "Liguria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Gabbiano reale» fa parte della fauna di Liguria."
     },
     {
@@ -8848,12 +8848,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Tursiope»?",
       "choices": [
-        "Valle d'Aosta",
+        "Trentino-Alto Adige",
+        "Lombardia",
         "Liguria",
-        "Abruzzo",
-        "Emilia-Romagna"
+        "Valle d'Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Tursiope» fa parte della fauna di Liguria."
     },
     {
@@ -8862,9 +8862,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Falco pellegrino»?",
       "choices": [
-        "Toscana",
+        "Campania",
         "Friuli-Venezia Giulia",
-        "Calabria",
+        "Sicilia",
         "Liguria"
       ],
       "correctIndex": 3,
@@ -8876,12 +8876,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Basilico genovese»?",
       "choices": [
-        "Sicilia",
-        "Puglia",
-        "Liguria",
-        "Emilia-Romagna"
+        "Toscana",
+        "Trentino-Alto Adige",
+        "Campania",
+        "Liguria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Basilico genovese» è una pianta tipica di Liguria."
     },
     {
@@ -8890,12 +8890,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Ulivo»?",
       "choices": [
-        "Sicilia",
-        "Friuli-Venezia Giulia",
-        "Calabria",
-        "Liguria"
+        "Emilia-Romagna",
+        "Abruzzo",
+        "Liguria",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Ulivo» è una pianta tipica di Liguria."
     },
     {
@@ -8904,10 +8904,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Mimosa»?",
       "choices": [
-        "Veneto",
+        "Marche",
         "Liguria",
-        "Emilia-Romagna",
-        "Valle d'Aosta"
+        "Abruzzo",
+        "Emilia-Romagna"
       ],
       "correctIndex": 1,
       "explanation": "«Mimosa» è una pianta tipica di Liguria."
@@ -8919,9 +8919,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "Di quale regione è tipico questo piatto: «Pesto genovese»?",
       "choices": [
         "Liguria",
-        "Molise",
-        "Piemonte",
-        "Marche"
+        "Marche",
+        "Calabria",
+        "Emilia-Romagna"
       ],
       "correctIndex": 0,
       "explanation": "«Pesto genovese» è un piatto tipico di Liguria."
@@ -8932,9 +8932,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Focaccia genovese»?",
       "choices": [
-        "Basilicata",
-        "Molise",
-        "Calabria",
+        "Sardegna",
+        "Puglia",
+        "Trentino-Alto Adige",
         "Liguria"
       ],
       "correctIndex": 3,
@@ -8946,9 +8946,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Trofie al pesto»?",
       "choices": [
+        "Friuli-Venezia Giulia",
         "Lombardia",
-        "Toscana",
-        "Basilicata",
+        "Veneto",
         "Liguria"
       ],
       "correctIndex": 3,
@@ -8960,9 +8960,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Cinque Terre»?",
       "choices": [
-        "Basilicata",
-        "Sardegna",
-        "Toscana",
+        "Friuli-Venezia Giulia",
+        "Lazio",
+        "Marche",
         "Liguria"
       ],
       "correctIndex": 3,
@@ -8975,11 +8975,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In quale regione si trova «Portofino»?",
       "choices": [
         "Valle d'Aosta",
-        "Emilia-Romagna",
-        "Piemonte",
-        "Liguria"
+        "Liguria",
+        "Sardegna",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Portofino» si trova in Liguria."
     },
     {
@@ -8988,12 +8988,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Acquario di Genova»?",
       "choices": [
+        "Umbria",
+        "Toscana",
         "Liguria",
-        "Sicilia",
-        "Puglia",
-        "Marche"
+        "Lombardia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Acquario di Genova» si trova in Liguria."
     },
     {
@@ -9002,12 +9002,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Repubblica di Genova»?",
       "choices": [
-        "Lombardia",
         "Liguria",
-        "Friuli-Venezia Giulia",
-        "Sicilia"
+        "Valle d'Aosta",
+        "Lombardia",
+        "Sardegna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Liguria."
     },
     {
@@ -9016,10 +9016,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Cristoforo Colombo»?",
       "choices": [
-        "Campania",
-        "Sardegna",
+        "Sicilia",
+        "Puglia",
         "Liguria",
-        "Abruzzo"
+        "Toscana"
       ],
       "correctIndex": 2,
       "explanation": "Questo fatto riguarda Liguria."
@@ -9031,9 +9031,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "A quale regione appartiene questo fatto storico: «Palazzi dei Rolli»?",
       "choices": [
         "Liguria",
-        "Friuli-Venezia Giulia",
         "Basilicata",
-        "Piemonte"
+        "Piemonte",
+        "Abruzzo"
       ],
       "correctIndex": 0,
       "explanation": "Questo fatto riguarda Liguria."
@@ -9044,12 +9044,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Cigno reale»?",
       "choices": [
-        "Molise",
-        "Sicilia",
         "Lombardia",
+        "Emilia-Romagna",
+        "Calabria",
         "Piemonte"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Cigno reale» fa parte della fauna di Lombardia."
     },
     {
@@ -9058,9 +9058,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Airone cenerino»?",
       "choices": [
-        "Liguria",
-        "Umbria",
-        "Campania",
+        "Sardegna",
+        "Calabria",
+        "Lazio",
         "Lombardia"
       ],
       "correctIndex": 3,
@@ -9072,12 +9072,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Camoscio alpino»?",
       "choices": [
-        "Umbria",
-        "Marche",
-        "Piemonte",
-        "Lombardia"
+        "Lombardia",
+        "Liguria",
+        "Calabria",
+        "Sardegna"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Camoscio alpino» fa parte della fauna di Lombardia."
     },
     {
@@ -9086,10 +9086,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Faggio»?",
       "choices": [
-        "Campania",
-        "Calabria",
+        "Basilicata",
+        "Piemonte",
         "Lombardia",
-        "Puglia"
+        "Veneto"
       ],
       "correctIndex": 2,
       "explanation": "«Faggio» è una pianta tipica di Lombardia."
@@ -9100,12 +9100,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Ninfea»?",
       "choices": [
-        "Sardegna",
-        "Valle d'Aosta",
+        "Abruzzo",
         "Lombardia",
+        "Piemonte",
         "Calabria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Ninfea» è una pianta tipica di Lombardia."
     },
     {
@@ -9114,12 +9114,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Pioppo»?",
       "choices": [
-        "Friuli-Venezia Giulia",
-        "Sardegna",
-        "Calabria",
-        "Lombardia"
+        "Piemonte",
+        "Abruzzo",
+        "Lombardia",
+        "Veneto"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Pioppo» è una pianta tipica di Lombardia."
     },
     {
@@ -9128,12 +9128,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Risotto alla milanese»?",
       "choices": [
-        "Abruzzo",
-        "Marche",
         "Lombardia",
+        "Lazio",
+        "Toscana",
         "Basilicata"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Risotto alla milanese» è un piatto tipico di Lombardia."
     },
     {
@@ -9142,12 +9142,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Ossobuco»?",
       "choices": [
-        "Basilicata",
-        "Friuli-Venezia Giulia",
-        "Lombardia",
-        "Puglia"
+        "Calabria",
+        "Piemonte",
+        "Toscana",
+        "Lombardia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Ossobuco» è un piatto tipico di Lombardia."
     },
     {
@@ -9156,10 +9156,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Panettone»?",
       "choices": [
-        "Valle d'Aosta",
+        "Abruzzo",
         "Lombardia",
-        "Sardegna",
-        "Friuli-Venezia Giulia"
+        "Valle d'Aosta",
+        "Calabria"
       ],
       "correctIndex": 1,
       "explanation": "«Panettone» è un piatto tipico di Lombardia."
@@ -9170,12 +9170,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Duomo di Milano»?",
       "choices": [
-        "Valle d'Aosta",
-        "Umbria",
-        "Friuli-Venezia Giulia",
-        "Lombardia"
+        "Molise",
+        "Lombardia",
+        "Marche",
+        "Sardegna"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Duomo di Milano» si trova in Lombardia."
     },
     {
@@ -9184,12 +9184,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Lago di Como»?",
       "choices": [
-        "Lombardia",
         "Abruzzo",
-        "Liguria",
-        "Toscana"
+        "Lombardia",
+        "Puglia",
+        "Piemonte"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Lago di Como» si trova in Lombardia."
     },
     {
@@ -9198,12 +9198,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Cenacolo Vinciano»?",
       "choices": [
-        "Piemonte",
-        "Lombardia",
-        "Lazio",
-        "Basilicata"
+        "Emilia-Romagna",
+        "Sicilia",
+        "Basilicata",
+        "Lombardia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Cenacolo Vinciano» si trova in Lombardia."
     },
     {
@@ -9213,9 +9213,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "A quale regione appartiene questo fatto storico: «Milano capitale dell'Impero»?",
       "choices": [
         "Lombardia",
-        "Trentino-Alto Adige",
-        "Sicilia",
-        "Friuli-Venezia Giulia"
+        "Emilia-Romagna",
+        "Molise",
+        "Abruzzo"
       ],
       "correctIndex": 0,
       "explanation": "Questo fatto riguarda Lombardia."
@@ -9226,12 +9226,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Battaglia di Legnano»?",
       "choices": [
-        "Molise",
-        "Liguria",
-        "Lombardia",
-        "Piemonte"
+        "Toscana",
+        "Valle d'Aosta",
+        "Calabria",
+        "Lombardia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Lombardia."
     },
     {
@@ -9240,10 +9240,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Leonardo a Milano»?",
       "choices": [
-        "Piemonte",
+        "Marche",
         "Lombardia",
-        "Trentino-Alto Adige",
-        "Friuli-Venezia Giulia"
+        "Piemonte",
+        "Abruzzo"
       ],
       "correctIndex": 1,
       "explanation": "Questo fatto riguarda Lombardia."
@@ -9254,10 +9254,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Orso bruno»?",
       "choices": [
-        "Veneto",
-        "Abruzzo",
+        "Lazio",
+        "Liguria",
         "Trentino-Alto Adige",
-        "Sardegna"
+        "Campania"
       ],
       "correctIndex": 2,
       "explanation": "«Orso bruno» fa parte della fauna di Trentino-Alto Adige."
@@ -9268,12 +9268,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Camoscio alpino»?",
       "choices": [
-        "Sicilia",
-        "Liguria",
-        "Lazio",
-        "Trentino-Alto Adige"
+        "Emilia-Romagna",
+        "Friuli-Venezia Giulia",
+        "Trentino-Alto Adige",
+        "Basilicata"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Camoscio alpino» fa parte della fauna di Trentino-Alto Adige."
     },
     {
@@ -9282,10 +9282,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Cervo nobile»?",
       "choices": [
-        "Umbria",
+        "Veneto",
         "Trentino-Alto Adige",
-        "Sardegna",
-        "Molise"
+        "Lombardia",
+        "Toscana"
       ],
       "correctIndex": 1,
       "explanation": "«Cervo nobile» fa parte della fauna di Trentino-Alto Adige."
@@ -9297,11 +9297,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In quale regione cresce questa pianta: «Abete rosso»?",
       "choices": [
         "Veneto",
-        "Puglia",
-        "Toscana",
-        "Trentino-Alto Adige"
+        "Calabria",
+        "Trentino-Alto Adige",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Abete rosso» è una pianta tipica di Trentino-Alto Adige."
     },
     {
@@ -9310,12 +9310,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Melo»?",
       "choices": [
+        "Campania",
+        "Lombardia",
         "Trentino-Alto Adige",
-        "Sicilia",
-        "Puglia",
-        "Abruzzo"
+        "Puglia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Melo» è una pianta tipica di Trentino-Alto Adige."
     },
     {
@@ -9324,12 +9324,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Genziana»?",
       "choices": [
-        "Trentino-Alto Adige",
-        "Friuli-Venezia Giulia",
-        "Calabria",
-        "Campania"
+        "Puglia",
+        "Lazio",
+        "Veneto",
+        "Trentino-Alto Adige"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Genziana» è una pianta tipica di Trentino-Alto Adige."
     },
     {
@@ -9339,11 +9339,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "Di quale regione è tipico questo piatto: «Canederli»?",
       "choices": [
         "Piemonte",
-        "Molise",
         "Trentino-Alto Adige",
-        "Toscana"
+        "Sardegna",
+        "Puglia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Canederli» è un piatto tipico di Trentino-Alto Adige."
     },
     {
@@ -9352,12 +9352,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Speck»?",
       "choices": [
+        "Valle d'Aosta",
+        "Calabria",
         "Trentino-Alto Adige",
-        "Veneto",
-        "Toscana",
-        "Marche"
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Speck» è un piatto tipico di Trentino-Alto Adige."
     },
     {
@@ -9366,12 +9366,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Strudel di mele»?",
       "choices": [
+        "Basilicata",
         "Trentino-Alto Adige",
-        "Umbria",
         "Marche",
-        "Basilicata"
+        "Toscana"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Strudel di mele» è un piatto tipico di Trentino-Alto Adige."
     },
     {
@@ -9380,12 +9380,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Dolomiti»?",
       "choices": [
+        "Campania",
+        "Trentino-Alto Adige",
         "Calabria",
-        "Liguria",
-        "Sardegna",
-        "Trentino-Alto Adige"
+        "Umbria"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Dolomiti» si trova in Trentino-Alto Adige."
     },
     {
@@ -9394,12 +9394,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Lago di Braies»?",
       "choices": [
-        "Liguria",
-        "Calabria",
         "Trentino-Alto Adige",
-        "Sardegna"
+        "Sicilia",
+        "Piemonte",
+        "Basilicata"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Lago di Braies» si trova in Trentino-Alto Adige."
     },
     {
@@ -9408,12 +9408,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Castel Tirolo»?",
       "choices": [
-        "Sicilia",
-        "Piemonte",
-        "Friuli-Venezia Giulia",
-        "Trentino-Alto Adige"
+        "Abruzzo",
+        "Molise",
+        "Trentino-Alto Adige",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Castel Tirolo» si trova in Trentino-Alto Adige."
     },
     {
@@ -9422,12 +9422,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Concilio di Trento»?",
       "choices": [
-        "Trentino-Alto Adige",
+        "Basilicata",
+        "Puglia",
         "Valle d'Aosta",
-        "Friuli-Venezia Giulia",
-        "Sicilia"
+        "Trentino-Alto Adige"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Trentino-Alto Adige."
     },
     {
@@ -9436,12 +9436,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Ötzi»?",
       "choices": [
-        "Trentino-Alto Adige",
-        "Umbria",
-        "Veneto",
-        "Puglia"
+        "Liguria",
+        "Sicilia",
+        "Toscana",
+        "Trentino-Alto Adige"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Trentino-Alto Adige."
     },
     {
@@ -9450,12 +9450,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Passaggio all'Italia»?",
       "choices": [
-        "Sardegna",
-        "Trentino-Alto Adige",
-        "Lombardia",
-        "Liguria"
+        "Piemonte",
+        "Friuli-Venezia Giulia",
+        "Emilia-Romagna",
+        "Trentino-Alto Adige"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Trentino-Alto Adige."
     },
     {
@@ -9465,9 +9465,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In quale regione vive questo animale: «Fenicottero»?",
       "choices": [
         "Liguria",
-        "Piemonte",
+        "Calabria",
         "Veneto",
-        "Toscana"
+        "Friuli-Venezia Giulia"
       ],
       "correctIndex": 2,
       "explanation": "«Fenicottero» fa parte della fauna di Veneto."
@@ -9478,9 +9478,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Airone cenerino»?",
       "choices": [
-        "Molise",
-        "Puglia",
-        "Lazio",
+        "Abruzzo",
+        "Trentino-Alto Adige",
+        "Calabria",
         "Veneto"
       ],
       "correctIndex": 3,
@@ -9493,9 +9493,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In quale regione vive questo animale: «Camoscio alpino»?",
       "choices": [
         "Veneto",
-        "Umbria",
-        "Sardegna",
-        "Puglia"
+        "Friuli-Venezia Giulia",
+        "Toscana",
+        "Piemonte"
       ],
       "correctIndex": 0,
       "explanation": "«Camoscio alpino» fa parte della fauna di Veneto."
@@ -9506,12 +9506,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Vite»?",
       "choices": [
-        "Calabria",
-        "Basilicata",
+        "Lombardia",
         "Abruzzo",
-        "Veneto"
+        "Veneto",
+        "Molise"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Vite» è una pianta tipica di Veneto."
     },
     {
@@ -9521,11 +9521,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In quale regione cresce questa pianta: «Cipresso»?",
       "choices": [
         "Trentino-Alto Adige",
-        "Veneto",
-        "Sicilia",
-        "Lazio"
+        "Lazio",
+        "Basilicata",
+        "Veneto"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Cipresso» è una pianta tipica di Veneto."
     },
     {
@@ -9534,12 +9534,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Salicornia»?",
       "choices": [
-        "Puglia",
-        "Piemonte",
+        "Basilicata",
         "Veneto",
-        "Sardegna"
+        "Campania",
+        "Umbria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Salicornia» è una pianta tipica di Veneto."
     },
     {
@@ -9548,12 +9548,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Tiramisù»?",
       "choices": [
-        "Abruzzo",
-        "Molise",
-        "Veneto",
-        "Basilicata"
+        "Liguria",
+        "Toscana",
+        "Puglia",
+        "Veneto"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Tiramisù» è un piatto tipico di Veneto."
     },
     {
@@ -9562,12 +9562,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Baccalà mantecato»?",
       "choices": [
-        "Puglia",
+        "Valle d'Aosta",
+        "Friuli-Venezia Giulia",
         "Veneto",
-        "Abruzzo",
-        "Campania"
+        "Marche"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Baccalà mantecato» è un piatto tipico di Veneto."
     },
     {
@@ -9576,12 +9576,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Risotto al nero di seppia»?",
       "choices": [
+        "Puglia",
         "Veneto",
-        "Calabria",
-        "Lombardia",
-        "Piemonte"
+        "Campania",
+        "Sardegna"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Risotto al nero di seppia» è un piatto tipico di Veneto."
     },
     {
@@ -9590,12 +9590,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Venezia»?",
       "choices": [
-        "Veneto",
-        "Puglia",
-        "Molise",
-        "Umbria"
+        "Trentino-Alto Adige",
+        "Friuli-Venezia Giulia",
+        "Campania",
+        "Veneto"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Venezia» si trova in Veneto."
     },
     {
@@ -9605,9 +9605,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In quale regione si trova «Arena di Verona»?",
       "choices": [
         "Veneto",
-        "Sardegna",
-        "Emilia-Romagna",
-        "Liguria"
+        "Toscana",
+        "Piemonte",
+        "Lazio"
       ],
       "correctIndex": 0,
       "explanation": "«Arena di Verona» si trova in Veneto."
@@ -9618,12 +9618,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Ville palladiane»?",
       "choices": [
-        "Veneto",
-        "Lombardia",
-        "Liguria",
-        "Lazio"
+        "Molise",
+        "Trentino-Alto Adige",
+        "Lazio",
+        "Veneto"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Ville palladiane» si trova in Veneto."
     },
     {
@@ -9632,12 +9632,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Repubblica di Venezia»?",
       "choices": [
+        "Puglia",
         "Valle d'Aosta",
-        "Campania",
-        "Veneto",
-        "Friuli-Venezia Giulia"
+        "Trentino-Alto Adige",
+        "Veneto"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Veneto."
     },
     {
@@ -9647,9 +9647,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "A quale regione appartiene questo fatto storico: «Marco Polo»?",
       "choices": [
         "Veneto",
-        "Liguria",
-        "Campania",
-        "Sicilia"
+        "Friuli-Venezia Giulia",
+        "Molise",
+        "Trentino-Alto Adige"
       ],
       "correctIndex": 0,
       "explanation": "Questo fatto riguarda Veneto."
@@ -9660,12 +9660,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Basilica di San Marco»?",
       "choices": [
+        "Marche",
+        "Sardegna",
         "Veneto",
-        "Lazio",
-        "Molise",
-        "Emilia-Romagna"
+        "Lombardia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Veneto."
     },
     {
@@ -9674,12 +9674,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Cervo nobile»?",
       "choices": [
-        "Liguria",
+        "Umbria",
+        "Veneto",
         "Friuli-Venezia Giulia",
-        "Lazio",
         "Emilia-Romagna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Cervo nobile» fa parte della fauna di Friuli-Venezia Giulia."
     },
     {
@@ -9688,9 +9688,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Airone cenerino»?",
       "choices": [
-        "Abruzzo",
-        "Toscana",
-        "Sicilia",
+        "Basilicata",
+        "Valle d'Aosta",
+        "Lazio",
         "Friuli-Venezia Giulia"
       ],
       "correctIndex": 3,
@@ -9704,8 +9704,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "Friuli-Venezia Giulia",
         "Marche",
-        "Basilicata",
-        "Toscana"
+        "Lazio",
+        "Molise"
       ],
       "correctIndex": 0,
       "explanation": "«Orso bruno» fa parte della fauna di Friuli-Venezia Giulia."
@@ -9716,12 +9716,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Vite»?",
       "choices": [
-        "Lombardia",
-        "Umbria",
-        "Molise",
-        "Friuli-Venezia Giulia"
+        "Lazio",
+        "Friuli-Venezia Giulia",
+        "Basilicata",
+        "Molise"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Vite» è una pianta tipica di Friuli-Venezia Giulia."
     },
     {
@@ -9730,12 +9730,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Faggio»?",
       "choices": [
-        "Piemonte",
-        "Umbria",
-        "Campania",
-        "Friuli-Venezia Giulia"
+        "Sardegna",
+        "Friuli-Venezia Giulia",
+        "Valle d'Aosta",
+        "Marche"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Faggio» è una pianta tipica di Friuli-Venezia Giulia."
     },
     {
@@ -9744,12 +9744,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Tiglio»?",
       "choices": [
-        "Friuli-Venezia Giulia",
-        "Piemonte",
-        "Basilicata",
-        "Valle d'Aosta"
+        "Liguria",
+        "Umbria",
+        "Puglia",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Tiglio» è una pianta tipica di Friuli-Venezia Giulia."
     },
     {
@@ -9758,10 +9758,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Frico»?",
       "choices": [
-        "Sardegna",
+        "Calabria",
         "Friuli-Venezia Giulia",
-        "Lombardia",
-        "Marche"
+        "Umbria",
+        "Puglia"
       ],
       "correctIndex": 1,
       "explanation": "«Frico» è un piatto tipico di Friuli-Venezia Giulia."
@@ -9772,10 +9772,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Prosciutto di San Daniele»?",
       "choices": [
-        "Emilia-Romagna",
-        "Valle d'Aosta",
+        "Molise",
+        "Marche",
         "Friuli-Venezia Giulia",
-        "Veneto"
+        "Valle d'Aosta"
       ],
       "correctIndex": 2,
       "explanation": "«Prosciutto di San Daniele» è un piatto tipico di Friuli-Venezia Giulia."
@@ -9786,12 +9786,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Gubana»?",
       "choices": [
-        "Liguria",
-        "Lombardia",
-        "Abruzzo",
-        "Friuli-Venezia Giulia"
+        "Sardegna",
+        "Friuli-Venezia Giulia",
+        "Toscana",
+        "Trentino-Alto Adige"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Gubana» è un piatto tipico di Friuli-Venezia Giulia."
     },
     {
@@ -9800,12 +9800,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Trieste»?",
       "choices": [
-        "Molise",
-        "Toscana",
+        "Friuli-Venezia Giulia",
         "Umbria",
-        "Friuli-Venezia Giulia"
+        "Emilia-Romagna",
+        "Puglia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Trieste» si trova in Friuli-Venezia Giulia."
     },
     {
@@ -9815,9 +9815,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In quale regione si trova «Aquileia»?",
       "choices": [
         "Friuli-Venezia Giulia",
-        "Calabria",
         "Campania",
-        "Basilicata"
+        "Abruzzo",
+        "Sicilia"
       ],
       "correctIndex": 0,
       "explanation": "«Aquileia» si trova in Friuli-Venezia Giulia."
@@ -9828,12 +9828,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Laguna di Grado»?",
       "choices": [
-        "Friuli-Venezia Giulia",
-        "Calabria",
-        "Puglia",
-        "Sardegna"
+        "Piemonte",
+        "Lombardia",
+        "Sicilia",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Laguna di Grado» si trova in Friuli-Venezia Giulia."
     },
     {
@@ -9842,12 +9842,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Aquileia romana»?",
       "choices": [
-        "Marche",
-        "Friuli-Venezia Giulia",
+        "Liguria",
         "Lombardia",
-        "Veneto"
+        "Molise",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Friuli-Venezia Giulia."
     },
     {
@@ -9856,12 +9856,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Trieste asburgica»?",
       "choices": [
-        "Valle d'Aosta",
-        "Basilicata",
-        "Friuli-Venezia Giulia",
-        "Umbria"
+        "Piemonte",
+        "Veneto",
+        "Toscana",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Friuli-Venezia Giulia."
     },
     {
@@ -9870,12 +9870,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Lingue della regione»?",
       "choices": [
-        "Veneto",
-        "Lazio",
         "Friuli-Venezia Giulia",
-        "Sicilia"
+        "Sardegna",
+        "Campania",
+        "Puglia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Friuli-Venezia Giulia."
     },
     {
@@ -9884,12 +9884,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Fenicottero»?",
       "choices": [
-        "Emilia-Romagna",
-        "Calabria",
-        "Toscana",
-        "Liguria"
+        "Lazio",
+        "Trentino-Alto Adige",
+        "Umbria",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Fenicottero» fa parte della fauna di Emilia-Romagna."
     },
     {
@@ -9898,12 +9898,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Lupo»?",
       "choices": [
-        "Sicilia",
-        "Trentino-Alto Adige",
-        "Abruzzo",
-        "Emilia-Romagna"
+        "Emilia-Romagna",
+        "Veneto",
+        "Valle d'Aosta",
+        "Sicilia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Lupo» fa parte della fauna di Emilia-Romagna."
     },
     {
@@ -9912,12 +9912,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Airone cenerino»?",
       "choices": [
-        "Calabria",
-        "Valle d'Aosta",
-        "Marche",
-        "Emilia-Romagna"
+        "Emilia-Romagna",
+        "Basilicata",
+        "Liguria",
+        "Molise"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Airone cenerino» fa parte della fauna di Emilia-Romagna."
     },
     {
@@ -9926,12 +9926,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Vite»?",
       "choices": [
-        "Sicilia",
-        "Liguria",
-        "Lazio",
-        "Emilia-Romagna"
+        "Basilicata",
+        "Emilia-Romagna",
+        "Valle d'Aosta",
+        "Sardegna"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Vite» è una pianta tipica di Emilia-Romagna."
     },
     {
@@ -9940,9 +9940,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Pioppo»?",
       "choices": [
-        "Calabria",
-        "Lazio",
-        "Umbria",
+        "Basilicata",
+        "Piemonte",
+        "Marche",
         "Emilia-Romagna"
       ],
       "correctIndex": 3,
@@ -9954,10 +9954,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Ciliegio»?",
       "choices": [
+        "Sicilia",
         "Abruzzo",
-        "Toscana",
         "Emilia-Romagna",
-        "Basilicata"
+        "Lazio"
       ],
       "correctIndex": 2,
       "explanation": "«Ciliegio» è una pianta tipica di Emilia-Romagna."
@@ -9968,12 +9968,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Tagliatelle al ragù»?",
       "choices": [
-        "Toscana",
         "Emilia-Romagna",
-        "Valle d'Aosta",
-        "Sicilia"
+        "Lazio",
+        "Lombardia",
+        "Basilicata"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Tagliatelle al ragù» è un piatto tipico di Emilia-Romagna."
     },
     {
@@ -9982,12 +9982,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Tortellini»?",
       "choices": [
-        "Puglia",
-        "Campania",
-        "Emilia-Romagna",
-        "Valle d'Aosta"
+        "Veneto",
+        "Sicilia",
+        "Valle d'Aosta",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Tortellini» è un piatto tipico di Emilia-Romagna."
     },
     {
@@ -9996,10 +9996,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Parmigiano Reggiano»?",
       "choices": [
-        "Trentino-Alto Adige",
+        "Liguria",
         "Emilia-Romagna",
-        "Sicilia",
-        "Friuli-Venezia Giulia"
+        "Toscana",
+        "Marche"
       ],
       "correctIndex": 1,
       "explanation": "«Parmigiano Reggiano» è un piatto tipico di Emilia-Romagna."
@@ -10010,12 +10010,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Bologna»?",
       "choices": [
+        "Toscana",
         "Emilia-Romagna",
-        "Basilicata",
-        "Umbria",
-        "Calabria"
+        "Lazio",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Bologna» si trova in Emilia-Romagna."
     },
     {
@@ -10024,12 +10024,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Ravenna»?",
       "choices": [
-        "Liguria",
-        "Trentino-Alto Adige",
-        "Valle d'Aosta",
-        "Emilia-Romagna"
+        "Marche",
+        "Abruzzo",
+        "Emilia-Romagna",
+        "Sardegna"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Ravenna» si trova in Emilia-Romagna."
     },
     {
@@ -10038,10 +10038,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Delta del Po»?",
       "choices": [
-        "Puglia",
+        "Liguria",
         "Emilia-Romagna",
         "Marche",
-        "Campania"
+        "Veneto"
       ],
       "correctIndex": 1,
       "explanation": "«Delta del Po» si trova in Emilia-Romagna."
@@ -10052,12 +10052,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Università di Bologna»?",
       "choices": [
+        "Umbria",
+        "Friuli-Venezia Giulia",
         "Emilia-Romagna",
-        "Lazio",
-        "Sicilia",
-        "Liguria"
+        "Marche"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Emilia-Romagna."
     },
     {
@@ -10066,12 +10066,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Via Emilia»?",
       "choices": [
+        "Friuli-Venezia Giulia",
+        "Trentino-Alto Adige",
         "Emilia-Romagna",
-        "Umbria",
-        "Veneto",
-        "Piemonte"
+        "Abruzzo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Emilia-Romagna."
     },
     {
@@ -10080,12 +10080,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Ravenna capitale»?",
       "choices": [
-        "Basilicata",
-        "Marche",
         "Emilia-Romagna",
-        "Veneto"
+        "Lazio",
+        "Puglia",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Emilia-Romagna."
     },
     {
@@ -10094,10 +10094,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Cinghiale»?",
       "choices": [
-        "Lombardia",
-        "Friuli-Venezia Giulia",
+        "Sicilia",
+        "Emilia-Romagna",
         "Toscana",
-        "Marche"
+        "Veneto"
       ],
       "correctIndex": 2,
       "explanation": "«Cinghiale» fa parte della fauna di Toscana."
@@ -10108,12 +10108,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Capriolo»?",
       "choices": [
-        "Piemonte",
         "Toscana",
-        "Sardegna",
-        "Sicilia"
+        "Umbria",
+        "Friuli-Venezia Giulia",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Capriolo» fa parte della fauna di Toscana."
     },
     {
@@ -10122,12 +10122,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Lupo»?",
       "choices": [
-        "Sicilia",
-        "Toscana",
-        "Veneto",
-        "Friuli-Venezia Giulia"
+        "Lombardia",
+        "Valle d'Aosta",
+        "Trentino-Alto Adige",
+        "Toscana"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Lupo» fa parte della fauna di Toscana."
     },
     {
@@ -10136,12 +10136,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Cipresso»?",
       "choices": [
-        "Liguria",
-        "Emilia-Romagna",
-        "Sicilia",
-        "Toscana"
+        "Friuli-Venezia Giulia",
+        "Valle d'Aosta",
+        "Toscana",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Cipresso» è una pianta tipica di Toscana."
     },
     {
@@ -10150,12 +10150,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Ulivo»?",
       "choices": [
-        "Sicilia",
         "Toscana",
+        "Abruzzo",
         "Calabria",
-        "Campania"
+        "Sardegna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Ulivo» è una pianta tipica di Toscana."
     },
     {
@@ -10164,9 +10164,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Vite»?",
       "choices": [
-        "Umbria",
-        "Abruzzo",
+        "Trentino-Alto Adige",
         "Sardegna",
+        "Valle d'Aosta",
         "Toscana"
       ],
       "correctIndex": 3,
@@ -10178,12 +10178,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Bistecca alla fiorentina»?",
       "choices": [
-        "Sardegna",
-        "Abruzzo",
         "Toscana",
-        "Trentino-Alto Adige"
+        "Trentino-Alto Adige",
+        "Umbria",
+        "Calabria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Bistecca alla fiorentina» è un piatto tipico di Toscana."
     },
     {
@@ -10192,12 +10192,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Ribollita»?",
       "choices": [
-        "Toscana",
         "Friuli-Venezia Giulia",
-        "Trentino-Alto Adige",
+        "Toscana",
+        "Sicilia",
         "Lazio"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Ribollita» è un piatto tipico di Toscana."
     },
     {
@@ -10206,10 +10206,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Cantucci»?",
       "choices": [
-        "Liguria",
+        "Marche",
         "Toscana",
-        "Puglia",
-        "Marche"
+        "Piemonte",
+        "Veneto"
       ],
       "correctIndex": 1,
       "explanation": "«Cantucci» è un piatto tipico di Toscana."
@@ -10220,12 +10220,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Firenze»?",
       "choices": [
+        "Sicilia",
         "Toscana",
-        "Lazio",
-        "Emilia-Romagna",
-        "Sicilia"
+        "Piemonte",
+        "Trentino-Alto Adige"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Firenze» si trova in Toscana."
     },
     {
@@ -10234,12 +10234,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Torre di Pisa»?",
       "choices": [
-        "Abruzzo",
         "Toscana",
-        "Trentino-Alto Adige",
-        "Calabria"
+        "Sicilia",
+        "Umbria",
+        "Liguria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Torre di Pisa» si trova in Toscana."
     },
     {
@@ -10248,12 +10248,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Chianti»?",
       "choices": [
-        "Liguria",
-        "Toscana",
-        "Sicilia",
-        "Sardegna"
+        "Valle d'Aosta",
+        "Molise",
+        "Lazio",
+        "Toscana"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Chianti» si trova in Toscana."
     },
     {
@@ -10262,12 +10262,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Rinascimento a Firenze»?",
       "choices": [
-        "Toscana",
-        "Campania",
-        "Molise",
-        "Liguria"
+        "Umbria",
+        "Sicilia",
+        "Valle d'Aosta",
+        "Toscana"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Toscana."
     },
     {
@@ -10276,12 +10276,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Cupola del Brunelleschi»?",
       "choices": [
-        "Toscana",
         "Lazio",
-        "Lombardia",
+        "Veneto",
+        "Toscana",
         "Umbria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Toscana."
     },
     {
@@ -10290,9 +10290,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Palio di Siena»?",
       "choices": [
-        "Veneto",
-        "Liguria",
-        "Molise",
+        "Emilia-Romagna",
+        "Puglia",
+        "Sicilia",
         "Toscana"
       ],
       "correctIndex": 3,
@@ -10304,12 +10304,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Cinghiale»?",
       "choices": [
-        "Emilia-Romagna",
+        "Sardegna",
+        "Calabria",
         "Umbria",
-        "Basilicata",
-        "Sicilia"
+        "Abruzzo"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Cinghiale» fa parte della fauna di Umbria."
     },
     {
@@ -10318,12 +10318,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Lupo»?",
       "choices": [
+        "Liguria",
         "Puglia",
         "Umbria",
-        "Sicilia",
-        "Abruzzo"
+        "Sicilia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Lupo» fa parte della fauna di Umbria."
     },
     {
@@ -10332,12 +10332,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Falco pellegrino»?",
       "choices": [
-        "Veneto",
-        "Molise",
+        "Marche",
         "Umbria",
-        "Piemonte"
+        "Trentino-Alto Adige",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Falco pellegrino» fa parte della fauna di Umbria."
     },
     {
@@ -10346,12 +10346,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Ulivo»?",
       "choices": [
-        "Emilia-Romagna",
+        "Umbria",
+        "Veneto",
         "Trentino-Alto Adige",
-        "Valle d'Aosta",
-        "Umbria"
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Ulivo» è una pianta tipica di Umbria."
     },
     {
@@ -10360,10 +10360,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Roverella»?",
       "choices": [
-        "Puglia",
+        "Calabria",
         "Umbria",
-        "Friuli-Venezia Giulia",
-        "Valle d'Aosta"
+        "Piemonte",
+        "Friuli-Venezia Giulia"
       ],
       "correctIndex": 1,
       "explanation": "«Roverella» è una pianta tipica di Umbria."
@@ -10374,12 +10374,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Lenticchia di Castelluccio»?",
       "choices": [
-        "Toscana",
-        "Umbria",
-        "Friuli-Venezia Giulia",
-        "Sardegna"
+        "Abruzzo",
+        "Molise",
+        "Trentino-Alto Adige",
+        "Umbria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Lenticchia di Castelluccio» è una pianta tipica di Umbria."
     },
     {
@@ -10388,12 +10388,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Strangozzi al tartufo»?",
       "choices": [
-        "Lazio",
         "Umbria",
-        "Trentino-Alto Adige",
-        "Lombardia"
+        "Sardegna",
+        "Veneto",
+        "Campania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Strangozzi al tartufo» è un piatto tipico di Umbria."
     },
     {
@@ -10402,12 +10402,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Lenticchie di Castelluccio»?",
       "choices": [
-        "Campania",
-        "Emilia-Romagna",
+        "Umbria",
+        "Calabria",
         "Piemonte",
-        "Umbria"
+        "Puglia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Lenticchie di Castelluccio» è un piatto tipico di Umbria."
     },
     {
@@ -10416,12 +10416,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Porchetta»?",
       "choices": [
+        "Friuli-Venezia Giulia",
+        "Sardegna",
         "Umbria",
-        "Trentino-Alto Adige",
-        "Toscana",
-        "Sicilia"
+        "Trentino-Alto Adige"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Porchetta» è un piatto tipico di Umbria."
     },
     {
@@ -10430,12 +10430,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Assisi»?",
       "choices": [
-        "Umbria",
-        "Piemonte",
-        "Sardegna",
-        "Basilicata"
+        "Lombardia",
+        "Abruzzo",
+        "Friuli-Venezia Giulia",
+        "Umbria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Assisi» si trova in Umbria."
     },
     {
@@ -10445,9 +10445,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In quale regione si trova «Cascata delle Marmore»?",
       "choices": [
         "Umbria",
-        "Liguria",
-        "Sardegna",
-        "Friuli-Venezia Giulia"
+        "Marche",
+        "Basilicata",
+        "Sicilia"
       ],
       "correctIndex": 0,
       "explanation": "«Cascata delle Marmore» si trova in Umbria."
@@ -10458,12 +10458,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Orvieto»?",
       "choices": [
-        "Liguria",
-        "Abruzzo",
+        "Piemonte",
         "Umbria",
+        "Abruzzo",
         "Trentino-Alto Adige"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Orvieto» si trova in Umbria."
     },
     {
@@ -10472,12 +10472,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «San Francesco»?",
       "choices": [
-        "Toscana",
-        "Campania",
+        "Basilicata",
         "Umbria",
-        "Piemonte"
+        "Piemonte",
+        "Puglia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "Questo fatto riguarda Umbria."
     },
     {
@@ -10486,12 +10486,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Marmore e i Romani»?",
       "choices": [
-        "Toscana",
-        "Calabria",
         "Umbria",
-        "Friuli-Venezia Giulia"
+        "Friuli-Venezia Giulia",
+        "Valle d'Aosta",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Umbria."
     },
     {
@@ -10500,12 +10500,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Perugia etrusca»?",
       "choices": [
-        "Calabria",
-        "Marche",
-        "Umbria",
-        "Friuli-Venezia Giulia"
+        "Liguria",
+        "Toscana",
+        "Veneto",
+        "Umbria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Umbria."
     },
     {
@@ -10514,12 +10514,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Aquila reale»?",
       "choices": [
-        "Lombardia",
+        "Abruzzo",
+        "Piemonte",
         "Marche",
-        "Lazio",
-        "Sardegna"
+        "Liguria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Aquila reale» fa parte della fauna di Marche."
     },
     {
@@ -10528,12 +10528,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Lupo»?",
       "choices": [
-        "Sardegna",
+        "Trentino-Alto Adige",
+        "Abruzzo",
         "Marche",
-        "Campania",
-        "Veneto"
+        "Valle d'Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Lupo» fa parte della fauna di Marche."
     },
     {
@@ -10543,9 +10543,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In quale regione vive questo animale: «Gabbiano reale»?",
       "choices": [
         "Marche",
-        "Valle d'Aosta",
-        "Calabria",
-        "Molise"
+        "Sicilia",
+        "Emilia-Romagna",
+        "Friuli-Venezia Giulia"
       ],
       "correctIndex": 0,
       "explanation": "«Gabbiano reale» fa parte della fauna di Marche."
@@ -10556,12 +10556,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Girasole»?",
       "choices": [
-        "Toscana",
-        "Umbria",
-        "Marche",
-        "Calabria"
+        "Valle d'Aosta",
+        "Lazio",
+        "Basilicata",
+        "Marche"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Girasole» è una pianta tipica di Marche."
     },
     {
@@ -10570,12 +10570,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Ulivo»?",
       "choices": [
-        "Friuli-Venezia Giulia",
         "Marche",
-        "Piemonte",
+        "Valle d'Aosta",
+        "Veneto",
         "Sardegna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Ulivo» è una pianta tipica di Marche."
     },
     {
@@ -10586,8 +10586,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "Marche",
         "Abruzzo",
-        "Valle d'Aosta",
-        "Liguria"
+        "Calabria",
+        "Veneto"
       ],
       "correctIndex": 0,
       "explanation": "«Leccio» è una pianta tipica di Marche."
@@ -10598,9 +10598,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Olive all'ascolana»?",
       "choices": [
-        "Campania",
-        "Valle d'Aosta",
-        "Liguria",
+        "Piemonte",
+        "Emilia-Romagna",
+        "Veneto",
         "Marche"
       ],
       "correctIndex": 3,
@@ -10612,10 +10612,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Brodetto»?",
       "choices": [
-        "Puglia",
+        "Umbria",
         "Marche",
-        "Campania",
-        "Abruzzo"
+        "Lombardia",
+        "Lazio"
       ],
       "correctIndex": 1,
       "explanation": "«Brodetto» è un piatto tipico di Marche."
@@ -10626,12 +10626,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Vincisgrassi»?",
       "choices": [
-        "Calabria",
+        "Emilia-Romagna",
+        "Abruzzo",
         "Marche",
-        "Campania",
-        "Abruzzo"
+        "Campania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Vincisgrassi» è un piatto tipico di Marche."
     },
     {
@@ -10640,12 +10640,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Urbino»?",
       "choices": [
-        "Piemonte",
-        "Calabria",
-        "Marche",
-        "Friuli-Venezia Giulia"
+        "Sicilia",
+        "Valle d'Aosta",
+        "Abruzzo",
+        "Marche"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Urbino» si trova in Marche."
     },
     {
@@ -10654,12 +10654,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Grotte di Frasassi»?",
       "choices": [
-        "Liguria",
-        "Campania",
+        "Molise",
         "Marche",
-        "Sardegna"
+        "Basilicata",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Grotte di Frasassi» si trova in Marche."
     },
     {
@@ -10668,12 +10668,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Monte Conero»?",
       "choices": [
-        "Piemonte",
-        "Veneto",
-        "Marche",
-        "Lazio"
+        "Molise",
+        "Calabria",
+        "Abruzzo",
+        "Marche"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Monte Conero» si trova in Marche."
     },
     {
@@ -10682,12 +10682,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Raffaello»?",
       "choices": [
-        "Toscana",
-        "Piemonte",
-        "Marche",
-        "Liguria"
+        "Sicilia",
+        "Basilicata",
+        "Liguria",
+        "Marche"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Marche."
     },
     {
@@ -10696,12 +10696,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Palazzo Ducale di Urbino»?",
       "choices": [
-        "Lombardia",
-        "Marche",
+        "Veneto",
+        "Puglia",
         "Molise",
-        "Sicilia"
+        "Marche"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Marche."
     },
     {
@@ -10710,12 +10710,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Loreto»?",
       "choices": [
-        "Molise",
-        "Friuli-Venezia Giulia",
-        "Campania",
-        "Marche"
+        "Basilicata",
+        "Abruzzo",
+        "Marche",
+        "Veneto"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Marche."
     },
     {
@@ -10724,10 +10724,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Gabbiano reale»?",
       "choices": [
-        "Sicilia",
+        "Valle d'Aosta",
         "Lazio",
-        "Toscana",
-        "Trentino-Alto Adige"
+        "Trentino-Alto Adige",
+        "Basilicata"
       ],
       "correctIndex": 1,
       "explanation": "«Gabbiano reale» fa parte della fauna di Lazio."
@@ -10738,12 +10738,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Lupo»?",
       "choices": [
-        "Trentino-Alto Adige",
-        "Abruzzo",
         "Lazio",
-        "Friuli-Venezia Giulia"
+        "Sardegna",
+        "Campania",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Lupo» fa parte della fauna di Lazio."
     },
     {
@@ -10752,12 +10752,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Cinghiale»?",
       "choices": [
-        "Campania",
-        "Lazio",
-        "Sardegna",
-        "Valle d'Aosta"
+        "Veneto",
+        "Emilia-Romagna",
+        "Calabria",
+        "Lazio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Cinghiale» fa parte della fauna di Lazio."
     },
     {
@@ -10766,12 +10766,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Pino domestico»?",
       "choices": [
-        "Lombardia",
-        "Veneto",
+        "Sardegna",
         "Lazio",
+        "Sicilia",
         "Umbria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Pino domestico» è una pianta tipica di Lazio."
     },
     {
@@ -10780,12 +10780,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Leccio»?",
       "choices": [
-        "Toscana",
-        "Abruzzo",
+        "Trentino-Alto Adige",
+        "Lazio",
         "Friuli-Venezia Giulia",
-        "Lazio"
+        "Valle d'Aosta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Leccio» è una pianta tipica di Lazio."
     },
     {
@@ -10794,12 +10794,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Ulivo»?",
       "choices": [
-        "Trentino-Alto Adige",
-        "Lazio",
-        "Calabria",
-        "Friuli-Venezia Giulia"
+        "Piemonte",
+        "Campania",
+        "Emilia-Romagna",
+        "Lazio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Ulivo» è una pianta tipica di Lazio."
     },
     {
@@ -10808,12 +10808,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Carbonara»?",
       "choices": [
-        "Marche",
         "Lazio",
         "Toscana",
-        "Lombardia"
+        "Campania",
+        "Trentino-Alto Adige"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Carbonara» è un piatto tipico di Lazio."
     },
     {
@@ -10822,12 +10822,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Supplì»?",
       "choices": [
+        "Sicilia",
         "Lazio",
-        "Puglia",
-        "Abruzzo",
-        "Piemonte"
+        "Trentino-Alto Adige",
+        "Umbria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Supplì» è un piatto tipico di Lazio."
     },
     {
@@ -10836,12 +10836,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Carciofi alla giudia»?",
       "choices": [
-        "Sicilia",
-        "Lazio",
+        "Friuli-Venezia Giulia",
+        "Trentino-Alto Adige",
         "Emilia-Romagna",
-        "Toscana"
+        "Lazio"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Carciofi alla giudia» è un piatto tipico di Lazio."
     },
     {
@@ -10850,12 +10850,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Colosseo»?",
       "choices": [
-        "Emilia-Romagna",
-        "Sicilia",
-        "Calabria",
-        "Lazio"
+        "Umbria",
+        "Sardegna",
+        "Lazio",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Colosseo» si trova in Lazio."
     },
     {
@@ -10864,12 +10864,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Fontana di Trevi»?",
       "choices": [
-        "Molise",
-        "Liguria",
         "Lombardia",
-        "Lazio"
+        "Lazio",
+        "Piemonte",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Fontana di Trevi» si trova in Lazio."
     },
     {
@@ -10878,12 +10878,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Villa d'Este»?",
       "choices": [
-        "Friuli-Venezia Giulia",
-        "Puglia",
-        "Umbria",
-        "Lazio"
+        "Veneto",
+        "Lazio",
+        "Calabria",
+        "Piemonte"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Villa d'Este» si trova in Lazio."
     },
     {
@@ -10892,10 +10892,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Fondazione di Roma»?",
       "choices": [
-        "Emilia-Romagna",
+        "Lombardia",
         "Lazio",
-        "Umbria",
-        "Puglia"
+        "Campania",
+        "Basilicata"
       ],
       "correctIndex": 1,
       "explanation": "Questo fatto riguarda Lazio."
@@ -10906,12 +10906,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Impero romano»?",
       "choices": [
-        "Valle d'Aosta",
-        "Toscana",
-        "Lazio",
-        "Basilicata"
+        "Lombardia",
+        "Marche",
+        "Calabria",
+        "Lazio"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Lazio."
     },
     {
@@ -10920,12 +10920,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Roma capitale»?",
       "choices": [
+        "Abruzzo",
         "Lazio",
-        "Umbria",
-        "Liguria",
-        "Molise"
+        "Emilia-Romagna",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Questo fatto riguarda Lazio."
     },
     {
@@ -10935,9 +10935,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In quale regione vive questo animale: «Orso marsicano»?",
       "choices": [
         "Abruzzo",
-        "Calabria",
-        "Marche",
-        "Molise"
+        "Toscana",
+        "Lombardia",
+        "Campania"
       ],
       "correctIndex": 0,
       "explanation": "«Orso marsicano» fa parte della fauna di Abruzzo."
@@ -10948,12 +10948,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Camoscio d'Abruzzo»?",
       "choices": [
-        "Emilia-Romagna",
-        "Abruzzo",
+        "Liguria",
         "Molise",
-        "Basilicata"
+        "Sardegna",
+        "Abruzzo"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Camoscio d'Abruzzo» fa parte della fauna di Abruzzo."
     },
     {
@@ -10962,12 +10962,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Lupo appenninico»?",
       "choices": [
-        "Piemonte",
-        "Campania",
+        "Basilicata",
         "Abruzzo",
-        "Sicilia"
+        "Calabria",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Lupo appenninico» fa parte della fauna di Abruzzo."
     },
     {
@@ -10976,12 +10976,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Faggio»?",
       "choices": [
-        "Emilia-Romagna",
-        "Trentino-Alto Adige",
+        "Veneto",
         "Sicilia",
-        "Abruzzo"
+        "Abruzzo",
+        "Trentino-Alto Adige"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Faggio» è una pianta tipica di Abruzzo."
     },
     {
@@ -10990,12 +10990,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Zafferano»?",
       "choices": [
-        "Umbria",
-        "Marche",
-        "Liguria",
-        "Abruzzo"
+        "Toscana",
+        "Veneto",
+        "Abruzzo",
+        "Umbria"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Zafferano» è una pianta tipica di Abruzzo."
     },
     {
@@ -11004,12 +11004,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Genziana»?",
       "choices": [
-        "Puglia",
-        "Molise",
-        "Abruzzo",
-        "Campania"
+        "Calabria",
+        "Lombardia",
+        "Lazio",
+        "Abruzzo"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Genziana» è una pianta tipica di Abruzzo."
     },
     {
@@ -11018,12 +11018,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Arrosticini»?",
       "choices": [
-        "Emilia-Romagna",
-        "Lombardia",
-        "Abruzzo",
-        "Friuli-Venezia Giulia"
+        "Sicilia",
+        "Sardegna",
+        "Basilicata",
+        "Abruzzo"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Arrosticini» è un piatto tipico di Abruzzo."
     },
     {
@@ -11032,12 +11032,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Spaghetti alla chitarra»?",
       "choices": [
-        "Lombardia",
-        "Campania",
         "Abruzzo",
-        "Liguria"
+        "Lazio",
+        "Trentino-Alto Adige",
+        "Basilicata"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Spaghetti alla chitarra» è un piatto tipico di Abruzzo."
     },
     {
@@ -11046,12 +11046,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Confetti di Sulmona»?",
       "choices": [
+        "Lazio",
         "Abruzzo",
-        "Toscana",
-        "Umbria",
-        "Basilicata"
+        "Marche",
+        "Calabria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Confetti di Sulmona» è un piatto tipico di Abruzzo."
     },
     {
@@ -11060,12 +11060,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Gran Sasso»?",
       "choices": [
-        "Sicilia",
-        "Piemonte",
         "Abruzzo",
-        "Friuli-Venezia Giulia"
+        "Toscana",
+        "Liguria",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Gran Sasso» si trova in Abruzzo."
     },
     {
@@ -11074,10 +11074,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Trabocchi»?",
       "choices": [
-        "Sicilia",
-        "Sardegna",
+        "Lombardia",
+        "Basilicata",
         "Abruzzo",
-        "Campania"
+        "Calabria"
       ],
       "correctIndex": 2,
       "explanation": "«Trabocchi» si trova in Abruzzo."
@@ -11088,12 +11088,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Rocca Calascio»?",
       "choices": [
-        "Puglia",
-        "Piemonte",
-        "Lombardia",
-        "Abruzzo"
+        "Trentino-Alto Adige",
+        "Umbria",
+        "Abruzzo",
+        "Lombardia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Rocca Calascio» si trova in Abruzzo."
     },
     {
@@ -11102,12 +11102,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Parco d'Abruzzo»?",
       "choices": [
-        "Abruzzo",
         "Marche",
-        "Friuli-Venezia Giulia",
-        "Liguria"
+        "Liguria",
+        "Abruzzo",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Abruzzo."
     },
     {
@@ -11116,12 +11116,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Transumanza»?",
       "choices": [
-        "Veneto",
+        "Umbria",
+        "Sicilia",
         "Abruzzo",
-        "Sardegna",
-        "Trentino-Alto Adige"
+        "Emilia-Romagna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Abruzzo."
     },
     {
@@ -11130,10 +11130,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Basilica di Collemaggio»?",
       "choices": [
-        "Molise",
+        "Toscana",
         "Abruzzo",
-        "Sicilia",
-        "Emilia-Romagna"
+        "Molise",
+        "Puglia"
       ],
       "correctIndex": 1,
       "explanation": "Questo fatto riguarda Abruzzo."
@@ -11144,12 +11144,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Lupo»?",
       "choices": [
-        "Abruzzo",
-        "Valle d'Aosta",
         "Campania",
-        "Molise"
+        "Sardegna",
+        "Molise",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Lupo» fa parte della fauna di Molise."
     },
     {
@@ -11158,12 +11158,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Cinghiale»?",
       "choices": [
-        "Trentino-Alto Adige",
-        "Valle d'Aosta",
-        "Puglia",
-        "Molise"
+        "Sardegna",
+        "Abruzzo",
+        "Molise",
+        "Puglia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Cinghiale» fa parte della fauna di Molise."
     },
     {
@@ -11172,12 +11172,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Tartaruga marina»?",
       "choices": [
+        "Abruzzo",
+        "Piemonte",
         "Molise",
-        "Emilia-Romagna",
-        "Liguria",
         "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Tartaruga marina» fa parte della fauna di Molise."
     },
     {
@@ -11186,12 +11186,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Ulivo»?",
       "choices": [
-        "Sardegna",
-        "Abruzzo",
-        "Emilia-Romagna",
-        "Molise"
+        "Campania",
+        "Trentino-Alto Adige",
+        "Molise",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Ulivo» è una pianta tipica di Molise."
     },
     {
@@ -11201,9 +11201,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In quale regione cresce questa pianta: «Roverella»?",
       "choices": [
         "Molise",
-        "Abruzzo",
-        "Lazio",
-        "Valle d'Aosta"
+        "Calabria",
+        "Toscana",
+        "Marche"
       ],
       "correctIndex": 0,
       "explanation": "«Roverella» è una pianta tipica di Molise."
@@ -11214,12 +11214,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Faggio»?",
       "choices": [
-        "Molise",
         "Sardegna",
-        "Puglia",
-        "Veneto"
+        "Emilia-Romagna",
+        "Molise",
+        "Puglia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Faggio» è una pianta tipica di Molise."
     },
     {
@@ -11228,12 +11228,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Cavatelli»?",
       "choices": [
-        "Valle d'Aosta",
         "Molise",
-        "Basilicata",
-        "Lazio"
+        "Trentino-Alto Adige",
+        "Marche",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Cavatelli» è un piatto tipico di Molise."
     },
     {
@@ -11242,10 +11242,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Caciocavallo»?",
       "choices": [
-        "Sicilia",
-        "Campania",
+        "Lazio",
+        "Liguria",
         "Molise",
-        "Sardegna"
+        "Sicilia"
       ],
       "correctIndex": 2,
       "explanation": "«Caciocavallo» è un piatto tipico di Molise."
@@ -11256,12 +11256,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Pallotte cacio e uova»?",
       "choices": [
-        "Calabria",
         "Molise",
-        "Lombardia",
-        "Campania"
+        "Umbria",
+        "Basilicata",
+        "Piemonte"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Pallotte cacio e uova» è un piatto tipico di Molise."
     },
     {
@@ -11270,10 +11270,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Termoli»?",
       "choices": [
-        "Valle d'Aosta",
+        "Abruzzo",
         "Molise",
-        "Lombardia",
-        "Sicilia"
+        "Friuli-Venezia Giulia",
+        "Trentino-Alto Adige"
       ],
       "correctIndex": 1,
       "explanation": "«Termoli» si trova in Molise."
@@ -11284,12 +11284,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Saepinum»?",
       "choices": [
+        "Emilia-Romagna",
         "Molise",
-        "Friuli-Venezia Giulia",
-        "Puglia",
-        "Lombardia"
+        "Marche",
+        "Liguria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Saepinum» si trova in Molise."
     },
     {
@@ -11298,12 +11298,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Agnone»?",
       "choices": [
-        "Lombardia",
-        "Umbria",
-        "Molise",
-        "Veneto"
+        "Lazio",
+        "Puglia",
+        "Basilicata",
+        "Molise"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Agnone» si trova in Molise."
     },
     {
@@ -11312,12 +11312,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Regione dal 1963»?",
       "choices": [
-        "Emilia-Romagna",
         "Molise",
-        "Valle d'Aosta",
-        "Lombardia"
+        "Sardegna",
+        "Veneto",
+        "Basilicata"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Molise."
     },
     {
@@ -11326,12 +11326,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Tratturi»?",
       "choices": [
-        "Molise",
-        "Campania",
-        "Lombardia",
-        "Liguria"
+        "Veneto",
+        "Liguria",
+        "Abruzzo",
+        "Molise"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Molise."
     },
     {
@@ -11340,12 +11340,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Tavola di Agnone»?",
       "choices": [
-        "Valle d'Aosta",
+        "Trentino-Alto Adige",
+        "Veneto",
         "Molise",
-        "Marche",
-        "Trentino-Alto Adige"
+        "Sicilia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Molise."
     },
     {
@@ -11354,10 +11354,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Gabbiano reale»?",
       "choices": [
-        "Sardegna",
-        "Friuli-Venezia Giulia",
+        "Molise",
+        "Basilicata",
         "Campania",
-        "Sicilia"
+        "Umbria"
       ],
       "correctIndex": 2,
       "explanation": "«Gabbiano reale» fa parte della fauna di Campania."
@@ -11368,10 +11368,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Berta maggiore»?",
       "choices": [
-        "Umbria",
+        "Trentino-Alto Adige",
         "Campania",
-        "Lombardia",
-        "Piemonte"
+        "Abruzzo",
+        "Sicilia"
       ],
       "correctIndex": 1,
       "explanation": "«Berta maggiore» fa parte della fauna di Campania."
@@ -11382,12 +11382,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Tursiope»?",
       "choices": [
-        "Lombardia",
-        "Basilicata",
         "Campania",
-        "Trentino-Alto Adige"
+        "Friuli-Venezia Giulia",
+        "Calabria",
+        "Marche"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Tursiope» fa parte della fauna di Campania."
     },
     {
@@ -11396,12 +11396,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Limone»?",
       "choices": [
-        "Marche",
-        "Campania",
-        "Piemonte",
-        "Valle d'Aosta"
+        "Abruzzo",
+        "Umbria",
+        "Veneto",
+        "Campania"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Limone» è una pianta tipica di Campania."
     },
     {
@@ -11410,12 +11410,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Pomodoro»?",
       "choices": [
-        "Umbria",
-        "Veneto",
-        "Toscana",
-        "Campania"
+        "Sicilia",
+        "Puglia",
+        "Campania",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Pomodoro» è una pianta tipica di Campania."
     },
     {
@@ -11424,12 +11424,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Vite»?",
       "choices": [
-        "Abruzzo",
         "Campania",
         "Umbria",
-        "Sardegna"
+        "Abruzzo",
+        "Lombardia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Vite» è una pianta tipica di Campania."
     },
     {
@@ -11438,12 +11438,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Pizza napoletana»?",
       "choices": [
-        "Sardegna",
-        "Puglia",
         "Campania",
-        "Sicilia"
+        "Basilicata",
+        "Piemonte",
+        "Lombardia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Pizza napoletana» è un piatto tipico di Campania."
     },
     {
@@ -11452,12 +11452,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Mozzarella di bufala»?",
       "choices": [
-        "Lombardia",
+        "Friuli-Venezia Giulia",
+        "Molise",
         "Campania",
-        "Liguria",
-        "Molise"
+        "Liguria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Mozzarella di bufala» è un piatto tipico di Campania."
     },
     {
@@ -11466,12 +11466,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Sfogliatella»?",
       "choices": [
-        "Puglia",
-        "Sardegna",
-        "Molise",
-        "Campania"
+        "Campania",
+        "Marche",
+        "Trentino-Alto Adige",
+        "Sicilia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Sfogliatella» è un piatto tipico di Campania."
     },
     {
@@ -11480,12 +11480,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Pompei»?",
       "choices": [
+        "Sardegna",
         "Campania",
-        "Calabria",
-        "Valle d'Aosta",
-        "Trentino-Alto Adige"
+        "Toscana",
+        "Abruzzo"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Pompei» si trova in Campania."
     },
     {
@@ -11494,12 +11494,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Costiera amalfitana»?",
       "choices": [
+        "Emilia-Romagna",
+        "Trentino-Alto Adige",
         "Campania",
-        "Sardegna",
-        "Sicilia",
         "Molise"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Costiera amalfitana» si trova in Campania."
     },
     {
@@ -11508,12 +11508,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Vesuvio»?",
       "choices": [
-        "Campania",
         "Piemonte",
-        "Lazio",
-        "Liguria"
+        "Campania",
+        "Friuli-Venezia Giulia",
+        "Lombardia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Vesuvio» si trova in Campania."
     },
     {
@@ -11522,12 +11522,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Eruzione del 79»?",
       "choices": [
-        "Molise",
-        "Toscana",
         "Calabria",
-        "Campania"
+        "Emilia-Romagna",
+        "Campania",
+        "Umbria"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Campania."
     },
     {
@@ -11536,12 +11536,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Repubblica di Amalfi»?",
       "choices": [
-        "Abruzzo",
         "Campania",
-        "Liguria",
-        "Friuli-Venezia Giulia"
+        "Marche",
+        "Molise",
+        "Emilia-Romagna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Campania."
     },
     {
@@ -11550,12 +11550,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Regno di Napoli»?",
       "choices": [
-        "Calabria",
-        "Liguria",
         "Veneto",
-        "Campania"
+        "Molise",
+        "Campania",
+        "Piemonte"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Campania."
     },
     {
@@ -11564,12 +11564,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Fenicottero»?",
       "choices": [
-        "Puglia",
         "Friuli-Venezia Giulia",
-        "Trentino-Alto Adige",
-        "Lazio"
+        "Puglia",
+        "Molise",
+        "Toscana"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Fenicottero» fa parte della fauna di Puglia."
     },
     {
@@ -11579,9 +11579,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In quale regione vive questo animale: «Grillaio»?",
       "choices": [
         "Puglia",
-        "Piemonte",
-        "Calabria",
-        "Lazio"
+        "Basilicata",
+        "Sardegna",
+        "Valle d'Aosta"
       ],
       "correctIndex": 0,
       "explanation": "«Grillaio» fa parte della fauna di Puglia."
@@ -11592,12 +11592,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Tartaruga marina»?",
       "choices": [
-        "Emilia-Romagna",
-        "Abruzzo",
-        "Puglia",
-        "Toscana"
+        "Liguria",
+        "Basilicata",
+        "Piemonte",
+        "Puglia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Tartaruga marina» fa parte della fauna di Puglia."
     },
     {
@@ -11606,12 +11606,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Ulivo»?",
       "choices": [
-        "Puglia",
-        "Emilia-Romagna",
-        "Calabria",
-        "Veneto"
+        "Veneto",
+        "Sardegna",
+        "Sicilia",
+        "Puglia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Ulivo» è una pianta tipica di Puglia."
     },
     {
@@ -11620,12 +11620,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Fico d'India»?",
       "choices": [
-        "Puglia",
+        "Basilicata",
         "Friuli-Venezia Giulia",
-        "Calabria",
-        "Liguria"
+        "Marche",
+        "Puglia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Fico d'India» è una pianta tipica di Puglia."
     },
     {
@@ -11634,12 +11634,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Vite»?",
       "choices": [
-        "Marche",
         "Puglia",
-        "Calabria",
-        "Trentino-Alto Adige"
+        "Lazio",
+        "Umbria",
+        "Marche"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Vite» è una pianta tipica di Puglia."
     },
     {
@@ -11648,12 +11648,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Orecchiette»?",
       "choices": [
+        "Piemonte",
         "Puglia",
-        "Toscana",
-        "Molise",
-        "Valle d'Aosta"
+        "Veneto",
+        "Basilicata"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Orecchiette» è un piatto tipico di Puglia."
     },
     {
@@ -11662,12 +11662,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Burrata»?",
       "choices": [
+        "Lazio",
+        "Sicilia",
         "Puglia",
-        "Trentino-Alto Adige",
-        "Calabria",
-        "Basilicata"
+        "Veneto"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Burrata» è un piatto tipico di Puglia."
     },
     {
@@ -11676,12 +11676,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Panzerotto»?",
       "choices": [
+        "Molise",
         "Puglia",
-        "Sicilia",
-        "Campania",
-        "Liguria"
+        "Abruzzo",
+        "Trentino-Alto Adige"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Panzerotto» è un piatto tipico di Puglia."
     },
     {
@@ -11690,12 +11690,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Alberobello»?",
       "choices": [
+        "Liguria",
         "Puglia",
-        "Friuli-Venezia Giulia",
-        "Sardegna",
-        "Basilicata"
+        "Sicilia",
+        "Molise"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Alberobello» si trova in Puglia."
     },
     {
@@ -11704,10 +11704,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Castel del Monte»?",
       "choices": [
-        "Lombardia",
+        "Piemonte",
         "Puglia",
-        "Veneto",
-        "Friuli-Venezia Giulia"
+        "Liguria",
+        "Lazio"
       ],
       "correctIndex": 1,
       "explanation": "«Castel del Monte» si trova in Puglia."
@@ -11718,8 +11718,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Lecce»?",
       "choices": [
-        "Marche",
-        "Friuli-Venezia Giulia",
+        "Veneto",
+        "Valle d'Aosta",
         "Liguria",
         "Puglia"
       ],
@@ -11732,12 +11732,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Federico II»?",
       "choices": [
+        "Toscana",
         "Puglia",
-        "Calabria",
-        "Molise",
-        "Sardegna"
+        "Veneto",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Questo fatto riguarda Puglia."
     },
     {
@@ -11746,7 +11746,7 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Trulli»?",
       "choices": [
-        "Liguria",
+        "Emilia-Romagna",
         "Abruzzo",
         "Puglia",
         "Sicilia"
@@ -11760,12 +11760,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Porto di Brindisi»?",
       "choices": [
-        "Puglia",
         "Lombardia",
-        "Liguria",
-        "Basilicata"
+        "Lazio",
+        "Puglia",
+        "Molise"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Puglia."
     },
     {
@@ -11774,12 +11774,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Lupo»?",
       "choices": [
-        "Campania",
         "Basilicata",
-        "Puglia",
-        "Lombardia"
+        "Sicilia",
+        "Lombardia",
+        "Sardegna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Lupo» fa parte della fauna di Basilicata."
     },
     {
@@ -11788,9 +11788,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Capriolo»?",
       "choices": [
-        "Umbria",
         "Molise",
         "Sardegna",
+        "Sicilia",
         "Basilicata"
       ],
       "correctIndex": 3,
@@ -11802,12 +11802,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Aquila reale»?",
       "choices": [
-        "Basilicata",
-        "Umbria",
-        "Campania",
-        "Lazio"
+        "Calabria",
+        "Toscana",
+        "Abruzzo",
+        "Basilicata"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Aquila reale» fa parte della fauna di Basilicata."
     },
     {
@@ -11816,10 +11816,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Pino loricato»?",
       "choices": [
-        "Molise",
-        "Sardegna",
+        "Valle d'Aosta",
+        "Liguria",
         "Basilicata",
-        "Sicilia"
+        "Lombardia"
       ],
       "correctIndex": 2,
       "explanation": "«Pino loricato» è una pianta tipica di Basilicata."
@@ -11830,12 +11830,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Peperone di Senise»?",
       "choices": [
-        "Toscana",
-        "Marche",
         "Basilicata",
-        "Piemonte"
+        "Sardegna",
+        "Friuli-Venezia Giulia",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Peperone di Senise» è una pianta tipica di Basilicata."
     },
     {
@@ -11844,12 +11844,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Ulivo»?",
       "choices": [
-        "Trentino-Alto Adige",
-        "Sicilia",
+        "Emilia-Romagna",
         "Basilicata",
-        "Piemonte"
+        "Veneto",
+        "Lombardia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Ulivo» è una pianta tipica di Basilicata."
     },
     {
@@ -11858,12 +11858,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Peperoni cruschi»?",
       "choices": [
+        "Toscana",
+        "Basilicata",
         "Friuli-Venezia Giulia",
-        "Marche",
-        "Liguria",
-        "Basilicata"
+        "Puglia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Peperoni cruschi» è un piatto tipico di Basilicata."
     },
     {
@@ -11873,11 +11873,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "Di quale regione è tipico questo piatto: «Pane di Matera»?",
       "choices": [
         "Molise",
-        "Calabria",
         "Basilicata",
-        "Valle d'Aosta"
+        "Puglia",
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Pane di Matera» è un piatto tipico di Basilicata."
     },
     {
@@ -11887,11 +11887,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "Di quale regione è tipico questo piatto: «Lucanica»?",
       "choices": [
         "Friuli-Venezia Giulia",
-        "Trentino-Alto Adige",
-        "Campania",
-        "Basilicata"
+        "Basilicata",
+        "Veneto",
+        "Marche"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Lucanica» è un piatto tipico di Basilicata."
     },
     {
@@ -11900,12 +11900,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Sassi di Matera»?",
       "choices": [
-        "Basilicata",
-        "Valle d'Aosta",
-        "Campania",
-        "Trentino-Alto Adige"
+        "Marche",
+        "Veneto",
+        "Liguria",
+        "Basilicata"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Sassi di Matera» si trova in Basilicata."
     },
     {
@@ -11915,11 +11915,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In quale regione si trova «Parco del Pollino»?",
       "choices": [
         "Lombardia",
+        "Sardegna",
         "Basilicata",
-        "Marche",
-        "Umbria"
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Parco del Pollino» si trova in Basilicata."
     },
     {
@@ -11928,12 +11928,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Maratea»?",
       "choices": [
+        "Umbria",
         "Basilicata",
-        "Toscana",
-        "Marche",
-        "Campania"
+        "Campania",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«Maratea» si trova in Basilicata."
     },
     {
@@ -11942,12 +11942,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Sassi abitati»?",
       "choices": [
-        "Marche",
         "Basilicata",
         "Valle d'Aosta",
-        "Lazio"
+        "Abruzzo",
+        "Molise"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Basilicata."
     },
     {
@@ -11956,10 +11956,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Metaponto»?",
       "choices": [
-        "Lombardia",
-        "Trentino-Alto Adige",
+        "Valle d'Aosta",
+        "Piemonte",
         "Basilicata",
-        "Calabria"
+        "Veneto"
       ],
       "correctIndex": 2,
       "explanation": "Questo fatto riguarda Basilicata."
@@ -11970,12 +11970,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Briganti dell'Ottocento»?",
       "choices": [
-        "Abruzzo",
-        "Valle d'Aosta",
+        "Friuli-Venezia Giulia",
+        "Basilicata",
         "Emilia-Romagna",
-        "Basilicata"
+        "Sicilia"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Questo fatto riguarda Basilicata."
     },
     {
@@ -11984,12 +11984,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Lupo»?",
       "choices": [
-        "Puglia",
         "Liguria",
-        "Abruzzo",
-        "Calabria"
+        "Sardegna",
+        "Calabria",
+        "Trentino-Alto Adige"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Lupo» fa parte della fauna di Calabria."
     },
     {
@@ -11998,12 +11998,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Cervo»?",
       "choices": [
-        "Molise",
-        "Umbria",
         "Calabria",
-        "Friuli-Venezia Giulia"
+        "Campania",
+        "Molise",
+        "Marche"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Cervo» fa parte della fauna di Calabria."
     },
     {
@@ -12012,12 +12012,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Tartaruga marina»?",
       "choices": [
+        "Trentino-Alto Adige",
+        "Toscana",
         "Calabria",
-        "Lazio",
-        "Umbria",
-        "Piemonte"
+        "Veneto"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Tartaruga marina» fa parte della fauna di Calabria."
     },
     {
@@ -12026,12 +12026,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Bergamotto»?",
       "choices": [
-        "Calabria",
-        "Toscana",
+        "Lazio",
         "Liguria",
-        "Veneto"
+        "Calabria",
+        "Piemonte"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Bergamotto» è una pianta tipica di Calabria."
     },
     {
@@ -12040,12 +12040,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Fico»?",
       "choices": [
-        "Veneto",
+        "Trentino-Alto Adige",
+        "Campania",
         "Calabria",
-        "Piemonte",
-        "Molise"
+        "Sardegna"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Fico» è una pianta tipica di Calabria."
     },
     {
@@ -12054,12 +12054,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Pino loricato»?",
       "choices": [
-        "Emilia-Romagna",
-        "Molise",
+        "Sicilia",
         "Calabria",
-        "Lombardia"
+        "Puglia",
+        "Umbria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Pino loricato» è una pianta tipica di Calabria."
     },
     {
@@ -12068,12 +12068,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «'Nduja»?",
       "choices": [
+        "Friuli-Venezia Giulia",
         "Calabria",
-        "Liguria",
-        "Veneto",
-        "Friuli-Venezia Giulia"
+        "Molise",
+        "Marche"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«'Nduja» è un piatto tipico di Calabria."
     },
     {
@@ -12082,12 +12082,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Tartufo di Pizzo»?",
       "choices": [
-        "Molise",
+        "Calabria",
         "Piemonte",
-        "Toscana",
-        "Calabria"
+        "Trentino-Alto Adige",
+        "Marche"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Tartufo di Pizzo» è un piatto tipico di Calabria."
     },
     {
@@ -12096,12 +12096,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Cipolla di Tropea»?",
       "choices": [
-        "Trentino-Alto Adige",
-        "Lazio",
-        "Calabria",
-        "Lombardia"
+        "Emilia-Romagna",
+        "Liguria",
+        "Abruzzo",
+        "Calabria"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Cipolla di Tropea» è un piatto tipico di Calabria."
     },
     {
@@ -12110,12 +12110,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Tropea»?",
       "choices": [
+        "Calabria",
         "Umbria",
-        "Campania",
-        "Marche",
-        "Calabria"
+        "Friuli-Venezia Giulia",
+        "Piemonte"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Tropea» si trova in Calabria."
     },
     {
@@ -12124,12 +12124,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Bronzi di Riace»?",
       "choices": [
-        "Calabria",
         "Sicilia",
-        "Campania",
-        "Veneto"
+        "Basilicata",
+        "Toscana",
+        "Calabria"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Bronzi di Riace» si trova in Calabria."
     },
     {
@@ -12138,12 +12138,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Scilla»?",
       "choices": [
-        "Umbria",
-        "Calabria",
-        "Marche",
-        "Molise"
+        "Lazio",
+        "Sardegna",
+        "Veneto",
+        "Calabria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Scilla» si trova in Calabria."
     },
     {
@@ -12152,10 +12152,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Magna Grecia»?",
       "choices": [
-        "Friuli-Venezia Giulia",
-        "Toscana",
+        "Veneto",
+        "Basilicata",
         "Calabria",
-        "Puglia"
+        "Umbria"
       ],
       "correctIndex": 2,
       "explanation": "Questo fatto riguarda Calabria."
@@ -12166,12 +12166,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Bronzi di Riace»?",
       "choices": [
-        "Basilicata",
-        "Trentino-Alto Adige",
-        "Valle d'Aosta",
-        "Calabria"
+        "Molise",
+        "Calabria",
+        "Piemonte",
+        "Campania"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Questo fatto riguarda Calabria."
     },
     {
@@ -12180,12 +12180,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Stretto di Messina»?",
       "choices": [
-        "Emilia-Romagna",
-        "Calabria",
-        "Abruzzo",
-        "Campania"
+        "Lombardia",
+        "Puglia",
+        "Campania",
+        "Calabria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Questo fatto riguarda Calabria."
     },
     {
@@ -12194,12 +12194,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Fenicottero»?",
       "choices": [
-        "Umbria",
-        "Lombardia",
-        "Sicilia",
-        "Lazio"
+        "Marche",
+        "Basilicata",
+        "Campania",
+        "Sicilia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«Fenicottero» fa parte della fauna di Sicilia."
     },
     {
@@ -12210,8 +12210,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "Sicilia",
         "Trentino-Alto Adige",
-        "Piemonte",
-        "Campania"
+        "Veneto",
+        "Puglia"
       ],
       "correctIndex": 0,
       "explanation": "«Grifone» fa parte della fauna di Sicilia."
@@ -12223,9 +12223,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In quale regione vive questo animale: «Tartaruga marina»?",
       "choices": [
         "Sicilia",
-        "Veneto",
-        "Toscana",
-        "Campania"
+        "Sardegna",
+        "Valle d'Aosta",
+        "Emilia-Romagna"
       ],
       "correctIndex": 0,
       "explanation": "«Tartaruga marina» fa parte della fauna di Sicilia."
@@ -12236,12 +12236,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Arancio»?",
       "choices": [
-        "Sicilia",
-        "Umbria",
-        "Lombardia",
-        "Veneto"
+        "Basilicata",
+        "Molise",
+        "Puglia",
+        "Sicilia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«Arancio» è una pianta tipica di Sicilia."
     },
     {
@@ -12250,12 +12250,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Fico d'India»?",
       "choices": [
-        "Lazio",
-        "Umbria",
-        "Valle d'Aosta",
-        "Sicilia"
+        "Basilicata",
+        "Molise",
+        "Sicilia",
+        "Calabria"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«Fico d'India» è una pianta tipica di Sicilia."
     },
     {
@@ -12264,12 +12264,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Papiro»?",
       "choices": [
-        "Emilia-Romagna",
-        "Abruzzo",
         "Sicilia",
-        "Valle d'Aosta"
+        "Veneto",
+        "Piemonte",
+        "Campania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«Papiro» è una pianta tipica di Sicilia."
     },
     {
@@ -12278,10 +12278,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Cannolo»?",
       "choices": [
-        "Calabria",
+        "Emilia-Romagna",
         "Sicilia",
-        "Veneto",
-        "Basilicata"
+        "Friuli-Venezia Giulia",
+        "Lombardia"
       ],
       "correctIndex": 1,
       "explanation": "«Cannolo» è un piatto tipico di Sicilia."
@@ -12292,10 +12292,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Arancina»?",
       "choices": [
-        "Friuli-Venezia Giulia",
         "Lazio",
+        "Liguria",
         "Sicilia",
-        "Campania"
+        "Lombardia"
       ],
       "correctIndex": 2,
       "explanation": "«Arancina» è un piatto tipico di Sicilia."
@@ -12306,12 +12306,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Cassata»?",
       "choices": [
-        "Liguria",
-        "Abruzzo",
+        "Sicilia",
         "Molise",
-        "Sicilia"
+        "Calabria",
+        "Trentino-Alto Adige"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Cassata» è un piatto tipico di Sicilia."
     },
     {
@@ -12320,12 +12320,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Etna»?",
       "choices": [
+        "Abruzzo",
         "Umbria",
-        "Sicilia",
-        "Lombardia",
-        "Toscana"
+        "Lazio",
+        "Sicilia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«Etna» si trova in Sicilia."
     },
     {
@@ -12334,12 +12334,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Valle dei Templi»?",
       "choices": [
-        "Basilicata",
-        "Molise",
-        "Marche",
-        "Sicilia"
+        "Calabria",
+        "Sicilia",
+        "Puglia",
+        "Lazio"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Valle dei Templi» si trova in Sicilia."
     },
     {
@@ -12348,12 +12348,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Taormina»?",
       "choices": [
-        "Basilicata",
+        "Sicilia",
         "Trentino-Alto Adige",
-        "Lazio",
-        "Sicilia"
+        "Liguria",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Taormina» si trova in Sicilia."
     },
     {
@@ -12362,12 +12362,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Magna Grecia»?",
       "choices": [
-        "Marche",
         "Sicilia",
-        "Basilicata",
+        "Umbria",
+        "Lombardia",
         "Liguria"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Sicilia."
     },
     {
@@ -12376,12 +12376,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Arabi in Sicilia»?",
       "choices": [
-        "Abruzzo",
-        "Calabria",
-        "Sardegna",
-        "Sicilia"
+        "Sicilia",
+        "Piemonte",
+        "Marche",
+        "Abruzzo"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Sicilia."
     },
     {
@@ -12390,12 +12390,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Normanni a Palermo»?",
       "choices": [
-        "Valle d'Aosta",
         "Sicilia",
+        "Calabria",
         "Sardegna",
-        "Molise"
+        "Puglia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Questo fatto riguarda Sicilia."
     },
     {
@@ -12404,12 +12404,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Muflone»?",
       "choices": [
-        "Friuli-Venezia Giulia",
+        "Emilia-Romagna",
+        "Umbria",
         "Sardegna",
-        "Veneto",
-        "Puglia"
+        "Friuli-Venezia Giulia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Muflone» fa parte della fauna di Sardegna."
     },
     {
@@ -12418,12 +12418,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Cervo sardo»?",
       "choices": [
-        "Trentino-Alto Adige",
+        "Abruzzo",
+        "Sicilia",
         "Sardegna",
-        "Liguria",
-        "Puglia"
+        "Lombardia"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«Cervo sardo» fa parte della fauna di Sardegna."
     },
     {
@@ -12432,12 +12432,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "In quale regione vive questo animale: «Fenicottero»?",
       "choices": [
-        "Valle d'Aosta",
-        "Basilicata",
+        "Friuli-Venezia Giulia",
         "Sardegna",
-        "Lombardia"
+        "Valle d'Aosta",
+        "Lazio"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Fenicottero» fa parte della fauna di Sardegna."
     },
     {
@@ -12446,12 +12446,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Corbezzolo»?",
       "choices": [
+        "Calabria",
+        "Abruzzo",
         "Sardegna",
-        "Trentino-Alto Adige",
-        "Umbria",
-        "Lombardia"
+        "Lazio"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«Corbezzolo» è una pianta tipica di Sardegna."
     },
     {
@@ -12460,12 +12460,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "In quale regione cresce questa pianta: «Sughera»?",
       "choices": [
-        "Sicilia",
-        "Calabria",
+        "Valle d'Aosta",
         "Sardegna",
-        "Piemonte"
+        "Veneto",
+        "Sicilia"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Sughera» è una pianta tipica di Sardegna."
     },
     {
@@ -12475,9 +12475,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "In quale regione cresce questa pianta: «Mirto»?",
       "choices": [
         "Sardegna",
-        "Abruzzo",
-        "Trentino-Alto Adige",
-        "Campania"
+        "Sicilia",
+        "Emilia-Romagna",
+        "Piemonte"
       ],
       "correctIndex": 0,
       "explanation": "«Mirto» è una pianta tipica di Sardegna."
@@ -12488,12 +12488,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Culurgiones»?",
       "choices": [
-        "Lazio",
-        "Puglia",
+        "Umbria",
         "Sardegna",
-        "Calabria"
+        "Veneto",
+        "Campania"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Culurgiones» è un piatto tipico di Sardegna."
     },
     {
@@ -12502,12 +12502,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Pane carasau»?",
       "choices": [
-        "Marche",
         "Sardegna",
-        "Toscana",
-        "Sicilia"
+        "Molise",
+        "Basilicata",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«Pane carasau» è un piatto tipico di Sardegna."
     },
     {
@@ -12516,12 +12516,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "Di quale regione è tipico questo piatto: «Seadas»?",
       "choices": [
-        "Puglia",
-        "Marche",
-        "Calabria",
-        "Sardegna"
+        "Toscana",
+        "Sardegna",
+        "Trentino-Alto Adige",
+        "Veneto"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«Seadas» è un piatto tipico di Sardegna."
     },
     {
@@ -12530,12 +12530,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Nuraghe Santu Antine»?",
       "choices": [
-        "Friuli-Venezia Giulia",
-        "Campania",
+        "Umbria",
         "Sardegna",
-        "Marche"
+        "Piemonte",
+        "Basilicata"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Nuraghe Santu Antine» si trova in Sardegna."
     },
     {
@@ -12544,12 +12544,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Costa Smeralda»?",
       "choices": [
-        "Umbria",
-        "Liguria",
+        "Valle d'Aosta",
         "Sardegna",
-        "Trentino-Alto Adige"
+        "Calabria",
+        "Lazio"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«Costa Smeralda» si trova in Sardegna."
     },
     {
@@ -12558,12 +12558,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "In quale regione si trova «Cagliari»?",
       "choices": [
+        "Sardegna",
+        "Piemonte",
         "Umbria",
-        "Trentino-Alto Adige",
-        "Liguria",
-        "Sardegna"
+        "Emilia-Romagna"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«Cagliari» si trova in Sardegna."
     },
     {
@@ -12572,12 +12572,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Civiltà nuragica»?",
       "choices": [
-        "Friuli-Venezia Giulia",
-        "Sardegna",
+        "Lazio",
         "Lombardia",
-        "Molise"
+        "Sardegna",
+        "Valle d'Aosta"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Sardegna."
     },
     {
@@ -12587,9 +12587,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "A quale regione appartiene questo fatto storico: «Su Nuraxi»?",
       "choices": [
         "Sardegna",
-        "Molise",
-        "Sicilia",
-        "Lombardia"
+        "Basilicata",
+        "Veneto",
+        "Friuli-Venezia Giulia"
       ],
       "correctIndex": 0,
       "explanation": "Questo fatto riguarda Sardegna."
@@ -12600,4215 +12600,13 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "A quale regione appartiene questo fatto storico: «Giudicati»?",
       "choices": [
+        "Campania",
+        "Piemonte",
         "Sardegna",
-        "Toscana",
-        "Emilia-Romagna",
-        "Valle d'Aosta"
+        "Puglia"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Questo fatto riguarda Sardegna."
-    }
-  ],
-  "ru": [
-    {
-      "id": "370d3605d1f3",
-      "provinceSlug": "valle-d-aosta",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Альпийский козерог»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Фриули-Венеция-Джулия",
-        "Базиликата",
-        "Апулия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Альпийский козерог» — часть фауны: Валле-д'Аоста."
-    },
-    {
-      "id": "62da5acdc121",
-      "provinceSlug": "valle-d-aosta",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Альпийская серна»?",
-      "choices": [
-        "Тоскана",
-        "Апулия",
-        "Фриули-Венеция-Джулия",
-        "Валле-д'Аоста"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Альпийская серна» — часть фауны: Валле-д'Аоста."
-    },
-    {
-      "id": "0c1ca05cce73",
-      "provinceSlug": "valle-d-aosta",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Беркут»?",
-      "choices": [
-        "Ломбардия",
-        "Кампания",
-        "Лигурия",
-        "Валле-д'Аоста"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Беркут» — часть фауны: Валле-д'Аоста."
-    },
-    {
-      "id": "23fdd361c826",
-      "provinceSlug": "valle-d-aosta",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Эдельвейс»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Фриули-Венеция-Джулия",
-        "Кампания",
-        "Марке"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Эдельвейс» — типичное растение: Валле-д'Аоста."
-    },
-    {
-      "id": "3d67d7176c18",
-      "provinceSlug": "valle-d-aosta",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Лиственница»?",
-      "choices": [
-        "Базиликата",
-        "Лацио",
-        "Венето",
-        "Валле-д'Аоста"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Лиственница» — типичное растение: Валле-д'Аоста."
-    },
-    {
-      "id": "64622b69f288",
-      "provinceSlug": "valle-d-aosta",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Горечавка»?",
-      "choices": [
-        "Молизе",
-        "Валле-д'Аоста",
-        "Фриули-Венеция-Джулия",
-        "Лацио"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Горечавка» — типичное растение: Валле-д'Аоста."
-    },
-    {
-      "id": "1e9ec11454c4",
-      "provinceSlug": "valle-d-aosta",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Фонтина»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Марке",
-        "Лацио",
-        "Эмилия-Романья"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Фонтина» — типичное блюдо: Валле-д'Аоста."
-    },
-    {
-      "id": "085ab5cfb721",
-      "provinceSlug": "valle-d-aosta",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Полента конча»?",
-      "choices": [
-        "Базиликата",
-        "Валле-д'Аоста",
-        "Тоскана",
-        "Калабрия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Полента конча» — типичное блюдо: Валле-д'Аоста."
-    },
-    {
-      "id": "ac84c013d11a",
-      "provinceSlug": "valle-d-aosta",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Карбонада»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Тоскана",
-        "Абруццо",
-        "Лигурия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Карбонада» — типичное блюдо: Валле-д'Аоста."
-    },
-    {
-      "id": "f61bab5f62ac",
-      "provinceSlug": "valle-d-aosta",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Монблан»?",
-      "choices": [
-        "Трентино-Альто-Адидже",
-        "Валле-д'Аоста",
-        "Эмилия-Романья",
-        "Марке"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Монблан» находится здесь: Валле-д'Аоста."
-    },
-    {
-      "id": "a65ca81c9de1",
-      "provinceSlug": "valle-d-aosta",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Маттерхорн»?",
-      "choices": [
-        "Базиликата",
-        "Валле-д'Аоста",
-        "Ломбардия",
-        "Апулия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Маттерхорн» находится здесь: Валле-д'Аоста."
-    },
-    {
-      "id": "28299792f1fb",
-      "provinceSlug": "valle-d-aosta",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Замок Фенис»?",
-      "choices": [
-        "Сардиния",
-        "Пьемонт",
-        "Тоскана",
-        "Валле-д'Аоста"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Замок Фенис» находится здесь: Валле-д'Аоста."
-    },
-    {
-      "id": "037632bba6dc",
-      "provinceSlug": "valle-d-aosta",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Римская Аоста»?",
-      "choices": [
-        "Лигурия",
-        "Марке",
-        "Валле-д'Аоста",
-        "Абруццо"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Валле-д'Аоста."
-    },
-    {
-      "id": "fd18303b55e6",
-      "provinceSlug": "valle-d-aosta",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Национальный парк Гран-Парадизо»?",
-      "choices": [
-        "Лигурия",
-        "Абруццо",
-        "Валле-д'Аоста",
-        "Эмилия-Романья"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Валле-д'Аоста."
-    },
-    {
-      "id": "75b3a40870c3",
-      "provinceSlug": "valle-d-aosta",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Тоннель Монблан»?",
-      "choices": [
-        "Тоскана",
-        "Валле-д'Аоста",
-        "Лигурия",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Валле-д'Аоста."
-    },
-    {
-      "id": "035e6bd015ec",
-      "provinceSlug": "piemonte",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Серая цапля»?",
-      "choices": [
-        "Лацио",
-        "Молизе",
-        "Лигурия",
-        "Пьемонт"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Серая цапля» — часть фауны: Пьемонт."
-    },
-    {
-      "id": "8ab401825bb0",
-      "provinceSlug": "piemonte",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Волк»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Пьемонт",
-        "Апулия",
-        "Сардиния"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Волк» — часть фауны: Пьемонт."
-    },
-    {
-      "id": "04216f81b4a3",
-      "provinceSlug": "piemonte",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Кабан»?",
-      "choices": [
-        "Калабрия",
-        "Ломбардия",
-        "Кампания",
-        "Пьемонт"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Кабан» — часть фауны: Пьемонт."
-    },
-    {
-      "id": "35b725cdbc90",
-      "provinceSlug": "piemonte",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Каштан»?",
-      "choices": [
-        "Базиликата",
-        "Сардиния",
-        "Пьемонт",
-        "Сицилия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Каштан» — типичное растение: Пьемонт."
-    },
-    {
-      "id": "cac39512822b",
-      "provinceSlug": "piemonte",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Виноградная лоза»?",
-      "choices": [
-        "Сардиния",
-        "Пьемонт",
-        "Трентино-Альто-Адидже",
-        "Калабрия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Виноградная лоза» — типичное растение: Пьемонт."
-    },
-    {
-      "id": "e07f70eb6d38",
-      "provinceSlug": "piemonte",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Рис»?",
-      "choices": [
-        "Венето",
-        "Умбрия",
-        "Лигурия",
-        "Пьемонт"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Рис» — типичное растение: Пьемонт."
-    },
-    {
-      "id": "69ff521506f5",
-      "provinceSlug": "piemonte",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Баньа кауда»?",
-      "choices": [
-        "Калабрия",
-        "Абруццо",
-        "Пьемонт",
-        "Сицилия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Баньа кауда» — типичное блюдо: Пьемонт."
-    },
-    {
-      "id": "37e29c08a121",
-      "provinceSlug": "piemonte",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Ньоли аньолотти»?",
-      "choices": [
-        "Молизе",
-        "Пьемонт",
-        "Кампания",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Ньоли аньолотти» — типичное блюдо: Пьемонт."
-    },
-    {
-      "id": "a720d64f2b72",
-      "provinceSlug": "piemonte",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Джандуйотто»?",
-      "choices": [
-        "Ломбардия",
-        "Пьемонт",
-        "Сицилия",
-        "Базиликата"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Джандуйотто» — типичное блюдо: Пьемонт."
-    },
-    {
-      "id": "3172a91b9eba",
-      "provinceSlug": "piemonte",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Моле Антонеллиана»?",
-      "choices": [
-        "Лацио",
-        "Фриули-Венеция-Джулия",
-        "Пьемонт",
-        "Тоскана"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Моле Антонеллиана» находится здесь: Пьемонт."
-    },
-    {
-      "id": "f98039ab8171",
-      "provinceSlug": "piemonte",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Ланге»?",
-      "choices": [
-        "Пьемонт",
-        "Лацио",
-        "Эмилия-Романья",
-        "Ломбардия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Ланге» находится здесь: Пьемонт."
-    },
-    {
-      "id": "1598516d4d2e",
-      "provinceSlug": "piemonte",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Лаго-Маджоре»?",
-      "choices": [
-        "Калабрия",
-        "Венето",
-        "Пьемонт",
-        "Абруццо"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Лаго-Маджоре» находится здесь: Пьемонт."
-    },
-    {
-      "id": "74c0deb6f56c",
-      "provinceSlug": "piemonte",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Турин — столица»?",
-      "choices": [
-        "Тоскана",
-        "Пьемонт",
-        "Валле-д'Аоста",
-        "Апулия"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Пьемонт."
-    },
-    {
-      "id": "fd851403554b",
-      "provinceSlug": "piemonte",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Сакра-ди-Сан-Микеле»?",
-      "choices": [
-        "Апулия",
-        "Лацио",
-        "Пьемонт",
-        "Венето"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Пьемонт."
-    },
-    {
-      "id": "59f4902d5d6b",
-      "provinceSlug": "piemonte",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Охотничий дворец Ступиниджи»?",
-      "choices": [
-        "Венето",
-        "Калабрия",
-        "Пьемонт",
-        "Абруццо"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Пьемонт."
-    },
-    {
-      "id": "64259550d2a3",
-      "provinceSlug": "liguria",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Жёлтоногая чайка»?",
-      "choices": [
-        "Лигурия",
-        "Апулия",
-        "Калабрия",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Жёлтоногая чайка» — часть фауны: Лигурия."
-    },
-    {
-      "id": "e35312c05abe",
-      "provinceSlug": "liguria",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Афалина»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Лигурия",
-        "Абруццо",
-        "Эмилия-Романья"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Афалина» — часть фауны: Лигурия."
-    },
-    {
-      "id": "290b1bd1a919",
-      "provinceSlug": "liguria",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Сапсан»?",
-      "choices": [
-        "Тоскана",
-        "Фриули-Венеция-Джулия",
-        "Калабрия",
-        "Лигурия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Сапсан» — часть фауны: Лигурия."
-    },
-    {
-      "id": "4e08e3db9a74",
-      "provinceSlug": "liguria",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Генуэзский базилик»?",
-      "choices": [
-        "Сицилия",
-        "Апулия",
-        "Лигурия",
-        "Эмилия-Романья"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Генуэзский базилик» — типичное растение: Лигурия."
-    },
-    {
-      "id": "addbd354b57c",
-      "provinceSlug": "liguria",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Олива»?",
-      "choices": [
-        "Сицилия",
-        "Фриули-Венеция-Джулия",
-        "Калабрия",
-        "Лигурия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Олива» — типичное растение: Лигурия."
-    },
-    {
-      "id": "eb2bfdb3902e",
-      "provinceSlug": "liguria",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Мимоза»?",
-      "choices": [
-        "Венето",
-        "Лигурия",
-        "Эмилия-Романья",
-        "Валле-д'Аоста"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Мимоза» — типичное растение: Лигурия."
-    },
-    {
-      "id": "512df5b203e2",
-      "provinceSlug": "liguria",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Генуэзское песто»?",
-      "choices": [
-        "Лигурия",
-        "Молизе",
-        "Пьемонт",
-        "Марке"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Генуэзское песто» — типичное блюдо: Лигурия."
-    },
-    {
-      "id": "3974e1cad880",
-      "provinceSlug": "liguria",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Генуэзская фокачча»?",
-      "choices": [
-        "Базиликата",
-        "Молизе",
-        "Калабрия",
-        "Лигурия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Генуэзская фокачча» — типичное блюдо: Лигурия."
-    },
-    {
-      "id": "80d0bce4c886",
-      "provinceSlug": "liguria",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Трофие с песто»?",
-      "choices": [
-        "Ломбардия",
-        "Тоскана",
-        "Базиликата",
-        "Лигурия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Трофие с песто» — типичное блюдо: Лигурия."
-    },
-    {
-      "id": "bbc3cdeded09",
-      "provinceSlug": "liguria",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Чинкве-Терре»?",
-      "choices": [
-        "Базиликата",
-        "Сардиния",
-        "Тоскана",
-        "Лигурия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Чинкве-Терре» находится здесь: Лигурия."
-    },
-    {
-      "id": "6f7ab94f35f4",
-      "provinceSlug": "liguria",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Портофино»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Эмилия-Романья",
-        "Пьемонт",
-        "Лигурия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Портофино» находится здесь: Лигурия."
-    },
-    {
-      "id": "e3ac2bab317a",
-      "provinceSlug": "liguria",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Аквариум Генуи»?",
-      "choices": [
-        "Лигурия",
-        "Сицилия",
-        "Апулия",
-        "Марке"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Аквариум Генуи» находится здесь: Лигурия."
-    },
-    {
-      "id": "7631f25e05e3",
-      "provinceSlug": "liguria",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Генуэзская республика»?",
-      "choices": [
-        "Ломбардия",
-        "Лигурия",
-        "Фриули-Венеция-Джулия",
-        "Сицилия"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Лигурия."
-    },
-    {
-      "id": "b799dca452ce",
-      "provinceSlug": "liguria",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Христофор Колумб»?",
-      "choices": [
-        "Кампания",
-        "Сардиния",
-        "Лигурия",
-        "Абруццо"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Лигурия."
-    },
-    {
-      "id": "f9ee6541b6e1",
-      "provinceSlug": "liguria",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Дворцы Ролли»?",
-      "choices": [
-        "Лигурия",
-        "Фриули-Венеция-Джулия",
-        "Базиликата",
-        "Пьемонт"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Лигурия."
-    },
-    {
-      "id": "e61d9f2af2a5",
-      "provinceSlug": "lombardia",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Лебедь-шипун»?",
-      "choices": [
-        "Молизе",
-        "Сицилия",
-        "Ломбардия",
-        "Пьемонт"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Лебедь-шипун» — часть фауны: Ломбардия."
-    },
-    {
-      "id": "1edcfc260aaa",
-      "provinceSlug": "lombardia",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Серая цапля»?",
-      "choices": [
-        "Лигурия",
-        "Умбрия",
-        "Кампания",
-        "Ломбардия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Серая цапля» — часть фауны: Ломбардия."
-    },
-    {
-      "id": "ecbef6106be9",
-      "provinceSlug": "lombardia",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Альпийская серна»?",
-      "choices": [
-        "Умбрия",
-        "Марке",
-        "Пьемонт",
-        "Ломбардия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Альпийская серна» — часть фауны: Ломбардия."
-    },
-    {
-      "id": "b897255801f5",
-      "provinceSlug": "lombardia",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Бук»?",
-      "choices": [
-        "Кампания",
-        "Калабрия",
-        "Ломбардия",
-        "Апулия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Бук» — типичное растение: Ломбардия."
-    },
-    {
-      "id": "661ac85769ee",
-      "provinceSlug": "lombardia",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Кувшинка»?",
-      "choices": [
-        "Сардиния",
-        "Валле-д'Аоста",
-        "Ломбардия",
-        "Калабрия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Кувшинка» — типичное растение: Ломбардия."
-    },
-    {
-      "id": "3beac6f5ca25",
-      "provinceSlug": "lombardia",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Тополь»?",
-      "choices": [
-        "Фриули-Венеция-Джулия",
-        "Сардиния",
-        "Калабрия",
-        "Ломбардия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Тополь» — типичное растение: Ломбардия."
-    },
-    {
-      "id": "d9e9ec71cdf4",
-      "provinceSlug": "lombardia",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Миланское ризотто»?",
-      "choices": [
-        "Абруццо",
-        "Марке",
-        "Ломбардия",
-        "Базиликата"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Миланское ризотто» — типичное блюдо: Ломбардия."
-    },
-    {
-      "id": "19057acdf7b4",
-      "provinceSlug": "lombardia",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Оссобуко»?",
-      "choices": [
-        "Базиликата",
-        "Фриули-Венеция-Джулия",
-        "Ломбардия",
-        "Апулия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Оссобуко» — типичное блюдо: Ломбардия."
-    },
-    {
-      "id": "4e022421f083",
-      "provinceSlug": "lombardia",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Панеттоне»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Ломбардия",
-        "Сардиния",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Панеттоне» — типичное блюдо: Ломбардия."
-    },
-    {
-      "id": "6b1f057499a3",
-      "provinceSlug": "lombardia",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Миланский Дуомо»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Умбрия",
-        "Фриули-Венеция-Джулия",
-        "Ломбардия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Миланский Дуомо» находится здесь: Ломбардия."
-    },
-    {
-      "id": "007a421d9f2b",
-      "provinceSlug": "lombardia",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Озеро Комо»?",
-      "choices": [
-        "Ломбардия",
-        "Абруццо",
-        "Лигурия",
-        "Тоскана"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Озеро Комо» находится здесь: Ломбардия."
-    },
-    {
-      "id": "d7b6e3e01262",
-      "provinceSlug": "lombardia",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: ««Тайная вечеря» Леонардо»?",
-      "choices": [
-        "Пьемонт",
-        "Ломбардия",
-        "Лацио",
-        "Базиликата"
-      ],
-      "correctIndex": 1,
-      "explanation": "««Тайная вечеря» Леонардо» находится здесь: Ломбардия."
-    },
-    {
-      "id": "43e23339f337",
-      "provinceSlug": "lombardia",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Милан — столица империи»?",
-      "choices": [
-        "Ломбардия",
-        "Трентино-Альто-Адидже",
-        "Сицилия",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Ломбардия."
-    },
-    {
-      "id": "fb802401f491",
-      "provinceSlug": "lombardia",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Битва при Леньяно»?",
-      "choices": [
-        "Молизе",
-        "Лигурия",
-        "Ломбардия",
-        "Пьемонт"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Ломбардия."
-    },
-    {
-      "id": "2f1426369617",
-      "provinceSlug": "lombardia",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Леонардо в Милане»?",
-      "choices": [
-        "Пьемонт",
-        "Ломбардия",
-        "Трентино-Альто-Адидже",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Ломбардия."
-    },
-    {
-      "id": "f9720de17b0f",
-      "provinceSlug": "trentino-alto-adige",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Бурый медведь»?",
-      "choices": [
-        "Венето",
-        "Абруццо",
-        "Трентино-Альто-Адидже",
-        "Сардиния"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Бурый медведь» — часть фауны: Трентино-Альто-Адидже."
-    },
-    {
-      "id": "ebdaf8633683",
-      "provinceSlug": "trentino-alto-adige",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Альпийская серна»?",
-      "choices": [
-        "Сицилия",
-        "Лигурия",
-        "Лацио",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Альпийская серна» — часть фауны: Трентино-Альто-Адидже."
-    },
-    {
-      "id": "e21c6263160b",
-      "provinceSlug": "trentino-alto-adige",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Благородный олень»?",
-      "choices": [
-        "Умбрия",
-        "Трентино-Альто-Адидже",
-        "Сардиния",
-        "Молизе"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Благородный олень» — часть фауны: Трентино-Альто-Адидже."
-    },
-    {
-      "id": "1b8af7aeab29",
-      "provinceSlug": "trentino-alto-adige",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Ель обыкновенная»?",
-      "choices": [
-        "Венето",
-        "Апулия",
-        "Тоскана",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Ель обыкновенная» — типичное растение: Трентино-Альто-Адидже."
-    },
-    {
-      "id": "e272c8812a1a",
-      "provinceSlug": "trentino-alto-adige",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Яблоня»?",
-      "choices": [
-        "Трентино-Альто-Адидже",
-        "Сицилия",
-        "Апулия",
-        "Абруццо"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Яблоня» — типичное растение: Трентино-Альто-Адидже."
-    },
-    {
-      "id": "3ea7ca8cecad",
-      "provinceSlug": "trentino-alto-adige",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Горечавка»?",
-      "choices": [
-        "Трентино-Альто-Адидже",
-        "Фриули-Венеция-Джулия",
-        "Калабрия",
-        "Кампания"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Горечавка» — типичное растение: Трентино-Альто-Адидже."
-    },
-    {
-      "id": "8643fc69347f",
-      "provinceSlug": "trentino-alto-adige",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Канедерли»?",
-      "choices": [
-        "Пьемонт",
-        "Молизе",
-        "Трентино-Альто-Адидже",
-        "Тоскана"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Канедерли» — типичное блюдо: Трентино-Альто-Адидже."
-    },
-    {
-      "id": "d9409e49cc92",
-      "provinceSlug": "trentino-alto-adige",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Шпек»?",
-      "choices": [
-        "Трентино-Альто-Адидже",
-        "Венето",
-        "Тоскана",
-        "Марке"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Шпек» — типичное блюдо: Трентино-Альто-Адидже."
-    },
-    {
-      "id": "8466437ecd29",
-      "provinceSlug": "trentino-alto-adige",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Яблочный штрудель»?",
-      "choices": [
-        "Трентино-Альто-Адидже",
-        "Умбрия",
-        "Марке",
-        "Базиликата"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Яблочный штрудель» — типичное блюдо: Трентино-Альто-Адидже."
-    },
-    {
-      "id": "5569ded6b258",
-      "provinceSlug": "trentino-alto-adige",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Доломиты»?",
-      "choices": [
-        "Калабрия",
-        "Лигурия",
-        "Сардиния",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Доломиты» находится здесь: Трентино-Альто-Адидже."
-    },
-    {
-      "id": "428cb816d358",
-      "provinceSlug": "trentino-alto-adige",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Озеро Брайес»?",
-      "choices": [
-        "Лигурия",
-        "Калабрия",
-        "Трентино-Альто-Адидже",
-        "Сардиния"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Озеро Брайес» находится здесь: Трентино-Альто-Адидже."
-    },
-    {
-      "id": "5f59fa0d090f",
-      "provinceSlug": "trentino-alto-adige",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Замок Тироль»?",
-      "choices": [
-        "Сицилия",
-        "Пьемонт",
-        "Фриули-Венеция-Джулия",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Замок Тироль» находится здесь: Трентино-Альто-Адидже."
-    },
-    {
-      "id": "a100f5cf6abe",
-      "provinceSlug": "trentino-alto-adige",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Тридентский собор»?",
-      "choices": [
-        "Трентино-Альто-Адидже",
-        "Валле-д'Аоста",
-        "Фриули-Венеция-Джулия",
-        "Сицилия"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Трентино-Альто-Адидже."
-    },
-    {
-      "id": "5e2545817d4e",
-      "provinceSlug": "trentino-alto-adige",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Эци»?",
-      "choices": [
-        "Трентино-Альто-Адидже",
-        "Умбрия",
-        "Венето",
-        "Апулия"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Трентино-Альто-Адидже."
-    },
-    {
-      "id": "46a50276ecb4",
-      "provinceSlug": "trentino-alto-adige",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Переход к Италии»?",
-      "choices": [
-        "Сардиния",
-        "Трентино-Альто-Адидже",
-        "Ломбардия",
-        "Лигурия"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Трентино-Альто-Адидже."
-    },
-    {
-      "id": "e7d47d426240",
-      "provinceSlug": "veneto",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Фламинго»?",
-      "choices": [
-        "Лигурия",
-        "Пьемонт",
-        "Венето",
-        "Тоскана"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Фламинго» — часть фауны: Венето."
-    },
-    {
-      "id": "592313709000",
-      "provinceSlug": "veneto",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Серая цапля»?",
-      "choices": [
-        "Молизе",
-        "Апулия",
-        "Лацио",
-        "Венето"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Серая цапля» — часть фауны: Венето."
-    },
-    {
-      "id": "fe00a1b3e633",
-      "provinceSlug": "veneto",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Альпийская серна»?",
-      "choices": [
-        "Венето",
-        "Умбрия",
-        "Сардиния",
-        "Апулия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Альпийская серна» — часть фауны: Венето."
-    },
-    {
-      "id": "49981d5477c4",
-      "provinceSlug": "veneto",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Виноградная лоза»?",
-      "choices": [
-        "Калабрия",
-        "Базиликата",
-        "Абруццо",
-        "Венето"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Виноградная лоза» — типичное растение: Венето."
-    },
-    {
-      "id": "c86bd0e7e5e5",
-      "provinceSlug": "veneto",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Кипарис»?",
-      "choices": [
-        "Трентино-Альто-Адидже",
-        "Венето",
-        "Сицилия",
-        "Лацио"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Кипарис» — типичное растение: Венето."
-    },
-    {
-      "id": "1b8d19cd96ac",
-      "provinceSlug": "veneto",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Солерос (солянка)»?",
-      "choices": [
-        "Апулия",
-        "Пьемонт",
-        "Венето",
-        "Сардиния"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Солерос (солянка)» — типичное растение: Венето."
-    },
-    {
-      "id": "b20271bcda41",
-      "provinceSlug": "veneto",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Тирамису»?",
-      "choices": [
-        "Абруццо",
-        "Молизе",
-        "Венето",
-        "Базиликата"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Тирамису» — типичное блюдо: Венето."
-    },
-    {
-      "id": "72e36d0d8ba6",
-      "provinceSlug": "veneto",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Баккала мантекато»?",
-      "choices": [
-        "Апулия",
-        "Венето",
-        "Абруццо",
-        "Кампания"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Баккала мантекато» — типичное блюдо: Венето."
-    },
-    {
-      "id": "6ef07dd53b53",
-      "provinceSlug": "veneto",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Ризотто с чернилами каракатицы»?",
-      "choices": [
-        "Венето",
-        "Калабрия",
-        "Ломбардия",
-        "Пьемонт"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Ризотто с чернилами каракатицы» — типичное блюдо: Венето."
-    },
-    {
-      "id": "f5af01426f84",
-      "provinceSlug": "veneto",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Венеция»?",
-      "choices": [
-        "Венето",
-        "Апулия",
-        "Молизе",
-        "Умбрия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Венеция» находится здесь: Венето."
-    },
-    {
-      "id": "160e54e9c4af",
-      "provinceSlug": "veneto",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Арена ди Верона»?",
-      "choices": [
-        "Венето",
-        "Сардиния",
-        "Эмилия-Романья",
-        "Лигурия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Арена ди Верона» находится здесь: Венето."
-    },
-    {
-      "id": "1baf5c1216db",
-      "provinceSlug": "veneto",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Палладианские виллы»?",
-      "choices": [
-        "Венето",
-        "Ломбардия",
-        "Лигурия",
-        "Лацио"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Палладианские виллы» находится здесь: Венето."
-    },
-    {
-      "id": "2c13b7349f62",
-      "provinceSlug": "veneto",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Венецианская республика»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Кампания",
-        "Венето",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Венето."
-    },
-    {
-      "id": "46b5ccdd33d3",
-      "provinceSlug": "veneto",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Марко Поло»?",
-      "choices": [
-        "Венето",
-        "Лигурия",
-        "Кампания",
-        "Сицилия"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Венето."
-    },
-    {
-      "id": "2db810d9ac87",
-      "provinceSlug": "veneto",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Базилика Святого Марка»?",
-      "choices": [
-        "Венето",
-        "Лацио",
-        "Молизе",
-        "Эмилия-Романья"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Венето."
-    },
-    {
-      "id": "931b319ebe17",
-      "provinceSlug": "friuli-venezia-giulia",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Благородный олень»?",
-      "choices": [
-        "Лигурия",
-        "Фриули-Венеция-Джулия",
-        "Лацио",
-        "Эмилия-Романья"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Благородный олень» — часть фауны: Фриули-Венеция-Джулия."
-    },
-    {
-      "id": "1fcba11aa7f0",
-      "provinceSlug": "friuli-venezia-giulia",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Серая цапля»?",
-      "choices": [
-        "Абруццо",
-        "Тоскана",
-        "Сицилия",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Серая цапля» — часть фауны: Фриули-Венеция-Джулия."
-    },
-    {
-      "id": "caacb7a46aeb",
-      "provinceSlug": "friuli-venezia-giulia",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Бурый медведь»?",
-      "choices": [
-        "Фриули-Венеция-Джулия",
-        "Марке",
-        "Базиликата",
-        "Тоскана"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Бурый медведь» — часть фауны: Фриули-Венеция-Джулия."
-    },
-    {
-      "id": "3e33a328d755",
-      "provinceSlug": "friuli-venezia-giulia",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Виноградная лоза»?",
-      "choices": [
-        "Ломбардия",
-        "Умбрия",
-        "Молизе",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Виноградная лоза» — типичное растение: Фриули-Венеция-Джулия."
-    },
-    {
-      "id": "bab9eb49624d",
-      "provinceSlug": "friuli-venezia-giulia",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Бук»?",
-      "choices": [
-        "Пьемонт",
-        "Умбрия",
-        "Кампания",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Бук» — типичное растение: Фриули-Венеция-Джулия."
-    },
-    {
-      "id": "3c89fed20fc7",
-      "provinceSlug": "friuli-venezia-giulia",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Липа»?",
-      "choices": [
-        "Фриули-Венеция-Джулия",
-        "Пьемонт",
-        "Базиликата",
-        "Валле-д'Аоста"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Липа» — типичное растение: Фриули-Венеция-Джулия."
-    },
-    {
-      "id": "1e44bc06e5bf",
-      "provinceSlug": "friuli-venezia-giulia",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Фрико»?",
-      "choices": [
-        "Сардиния",
-        "Фриули-Венеция-Джулия",
-        "Ломбардия",
-        "Марке"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Фрико» — типичное блюдо: Фриули-Венеция-Джулия."
-    },
-    {
-      "id": "99af309ff570",
-      "provinceSlug": "friuli-venezia-giulia",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Окорок из Сан-Даниеле»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Валле-д'Аоста",
-        "Фриули-Венеция-Джулия",
-        "Венето"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Окорок из Сан-Даниеле» — типичное блюдо: Фриули-Венеция-Джулия."
-    },
-    {
-      "id": "b8c7da5b974a",
-      "provinceSlug": "friuli-venezia-giulia",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Губана»?",
-      "choices": [
-        "Лигурия",
-        "Ломбардия",
-        "Абруццо",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Губана» — типичное блюдо: Фриули-Венеция-Джулия."
-    },
-    {
-      "id": "0e1e6de09d08",
-      "provinceSlug": "friuli-venezia-giulia",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Триест»?",
-      "choices": [
-        "Молизе",
-        "Тоскана",
-        "Умбрия",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Триест» находится здесь: Фриули-Венеция-Джулия."
-    },
-    {
-      "id": "0dca4abb8a43",
-      "provinceSlug": "friuli-venezia-giulia",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Аквилея»?",
-      "choices": [
-        "Фриули-Венеция-Джулия",
-        "Калабрия",
-        "Кампания",
-        "Базиликата"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Аквилея» находится здесь: Фриули-Венеция-Джулия."
-    },
-    {
-      "id": "04a4e50bd3c8",
-      "provinceSlug": "friuli-venezia-giulia",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Лагуна Градо»?",
-      "choices": [
-        "Фриули-Венеция-Джулия",
-        "Калабрия",
-        "Апулия",
-        "Сардиния"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Лагуна Градо» находится здесь: Фриули-Венеция-Джулия."
-    },
-    {
-      "id": "ddc0356a7e6c",
-      "provinceSlug": "friuli-venezia-giulia",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Римская Аквилея»?",
-      "choices": [
-        "Марке",
-        "Фриули-Венеция-Джулия",
-        "Ломбардия",
-        "Венето"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Фриули-Венеция-Джулия."
-    },
-    {
-      "id": "830656bef57f",
-      "provinceSlug": "friuli-venezia-giulia",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Триест Габсбургов»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Базиликата",
-        "Фриули-Венеция-Джулия",
-        "Умбрия"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Фриули-Венеция-Джулия."
-    },
-    {
-      "id": "2a40cfc92dd7",
-      "provinceSlug": "friuli-venezia-giulia",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Языки области»?",
-      "choices": [
-        "Венето",
-        "Лацио",
-        "Фриули-Венеция-Джулия",
-        "Сицилия"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Фриули-Венеция-Джулия."
-    },
-    {
-      "id": "53b939f79dd8",
-      "provinceSlug": "emilia-romagna",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Фламинго»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Калабрия",
-        "Тоскана",
-        "Лигурия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Фламинго» — часть фауны: Эмилия-Романья."
-    },
-    {
-      "id": "5b6e18408411",
-      "provinceSlug": "emilia-romagna",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Волк»?",
-      "choices": [
-        "Сицилия",
-        "Трентино-Альто-Адидже",
-        "Абруццо",
-        "Эмилия-Романья"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Волк» — часть фауны: Эмилия-Романья."
-    },
-    {
-      "id": "183c2a5e74f3",
-      "provinceSlug": "emilia-romagna",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Серая цапля»?",
-      "choices": [
-        "Калабрия",
-        "Валле-д'Аоста",
-        "Марке",
-        "Эмилия-Романья"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Серая цапля» — часть фауны: Эмилия-Романья."
-    },
-    {
-      "id": "f36c746d0d15",
-      "provinceSlug": "emilia-romagna",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Виноградная лоза»?",
-      "choices": [
-        "Сицилия",
-        "Лигурия",
-        "Лацио",
-        "Эмилия-Романья"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Виноградная лоза» — типичное растение: Эмилия-Романья."
-    },
-    {
-      "id": "0173894c50eb",
-      "provinceSlug": "emilia-romagna",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Тополь»?",
-      "choices": [
-        "Калабрия",
-        "Лацио",
-        "Умбрия",
-        "Эмилия-Романья"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Тополь» — типичное растение: Эмилия-Романья."
-    },
-    {
-      "id": "67b89cc1bb8c",
-      "provinceSlug": "emilia-romagna",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Черешня»?",
-      "choices": [
-        "Абруццо",
-        "Тоскана",
-        "Эмилия-Романья",
-        "Базиликата"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Черешня» — типичное растение: Эмилия-Романья."
-    },
-    {
-      "id": "63af44c76a7f",
-      "provinceSlug": "emilia-romagna",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Тальятелле с рагу»?",
-      "choices": [
-        "Тоскана",
-        "Эмилия-Романья",
-        "Валле-д'Аоста",
-        "Сицилия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Тальятелле с рагу» — типичное блюдо: Эмилия-Романья."
-    },
-    {
-      "id": "f08c945dfef8",
-      "provinceSlug": "emilia-romagna",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Тортеллини»?",
-      "choices": [
-        "Апулия",
-        "Кампания",
-        "Эмилия-Романья",
-        "Валле-д'Аоста"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Тортеллини» — типичное блюдо: Эмилия-Романья."
-    },
-    {
-      "id": "7094de78fce5",
-      "provinceSlug": "emilia-romagna",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Пармиджано-реджано»?",
-      "choices": [
-        "Трентино-Альто-Адидже",
-        "Эмилия-Романья",
-        "Сицилия",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Пармиджано-реджано» — типичное блюдо: Эмилия-Романья."
-    },
-    {
-      "id": "beb53a66bb6f",
-      "provinceSlug": "emilia-romagna",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Болонья»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Базиликата",
-        "Умбрия",
-        "Калабрия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Болонья» находится здесь: Эмилия-Романья."
-    },
-    {
-      "id": "1f480932b4fc",
-      "provinceSlug": "emilia-romagna",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Равенна»?",
-      "choices": [
-        "Лигурия",
-        "Трентино-Альто-Адидже",
-        "Валле-д'Аоста",
-        "Эмилия-Романья"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Равенна» находится здесь: Эмилия-Романья."
-    },
-    {
-      "id": "c827019eec72",
-      "provinceSlug": "emilia-romagna",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Дельта По»?",
-      "choices": [
-        "Апулия",
-        "Эмилия-Романья",
-        "Марке",
-        "Кампания"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Дельта По» находится здесь: Эмилия-Романья."
-    },
-    {
-      "id": "4097eaffd9fd",
-      "provinceSlug": "emilia-romagna",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Болонский университет»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Лацио",
-        "Сицилия",
-        "Лигурия"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Эмилия-Романья."
-    },
-    {
-      "id": "3c90ee88ed9f",
-      "provinceSlug": "emilia-romagna",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Via Emilia»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Умбрия",
-        "Венето",
-        "Пьемонт"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Эмилия-Романья."
-    },
-    {
-      "id": "f21b19000e0b",
-      "provinceSlug": "emilia-romagna",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Равенна — столица»?",
-      "choices": [
-        "Базиликата",
-        "Марке",
-        "Эмилия-Романья",
-        "Венето"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Эмилия-Романья."
-    },
-    {
-      "id": "5e16ee6c6b7a",
-      "provinceSlug": "toscana",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Кабан»?",
-      "choices": [
-        "Ломбардия",
-        "Фриули-Венеция-Джулия",
-        "Тоскана",
-        "Марке"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Кабан» — часть фауны: Тоскана."
-    },
-    {
-      "id": "23cb1347ba2c",
-      "provinceSlug": "toscana",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Косуля»?",
-      "choices": [
-        "Пьемонт",
-        "Тоскана",
-        "Сардиния",
-        "Сицилия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Косуля» — часть фауны: Тоскана."
-    },
-    {
-      "id": "2386520497c2",
-      "provinceSlug": "toscana",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Волк»?",
-      "choices": [
-        "Сицилия",
-        "Тоскана",
-        "Венето",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Волк» — часть фауны: Тоскана."
-    },
-    {
-      "id": "dd3308d4d884",
-      "provinceSlug": "toscana",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Кипарис»?",
-      "choices": [
-        "Лигурия",
-        "Эмилия-Романья",
-        "Сицилия",
-        "Тоскана"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Кипарис» — типичное растение: Тоскана."
-    },
-    {
-      "id": "a602274c5694",
-      "provinceSlug": "toscana",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Олива»?",
-      "choices": [
-        "Сицилия",
-        "Тоскана",
-        "Калабрия",
-        "Кампания"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Олива» — типичное растение: Тоскана."
-    },
-    {
-      "id": "f726815f7527",
-      "provinceSlug": "toscana",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Виноградная лоза»?",
-      "choices": [
-        "Умбрия",
-        "Абруццо",
-        "Сардиния",
-        "Тоскана"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Виноградная лоза» — типичное растение: Тоскана."
-    },
-    {
-      "id": "cd022321c73b",
-      "provinceSlug": "toscana",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Флорентийский стейк»?",
-      "choices": [
-        "Сардиния",
-        "Абруццо",
-        "Тоскана",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Флорентийский стейк» — типичное блюдо: Тоскана."
-    },
-    {
-      "id": "407199086504",
-      "provinceSlug": "toscana",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Рибольлита»?",
-      "choices": [
-        "Тоскана",
-        "Фриули-Венеция-Джулия",
-        "Трентино-Альто-Адидже",
-        "Лацио"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Рибольлита» — типичное блюдо: Тоскана."
-    },
-    {
-      "id": "ccff7c91c40b",
-      "provinceSlug": "toscana",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Кантуччи»?",
-      "choices": [
-        "Лигурия",
-        "Тоскана",
-        "Апулия",
-        "Марке"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Кантуччи» — типичное блюдо: Тоскана."
-    },
-    {
-      "id": "58de6700804f",
-      "provinceSlug": "toscana",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Флоренция»?",
-      "choices": [
-        "Тоскана",
-        "Лацио",
-        "Эмилия-Романья",
-        "Сицилия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Флоренция» находится здесь: Тоскана."
-    },
-    {
-      "id": "d6a25c848820",
-      "provinceSlug": "toscana",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Пизанская башня»?",
-      "choices": [
-        "Абруццо",
-        "Тоскана",
-        "Трентино-Альто-Адидже",
-        "Калабрия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Пизанская башня» находится здесь: Тоскана."
-    },
-    {
-      "id": "1f608b4a8426",
-      "provinceSlug": "toscana",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Кьянти»?",
-      "choices": [
-        "Лигурия",
-        "Тоскана",
-        "Сицилия",
-        "Сардиния"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Кьянти» находится здесь: Тоскана."
-    },
-    {
-      "id": "d677b0d3c631",
-      "provinceSlug": "toscana",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Ренессанс во Флоренции»?",
-      "choices": [
-        "Тоскана",
-        "Кампания",
-        "Молизе",
-        "Лигурия"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Тоскана."
-    },
-    {
-      "id": "3981f953532f",
-      "provinceSlug": "toscana",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Купол Брунеллески»?",
-      "choices": [
-        "Тоскана",
-        "Лацио",
-        "Ломбардия",
-        "Умбрия"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Тоскана."
-    },
-    {
-      "id": "2ffd8acaf2fc",
-      "provinceSlug": "toscana",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Палио ди Сиена»?",
-      "choices": [
-        "Венето",
-        "Лигурия",
-        "Молизе",
-        "Тоскана"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Тоскана."
-    },
-    {
-      "id": "af8c40ea4d72",
-      "provinceSlug": "umbria",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Кабан»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Умбрия",
-        "Базиликата",
-        "Сицилия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Кабан» — часть фауны: Умбрия."
-    },
-    {
-      "id": "1f8fc112c39d",
-      "provinceSlug": "umbria",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Волк»?",
-      "choices": [
-        "Апулия",
-        "Умбрия",
-        "Сицилия",
-        "Абруццо"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Волк» — часть фауны: Умбрия."
-    },
-    {
-      "id": "e1a094c45bdb",
-      "provinceSlug": "umbria",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Сапсан»?",
-      "choices": [
-        "Венето",
-        "Молизе",
-        "Умбрия",
-        "Пьемонт"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Сапсан» — часть фауны: Умбрия."
-    },
-    {
-      "id": "bc2d557012af",
-      "provinceSlug": "umbria",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Олива»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Трентино-Альто-Адидже",
-        "Валле-д'Аоста",
-        "Умбрия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Олива» — типичное растение: Умбрия."
-    },
-    {
-      "id": "3a8780af4a81",
-      "provinceSlug": "umbria",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Пушистый дуб»?",
-      "choices": [
-        "Апулия",
-        "Умбрия",
-        "Фриули-Венеция-Джулия",
-        "Валле-д'Аоста"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Пушистый дуб» — типичное растение: Умбрия."
-    },
-    {
-      "id": "5ab171988c39",
-      "provinceSlug": "umbria",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Чечевица из Кастеллуччо»?",
-      "choices": [
-        "Тоскана",
-        "Умбрия",
-        "Фриули-Венеция-Джулия",
-        "Сардиния"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Чечевица из Кастеллуччо» — типичное растение: Умбрия."
-    },
-    {
-      "id": "fe8fbd3b87a0",
-      "provinceSlug": "umbria",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Странгоцци с трюфелем»?",
-      "choices": [
-        "Лацио",
-        "Умбрия",
-        "Трентино-Альто-Адидже",
-        "Ломбардия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Странгоцци с трюфелем» — типичное блюдо: Умбрия."
-    },
-    {
-      "id": "e6a92f6c4a75",
-      "provinceSlug": "umbria",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Чечевица из Кастеллуччо»?",
-      "choices": [
-        "Кампания",
-        "Эмилия-Романья",
-        "Пьемонт",
-        "Умбрия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Чечевица из Кастеллуччо» — типичное блюдо: Умбрия."
-    },
-    {
-      "id": "ebf0710e15ef",
-      "provinceSlug": "umbria",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Порчетта»?",
-      "choices": [
-        "Умбрия",
-        "Трентино-Альто-Адидже",
-        "Тоскана",
-        "Сицилия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Порчетта» — типичное блюдо: Умбрия."
-    },
-    {
-      "id": "523a3b6a8828",
-      "provinceSlug": "umbria",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Ассизи»?",
-      "choices": [
-        "Умбрия",
-        "Пьемонт",
-        "Сардиния",
-        "Базиликата"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Ассизи» находится здесь: Умбрия."
-    },
-    {
-      "id": "bf3a2b84f4d6",
-      "provinceSlug": "umbria",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Водопад Мармора»?",
-      "choices": [
-        "Умбрия",
-        "Лигурия",
-        "Сардиния",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Водопад Мармора» находится здесь: Умбрия."
-    },
-    {
-      "id": "61c3a2150e46",
-      "provinceSlug": "umbria",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Орвието»?",
-      "choices": [
-        "Лигурия",
-        "Абруццо",
-        "Умбрия",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Орвието» находится здесь: Умбрия."
-    },
-    {
-      "id": "9c02c62faad1",
-      "provinceSlug": "umbria",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Святой Франциск»?",
-      "choices": [
-        "Тоскана",
-        "Кампания",
-        "Умбрия",
-        "Пьемонт"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Умбрия."
-    },
-    {
-      "id": "99978c57ce5c",
-      "provinceSlug": "umbria",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Мармора и римляне»?",
-      "choices": [
-        "Тоскана",
-        "Калабрия",
-        "Умбрия",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Умбрия."
-    },
-    {
-      "id": "935aa1247c5e",
-      "provinceSlug": "umbria",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Этрусская Перуджа»?",
-      "choices": [
-        "Калабрия",
-        "Марке",
-        "Умбрия",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Умбрия."
-    },
-    {
-      "id": "52e5849b62e1",
-      "provinceSlug": "marche",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Беркут»?",
-      "choices": [
-        "Ломбардия",
-        "Марке",
-        "Лацио",
-        "Сардиния"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Беркут» — часть фауны: Марке."
-    },
-    {
-      "id": "3ef905686d7b",
-      "provinceSlug": "marche",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Волк»?",
-      "choices": [
-        "Сардиния",
-        "Марке",
-        "Кампания",
-        "Венето"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Волк» — часть фауны: Марке."
-    },
-    {
-      "id": "195c7d1fd54c",
-      "provinceSlug": "marche",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Жёлтоногая чайка»?",
-      "choices": [
-        "Марке",
-        "Валле-д'Аоста",
-        "Калабрия",
-        "Молизе"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Жёлтоногая чайка» — часть фауны: Марке."
-    },
-    {
-      "id": "743c44bb377a",
-      "provinceSlug": "marche",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Подсолнух»?",
-      "choices": [
-        "Тоскана",
-        "Умбрия",
-        "Марке",
-        "Калабрия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Подсолнух» — типичное растение: Марке."
-    },
-    {
-      "id": "05455a1d8ad6",
-      "provinceSlug": "marche",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Олива»?",
-      "choices": [
-        "Фриули-Венеция-Джулия",
-        "Марке",
-        "Пьемонт",
-        "Сардиния"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Олива» — типичное растение: Марке."
-    },
-    {
-      "id": "5c513bd57ebb",
-      "provinceSlug": "marche",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Каменный дуб»?",
-      "choices": [
-        "Марке",
-        "Абруццо",
-        "Валле-д'Аоста",
-        "Лигурия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Каменный дуб» — типичное растение: Марке."
-    },
-    {
-      "id": "f58b60c51de1",
-      "provinceSlug": "marche",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Оливки по-асколански»?",
-      "choices": [
-        "Кампания",
-        "Валле-д'Аоста",
-        "Лигурия",
-        "Марке"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Оливки по-асколански» — типичное блюдо: Марке."
-    },
-    {
-      "id": "e4366e9c4b91",
-      "provinceSlug": "marche",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Бродетто»?",
-      "choices": [
-        "Апулия",
-        "Марке",
-        "Кампания",
-        "Абруццо"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Бродетто» — типичное блюдо: Марке."
-    },
-    {
-      "id": "9d40cedc1069",
-      "provinceSlug": "marche",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Винчисграсси»?",
-      "choices": [
-        "Калабрия",
-        "Марке",
-        "Кампания",
-        "Абруццо"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Винчисграсси» — типичное блюдо: Марке."
-    },
-    {
-      "id": "4a75005da283",
-      "provinceSlug": "marche",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Урбино»?",
-      "choices": [
-        "Пьемонт",
-        "Калабрия",
-        "Марке",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Урбино» находится здесь: Марке."
-    },
-    {
-      "id": "d09b54c93d5f",
-      "provinceSlug": "marche",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Пещеры Фрасасси»?",
-      "choices": [
-        "Лигурия",
-        "Кампания",
-        "Марке",
-        "Сардиния"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Пещеры Фрасасси» находится здесь: Марке."
-    },
-    {
-      "id": "9acf0c2e3802",
-      "provinceSlug": "marche",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Гора Конеро»?",
-      "choices": [
-        "Пьемонт",
-        "Венето",
-        "Марке",
-        "Лацио"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Гора Конеро» находится здесь: Марке."
-    },
-    {
-      "id": "5856d43adfde",
-      "provinceSlug": "marche",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Рафаэль»?",
-      "choices": [
-        "Тоскана",
-        "Пьемонт",
-        "Марке",
-        "Лигурия"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Марке."
-    },
-    {
-      "id": "6b7d191cfb44",
-      "provinceSlug": "marche",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Герцогский дворец Урбино»?",
-      "choices": [
-        "Ломбардия",
-        "Марке",
-        "Молизе",
-        "Сицилия"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Марке."
-    },
-    {
-      "id": "d4741d27b6e0",
-      "provinceSlug": "marche",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Лорето»?",
-      "choices": [
-        "Молизе",
-        "Фриули-Венеция-Джулия",
-        "Кампания",
-        "Марке"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Марке."
-    },
-    {
-      "id": "5db716a72f70",
-      "provinceSlug": "lazio",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Жёлтоногая чайка»?",
-      "choices": [
-        "Сицилия",
-        "Лацио",
-        "Тоскана",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Жёлтоногая чайка» — часть фауны: Лацио."
-    },
-    {
-      "id": "a95e44e5eb2f",
-      "provinceSlug": "lazio",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Волк»?",
-      "choices": [
-        "Трентино-Альто-Адидже",
-        "Абруццо",
-        "Лацио",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Волк» — часть фауны: Лацио."
-    },
-    {
-      "id": "781e61bfa2ec",
-      "provinceSlug": "lazio",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Кабан»?",
-      "choices": [
-        "Кампания",
-        "Лацио",
-        "Сардиния",
-        "Валле-д'Аоста"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Кабан» — часть фауны: Лацио."
-    },
-    {
-      "id": "a6b7db7d958c",
-      "provinceSlug": "lazio",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Пиния»?",
-      "choices": [
-        "Ломбардия",
-        "Венето",
-        "Лацио",
-        "Умбрия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Пиния» — типичное растение: Лацио."
-    },
-    {
-      "id": "b341c53ede3a",
-      "provinceSlug": "lazio",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Каменный дуб»?",
-      "choices": [
-        "Тоскана",
-        "Абруццо",
-        "Фриули-Венеция-Джулия",
-        "Лацио"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Каменный дуб» — типичное растение: Лацио."
-    },
-    {
-      "id": "9a8c459fcac3",
-      "provinceSlug": "lazio",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Олива»?",
-      "choices": [
-        "Трентино-Альто-Адидже",
-        "Лацио",
-        "Калабрия",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Олива» — типичное растение: Лацио."
-    },
-    {
-      "id": "20d1699b042c",
-      "provinceSlug": "lazio",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Карбонара»?",
-      "choices": [
-        "Марке",
-        "Лацио",
-        "Тоскана",
-        "Ломбардия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Карбонара» — типичное блюдо: Лацио."
-    },
-    {
-      "id": "bb76e4e54c1f",
-      "provinceSlug": "lazio",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Суппли»?",
-      "choices": [
-        "Лацио",
-        "Апулия",
-        "Абруццо",
-        "Пьемонт"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Суппли» — типичное блюдо: Лацио."
-    },
-    {
-      "id": "fc46ec552254",
-      "provinceSlug": "lazio",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Артишоки по-еврейски»?",
-      "choices": [
-        "Сицилия",
-        "Лацио",
-        "Эмилия-Романья",
-        "Тоскана"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Артишоки по-еврейски» — типичное блюдо: Лацио."
-    },
-    {
-      "id": "61efb97d81e2",
-      "provinceSlug": "lazio",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Колизей»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Сицилия",
-        "Калабрия",
-        "Лацио"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Колизей» находится здесь: Лацио."
-    },
-    {
-      "id": "9734dddd413b",
-      "provinceSlug": "lazio",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Фонтан Треви»?",
-      "choices": [
-        "Молизе",
-        "Лигурия",
-        "Ломбардия",
-        "Лацио"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Фонтан Треви» находится здесь: Лацио."
-    },
-    {
-      "id": "38f05792c440",
-      "provinceSlug": "lazio",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Вилла д'Эсте»?",
-      "choices": [
-        "Фриули-Венеция-Джулия",
-        "Апулия",
-        "Умбрия",
-        "Лацио"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Вилла д'Эсте» находится здесь: Лацио."
-    },
-    {
-      "id": "0faf4cbd1451",
-      "provinceSlug": "lazio",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Основание Рима»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Лацио",
-        "Умбрия",
-        "Апулия"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Лацио."
-    },
-    {
-      "id": "d5200aff8f9b",
-      "provinceSlug": "lazio",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Римская империя»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Тоскана",
-        "Лацио",
-        "Базиликата"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Лацио."
-    },
-    {
-      "id": "bf7903b46a11",
-      "provinceSlug": "lazio",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Рим — столица»?",
-      "choices": [
-        "Лацио",
-        "Умбрия",
-        "Лигурия",
-        "Молизе"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Лацио."
-    },
-    {
-      "id": "69bec9fccb87",
-      "provinceSlug": "abruzzo",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Марсиканский медведь»?",
-      "choices": [
-        "Абруццо",
-        "Калабрия",
-        "Марке",
-        "Молизе"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Марсиканский медведь» — часть фауны: Абруццо."
-    },
-    {
-      "id": "0f14ef1cd19a",
-      "provinceSlug": "abruzzo",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Абруццкая серна»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Абруццо",
-        "Молизе",
-        "Базиликата"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Абруццкая серна» — часть фауны: Абруццо."
-    },
-    {
-      "id": "0e7a81ccd9ce",
-      "provinceSlug": "abruzzo",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Апеннинский волк»?",
-      "choices": [
-        "Пьемонт",
-        "Кампания",
-        "Абруццо",
-        "Сицилия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Апеннинский волк» — часть фауны: Абруццо."
-    },
-    {
-      "id": "a5553a8bdfce",
-      "provinceSlug": "abruzzo",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Бук»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Трентино-Альто-Адидже",
-        "Сицилия",
-        "Абруццо"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Бук» — типичное растение: Абруццо."
-    },
-    {
-      "id": "ad047150bd1a",
-      "provinceSlug": "abruzzo",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Шафран»?",
-      "choices": [
-        "Умбрия",
-        "Марке",
-        "Лигурия",
-        "Абруццо"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Шафран» — типичное растение: Абруццо."
-    },
-    {
-      "id": "5ed74da97956",
-      "provinceSlug": "abruzzo",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Горечавка»?",
-      "choices": [
-        "Апулия",
-        "Молизе",
-        "Абруццо",
-        "Кампания"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Горечавка» — типичное растение: Абруццо."
-    },
-    {
-      "id": "3a008dfabc9e",
-      "provinceSlug": "abruzzo",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Арростичини»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Ломбардия",
-        "Абруццо",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Арростичини» — типичное блюдо: Абруццо."
-    },
-    {
-      "id": "582e6ef2c43e",
-      "provinceSlug": "abruzzo",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Спагетти алла китарра»?",
-      "choices": [
-        "Ломбардия",
-        "Кампания",
-        "Абруццо",
-        "Лигурия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Спагетти алла китарра» — типичное блюдо: Абруццо."
-    },
-    {
-      "id": "297f2af82f9e",
-      "provinceSlug": "abruzzo",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Конфетти из Сульмоны»?",
-      "choices": [
-        "Абруццо",
-        "Тоскана",
-        "Умбрия",
-        "Базиликата"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Конфетти из Сульмоны» — типичное блюдо: Абруццо."
-    },
-    {
-      "id": "99fe2c54b7d4",
-      "provinceSlug": "abruzzo",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Гран-Сассо»?",
-      "choices": [
-        "Сицилия",
-        "Пьемонт",
-        "Абруццо",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Гран-Сассо» находится здесь: Абруццо."
-    },
-    {
-      "id": "de0aae1cf305",
-      "provinceSlug": "abruzzo",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Трабокки»?",
-      "choices": [
-        "Сицилия",
-        "Сардиния",
-        "Абруццо",
-        "Кампания"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Трабокки» находится здесь: Абруццо."
-    },
-    {
-      "id": "baeb8b94c3ca",
-      "provinceSlug": "abruzzo",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Рокка-Каласчо»?",
-      "choices": [
-        "Апулия",
-        "Пьемонт",
-        "Ломбардия",
-        "Абруццо"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Рокка-Каласчо» находится здесь: Абруццо."
-    },
-    {
-      "id": "ea0c26cd3d7a",
-      "provinceSlug": "abruzzo",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Парк Абруццо»?",
-      "choices": [
-        "Абруццо",
-        "Марке",
-        "Фриули-Венеция-Джулия",
-        "Лигурия"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Абруццо."
-    },
-    {
-      "id": "9b19bae0a606",
-      "provinceSlug": "abruzzo",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Перегон скота»?",
-      "choices": [
-        "Венето",
-        "Абруццо",
-        "Сардиния",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Абруццо."
-    },
-    {
-      "id": "ecf090458f0d",
-      "provinceSlug": "abruzzo",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Базилика Коллемаджо»?",
-      "choices": [
-        "Молизе",
-        "Абруццо",
-        "Сицилия",
-        "Эмилия-Романья"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Абруццо."
-    },
-    {
-      "id": "6e70c04f1977",
-      "provinceSlug": "molise",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Волк»?",
-      "choices": [
-        "Абруццо",
-        "Валле-д'Аоста",
-        "Кампания",
-        "Молизе"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Волк» — часть фауны: Молизе."
-    },
-    {
-      "id": "d2faa0068ad5",
-      "provinceSlug": "molise",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Кабан»?",
-      "choices": [
-        "Трентино-Альто-Адидже",
-        "Валле-д'Аоста",
-        "Апулия",
-        "Молизе"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Кабан» — часть фауны: Молизе."
-    },
-    {
-      "id": "72da0310c00e",
-      "provinceSlug": "molise",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Морская черепаха»?",
-      "choices": [
-        "Молизе",
-        "Эмилия-Романья",
-        "Лигурия",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Морская черепаха» — часть фауны: Молизе."
-    },
-    {
-      "id": "3d037f243533",
-      "provinceSlug": "molise",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Олива»?",
-      "choices": [
-        "Сардиния",
-        "Абруццо",
-        "Эмилия-Романья",
-        "Молизе"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Олива» — типичное растение: Молизе."
-    },
-    {
-      "id": "c8f6226bdae2",
-      "provinceSlug": "molise",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Пушистый дуб»?",
-      "choices": [
-        "Молизе",
-        "Абруццо",
-        "Лацио",
-        "Валле-д'Аоста"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Пушистый дуб» — типичное растение: Молизе."
-    },
-    {
-      "id": "dea1df8e34e4",
-      "provinceSlug": "molise",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Бук»?",
-      "choices": [
-        "Молизе",
-        "Сардиния",
-        "Апулия",
-        "Венето"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Бук» — типичное растение: Молизе."
-    },
-    {
-      "id": "107e02778afc",
-      "provinceSlug": "molise",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Кавателли»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Молизе",
-        "Базиликата",
-        "Лацио"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Кавателли» — типичное блюдо: Молизе."
-    },
-    {
-      "id": "9aa83e07a293",
-      "provinceSlug": "molise",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Качокавалло»?",
-      "choices": [
-        "Сицилия",
-        "Кампания",
-        "Молизе",
-        "Сардиния"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Качокавалло» — типичное блюдо: Молизе."
-    },
-    {
-      "id": "01109b5a6634",
-      "provinceSlug": "molise",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Паллотте качо э уова»?",
-      "choices": [
-        "Калабрия",
-        "Молизе",
-        "Ломбардия",
-        "Кампания"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Паллотте качо э уова» — типичное блюдо: Молизе."
-    },
-    {
-      "id": "111be7d507b8",
-      "provinceSlug": "molise",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Термоли»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Молизе",
-        "Ломбардия",
-        "Сицилия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Термоли» находится здесь: Молизе."
-    },
-    {
-      "id": "73200714bc98",
-      "provinceSlug": "molise",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Сепино»?",
-      "choices": [
-        "Молизе",
-        "Фриули-Венеция-Джулия",
-        "Апулия",
-        "Ломбардия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Сепино» находится здесь: Молизе."
-    },
-    {
-      "id": "e485b33c2dd4",
-      "provinceSlug": "molise",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Аньоне»?",
-      "choices": [
-        "Ломбардия",
-        "Умбрия",
-        "Молизе",
-        "Венето"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Аньоне» находится здесь: Молизе."
-    },
-    {
-      "id": "c3bcbcbb8fd8",
-      "provinceSlug": "molise",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Область с 1963 года»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Молизе",
-        "Валле-д'Аоста",
-        "Ломбардия"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Молизе."
-    },
-    {
-      "id": "0f75372e4127",
-      "provinceSlug": "molise",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Траттури»?",
-      "choices": [
-        "Молизе",
-        "Кампания",
-        "Ломбардия",
-        "Лигурия"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Молизе."
-    },
-    {
-      "id": "34bd5bdbdfbb",
-      "provinceSlug": "molise",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Табличка из Аньоне»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Молизе",
-        "Марке",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Молизе."
-    },
-    {
-      "id": "0f90c1e74163",
-      "provinceSlug": "campania",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Жёлтоногая чайка»?",
-      "choices": [
-        "Сардиния",
-        "Фриули-Венеция-Джулия",
-        "Кампания",
-        "Сицилия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Жёлтоногая чайка» — часть фауны: Кампания."
-    },
-    {
-      "id": "8b1701303f33",
-      "provinceSlug": "campania",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Малый буревестник»?",
-      "choices": [
-        "Умбрия",
-        "Кампания",
-        "Ломбардия",
-        "Пьемонт"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Малый буревестник» — часть фауны: Кампания."
-    },
-    {
-      "id": "e8983c51a302",
-      "provinceSlug": "campania",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Афалина»?",
-      "choices": [
-        "Ломбардия",
-        "Базиликата",
-        "Кампания",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Афалина» — часть фауны: Кампания."
-    },
-    {
-      "id": "897faffffbb5",
-      "provinceSlug": "campania",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Лимон»?",
-      "choices": [
-        "Марке",
-        "Кампания",
-        "Пьемонт",
-        "Валле-д'Аоста"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Лимон» — типичное растение: Кампания."
-    },
-    {
-      "id": "6053b6460d33",
-      "provinceSlug": "campania",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Помидор»?",
-      "choices": [
-        "Умбрия",
-        "Венето",
-        "Тоскана",
-        "Кампания"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Помидор» — типичное растение: Кампания."
-    },
-    {
-      "id": "be7d0a96c398",
-      "provinceSlug": "campania",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Виноградная лоза»?",
-      "choices": [
-        "Абруццо",
-        "Кампания",
-        "Умбрия",
-        "Сардиния"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Виноградная лоза» — типичное растение: Кампания."
-    },
-    {
-      "id": "0d5a6dd8ab9b",
-      "provinceSlug": "campania",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Неаполитанская пицца»?",
-      "choices": [
-        "Сардиния",
-        "Апулия",
-        "Кампания",
-        "Сицилия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Неаполитанская пицца» — типичное блюдо: Кампания."
-    },
-    {
-      "id": "c0d55a21b9e0",
-      "provinceSlug": "campania",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Моцарелла ди буфала»?",
-      "choices": [
-        "Ломбардия",
-        "Кампания",
-        "Лигурия",
-        "Молизе"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Моцарелла ди буфала» — типичное блюдо: Кампания."
-    },
-    {
-      "id": "4a44d1ce4412",
-      "provinceSlug": "campania",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Сфольятелла»?",
-      "choices": [
-        "Апулия",
-        "Сардиния",
-        "Молизе",
-        "Кампания"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Сфольятелла» — типичное блюдо: Кампания."
-    },
-    {
-      "id": "2079ba9ae92b",
-      "provinceSlug": "campania",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Помпеи»?",
-      "choices": [
-        "Кампания",
-        "Калабрия",
-        "Валле-д'Аоста",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Помпеи» находится здесь: Кампания."
-    },
-    {
-      "id": "b149a02914fd",
-      "provinceSlug": "campania",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Амальфитанское побережье»?",
-      "choices": [
-        "Кампания",
-        "Сардиния",
-        "Сицилия",
-        "Молизе"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Амальфитанское побережье» находится здесь: Кампания."
-    },
-    {
-      "id": "84226dd6e1d4",
-      "provinceSlug": "campania",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Везувий»?",
-      "choices": [
-        "Кампания",
-        "Пьемонт",
-        "Лацио",
-        "Лигурия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Везувий» находится здесь: Кампания."
-    },
-    {
-      "id": "a8281fddd289",
-      "provinceSlug": "campania",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Извержение 79 года»?",
-      "choices": [
-        "Молизе",
-        "Тоскана",
-        "Калабрия",
-        "Кампания"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Кампания."
-    },
-    {
-      "id": "f2e57b07ab7f",
-      "provinceSlug": "campania",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Республика Амальфи»?",
-      "choices": [
-        "Абруццо",
-        "Кампания",
-        "Лигурия",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Кампания."
-    },
-    {
-      "id": "39b4f8cb05c6",
-      "provinceSlug": "campania",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Неаполитанское королевство»?",
-      "choices": [
-        "Калабрия",
-        "Лигурия",
-        "Венето",
-        "Кампания"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Кампания."
-    },
-    {
-      "id": "509ff63a8010",
-      "provinceSlug": "puglia",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Фламинго»?",
-      "choices": [
-        "Апулия",
-        "Фриули-Венеция-Джулия",
-        "Трентино-Альто-Адидже",
-        "Лацио"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Фламинго» — часть фауны: Апулия."
-    },
-    {
-      "id": "1121c91846fb",
-      "provinceSlug": "puglia",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Малая пустельга»?",
-      "choices": [
-        "Апулия",
-        "Пьемонт",
-        "Калабрия",
-        "Лацио"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Малая пустельга» — часть фауны: Апулия."
-    },
-    {
-      "id": "4bea44cdf5b3",
-      "provinceSlug": "puglia",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Морская черепаха»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Абруццо",
-        "Апулия",
-        "Тоскана"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Морская черепаха» — часть фауны: Апулия."
-    },
-    {
-      "id": "39bee51606a2",
-      "provinceSlug": "puglia",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Олива»?",
-      "choices": [
-        "Апулия",
-        "Эмилия-Романья",
-        "Калабрия",
-        "Венето"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Олива» — типичное растение: Апулия."
-    },
-    {
-      "id": "03d984bb1609",
-      "provinceSlug": "puglia",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Опунция»?",
-      "choices": [
-        "Апулия",
-        "Фриули-Венеция-Джулия",
-        "Калабрия",
-        "Лигурия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Опунция» — типичное растение: Апулия."
-    },
-    {
-      "id": "9d72e68fbe95",
-      "provinceSlug": "puglia",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Виноградная лоза»?",
-      "choices": [
-        "Марке",
-        "Апулия",
-        "Калабрия",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Виноградная лоза» — типичное растение: Апулия."
-    },
-    {
-      "id": "29cddf628a26",
-      "provinceSlug": "puglia",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Орекьетте»?",
-      "choices": [
-        "Апулия",
-        "Тоскана",
-        "Молизе",
-        "Валле-д'Аоста"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Орекьетте» — типичное блюдо: Апулия."
-    },
-    {
-      "id": "f93475cbcd6f",
-      "provinceSlug": "puglia",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Буррата»?",
-      "choices": [
-        "Апулия",
-        "Трентино-Альто-Адидже",
-        "Калабрия",
-        "Базиликата"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Буррата» — типичное блюдо: Апулия."
-    },
-    {
-      "id": "888ce67d7b0a",
-      "provinceSlug": "puglia",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Панцеротто»?",
-      "choices": [
-        "Апулия",
-        "Сицилия",
-        "Кампания",
-        "Лигурия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Панцеротто» — типичное блюдо: Апулия."
-    },
-    {
-      "id": "5104bb5be60e",
-      "provinceSlug": "puglia",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Альберобелло»?",
-      "choices": [
-        "Апулия",
-        "Фриули-Венеция-Джулия",
-        "Сардиния",
-        "Базиликата"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Альберобелло» находится здесь: Апулия."
-    },
-    {
-      "id": "d0b57e8fbc13",
-      "provinceSlug": "puglia",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Кастель-дель-Монте»?",
-      "choices": [
-        "Ломбардия",
-        "Апулия",
-        "Венето",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Кастель-дель-Монте» находится здесь: Апулия."
-    },
-    {
-      "id": "a38561827b0e",
-      "provinceSlug": "puglia",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Лечче»?",
-      "choices": [
-        "Марке",
-        "Фриули-Венеция-Джулия",
-        "Лигурия",
-        "Апулия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Лечче» находится здесь: Апулия."
-    },
-    {
-      "id": "7463bdd0faae",
-      "provinceSlug": "puglia",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Фридрих II»?",
-      "choices": [
-        "Апулия",
-        "Калабрия",
-        "Молизе",
-        "Сардиния"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Апулия."
-    },
-    {
-      "id": "5abf6d246cb3",
-      "provinceSlug": "puglia",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Трулли»?",
-      "choices": [
-        "Лигурия",
-        "Абруццо",
-        "Апулия",
-        "Сицилия"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Апулия."
-    },
-    {
-      "id": "6d3353b60779",
-      "provinceSlug": "puglia",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Порт Бриндизи»?",
-      "choices": [
-        "Апулия",
-        "Ломбардия",
-        "Лигурия",
-        "Базиликата"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Апулия."
-    },
-    {
-      "id": "23c7fd2f9fb6",
-      "provinceSlug": "basilicata",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Волк»?",
-      "choices": [
-        "Кампания",
-        "Базиликата",
-        "Апулия",
-        "Ломбардия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Волк» — часть фауны: Базиликата."
-    },
-    {
-      "id": "a7505131d2ea",
-      "provinceSlug": "basilicata",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Косуля»?",
-      "choices": [
-        "Умбрия",
-        "Молизе",
-        "Сардиния",
-        "Базиликата"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Косуля» — часть фауны: Базиликата."
-    },
-    {
-      "id": "ad49e901954c",
-      "provinceSlug": "basilicata",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Беркут»?",
-      "choices": [
-        "Базиликата",
-        "Умбрия",
-        "Кампания",
-        "Лацио"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Беркут» — часть фауны: Базиликата."
-    },
-    {
-      "id": "595bc24a0221",
-      "provinceSlug": "basilicata",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Сосна боснийская»?",
-      "choices": [
-        "Молизе",
-        "Сардиния",
-        "Базиликата",
-        "Сицилия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Сосна боснийская» — типичное растение: Базиликата."
-    },
-    {
-      "id": "5ee42cd8fb93",
-      "provinceSlug": "basilicata",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Перец из Сенизе»?",
-      "choices": [
-        "Тоскана",
-        "Марке",
-        "Базиликата",
-        "Пьемонт"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Перец из Сенизе» — типичное растение: Базиликата."
-    },
-    {
-      "id": "82b6562d4093",
-      "provinceSlug": "basilicata",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Олива»?",
-      "choices": [
-        "Трентино-Альто-Адидже",
-        "Сицилия",
-        "Базиликата",
-        "Пьемонт"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Олива» — типичное растение: Базиликата."
-    },
-    {
-      "id": "9f46e9ac437e",
-      "provinceSlug": "basilicata",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Перони крускии»?",
-      "choices": [
-        "Фриули-Венеция-Джулия",
-        "Марке",
-        "Лигурия",
-        "Базиликата"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Перони крускии» — типичное блюдо: Базиликата."
-    },
-    {
-      "id": "e03956c1525d",
-      "provinceSlug": "basilicata",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Хлеб из Матеры»?",
-      "choices": [
-        "Молизе",
-        "Калабрия",
-        "Базиликата",
-        "Валле-д'Аоста"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Хлеб из Матеры» — типичное блюдо: Базиликата."
-    },
-    {
-      "id": "475f1252645a",
-      "provinceSlug": "basilicata",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Луканика»?",
-      "choices": [
-        "Фриули-Венеция-Джулия",
-        "Трентино-Альто-Адидже",
-        "Кампания",
-        "Базиликата"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Луканика» — типичное блюдо: Базиликата."
-    },
-    {
-      "id": "314047463bd9",
-      "provinceSlug": "basilicata",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Сассо ди Матера»?",
-      "choices": [
-        "Базиликата",
-        "Валле-д'Аоста",
-        "Кампания",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Сассо ди Матера» находится здесь: Базиликата."
-    },
-    {
-      "id": "d2deba97c621",
-      "provinceSlug": "basilicata",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Парк Поллино»?",
-      "choices": [
-        "Ломбардия",
-        "Базиликата",
-        "Марке",
-        "Умбрия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Парк Поллино» находится здесь: Базиликата."
-    },
-    {
-      "id": "aa2a46430844",
-      "provinceSlug": "basilicata",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Маратея»?",
-      "choices": [
-        "Базиликата",
-        "Тоскана",
-        "Марке",
-        "Кампания"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Маратея» находится здесь: Базиликата."
-    },
-    {
-      "id": "c191108fc13c",
-      "provinceSlug": "basilicata",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Обитаемые Сассо»?",
-      "choices": [
-        "Марке",
-        "Базиликата",
-        "Валле-д'Аоста",
-        "Лацио"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Базиликата."
-    },
-    {
-      "id": "b0d7310dadf5",
-      "provinceSlug": "basilicata",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Метапонто»?",
-      "choices": [
-        "Ломбардия",
-        "Трентино-Альто-Адидже",
-        "Базиликата",
-        "Калабрия"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Базиликата."
-    },
-    {
-      "id": "8d123886536e",
-      "provinceSlug": "basilicata",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Разбойники XIX века»?",
-      "choices": [
-        "Абруццо",
-        "Валле-д'Аоста",
-        "Эмилия-Романья",
-        "Базиликата"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Базиликата."
-    },
-    {
-      "id": "27cef528d59e",
-      "provinceSlug": "calabria",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Волк»?",
-      "choices": [
-        "Апулия",
-        "Лигурия",
-        "Абруццо",
-        "Калабрия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Волк» — часть фауны: Калабрия."
-    },
-    {
-      "id": "82fe91b71cc6",
-      "provinceSlug": "calabria",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Олень»?",
-      "choices": [
-        "Молизе",
-        "Умбрия",
-        "Калабрия",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Олень» — часть фауны: Калабрия."
-    },
-    {
-      "id": "5ab4b02b5843",
-      "provinceSlug": "calabria",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Морская черепаха»?",
-      "choices": [
-        "Калабрия",
-        "Лацио",
-        "Умбрия",
-        "Пьемонт"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Морская черепаха» — часть фауны: Калабрия."
-    },
-    {
-      "id": "99a53e095c46",
-      "provinceSlug": "calabria",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Бергамот»?",
-      "choices": [
-        "Калабрия",
-        "Тоскана",
-        "Лигурия",
-        "Венето"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Бергамот» — типичное растение: Калабрия."
-    },
-    {
-      "id": "f7a48b44b742",
-      "provinceSlug": "calabria",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Инжир»?",
-      "choices": [
-        "Венето",
-        "Калабрия",
-        "Пьемонт",
-        "Молизе"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Инжир» — типичное растение: Калабрия."
-    },
-    {
-      "id": "e4204d91ce3b",
-      "provinceSlug": "calabria",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Сосна боснийская»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Молизе",
-        "Калабрия",
-        "Ломбардия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Сосна боснийская» — типичное растение: Калабрия."
-    },
-    {
-      "id": "32e303b5dfe0",
-      "provinceSlug": "calabria",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Н'дуйя»?",
-      "choices": [
-        "Калабрия",
-        "Лигурия",
-        "Венето",
-        "Фриули-Венеция-Джулия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Н'дуйя» — типичное блюдо: Калабрия."
-    },
-    {
-      "id": "5dcd56c6e095",
-      "provinceSlug": "calabria",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Тартуфо ди Пиццо»?",
-      "choices": [
-        "Молизе",
-        "Пьемонт",
-        "Тоскана",
-        "Калабрия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Тартуфо ди Пиццо» — типичное блюдо: Калабрия."
-    },
-    {
-      "id": "d74fcef70353",
-      "provinceSlug": "calabria",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Лук из Тропеи»?",
-      "choices": [
-        "Трентино-Альто-Адидже",
-        "Лацио",
-        "Калабрия",
-        "Ломбардия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Лук из Тропеи» — типичное блюдо: Калабрия."
-    },
-    {
-      "id": "1e18b912d0d5",
-      "provinceSlug": "calabria",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Тропея»?",
-      "choices": [
-        "Умбрия",
-        "Кампания",
-        "Марке",
-        "Калабрия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Тропея» находится здесь: Калабрия."
-    },
-    {
-      "id": "7bcf616b7ae8",
-      "provinceSlug": "calabria",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Бронзы из Риаче»?",
-      "choices": [
-        "Калабрия",
-        "Сицилия",
-        "Кампания",
-        "Венето"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Бронзы из Риаче» находится здесь: Калабрия."
-    },
-    {
-      "id": "f5fe8912ff88",
-      "provinceSlug": "calabria",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Сцилла»?",
-      "choices": [
-        "Умбрия",
-        "Калабрия",
-        "Марке",
-        "Молизе"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Сцилла» находится здесь: Калабрия."
-    },
-    {
-      "id": "d6f1c7bbc63d",
-      "provinceSlug": "calabria",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Великая Греция»?",
-      "choices": [
-        "Фриули-Венеция-Джулия",
-        "Тоскана",
-        "Калабрия",
-        "Апулия"
-      ],
-      "correctIndex": 2,
-      "explanation": "Этот факт связан с: Калабрия."
-    },
-    {
-      "id": "7fc177c22a8e",
-      "provinceSlug": "calabria",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Бронзы из Риаче»?",
-      "choices": [
-        "Базиликата",
-        "Трентино-Альто-Адидже",
-        "Валле-д'Аоста",
-        "Калабрия"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Калабрия."
-    },
-    {
-      "id": "7f92ef075c7c",
-      "provinceSlug": "calabria",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Мессинский пролив»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Калабрия",
-        "Абруццо",
-        "Кампания"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Калабрия."
-    },
-    {
-      "id": "2ff9d713ef17",
-      "provinceSlug": "sicilia",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Фламинго»?",
-      "choices": [
-        "Умбрия",
-        "Ломбардия",
-        "Сицилия",
-        "Лацио"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Фламинго» — часть фауны: Сицилия."
-    },
-    {
-      "id": "4c1eb88eeeee",
-      "provinceSlug": "sicilia",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Белоголовый сип»?",
-      "choices": [
-        "Сицилия",
-        "Трентино-Альто-Адидже",
-        "Пьемонт",
-        "Кампания"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Белоголовый сип» — часть фауны: Сицилия."
-    },
-    {
-      "id": "b019bfa6a249",
-      "provinceSlug": "sicilia",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Морская черепаха»?",
-      "choices": [
-        "Сицилия",
-        "Венето",
-        "Тоскана",
-        "Кампания"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Морская черепаха» — часть фауны: Сицилия."
-    },
-    {
-      "id": "c307dbec4066",
-      "provinceSlug": "sicilia",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Апельсиновое дерево»?",
-      "choices": [
-        "Сицилия",
-        "Умбрия",
-        "Ломбардия",
-        "Венето"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Апельсиновое дерево» — типичное растение: Сицилия."
-    },
-    {
-      "id": "894396b61cf2",
-      "provinceSlug": "sicilia",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Опунция»?",
-      "choices": [
-        "Лацио",
-        "Умбрия",
-        "Валле-д'Аоста",
-        "Сицилия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Опунция» — типичное растение: Сицилия."
-    },
-    {
-      "id": "08f4fe424de6",
-      "provinceSlug": "sicilia",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Папирус»?",
-      "choices": [
-        "Эмилия-Романья",
-        "Абруццо",
-        "Сицилия",
-        "Валле-д'Аоста"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Папирус» — типичное растение: Сицилия."
-    },
-    {
-      "id": "a5ca4b0c5b58",
-      "provinceSlug": "sicilia",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Канноло»?",
-      "choices": [
-        "Калабрия",
-        "Сицилия",
-        "Венето",
-        "Базиликата"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Канноло» — типичное блюдо: Сицилия."
-    },
-    {
-      "id": "7d8cd96a0e5b",
-      "provinceSlug": "sicilia",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Аранчина»?",
-      "choices": [
-        "Фриули-Венеция-Джулия",
-        "Лацио",
-        "Сицилия",
-        "Кампания"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Аранчина» — типичное блюдо: Сицилия."
-    },
-    {
-      "id": "98212cc9ea94",
-      "provinceSlug": "sicilia",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Кассата»?",
-      "choices": [
-        "Лигурия",
-        "Абруццо",
-        "Молизе",
-        "Сицилия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Кассата» — типичное блюдо: Сицилия."
-    },
-    {
-      "id": "815f16b55aaf",
-      "provinceSlug": "sicilia",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Этна»?",
-      "choices": [
-        "Умбрия",
-        "Сицилия",
-        "Ломбардия",
-        "Тоскана"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Этна» находится здесь: Сицилия."
-    },
-    {
-      "id": "5c8df6f934a3",
-      "provinceSlug": "sicilia",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Долина храмов»?",
-      "choices": [
-        "Базиликата",
-        "Молизе",
-        "Марке",
-        "Сицилия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Долина храмов» находится здесь: Сицилия."
-    },
-    {
-      "id": "6b4b75a920cd",
-      "provinceSlug": "sicilia",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Таормина»?",
-      "choices": [
-        "Базиликата",
-        "Трентино-Альто-Адидже",
-        "Лацио",
-        "Сицилия"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Таормина» находится здесь: Сицилия."
-    },
-    {
-      "id": "2d17ae445ebd",
-      "provinceSlug": "sicilia",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Великая Греция»?",
-      "choices": [
-        "Марке",
-        "Сицилия",
-        "Базиликата",
-        "Лигурия"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Сицилия."
-    },
-    {
-      "id": "687f3cba7434",
-      "provinceSlug": "sicilia",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Арабы на Сицилии»?",
-      "choices": [
-        "Абруццо",
-        "Калабрия",
-        "Сардиния",
-        "Сицилия"
-      ],
-      "correctIndex": 3,
-      "explanation": "Этот факт связан с: Сицилия."
-    },
-    {
-      "id": "0f644a7d2c6b",
-      "provinceSlug": "sicilia",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Норманны в Палермо»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Сицилия",
-        "Сардиния",
-        "Молизе"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Сицилия."
-    },
-    {
-      "id": "9b66981b3e63",
-      "provinceSlug": "sardegna",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Муфлон»?",
-      "choices": [
-        "Фриули-Венеция-Джулия",
-        "Сардиния",
-        "Венето",
-        "Апулия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Муфлон» — часть фауны: Сардиния."
-    },
-    {
-      "id": "6f6eeeb83368",
-      "provinceSlug": "sardegna",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Сардинский олень»?",
-      "choices": [
-        "Трентино-Альто-Адидже",
-        "Сардиния",
-        "Лигурия",
-        "Апулия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Сардинский олень» — часть фауны: Сардиния."
-    },
-    {
-      "id": "561204c0880a",
-      "provinceSlug": "sardegna",
-      "category": "fauna",
-      "prompt": "В какой области обитает это животное: «Фламинго»?",
-      "choices": [
-        "Валле-д'Аоста",
-        "Базиликата",
-        "Сардиния",
-        "Ломбардия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Фламинго» — часть фауны: Сардиния."
-    },
-    {
-      "id": "fc7d25bcaed1",
-      "provinceSlug": "sardegna",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Земляничное дерево»?",
-      "choices": [
-        "Сардиния",
-        "Трентино-Альто-Адидже",
-        "Умбрия",
-        "Ломбардия"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Земляничное дерево» — типичное растение: Сардиния."
-    },
-    {
-      "id": "3cd5aa47ec70",
-      "provinceSlug": "sardegna",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Пробковый дуб»?",
-      "choices": [
-        "Сицилия",
-        "Калабрия",
-        "Сардиния",
-        "Пьемонт"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Пробковый дуб» — типичное растение: Сардиния."
-    },
-    {
-      "id": "4146b7af251b",
-      "provinceSlug": "sardegna",
-      "category": "flora",
-      "prompt": "В какой области растёт это растение: «Мирт»?",
-      "choices": [
-        "Сардиния",
-        "Абруццо",
-        "Трентино-Альто-Адидже",
-        "Кампания"
-      ],
-      "correctIndex": 0,
-      "explanation": "«Мирт» — типичное растение: Сардиния."
-    },
-    {
-      "id": "37096dd76766",
-      "provinceSlug": "sardegna",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Кулурджонес»?",
-      "choices": [
-        "Лацио",
-        "Апулия",
-        "Сардиния",
-        "Калабрия"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Кулурджонес» — типичное блюдо: Сардиния."
-    },
-    {
-      "id": "10b7e6b09588",
-      "provinceSlug": "sardegna",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Пане карасау»?",
-      "choices": [
-        "Марке",
-        "Сардиния",
-        "Тоскана",
-        "Сицилия"
-      ],
-      "correctIndex": 1,
-      "explanation": "«Пане карасау» — типичное блюдо: Сардиния."
-    },
-    {
-      "id": "fe69b85be79e",
-      "provinceSlug": "sardegna",
-      "category": "food",
-      "prompt": "Для какой области типично это блюдо: «Сеадас»?",
-      "choices": [
-        "Апулия",
-        "Марке",
-        "Калабрия",
-        "Сардиния"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Сеадас» — типичное блюдо: Сардиния."
-    },
-    {
-      "id": "0d102694162e",
-      "provinceSlug": "sardegna",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Нурага Санту-Антине»?",
-      "choices": [
-        "Фриули-Венеция-Джулия",
-        "Кампания",
-        "Сардиния",
-        "Марке"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Нурага Санту-Антине» находится здесь: Сардиния."
-    },
-    {
-      "id": "a99ef2d08827",
-      "provinceSlug": "sardegna",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Изумрудный берег»?",
-      "choices": [
-        "Умбрия",
-        "Лигурия",
-        "Сардиния",
-        "Трентино-Альто-Адидже"
-      ],
-      "correctIndex": 2,
-      "explanation": "«Изумрудный берег» находится здесь: Сардиния."
-    },
-    {
-      "id": "ad5c69c1465f",
-      "provinceSlug": "sardegna",
-      "category": "tourism",
-      "prompt": "В какой области находится это место: «Кальяри»?",
-      "choices": [
-        "Умбрия",
-        "Трентино-Альто-Адидже",
-        "Лигурия",
-        "Сардиния"
-      ],
-      "correctIndex": 3,
-      "explanation": "«Кальяри» находится здесь: Сардиния."
-    },
-    {
-      "id": "edfca2efa0ef",
-      "provinceSlug": "sardegna",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Нурагическая цивилизация»?",
-      "choices": [
-        "Фриули-Венеция-Джулия",
-        "Сардиния",
-        "Ломбардия",
-        "Молизе"
-      ],
-      "correctIndex": 1,
-      "explanation": "Этот факт связан с: Сардиния."
-    },
-    {
-      "id": "2f7776c23ba9",
-      "provinceSlug": "sardegna",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Су-Нураксис»?",
-      "choices": [
-        "Сардиния",
-        "Молизе",
-        "Сицилия",
-        "Ломбардия"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Сардиния."
-    },
-    {
-      "id": "454240488561",
-      "provinceSlug": "sardegna",
-      "category": "history",
-      "prompt": "К какой области относится этот исторический факт: «Джудикаты»?",
-      "choices": [
-        "Сардиния",
-        "Тоскана",
-        "Эмилия-Романья",
-        "Валле-д'Аоста"
-      ],
-      "correctIndex": 0,
-      "explanation": "Этот факт связан с: Сардиния."
     }
   ],
   "ar": [
@@ -16818,12 +12616,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «وعل الألب»؟",
       "choices": [
+        "أومبريا",
         "وادي أوستا",
-        "فريولي-فينيتسيا جوليا",
-        "باسيليكاتا",
-        "بوليا"
+        "ماركي",
+        "صقلية"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«وعل الألب» جزء من حيوانات وادي أوستا."
     },
     {
@@ -16832,12 +12630,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «شامواه الألب»؟",
       "choices": [
-        "توسكانا",
-        "بوليا",
+        "ليغوريا",
         "فريولي-فينيتسيا جوليا",
-        "وادي أوستا"
+        "وادي أوستا",
+        "لاتسيو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«شامواه الألب» جزء من حيوانات وادي أوستا."
     },
     {
@@ -16846,12 +12644,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «النسر الذهبي»؟",
       "choices": [
-        "لومباردي",
-        "كامبانيا",
-        "ليغوريا",
-        "وادي أوستا"
+        "ترينتينو-ألتو أديجي",
+        "فريولي-فينيتسيا جوليا",
+        "وادي أوستا",
+        "موليزي"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«النسر الذهبي» جزء من حيوانات وادي أوستا."
     },
     {
@@ -16860,12 +12658,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «إديلفايس»؟",
       "choices": [
-        "وادي أوستا",
         "فريولي-فينيتسيا جوليا",
-        "كامبانيا",
-        "ماركي"
+        "لاتسيو",
+        "إميليا-رومانيا",
+        "وادي أوستا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«إديلفايس» نبات مشهور في وادي أوستا."
     },
     {
@@ -16874,12 +12672,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الأرز الأوروبي (اللاركس)»؟",
       "choices": [
-        "باسيليكاتا",
-        "لاتسيو",
-        "فينيتو",
-        "وادي أوستا"
+        "سردينيا",
+        "إميليا-رومانيا",
+        "وادي أوستا",
+        "باسيليكاتا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«الأرز الأوروبي (اللاركس)» نبات مشهور في وادي أوستا."
     },
     {
@@ -16888,12 +12686,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الجنطيانا»؟",
       "choices": [
-        "موليزي",
-        "وادي أوستا",
-        "فريولي-فينيتسيا جوليا",
-        "لاتسيو"
+        "سردينيا",
+        "كامبانيا",
+        "بيدمونت",
+        "وادي أوستا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«الجنطيانا» نبات مشهور في وادي أوستا."
     },
     {
@@ -16902,12 +12700,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «فونتينا»؟",
       "choices": [
+        "كالابريا",
         "وادي أوستا",
-        "ماركي",
-        "لاتسيو",
-        "إميليا-رومانيا"
+        "أبروتسو",
+        "بيدمونت"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«فونتينا» طبق مشهور في وادي أوستا."
     },
     {
@@ -16916,12 +12714,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «بولينتا كونتشا»؟",
       "choices": [
-        "باسيليكاتا",
         "وادي أوستا",
-        "توسكانا",
-        "كالابريا"
+        "بوليا",
+        "صقلية",
+        "لاتسيو"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«بولينتا كونتشا» طبق مشهور في وادي أوستا."
     },
     {
@@ -16932,8 +12730,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "وادي أوستا",
         "توسكانا",
-        "أبروتسو",
-        "ليغوريا"
+        "موليزي",
+        "ماركي"
       ],
       "correctIndex": 0,
       "explanation": "«كاربوناده» طبق مشهور في وادي أوستا."
@@ -16944,12 +12742,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «مونبلان»؟",
       "choices": [
-        "ترينتينو-ألتو أديجي",
+        "ليغوريا",
+        "كامبانيا",
         "وادي أوستا",
-        "إميليا-رومانيا",
-        "ماركي"
+        "باسيليكاتا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "يقع «مونبلان» في وادي أوستا."
     },
     {
@@ -16958,12 +12756,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «ماترهورن»؟",
       "choices": [
-        "باسيليكاتا",
-        "وادي أوستا",
-        "لومباردي",
-        "بوليا"
+        "توسكانا",
+        "بيدمونت",
+        "كالابريا",
+        "وادي أوستا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "يقع «ماترهورن» في وادي أوستا."
     },
     {
@@ -16972,12 +12770,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «قلعة فينيس»؟",
       "choices": [
-        "سردينيا",
-        "بيدمونت",
-        "توسكانا",
-        "وادي أوستا"
+        "لاتسيو",
+        "أومبريا",
+        "وادي أوستا",
+        "بيدمونت"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "يقع «قلعة فينيس» في وادي أوستا."
     },
     {
@@ -16986,12 +12784,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «أوستا الرومانية»؟",
       "choices": [
-        "ليغوريا",
-        "ماركي",
-        "وادي أوستا",
-        "أبروتسو"
+        "أومبريا",
+        "ترينتينو-ألتو أديجي",
+        "توسكانا",
+        "وادي أوستا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ وادي أوستا."
     },
     {
@@ -17000,12 +12798,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «منتزه غران باراديزو الوطني»؟",
       "choices": [
-        "ليغوريا",
-        "أبروتسو",
         "وادي أوستا",
-        "إميليا-رومانيا"
+        "لومباردي",
+        "سردينيا",
+        "فينيتو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ وادي أوستا."
     },
     {
@@ -17014,10 +12812,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «نفق مونبلان»؟",
       "choices": [
-        "توسكانا",
+        "كامبانيا",
         "وادي أوستا",
-        "ليغوريا",
-        "ترينتينو-ألتو أديجي"
+        "توسكانا",
+        "لاتسيو"
       ],
       "correctIndex": 1,
       "explanation": "تتعلق هذه الحقيقة بـ وادي أوستا."
@@ -17028,12 +12826,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «مالك الحزين الرمادي»؟",
       "choices": [
-        "لاتسيو",
-        "موليزي",
-        "ليغوريا",
-        "بيدمونت"
+        "بيدمونت",
+        "باسيليكاتا",
+        "ماركي",
+        "لاتسيو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«مالك الحزين الرمادي» جزء من حيوانات بيدمونت."
     },
     {
@@ -17042,12 +12840,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الذئب»؟",
       "choices": [
+        "صقلية",
+        "فريولي-فينيتسيا جوليا",
         "وادي أوستا",
-        "بيدمونت",
-        "بوليا",
-        "سردينيا"
+        "بيدمونت"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«الذئب» جزء من حيوانات بيدمونت."
     },
     {
@@ -17056,12 +12854,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الخنزير البري»؟",
       "choices": [
-        "كالابريا",
-        "لومباردي",
-        "كامبانيا",
-        "بيدمونت"
+        "بيدمونت",
+        "صقلية",
+        "سردينيا",
+        "أبروتسو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«الخنزير البري» جزء من حيوانات بيدمونت."
     },
     {
@@ -17070,12 +12868,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الكستناء»؟",
       "choices": [
-        "باسيليكاتا",
-        "سردينيا",
+        "إميليا-رومانيا",
         "بيدمونت",
-        "صقلية"
+        "فريولي-فينيتسيا جوليا",
+        "باسيليكاتا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«الكستناء» نبات مشهور في بيدمونت."
     },
     {
@@ -17084,12 +12882,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الكرمة»؟",
       "choices": [
-        "سردينيا",
         "بيدمونت",
-        "ترينتينو-ألتو أديجي",
-        "كالابريا"
+        "كالابريا",
+        "لومباردي",
+        "لاتسيو"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«الكرمة» نبات مشهور في بيدمونت."
     },
     {
@@ -17098,12 +12896,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الأرز»؟",
       "choices": [
-        "فينيتو",
+        "بيدمونت",
         "أومبريا",
-        "ليغوريا",
-        "بيدمونت"
+        "فينيتو",
+        "بوليا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«الأرز» نبات مشهور في بيدمونت."
     },
     {
@@ -17113,11 +12911,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "هذا الطبق مشهور في أي منطقة: «بانيا كاودا»؟",
       "choices": [
         "كالابريا",
-        "أبروتسو",
-        "بيدمونت",
-        "صقلية"
+        "موليزي",
+        "إميليا-رومانيا",
+        "بيدمونت"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«بانيا كاودا» طبق مشهور في بيدمونت."
     },
     {
@@ -17126,12 +12924,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «أنيولوتي»؟",
       "choices": [
-        "موليزي",
-        "بيدمونت",
-        "كامبانيا",
-        "ترينتينو-ألتو أديجي"
+        "كالابريا",
+        "سردينيا",
+        "وادي أوستا",
+        "بيدمونت"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«أنيولوتي» طبق مشهور في بيدمونت."
     },
     {
@@ -17140,9 +12938,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «جاندويوتّو»؟",
       "choices": [
-        "لومباردي",
+        "ماركي",
         "بيدمونت",
-        "صقلية",
+        "كالابريا",
         "باسيليكاتا"
       ],
       "correctIndex": 1,
@@ -17154,12 +12952,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «مولي أنتونيلّيانا»؟",
       "choices": [
-        "لاتسيو",
-        "فريولي-فينيتسيا جوليا",
         "بيدمونت",
-        "توسكانا"
+        "إميليا-رومانيا",
+        "سردينيا",
+        "صقلية"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "يقع «مولي أنتونيلّيانا» في بيدمونت."
     },
     {
@@ -17168,12 +12966,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «لانغي»؟",
       "choices": [
-        "بيدمونت",
-        "لاتسيو",
         "إميليا-رومانيا",
-        "لومباردي"
+        "بيدمونت",
+        "بوليا",
+        "لاتسيو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "يقع «لانغي» في بيدمونت."
     },
     {
@@ -17182,12 +12980,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «بحيرة ماجوري»؟",
       "choices": [
-        "كالابريا",
-        "فينيتو",
-        "بيدمونت",
-        "أبروتسو"
+        "وادي أوستا",
+        "ليغوريا",
+        "أبروتسو",
+        "بيدمونت"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "يقع «بحيرة ماجوري» في بيدمونت."
     },
     {
@@ -17196,12 +12994,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «تورينو العاصمة»؟",
       "choices": [
-        "توسكانا",
         "بيدمونت",
+        "كالابريا",
         "وادي أوستا",
-        "بوليا"
+        "صقلية"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ بيدمونت."
     },
     {
@@ -17210,10 +13008,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «ساكرا دي سان ميكيلي»؟",
       "choices": [
-        "بوليا",
-        "لاتسيو",
+        "إميليا-رومانيا",
+        "وادي أوستا",
         "بيدمونت",
-        "فينيتو"
+        "ترينتينو-ألتو أديجي"
       ],
       "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ بيدمونت."
@@ -17224,10 +13022,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «قصر الصيد في ستوبينيجي»؟",
       "choices": [
-        "فينيتو",
-        "كالابريا",
+        "إميليا-رومانيا",
+        "باسيليكاتا",
         "بيدمونت",
-        "أبروتسو"
+        "فريولي-فينيتسيا جوليا"
       ],
       "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ بيدمونت."
@@ -17238,12 +13036,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «النورس أصفر القدمين»؟",
       "choices": [
-        "ليغوريا",
-        "بوليا",
         "كالابريا",
-        "ترينتينو-ألتو أديجي"
+        "ترينتينو-ألتو أديجي",
+        "توسكانا",
+        "ليغوريا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«النورس أصفر القدمين» جزء من حيوانات ليغوريا."
     },
     {
@@ -17252,12 +13050,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الدلفين قاروري الأنف»؟",
       "choices": [
-        "وادي أوستا",
+        "ترينتينو-ألتو أديجي",
+        "لومباردي",
         "ليغوريا",
-        "أبروتسو",
-        "إميليا-رومانيا"
+        "وادي أوستا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«الدلفين قاروري الأنف» جزء من حيوانات ليغوريا."
     },
     {
@@ -17266,9 +13064,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الصقر الحر»؟",
       "choices": [
-        "توسكانا",
+        "كامبانيا",
         "فريولي-فينيتسيا جوليا",
-        "كالابريا",
+        "صقلية",
         "ليغوريا"
       ],
       "correctIndex": 3,
@@ -17280,12 +13078,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «ريحان جنوة»؟",
       "choices": [
-        "صقلية",
-        "بوليا",
-        "ليغوريا",
-        "إميليا-رومانيا"
+        "توسكانا",
+        "ترينتينو-ألتو أديجي",
+        "كامبانيا",
+        "ليغوريا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«ريحان جنوة» نبات مشهور في ليغوريا."
     },
     {
@@ -17294,12 +13092,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الزيتون»؟",
       "choices": [
-        "صقلية",
-        "فريولي-فينيتسيا جوليا",
-        "كالابريا",
-        "ليغوريا"
+        "إميليا-رومانيا",
+        "أبروتسو",
+        "ليغوريا",
+        "فريولي-فينيتسيا جوليا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«الزيتون» نبات مشهور في ليغوريا."
     },
     {
@@ -17308,10 +13106,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الميموزا»؟",
       "choices": [
-        "فينيتو",
+        "ماركي",
         "ليغوريا",
-        "إميليا-رومانيا",
-        "وادي أوستا"
+        "أبروتسو",
+        "إميليا-رومانيا"
       ],
       "correctIndex": 1,
       "explanation": "«الميموزا» نبات مشهور في ليغوريا."
@@ -17323,9 +13121,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "هذا الطبق مشهور في أي منطقة: «بيستو جنوة»؟",
       "choices": [
         "ليغوريا",
-        "موليزي",
-        "بيدمونت",
-        "ماركي"
+        "ماركي",
+        "كالابريا",
+        "إميليا-رومانيا"
       ],
       "correctIndex": 0,
       "explanation": "«بيستو جنوة» طبق مشهور في ليغوريا."
@@ -17336,9 +13134,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «فوكاتشا جنوة»؟",
       "choices": [
-        "باسيليكاتا",
-        "موليزي",
-        "كالابريا",
+        "سردينيا",
+        "بوليا",
+        "ترينتينو-ألتو أديجي",
         "ليغوريا"
       ],
       "correctIndex": 3,
@@ -17350,9 +13148,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «تروفيه بالبيستو»؟",
       "choices": [
+        "فريولي-فينيتسيا جوليا",
         "لومباردي",
-        "توسكانا",
-        "باسيليكاتا",
+        "فينيتو",
         "ليغوريا"
       ],
       "correctIndex": 3,
@@ -17364,9 +13162,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «تشينكوي تيرّي»؟",
       "choices": [
-        "باسيليكاتا",
-        "سردينيا",
-        "توسكانا",
+        "فريولي-فينيتسيا جوليا",
+        "لاتسيو",
+        "ماركي",
         "ليغوريا"
       ],
       "correctIndex": 3,
@@ -17379,11 +13177,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "في أي منطقة يقع «بورتوفينو»؟",
       "choices": [
         "وادي أوستا",
-        "إميليا-رومانيا",
-        "بيدمونت",
-        "ليغوريا"
+        "ليغوريا",
+        "سردينيا",
+        "أبروتسو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "يقع «بورتوفينو» في ليغوريا."
     },
     {
@@ -17392,12 +13190,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «أكواريوم جنوة»؟",
       "choices": [
+        "أومبريا",
+        "توسكانا",
         "ليغوريا",
-        "صقلية",
-        "بوليا",
-        "ماركي"
+        "لومباردي"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "يقع «أكواريوم جنوة» في ليغوريا."
     },
     {
@@ -17406,12 +13204,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «جمهورية جنوة»؟",
       "choices": [
-        "لومباردي",
         "ليغوريا",
-        "فريولي-فينيتسيا جوليا",
-        "صقلية"
+        "وادي أوستا",
+        "لومباردي",
+        "سردينيا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ ليغوريا."
     },
     {
@@ -17420,10 +13218,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «كريستوفر كولومبوس»؟",
       "choices": [
-        "كامبانيا",
-        "سردينيا",
+        "صقلية",
+        "بوليا",
         "ليغوريا",
-        "أبروتسو"
+        "توسكانا"
       ],
       "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ ليغوريا."
@@ -17435,9 +13233,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «قصور رولّي»؟",
       "choices": [
         "ليغوريا",
-        "فريولي-فينيتسيا جوليا",
         "باسيليكاتا",
-        "بيدمونت"
+        "بيدمونت",
+        "أبروتسو"
       ],
       "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ ليغوريا."
@@ -17448,12 +13246,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «التم الأبكم»؟",
       "choices": [
-        "موليزي",
-        "صقلية",
         "لومباردي",
+        "إميليا-رومانيا",
+        "كالابريا",
         "بيدمونت"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«التم الأبكم» جزء من حيوانات لومباردي."
     },
     {
@@ -17462,9 +13260,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «مالك الحزين الرمادي»؟",
       "choices": [
-        "ليغوريا",
-        "أومبريا",
-        "كامبانيا",
+        "سردينيا",
+        "كالابريا",
+        "لاتسيو",
         "لومباردي"
       ],
       "correctIndex": 3,
@@ -17476,12 +13274,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «شامواه الألب»؟",
       "choices": [
-        "أومبريا",
-        "ماركي",
-        "بيدمونت",
-        "لومباردي"
+        "لومباردي",
+        "ليغوريا",
+        "كالابريا",
+        "سردينيا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«شامواه الألب» جزء من حيوانات لومباردي."
     },
     {
@@ -17490,10 +13288,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الزان»؟",
       "choices": [
-        "كامبانيا",
-        "كالابريا",
+        "باسيليكاتا",
+        "بيدمونت",
         "لومباردي",
-        "بوليا"
+        "فينيتو"
       ],
       "correctIndex": 2,
       "explanation": "«الزان» نبات مشهور في لومباردي."
@@ -17504,12 +13302,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «زنبق الماء»؟",
       "choices": [
-        "سردينيا",
-        "وادي أوستا",
+        "أبروتسو",
         "لومباردي",
+        "بيدمونت",
         "كالابريا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«زنبق الماء» نبات مشهور في لومباردي."
     },
     {
@@ -17518,12 +13316,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الحور»؟",
       "choices": [
-        "فريولي-فينيتسيا جوليا",
-        "سردينيا",
-        "كالابريا",
-        "لومباردي"
+        "بيدمونت",
+        "أبروتسو",
+        "لومباردي",
+        "فينيتو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«الحور» نبات مشهور في لومباردي."
     },
     {
@@ -17532,12 +13330,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «ريزوتو ميلانو»؟",
       "choices": [
-        "أبروتسو",
-        "ماركي",
         "لومباردي",
+        "لاتسيو",
+        "توسكانا",
         "باسيليكاتا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«ريزوتو ميلانو» طبق مشهور في لومباردي."
     },
     {
@@ -17546,12 +13344,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «أوسوبوكو»؟",
       "choices": [
-        "باسيليكاتا",
-        "فريولي-فينيتسيا جوليا",
-        "لومباردي",
-        "بوليا"
+        "كالابريا",
+        "بيدمونت",
+        "توسكانا",
+        "لومباردي"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«أوسوبوكو» طبق مشهور في لومباردي."
     },
     {
@@ -17560,10 +13358,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «بانيتّوني»؟",
       "choices": [
-        "وادي أوستا",
+        "أبروتسو",
         "لومباردي",
-        "سردينيا",
-        "فريولي-فينيتسيا جوليا"
+        "وادي أوستا",
+        "كالابريا"
       ],
       "correctIndex": 1,
       "explanation": "«بانيتّوني» طبق مشهور في لومباردي."
@@ -17574,12 +13372,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «دوومو ميلانو»؟",
       "choices": [
-        "وادي أوستا",
-        "أومبريا",
-        "فريولي-فينيتسيا جوليا",
-        "لومباردي"
+        "موليزي",
+        "لومباردي",
+        "ماركي",
+        "سردينيا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "يقع «دوومو ميلانو» في لومباردي."
     },
     {
@@ -17588,12 +13386,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «بحيرة كومو»؟",
       "choices": [
-        "لومباردي",
         "أبروتسو",
-        "ليغوريا",
-        "توسكانا"
+        "لومباردي",
+        "بوليا",
+        "بيدمونت"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "يقع «بحيرة كومو» في لومباردي."
     },
     {
@@ -17602,12 +13400,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع ««العشاء الأخير» لليوناردو»؟",
       "choices": [
-        "بيدمونت",
-        "لومباردي",
-        "لاتسيو",
-        "باسيليكاتا"
+        "إميليا-رومانيا",
+        "صقلية",
+        "باسيليكاتا",
+        "لومباردي"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "يقع ««العشاء الأخير» لليوناردو» في لومباردي."
     },
     {
@@ -17617,9 +13415,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «ميلانو عاصمة الإمبراطورية»؟",
       "choices": [
         "لومباردي",
-        "ترينتينو-ألتو أديجي",
-        "صقلية",
-        "فريولي-فينيتسيا جوليا"
+        "إميليا-رومانيا",
+        "موليزي",
+        "أبروتسو"
       ],
       "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ لومباردي."
@@ -17630,12 +13428,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «معركة ليانيانو»؟",
       "choices": [
-        "موليزي",
-        "ليغوريا",
-        "لومباردي",
-        "بيدمونت"
+        "توسكانا",
+        "وادي أوستا",
+        "كالابريا",
+        "لومباردي"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ لومباردي."
     },
     {
@@ -17644,10 +13442,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «ليوناردو في ميلانو»؟",
       "choices": [
-        "بيدمونت",
+        "ماركي",
         "لومباردي",
-        "ترينتينو-ألتو أديجي",
-        "فريولي-فينيتسيا جوليا"
+        "بيدمونت",
+        "أبروتسو"
       ],
       "correctIndex": 1,
       "explanation": "تتعلق هذه الحقيقة بـ لومباردي."
@@ -17658,10 +13456,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الدب البني»؟",
       "choices": [
-        "فينيتو",
-        "أبروتسو",
+        "لاتسيو",
+        "ليغوريا",
         "ترينتينو-ألتو أديجي",
-        "سردينيا"
+        "كامبانيا"
       ],
       "correctIndex": 2,
       "explanation": "«الدب البني» جزء من حيوانات ترينتينو-ألتو أديجي."
@@ -17672,12 +13470,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «شامواه الألب»؟",
       "choices": [
-        "صقلية",
-        "ليغوريا",
-        "لاتسيو",
-        "ترينتينو-ألتو أديجي"
+        "إميليا-رومانيا",
+        "فريولي-فينيتسيا جوليا",
+        "ترينتينو-ألتو أديجي",
+        "باسيليكاتا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«شامواه الألب» جزء من حيوانات ترينتينو-ألتو أديجي."
     },
     {
@@ -17686,10 +13484,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الأيل الأحمر»؟",
       "choices": [
-        "أومبريا",
+        "فينيتو",
         "ترينتينو-ألتو أديجي",
-        "سردينيا",
-        "موليزي"
+        "لومباردي",
+        "توسكانا"
       ],
       "correctIndex": 1,
       "explanation": "«الأيل الأحمر» جزء من حيوانات ترينتينو-ألتو أديجي."
@@ -17701,11 +13499,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "في أي منطقة ينمو هذا النبات: «التنوب النرويجي»؟",
       "choices": [
         "فينيتو",
-        "بوليا",
-        "توسكانا",
-        "ترينتينو-ألتو أديجي"
+        "كالابريا",
+        "ترينتينو-ألتو أديجي",
+        "إميليا-رومانيا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«التنوب النرويجي» نبات مشهور في ترينتينو-ألتو أديجي."
     },
     {
@@ -17714,12 +13512,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «التفاح»؟",
       "choices": [
+        "كامبانيا",
+        "لومباردي",
         "ترينتينو-ألتو أديجي",
-        "صقلية",
-        "بوليا",
-        "أبروتسو"
+        "بوليا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«التفاح» نبات مشهور في ترينتينو-ألتو أديجي."
     },
     {
@@ -17728,12 +13526,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الجنطيانا»؟",
       "choices": [
-        "ترينتينو-ألتو أديجي",
-        "فريولي-فينيتسيا جوليا",
-        "كالابريا",
-        "كامبانيا"
+        "بوليا",
+        "لاتسيو",
+        "فينيتو",
+        "ترينتينو-ألتو أديجي"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«الجنطيانا» نبات مشهور في ترينتينو-ألتو أديجي."
     },
     {
@@ -17743,11 +13541,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "هذا الطبق مشهور في أي منطقة: «كانديرلي»؟",
       "choices": [
         "بيدمونت",
-        "موليزي",
         "ترينتينو-ألتو أديجي",
-        "توسكانا"
+        "سردينيا",
+        "بوليا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«كانديرلي» طبق مشهور في ترينتينو-ألتو أديجي."
     },
     {
@@ -17756,12 +13554,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «شبيك»؟",
       "choices": [
+        "وادي أوستا",
+        "كالابريا",
         "ترينتينو-ألتو أديجي",
-        "فينيتو",
-        "توسكانا",
-        "ماركي"
+        "فريولي-فينيتسيا جوليا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«شبيك» طبق مشهور في ترينتينو-ألتو أديجي."
     },
     {
@@ -17770,12 +13568,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «ستروديل التفاح»؟",
       "choices": [
+        "باسيليكاتا",
         "ترينتينو-ألتو أديجي",
-        "أومبريا",
         "ماركي",
-        "باسيليكاتا"
+        "توسكانا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«ستروديل التفاح» طبق مشهور في ترينتينو-ألتو أديجي."
     },
     {
@@ -17784,12 +13582,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «الدولوميت»؟",
       "choices": [
+        "كامبانيا",
+        "ترينتينو-ألتو أديجي",
         "كالابريا",
-        "ليغوريا",
-        "سردينيا",
-        "ترينتينو-ألتو أديجي"
+        "أومبريا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "يقع «الدولوميت» في ترينتينو-ألتو أديجي."
     },
     {
@@ -17798,12 +13596,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «بحيرة براييس»؟",
       "choices": [
-        "ليغوريا",
-        "كالابريا",
         "ترينتينو-ألتو أديجي",
-        "سردينيا"
+        "صقلية",
+        "بيدمونت",
+        "باسيليكاتا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "يقع «بحيرة براييس» في ترينتينو-ألتو أديجي."
     },
     {
@@ -17812,12 +13610,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «قلعة تيرولو»؟",
       "choices": [
-        "صقلية",
-        "بيدمونت",
-        "فريولي-فينيتسيا جوليا",
-        "ترينتينو-ألتو أديجي"
+        "أبروتسو",
+        "موليزي",
+        "ترينتينو-ألتو أديجي",
+        "وادي أوستا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "يقع «قلعة تيرولو» في ترينتينو-ألتو أديجي."
     },
     {
@@ -17826,12 +13624,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «مجمع ترينتو»؟",
       "choices": [
-        "ترينتينو-ألتو أديجي",
+        "باسيليكاتا",
+        "بوليا",
         "وادي أوستا",
-        "فريولي-فينيتسيا جوليا",
-        "صقلية"
+        "ترينتينو-ألتو أديجي"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ ترينتينو-ألتو أديجي."
     },
     {
@@ -17840,12 +13638,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «أوتسي»؟",
       "choices": [
-        "ترينتينو-ألتو أديجي",
-        "أومبريا",
-        "فينيتو",
-        "بوليا"
+        "ليغوريا",
+        "صقلية",
+        "توسكانا",
+        "ترينتينو-ألتو أديجي"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ ترينتينو-ألتو أديجي."
     },
     {
@@ -17854,12 +13652,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «الانتقال إلى إيطاليا»؟",
       "choices": [
-        "سردينيا",
-        "ترينتينو-ألتو أديجي",
-        "لومباردي",
-        "ليغوريا"
+        "بيدمونت",
+        "فريولي-فينيتسيا جوليا",
+        "إميليا-رومانيا",
+        "ترينتينو-ألتو أديجي"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ ترينتينو-ألتو أديجي."
     },
     {
@@ -17869,9 +13667,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الفلامنغو»؟",
       "choices": [
         "ليغوريا",
-        "بيدمونت",
+        "كالابريا",
         "فينيتو",
-        "توسكانا"
+        "فريولي-فينيتسيا جوليا"
       ],
       "correctIndex": 2,
       "explanation": "«الفلامنغو» جزء من حيوانات فينيتو."
@@ -17882,9 +13680,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «مالك الحزين الرمادي»؟",
       "choices": [
-        "موليزي",
-        "بوليا",
-        "لاتسيو",
+        "أبروتسو",
+        "ترينتينو-ألتو أديجي",
+        "كالابريا",
         "فينيتو"
       ],
       "correctIndex": 3,
@@ -17897,9 +13695,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "في أي منطقة يعيش هذا الحيوان: «شامواه الألب»؟",
       "choices": [
         "فينيتو",
-        "أومبريا",
-        "سردينيا",
-        "بوليا"
+        "فريولي-فينيتسيا جوليا",
+        "توسكانا",
+        "بيدمونت"
       ],
       "correctIndex": 0,
       "explanation": "«شامواه الألب» جزء من حيوانات فينيتو."
@@ -17910,12 +13708,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الكرمة»؟",
       "choices": [
-        "كالابريا",
-        "باسيليكاتا",
+        "لومباردي",
         "أبروتسو",
-        "فينيتو"
+        "فينيتو",
+        "موليزي"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«الكرمة» نبات مشهور في فينيتو."
     },
     {
@@ -17925,11 +13723,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "في أي منطقة ينمو هذا النبات: «السرو»؟",
       "choices": [
         "ترينتينو-ألتو أديجي",
-        "فينيتو",
-        "صقلية",
-        "لاتسيو"
+        "لاتسيو",
+        "باسيليكاتا",
+        "فينيتو"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«السرو» نبات مشهور في فينيتو."
     },
     {
@@ -17938,12 +13736,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الحميض الملحي (سالكورنيا)»؟",
       "choices": [
-        "بوليا",
-        "بيدمونت",
+        "باسيليكاتا",
         "فينيتو",
-        "سردينيا"
+        "كامبانيا",
+        "أومبريا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«الحميض الملحي (سالكورنيا)» نبات مشهور في فينيتو."
     },
     {
@@ -17952,12 +13750,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «تيراميسو»؟",
       "choices": [
-        "أبروتسو",
-        "موليزي",
-        "فينيتو",
-        "باسيليكاتا"
+        "ليغوريا",
+        "توسكانا",
+        "بوليا",
+        "فينيتو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«تيراميسو» طبق مشهور في فينيتو."
     },
     {
@@ -17966,12 +13764,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «باكالا مانتيكاتو»؟",
       "choices": [
-        "بوليا",
+        "وادي أوستا",
+        "فريولي-فينيتسيا جوليا",
         "فينيتو",
-        "أبروتسو",
-        "كامبانيا"
+        "ماركي"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«باكالا مانتيكاتو» طبق مشهور في فينيتو."
     },
     {
@@ -17980,12 +13778,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «ريزوتو بحبر الحبّار»؟",
       "choices": [
+        "بوليا",
         "فينيتو",
-        "كالابريا",
-        "لومباردي",
-        "بيدمونت"
+        "كامبانيا",
+        "سردينيا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«ريزوتو بحبر الحبّار» طبق مشهور في فينيتو."
     },
     {
@@ -17994,12 +13792,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «البندقية»؟",
       "choices": [
-        "فينيتو",
-        "بوليا",
-        "موليزي",
-        "أومبريا"
+        "ترينتينو-ألتو أديجي",
+        "فريولي-فينيتسيا جوليا",
+        "كامبانيا",
+        "فينيتو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "يقع «البندقية» في فينيتو."
     },
     {
@@ -18009,9 +13807,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "في أي منطقة يقع «مدرج فيرونا»؟",
       "choices": [
         "فينيتو",
-        "سردينيا",
-        "إميليا-رومانيا",
-        "ليغوريا"
+        "توسكانا",
+        "بيدمونت",
+        "لاتسيو"
       ],
       "correctIndex": 0,
       "explanation": "يقع «مدرج فيرونا» في فينيتو."
@@ -18022,12 +13820,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «فيلات بالاديو»؟",
       "choices": [
-        "فينيتو",
-        "لومباردي",
-        "ليغوريا",
-        "لاتسيو"
+        "موليزي",
+        "ترينتينو-ألتو أديجي",
+        "لاتسيو",
+        "فينيتو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "يقع «فيلات بالاديو» في فينيتو."
     },
     {
@@ -18036,12 +13834,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «جمهورية البندقية»؟",
       "choices": [
+        "بوليا",
         "وادي أوستا",
-        "كامبانيا",
-        "فينيتو",
-        "فريولي-فينيتسيا جوليا"
+        "ترينتينو-ألتو أديجي",
+        "فينيتو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ فينيتو."
     },
     {
@@ -18051,9 +13849,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «ماركو بولو»؟",
       "choices": [
         "فينيتو",
-        "ليغوريا",
-        "كامبانيا",
-        "صقلية"
+        "فريولي-فينيتسيا جوليا",
+        "موليزي",
+        "ترينتينو-ألتو أديجي"
       ],
       "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ فينيتو."
@@ -18064,12 +13862,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «بازيليكا سان ماركو»؟",
       "choices": [
+        "ماركي",
+        "سردينيا",
         "فينيتو",
-        "لاتسيو",
-        "موليزي",
-        "إميليا-رومانيا"
+        "لومباردي"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ فينيتو."
     },
     {
@@ -18078,12 +13876,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الأيل الأحمر»؟",
       "choices": [
-        "ليغوريا",
+        "أومبريا",
+        "فينيتو",
         "فريولي-فينيتسيا جوليا",
-        "لاتسيو",
         "إميليا-رومانيا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«الأيل الأحمر» جزء من حيوانات فريولي-فينيتسيا جوليا."
     },
     {
@@ -18092,9 +13890,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «مالك الحزين الرمادي»؟",
       "choices": [
-        "أبروتسو",
-        "توسكانا",
-        "صقلية",
+        "باسيليكاتا",
+        "وادي أوستا",
+        "لاتسيو",
         "فريولي-فينيتسيا جوليا"
       ],
       "correctIndex": 3,
@@ -18108,8 +13906,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "فريولي-فينيتسيا جوليا",
         "ماركي",
-        "باسيليكاتا",
-        "توسكانا"
+        "لاتسيو",
+        "موليزي"
       ],
       "correctIndex": 0,
       "explanation": "«الدب البني» جزء من حيوانات فريولي-فينيتسيا جوليا."
@@ -18120,12 +13918,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الكرمة»؟",
       "choices": [
-        "لومباردي",
-        "أومبريا",
-        "موليزي",
-        "فريولي-فينيتسيا جوليا"
+        "لاتسيو",
+        "فريولي-فينيتسيا جوليا",
+        "باسيليكاتا",
+        "موليزي"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«الكرمة» نبات مشهور في فريولي-فينيتسيا جوليا."
     },
     {
@@ -18134,12 +13932,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الزان»؟",
       "choices": [
-        "بيدمونت",
-        "أومبريا",
-        "كامبانيا",
-        "فريولي-فينيتسيا جوليا"
+        "سردينيا",
+        "فريولي-فينيتسيا جوليا",
+        "وادي أوستا",
+        "ماركي"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«الزان» نبات مشهور في فريولي-فينيتسيا جوليا."
     },
     {
@@ -18148,12 +13946,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الزيزفون»؟",
       "choices": [
-        "فريولي-فينيتسيا جوليا",
-        "بيدمونت",
-        "باسيليكاتا",
-        "وادي أوستا"
+        "ليغوريا",
+        "أومبريا",
+        "بوليا",
+        "فريولي-فينيتسيا جوليا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«الزيزفون» نبات مشهور في فريولي-فينيتسيا جوليا."
     },
     {
@@ -18162,10 +13960,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «فريكو»؟",
       "choices": [
-        "سردينيا",
+        "كالابريا",
         "فريولي-فينيتسيا جوليا",
-        "لومباردي",
-        "ماركي"
+        "أومبريا",
+        "بوليا"
       ],
       "correctIndex": 1,
       "explanation": "«فريكو» طبق مشهور في فريولي-فينيتسيا جوليا."
@@ -18176,10 +13974,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «لحم سان دانييلي المقدد»؟",
       "choices": [
-        "إميليا-رومانيا",
-        "وادي أوستا",
+        "موليزي",
+        "ماركي",
         "فريولي-فينيتسيا جوليا",
-        "فينيتو"
+        "وادي أوستا"
       ],
       "correctIndex": 2,
       "explanation": "«لحم سان دانييلي المقدد» طبق مشهور في فريولي-فينيتسيا جوليا."
@@ -18190,12 +13988,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «غوبانا»؟",
       "choices": [
-        "ليغوريا",
-        "لومباردي",
-        "أبروتسو",
-        "فريولي-فينيتسيا جوليا"
+        "سردينيا",
+        "فريولي-فينيتسيا جوليا",
+        "توسكانا",
+        "ترينتينو-ألتو أديجي"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«غوبانا» طبق مشهور في فريولي-فينيتسيا جوليا."
     },
     {
@@ -18204,12 +14002,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «تريستا»؟",
       "choices": [
-        "موليزي",
-        "توسكانا",
+        "فريولي-فينيتسيا جوليا",
         "أومبريا",
-        "فريولي-فينيتسيا جوليا"
+        "إميليا-رومانيا",
+        "بوليا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "يقع «تريستا» في فريولي-فينيتسيا جوليا."
     },
     {
@@ -18219,9 +14017,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "في أي منطقة يقع «أكويليا»؟",
       "choices": [
         "فريولي-فينيتسيا جوليا",
-        "كالابريا",
         "كامبانيا",
-        "باسيليكاتا"
+        "أبروتسو",
+        "صقلية"
       ],
       "correctIndex": 0,
       "explanation": "يقع «أكويليا» في فريولي-فينيتسيا جوليا."
@@ -18232,12 +14030,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «بحيرة غرادو»؟",
       "choices": [
-        "فريولي-فينيتسيا جوليا",
-        "كالابريا",
-        "بوليا",
-        "سردينيا"
+        "بيدمونت",
+        "لومباردي",
+        "صقلية",
+        "فريولي-فينيتسيا جوليا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "يقع «بحيرة غرادو» في فريولي-فينيتسيا جوليا."
     },
     {
@@ -18246,12 +14044,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «أكويليا الرومانية»؟",
       "choices": [
-        "ماركي",
-        "فريولي-فينيتسيا جوليا",
+        "ليغوريا",
         "لومباردي",
-        "فينيتو"
+        "موليزي",
+        "فريولي-فينيتسيا جوليا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ فريولي-فينيتسيا جوليا."
     },
     {
@@ -18260,12 +14058,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «تريستا الهابسبورغية»؟",
       "choices": [
-        "وادي أوستا",
-        "باسيليكاتا",
-        "فريولي-فينيتسيا جوليا",
-        "أومبريا"
+        "بيدمونت",
+        "فينيتو",
+        "توسكانا",
+        "فريولي-فينيتسيا جوليا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ فريولي-فينيتسيا جوليا."
     },
     {
@@ -18274,12 +14072,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «لغات المنطقة»؟",
       "choices": [
-        "فينيتو",
-        "لاتسيو",
         "فريولي-فينيتسيا جوليا",
-        "صقلية"
+        "سردينيا",
+        "كامبانيا",
+        "بوليا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ فريولي-فينيتسيا جوليا."
     },
     {
@@ -18288,12 +14086,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الفلامنغو»؟",
       "choices": [
-        "إميليا-رومانيا",
-        "كالابريا",
-        "توسكانا",
-        "ليغوريا"
+        "لاتسيو",
+        "ترينتينو-ألتو أديجي",
+        "أومبريا",
+        "إميليا-رومانيا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«الفلامنغو» جزء من حيوانات إميليا-رومانيا."
     },
     {
@@ -18302,12 +14100,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الذئب»؟",
       "choices": [
-        "صقلية",
-        "ترينتينو-ألتو أديجي",
-        "أبروتسو",
-        "إميليا-رومانيا"
+        "إميليا-رومانيا",
+        "فينيتو",
+        "وادي أوستا",
+        "صقلية"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«الذئب» جزء من حيوانات إميليا-رومانيا."
     },
     {
@@ -18316,12 +14114,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «مالك الحزين الرمادي»؟",
       "choices": [
-        "كالابريا",
-        "وادي أوستا",
-        "ماركي",
-        "إميليا-رومانيا"
+        "إميليا-رومانيا",
+        "باسيليكاتا",
+        "ليغوريا",
+        "موليزي"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«مالك الحزين الرمادي» جزء من حيوانات إميليا-رومانيا."
     },
     {
@@ -18330,12 +14128,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الكرمة»؟",
       "choices": [
-        "صقلية",
-        "ليغوريا",
-        "لاتسيو",
-        "إميليا-رومانيا"
+        "باسيليكاتا",
+        "إميليا-رومانيا",
+        "وادي أوستا",
+        "سردينيا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«الكرمة» نبات مشهور في إميليا-رومانيا."
     },
     {
@@ -18344,9 +14142,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الحور»؟",
       "choices": [
-        "كالابريا",
-        "لاتسيو",
-        "أومبريا",
+        "باسيليكاتا",
+        "بيدمونت",
+        "ماركي",
         "إميليا-رومانيا"
       ],
       "correctIndex": 3,
@@ -18358,10 +14156,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الكرز»؟",
       "choices": [
+        "صقلية",
         "أبروتسو",
-        "توسكانا",
         "إميليا-رومانيا",
-        "باسيليكاتا"
+        "لاتسيو"
       ],
       "correctIndex": 2,
       "explanation": "«الكرز» نبات مشهور في إميليا-رومانيا."
@@ -18372,12 +14170,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «تالياتيلي بالراغو»؟",
       "choices": [
-        "توسكانا",
         "إميليا-رومانيا",
-        "وادي أوستا",
-        "صقلية"
+        "لاتسيو",
+        "لومباردي",
+        "باسيليكاتا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«تالياتيلي بالراغو» طبق مشهور في إميليا-رومانيا."
     },
     {
@@ -18386,12 +14184,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «تورتيليني»؟",
       "choices": [
-        "بوليا",
-        "كامبانيا",
-        "إميليا-رومانيا",
-        "وادي أوستا"
+        "فينيتو",
+        "صقلية",
+        "وادي أوستا",
+        "إميليا-رومانيا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«تورتيليني» طبق مشهور في إميليا-رومانيا."
     },
     {
@@ -18400,10 +14198,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «بارميجانو ريجيانو»؟",
       "choices": [
-        "ترينتينو-ألتو أديجي",
+        "ليغوريا",
         "إميليا-رومانيا",
-        "صقلية",
-        "فريولي-فينيتسيا جوليا"
+        "توسكانا",
+        "ماركي"
       ],
       "correctIndex": 1,
       "explanation": "«بارميجانو ريجيانو» طبق مشهور في إميليا-رومانيا."
@@ -18414,12 +14212,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «بولونيا»؟",
       "choices": [
+        "توسكانا",
         "إميليا-رومانيا",
-        "باسيليكاتا",
-        "أومبريا",
-        "كالابريا"
+        "لاتسيو",
+        "فريولي-فينيتسيا جوليا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "يقع «بولونيا» في إميليا-رومانيا."
     },
     {
@@ -18428,12 +14226,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «رافينا»؟",
       "choices": [
-        "ليغوريا",
-        "ترينتينو-ألتو أديجي",
-        "وادي أوستا",
-        "إميليا-رومانيا"
+        "ماركي",
+        "أبروتسو",
+        "إميليا-رومانيا",
+        "سردينيا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "يقع «رافينا» في إميليا-رومانيا."
     },
     {
@@ -18442,10 +14240,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «دلتا بو»؟",
       "choices": [
-        "بوليا",
+        "ليغوريا",
         "إميليا-رومانيا",
         "ماركي",
-        "كامبانيا"
+        "فينيتو"
       ],
       "correctIndex": 1,
       "explanation": "يقع «دلتا بو» في إميليا-رومانيا."
@@ -18456,12 +14254,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «جامعة بولونيا»؟",
       "choices": [
+        "أومبريا",
+        "فريولي-فينيتسيا جوليا",
         "إميليا-رومانيا",
-        "لاتسيو",
-        "صقلية",
-        "ليغوريا"
+        "ماركي"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ إميليا-رومانيا."
     },
     {
@@ -18470,12 +14268,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «طريق إميليا»؟",
       "choices": [
+        "فريولي-فينيتسيا جوليا",
+        "ترينتينو-ألتو أديجي",
         "إميليا-رومانيا",
-        "أومبريا",
-        "فينيتو",
-        "بيدمونت"
+        "أبروتسو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ إميليا-رومانيا."
     },
     {
@@ -18484,12 +14282,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «رافينا العاصمة»؟",
       "choices": [
-        "باسيليكاتا",
-        "ماركي",
         "إميليا-رومانيا",
-        "فينيتو"
+        "لاتسيو",
+        "بوليا",
+        "وادي أوستا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ إميليا-رومانيا."
     },
     {
@@ -18498,10 +14296,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الخنزير البري»؟",
       "choices": [
-        "لومباردي",
-        "فريولي-فينيتسيا جوليا",
+        "صقلية",
+        "إميليا-رومانيا",
         "توسكانا",
-        "ماركي"
+        "فينيتو"
       ],
       "correctIndex": 2,
       "explanation": "«الخنزير البري» جزء من حيوانات توسكانا."
@@ -18512,12 +14310,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الأيل الأسمر (الرُّوبوك)»؟",
       "choices": [
-        "بيدمونت",
         "توسكانا",
-        "سردينيا",
-        "صقلية"
+        "أومبريا",
+        "فريولي-فينيتسيا جوليا",
+        "وادي أوستا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«الأيل الأسمر (الرُّوبوك)» جزء من حيوانات توسكانا."
     },
     {
@@ -18526,12 +14324,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الذئب»؟",
       "choices": [
-        "صقلية",
-        "توسكانا",
-        "فينيتو",
-        "فريولي-فينيتسيا جوليا"
+        "لومباردي",
+        "وادي أوستا",
+        "ترينتينو-ألتو أديجي",
+        "توسكانا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«الذئب» جزء من حيوانات توسكانا."
     },
     {
@@ -18540,12 +14338,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «السرو»؟",
       "choices": [
-        "ليغوريا",
-        "إميليا-رومانيا",
-        "صقلية",
-        "توسكانا"
+        "فريولي-فينيتسيا جوليا",
+        "وادي أوستا",
+        "توسكانا",
+        "أبروتسو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«السرو» نبات مشهور في توسكانا."
     },
     {
@@ -18554,12 +14352,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الزيتون»؟",
       "choices": [
-        "صقلية",
         "توسكانا",
+        "أبروتسو",
         "كالابريا",
-        "كامبانيا"
+        "سردينيا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«الزيتون» نبات مشهور في توسكانا."
     },
     {
@@ -18568,9 +14366,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الكرمة»؟",
       "choices": [
-        "أومبريا",
-        "أبروتسو",
+        "ترينتينو-ألتو أديجي",
         "سردينيا",
+        "وادي أوستا",
         "توسكانا"
       ],
       "correctIndex": 3,
@@ -18582,12 +14380,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «ستيك فلورنسا»؟",
       "choices": [
-        "سردينيا",
-        "أبروتسو",
         "توسكانا",
-        "ترينتينو-ألتو أديجي"
+        "ترينتينو-ألتو أديجي",
+        "أومبريا",
+        "كالابريا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«ستيك فلورنسا» طبق مشهور في توسكانا."
     },
     {
@@ -18596,12 +14394,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «ريبوليتا»؟",
       "choices": [
-        "توسكانا",
         "فريولي-فينيتسيا جوليا",
-        "ترينتينو-ألتو أديجي",
+        "توسكانا",
+        "صقلية",
         "لاتسيو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«ريبوليتا» طبق مشهور في توسكانا."
     },
     {
@@ -18610,10 +14408,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «كانتوتشي»؟",
       "choices": [
-        "ليغوريا",
+        "ماركي",
         "توسكانا",
-        "بوليا",
-        "ماركي"
+        "بيدمونت",
+        "فينيتو"
       ],
       "correctIndex": 1,
       "explanation": "«كانتوتشي» طبق مشهور في توسكانا."
@@ -18624,12 +14422,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «فلورنسا»؟",
       "choices": [
+        "صقلية",
         "توسكانا",
-        "لاتسيو",
-        "إميليا-رومانيا",
-        "صقلية"
+        "بيدمونت",
+        "ترينتينو-ألتو أديجي"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "يقع «فلورنسا» في توسكانا."
     },
     {
@@ -18638,12 +14436,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «برج بيزا»؟",
       "choices": [
-        "أبروتسو",
         "توسكانا",
-        "ترينتينو-ألتو أديجي",
-        "كالابريا"
+        "صقلية",
+        "أومبريا",
+        "ليغوريا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "يقع «برج بيزا» في توسكانا."
     },
     {
@@ -18652,12 +14450,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «كيانتي»؟",
       "choices": [
-        "ليغوريا",
-        "توسكانا",
-        "صقلية",
-        "سردينيا"
+        "وادي أوستا",
+        "موليزي",
+        "لاتسيو",
+        "توسكانا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "يقع «كيانتي» في توسكانا."
     },
     {
@@ -18666,12 +14464,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «النهضة في فلورنسا»؟",
       "choices": [
-        "توسكانا",
-        "كامبانيا",
-        "موليزي",
-        "ليغوريا"
+        "أومبريا",
+        "صقلية",
+        "وادي أوستا",
+        "توسكانا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ توسكانا."
     },
     {
@@ -18680,12 +14478,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «قبة برونليسكي»؟",
       "choices": [
-        "توسكانا",
         "لاتسيو",
-        "لومباردي",
+        "فينيتو",
+        "توسكانا",
         "أومبريا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ توسكانا."
     },
     {
@@ -18694,9 +14492,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «باليو سيينا»؟",
       "choices": [
-        "فينيتو",
-        "ليغوريا",
-        "موليزي",
+        "إميليا-رومانيا",
+        "بوليا",
+        "صقلية",
         "توسكانا"
       ],
       "correctIndex": 3,
@@ -18708,12 +14506,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الخنزير البري»؟",
       "choices": [
-        "إميليا-رومانيا",
+        "سردينيا",
+        "كالابريا",
         "أومبريا",
-        "باسيليكاتا",
-        "صقلية"
+        "أبروتسو"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«الخنزير البري» جزء من حيوانات أومبريا."
     },
     {
@@ -18722,12 +14520,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الذئب»؟",
       "choices": [
+        "ليغوريا",
         "بوليا",
         "أومبريا",
-        "صقلية",
-        "أبروتسو"
+        "صقلية"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«الذئب» جزء من حيوانات أومبريا."
     },
     {
@@ -18736,12 +14534,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الصقر الحر»؟",
       "choices": [
-        "فينيتو",
-        "موليزي",
+        "ماركي",
         "أومبريا",
-        "بيدمونت"
+        "ترينتينو-ألتو أديجي",
+        "فريولي-فينيتسيا جوليا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«الصقر الحر» جزء من حيوانات أومبريا."
     },
     {
@@ -18750,12 +14548,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الزيتون»؟",
       "choices": [
-        "إميليا-رومانيا",
+        "أومبريا",
+        "فينيتو",
         "ترينتينو-ألتو أديجي",
-        "وادي أوستا",
-        "أومبريا"
+        "فريولي-فينيتسيا جوليا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«الزيتون» نبات مشهور في أومبريا."
     },
     {
@@ -18764,10 +14562,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «السنديان الزغبي»؟",
       "choices": [
-        "بوليا",
+        "كالابريا",
         "أومبريا",
-        "فريولي-فينيتسيا جوليا",
-        "وادي أوستا"
+        "بيدمونت",
+        "فريولي-فينيتسيا جوليا"
       ],
       "correctIndex": 1,
       "explanation": "«السنديان الزغبي» نبات مشهور في أومبريا."
@@ -18778,12 +14576,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «عدس كاستيلوتشو»؟",
       "choices": [
-        "توسكانا",
-        "أومبريا",
-        "فريولي-فينيتسيا جوليا",
-        "سردينيا"
+        "أبروتسو",
+        "موليزي",
+        "ترينتينو-ألتو أديجي",
+        "أومبريا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«عدس كاستيلوتشو» نبات مشهور في أومبريا."
     },
     {
@@ -18792,12 +14590,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «ستراندزوتسي بالكمأة»؟",
       "choices": [
-        "لاتسيو",
         "أومبريا",
-        "ترينتينو-ألتو أديجي",
-        "لومباردي"
+        "سردينيا",
+        "فينيتو",
+        "كامبانيا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«ستراندزوتسي بالكمأة» طبق مشهور في أومبريا."
     },
     {
@@ -18806,12 +14604,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «عدس كاستيلوتشو»؟",
       "choices": [
-        "كامبانيا",
-        "إميليا-رومانيا",
+        "أومبريا",
+        "كالابريا",
         "بيدمونت",
-        "أومبريا"
+        "بوليا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«عدس كاستيلوتشو» طبق مشهور في أومبريا."
     },
     {
@@ -18820,12 +14618,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «بورقيتا (خنزير مشوي)»؟",
       "choices": [
+        "فريولي-فينيتسيا جوليا",
+        "سردينيا",
         "أومبريا",
-        "ترينتينو-ألتو أديجي",
-        "توسكانا",
-        "صقلية"
+        "ترينتينو-ألتو أديجي"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«بورقيتا (خنزير مشوي)» طبق مشهور في أومبريا."
     },
     {
@@ -18834,12 +14632,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «أسيزي»؟",
       "choices": [
-        "أومبريا",
-        "بيدمونت",
-        "سردينيا",
-        "باسيليكاتا"
+        "لومباردي",
+        "أبروتسو",
+        "فريولي-فينيتسيا جوليا",
+        "أومبريا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "يقع «أسيزي» في أومبريا."
     },
     {
@@ -18849,9 +14647,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "في أي منطقة يقع «شلال مارمور»؟",
       "choices": [
         "أومبريا",
-        "ليغوريا",
-        "سردينيا",
-        "فريولي-فينيتسيا جوليا"
+        "ماركي",
+        "باسيليكاتا",
+        "صقلية"
       ],
       "correctIndex": 0,
       "explanation": "يقع «شلال مارمور» في أومبريا."
@@ -18862,12 +14660,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «أورفييتو»؟",
       "choices": [
-        "ليغوريا",
-        "أبروتسو",
+        "بيدمونت",
         "أومبريا",
+        "أبروتسو",
         "ترينتينو-ألتو أديجي"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "يقع «أورفييتو» في أومبريا."
     },
     {
@@ -18876,12 +14674,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «القدّيس فرنسيس»؟",
       "choices": [
-        "توسكانا",
-        "كامبانيا",
+        "باسيليكاتا",
         "أومبريا",
-        "بيدمونت"
+        "بيدمونت",
+        "بوليا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "تتعلق هذه الحقيقة بـ أومبريا."
     },
     {
@@ -18890,12 +14688,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «مارمور والرومان»؟",
       "choices": [
-        "توسكانا",
-        "كالابريا",
         "أومبريا",
-        "فريولي-فينيتسيا جوليا"
+        "فريولي-فينيتسيا جوليا",
+        "وادي أوستا",
+        "إميليا-رومانيا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ أومبريا."
     },
     {
@@ -18904,12 +14702,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «بيروجا الإتروسكية»؟",
       "choices": [
-        "كالابريا",
-        "ماركي",
-        "أومبريا",
-        "فريولي-فينيتسيا جوليا"
+        "ليغوريا",
+        "توسكانا",
+        "فينيتو",
+        "أومبريا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ أومبريا."
     },
     {
@@ -18918,12 +14716,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «النسر الذهبي»؟",
       "choices": [
-        "لومباردي",
+        "أبروتسو",
+        "بيدمونت",
         "ماركي",
-        "لاتسيو",
-        "سردينيا"
+        "ليغوريا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«النسر الذهبي» جزء من حيوانات ماركي."
     },
     {
@@ -18932,12 +14730,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الذئب»؟",
       "choices": [
-        "سردينيا",
+        "ترينتينو-ألتو أديجي",
+        "أبروتسو",
         "ماركي",
-        "كامبانيا",
-        "فينيتو"
+        "وادي أوستا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«الذئب» جزء من حيوانات ماركي."
     },
     {
@@ -18947,9 +14745,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "في أي منطقة يعيش هذا الحيوان: «النورس أصفر القدمين»؟",
       "choices": [
         "ماركي",
-        "وادي أوستا",
-        "كالابريا",
-        "موليزي"
+        "صقلية",
+        "إميليا-رومانيا",
+        "فريولي-فينيتسيا جوليا"
       ],
       "correctIndex": 0,
       "explanation": "«النورس أصفر القدمين» جزء من حيوانات ماركي."
@@ -18960,12 +14758,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «عباد الشمس»؟",
       "choices": [
-        "توسكانا",
-        "أومبريا",
-        "ماركي",
-        "كالابريا"
+        "وادي أوستا",
+        "لاتسيو",
+        "باسيليكاتا",
+        "ماركي"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«عباد الشمس» نبات مشهور في ماركي."
     },
     {
@@ -18974,12 +14772,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الزيتون»؟",
       "choices": [
-        "فريولي-فينيتسيا جوليا",
         "ماركي",
-        "بيدمونت",
+        "وادي أوستا",
+        "فينيتو",
         "سردينيا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«الزيتون» نبات مشهور في ماركي."
     },
     {
@@ -18990,8 +14788,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "ماركي",
         "أبروتسو",
-        "وادي أوستا",
-        "ليغوريا"
+        "كالابريا",
+        "فينيتو"
       ],
       "correctIndex": 0,
       "explanation": "«البلوط الدائم الخضرة» نبات مشهور في ماركي."
@@ -19002,9 +14800,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «زيتون بطريقة أسكولي»؟",
       "choices": [
-        "كامبانيا",
-        "وادي أوستا",
-        "ليغوريا",
+        "بيدمونت",
+        "إميليا-رومانيا",
+        "فينيتو",
         "ماركي"
       ],
       "correctIndex": 3,
@@ -19016,10 +14814,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «بروديتو»؟",
       "choices": [
-        "بوليا",
+        "أومبريا",
         "ماركي",
-        "كامبانيا",
-        "أبروتسو"
+        "لومباردي",
+        "لاتسيو"
       ],
       "correctIndex": 1,
       "explanation": "«بروديتو» طبق مشهور في ماركي."
@@ -19030,12 +14828,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «فينتشيسغراسي»؟",
       "choices": [
-        "كالابريا",
+        "إميليا-رومانيا",
+        "أبروتسو",
         "ماركي",
-        "كامبانيا",
-        "أبروتسو"
+        "كامبانيا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«فينتشيسغراسي» طبق مشهور في ماركي."
     },
     {
@@ -19044,12 +14842,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «أوربينو»؟",
       "choices": [
-        "بيدمونت",
-        "كالابريا",
-        "ماركي",
-        "فريولي-فينيتسيا جوليا"
+        "صقلية",
+        "وادي أوستا",
+        "أبروتسو",
+        "ماركي"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "يقع «أوربينو» في ماركي."
     },
     {
@@ -19058,12 +14856,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «كهوف فراساسي»؟",
       "choices": [
-        "ليغوريا",
-        "كامبانيا",
+        "موليزي",
         "ماركي",
-        "سردينيا"
+        "باسيليكاتا",
+        "إميليا-رومانيا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "يقع «كهوف فراساسي» في ماركي."
     },
     {
@@ -19072,12 +14870,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «جبل كونيرو»؟",
       "choices": [
-        "بيدمونت",
-        "فينيتو",
-        "ماركي",
-        "لاتسيو"
+        "موليزي",
+        "كالابريا",
+        "أبروتسو",
+        "ماركي"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "يقع «جبل كونيرو» في ماركي."
     },
     {
@@ -19086,12 +14884,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «رافاييل»؟",
       "choices": [
-        "توسكانا",
-        "بيدمونت",
-        "ماركي",
-        "ليغوريا"
+        "صقلية",
+        "باسيليكاتا",
+        "ليغوريا",
+        "ماركي"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ ماركي."
     },
     {
@@ -19100,12 +14898,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «قصر الدوق في أوربينو»؟",
       "choices": [
-        "لومباردي",
-        "ماركي",
+        "فينيتو",
+        "بوليا",
         "موليزي",
-        "صقلية"
+        "ماركي"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ ماركي."
     },
     {
@@ -19114,12 +14912,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «لوريتو»؟",
       "choices": [
-        "موليزي",
-        "فريولي-فينيتسيا جوليا",
-        "كامبانيا",
-        "ماركي"
+        "باسيليكاتا",
+        "أبروتسو",
+        "ماركي",
+        "فينيتو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ ماركي."
     },
     {
@@ -19128,10 +14926,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «النورس أصفر القدمين»؟",
       "choices": [
-        "صقلية",
+        "وادي أوستا",
         "لاتسيو",
-        "توسكانا",
-        "ترينتينو-ألتو أديجي"
+        "ترينتينو-ألتو أديجي",
+        "باسيليكاتا"
       ],
       "correctIndex": 1,
       "explanation": "«النورس أصفر القدمين» جزء من حيوانات لاتسيو."
@@ -19142,12 +14940,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الذئب»؟",
       "choices": [
-        "ترينتينو-ألتو أديجي",
-        "أبروتسو",
         "لاتسيو",
-        "فريولي-فينيتسيا جوليا"
+        "سردينيا",
+        "كامبانيا",
+        "وادي أوستا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«الذئب» جزء من حيوانات لاتسيو."
     },
     {
@@ -19156,12 +14954,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الخنزير البري»؟",
       "choices": [
-        "كامبانيا",
-        "لاتسيو",
-        "سردينيا",
-        "وادي أوستا"
+        "فينيتو",
+        "إميليا-رومانيا",
+        "كالابريا",
+        "لاتسيو"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«الخنزير البري» جزء من حيوانات لاتسيو."
     },
     {
@@ -19170,12 +14968,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الصنوبر الثمري»؟",
       "choices": [
-        "لومباردي",
-        "فينيتو",
+        "سردينيا",
         "لاتسيو",
+        "صقلية",
         "أومبريا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«الصنوبر الثمري» نبات مشهور في لاتسيو."
     },
     {
@@ -19184,12 +14982,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «البلوط الدائم الخضرة»؟",
       "choices": [
-        "توسكانا",
-        "أبروتسو",
+        "ترينتينو-ألتو أديجي",
+        "لاتسيو",
         "فريولي-فينيتسيا جوليا",
-        "لاتسيو"
+        "وادي أوستا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«البلوط الدائم الخضرة» نبات مشهور في لاتسيو."
     },
     {
@@ -19198,12 +14996,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الزيتون»؟",
       "choices": [
-        "ترينتينو-ألتو أديجي",
-        "لاتسيو",
-        "كالابريا",
-        "فريولي-فينيتسيا جوليا"
+        "بيدمونت",
+        "كامبانيا",
+        "إميليا-رومانيا",
+        "لاتسيو"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«الزيتون» نبات مشهور في لاتسيو."
     },
     {
@@ -19212,12 +15010,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «كاربونارا»؟",
       "choices": [
-        "ماركي",
         "لاتسيو",
         "توسكانا",
-        "لومباردي"
+        "كامبانيا",
+        "ترينتينو-ألتو أديجي"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«كاربونارا» طبق مشهور في لاتسيو."
     },
     {
@@ -19226,12 +15024,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «سوبّلي»؟",
       "choices": [
+        "صقلية",
         "لاتسيو",
-        "بوليا",
-        "أبروتسو",
-        "بيدمونت"
+        "ترينتينو-ألتو أديجي",
+        "أومبريا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«سوبّلي» طبق مشهور في لاتسيو."
     },
     {
@@ -19240,12 +15038,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «خرشوف على الطريقة اليهودية»؟",
       "choices": [
-        "صقلية",
-        "لاتسيو",
+        "فريولي-فينيتسيا جوليا",
+        "ترينتينو-ألتو أديجي",
         "إميليا-رومانيا",
-        "توسكانا"
+        "لاتسيو"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«خرشوف على الطريقة اليهودية» طبق مشهور في لاتسيو."
     },
     {
@@ -19254,12 +15052,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «الكولوسيوم»؟",
       "choices": [
-        "إميليا-رومانيا",
-        "صقلية",
-        "كالابريا",
-        "لاتسيو"
+        "أومبريا",
+        "سردينيا",
+        "لاتسيو",
+        "فريولي-فينيتسيا جوليا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "يقع «الكولوسيوم» في لاتسيو."
     },
     {
@@ -19268,12 +15066,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «نافورة تريفي»؟",
       "choices": [
-        "موليزي",
-        "ليغوريا",
         "لومباردي",
-        "لاتسيو"
+        "لاتسيو",
+        "بيدمونت",
+        "أبروتسو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "يقع «نافورة تريفي» في لاتسيو."
     },
     {
@@ -19282,12 +15080,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «فيلا ديستي»؟",
       "choices": [
-        "فريولي-فينيتسيا جوليا",
-        "بوليا",
-        "أومبريا",
-        "لاتسيو"
+        "فينيتو",
+        "لاتسيو",
+        "كالابريا",
+        "بيدمونت"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "يقع «فيلا ديستي» في لاتسيو."
     },
     {
@@ -19296,10 +15094,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «تأسيس روما»؟",
       "choices": [
-        "إميليا-رومانيا",
+        "لومباردي",
         "لاتسيو",
-        "أومبريا",
-        "بوليا"
+        "كامبانيا",
+        "باسيليكاتا"
       ],
       "correctIndex": 1,
       "explanation": "تتعلق هذه الحقيقة بـ لاتسيو."
@@ -19310,12 +15108,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «الإمبراطورية الرومانية»؟",
       "choices": [
-        "وادي أوستا",
-        "توسكانا",
-        "لاتسيو",
-        "باسيليكاتا"
+        "لومباردي",
+        "ماركي",
+        "كالابريا",
+        "لاتسيو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ لاتسيو."
     },
     {
@@ -19324,12 +15122,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «روما العاصمة»؟",
       "choices": [
+        "أبروتسو",
         "لاتسيو",
-        "أومبريا",
-        "ليغوريا",
-        "موليزي"
+        "إميليا-رومانيا",
+        "فريولي-فينيتسيا جوليا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "تتعلق هذه الحقيقة بـ لاتسيو."
     },
     {
@@ -19339,9 +15137,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "في أي منطقة يعيش هذا الحيوان: «دب مارسيكا»؟",
       "choices": [
         "أبروتسو",
-        "كالابريا",
-        "ماركي",
-        "موليزي"
+        "توسكانا",
+        "لومباردي",
+        "كامبانيا"
       ],
       "correctIndex": 0,
       "explanation": "«دب مارسيكا» جزء من حيوانات أبروتسو."
@@ -19352,12 +15150,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «شامواه أبروتسو»؟",
       "choices": [
-        "إميليا-رومانيا",
-        "أبروتسو",
+        "ليغوريا",
         "موليزي",
-        "باسيليكاتا"
+        "سردينيا",
+        "أبروتسو"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«شامواه أبروتسو» جزء من حيوانات أبروتسو."
     },
     {
@@ -19366,12 +15164,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «ذئب الأبنين»؟",
       "choices": [
-        "بيدمونت",
-        "كامبانيا",
+        "باسيليكاتا",
         "أبروتسو",
-        "صقلية"
+        "كالابريا",
+        "إميليا-رومانيا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«ذئب الأبنين» جزء من حيوانات أبروتسو."
     },
     {
@@ -19380,12 +15178,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الزان»؟",
       "choices": [
-        "إميليا-رومانيا",
-        "ترينتينو-ألتو أديجي",
+        "فينيتو",
         "صقلية",
-        "أبروتسو"
+        "أبروتسو",
+        "ترينتينو-ألتو أديجي"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«الزان» نبات مشهور في أبروتسو."
     },
     {
@@ -19394,12 +15192,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الزعفران»؟",
       "choices": [
-        "أومبريا",
-        "ماركي",
-        "ليغوريا",
-        "أبروتسو"
+        "توسكانا",
+        "فينيتو",
+        "أبروتسو",
+        "أومبريا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«الزعفران» نبات مشهور في أبروتسو."
     },
     {
@@ -19408,12 +15206,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الجنطيانا»؟",
       "choices": [
-        "بوليا",
-        "موليزي",
-        "أبروتسو",
-        "كامبانيا"
+        "كالابريا",
+        "لومباردي",
+        "لاتسيو",
+        "أبروتسو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«الجنطيانا» نبات مشهور في أبروتسو."
     },
     {
@@ -19422,12 +15220,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «أروستيتشيني»؟",
       "choices": [
-        "إميليا-رومانيا",
-        "لومباردي",
-        "أبروتسو",
-        "فريولي-فينيتسيا جوليا"
+        "صقلية",
+        "سردينيا",
+        "باسيليكاتا",
+        "أبروتسو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«أروستيتشيني» طبق مشهور في أبروتسو."
     },
     {
@@ -19436,12 +15234,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «سباغيتي ألّا كيتارّا»؟",
       "choices": [
-        "لومباردي",
-        "كامبانيا",
         "أبروتسو",
-        "ليغوريا"
+        "لاتسيو",
+        "ترينتينو-ألتو أديجي",
+        "باسيليكاتا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«سباغيتي ألّا كيتارّا» طبق مشهور في أبروتسو."
     },
     {
@@ -19450,12 +15248,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «كونفيتّي سولمونا»؟",
       "choices": [
+        "لاتسيو",
         "أبروتسو",
-        "توسكانا",
-        "أومبريا",
-        "باسيليكاتا"
+        "ماركي",
+        "كالابريا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«كونفيتّي سولمونا» طبق مشهور في أبروتسو."
     },
     {
@@ -19464,12 +15262,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «غران ساسو»؟",
       "choices": [
-        "صقلية",
-        "بيدمونت",
         "أبروتسو",
-        "فريولي-فينيتسيا جوليا"
+        "توسكانا",
+        "ليغوريا",
+        "إميليا-رومانيا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "يقع «غران ساسو» في أبروتسو."
     },
     {
@@ -19478,10 +15276,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «تراباكّي»؟",
       "choices": [
-        "صقلية",
-        "سردينيا",
+        "لومباردي",
+        "باسيليكاتا",
         "أبروتسو",
-        "كامبانيا"
+        "كالابريا"
       ],
       "correctIndex": 2,
       "explanation": "يقع «تراباكّي» في أبروتسو."
@@ -19492,12 +15290,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «روكا كالاسكيو»؟",
       "choices": [
-        "بوليا",
-        "بيدمونت",
-        "لومباردي",
-        "أبروتسو"
+        "ترينتينو-ألتو أديجي",
+        "أومبريا",
+        "أبروتسو",
+        "لومباردي"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "يقع «روكا كالاسكيو» في أبروتسو."
     },
     {
@@ -19506,12 +15304,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «منتزه أبروتسو»؟",
       "choices": [
-        "أبروتسو",
         "ماركي",
-        "فريولي-فينيتسيا جوليا",
-        "ليغوريا"
+        "ليغوريا",
+        "أبروتسو",
+        "وادي أوستا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ أبروتسو."
     },
     {
@@ -19520,12 +15318,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «الترحال الموسمي»؟",
       "choices": [
-        "فينيتو",
+        "أومبريا",
+        "صقلية",
         "أبروتسو",
-        "سردينيا",
-        "ترينتينو-ألتو أديجي"
+        "إميليا-رومانيا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ أبروتسو."
     },
     {
@@ -19534,10 +15332,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «كاتدرائية كوليماجيو»؟",
       "choices": [
-        "موليزي",
+        "توسكانا",
         "أبروتسو",
-        "صقلية",
-        "إميليا-رومانيا"
+        "موليزي",
+        "بوليا"
       ],
       "correctIndex": 1,
       "explanation": "تتعلق هذه الحقيقة بـ أبروتسو."
@@ -19548,12 +15346,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الذئب»؟",
       "choices": [
-        "أبروتسو",
-        "وادي أوستا",
         "كامبانيا",
-        "موليزي"
+        "سردينيا",
+        "موليزي",
+        "أبروتسو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«الذئب» جزء من حيوانات موليزي."
     },
     {
@@ -19562,12 +15360,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الخنزير البري»؟",
       "choices": [
-        "ترينتينو-ألتو أديجي",
-        "وادي أوستا",
-        "بوليا",
-        "موليزي"
+        "سردينيا",
+        "أبروتسو",
+        "موليزي",
+        "بوليا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«الخنزير البري» جزء من حيوانات موليزي."
     },
     {
@@ -19576,12 +15374,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «السلحفاة البحرية»؟",
       "choices": [
+        "أبروتسو",
+        "بيدمونت",
         "موليزي",
-        "إميليا-رومانيا",
-        "ليغوريا",
         "فريولي-فينيتسيا جوليا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«السلحفاة البحرية» جزء من حيوانات موليزي."
     },
     {
@@ -19590,12 +15388,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الزيتون»؟",
       "choices": [
-        "سردينيا",
-        "أبروتسو",
-        "إميليا-رومانيا",
-        "موليزي"
+        "كامبانيا",
+        "ترينتينو-ألتو أديجي",
+        "موليزي",
+        "وادي أوستا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«الزيتون» نبات مشهور في موليزي."
     },
     {
@@ -19605,9 +15403,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "في أي منطقة ينمو هذا النبات: «السنديان الزغبي»؟",
       "choices": [
         "موليزي",
-        "أبروتسو",
-        "لاتسيو",
-        "وادي أوستا"
+        "كالابريا",
+        "توسكانا",
+        "ماركي"
       ],
       "correctIndex": 0,
       "explanation": "«السنديان الزغبي» نبات مشهور في موليزي."
@@ -19618,12 +15416,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الزان»؟",
       "choices": [
-        "موليزي",
         "سردينيا",
-        "بوليا",
-        "فينيتو"
+        "إميليا-رومانيا",
+        "موليزي",
+        "بوليا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«الزان» نبات مشهور في موليزي."
     },
     {
@@ -19632,12 +15430,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «كافاتيلي»؟",
       "choices": [
-        "وادي أوستا",
         "موليزي",
-        "باسيليكاتا",
-        "لاتسيو"
+        "ترينتينو-ألتو أديجي",
+        "ماركي",
+        "وادي أوستا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«كافاتيلي» طبق مشهور في موليزي."
     },
     {
@@ -19646,10 +15444,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «كاتشوكافالو»؟",
       "choices": [
-        "صقلية",
-        "كامبانيا",
+        "لاتسيو",
+        "ليغوريا",
         "موليزي",
-        "سردينيا"
+        "صقلية"
       ],
       "correctIndex": 2,
       "explanation": "«كاتشوكافالو» طبق مشهور في موليزي."
@@ -19660,12 +15458,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «بالوتّه كاتشو إ أوفا»؟",
       "choices": [
-        "كالابريا",
         "موليزي",
-        "لومباردي",
-        "كامبانيا"
+        "أومبريا",
+        "باسيليكاتا",
+        "بيدمونت"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«بالوتّه كاتشو إ أوفا» طبق مشهور في موليزي."
     },
     {
@@ -19674,10 +15472,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «تيرمولي»؟",
       "choices": [
-        "وادي أوستا",
+        "أبروتسو",
         "موليزي",
-        "لومباردي",
-        "صقلية"
+        "فريولي-فينيتسيا جوليا",
+        "ترينتينو-ألتو أديجي"
       ],
       "correctIndex": 1,
       "explanation": "يقع «تيرمولي» في موليزي."
@@ -19688,12 +15486,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «سايبينوم»؟",
       "choices": [
+        "إميليا-رومانيا",
         "موليزي",
-        "فريولي-فينيتسيا جوليا",
-        "بوليا",
-        "لومباردي"
+        "ماركي",
+        "ليغوريا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "يقع «سايبينوم» في موليزي."
     },
     {
@@ -19702,12 +15500,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «أنيوني»؟",
       "choices": [
-        "لومباردي",
-        "أومبريا",
-        "موليزي",
-        "فينيتو"
+        "لاتسيو",
+        "بوليا",
+        "باسيليكاتا",
+        "موليزي"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "يقع «أنيوني» في موليزي."
     },
     {
@@ -19716,12 +15514,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «منطقة منذ 1963»؟",
       "choices": [
-        "إميليا-رومانيا",
         "موليزي",
-        "وادي أوستا",
-        "لومباردي"
+        "سردينيا",
+        "فينيتو",
+        "باسيليكاتا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ موليزي."
     },
     {
@@ -19730,12 +15528,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «التراتّوري»؟",
       "choices": [
-        "موليزي",
-        "كامبانيا",
-        "لومباردي",
-        "ليغوريا"
+        "فينيتو",
+        "ليغوريا",
+        "أبروتسو",
+        "موليزي"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ موليزي."
     },
     {
@@ -19744,12 +15542,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «لوح أنيوني»؟",
       "choices": [
-        "وادي أوستا",
+        "ترينتينو-ألتو أديجي",
+        "فينيتو",
         "موليزي",
-        "ماركي",
-        "ترينتينو-ألتو أديجي"
+        "صقلية"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ موليزي."
     },
     {
@@ -19758,10 +15556,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «النورس أصفر القدمين»؟",
       "choices": [
-        "سردينيا",
-        "فريولي-فينيتسيا جوليا",
+        "موليزي",
+        "باسيليكاتا",
         "كامبانيا",
-        "صقلية"
+        "أومبريا"
       ],
       "correctIndex": 2,
       "explanation": "«النورس أصفر القدمين» جزء من حيوانات كامبانيا."
@@ -19772,10 +15570,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الزلزلة الرمادية (الشيرواتر)»؟",
       "choices": [
-        "أومبريا",
+        "ترينتينو-ألتو أديجي",
         "كامبانيا",
-        "لومباردي",
-        "بيدمونت"
+        "أبروتسو",
+        "صقلية"
       ],
       "correctIndex": 1,
       "explanation": "«الزلزلة الرمادية (الشيرواتر)» جزء من حيوانات كامبانيا."
@@ -19786,12 +15584,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الدلفين قاروري الأنف»؟",
       "choices": [
-        "لومباردي",
-        "باسيليكاتا",
         "كامبانيا",
-        "ترينتينو-ألتو أديجي"
+        "فريولي-فينيتسيا جوليا",
+        "كالابريا",
+        "ماركي"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«الدلفين قاروري الأنف» جزء من حيوانات كامبانيا."
     },
     {
@@ -19800,12 +15598,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الليمون»؟",
       "choices": [
-        "ماركي",
-        "كامبانيا",
-        "بيدمونت",
-        "وادي أوستا"
+        "أبروتسو",
+        "أومبريا",
+        "فينيتو",
+        "كامبانيا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "«الليمون» نبات مشهور في كامبانيا."
     },
     {
@@ -19814,12 +15612,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الطماطم»؟",
       "choices": [
-        "أومبريا",
-        "فينيتو",
-        "توسكانا",
-        "كامبانيا"
+        "صقلية",
+        "بوليا",
+        "كامبانيا",
+        "أبروتسو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«الطماطم» نبات مشهور في كامبانيا."
     },
     {
@@ -19828,12 +15626,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الكرمة»؟",
       "choices": [
-        "أبروتسو",
         "كامبانيا",
         "أومبريا",
-        "سردينيا"
+        "أبروتسو",
+        "لومباردي"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«الكرمة» نبات مشهور في كامبانيا."
     },
     {
@@ -19842,12 +15640,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «بيتزا نابولي»؟",
       "choices": [
-        "سردينيا",
-        "بوليا",
         "كامبانيا",
-        "صقلية"
+        "باسيليكاتا",
+        "بيدمونت",
+        "لومباردي"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«بيتزا نابولي» طبق مشهور في كامبانيا."
     },
     {
@@ -19856,12 +15654,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «موتزاريلا الجاموس»؟",
       "choices": [
-        "لومباردي",
+        "فريولي-فينيتسيا جوليا",
+        "موليزي",
         "كامبانيا",
-        "ليغوريا",
-        "موليزي"
+        "ليغوريا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«موتزاريلا الجاموس» طبق مشهور في كامبانيا."
     },
     {
@@ -19870,12 +15668,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «سفولياتيلا»؟",
       "choices": [
-        "بوليا",
-        "سردينيا",
-        "موليزي",
-        "كامبانيا"
+        "كامبانيا",
+        "ماركي",
+        "ترينتينو-ألتو أديجي",
+        "صقلية"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«سفولياتيلا» طبق مشهور في كامبانيا."
     },
     {
@@ -19884,12 +15682,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «بومبي»؟",
       "choices": [
+        "سردينيا",
         "كامبانيا",
-        "كالابريا",
-        "وادي أوستا",
-        "ترينتينو-ألتو أديجي"
+        "توسكانا",
+        "أبروتسو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "يقع «بومبي» في كامبانيا."
     },
     {
@@ -19898,12 +15696,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «ساحل أمالفي»؟",
       "choices": [
+        "إميليا-رومانيا",
+        "ترينتينو-ألتو أديجي",
         "كامبانيا",
-        "سردينيا",
-        "صقلية",
         "موليزي"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "يقع «ساحل أمالفي» في كامبانيا."
     },
     {
@@ -19912,12 +15710,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «فيزوف»؟",
       "choices": [
-        "كامبانيا",
         "بيدمونت",
-        "لاتسيو",
-        "ليغوريا"
+        "كامبانيا",
+        "فريولي-فينيتسيا جوليا",
+        "لومباردي"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "يقع «فيزوف» في كامبانيا."
     },
     {
@@ -19926,12 +15724,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «ثوران عام 79»؟",
       "choices": [
-        "موليزي",
-        "توسكانا",
         "كالابريا",
-        "كامبانيا"
+        "إميليا-رومانيا",
+        "كامبانيا",
+        "أومبريا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ كامبانيا."
     },
     {
@@ -19940,12 +15738,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «جمهورية أمالفي»؟",
       "choices": [
-        "أبروتسو",
         "كامبانيا",
-        "ليغوريا",
-        "فريولي-فينيتسيا جوليا"
+        "ماركي",
+        "موليزي",
+        "إميليا-رومانيا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ كامبانيا."
     },
     {
@@ -19954,12 +15752,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «مملكة نابولي»؟",
       "choices": [
-        "كالابريا",
-        "ليغوريا",
         "فينيتو",
-        "كامبانيا"
+        "موليزي",
+        "كامبانيا",
+        "بيدمونت"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ كامبانيا."
     },
     {
@@ -19968,12 +15766,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الفلامنغو»؟",
       "choices": [
-        "بوليا",
         "فريولي-فينيتسيا جوليا",
-        "ترينتينو-ألتو أديجي",
-        "لاتسيو"
+        "بوليا",
+        "موليزي",
+        "توسكانا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«الفلامنغو» جزء من حيوانات بوليا."
     },
     {
@@ -19983,9 +15781,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الباز الصغير»؟",
       "choices": [
         "بوليا",
-        "بيدمونت",
-        "كالابريا",
-        "لاتسيو"
+        "باسيليكاتا",
+        "سردينيا",
+        "وادي أوستا"
       ],
       "correctIndex": 0,
       "explanation": "«الباز الصغير» جزء من حيوانات بوليا."
@@ -19996,12 +15794,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «السلحفاة البحرية»؟",
       "choices": [
-        "إميليا-رومانيا",
-        "أبروتسو",
-        "بوليا",
-        "توسكانا"
+        "ليغوريا",
+        "باسيليكاتا",
+        "بيدمونت",
+        "بوليا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«السلحفاة البحرية» جزء من حيوانات بوليا."
     },
     {
@@ -20010,12 +15808,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الزيتون»؟",
       "choices": [
-        "بوليا",
-        "إميليا-رومانيا",
-        "كالابريا",
-        "فينيتو"
+        "فينيتو",
+        "سردينيا",
+        "صقلية",
+        "بوليا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«الزيتون» نبات مشهور في بوليا."
     },
     {
@@ -20024,12 +15822,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «التين الشوكي»؟",
       "choices": [
-        "بوليا",
+        "باسيليكاتا",
         "فريولي-فينيتسيا جوليا",
-        "كالابريا",
-        "ليغوريا"
+        "ماركي",
+        "بوليا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«التين الشوكي» نبات مشهور في بوليا."
     },
     {
@@ -20038,12 +15836,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الكرمة»؟",
       "choices": [
-        "ماركي",
         "بوليا",
-        "كالابريا",
-        "ترينتينو-ألتو أديجي"
+        "لاتسيو",
+        "أومبريا",
+        "ماركي"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«الكرمة» نبات مشهور في بوليا."
     },
     {
@@ -20052,12 +15850,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «أوريكيّيتي»؟",
       "choices": [
+        "بيدمونت",
         "بوليا",
-        "توسكانا",
-        "موليزي",
-        "وادي أوستا"
+        "فينيتو",
+        "باسيليكاتا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«أوريكيّيتي» طبق مشهور في بوليا."
     },
     {
@@ -20066,12 +15864,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «بوراتا»؟",
       "choices": [
+        "لاتسيو",
+        "صقلية",
         "بوليا",
-        "ترينتينو-ألتو أديجي",
-        "كالابريا",
-        "باسيليكاتا"
+        "فينيتو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«بوراتا» طبق مشهور في بوليا."
     },
     {
@@ -20080,12 +15878,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «بانتسيروتّو»؟",
       "choices": [
+        "موليزي",
         "بوليا",
-        "صقلية",
-        "كامبانيا",
-        "ليغوريا"
+        "أبروتسو",
+        "ترينتينو-ألتو أديجي"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«بانتسيروتّو» طبق مشهور في بوليا."
     },
     {
@@ -20094,12 +15892,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «ألبيروبيلّو»؟",
       "choices": [
+        "ليغوريا",
         "بوليا",
-        "فريولي-فينيتسيا جوليا",
-        "سردينيا",
-        "باسيليكاتا"
+        "صقلية",
+        "موليزي"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "يقع «ألبيروبيلّو» في بوليا."
     },
     {
@@ -20108,10 +15906,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «كاستل ديل مونتي»؟",
       "choices": [
-        "لومباردي",
+        "بيدمونت",
         "بوليا",
-        "فينيتو",
-        "فريولي-فينيتسيا جوليا"
+        "ليغوريا",
+        "لاتسيو"
       ],
       "correctIndex": 1,
       "explanation": "يقع «كاستل ديل مونتي» في بوليا."
@@ -20122,8 +15920,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «ليتشي»؟",
       "choices": [
-        "ماركي",
-        "فريولي-فينيتسيا جوليا",
+        "فينيتو",
+        "وادي أوستا",
         "ليغوريا",
         "بوليا"
       ],
@@ -20136,12 +15934,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «فريدريك الثاني»؟",
       "choices": [
+        "توسكانا",
         "بوليا",
-        "كالابريا",
-        "موليزي",
-        "سردينيا"
+        "فينيتو",
+        "وادي أوستا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "تتعلق هذه الحقيقة بـ بوليا."
     },
     {
@@ -20150,7 +15948,7 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «التروللي»؟",
       "choices": [
-        "ليغوريا",
+        "إميليا-رومانيا",
         "أبروتسو",
         "بوليا",
         "صقلية"
@@ -20164,12 +15962,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «ميناء بريندزي»؟",
       "choices": [
-        "بوليا",
         "لومباردي",
-        "ليغوريا",
-        "باسيليكاتا"
+        "لاتسيو",
+        "بوليا",
+        "موليزي"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ بوليا."
     },
     {
@@ -20178,12 +15976,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الذئب»؟",
       "choices": [
-        "كامبانيا",
         "باسيليكاتا",
-        "بوليا",
-        "لومباردي"
+        "صقلية",
+        "لومباردي",
+        "سردينيا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«الذئب» جزء من حيوانات باسيليكاتا."
     },
     {
@@ -20192,9 +15990,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الأيل الأسمر (الرُّوبوك)»؟",
       "choices": [
-        "أومبريا",
         "موليزي",
         "سردينيا",
+        "صقلية",
         "باسيليكاتا"
       ],
       "correctIndex": 3,
@@ -20206,12 +16004,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «النسر الذهبي»؟",
       "choices": [
-        "باسيليكاتا",
-        "أومبريا",
-        "كامبانيا",
-        "لاتسيو"
+        "كالابريا",
+        "توسكانا",
+        "أبروتسو",
+        "باسيليكاتا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«النسر الذهبي» جزء من حيوانات باسيليكاتا."
     },
     {
@@ -20220,10 +16018,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «صنوبر البوسنة (المدرَّع)»؟",
       "choices": [
-        "موليزي",
-        "سردينيا",
+        "وادي أوستا",
+        "ليغوريا",
         "باسيليكاتا",
-        "صقلية"
+        "لومباردي"
       ],
       "correctIndex": 2,
       "explanation": "«صنوبر البوسنة (المدرَّع)» نبات مشهور في باسيليكاتا."
@@ -20234,12 +16032,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «فلفل سينيزي»؟",
       "choices": [
-        "توسكانا",
-        "ماركي",
         "باسيليكاتا",
-        "بيدمونت"
+        "سردينيا",
+        "فريولي-فينيتسيا جوليا",
+        "وادي أوستا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«فلفل سينيزي» نبات مشهور في باسيليكاتا."
     },
     {
@@ -20248,12 +16046,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «الزيتون»؟",
       "choices": [
-        "ترينتينو-ألتو أديجي",
-        "صقلية",
+        "إميليا-رومانيا",
         "باسيليكاتا",
-        "بيدمونت"
+        "فينيتو",
+        "لومباردي"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«الزيتون» نبات مشهور في باسيليكاتا."
     },
     {
@@ -20262,12 +16060,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «فلفل كروسكي»؟",
       "choices": [
+        "توسكانا",
+        "باسيليكاتا",
         "فريولي-فينيتسيا جوليا",
-        "ماركي",
-        "ليغوريا",
-        "باسيليكاتا"
+        "بوليا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«فلفل كروسكي» طبق مشهور في باسيليكاتا."
     },
     {
@@ -20277,11 +16075,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "هذا الطبق مشهور في أي منطقة: «خبز ماتيرا»؟",
       "choices": [
         "موليزي",
-        "كالابريا",
         "باسيليكاتا",
-        "وادي أوستا"
+        "بوليا",
+        "فريولي-فينيتسيا جوليا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«خبز ماتيرا» طبق مشهور في باسيليكاتا."
     },
     {
@@ -20291,11 +16089,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "هذا الطبق مشهور في أي منطقة: «لوكانيكا»؟",
       "choices": [
         "فريولي-فينيتسيا جوليا",
-        "ترينتينو-ألتو أديجي",
-        "كامبانيا",
-        "باسيليكاتا"
+        "باسيليكاتا",
+        "فينيتو",
+        "ماركي"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«لوكانيكا» طبق مشهور في باسيليكاتا."
     },
     {
@@ -20304,12 +16102,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «ساسّي ماتيرا»؟",
       "choices": [
-        "باسيليكاتا",
-        "وادي أوستا",
-        "كامبانيا",
-        "ترينتينو-ألتو أديجي"
+        "ماركي",
+        "فينيتو",
+        "ليغوريا",
+        "باسيليكاتا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "يقع «ساسّي ماتيرا» في باسيليكاتا."
     },
     {
@@ -20319,11 +16117,11 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "في أي منطقة يقع «منتزه بوليتو»؟",
       "choices": [
         "لومباردي",
+        "سردينيا",
         "باسيليكاتا",
-        "ماركي",
-        "أومبريا"
+        "فريولي-فينيتسيا جوليا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "يقع «منتزه بوليتو» في باسيليكاتا."
     },
     {
@@ -20332,12 +16130,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «ماراتيا»؟",
       "choices": [
+        "أومبريا",
         "باسيليكاتا",
-        "توسكانا",
-        "ماركي",
-        "كامبانيا"
+        "كامبانيا",
+        "وادي أوستا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "يقع «ماراتيا» في باسيليكاتا."
     },
     {
@@ -20346,12 +16144,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «الساسّي المأهولة»؟",
       "choices": [
-        "ماركي",
         "باسيليكاتا",
         "وادي أوستا",
-        "لاتسيو"
+        "أبروتسو",
+        "موليزي"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ باسيليكاتا."
     },
     {
@@ -20360,10 +16158,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «ميتابونتو»؟",
       "choices": [
-        "لومباردي",
-        "ترينتينو-ألتو أديجي",
+        "وادي أوستا",
+        "بيدمونت",
         "باسيليكاتا",
-        "كالابريا"
+        "فينيتو"
       ],
       "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ باسيليكاتا."
@@ -20374,12 +16172,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «قطّاع الطرق في القرن التاسع عشر»؟",
       "choices": [
-        "أبروتسو",
-        "وادي أوستا",
+        "فريولي-فينيتسيا جوليا",
+        "باسيليكاتا",
         "إميليا-رومانيا",
-        "باسيليكاتا"
+        "صقلية"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "تتعلق هذه الحقيقة بـ باسيليكاتا."
     },
     {
@@ -20388,12 +16186,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الذئب»؟",
       "choices": [
-        "بوليا",
         "ليغوريا",
-        "أبروتسو",
-        "كالابريا"
+        "سردينيا",
+        "كالابريا",
+        "ترينتينو-ألتو أديجي"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«الذئب» جزء من حيوانات كالابريا."
     },
     {
@@ -20402,12 +16200,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الأيل»؟",
       "choices": [
-        "موليزي",
-        "أومبريا",
         "كالابريا",
-        "فريولي-فينيتسيا جوليا"
+        "كامبانيا",
+        "موليزي",
+        "ماركي"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«الأيل» جزء من حيوانات كالابريا."
     },
     {
@@ -20416,12 +16214,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «السلحفاة البحرية»؟",
       "choices": [
+        "ترينتينو-ألتو أديجي",
+        "توسكانا",
         "كالابريا",
-        "لاتسيو",
-        "أومبريا",
-        "بيدمونت"
+        "فينيتو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«السلحفاة البحرية» جزء من حيوانات كالابريا."
     },
     {
@@ -20430,12 +16228,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «البرغموت»؟",
       "choices": [
-        "كالابريا",
-        "توسكانا",
+        "لاتسيو",
         "ليغوريا",
-        "فينيتو"
+        "كالابريا",
+        "بيدمونت"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«البرغموت» نبات مشهور في كالابريا."
     },
     {
@@ -20444,12 +16242,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «التين»؟",
       "choices": [
-        "فينيتو",
+        "ترينتينو-ألتو أديجي",
+        "كامبانيا",
         "كالابريا",
-        "بيدمونت",
-        "موليزي"
+        "سردينيا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«التين» نبات مشهور في كالابريا."
     },
     {
@@ -20458,12 +16256,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «صنوبر البوسنة (المدرَّع)»؟",
       "choices": [
-        "إميليا-رومانيا",
-        "موليزي",
+        "صقلية",
         "كالابريا",
-        "لومباردي"
+        "بوليا",
+        "أومبريا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«صنوبر البوسنة (المدرَّع)» نبات مشهور في كالابريا."
     },
     {
@@ -20472,12 +16270,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «إندويا»؟",
       "choices": [
+        "فريولي-فينيتسيا جوليا",
         "كالابريا",
-        "ليغوريا",
-        "فينيتو",
-        "فريولي-فينيتسيا جوليا"
+        "موليزي",
+        "ماركي"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "«إندويا» طبق مشهور في كالابريا."
     },
     {
@@ -20486,12 +16284,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «تارتوفو بيتسو»؟",
       "choices": [
-        "موليزي",
+        "كالابريا",
         "بيدمونت",
-        "توسكانا",
-        "كالابريا"
+        "ترينتينو-ألتو أديجي",
+        "ماركي"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«تارتوفو بيتسو» طبق مشهور في كالابريا."
     },
     {
@@ -20500,12 +16298,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «بصل تروبيا»؟",
       "choices": [
-        "ترينتينو-ألتو أديجي",
-        "لاتسيو",
-        "كالابريا",
-        "لومباردي"
+        "إميليا-رومانيا",
+        "ليغوريا",
+        "أبروتسو",
+        "كالابريا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«بصل تروبيا» طبق مشهور في كالابريا."
     },
     {
@@ -20514,12 +16312,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «تروبيا»؟",
       "choices": [
+        "كالابريا",
         "أومبريا",
-        "كامبانيا",
-        "ماركي",
-        "كالابريا"
+        "فريولي-فينيتسيا جوليا",
+        "بيدمونت"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "يقع «تروبيا» في كالابريا."
     },
     {
@@ -20528,12 +16326,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «برونزيات رياتشي»؟",
       "choices": [
-        "كالابريا",
         "صقلية",
-        "كامبانيا",
-        "فينيتو"
+        "باسيليكاتا",
+        "توسكانا",
+        "كالابريا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "يقع «برونزيات رياتشي» في كالابريا."
     },
     {
@@ -20542,12 +16340,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «سيلا»؟",
       "choices": [
-        "أومبريا",
-        "كالابريا",
-        "ماركي",
-        "موليزي"
+        "لاتسيو",
+        "سردينيا",
+        "فينيتو",
+        "كالابريا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "يقع «سيلا» في كالابريا."
     },
     {
@@ -20556,10 +16354,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «بلاد الإغريق الكبرى»؟",
       "choices": [
-        "فريولي-فينيتسيا جوليا",
-        "توسكانا",
+        "فينيتو",
+        "باسيليكاتا",
         "كالابريا",
-        "بوليا"
+        "أومبريا"
       ],
       "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ كالابريا."
@@ -20570,12 +16368,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «برونزيات رياتشي»؟",
       "choices": [
-        "باسيليكاتا",
-        "ترينتينو-ألتو أديجي",
-        "وادي أوستا",
-        "كالابريا"
+        "موليزي",
+        "كالابريا",
+        "بيدمونت",
+        "كامبانيا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "تتعلق هذه الحقيقة بـ كالابريا."
     },
     {
@@ -20584,12 +16382,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «مضيق ميسينا»؟",
       "choices": [
-        "إميليا-رومانيا",
-        "كالابريا",
-        "أبروتسو",
-        "كامبانيا"
+        "لومباردي",
+        "بوليا",
+        "كامبانيا",
+        "كالابريا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "تتعلق هذه الحقيقة بـ كالابريا."
     },
     {
@@ -20598,12 +16396,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الفلامنغو»؟",
       "choices": [
-        "أومبريا",
-        "لومباردي",
-        "صقلية",
-        "لاتسيو"
+        "ماركي",
+        "باسيليكاتا",
+        "كامبانيا",
+        "صقلية"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "«الفلامنغو» جزء من حيوانات صقلية."
     },
     {
@@ -20614,8 +16412,8 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "choices": [
         "صقلية",
         "ترينتينو-ألتو أديجي",
-        "بيدمونت",
-        "كامبانيا"
+        "فينيتو",
+        "بوليا"
       ],
       "correctIndex": 0,
       "explanation": "«النسر الأوراسي (الأشقر)» جزء من حيوانات صقلية."
@@ -20627,9 +16425,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "في أي منطقة يعيش هذا الحيوان: «السلحفاة البحرية»؟",
       "choices": [
         "صقلية",
-        "فينيتو",
-        "توسكانا",
-        "كامبانيا"
+        "سردينيا",
+        "وادي أوستا",
+        "إميليا-رومانيا"
       ],
       "correctIndex": 0,
       "explanation": "«السلحفاة البحرية» جزء من حيوانات صقلية."
@@ -20640,12 +16438,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «شجرة البرتقال»؟",
       "choices": [
-        "صقلية",
-        "أومبريا",
-        "لومباردي",
-        "فينيتو"
+        "باسيليكاتا",
+        "موليزي",
+        "بوليا",
+        "صقلية"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "«شجرة البرتقال» نبات مشهور في صقلية."
     },
     {
@@ -20654,12 +16452,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «التين الشوكي»؟",
       "choices": [
-        "لاتسيو",
-        "أومبريا",
-        "وادي أوستا",
-        "صقلية"
+        "باسيليكاتا",
+        "موليزي",
+        "صقلية",
+        "كالابريا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "«التين الشوكي» نبات مشهور في صقلية."
     },
     {
@@ -20668,12 +16466,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «البردي»؟",
       "choices": [
-        "إميليا-رومانيا",
-        "أبروتسو",
         "صقلية",
-        "وادي أوستا"
+        "فينيتو",
+        "بيدمونت",
+        "كامبانيا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "«البردي» نبات مشهور في صقلية."
     },
     {
@@ -20682,10 +16480,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «كانولو»؟",
       "choices": [
-        "كالابريا",
+        "إميليا-رومانيا",
         "صقلية",
-        "فينيتو",
-        "باسيليكاتا"
+        "فريولي-فينيتسيا جوليا",
+        "لومباردي"
       ],
       "correctIndex": 1,
       "explanation": "«كانولو» طبق مشهور في صقلية."
@@ -20696,10 +16494,10 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «أرانتشينا»؟",
       "choices": [
-        "فريولي-فينيتسيا جوليا",
         "لاتسيو",
+        "ليغوريا",
         "صقلية",
-        "كامبانيا"
+        "لومباردي"
       ],
       "correctIndex": 2,
       "explanation": "«أرانتشينا» طبق مشهور في صقلية."
@@ -20710,12 +16508,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «كاساتا»؟",
       "choices": [
-        "ليغوريا",
-        "أبروتسو",
+        "صقلية",
         "موليزي",
-        "صقلية"
+        "كالابريا",
+        "ترينتينو-ألتو أديجي"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "«كاساتا» طبق مشهور في صقلية."
     },
     {
@@ -20724,12 +16522,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «إتنا»؟",
       "choices": [
+        "أبروتسو",
         "أومبريا",
-        "صقلية",
-        "لومباردي",
-        "توسكانا"
+        "لاتسيو",
+        "صقلية"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "يقع «إتنا» في صقلية."
     },
     {
@@ -20738,12 +16536,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «وادي المعابد»؟",
       "choices": [
-        "باسيليكاتا",
-        "موليزي",
-        "ماركي",
-        "صقلية"
+        "كالابريا",
+        "صقلية",
+        "بوليا",
+        "لاتسيو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "يقع «وادي المعابد» في صقلية."
     },
     {
@@ -20752,12 +16550,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «تاورمينا»؟",
       "choices": [
-        "باسيليكاتا",
+        "صقلية",
         "ترينتينو-ألتو أديجي",
-        "لاتسيو",
-        "صقلية"
+        "ليغوريا",
+        "أبروتسو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "يقع «تاورمينا» في صقلية."
     },
     {
@@ -20766,12 +16564,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «بلاد الإغريق الكبرى»؟",
       "choices": [
-        "ماركي",
         "صقلية",
-        "باسيليكاتا",
+        "أومبريا",
+        "لومباردي",
         "ليغوريا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ صقلية."
     },
     {
@@ -20780,12 +16578,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «العرب في صقلية»؟",
       "choices": [
-        "أبروتسو",
-        "كالابريا",
-        "سردينيا",
-        "صقلية"
+        "صقلية",
+        "بيدمونت",
+        "ماركي",
+        "أبروتسو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ صقلية."
     },
     {
@@ -20794,12 +16592,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «النورمان في باليرمو»؟",
       "choices": [
-        "وادي أوستا",
         "صقلية",
+        "كالابريا",
         "سردينيا",
-        "موليزي"
+        "بوليا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ صقلية."
     },
     {
@@ -20808,12 +16606,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «المُفلون»؟",
       "choices": [
-        "فريولي-فينيتسيا جوليا",
+        "إميليا-رومانيا",
+        "أومبريا",
         "سردينيا",
-        "فينيتو",
-        "بوليا"
+        "فريولي-فينيتسيا جوليا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«المُفلون» جزء من حيوانات سردينيا."
     },
     {
@@ -20822,12 +16620,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «أيل سردينيا»؟",
       "choices": [
-        "ترينتينو-ألتو أديجي",
+        "أبروتسو",
+        "صقلية",
         "سردينيا",
-        "ليغوريا",
-        "بوليا"
+        "لومباردي"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "«أيل سردينيا» جزء من حيوانات سردينيا."
     },
     {
@@ -20836,12 +16634,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "fauna",
       "prompt": "في أي منطقة يعيش هذا الحيوان: «الفلامنغو»؟",
       "choices": [
-        "وادي أوستا",
-        "باسيليكاتا",
+        "فريولي-فينيتسيا جوليا",
         "سردينيا",
-        "لومباردي"
+        "وادي أوستا",
+        "لاتسيو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«الفلامنغو» جزء من حيوانات سردينيا."
     },
     {
@@ -20850,12 +16648,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «القطلب (شجرة الفراولة)»؟",
       "choices": [
+        "كالابريا",
+        "أبروتسو",
         "سردينيا",
-        "ترينتينو-ألتو أديجي",
-        "أومبريا",
-        "لومباردي"
+        "لاتسيو"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "«القطلب (شجرة الفراولة)» نبات مشهور في سردينيا."
     },
     {
@@ -20864,12 +16662,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "flora",
       "prompt": "في أي منطقة ينمو هذا النبات: «البلوط الفليني»؟",
       "choices": [
-        "صقلية",
-        "كالابريا",
+        "وادي أوستا",
         "سردينيا",
-        "بيدمونت"
+        "فينيتو",
+        "صقلية"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«البلوط الفليني» نبات مشهور في سردينيا."
     },
     {
@@ -20879,9 +16677,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "في أي منطقة ينمو هذا النبات: «الآس»؟",
       "choices": [
         "سردينيا",
-        "أبروتسو",
-        "ترينتينو-ألتو أديجي",
-        "كامبانيا"
+        "صقلية",
+        "إميليا-رومانيا",
+        "بيدمونت"
       ],
       "correctIndex": 0,
       "explanation": "«الآس» نبات مشهور في سردينيا."
@@ -20892,12 +16690,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «كولورجونيس»؟",
       "choices": [
-        "لاتسيو",
-        "بوليا",
+        "أومبريا",
         "سردينيا",
-        "كالابريا"
+        "فينيتو",
+        "كامبانيا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "«كولورجونيس» طبق مشهور في سردينيا."
     },
     {
@@ -20906,12 +16704,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «بانيه كاراساو»؟",
       "choices": [
-        "ماركي",
         "سردينيا",
-        "توسكانا",
-        "صقلية"
+        "موليزي",
+        "باسيليكاتا",
+        "وادي أوستا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "«بانيه كاراساو» طبق مشهور في سردينيا."
     },
     {
@@ -20920,12 +16718,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "food",
       "prompt": "هذا الطبق مشهور في أي منطقة: «سيادَس»؟",
       "choices": [
-        "بوليا",
-        "ماركي",
-        "كالابريا",
-        "سردينيا"
+        "توسكانا",
+        "سردينيا",
+        "ترينتينو-ألتو أديجي",
+        "فينيتو"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "«سيادَس» طبق مشهور في سردينيا."
     },
     {
@@ -20934,12 +16732,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «نوراغي سانتو أنتين»؟",
       "choices": [
-        "فريولي-فينيتسيا جوليا",
-        "كامبانيا",
+        "أومبريا",
         "سردينيا",
-        "ماركي"
+        "بيدمونت",
+        "باسيليكاتا"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "يقع «نوراغي سانتو أنتين» في سردينيا."
     },
     {
@@ -20948,12 +16746,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «الساحل الزمردي»؟",
       "choices": [
-        "أومبريا",
-        "ليغوريا",
+        "وادي أوستا",
         "سردينيا",
-        "ترينتينو-ألتو أديجي"
+        "كالابريا",
+        "لاتسيو"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "يقع «الساحل الزمردي» في سردينيا."
     },
     {
@@ -20962,12 +16760,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "tourism",
       "prompt": "في أي منطقة يقع «كالياري»؟",
       "choices": [
+        "سردينيا",
+        "بيدمونت",
         "أومبريا",
-        "ترينتينو-ألتو أديجي",
-        "ليغوريا",
-        "سردينيا"
+        "إميليا-رومانيا"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "يقع «كالياري» في سردينيا."
     },
     {
@@ -20976,12 +16774,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «الحضارة النورَاغية»؟",
       "choices": [
-        "فريولي-فينيتسيا جوليا",
-        "سردينيا",
+        "لاتسيو",
         "لومباردي",
-        "موليزي"
+        "سردينيا",
+        "وادي أوستا"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ سردينيا."
     },
     {
@@ -20991,9 +16789,9 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «سو نوراكسي»؟",
       "choices": [
         "سردينيا",
-        "موليزي",
-        "صقلية",
-        "لومباردي"
+        "باسيليكاتا",
+        "فينيتو",
+        "فريولي-فينيتسيا جوليا"
       ],
       "correctIndex": 0,
       "explanation": "تتعلق هذه الحقيقة بـ سردينيا."
@@ -21004,12 +16802,12 @@ export const TRIVIA_QUESTIONS_ITALY: Partial<Record<Locale, TriviaQuestion[]>> =
       "category": "history",
       "prompt": "إلى أي منطقة تنتمي هذه الحقيقة التاريخية: «الجوديكاتات»؟",
       "choices": [
+        "كامبانيا",
+        "بيدمونت",
         "سردينيا",
-        "توسكانا",
-        "إميليا-رومانيا",
-        "وادي أوستا"
+        "بوليا"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "تتعلق هذه الحقيقة بـ سردينيا."
     }
   ]

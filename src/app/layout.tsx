@@ -1,29 +1,42 @@
-﻿import type { Metadata, Viewport } from "next";
-import { Cairo, Fredoka, Nunito } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import localFont from "next/font/local";
 
 import { LanguageSelector } from "@/components/layout/LanguageSelector";
 import { LocaleProvider } from "@/lib/i18n/locale";
 
 import "./globals.css";
 
-const nunito = Nunito({
+/**
+ * Fuentes servidas desde el repo (src/app/fonts, archivos variables de Google Fonts, licencia OFL).
+ * No se usa next/font/google porque Google empezó a devolver URLs que Next 15 no sabe leer
+ * y rompía el build ("next/font/google queries have exactly one entry").
+ */
+const nunito = localFont({
   variable: "--font-nunito",
-  subsets: ["latin", "cyrillic"],
-  weight: ["500", "600", "700", "800"],
+  src: [{ path: "./fonts/nunito-latin.woff2", weight: "500 800", style: "normal" }],
   display: "swap",
 });
 
-const fredoka = Fredoka({
+const fredoka = localFont({
   variable: "--font-fredoka",
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  src: [{ path: "./fonts/fredoka-latin.woff2", weight: "500 700", style: "normal" }],
   display: "swap",
 });
 
-const cairo = Cairo({
+const cairo = localFont({
   variable: "--font-cairo",
-  subsets: ["arabic"],
-  weight: ["500", "600", "700", "800"],
+  src: [{ path: "./fonts/cairo-arabic.woff2", weight: "500 800", style: "normal" }],
+  display: "swap",
+  preload: false,
+});
+
+/** Tipografía del logo "Tra Zagare e Merendine". */
+const brandSerif = localFont({
+  variable: "--font-brand-serif",
+  src: [
+    { path: "./fonts/source-serif-4-latin.woff2", weight: "600 800", style: "normal" },
+    { path: "./fonts/source-serif-4-latin-italic.woff2", weight: "600 800", style: "italic" },
+  ],
   display: "swap",
 });
 
@@ -34,22 +47,23 @@ const siteUrl = `${siteUrlRaw.replace(/\/$/, "")}/`;
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Mapa Jugar â€” ExplorÃ¡ Argentina, Italia y Sicilia",
-    template: "%s | Mapa Jugar",
+    default: "Tra Zagare e Merendine – Guida digitale plurilingue",
+    template: "%s | Tra Zagare e Merendine",
   },
   description:
-    "Mapas interactivos para explorar Argentina, Italia y las provincias de Sicilia: naturaleza, cultura y turismo. Pensado para chicas, chicos y aulas.",
-  applicationName: "Mapa Jugar",
-  alternates: { canonical: "/" },
+    "Guida digitale plurilingue ai luoghi di Giarre, Paternò e dell'Etna: sport, arte e benessere. CPIA Catania 2 – EPALE Edu Hack 2026.",
+  applicationName: "Tra Zagare e Merendine",
   openGraph: {
     type: "website",
-    locale: "es_AR",
-    url: "/",
-    siteName: "Mapa Jugar",
-    title: "Mapa Jugar â€” ExplorÃ¡ Argentina, Italia y Sicilia",
+    locale: "it_IT",
+    siteName: "Tra Zagare e Merendine",
+    title: "Tra Zagare e Merendine – Un viaggio mediterraneo tra luoghi, lingue e benessere",
     description:
-      "DescubrÃ­ Argentina, Italia y Sicilia jugando con el mapa: flora, fauna, sabores y destinos.",
+      "Guida digitale plurilingue ai luoghi di Giarre, Paternò e dell'Etna: sport, arte e benessere. CPIA Catania 2 – EPALE Edu Hack 2026.",
+    // Logo para la vista previa al compartir (WhatsApp, Facebook…). Ruta relativa a metadataBase (incluye /CPIA/).
+    images: [{ url: "guida/brand/og.jpg", width: 1200, height: 630, alt: "Tra Zagare e Merendine" }],
   },
+  twitter: { card: "summary_large_image", images: ["guida/brand/og.jpg"] },
 };
 
 export const viewport: Viewport = {
@@ -70,7 +84,7 @@ export default function RootLayout({
     <html lang="es-AR" suppressHydrationWarning>
       <body
         suppressHydrationWarning
-        className={`${nunito.variable} ${fredoka.variable} ${cairo.variable} font-sans antialiased`}
+        className={`${nunito.variable} ${fredoka.variable} ${cairo.variable} ${brandSerif.variable} font-sans antialiased`}
       >
         <LocaleProvider>
           {children}

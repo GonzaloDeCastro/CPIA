@@ -6,9 +6,9 @@ import type { Locale } from "@/lib/i18n/locale";
 
 import { CATANIA_DETAILS_TR } from "./catania-details.i18n";
 
-/** es/en/it siempre existen; ru/ar se completan desde catania-details.i18n.ts. */
+/** es/en/it siempre existen; ar se completa desde catania-details.i18n.ts (ru quedó sin usarse; fr cae al inglés). */
 export type L10n = Record<"es" | "en" | "it", string> &
-  Partial<Record<"ru" | "ar", string>>;
+  Partial<Record<"ru" | "fr" | "ar", string>>;
 
 /** Texto en el idioma pedido; si falta, cae al inglés. */
 export function tx(text: L10n, locale: Locale): string {

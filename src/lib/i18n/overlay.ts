@@ -61,7 +61,7 @@ export function localizeZone(
   spotlight: string,
   translations: Partial<Record<Locale, DatasetTr>>,
 ): LocalizedZone {
-  const locales: Locale[] = ["es", "en", "it", "ru", "ar"];
+  const locales: Locale[] = ["es", "en", "it", "fr", "ar"];
   const outContent = {} as Record<Locale, ExploreContent>;
   const outSpot = {} as Record<Locale, string>;
   for (const locale of locales) {

@@ -69,6 +69,16 @@
   --font-sans: var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-fredoka), var(--font-nunito), ui-sans-serif,
     system-ui, sans-serif;
+  --font-brand: var(--font-brand-serif), Georgia, "Times New Roman", serif;
+}
+
+/* Filas que se deslizan de costado en el celular, sin barra visible. */
+.no-scrollbar {
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -12,7 +12,7 @@ export const GUIDA_ROUTES: GuidaRoute[] = [
       it: "Percorso di Paternò",
       es: "Recorrido de Paternò",
       en: "Paternò route",
-      ru: "Маршрут по Патерно",
+      fr: "Parcours de Paternò",
       ar: "مسار باتيرنو",
     },
     placeIds: ["G-001", "G-002"],
@@ -23,7 +23,7 @@ export const GUIDA_ROUTES: GuidaRoute[] = [
       it: "Percorso di Giarre",
       es: "Recorrido de Giarre",
       en: "Giarre route",
-      ru: "Маршрут по Джарре",
+      fr: "Parcours de Giarre",
       ar: "مسار جاري",
     },
     placeIds: ["G-003", "G-004"],
@@ -34,7 +34,7 @@ export const GUIDA_ROUTES: GuidaRoute[] = [
       it: "Percorso dell'Etna",
       es: "Recorrido del Etna",
       en: "Etna route",
-      ru: "Маршрут по Этне",
+      fr: "Parcours de l'Etna",
       ar: "مسار إتنا",
     },
     placeIds: ["G-005", "G-006"],
@@ -49,6 +49,7 @@ export type ExtrasCopy = {
   projectLink: string;
   phrasesTitle: string;
   phrasesHint: string;
+  gallery: { title: string; hint: string; close: string; prev: string; next: string };
 };
 
 export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
@@ -60,6 +61,13 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     projectLink: "Il progetto",
     phrasesTitle: "Frasi utili",
     phrasesHint: "Tocca ▶ per sentire la frase in italiano.",
+    gallery: {
+      title: "Benessere a Catania",
+      hint: "Alberi, boschi, agrumi e l'Etna: luoghi per stare bene all'aria aperta. Tocca una foto per ingrandirla.",
+      close: "Chiudi",
+      prev: "Foto precedente",
+      next: "Foto successiva",
+    },
   },
   es: {
     routes: "Recorridos",
@@ -69,6 +77,13 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     projectLink: "El proyecto",
     phrasesTitle: "Frases útiles",
     phrasesHint: "Tocá ▶ para escuchar la frase en italiano.",
+    gallery: {
+      title: "Bienestar en Catania",
+      hint: "Árboles, bosques, cítricos y el Etna: lugares para sentirse bien al aire libre. Tocá una foto para agrandarla.",
+      close: "Cerrar",
+      prev: "Foto anterior",
+      next: "Foto siguiente",
+    },
   },
   en: {
     routes: "Routes",
@@ -78,15 +93,29 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     projectLink: "The project",
     phrasesTitle: "Useful phrases",
     phrasesHint: "Tap ▶ to hear the phrase in Italian.",
+    gallery: {
+      title: "Wellbeing in Catania",
+      hint: "Trees, woods, citrus groves and Etna: places to feel good outdoors. Tap a photo to enlarge it.",
+      close: "Close",
+      prev: "Previous photo",
+      next: "Next photo",
+    },
   },
-  ru: {
-    routes: "Маршруты",
-    allRoutes: "Все места",
-    directions: "Как добраться",
-    a11y: { label: "Доступность", bigText: "Крупный текст", contrast: "Высокий контраст" },
-    projectLink: "О проекте",
-    phrasesTitle: "Полезные фразы",
-    phrasesHint: "Нажмите ▶, чтобы услышать фразу по-итальянски.",
+  fr: {
+    routes: "Parcours",
+    allRoutes: "Tous les lieux",
+    directions: "Comment y aller",
+    a11y: { label: "Accessibilité", bigText: "Grand texte", contrast: "Contraste élevé" },
+    projectLink: "Le projet",
+    phrasesTitle: "Phrases utiles",
+    phrasesHint: "Touchez ▶ pour écouter la phrase en italien.",
+    gallery: {
+      title: "Bien-être à Catane",
+      hint: "Arbres, forêts, agrumes et l'Etna : des lieux pour se sentir bien en plein air. Touchez une photo pour l'agrandir.",
+      close: "Fermer",
+      prev: "Photo précédente",
+      next: "Photo suivante",
+    },
   },
   ar: {
     routes: "المسارات",
@@ -96,6 +125,13 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     projectLink: "عن المشروع",
     phrasesTitle: "عبارات مفيدة",
     phrasesHint: "اضغط ▶ لسماع العبارة بالإيطالية.",
+    gallery: {
+      title: "العافية في كاتانيا",
+      hint: "أشجار وغابات وحمضيات وجبل إتنا: أماكن للشعور بالراحة في الهواء الطلق. اضغط على صورة لتكبيرها.",
+      close: "إغلاق",
+      prev: "الصورة السابقة",
+      next: "الصورة التالية",
+    },
   },
 };
 
@@ -104,11 +140,11 @@ export type Phrase = { it: string; tr: Tr };
 export const PHRASES: Phrase[] = [
   {
     it: "Buongiorno!",
-    tr: { it: "Buongiorno!", es: "¡Buen día!", en: "Good morning!", ru: "Доброе утро!", ar: "صباح الخير!" },
+    tr: { it: "Buongiorno!", es: "¡Buen día!", en: "Good morning!", fr: "Bonjour !", ar: "صباح الخير!" },
   },
   {
     it: "Grazie mille!",
-    tr: { it: "Grazie mille!", es: "¡Muchas gracias!", en: "Thank you very much!", ru: "Большое спасибо!", ar: "شكرًا جزيلًا!" },
+    tr: { it: "Grazie mille!", es: "¡Muchas gracias!", en: "Thank you very much!", fr: "Merci beaucoup !", ar: "شكرًا جزيلًا!" },
   },
   {
     it: "Dove si trova questo posto?",
@@ -116,13 +152,13 @@ export const PHRASES: Phrase[] = [
       it: "Dove si trova questo posto?",
       es: "¿Dónde queda este lugar?",
       en: "Where is this place?",
-      ru: "Где находится это место?",
+      fr: "Où se trouve ce lieu ?",
       ar: "أين يقع هذا المكان؟",
     },
   },
   {
     it: "Quanto costa?",
-    tr: { it: "Quanto costa?", es: "¿Cuánto cuesta?", en: "How much does it cost?", ru: "Сколько это стоит?", ar: "كم السعر؟" },
+    tr: { it: "Quanto costa?", es: "¿Cuánto cuesta?", en: "How much does it cost?", fr: "Combien ça coûte ?", ar: "كم السعر؟" },
   },
   {
     it: "Può parlare più lentamente, per favore?",
@@ -130,13 +166,13 @@ export const PHRASES: Phrase[] = [
       it: "Può parlare più lentamente, per favore?",
       es: "¿Puede hablar más despacio, por favor?",
       en: "Could you speak more slowly, please?",
-      ru: "Можете говорить помедленнее, пожалуйста?",
+      fr: "Vous pouvez parler plus lentement, s'il vous plaît ?",
       ar: "هل يمكنك التحدث ببطء أكثر من فضلك؟",
     },
   },
   {
     it: "Ho bisogno di aiuto.",
-    tr: { it: "Ho bisogno di aiuto.", es: "Necesito ayuda.", en: "I need help.", ru: "Мне нужна помощь.", ar: "أحتاج إلى مساعدة." },
+    tr: { it: "Ho bisogno di aiuto.", es: "Necesito ayuda.", en: "I need help.", fr: "J'ai besoin d'aide.", ar: "أحتاج إلى مساعدة." },
   },
 ];
 
@@ -233,30 +269,30 @@ export const PROJECT_COPY: Record<Locale, ProjectCopy> = {
     qrText: "Scan the code with your phone to open the guide.",
     credit: "CPIA Catania 2 – Giarre and Paternò · EPALE Edu Hack 2026",
   },
-  ru: {
-    title: "Между цветами апельсина и перекусами",
-    lead: "Многоязычный цифровой путеводитель по местам Джарре, Патерно и Этны, созданный студентами CPIA Catania 2 для тех, кто только приехал и ещё плохо говорит по-итальянски. Три темы: спорт, искусство и здоровье.",
-    back: "Назад к карте",
-    flowTitle: "Как мы работаем: ИИ + люди",
+  fr: {
+    title: "Entre fleurs d'oranger et goûters",
+    lead: "Un guide numérique multilingue des lieux de Giarre, Paternò et de l'Etna, réalisé par les élèves du CPIA Catania 2 pour les personnes qui viennent d'arriver et parlent encore peu l'italien. Trois thèmes : sport, art et bien-être.",
+    back: "Retour à la carte",
+    flowTitle: "Comment nous travaillons : IA + personnes",
     flow: [
-      { step: "1. На месте", text: "Студенты посещают места, фотографируют и берут интервью у местных представителей." },
-      { step: "2. Искусственный интеллект", text: "ИИ расшифровывает записи, упрощает текст до лёгкого итальянского (A2) и готовит черновики на других языках." },
-      { step: "3. Проверка людьми", text: "Преподаватели проверяют итальянский. Студенты — носители языка и медиаторы проверяют переводы и аудио." },
-      { step: "4. Публикация", text: "В путеводителе появляются только карточки со статусом «Одобрено»." },
+      { step: "1. Sur le terrain", text: "Les élèves visitent les lieux, prennent des photos et interviewent les personnes de référence." },
+      { step: "2. Intelligence artificielle", text: "L'IA transcrit, simplifie le texte en italien facile (A2) et prépare des brouillons dans les autres langues." },
+      { step: "3. Relecture humaine", text: "Les enseignants valident l'italien. Des élèves de langue maternelle et des médiateurs vérifient les traductions et les audios." },
+      { step: "4. Publication", text: "Seules les fiches marquées « Approuvé » apparaissent dans le guide." },
     ],
-    rule: "Золотое правило: ИИ помогает, но последнее слово всегда за человеком.",
-    criteriaTitle: "Почему этот проект",
+    rule: "Règle d'or : l'IA aide, mais c'est toujours une personne qui a le dernier mot.",
+    criteriaTitle: "Pourquoi ce projet",
     criteria: [
-      { name: "Принадлежность", text: "Материалы рождаются из голосов и мест сообщества: студенты — авторы, а не зрители." },
-      { name: "Креативность", text: "Путеводитель на многих языках с голосом, картой и маршрутами и названием, которое рассказывает о средиземноморской встрече." },
-      { name: "Влияние", text: "Помогает новоприбывшим находить места для здоровья, спорта и знакомства с искусством без языковых барьеров." },
-      { name: "Устойчивость", text: "Бесплатные открытые инструменты, никаких платных серверов, новые места добавляются из простой таблицы: проект можно продолжать и после хакатона." },
+      { name: "Appartenance", text: "Les contenus naissent des voix et des lieux de la communauté : les élèves sont auteurs, pas spectateurs." },
+      { name: "Créativité", text: "Un guide qui parle plusieurs langues, avec voix, carte et parcours, et un titre qui raconte la rencontre méditerranéenne." },
+      { name: "Impact", text: "Il aide les nouveaux arrivants à trouver des lieux pour se sentir bien, faire du sport et découvrir l'art, sans barrières de langue." },
+      { name: "Durabilité", text: "Des outils gratuits et ouverts, aucun serveur à payer, et de nouveaux lieux ajoutés depuis un simple tableau : le projet peut continuer après le hackathon." },
     ],
-    toolsTitle: "Инструменты",
-    tools: "Статический сайт на GitHub Pages, карта OpenStreetMap, голос устройства для аудио, высокий контраст и крупный текст для доступности.",
-    qrTitle: "Поделиться путеводителем",
-    qrText: "Наведите камеру телефона на код, чтобы открыть путеводитель.",
-    credit: "CPIA Catania 2 – Джарре и Патерно · EPALE Edu Hack 2026",
+    toolsTitle: "Outils",
+    tools: "Site statique sur GitHub Pages, carte OpenStreetMap, voix de l'appareil pour l'audio, contraste élevé et grand texte pour l'accessibilité.",
+    qrTitle: "Partager le guide",
+    qrText: "Scannez le code avec votre téléphone pour ouvrir le guide.",
+    credit: "CPIA Catania 2 – Giarre et Paternò · EPALE Edu Hack 2026",
   },
   ar: {
     title: "بين زهر البرتقال والوجبات الخفيفة",

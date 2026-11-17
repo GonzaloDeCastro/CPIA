@@ -10,7 +10,9 @@ import { createHash } from "node:crypto";
 import { resolveArgentinaZones } from "./lib/argentina-content.mjs";
 import { loadTsNamedExport } from "./lib/load-ts-export.mjs";
 
-const LOCALES = ["es", "en", "it", "ru", "ar"];
+const ALL_LOCALES = ["es", "en", "it", "fr", "ar"];
+// Solo los idiomas con traducción de fichas (si falta, la trivia cae al inglés en vez de mezclar idiomas).
+const LOCALES = ALL_LOCALES.filter((l) => l === "es" || existsSync(`src/data/i18n/argentina.${l}.json`));
 const SOURCE = "es";
 
 const D = "src/data/provinces/content/";
@@ -89,56 +91,56 @@ const T = {
     es: (n) => `¿En qué provincia vive el ${n}?`,
     en: (n) => `In which province does this animal live: “${n}”?`,
     it: (n) => `In quale provincia vive questo animale: «${n}»?`,
-    ru: (n) => `В какой провинции обитает это животное: «${n}»?`,
+    fr: (n) => `Dans quelle province vit cet animal : « ${n} » ?`,
     ar: (n) => `في أي مقاطعة يعيش هذا الحيوان: «${n}»؟`,
   },
   faunaProvExp: {
     es: (n, z) => `El ${n} es parte de la fauna de ${z}.`,
     en: (n, z) => `“${n}” is part of the wildlife of ${z}.`,
     it: (n, z) => `«${n}» fa parte della fauna di ${z}.`,
-    ru: (n, z) => `«${n}» — часть фауны: ${z}.`,
+    fr: (n, z) => `« ${n} » fait partie de la faune de ${z}.`,
     ar: (n, z) => `«${n}» جزء من حيوانات ${z}.`,
   },
   floraProv: {
     es: (n) => `¿En qué provincia crece el ${n}?`,
     en: (n) => `In which province does this plant grow: “${n}”?`,
     it: (n) => `In quale provincia cresce questa pianta: «${n}»?`,
-    ru: (n) => `В какой провинции растёт это растение: «${n}»?`,
+    fr: (n) => `Dans quelle province pousse cette plante : « ${n} » ?`,
     ar: (n) => `في أي مقاطعة ينمو هذا النبات: «${n}»؟`,
   },
   floraProvExp: {
     es: (n, z) => `El ${n} es flora representativa de ${z}.`,
     en: (n, z) => `“${n}” is a typical plant of ${z}.`,
     it: (n, z) => `«${n}» è una pianta tipica di ${z}.`,
-    ru: (n, z) => `«${n}» — типичное растение: ${z}.`,
+    fr: (n, z) => `« ${n} » est une plante typique de ${z}.`,
     ar: (n, z) => `«${n}» نبات مشهور في ${z}.`,
   },
   faunaWhich: {
     es: (z) => `¿Cuál de estos animales es de ${z}?`,
     en: (z) => `Which of these animals is from ${z}?`,
     it: (z) => `Quale di questi animali è di ${z}?`,
-    ru: (z) => `Какое из этих животных обитает в провинции ${z}?`,
+    fr: (z) => `Lequel de ces animaux vit dans la province de ${z} ?`,
     ar: (z) => `أيّ هذه الحيوانات يعيش في ${z}؟`,
   },
   foodProv: {
     es: (n) => `¿En qué provincia es típico el plato "${n}"?`,
     en: (n) => `Which province is the dish “${n}” typical of?`,
     it: (n) => `Di quale provincia è tipico il piatto «${n}»?`,
-    ru: (n) => `Для какой провинции типично блюдо «${n}»?`,
+    fr: (n) => `De quelle province ce plat est-il typique : « ${n} » ?`,
     ar: (n) => `طبق «${n}» مشهور في أي مقاطعة؟`,
   },
   tourismProv: {
     es: (n) => `¿En qué provincia está ${n}?`,
     en: (n) => `In which province is ${n}?`,
     it: (n) => `In quale provincia si trova ${n}?`,
-    ru: (n) => `В какой провинции находится «${n}»?`,
+    fr: (n) => `Dans quelle province se trouve « ${n} » ?`,
     ar: (n) => `في أي مقاطعة يقع «${n}»؟`,
   },
   historyProv: {
     es: (s) => `¿A qué provincia corresponde este hecho histórico: "${s}"?`,
     en: (s) => `Which province does this historical fact belong to: “${s}”?`,
     it: (s) => `A quale provincia appartiene questo fatto storico: «${s}»?`,
-    ru: (s) => `К какой провинции относится этот исторический факт: «${s}»?`,
+    fr: (s) => `À quelle province appartient ce fait historique : « ${s} » ?`,
     ar: (s) => `إلى أي مقاطعة تنتمي هذه الحقيقة التاريخية: «${s}»؟`,
   },
 };

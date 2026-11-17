@@ -5,6 +5,7 @@ import QRCode from "qrcode";
 import { useEffect, useState } from "react";
 
 import { PROJECT_COPY } from "@/lib/guida/extras";
+import { withBasePath } from "@/lib/routing/base-path";
 import { useLocale } from "@/lib/i18n/locale";
 
 export function ProgettoView() {
@@ -25,7 +26,15 @@ export function ProgettoView() {
       <Link href="/guida" className="inline-flex min-h-11 items-center text-sm font-bold text-heading underline">
         ← {c.back}
       </Link>
-      <h1 className="mt-2 font-display text-3xl font-extrabold text-heading sm:text-4xl">{c.title}</h1>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={withBasePath("/guida/brand/logo.webp")}
+        alt="Tra Zagare e Merendine – Un viaggio mediterraneo tra luoghi, lingue e benessere"
+        width={1200}
+        height={641}
+        className="mt-3 w-full rounded-2xl border border-[#0f4c6e]/20 bg-[#fffdf6] shadow-[var(--shadow-card)]"
+      />
+      <h1 className="mt-6 font-display text-3xl font-extrabold text-heading sm:text-4xl">{c.title}</h1>
       <p className="mt-3 text-lg leading-relaxed text-foreground">{c.lead}</p>
 
       <h2 className="mt-8 font-display text-2xl font-extrabold text-heading">{c.flowTitle}</h2>

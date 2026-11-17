@@ -135,45 +135,39 @@ export const TRIVIA_COPY_EN: TriviaCopy = {
 };
 
 
-function ruPlural(n: number, one: string, few: string, many: string): string {
-  const m10 = n % 10;
-  const m100 = n % 100;
-  if (m10 === 1 && m100 !== 11) return one;
-  if (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) return few;
-  return many;
-}
+const frPoints = (n: number) => `${n} ${n === 1 ? "point" : "points"}`;
 
-export const TRIVIA_COPY_RU: TriviaCopy = {
-  title: "Викторина по регионам",
-  subtitle: "Случайные вопросы о растениях, животных, еде, местах и истории.",
-  lobbyTitle: "Кто играет?",
-  lobbyHint: "От 1 до 4 игроков за одним экраном. В каждом ходе новый вопрос.",
-  playerCount: "Количество игроков",
-  playerLabel: (n) => `Игрок ${n}`,
-  playerPlaceholder: (n) => `Имя игрока ${n}`,
-  questionsPerPlayer: "Вопросов на игрока",
-  questionsOption: (n) => `${n} ${ruPlural(n, "вопрос", "вопроса", "вопросов")}`,
-  errorNames: "Напиши имя каждого игрока.",
-  errorDuplicates: "Имена должны быть разными.",
-  start: "Начать викторину!",
-  handoff: (name) => `Ход игрока ${name}!`,
-  turn: (n, total) => `Ход ${n} из ${total}`,
-  time: (s) => `Время: ${s} с`,
-  turnOf: (name) => `Ход игрока ${name}`,
-  correct: (s) => `Верно! +1 очко (${s} с)`,
-  wrong: "Почти! Правильный ответ:",
-  scores: "Очки",
-  points: (n) => `${n} ${ruPlural(n, "очко", "очка", "очков")}`,
-  tie: "Ничья! Победители",
-  winner: "Победитель!",
-  prize: (label) => `Приз: ${label}. Скачай свой сертификат с иллюстрацией.`,
-  download: (name) => `Скачать карточку: ${name}`,
-  playAgain: "Играть снова",
-  back: "Вернуться к карте",
+export const TRIVIA_COPY_FR: TriviaCopy = {
+  title: "Quiz des régions",
+  subtitle: "Des questions au hasard sur les plantes, les animaux, la cuisine, les lieux et l'histoire.",
+  lobbyTitle: "Qui joue ?",
+  lobbyHint: "De 1 à 4 joueurs sur le même écran. À chaque tour, une nouvelle question.",
+  playerCount: "Nombre de joueurs",
+  playerLabel: (n) => `Joueur ${n}`,
+  playerPlaceholder: (n) => `Nom du joueur ${n}`,
+  questionsPerPlayer: "Questions par joueur",
+  questionsOption: (n) => `${n} ${n === 1 ? "question" : "questions"}`,
+  errorNames: "Écris le nom de chaque joueur.",
+  errorDuplicates: "Les noms doivent être différents.",
+  start: "Commencer le quiz !",
+  handoff: (name) => `C'est au tour de ${name} !`,
+  turn: (n, total) => `Tour ${n} sur ${total}`,
+  time: (s) => `Temps : ${s} s`,
+  turnOf: (name) => `Tour de ${name}`,
+  correct: (s) => `Bonne réponse ! +1 point (${s} s)`,
+  wrong: "Presque ! La bonne réponse était :",
+  scores: "Points",
+  points: frPoints,
+  tie: "Égalité ! Les gagnants",
+  winner: "Le gagnant !",
+  prize: (label) => `Prix : ${label}. Télécharge ton diplôme avec l'illustration.`,
+  download: (name) => `Télécharger la fiche de ${name}`,
+  playAgain: "Rejouer",
+  back: "Retour à la carte",
   certificate: {
-    headline: "Ты победил!",
-    points: (n) => `${n} ${ruPlural(n, "очко", "очка", "очков")} в Mapa Jugar`,
-    footer: "Исследуй мир с Mapa Jugar",
+    headline: "Tu as gagné !",
+    points: (n) => `${frPoints(n)} sur Mapa Jugar`,
+    footer: "Explore le monde avec Mapa Jugar",
   },
 };
 
@@ -211,10 +205,10 @@ export const TRIVIA_COPY_AR: TriviaCopy = {
   },
 };
 
-export const TRIVIA_COPY: Record<"es" | "en" | "it" | "ru" | "ar", TriviaCopy> = {
+export const TRIVIA_COPY: Record<"es" | "en" | "it" | "fr" | "ar", TriviaCopy> = {
   es: TRIVIA_COPY_ES,
   en: TRIVIA_COPY_EN,
   it: TRIVIA_COPY_IT,
-  ru: TRIVIA_COPY_RU,
+  fr: TRIVIA_COPY_FR,
   ar: TRIVIA_COPY_AR,
 };
