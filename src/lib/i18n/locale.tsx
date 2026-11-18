@@ -20,6 +20,7 @@ export const LOCALES: { id: Locale; label: string; flag: string; name: string }[
   { id: "it", label: "IT", flag: "🇮🇹", name: "Italiano" },
   { id: "fr", label: "FR", flag: "🇫🇷", name: "Français" },
   { id: "ar", label: "AR", flag: "🇸🇦", name: "العربية" },
+  { id: "ro", label: "RO", flag: "🇷🇴", name: "Română" },
 ];
 
 const STORAGE_KEY = "mapajugar-locale";
