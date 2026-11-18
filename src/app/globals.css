@@ -66,10 +66,10 @@
   --color-terracotta: var(--terracotta);
   --color-celeste: var(--celeste);
   --color-earth: var(--earth);
-  --font-sans: var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-fredoka), var(--font-nunito), ui-sans-serif,
+  --font-sans: var(--font-nunito), var(--font-nunito-ext), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fredoka), var(--font-fredoka-ext), var(--font-nunito), var(--font-nunito-ext), ui-sans-serif,
     system-ui, sans-serif;
-  --font-brand: var(--font-brand-serif), Georgia, "Times New Roman", serif;
+  --font-brand: var(--font-brand-serif), var(--font-brand-serif-ext), Georgia, "Times New Roman", serif;
 }
 
 /* Filas que se deslizan de costado en el celular, sin barra visible. */

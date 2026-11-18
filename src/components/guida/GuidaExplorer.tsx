@@ -390,6 +390,7 @@ export function GuidaExplorer() {
 
       <h2 className="mt-10 font-display text-2xl font-extrabold text-heading">{extras.phrasesTitle}</h2>
       <p className="mt-1 text-sm text-foreground-muted">{extras.phrasesHint}</p>
+      <p className="mt-1 text-sm text-foreground-muted">{extras.phrasesNote}</p>
       {PHRASE_GROUPS.map((g) => (
         <section key={g.id} className="mt-6">
           <h3 className="font-display text-lg font-extrabold text-heading" lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>

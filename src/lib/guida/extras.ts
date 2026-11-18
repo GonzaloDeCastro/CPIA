@@ -52,6 +52,7 @@ export type ExtrasCopy = {
   projectLink: string;
   phrasesTitle: string;
   phrasesHint: string;
+  phrasesNote: string;
   gallery: { title: string; hint: string; close: string; prev: string; next: string };
 };
 
@@ -64,6 +65,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     projectLink: "Il progetto",
     phrasesTitle: "Frasi utili",
     phrasesHint: "Tocca ▶ per sentire la frase in italiano.",
+    phrasesNote: "Le procedure e i documenti richiesti possono cambiare: verifica sempre sui siti ufficiali (Questura, Agenzia delle Entrate, ASP).",
     gallery: {
       title: "Benessere a Catania",
       hint: "Alberi, boschi, agrumi e l'Etna: luoghi per stare bene all'aria aperta. Tocca una foto per ingrandirla.",
@@ -80,6 +82,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     projectLink: "El proyecto",
     phrasesTitle: "Frases útiles",
     phrasesHint: "Tocá ▶ para escuchar la frase en italiano.",
+    phrasesNote: "Los trámites y documentos requeridos pueden cambiar: verificá siempre en los sitios oficiales (Questura, Agenzia delle Entrate, ASP).",
     gallery: {
       title: "Bienestar en Catania",
       hint: "Árboles, bosques, cítricos y el Etna: lugares para sentirse bien al aire libre. Tocá una foto para agrandarla.",
@@ -96,6 +99,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     projectLink: "The project",
     phrasesTitle: "Useful phrases",
     phrasesHint: "Tap ▶ to hear the phrase in Italian.",
+    phrasesNote: "Procedures and required documents may change: always check the official websites (Questura, Agenzia delle Entrate, ASP).",
     gallery: {
       title: "Wellbeing in Catania",
       hint: "Trees, woods, citrus groves and Etna: places to feel good outdoors. Tap a photo to enlarge it.",
@@ -112,6 +116,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     projectLink: "Le projet",
     phrasesTitle: "Phrases utiles",
     phrasesHint: "Touchez ▶ pour écouter la phrase en italien.",
+    phrasesNote: "Les démarches et les documents demandés peuvent changer : vérifiez toujours sur les sites officiels (Questura, Agenzia delle Entrate, ASP).",
     gallery: {
       title: "Bien-être à Catane",
       hint: "Arbres, forêts, agrumes et l'Etna : des lieux pour se sentir bien en plein air. Touchez une photo pour l'agrandir.",
@@ -128,6 +133,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     projectLink: "عن المشروع",
     phrasesTitle: "عبارات مفيدة",
     phrasesHint: "اضغط ▶ لسماع العبارة بالإيطالية.",
+    phrasesNote: "قد تتغير الإجراءات والوثائق المطلوبة: تحقق دائمًا من المواقع الرسمية (Questura وAgenzia delle Entrate وASP).",
     gallery: {
       title: "العافية في كاتانيا",
       hint: "أشجار وغابات وحمضيات وجبل إتنا: أماكن للشعور بالراحة في الهواء الطلق. اضغط على صورة لتكبيرها.",
@@ -144,6 +150,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     projectLink: "Proiectul",
     phrasesTitle: "Fraze utile",
     phrasesHint: "Atinge ▶ pentru a auzi fraza în italiană.",
+    phrasesNote: "Procedurile și documentele cerute se pot schimba: verifică întotdeauna pe site-urile oficiale (Questura, Agenzia delle Entrate, ASP).",
     gallery: {
       title: "Bunăstare la Catania",
       hint: "Copaci, păduri, citrice și Etna: locuri în care te simți bine în aer liber. Atinge o fotografie pentru a o mări.",

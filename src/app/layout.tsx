@@ -40,6 +40,31 @@ const brandSerif = localFont({
   display: "swap",
 });
 
+/** Letras latinas extendidas (ă, ș, ț…) para el rumano: van como respaldo de cada fuente. */
+const nunitoExt = localFont({
+  variable: "--font-nunito-ext",
+  src: [{ path: "./fonts/nunito-latin-ext.woff2", weight: "500 800", style: "normal" }],
+  display: "swap",
+  preload: false,
+});
+
+const fredokaExt = localFont({
+  variable: "--font-fredoka-ext",
+  src: [{ path: "./fonts/fredoka-latin-ext.woff2", weight: "500 700", style: "normal" }],
+  display: "swap",
+  preload: false,
+});
+
+const brandSerifExt = localFont({
+  variable: "--font-brand-serif-ext",
+  src: [
+    { path: "./fonts/source-serif-4-latin-ext.woff2", weight: "600 800", style: "normal" },
+    { path: "./fonts/source-serif-4-latin-ext-italic.woff2", weight: "600 800", style: "italic" },
+  ],
+  display: "swap",
+  preload: false,
+});
+
 const siteUrlRaw =
   process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 const siteUrl = `${siteUrlRaw.replace(/\/$/, "")}/`;
@@ -84,7 +109,7 @@ export default function RootLayout({
     <html lang="es-AR" suppressHydrationWarning>
       <body
         suppressHydrationWarning
-        className={`${nunito.variable} ${fredoka.variable} ${cairo.variable} ${brandSerif.variable} font-sans antialiased`}
+        className={`${nunito.variable} ${fredoka.variable} ${cairo.variable} ${brandSerif.variable} ${nunitoExt.variable} ${fredokaExt.variable} ${brandSerifExt.variable} font-sans antialiased`}
       >
         <LocaleProvider>
           {children}
