@@ -87,6 +87,20 @@ export const GUIDA_COPY: Record<Locale, GuidaCopy> = {
     places: (n) => `${n} أماكن`,
     nav: "الدليل",
   },
+  ro: {
+    title: "Între flori de portocal și gustări",
+    subtitle: "O călătorie mediteraneană între locuri, limbi și bunăstare: Giarre, Paternò și Etna.",
+    all: "Toate",
+    categories: { sport: "Sport", arte: "Artă", benessere: "Bunăstare" },
+    tabs: { simple: "Italiană simplă", mine: "Limba mea", info: "Informații practice" },
+    listen: "Ascultă",
+    stop: "Oprește",
+    example: "Loc de exemplu: date de verificat",
+    noAudio: "Sunetul nu este disponibil pe acest dispozitiv.",
+    pickPlace: "Atinge un punct de pe hartă pentru a citi fișa.",
+    places: (n) => `${n} ${n === 1 ? "loc" : "locuri"}`,
+    nav: "Ghid",
+  },
 };
 
 export const SPEECH_LANG: Record<Locale, string> = {
@@ -95,4 +109,5 @@ export const SPEECH_LANG: Record<Locale, string> = {
   en: "en-GB",
   fr: "fr-FR",
   ar: "ar-SA",
+  ro: "ro-RO",
 };

@@ -205,10 +205,47 @@ export const TRIVIA_COPY_AR: TriviaCopy = {
   },
 };
 
-export const TRIVIA_COPY: Record<"es" | "en" | "it" | "fr" | "ar", TriviaCopy> = {
+const roPoints = (n: number) => `${n} ${n === 1 ? "punct" : "puncte"}`;
+
+export const TRIVIA_COPY_RO: TriviaCopy = {
+  title: "Cvizul regiunilor",
+  subtitle: "Întrebări la întâmplare despre plante, animale, mâncare, locuri și istorie.",
+  lobbyTitle: "Cine joacă?",
+  lobbyHint: "De la 1 la 4 jucători pe același ecran. La fiecare tură, o întrebare nouă.",
+  playerCount: "Numărul de jucători",
+  playerLabel: (n) => `Jucătorul ${n}`,
+  playerPlaceholder: (n) => `Numele jucătorului ${n}`,
+  questionsPerPlayer: "Întrebări pe jucător",
+  questionsOption: (n) => `${n} ${n === 1 ? "întrebare" : "întrebări"}`,
+  errorNames: "Scrie numele fiecărui jucător.",
+  errorDuplicates: "Numele trebuie să fie diferite.",
+  start: "Începe cvizul!",
+  handoff: (name) => `Este rândul lui ${name}!`,
+  turn: (n, total) => `Tura ${n} din ${total}`,
+  time: (s) => `Timp: ${s} s`,
+  turnOf: (name) => `Rândul lui ${name}`,
+  correct: (s) => `Corect! +1 punct (${s} s)`,
+  wrong: "Aproape! Răspunsul corect era:",
+  scores: "Punctaj",
+  points: roPoints,
+  tie: "Egalitate! Câștigătorii",
+  winner: "Câștigătorul!",
+  prize: (label) => `Premiu: ${label}. Descarcă diploma cu ilustrația.`,
+  download: (name) => `Descarcă fișa ${name}`,
+  playAgain: "Joacă din nou",
+  back: "Înapoi la hartă",
+  certificate: {
+    headline: "Ai câștigat!",
+    points: (n) => `${roPoints(n)} pe Mapa Jugar`,
+    footer: "Explorează lumea cu Mapa Jugar",
+  },
+};
+
+export const TRIVIA_COPY: Record<"es" | "en" | "it" | "fr" | "ar" | "ro", TriviaCopy> = {
   es: TRIVIA_COPY_ES,
   en: TRIVIA_COPY_EN,
   it: TRIVIA_COPY_IT,
   fr: TRIVIA_COPY_FR,
   ar: TRIVIA_COPY_AR,
+  ro: TRIVIA_COPY_RO,
 };

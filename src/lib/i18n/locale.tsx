@@ -12,7 +12,7 @@ import {
 
 import { UI, type UiCopy } from "./ui";
 
-export type Locale = "es" | "en" | "it" | "fr" | "ar";
+export type Locale = "es" | "en" | "it" | "fr" | "ar" | "ro";
 
 export const LOCALES: { id: Locale; label: string; flag: string; name: string }[] = [
   { id: "es", label: "ES", flag: "🇦🇷", name: "Español" },
@@ -23,14 +23,14 @@ export const LOCALES: { id: Locale; label: string; flag: string; name: string }[
 ];
 
 const STORAGE_KEY = "mapajugar-locale";
-const HTML_LANG: Record<Locale, string> = { es: "es-AR", en: "en", it: "it", fr: "fr", ar: "ar" };
+const HTML_LANG: Record<Locale, string> = { es: "es-AR", en: "en", it: "it", fr: "fr", ar: "ar", ro: "ro" };
 
 type Ctx = { locale: Locale; setLocale: (l: Locale) => void };
 
 const LocaleContext = createContext<Ctx>({ locale: "es", setLocale: () => {} });
 
 function isLocale(v: unknown): v is Locale {
-  return v === "es" || v === "en" || v === "it" || v === "fr" || v === "ar";
+  return v === "es" || v === "en" || v === "it" || v === "fr" || v === "ar" || v === "ro";
 }
 
 export function LocaleProvider({ children }: { children: ReactNode }) {

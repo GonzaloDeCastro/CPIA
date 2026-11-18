@@ -14,6 +14,7 @@ export const GUIDA_ROUTES: GuidaRoute[] = [
       en: "Paternò route",
       fr: "Parcours de Paternò",
       ar: "مسار باتيرنو",
+      ro: "Traseul Paternò",
     },
     placeIds: ["G-001", "G-002"],
   },
@@ -25,6 +26,7 @@ export const GUIDA_ROUTES: GuidaRoute[] = [
       en: "Giarre route",
       fr: "Parcours de Giarre",
       ar: "مسار جاري",
+      ro: "Traseul Giarre",
     },
     placeIds: ["G-003", "G-004"],
   },
@@ -36,6 +38,7 @@ export const GUIDA_ROUTES: GuidaRoute[] = [
       en: "Etna route",
       fr: "Parcours de l'Etna",
       ar: "مسار إتنا",
+      ro: "Traseul Etna",
     },
     placeIds: ["G-005", "G-006"],
   },
@@ -133,48 +136,23 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
       next: "الصورة التالية",
     },
   },
+  ro: {
+    routes: "Trasee",
+    allRoutes: "Toate locurile",
+    directions: "Cum ajungi",
+    a11y: { label: "Accesibilitate", bigText: "Text mare", contrast: "Contrast ridicat" },
+    projectLink: "Proiectul",
+    phrasesTitle: "Fraze utile",
+    phrasesHint: "Atinge ▶ pentru a auzi fraza în italiană.",
+    gallery: {
+      title: "Bunăstare la Catania",
+      hint: "Copaci, păduri, citrice și Etna: locuri în care te simți bine în aer liber. Atinge o fotografie pentru a o mări.",
+      close: "Închide",
+      prev: "Fotografia anterioară",
+      next: "Fotografia următoare",
+    },
+  },
 };
-
-export type Phrase = { it: string; tr: Tr };
-
-export const PHRASES: Phrase[] = [
-  {
-    it: "Buongiorno!",
-    tr: { it: "Buongiorno!", es: "¡Buen día!", en: "Good morning!", fr: "Bonjour !", ar: "صباح الخير!" },
-  },
-  {
-    it: "Grazie mille!",
-    tr: { it: "Grazie mille!", es: "¡Muchas gracias!", en: "Thank you very much!", fr: "Merci beaucoup !", ar: "شكرًا جزيلًا!" },
-  },
-  {
-    it: "Dove si trova questo posto?",
-    tr: {
-      it: "Dove si trova questo posto?",
-      es: "¿Dónde queda este lugar?",
-      en: "Where is this place?",
-      fr: "Où se trouve ce lieu ?",
-      ar: "أين يقع هذا المكان؟",
-    },
-  },
-  {
-    it: "Quanto costa?",
-    tr: { it: "Quanto costa?", es: "¿Cuánto cuesta?", en: "How much does it cost?", fr: "Combien ça coûte ?", ar: "كم السعر؟" },
-  },
-  {
-    it: "Può parlare più lentamente, per favore?",
-    tr: {
-      it: "Può parlare più lentamente, per favore?",
-      es: "¿Puede hablar más despacio, por favor?",
-      en: "Could you speak more slowly, please?",
-      fr: "Vous pouvez parler plus lentement, s'il vous plaît ?",
-      ar: "هل يمكنك التحدث ببطء أكثر من فضلك؟",
-    },
-  },
-  {
-    it: "Ho bisogno di aiuto.",
-    tr: { it: "Ho bisogno di aiuto.", es: "Necesito ayuda.", en: "I need help.", fr: "J'ai besoin d'aide.", ar: "أحتاج إلى مساعدة." },
-  },
-];
 
 /** Contenido de la página "Il progetto". */
 export type ProjectCopy = {
@@ -318,5 +296,30 @@ export const PROJECT_COPY: Record<Locale, ProjectCopy> = {
     qrTitle: "شارك الدليل",
     qrText: "امسح الرمز بهاتفك لفتح الدليل.",
     credit: "CPIA Catania 2 – جاري وباتيرنو · EPALE Edu Hack 2026",
+  },
+  ro: {
+    title: "Între flori de portocal și gustări",
+    lead: "Un ghid digital plurilingv al locurilor din Giarre, Paternò și de pe Etna, realizat de cursanții CPIA Catania 2 pentru cei care tocmai au sosit și vorbesc încă puțin italiană. Trei teme: sport, artă și bunăstare.",
+    back: "Înapoi la hartă",
+    flowTitle: "Cum lucrăm: IA + oameni",
+    flow: [
+      { step: "1. Pe teren", text: "Cursanții vizitează locurile, fac fotografii și intervievează persoanele de referință." },
+      { step: "2. Inteligența artificială", text: "IA transcrie, simplifică textul în italiană ușoară (A2) și pregătește ciorne în celelalte limbi." },
+      { step: "3. Revizuire umană", text: "Profesorii validează italiana. Cursanți vorbitori nativi și mediatori verifică traducerile și sunetul." },
+      { step: "4. Publicare", text: "Apar în ghid doar fișele marcate „Aprobat”." },
+    ],
+    rule: "Regula de aur: IA ajută, dar ultimul cuvânt îl are întotdeauna o persoană.",
+    criteriaTitle: "De ce acest proiect",
+    criteria: [
+      { name: "Apartenență", text: "Conținutul se naște din vocile și locurile comunității: cursanții sunt autori, nu spectatori." },
+      { name: "Creativitate", text: "Un ghid care vorbește mai multe limbi, cu voce, hartă și trasee, și un titlu care spune povestea întâlnirii mediteraneene." },
+      { name: "Impact", text: "Îi ajută pe cei nou-veniți să găsească locuri în care să se simtă bine, să facă sport și să descopere arta, fără bariere de limbă." },
+      { name: "Sustenabilitate", text: "Instrumente gratuite și deschise, fără server de plătit, iar locurile noi se adaugă dintr-un simplu tabel: poate continua și după hackathon." },
+    ],
+    toolsTitle: "Instrumente",
+    tools: "Site static pe GitHub Pages, hartă OpenStreetMap, vocea dispozitivului pentru sunet, contrast ridicat și text mare pentru accesibilitate.",
+    qrTitle: "Distribuie ghidul",
+    qrText: "Scanează codul cu telefonul pentru a deschide ghidul.",
+    credit: "CPIA Catania 2 – Giarre și Paternò · EPALE Edu Hack 2026",
   },
 };

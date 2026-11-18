@@ -8,7 +8,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 
 import { approvedPlaces, type GuidaCategory, type GuidaPlace } from "@/data/guida/places";
 import { GUIDA_COPY, SPEECH_LANG } from "@/lib/guida/copy";
-import { EXTRAS_COPY, GUIDA_ROUTES, PHRASES } from "@/lib/guida/extras";
+import { EXTRAS_COPY, GUIDA_ROUTES } from "@/lib/guida/extras";
+import { PHRASE_GROUPS } from "@/lib/guida/phrases";
 import { useLocale, type Locale } from "@/lib/i18n/locale";
 import { withBasePath } from "@/lib/routing/base-path";
 
@@ -389,29 +390,39 @@ export function GuidaExplorer() {
 
       <h2 className="mt-10 font-display text-2xl font-extrabold text-heading">{extras.phrasesTitle}</h2>
       <p className="mt-1 text-sm text-foreground-muted">{extras.phrasesHint}</p>
-      <ul className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {PHRASES.map((ph) => (
-          <li key={ph.it} className="flex items-start gap-3 rounded-2xl border border-green-700 bg-green-950 p-3 text-green-50 sm:p-4">
-            <button
-              type="button"
-              className="min-h-12 min-w-12 shrink-0 rounded-full bg-lime-300 text-lg font-extrabold text-green-950 hover:brightness-110"
-              aria-label={`${copy.listen}: ${ph.it}`}
-              aria-pressed={speakingKey === ph.it}
-              onClick={() => toggleAudio(ph.it, ph.it, "it")}
-            >
-              {speakingKey === ph.it ? "■" : "▶"}
-            </button>
-            <div>
-              <p className="text-lg font-extrabold text-white" lang="it">{ph.it}</p>
-              {locale !== "it" ? (
-                <p className="mt-1 text-base text-green-100" lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
-                  {ph.tr[locale]}
-                </p>
-              ) : null}
-            </div>
-          </li>
-        ))}
-      </ul>
+      {PHRASE_GROUPS.map((g) => (
+        <section key={g.id} className="mt-6">
+          <h3 className="font-display text-lg font-extrabold text-heading" lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
+            {g.title[locale]}
+          </h3>
+          <ul className="mt-3 grid gap-3 sm:grid-cols-2">
+            {g.items.map((ph) => (
+              <li key={ph.it} className="flex items-start gap-3 rounded-2xl border border-green-700 bg-green-950 p-3 text-green-50 sm:p-4">
+                <button
+                  type="button"
+                  className="min-h-12 min-w-12 shrink-0 rounded-full bg-lime-300 text-lg font-extrabold text-green-950 hover:brightness-110"
+                  aria-label={`${copy.listen}: ${ph.it}`}
+                  aria-pressed={speakingKey === ph.it}
+                  onClick={() => toggleAudio(ph.it, ph.it, "it")}
+                >
+                  {speakingKey === ph.it ? "■" : "▶"}
+                </button>
+                <div>
+                  <p className="text-lg font-extrabold text-white" lang="it">{ph.it}</p>
+                  {locale !== "it" ? (
+                    <p className="mt-1 text-base text-green-100" lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
+                      {ph.tr[locale]}
+                    </p>
+                  ) : null}
+                  {locale === "ar" ? (
+                    <p className="mt-1 text-sm italic text-green-200" lang="ar-Latn" dir="ltr">{ph.arLatin}</p>
+                  ) : null}
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
     </div>
   );
 }

@@ -318,4 +318,57 @@ const AR: UiCopy = {
   },
 };
 
-export const UI: Record<Locale, UiCopy> = { es: ES, en: EN, it: IT, fr: FR, ar: AR };
+const RO: UiCopy = {
+  nav: { map: "Harta", trivia: "Cviz", menu: "Meniu", openMenu: "Deschide meniul", closeMenu: "Închide meniul", main: "Principal" },
+  picker: {
+    title: "Alege o țară",
+    subtitle: "Atinge o țară pe harta lumii și explorează regiunile sau provinciile ei: natură, mâncare, locuri și istorie.",
+    worldLabel: "Harta lumii: alege Argentina sau Italia",
+    hint: "Atinge Argentina sau Italia pe hartă.",
+    goSicily: "Mergi direct în Sicilia",
+    triviaArgentina: "Cviz despre Argentina",
+    triviaItaly: "Cviz despre Italia",
+    triviaSicily: "Cviz despre Sicilia",
+    triviaCampania: "Cviz despre Campania",
+    argentina: "Intră în Argentina",
+    italy: "Intră în Italia",
+  },
+  frame: { world: "Lumea", italy: "Italia", trivia: "Cviz", fullscreenEnter: "Ecran complet", fullscreenExit: "Ieși din ecranul complet" },
+  map: {
+    hoverProvince: "Trece cursorul peste o provincie",
+    tapProvince: "Atinge o provincie",
+    hoverRegion: "Trece cursorul peste o regiune",
+    tapRegion: "Atinge o regiune",
+    chooseRegion: "Alege o regiune și o vei vedea aici mult mai mare.",
+    chooseProvince: "Alege o provincie și o vei vedea aici mult mai mare.",
+    malvinas: "Insulele Falkland (Malvine)",
+    ariaArgentina: "Hartă interactivă a Argentinei pe provincii",
+    ariaItaly: "Hartă interactivă a Italiei pe regiuni",
+    ariaSicily: "Hartă interactivă a Siciliei pe provincii",
+    ariaCampania: "Hartă interactivă a Campaniei pe provincii",
+    mapOf: (n) => `Harta: ${n}`,
+  },
+  page: {
+    breadcrumb: "Traseu de navigare",
+    map: "Harta",
+    sections: "Secțiuni",
+    explore: "Explorează conținutul",
+    exploreProvinces: "Explorează cele nouă provincii",
+    exploreProvincesCampania: "Explorează cele cinci provincii",
+    tabs: { flora: "Floră", fauna: "Faună", foods: "Bucătărie", tourism: "Turism", curiosity: "Istorie" },
+    loadingPhoto: "Se încarcă fotografia…",
+    loadingPhotoHint: "Un moment, căutăm imaginea",
+    inPreparation: "Conținut în pregătire.",
+    learnMore: "Află mai multe",
+    backTo: (n) => `Înapoi la ${n}`,
+    empty: {
+      fauna: "Pregătim fauna acestui loc. Între timp poți explora celelalte secțiuni.",
+      flora: "Fotografiile florei din acest loc nu sunt încă încărcate. Vor fi disponibile în curând.",
+      comidas: "Preparatele tipice din acest loc se încarcă. Revino curând să le descoperi.",
+      historia: "Pregătim și mai multă istorie despre acest loc, ca să continui să înveți.",
+      turismo: "Pregătim obiectivele turistice din această zonă. Le vei putea vedea în curând!",
+    },
+  },
+};
+
+export const UI: Record<Locale, UiCopy> = { es: ES, en: EN, it: IT, fr: FR, ar: AR, ro: RO };
