@@ -1,5 +1,5 @@
 /**
- * Fotos de la sección "Benessere" (Catania), enviadas por Cristina el 16/11/2026.
+ * Fotos de la sección "Benessere" (Catania), enviadas por Cristina el 16/11/2026 (01–28) y el 19/11/2026 (29–43).
  * Archivos en `public/guida/benessere/NN.webp` (1280 px) y `NN-sm.webp` (560 px), sin EXIF.
  * Leyendas en italiano fácil: revisarlas con el equipo si algún lugar es otro.
  */
@@ -34,4 +34,19 @@ export const BENESSERE_PHOTOS: GalleryPhoto[] = [
   { file: "26", caption: "L'acqua scorre tra le rocce" },
   { file: "27", caption: "Un sentiero con la neve" },
   { file: "28", caption: "Il bosco d'autunno sull'Etna" },
+  { file: "29", caption: "Tramonto tra le foglie d'autunno" },
+  { file: "30", caption: "Il sentiero nero dell'Etna" },
+  { file: "31", caption: "L'Etna con la neve" },
+  { file: "32", caption: "Una casetta nel bosco d'autunno" },
+  { file: "33", caption: "Fiori rosa sulla lava" },
+  { file: "34", caption: "Il sole tra i pini" },
+  { file: "35", caption: "Un rifugio di pietra con la neve" },
+  { file: "36", caption: "Il fumo dell'Etna sulla neve" },
+  { file: "37", caption: "Il sole tra i pini alti" },
+  { file: "38", caption: "Neve, nuvole e il mare in fondo" },
+  { file: "39", caption: "Un arco di roccia lavica" },
+  { file: "40", caption: "La lava scende dal vulcano" },
+  { file: "41", caption: "Un albero giallo d'autunno" },
+  { file: "42", caption: "Un sentiero nella neve tra i pini" },
+  { file: "43", caption: "L'Etna tra i boschi e la neve" },
 ];
