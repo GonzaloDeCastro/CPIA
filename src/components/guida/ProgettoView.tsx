@@ -40,7 +40,7 @@ export function ProgettoView() {
       <h2 className="mt-8 font-display text-2xl font-extrabold text-heading">{c.flowTitle}</h2>
       <ol className="mt-3 grid gap-3 sm:grid-cols-2">
         {c.flow.map((f) => (
-          <li key={f.step} className="rounded-2xl border border-green-700 bg-green-950 p-4 text-green-50">
+          <li key={f.step} className="rounded-2xl border border-green-700 bg-green-950 tile-card p-4 text-green-50">
             <p className="font-display text-lg font-extrabold text-lime-300">{f.step}</p>
             <p className="mt-1 text-base leading-relaxed">{f.text}</p>
           </li>
@@ -61,7 +61,7 @@ export function ProgettoView() {
       <h2 className="mt-8 font-display text-2xl font-extrabold text-heading">{c.toolsTitle}</h2>
       <p className="mt-2 text-base leading-relaxed text-foreground">{c.tools}</p>
 
-      <div className="mt-8 flex flex-wrap items-center gap-6 rounded-2xl border border-green-700 bg-green-950 p-5 text-green-50">
+      <div className="mt-8 flex flex-wrap items-center gap-6 rounded-2xl border border-green-700 bg-green-950 tile-card p-5 text-green-50">
         {qr ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={qr} width={160} height={160} alt={c.qrTitle} className="rounded-xl bg-white p-1" />

@@ -20,14 +20,15 @@ export function FrasiIndex() {
         ← {ui.back}
       </Link>
       <h1 className="mt-2 font-display text-3xl font-extrabold text-heading sm:text-4xl">{extras.phrasesTitle}</h1>
-      <p className="mt-2 text-lg font-bold text-foreground">{ui.pick}</p>
+      <div aria-hidden className="azulejo-strip mt-3" />
+      <p className="mt-3 text-lg font-bold text-foreground">{ui.pick}</p>
 
       <ul className="mt-5 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3">
         {PHRASE_GROUPS.map((g) => (
           <li key={g.id}>
             <Link
               href={`/guida/frasi/${g.id}`}
-              className="flex h-full flex-col items-center gap-2 rounded-3xl border-2 border-green-700 bg-green-950 p-3 text-center text-green-50 transition-colors hover:border-lime-300 sm:p-4"
+              className="flex h-full flex-col items-center gap-2 rounded-2xl border-2 border-green-700 bg-green-950 tile-card p-3 text-center text-green-50 transition-colors hover:border-lime-300 sm:p-4"
             >
               <Scene id={GROUP_SCENE[g.id]} size={120} />
               <span className="text-base font-extrabold leading-snug text-white sm:text-lg" lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>

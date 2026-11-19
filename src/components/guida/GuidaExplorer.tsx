@@ -192,13 +192,13 @@ export function GuidaExplorer() {
     { id: "info", label: copy.tabs.info },
   ];
 
-  const chip = (active: boolean) =>
-    `inline-flex min-h-10 shrink-0 items-center whitespace-nowrap rounded-full border-2 px-3 text-[13px] font-bold transition-colors sm:min-h-11 sm:px-4 sm:text-sm ${
+  // Botones tipo azulejo: esquinas poco redondeadas, mismo ancho dentro de cada fila.
+  const seg = (active: boolean) =>
+    `flex min-h-11 items-center justify-center rounded-lg border-2 px-2 text-center text-xs font-bold leading-tight transition-colors sm:text-sm ${
       active ? "border-lime-300 bg-lime-300 text-green-950" : "border-green-600 bg-green-800 text-green-50 hover:border-lime-300"
     }`;
-  // En el celular las filas de botones se deslizan de costado en vez de apilarse.
-  const row =
-    "no-scrollbar -mx-4 flex items-center gap-2 overflow-x-auto px-4 py-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0";
+  const util =
+    "inline-flex min-h-10 items-center justify-center rounded-lg border-2 px-3 text-sm font-extrabold transition-colors";
 
   function selectPlace(id: string) {
     setSelectedId(id);
@@ -214,7 +214,32 @@ export function GuidaExplorer() {
   });
 
   return (
-    <div className="mx-auto max-w-6xl px-4 pb-28 pt-4 sm:px-6 sm:pt-6">
+    <div className="mx-auto max-w-6xl px-4 pb-28 pt-3 sm:px-6 sm:pt-4">
+      <div className="mb-2 flex items-center justify-end gap-2" role="group" aria-label={extras.a11y.label}>
+        <button
+          type="button"
+          className={`${util} ${bigText ? "border-green-950 bg-green-950 text-lime-300" : "border-green-950/30 text-heading hover:border-green-950"}`}
+          aria-pressed={bigText}
+          aria-label={extras.a11y.bigText}
+          title={extras.a11y.bigText}
+          onClick={() => toggleA11y("big")}
+        >
+          Aa
+        </button>
+        <button
+          type="button"
+          className={`${util} ${contrast ? "border-green-950 bg-green-950 text-lime-300" : "border-green-950/30 text-heading hover:border-green-950"}`}
+          aria-pressed={contrast}
+          aria-label={extras.a11y.contrast}
+          title={extras.a11y.contrast}
+          onClick={() => toggleA11y("hc")}
+        >
+          ◐
+        </button>
+        <Link href="/guida/progetto" className={`${util} border-green-950 bg-green-950 text-lime-300 hover:brightness-125`}>
+          {extras.projectLink} →
+        </Link>
+      </div>
       <header className="flex items-center gap-3 rounded-2xl border border-[#0f4c6e]/20 bg-[#fffdf6] p-3 shadow-[var(--shadow-card)] sm:gap-5 sm:p-5">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
@@ -231,10 +256,11 @@ export function GuidaExplorer() {
           <p className="mt-1 text-[13px] leading-snug text-[#1e3a4c] sm:text-base">{copy.subtitle}</p>
         </div>
       </header>
+      <div aria-hidden className="azulejo-strip mt-3" />
 
       <Link
         href="/guida/frasi"
-        className="mt-3 flex items-center gap-4 rounded-3xl border-2 border-green-700 bg-green-950 p-4 text-green-50 transition-colors hover:border-lime-300 sm:p-5"
+        className="mt-3 flex items-center gap-4 rounded-2xl border-2 border-green-700 bg-green-950 tile-card p-4 text-green-50 transition-colors hover:border-lime-300 sm:p-5"
       >
         <span className="flex shrink-0 gap-1">
           <Picto id="passport" size={56} />
@@ -244,66 +270,54 @@ export function GuidaExplorer() {
           <span className="block font-display text-2xl font-extrabold text-white">{extras.phrasesTitle}</span>
           <span className="mt-1 block text-sm text-green-100">{extras.phrasesHint}</span>
         </span>
-        <span aria-hidden className="shrink-0 rounded-full bg-lime-300 px-4 py-2 text-lg font-extrabold text-green-950">→</span>
+        <span aria-hidden className="shrink-0 rounded-lg bg-lime-300 px-4 py-2 text-lg font-extrabold text-green-950">→</span>
       </Link>
 
-      <div className={`mt-3 ${row}`} role="group" aria-label={extras.a11y.label}>
-        <button type="button" className={chip(bigText)} aria-pressed={bigText} onClick={() => toggleA11y("big")}>
-          Aa {extras.a11y.bigText}
-        </button>
-        <button type="button" className={chip(contrast)} aria-pressed={contrast} onClick={() => toggleA11y("hc")}>
-          ◐ {extras.a11y.contrast}
-        </button>
-        <Link
-          href="/guida/progetto"
-          className="inline-flex min-h-10 shrink-0 items-center whitespace-nowrap rounded-full bg-lime-300 px-3 text-[13px] font-extrabold text-green-950 hover:brightness-110 sm:ms-auto sm:min-h-11 sm:px-4 sm:text-sm"
-        >
-          {extras.projectLink} →
-        </Link>
-      </div>
-
-      <div className={`mt-2 ${row}`} role="group">
-        <button type="button" className={chip(filter === "all")} aria-pressed={filter === "all"} onClick={() => setFilter("all")}>
-          {copy.all}
-        </button>
-        {CATEGORIES.map((c) => (
-          <button key={c} type="button" className={chip(filter === c)} aria-pressed={filter === c} onClick={() => setFilter(c)}>
-            <span
-              aria-hidden
-              className="me-2 inline-block h-3 w-3 rounded-full border border-white/70"
-              style={{ background: CATEGORY_COLOR[c] }}
-            />
-            {copy.categories[c]}
+      <section className="mt-3 grid gap-3 rounded-2xl border-2 border-green-950/20 bg-[#fffdf6] p-3 sm:grid-cols-[auto_1fr] sm:items-center sm:gap-x-4 sm:p-4">
+        <h2 className="text-xs font-extrabold uppercase tracking-wide text-green-950">{extras.categories}</h2>
+        <div className="grid grid-cols-4 gap-2" role="group" aria-label={extras.categories}>
+          <button type="button" className={seg(filter === "all")} aria-pressed={filter === "all"} onClick={() => setFilter("all")}>
+            {copy.all}
           </button>
-        ))}
-      </div>
+          {CATEGORIES.map((c) => (
+            <button key={c} type="button" className={seg(filter === c)} aria-pressed={filter === c} onClick={() => setFilter(c)}>
+              <span
+                aria-hidden
+                className="me-1.5 hidden h-3 w-3 shrink-0 rounded-full border border-white/70 sm:inline-block"
+                style={{ background: CATEGORY_COLOR[c] }}
+              />
+              {copy.categories[c]}
+            </button>
+          ))}
+        </div>
 
-      <div className={`mt-1 ${row}`} role="group" aria-label={extras.routes}>
-        <span className="shrink-0 text-[13px] font-bold text-heading sm:text-sm">{extras.routes}:</span>
-        <button type="button" className={chip(routeId === null)} aria-pressed={routeId === null} onClick={() => setRouteId(null)}>
-          {extras.allRoutes}
-        </button>
-        {GUIDA_ROUTES.map((r) => (
-          <button
-            key={r.id}
-            type="button"
-            className={chip(routeId === r.id)}
-            aria-pressed={routeId === r.id}
-            onClick={() => {
-              setRouteId(r.id);
-              setFilter("all");
-              setSelectedId(null);
-            }}
-          >
-            {r.name[locale]}
+        <h2 className="text-xs font-extrabold uppercase tracking-wide text-green-950">{extras.routes}</h2>
+        <div className="grid auto-cols-fr grid-flow-col gap-2" role="group" aria-label={extras.routes}>
+          <button type="button" className={seg(routeId === null)} aria-pressed={routeId === null} onClick={() => setRouteId(null)}>
+            {extras.allRoutes}
           </button>
-        ))}
-      </div>
+          {GUIDA_ROUTES.map((r) => (
+            <button
+              key={r.id}
+              type="button"
+              className={seg(routeId === r.id)}
+              aria-pressed={routeId === r.id}
+              onClick={() => {
+                setRouteId(r.id);
+                setFilter("all");
+                setSelectedId(null);
+              }}
+            >
+              {r.name[locale]}
+            </button>
+          ))}
+        </div>
+      </section>
 
       <div className="mt-3 grid gap-3 sm:gap-4 lg:grid-cols-[1.4fr_1fr]">
         <div
           ref={mapEl}
-          className="h-[290px] w-full overflow-hidden rounded-2xl border border-green-700 sm:h-[480px]"
+          className="h-[290px] w-full overflow-hidden rounded-2xl border-2 border-green-950/30 sm:h-[480px]"
           role="application"
           aria-label={copy.title}
           dir="ltr"
@@ -311,11 +325,18 @@ export function GuidaExplorer() {
 
         <section
           ref={cardRef}
-          className="scroll-mt-4 rounded-2xl border border-green-700 bg-green-950 p-4 text-green-50 sm:p-5"
+          className="scroll-mt-4 rounded-2xl border-2 border-green-700 bg-green-950 tile-card p-5 text-green-50 sm:p-6 lg:max-h-[480px] lg:overflow-y-auto"
           aria-live="polite"
         >
           {selected ? (
             <>
+              <button
+                type="button"
+                className="mb-3 inline-flex min-h-10 items-center rounded-lg border-2 border-green-600 px-3 text-sm font-bold text-green-50 hover:border-lime-300"
+                onClick={() => setSelectedId(null)}
+              >
+                ← {extras.allRoutes}
+              </button>
               <p className="text-sm font-bold text-lime-300">
                 {copy.categories[selected.category]} · {selected.town}
               </p>
@@ -326,14 +347,14 @@ export function GuidaExplorer() {
                 </p>
               ) : null}
 
-              <div className="mt-3 grid auto-cols-fr grid-flow-col gap-1 rounded-2xl bg-green-900 p-1" role="tablist">
+              <div className="mt-3 grid auto-cols-fr grid-flow-col gap-1 rounded-xl bg-green-900 p-1" role="tablist">
                 {tabs.map((t) => (
                   <button
                     key={t.id}
                     type="button"
                     role="tab"
                     aria-selected={activeTab === t.id}
-                    className={`min-h-11 rounded-xl px-2 text-xs font-bold leading-tight transition-colors sm:text-sm ${
+                    className={`min-h-11 rounded-lg px-2 text-xs font-bold leading-tight transition-colors sm:text-sm ${
                       activeTab === t.id ? "bg-lime-300 text-green-950" : "text-green-50 hover:bg-green-800"
                     }`}
                     onClick={() => setTab(t.id)}
@@ -353,7 +374,7 @@ export function GuidaExplorer() {
                     <div className="mt-4 flex flex-wrap gap-2">
                       <button
                         type="button"
-                        className="inline-flex min-h-12 flex-1 items-center justify-center whitespace-nowrap rounded-full bg-lime-300 px-5 text-base font-extrabold text-green-950 hover:brightness-110 sm:flex-none"
+                        className="inline-flex min-h-12 flex-1 items-center justify-center whitespace-nowrap rounded-lg bg-lime-300 px-5 text-base font-extrabold text-green-950 hover:brightness-110 sm:flex-none"
                         onClick={() => toggleAudio("place", text, lang)}
                         aria-pressed={speaking}
                       >
@@ -363,7 +384,7 @@ export function GuidaExplorer() {
                         href={`https://www.google.com/maps/dir/?api=1&destination=${selected.lat},${selected.lng}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex min-h-12 flex-1 items-center justify-center whitespace-nowrap rounded-full border-2 border-lime-300 px-5 text-base font-extrabold text-lime-300 hover:bg-green-900 sm:flex-none"
+                        className="inline-flex min-h-12 flex-1 items-center justify-center whitespace-nowrap rounded-lg border-2 border-lime-300 px-5 text-base font-extrabold text-lime-300 hover:bg-green-900 sm:flex-none"
                       >
                         ➜ {extras.directions}
                       </a>
@@ -373,33 +394,32 @@ export function GuidaExplorer() {
               })()}
             </>
           ) : (
-            <p className="text-base text-green-200">{copy.pickPlace}</p>
+            <>
+              <p className="text-sm font-bold text-lime-300">{copy.pickPlace}</p>
+              <p className="mt-1 text-sm text-green-200">{copy.places(visible.length)}</p>
+              <ul className="mt-3 grid gap-2">
+                {visible.map((p) => (
+                  <li key={p.id}>
+                    <button
+                      type="button"
+                      onClick={() => selectPlace(p.id)}
+                      className="flex min-h-12 w-full items-center gap-3 rounded-lg border-2 border-green-600 bg-green-900 px-3 py-2 text-start text-green-50 hover:border-lime-300"
+                    >
+                      <span
+                        aria-hidden
+                        className="h-4 w-4 shrink-0 rounded-full border border-white/70"
+                        style={{ background: CATEGORY_COLOR[p.category] }}
+                      />
+                      <span className="min-w-0 flex-1 text-sm font-bold">{p.name}</span>
+                      <span className="shrink-0 text-xs font-semibold text-green-200">{p.town}</span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </>
           )}
         </section>
       </div>
-
-      <p className="mt-4 text-sm font-semibold text-foreground-muted">{copy.places(visible.length)}</p>
-      <ul className="mt-2 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-        {visible.map((p) => (
-          <li key={p.id}>
-            <button
-              type="button"
-              onClick={() => selectPlace(p.id)}
-              className={`flex min-h-12 w-full items-center gap-3 rounded-xl border-2 bg-green-900 px-3 py-2 text-start text-green-50 ${
-                p.id === selectedId ? "border-lime-300" : "border-green-700 hover:border-green-400"
-              }`}
-            >
-              <span
-                aria-hidden
-                className="h-4 w-4 shrink-0 rounded-full border border-white/70"
-                style={{ background: CATEGORY_COLOR[p.category] }}
-              />
-              <span className="min-w-0 flex-1 text-sm font-bold">{p.name}</span>
-              <span className="shrink-0 text-xs font-semibold text-green-200">{p.town}</span>
-            </button>
-          </li>
-        ))}
-      </ul>
 
       <GuidaGallery copy={extras.gallery} />
 

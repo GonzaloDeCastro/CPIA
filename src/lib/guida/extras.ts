@@ -46,6 +46,7 @@ export const GUIDA_ROUTES: GuidaRoute[] = [
 
 export type ExtrasCopy = {
   routes: string;
+  categories: string;
   allRoutes: string;
   directions: string;
   a11y: { label: string; bigText: string; contrast: string };
@@ -59,6 +60,7 @@ export type ExtrasCopy = {
 export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
   it: {
     routes: "Percorsi",
+    categories: "Categorie",
     allRoutes: "Tutti i luoghi",
     directions: "Come arrivare",
     a11y: { label: "Accessibilità", bigText: "Testo grande", contrast: "Alto contrasto" },
@@ -76,6 +78,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
   },
   es: {
     routes: "Recorridos",
+    categories: "Categorías",
     allRoutes: "Todos los lugares",
     directions: "Cómo llegar",
     a11y: { label: "Accesibilidad", bigText: "Texto grande", contrast: "Alto contraste" },
@@ -93,6 +96,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
   },
   en: {
     routes: "Routes",
+    categories: "Categories",
     allRoutes: "All places",
     directions: "Get directions",
     a11y: { label: "Accessibility", bigText: "Large text", contrast: "High contrast" },
@@ -110,6 +114,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
   },
   fr: {
     routes: "Parcours",
+    categories: "Catégories",
     allRoutes: "Tous les lieux",
     directions: "Comment y aller",
     a11y: { label: "Accessibilité", bigText: "Grand texte", contrast: "Contraste élevé" },
@@ -127,6 +132,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
   },
   ar: {
     routes: "المسارات",
+    categories: "الفئات",
     allRoutes: "كل الأماكن",
     directions: "كيف تصل",
     a11y: { label: "سهولة الوصول", bigText: "نص كبير", contrast: "تباين عالٍ" },
@@ -144,6 +150,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
   },
   ro: {
     routes: "Trasee",
+    categories: "Categorii",
     allRoutes: "Toate locurile",
     directions: "Cum ajungi",
     a11y: { label: "Accesibilitate", bigText: "Text mare", contrast: "Contrast ridicat" },

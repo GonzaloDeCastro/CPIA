@@ -36,7 +36,7 @@ export function FrasiSituation({ id }: { id: string }) {
       onClick={() => play(key, text, lang)}
       aria-pressed={playingKey === key}
       aria-label={`${label}: ${text}`}
-      className={`flex min-h-14 flex-1 items-center justify-center gap-2 rounded-2xl border-2 px-3 text-sm font-extrabold transition hover:brightness-110 ${
+      className={`flex min-h-14 flex-1 items-center justify-center gap-2 rounded-lg border-2 px-3 text-sm font-extrabold transition hover:brightness-110 ${
         primary ? "border-lime-300 bg-lime-300 text-green-950" : "border-white bg-white text-green-950"
       }`}
     >
@@ -66,7 +66,7 @@ export function FrasiSituation({ id }: { id: string }) {
 
       <ol className="mt-4 grid gap-2 sm:grid-cols-2">
         {ui.steps.map((s, i) => (
-          <li key={i} className="flex items-center gap-3 rounded-2xl bg-lime-300 px-4 py-3 text-base font-extrabold text-green-950">
+          <li key={i} className="flex items-center gap-3 rounded-xl bg-lime-300 px-4 py-3 text-base font-extrabold text-green-950">
             <span aria-hidden className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-green-950 text-lime-300">{i + 1}</span>
             <span dir={rtl} lang={locale}>{s}</span>
           </li>
@@ -81,7 +81,7 @@ export function FrasiSituation({ id }: { id: string }) {
 
       <ul className="mt-5 grid gap-4">
         {group.items.map((ph, i) => (
-          <li key={ph.it} className="rounded-3xl border-2 border-green-700 bg-green-950 p-4 text-green-50 sm:p-5">
+          <li key={ph.it} className="rounded-2xl border-2 border-green-700 bg-green-950 tile-card p-4 text-green-50 sm:p-5">
             <div className="flex items-start gap-4">
               <div className="grid h-20 w-20 shrink-0 place-items-center rounded-2xl bg-[#fffdf6] sm:h-24 sm:w-24">
                 <Picto id={pictos[i] ?? "question"} size={64} />

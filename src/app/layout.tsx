@@ -23,6 +23,20 @@ const fredoka = localFont({
   display: "swap",
 });
 
+/** Títulos: serif con carácter, pensada para el aire de cartel de cerámica. */
+const fraunces = localFont({
+  variable: "--font-fraunces",
+  src: [{ path: "./fonts/fraunces-latin.woff2", weight: "600 900", style: "normal" }],
+  display: "swap",
+});
+
+const frauncesExt = localFont({
+  variable: "--font-fraunces-ext",
+  src: [{ path: "./fonts/fraunces-latin-ext.woff2", weight: "600 900", style: "normal" }],
+  display: "swap",
+  preload: false,
+});
+
 const cairo = localFont({
   variable: "--font-cairo",
   src: [{ path: "./fonts/cairo-arabic.woff2", weight: "500 800", style: "normal" }],
@@ -93,7 +107,7 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#14532d" },
+    { media: "(prefers-color-scheme: light)", color: "#10294f" },
     { media: "(prefers-color-scheme: dark)", color: "#0c2438" },
   ],
   width: "device-width",
@@ -109,7 +123,7 @@ export default function RootLayout({
     <html lang="es-AR" suppressHydrationWarning>
       <body
         suppressHydrationWarning
-        className={`${nunito.variable} ${fredoka.variable} ${cairo.variable} ${brandSerif.variable} ${nunitoExt.variable} ${fredokaExt.variable} ${brandSerifExt.variable} font-sans antialiased`}
+        className={`${nunito.variable} ${fredoka.variable} ${fraunces.variable} ${frauncesExt.variable} ${cairo.variable} ${brandSerif.variable} ${nunitoExt.variable} ${fredokaExt.variable} ${brandSerifExt.variable} font-sans antialiased`}
       >
         <LocaleProvider>
           {children}
