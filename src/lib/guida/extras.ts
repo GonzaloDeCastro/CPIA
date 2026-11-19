@@ -64,7 +64,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     a11y: { label: "Accessibilità", bigText: "Testo grande", contrast: "Alto contrasto" },
     projectLink: "Il progetto",
     phrasesTitle: "Frasi utili",
-    phrasesHint: "Tocca ▶ per sentire la frase in italiano.",
+    phrasesHint: "Immagini e audio nella tua lingua e in italiano.",
     phrasesNote: "Le procedure e i documenti richiesti possono cambiare: verifica sempre sui siti ufficiali (Questura, Agenzia delle Entrate, ASP).",
     gallery: {
       title: "Benessere a Catania",
@@ -81,7 +81,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     a11y: { label: "Accesibilidad", bigText: "Texto grande", contrast: "Alto contraste" },
     projectLink: "El proyecto",
     phrasesTitle: "Frases útiles",
-    phrasesHint: "Tocá ▶ para escuchar la frase en italiano.",
+    phrasesHint: "Imágenes y audio en tu idioma y en italiano.",
     phrasesNote: "Los trámites y documentos requeridos pueden cambiar: verificá siempre en los sitios oficiales (Questura, Agenzia delle Entrate, ASP).",
     gallery: {
       title: "Bienestar en Catania",
@@ -98,7 +98,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     a11y: { label: "Accessibility", bigText: "Large text", contrast: "High contrast" },
     projectLink: "The project",
     phrasesTitle: "Useful phrases",
-    phrasesHint: "Tap ▶ to hear the phrase in Italian.",
+    phrasesHint: "Pictures and audio in your language and in Italian.",
     phrasesNote: "Procedures and required documents may change: always check the official websites (Questura, Agenzia delle Entrate, ASP).",
     gallery: {
       title: "Wellbeing in Catania",
@@ -115,7 +115,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     a11y: { label: "Accessibilité", bigText: "Grand texte", contrast: "Contraste élevé" },
     projectLink: "Le projet",
     phrasesTitle: "Phrases utiles",
-    phrasesHint: "Touchez ▶ pour écouter la phrase en italien.",
+    phrasesHint: "Images et audio dans votre langue et en italien.",
     phrasesNote: "Les démarches et les documents demandés peuvent changer : vérifiez toujours sur les sites officiels (Questura, Agenzia delle Entrate, ASP).",
     gallery: {
       title: "Bien-être à Catane",
@@ -132,7 +132,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     a11y: { label: "سهولة الوصول", bigText: "نص كبير", contrast: "تباين عالٍ" },
     projectLink: "عن المشروع",
     phrasesTitle: "عبارات مفيدة",
-    phrasesHint: "اضغط ▶ لسماع العبارة بالإيطالية.",
+    phrasesHint: "صور وصوت بلغتك وبالإيطالية.",
     phrasesNote: "قد تتغير الإجراءات والوثائق المطلوبة: تحقق دائمًا من المواقع الرسمية (Questura وAgenzia delle Entrate وASP).",
     gallery: {
       title: "العافية في كاتانيا",
@@ -149,7 +149,7 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     a11y: { label: "Accesibilitate", bigText: "Text mare", contrast: "Contrast ridicat" },
     projectLink: "Proiectul",
     phrasesTitle: "Fraze utile",
-    phrasesHint: "Atinge ▶ pentru a auzi fraza în italiană.",
+    phrasesHint: "Imagini și audio în limba ta și în italiană.",
     phrasesNote: "Procedurile și documentele cerute se pot schimba: verifică întotdeauna pe site-urile oficiale (Questura, Agenzia delle Entrate, ASP).",
     gallery: {
       title: "Bunăstare la Catania",

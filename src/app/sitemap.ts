@@ -4,6 +4,7 @@ import { listItalyRegions } from "@/data/italy/regions";
 import { getAllProvinceSlugs } from "@/data/provinces";
 import { listCampaniaProvinces } from "@/data/campania/provinces";
 import { CATANIA_DETAILS } from "@/data/sicily/catania-details";
+import { PHRASE_GROUPS } from "@/lib/guida/phrases";
 import { listSicilyProvinces } from "@/data/sicily/provinces";
 import {
   italyRegionPath,
@@ -65,6 +66,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     { url: `${base}/guida/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/guida/frasi/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    ...PHRASE_GROUPS.map((g) => ({ url: `${base}/guida/frasi/${g.id}/`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 })),
     { url: `${base}/guida/progetto/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
     {
