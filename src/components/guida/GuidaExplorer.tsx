@@ -360,7 +360,7 @@ export function GuidaExplorer() {
                         {speaking ? `■ ${copy.stop}` : `▶ ${copy.listen}`}
                       </button>
                       <a
-                        href={`https://www.openstreetmap.org/directions?to=${selected.lat}%2C${selected.lng}`}
+                        href={`https://www.google.com/maps/dir/?api=1&destination=${selected.lat},${selected.lng}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex min-h-12 flex-1 items-center justify-center whitespace-nowrap rounded-full border-2 border-lime-300 px-5 text-base font-extrabold text-lime-300 hover:bg-green-900 sm:flex-none"
