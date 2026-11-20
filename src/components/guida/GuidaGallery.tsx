@@ -2,17 +2,25 @@
 
 import { useEffect, useRef, useState } from "react";
 
-import { BENESSERE_PHOTOS } from "@/data/guida/benessere-gallery";
+import type { GalleryPhoto } from "@/data/guida/benessere-gallery";
 import type { ExtrasCopy } from "@/lib/guida/extras";
 import { withBasePath } from "@/lib/routing/base-path";
 
-const src = (file: string, small = false) => withBasePath(`/guida/benessere/${file}${small ? "-sm" : ""}.webp`);
+type Props = {
+  copy: ExtrasCopy["gallery"];
+  photos: GalleryPhoto[];
+  /** Carpeta dentro de `public/guida/` (benessere, deporte). */
+  folder: string;
+  title: string;
+  hint: string;
+};
 
-export function GuidaGallery({ copy }: { copy: ExtrasCopy["gallery"] }) {
+export function GuidaGallery({ copy, photos, folder, title, hint }: Props) {
+  const src = (file: string, small = false) => withBasePath(`/guida/${folder}/${file}${small ? "-sm" : ""}.webp`);
   const [open, setOpen] = useState<number | null>(null);
   const dialogRef = useRef<HTMLDialogElement>(null);
   const touchX = useRef<number | null>(null);
-  const total = BENESSERE_PHOTOS.length;
+  const total = photos.length;
 
   useEffect(() => {
     const d = dialogRef.current;
@@ -22,17 +30,17 @@ export function GuidaGallery({ copy }: { copy: ExtrasCopy["gallery"] }) {
   }, [open]);
 
   const go = (step: number) => setOpen((i) => (i === null ? i : (i + step + total) % total));
-  const photo = open !== null ? BENESSERE_PHOTOS[open] : null;
+  const photo = open !== null ? photos[open] : null;
 
   return (
-    <section className="mt-10" aria-labelledby="gallery-title">
-      <h2 id="gallery-title" className="font-display text-2xl font-extrabold text-heading">
-        {copy.title}
+    <section className="mt-10" aria-labelledby={`gallery-${folder}`}>
+      <h2 id={`gallery-${folder}`} className="font-display text-2xl font-extrabold text-heading">
+        {title}
       </h2>
-      <p className="mt-1 text-sm text-foreground-muted">{copy.hint}</p>
+      <p className="mt-1 text-sm text-foreground-muted">{hint}</p>
 
       <ul className="mt-3 grid grid-cols-3 gap-1.5 sm:gap-3 lg:grid-cols-4">
-        {BENESSERE_PHOTOS.map((p, i) => (
+        {photos.map((p, i) => (
           <li key={p.file} className={p.wide ? "col-span-3 lg:col-span-2" : undefined}>
             <button
               type="button"
@@ -76,7 +84,7 @@ export function GuidaGallery({ copy }: { copy: ExtrasCopy["gallery"] }) {
           go(end < start ? 1 : -1);
         }}
         className="m-auto h-dvh max-h-none w-screen max-w-none bg-transparent p-0 backdrop:bg-black/90"
-        aria-label={copy.title}
+        aria-label={title}
       >
         {photo && open !== null ? (
           <div className="flex h-full flex-col items-center justify-center gap-3 p-3" dir="ltr">

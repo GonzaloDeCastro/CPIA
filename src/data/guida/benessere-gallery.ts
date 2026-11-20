@@ -50,3 +50,27 @@ export const BENESSERE_PHOTOS: GalleryPhoto[] = [
   { file: "42", caption: "Un sentiero nella neve tra i pini" },
   { file: "43", caption: "L'Etna tra i boschi e la neve" },
 ];
+
+/**
+ * Fotos de la sección "Sport" (calcio), enviadas el 19-20/11/2026. Se publican con autorización del equipo.
+ * Archivos en `public/guida/deporte/NN.webp` (1280 px) y `NN-sm.webp` (560 px), sin EXIF.
+ * Quedaron afuera el selfie y una copia en baja resolución. Leyendas en italiano fácil.
+ */
+export const SPORT_PHOTOS: GalleryPhoto[] = [
+  { file: "01", caption: "Una squadra in posa prima della partita", wide: true },
+  { file: "02", caption: "La squadra con le maglie bianche e azzurre" },
+  { file: "03", caption: "Tifosi con la bandiera del Marocco" },
+  { file: "04", caption: "La squadra con le maglie nere e rosse" },
+  { file: "05", caption: "Una partita di calcio di sera" },
+  { file: "06", caption: "Festa con la torta dopo la partita" },
+  { file: "07", caption: "La squadra sotto i riflettori" },
+  { file: "08", caption: "Il giocatore numero 55 con il pallone" },
+  { file: "09", caption: "L'abbraccio della squadra" },
+  { file: "10", caption: "Foto di squadra con le maglie bianche" },
+  { file: "11", caption: "Allenamento: si corre sul campo" },
+  { file: "12", caption: "I giocatori a bordo campo" },
+  { file: "13", caption: "L'allenatore e un giocatore con la torta" },
+  { file: "14", caption: "Il riscaldamento sul campo" },
+  { file: "15", caption: "Allenamento con le luci accese" },
+  { file: "16", caption: "I giocatori in fila sul campo" },
+];

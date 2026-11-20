@@ -5,7 +5,7 @@ import Link from "next/link";
 import { EXTRAS_COPY } from "@/lib/guida/extras";
 import { PHRASE_GROUPS } from "@/lib/guida/phrases";
 import { GROUP_SCENE, PHRASE_PICTOS, PHRASES_UI } from "@/lib/guida/phrases-ui";
-import { useSpeech } from "@/lib/guida/use-speech";
+import { recordingFor, useSpeech } from "@/lib/guida/use-speech";
 import { LOCALES, useLocale, type Locale } from "@/lib/i18n/locale";
 
 import { Picto, Scene } from "./Pictos";
@@ -30,10 +30,10 @@ export function FrasiSituation({ id }: { id: string }) {
   const rtl = locale === "ar" ? "rtl" : "ltr";
   const mineName = LOCALES.find((l) => l.id === locale)?.name ?? locale;
 
-  const audioBtn = (key: string, text: string, lang: Locale, label: string, primary: boolean) => (
+  const audioBtn = (key: string, text: string, lang: Locale, label: string, primary: boolean, recording?: string) => (
     <button
       type="button"
-      onClick={() => play(key, text, lang)}
+      onClick={() => play(key, text, lang, recording)}
       aria-pressed={playingKey === key}
       aria-label={`${label}: ${text}`}
       className={`flex min-h-14 flex-1 items-center justify-center gap-2 rounded-lg border-2 px-3 text-sm font-extrabold transition hover:brightness-110 ${
@@ -101,7 +101,7 @@ export function FrasiSituation({ id }: { id: string }) {
               </div>
             </div>
             <div className="mt-4 flex flex-col gap-2 sm:flex-row">
-              {locale !== "it" ? audioBtn(`${ph.it}|mine`, ph.tr[locale], locale, ui.listenMine, false) : null}
+              {locale !== "it" ? audioBtn(`${ph.it}|mine`, ph.tr[locale], locale, ui.listenMine, false, recordingFor(id, i + 1, locale)) : null}
               {audioBtn(`${ph.it}|it`, ph.it, "it", ui.listenIt, true)}
             </div>
           </li>

@@ -1,9 +1,26 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 import { SPEECH_LANG } from "@/lib/guida/copy";
 import type { Locale } from "@/lib/i18n/locale";
+import { withBasePath } from "@/lib/routing/base-path";
+
+/** Grabaciones reales en árabe (`public/guida/audio/ar/<situación>-<n>.m4a`). Falta banca-2: usa la voz del dispositivo. */
+const AR_RECORDINGS = new Set([
+  "questura-1", "questura-2", "questura-3", "questura-4",
+  "entrate-1", "entrate-2", "entrate-3", "entrate-4",
+  "asp-1", "asp-2", "asp-3",
+  "banca-1", "banca-3",
+  "casa-1", "casa-2", "casa-3",
+]);
+
+/** Ruta de la grabación real de una frase (n empieza en 1), o undefined si no hay. */
+export function recordingFor(groupId: string, n: number, lang: Locale): string | undefined {
+  if (lang !== "ar") return undefined;
+  const id = `${groupId}-${n}`;
+  return AR_RECORDINGS.has(id) ? `/guida/audio/ar/${id}.m4a` : undefined;
+}
 
 /** ¿El dispositivo tiene una voz para este idioma? (el árabe y el rumano a veces faltan) */
 function hasVoice(lang: Locale): boolean {
@@ -16,31 +33,52 @@ function hasVoice(lang: Locale): boolean {
 /**
  * Lee un texto en voz alta con la voz del dispositivo.
  * `missing` queda con el idioma sin voz instalada, para avisar con un mensaje.
- * Cuando haya grabaciones propias, reemplazar `play` por un <audio> sin cambiar quien lo usa.
+ * Si se pasa `recording`, reproduce ese archivo de audio en vez de la voz del dispositivo.
  */
 export function useSpeech() {
   const [playingKey, setPlayingKey] = useState<string | null>(null);
   const [missing, setMissing] = useState<Locale | null>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  const stopFile = () => {
+    audioRef.current?.pause();
+    audioRef.current = null;
+  };
 
   useEffect(() => {
     return () => {
+      audioRef.current?.pause();
       if ("speechSynthesis" in window) window.speechSynthesis.cancel();
     };
   }, []);
 
   const stop = useCallback(() => {
+    audioRef.current?.pause();
+    audioRef.current = null;
     if ("speechSynthesis" in window) window.speechSynthesis.cancel();
     setPlayingKey(null);
   }, []);
 
   const play = useCallback(
-    (key: string, text: string, lang: Locale) => {
-      if (!("speechSynthesis" in window)) {
-        setMissing(lang);
-        return;
-      }
+    (key: string, text: string, lang: Locale, recording?: string) => {
       if (playingKey === key) {
         stop();
+        return;
+      }
+      stopFile();
+      if (recording) {
+        setMissing(null);
+        if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+        const a = new Audio(withBasePath(recording));
+        a.onended = () => setPlayingKey(null);
+        a.onerror = () => setPlayingKey(null);
+        audioRef.current = a;
+        a.play().catch(() => setPlayingKey(null));
+        setPlayingKey(key);
+        return;
+      }
+      if (!("speechSynthesis" in window)) {
+        setMissing(lang);
         return;
       }
       setMissing(null);

@@ -6,6 +6,7 @@ import type { Map as LeafletMap, LayerGroup } from "leaflet";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 
+import { BENESSERE_PHOTOS, SPORT_PHOTOS } from "@/data/guida/benessere-gallery";
 import { approvedPlaces, type GuidaCategory, type GuidaPlace } from "@/data/guida/places";
 import { GUIDA_COPY, SPEECH_LANG } from "@/lib/guida/copy";
 import { EXTRAS_COPY, GUIDA_ROUTES } from "@/lib/guida/extras";
@@ -13,6 +14,7 @@ import { useLocale, type Locale } from "@/lib/i18n/locale";
 import { withBasePath } from "@/lib/routing/base-path";
 
 import { GuidaGallery } from "./GuidaGallery";
+import { HymnPlayer } from "./HymnPlayer";
 import { Picto } from "./Pictos";
 
 const CATEGORY_COLOR: Record<GuidaCategory, string> = {
@@ -257,6 +259,7 @@ export function GuidaExplorer() {
         </div>
       </header>
       <div aria-hidden className="azulejo-strip mt-3" />
+      <HymnPlayer copy={extras.hymn} />
 
       <Link
         href="/guida/frasi"
@@ -421,7 +424,24 @@ export function GuidaExplorer() {
         </section>
       </div>
 
-      <GuidaGallery copy={extras.gallery} />
+      {filter === "all" || filter === "sport" ? (
+        <GuidaGallery
+          copy={extras.gallery}
+          photos={SPORT_PHOTOS}
+          folder="deporte"
+          title={extras.sportGallery.title}
+          hint={extras.sportGallery.hint}
+        />
+      ) : null}
+      {filter === "all" || filter === "benessere" ? (
+        <GuidaGallery
+          copy={extras.gallery}
+          photos={BENESSERE_PHOTOS}
+          folder="benessere"
+          title={extras.gallery.title}
+          hint={extras.gallery.hint}
+        />
+      ) : null}
 
     </div>
   );
