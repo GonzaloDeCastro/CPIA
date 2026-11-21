@@ -15,11 +15,21 @@ const AR_RECORDINGS = new Set([
   "casa-1", "casa-2", "casa-3",
 ]);
 
+/** Grabaciones reales en español (`public/guida/audio/es/<situación>-<n>.ogg`): están las 17 frases. */
+const ES_RECORDINGS = new Set([
+  "questura-1", "questura-2", "questura-3", "questura-4",
+  "entrate-1", "entrate-2", "entrate-3", "entrate-4",
+  "asp-1", "asp-2", "asp-3",
+  "banca-1", "banca-2", "banca-3",
+  "casa-1", "casa-2", "casa-3",
+]);
+
 /** Ruta de la grabación real de una frase (n empieza en 1), o undefined si no hay. */
 export function recordingFor(groupId: string, n: number, lang: Locale): string | undefined {
-  if (lang !== "ar") return undefined;
   const id = `${groupId}-${n}`;
-  return AR_RECORDINGS.has(id) ? `/guida/audio/ar/${id}.m4a` : undefined;
+  if (lang === "ar") return AR_RECORDINGS.has(id) ? `/guida/audio/ar/${id}.m4a` : undefined;
+  if (lang === "es") return ES_RECORDINGS.has(id) ? `/guida/audio/es/${id}.ogg` : undefined;
+  return undefined;
 }
 
 /** ¿El dispositivo tiene una voz para este idioma? (el árabe y el rumano a veces faltan) */
