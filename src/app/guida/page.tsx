@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { GuidaExplorer } from "@/components/guida/GuidaExplorer";
+import { GuidaHome } from "@/components/guida/GuidaHome";
 
 export const metadata: Metadata = {
   title: { absolute: "Tra Zagare e Merendine – Guida digitale plurilingue" },
@@ -10,5 +10,5 @@ export const metadata: Metadata = {
 };
 
 export default function GuidaPage() {
-  return <GuidaExplorer />;
+  return <GuidaHome />;
 }

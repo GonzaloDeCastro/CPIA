@@ -24,11 +24,15 @@ const ES_RECORDINGS = new Set([
   "casa-1", "casa-2", "casa-3",
 ]);
 
+/** Grabaciones reales en francés (`public/guida/audio/fr/<situación>-<n>.m4a`): están las 17 frases. */
+const FR_RECORDINGS = ES_RECORDINGS;
+
 /** Ruta de la grabación real de una frase (n empieza en 1), o undefined si no hay. */
 export function recordingFor(groupId: string, n: number, lang: Locale): string | undefined {
   const id = `${groupId}-${n}`;
   if (lang === "ar") return AR_RECORDINGS.has(id) ? `/guida/audio/ar/${id}.m4a` : undefined;
   if (lang === "es") return ES_RECORDINGS.has(id) ? `/guida/audio/es/${id}.ogg` : undefined;
+  if (lang === "fr") return FR_RECORDINGS.has(id) ? `/guida/audio/fr/${id}.m4a` : undefined;
   return undefined;
 }
 

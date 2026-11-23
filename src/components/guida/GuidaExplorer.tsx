@@ -10,6 +10,7 @@ import { BENESSERE_PHOTOS, SPORT_PHOTOS } from "@/data/guida/benessere-gallery";
 import { approvedPlaces, type GuidaCategory, type GuidaPlace } from "@/data/guida/places";
 import { GUIDA_COPY, SPEECH_LANG } from "@/lib/guida/copy";
 import { EXTRAS_COPY, GUIDA_ROUTES } from "@/lib/guida/extras";
+import { HOME_COPY } from "@/lib/guida/home-copy";
 import { useLocale, type Locale } from "@/lib/i18n/locale";
 import { withBasePath } from "@/lib/routing/base-path";
 
@@ -162,6 +163,12 @@ export function GuidaExplorer() {
   }
   useEffect(() => setTab(null), [locale]);
 
+  // Viene de la home con #sport, #arte o #benessere: arranca ya filtrado.
+  useEffect(() => {
+    const h = window.location.hash.slice(1);
+    if ((CATEGORIES as string[]).includes(h)) setFilter(h as GuidaCategory);
+  }, []);
+
   // Por defecto se lee en el idioma elegido; el italiano fácil queda en su pestaña.
   const activeTab: Tab = tab === null || (tab === "mine" && locale === "it") ? (locale === "it" ? "simple" : "mine") : tab;
 
@@ -218,6 +225,10 @@ export function GuidaExplorer() {
   return (
     <div className="mx-auto max-w-6xl px-4 pb-28 pt-3 sm:px-6 sm:pt-4">
       <div className="mb-2 flex items-center justify-end gap-2" role="group" aria-label={extras.a11y.label}>
+        <Link href="/guida" className={`${util} me-auto border-green-950/30 text-heading hover:border-green-950`}>
+          ← {HOME_COPY[locale].back}
+        </Link>
+
         <button
           type="button"
           className={`${util} ${bigText ? "border-green-950 bg-green-950 text-lime-300" : "border-green-950/30 text-heading hover:border-green-950"}`}

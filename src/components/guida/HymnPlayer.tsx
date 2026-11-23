@@ -6,7 +6,7 @@ import type { ExtrasCopy } from "@/lib/guida/extras";
 import { withBasePath } from "@/lib/routing/base-path";
 
 /** Botón de play del himno de la escuela (`public/guida/audio/himno.mp3`). El archivo se carga recién al tocar. */
-export function HymnPlayer({ copy }: { copy: ExtrasCopy["hymn"] }) {
+export function HymnPlayer({ copy, className = "mt-3 flex justify-center" }: { copy: ExtrasCopy["hymn"]; className?: string }) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [playing, setPlaying] = useState(false);
 
@@ -35,7 +35,7 @@ export function HymnPlayer({ copy }: { copy: ExtrasCopy["hymn"] }) {
   }
 
   return (
-    <div className="mt-3 flex justify-center">
+    <div className={className}>
       <button
         type="button"
         onClick={toggle}

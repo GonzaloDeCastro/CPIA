@@ -66,6 +66,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     { url: `${base}/guida/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/guida/mappa/`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${base}/guida/info-utili/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/guida/sport/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/guida/frasi/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     ...PHRASE_GROUPS.map((g) => ({ url: `${base}/guida/frasi/${g.id}/`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 })),
     { url: `${base}/guida/progetto/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
