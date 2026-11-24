@@ -30,6 +30,7 @@ export const NEED_ORDER: Record<number, NeedId[]> = {
 type Three<T> = [T, T, T];
 
 export type HomeCopy = {
+  welcome: string;
   lead: string;
   back: string;
   openMap: string;
@@ -62,12 +63,14 @@ export type HomeCopy = {
     exampleMsg: string;
     desc: Record<"football" | "volley" | "basket" | "tennis", { name: string; desc: string }>;
     gallery: string;
+    form: Record<"title" | "name" | "contact" | "sport" | "submit" | "saved" | "listTitle" | "remove" | "note" | "missing", string>;
   };
 };
 
 export const HOME_COPY: Record<Locale, HomeCopy> = {
   it: {
-    lead: "Questa app ti aiuta a vivere Giarre, Paternò e l'Etna. Trovi informazioni utili, sport e benessere, arte e natura, con parole semplici, audio e traduzioni nella tua lingua.",
+    welcome: "Benvenuti alle pendici dell’Etna:",
+    lead: "Qui trovi tutte le informazioni utili per chi arriva in Sicilia. Senza dimenticare sport e benessere, arte e natura, con parole semplici, audio e traduzioni nella tua lingua.",
     back: "Torna alla home",
     openMap: "Apri la mappa dei luoghi",
     assistant: {
@@ -120,10 +123,12 @@ export const HOME_COPY: Record<Locale, HomeCopy> = {
         tennis: { name: "Tennis", desc: "Uno contro uno, oppure in doppio." },
       },
       gallery: "Guarda le foto e i luoghi sulla mappa",
+      form: { title: "Iscriviti a una squadra", name: "Nome", contact: "Telefono o email", sport: "Sport", submit: "Iscrivimi", saved: "Iscrizione salvata! Ti contatteranno presto.", listTitle: "Iscrizioni salvate su questo dispositivo", remove: "Elimina", note: "Prova dimostrativa: i dati restano solo su questo dispositivo.", missing: "Scrivi il tuo nome e un contatto." },
     },
   },
   es: {
-    lead: "Esta app te ayuda a vivir Giarre, Paternò y el Etna. Encontrás información útil, deporte y bienestar, arte y naturaleza, con palabras simples, audio y traducciones a tu idioma.",
+    welcome: "Bienvenidos a las laderas del Etna:",
+    lead: "Acá encontrás toda la información útil para quien llega a Sicilia. Sin olvidar el deporte y el bienestar, el arte y la naturaleza, con palabras simples, audio y traducciones a tu idioma.",
     back: "Volver al inicio",
     openMap: "Abrir el mapa de lugares",
     assistant: {
@@ -176,10 +181,12 @@ export const HOME_COPY: Record<Locale, HomeCopy> = {
         tennis: { name: "Tenis", desc: "Uno contra uno, o en dobles." },
       },
       gallery: "Mirá las fotos y los lugares en el mapa",
+      form: { title: "Anotate en un equipo", name: "Nombre", contact: "Teléfono o email", sport: "Deporte", submit: "Anotarme", saved: "¡Inscripción guardada! Pronto te van a contactar.", listTitle: "Inscripciones guardadas en este dispositivo", remove: "Borrar", note: "Prueba demostrativa: los datos quedan solo en este dispositivo.", missing: "Escribí tu nombre y un contacto." },
     },
   },
   en: {
-    lead: "This app helps you enjoy Giarre, Paternò and Mount Etna. You will find useful information, sport and wellbeing, art and nature, with simple words, audio and translations in your language.",
+    welcome: "Welcome to the slopes of Mount Etna:",
+    lead: "Here you will find all the useful information for those arriving in Sicily. Without forgetting sport and wellbeing, art and nature, with simple words, audio and translations in your language.",
     back: "Back to home",
     openMap: "Open the map of places",
     assistant: {
@@ -232,10 +239,12 @@ export const HOME_COPY: Record<Locale, HomeCopy> = {
         tennis: { name: "Tennis", desc: "One on one, or doubles." },
       },
       gallery: "See the photos and places on the map",
+      form: { title: "Sign up for a team", name: "Name", contact: "Phone or email", sport: "Sport", submit: "Sign me up", saved: "Sign-up saved! They will contact you soon.", listTitle: "Sign-ups saved on this device", remove: "Delete", note: "Demo only: the data stays on this device.", missing: "Write your name and a contact." },
     },
   },
   fr: {
-    lead: "Cette appli t'aide à vivre Giarre, Paternò et l'Etna. Tu trouves des infos utiles, du sport et du bien-être, de l'art et de la nature, avec des mots simples, de l'audio et des traductions dans ta langue.",
+    welcome: "Bienvenue sur les pentes de l'Etna :",
+    lead: "Tu trouves ici toutes les informations utiles pour ceux qui arrivent en Sicile. Sans oublier le sport et le bien-être, l'art et la nature, avec des mots simples, de l'audio et des traductions dans ta langue.",
     back: "Retour à l'accueil",
     openMap: "Ouvrir la carte des lieux",
     assistant: {
@@ -288,10 +297,12 @@ export const HOME_COPY: Record<Locale, HomeCopy> = {
         tennis: { name: "Tennis", desc: "Un contre un, ou en double." },
       },
       gallery: "Voir les photos et les lieux sur la carte",
+      form: { title: "Inscris-toi à une équipe", name: "Nom", contact: "Téléphone ou e-mail", sport: "Sport", submit: "M'inscrire", saved: "Inscription enregistrée ! On te contactera bientôt.", listTitle: "Inscriptions enregistrées sur cet appareil", remove: "Supprimer", note: "Simple démonstration : les données restent sur cet appareil.", missing: "Écris ton nom et un contact." },
     },
   },
   ar: {
-    lead: "يساعدك هذا التطبيق على التعرف على جاري وباتيرنو وجبل إتنا. تجد معلومات مفيدة، ورياضة وعافية، وفنًا وطبيعة، بكلمات بسيطة وصوت وترجمات بلغتك.",
+    welcome: "أهلًا بكم على سفوح جبل إتنا:",
+    lead: "تجد هنا كل المعلومات المفيدة لمن يصل إلى صقلية. دون أن ننسى الرياضة والعافية، والفن والطبيعة، بكلمات بسيطة وصوت وترجمات بلغتك.",
     back: "العودة إلى الرئيسية",
     openMap: "افتح خريطة الأماكن",
     assistant: {
@@ -344,10 +355,12 @@ export const HOME_COPY: Record<Locale, HomeCopy> = {
         tennis: { name: "التنس", desc: "واحد ضد واحد أو زوجي." },
       },
       gallery: "شاهد الصور والأماكن على الخريطة",
+      form: { title: "سجّل في فريق", name: "الاسم", contact: "الهاتف أو البريد الإلكتروني", sport: "الرياضة", submit: "سجّلني", saved: "تم حفظ التسجيل! سيتصلون بك قريبًا.", listTitle: "التسجيلات المحفوظة على هذا الجهاز", remove: "حذف", note: "تجربة فقط: تبقى البيانات على هذا الجهاز.", missing: "اكتب اسمك ووسيلة اتصال." },
     },
   },
   ro: {
-    lead: "Această aplicație te ajută să cunoști Giarre, Paternò și Etna. Găsești informații utile, sport și bunăstare, artă și natură, cu cuvinte simple, audio și traduceri în limba ta.",
+    welcome: "Bun venit pe versanții Etnei:",
+    lead: "Aici găsești toate informațiile utile pentru cei care ajung în Sicilia. Fără să uităm sportul și bunăstarea, arta și natura, cu cuvinte simple, audio și traduceri în limba ta.",
     back: "Înapoi la pagina principală",
     openMap: "Deschide harta locurilor",
     assistant: {
@@ -400,6 +413,7 @@ export const HOME_COPY: Record<Locale, HomeCopy> = {
         tennis: { name: "Tenis", desc: "Unul contra unul sau la dublu." },
       },
       gallery: "Vezi pozele și locurile pe hartă",
+      form: { title: "Înscrie-te într-o echipă", name: "Nume", contact: "Telefon sau e-mail", sport: "Sport", submit: "Înscrie-mă", saved: "Înscriere salvată! Te vor contacta curând.", listTitle: "Înscrieri salvate pe acest dispozitiv", remove: "Șterge", note: "Doar demonstrativ: datele rămân pe acest dispozitiv.", missing: "Scrie-ți numele și un contact." },
     },
   },
 };

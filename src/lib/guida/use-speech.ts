@@ -27,12 +27,26 @@ const ES_RECORDINGS = new Set([
 /** Grabaciones reales en francés (`public/guida/audio/fr/<situación>-<n>.m4a`): están las 17 frases. */
 const FR_RECORDINGS = ES_RECORDINGS;
 
+/** Grabaciones reales en inglés y rumano (`.ogg`): están las 17 frases. */
+const EN_RECORDINGS = ES_RECORDINGS;
+const RO_RECORDINGS = ES_RECORDINGS;
+
+/** Grabaciones reales en italiano (`.m4a`): faltan las de banca y casa, que usan la voz del dispositivo. */
+const IT_RECORDINGS = new Set([
+  "questura-1", "questura-2", "questura-3", "questura-4",
+  "entrate-1", "entrate-2", "entrate-3", "entrate-4",
+  "asp-1", "asp-2", "asp-3",
+]);
+
 /** Ruta de la grabación real de una frase (n empieza en 1), o undefined si no hay. */
 export function recordingFor(groupId: string, n: number, lang: Locale): string | undefined {
   const id = `${groupId}-${n}`;
   if (lang === "ar") return AR_RECORDINGS.has(id) ? `/guida/audio/ar/${id}.m4a` : undefined;
   if (lang === "es") return ES_RECORDINGS.has(id) ? `/guida/audio/es/${id}.ogg` : undefined;
   if (lang === "fr") return FR_RECORDINGS.has(id) ? `/guida/audio/fr/${id}.m4a` : undefined;
+  if (lang === "en") return EN_RECORDINGS.has(id) ? `/guida/audio/en/${id}.ogg` : undefined;
+  if (lang === "ro") return RO_RECORDINGS.has(id) ? `/guida/audio/ro/${id}.ogg` : undefined;
+  if (lang === "it") return IT_RECORDINGS.has(id) ? `/guida/audio/it/${id}.m4a` : undefined;
   return undefined;
 }
 

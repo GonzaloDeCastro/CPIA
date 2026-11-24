@@ -51,7 +51,8 @@ export function GuidaHome() {
       </header>
       <div aria-hidden className="azulejo-strip mt-3" />
 
-      <p className="mt-4 text-lg font-semibold leading-relaxed text-foreground sm:text-xl">{copy.lead}</p>
+      <p className="mt-4 font-display text-2xl font-extrabold leading-snug text-heading sm:text-3xl">{copy.welcome}</p>
+      <p className="mt-1 text-lg font-semibold leading-relaxed text-foreground sm:text-xl">{copy.lead}</p>
 
       <section aria-labelledby="assistente" className="mt-4 rounded-2xl border-2 border-green-700 bg-green-950 tile-card p-4 text-green-50 sm:p-5">
         <h2 id="assistente" className="font-display text-2xl font-extrabold text-white">

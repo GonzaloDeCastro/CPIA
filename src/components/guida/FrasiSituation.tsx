@@ -102,7 +102,7 @@ export function FrasiSituation({ id }: { id: string }) {
             </div>
             <div className="mt-4 flex flex-col gap-2 sm:flex-row">
               {locale !== "it" ? audioBtn(`${ph.it}|mine`, ph.tr[locale], locale, ui.listenMine, false, recordingFor(id, i + 1, locale)) : null}
-              {audioBtn(`${ph.it}|it`, ph.it, "it", ui.listenIt, true)}
+              {audioBtn(`${ph.it}|it`, ph.it, "it", ui.listenIt, true, recordingFor(id, i + 1, "it"))}
             </div>
           </li>
         ))}
