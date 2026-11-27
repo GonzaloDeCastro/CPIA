@@ -7,28 +7,28 @@ export type GuidaRoute = { id: string; name: Tr; placeIds: string[] };
 
 export const GUIDA_ROUTES: GuidaRoute[] = [
   {
-    id: "paterno",
+    id: "catania",
     name: {
-      it: "Percorso di Paternò",
-      es: "Recorrido de Paternò",
-      en: "Paternò route",
-      fr: "Parcours de Paternò",
-      ar: "مسار باتيرنو",
-      ro: "Traseul Paternò",
+      it: "Catania città",
+      es: "Ciudad de Catania",
+      en: "Catania city",
+      fr: "Ville de Catane",
+      ar: "مدينة كاتانيا",
+      ro: "Orașul Catania",
     },
-    placeIds: ["G-001", "G-002"],
+    placeIds: ["G-008", "G-009", "G-010"],
   },
   {
-    id: "giarre",
+    id: "provincia",
     name: {
-      it: "Percorso di Giarre",
-      es: "Recorrido de Giarre",
-      en: "Giarre route",
-      fr: "Parcours de Giarre",
-      ar: "مسار جاري",
-      ro: "Traseul Giarre",
+      it: "Provincia di Catania",
+      es: "Provincia de Catania",
+      en: "Province of Catania",
+      fr: "Province de Catane",
+      ar: "مقاطعة كاتانيا",
+      ro: "Provincia Catania",
     },
-    placeIds: ["G-003", "G-004"],
+    placeIds: ["G-001", "G-002", "G-003", "G-004"],
   },
   {
     id: "etna",
@@ -220,7 +220,7 @@ export type ProjectCopy = {
 export const PROJECT_COPY: Record<Locale, ProjectCopy> = {
   it: {
     title: "Tra zagare e merendine",
-    lead: "Una guida digitale plurilingue ai luoghi di Giarre, Paternò e dell'Etna, fatta dagli studenti del CPIA Catania 2 per chi arriva e parla ancora poco italiano. Tre temi: sport, arte e benessere.",
+    lead: "Una guida digitale plurilingue ai luoghi di Catania, della sua provincia e dell'Etna, fatta dagli studenti del CPIA Catania 2 per chi arriva e parla ancora poco italiano. Tre temi: sport, arte e benessere.",
     back: "Torna alla mappa",
     flowTitle: "Come lavoriamo: IA + persone",
     flow: [
@@ -241,11 +241,11 @@ export const PROJECT_COPY: Record<Locale, ProjectCopy> = {
     tools: "Sito statico su GitHub Pages, mappa OpenStreetMap, voce del dispositivo per l'audio, Alto contrasto e testo grande per l'accessibilità.",
     qrTitle: "Condividi la guida",
     qrText: "Inquadra il codice con il telefono per aprire la guida.",
-    credit: "CPIA Catania 2 – Giarre e Paternò · EPALE Edu Hack 2026",
+    credit: "CPIA Catania 2 · EPALE Edu Hack 2026",
   },
   es: {
     title: "Entre azahares y meriendas",
-    lead: "Una guía digital plurilingüe de los lugares de Giarre, Paternò y el Etna, hecha por estudiantes del CPIA Catania 2 para quienes llegan y hablan todavía poco italiano. Tres temas: deporte, arte y bienestar.",
+    lead: "Una guía digital plurilingüe de los lugares de Catania, su provincia y el Etna, hecha por estudiantes del CPIA Catania 2 para quienes llegan y hablan todavía poco italiano. Tres temas: deporte, arte y bienestar.",
     back: "Volver al mapa",
     flowTitle: "Cómo trabajamos: IA + personas",
     flow: [
@@ -266,11 +266,11 @@ export const PROJECT_COPY: Record<Locale, ProjectCopy> = {
     tools: "Sitio estático en GitHub Pages, mapa de OpenStreetMap, voz del dispositivo para el audio, alto contraste y texto grande para la accesibilidad.",
     qrTitle: "Compartí la guía",
     qrText: "Escaneá el código con el teléfono para abrir la guía.",
-    credit: "CPIA Catania 2 – Giarre y Paternò · EPALE Edu Hack 2026",
+    credit: "CPIA Catania 2 · EPALE Edu Hack 2026",
   },
   en: {
     title: "Between orange blossoms and snacks",
-    lead: "A multilingual digital guide to places in Giarre, Paternò and Etna, made by students of CPIA Catania 2 for people who have just arrived and still speak little Italian. Three themes: sport, art and wellbeing.",
+    lead: "A multilingual digital guide to places in Catania, its province and Etna, made by students of CPIA Catania 2 for people who have just arrived and still speak little Italian. Three themes: sport, art and wellbeing.",
     back: "Back to the map",
     flowTitle: "How we work: AI + people",
     flow: [
@@ -291,11 +291,11 @@ export const PROJECT_COPY: Record<Locale, ProjectCopy> = {
     tools: "Static site on GitHub Pages, OpenStreetMap map, the device voice for audio, high contrast and large text for accessibility.",
     qrTitle: "Share the guide",
     qrText: "Scan the code with your phone to open the guide.",
-    credit: "CPIA Catania 2 – Giarre and Paternò · EPALE Edu Hack 2026",
+    credit: "CPIA Catania 2 · EPALE Edu Hack 2026",
   },
   fr: {
     title: "Entre fleurs d'oranger et goûters",
-    lead: "Un guide numérique multilingue des lieux de Giarre, Paternò et de l'Etna, réalisé par les élèves du CPIA Catania 2 pour les personnes qui viennent d'arriver et parlent encore peu l'italien. Trois thèmes : sport, art et bien-être.",
+    lead: "Un guide numérique multilingue des lieux de Catane, de sa province et de l'Etna, réalisé par les élèves du CPIA Catania 2 pour les personnes qui viennent d'arriver et parlent encore peu l'italien. Trois thèmes : sport, art et bien-être.",
     back: "Retour à la carte",
     flowTitle: "Comment nous travaillons : IA + personnes",
     flow: [
@@ -316,11 +316,11 @@ export const PROJECT_COPY: Record<Locale, ProjectCopy> = {
     tools: "Site statique sur GitHub Pages, carte OpenStreetMap, voix de l'appareil pour l'audio, contraste élevé et grand texte pour l'accessibilité.",
     qrTitle: "Partager le guide",
     qrText: "Scannez le code avec votre téléphone pour ouvrir le guide.",
-    credit: "CPIA Catania 2 – Giarre et Paternò · EPALE Edu Hack 2026",
+    credit: "CPIA Catania 2 · EPALE Edu Hack 2026",
   },
   ar: {
     title: "بين زهر البرتقال والوجبات الخفيفة",
-    lead: "دليل رقمي متعدد اللغات لأماكن جاري وباتيرنو وإتنا، أنجزه طلاب CPIA Catania 2 لمن وصل حديثًا ولا يتحدث الإيطالية جيدًا بعد. ثلاثة محاور: الرياضة والفن والعافية.",
+    lead: "دليل رقمي متعدد اللغات لأماكن كاتانيا ومقاطعتها وإتنا، أنجزه طلاب CPIA Catania 2 لمن وصل حديثًا ولا يتحدث الإيطالية جيدًا بعد. ثلاثة محاور: الرياضة والفن والعافية.",
     back: "العودة إلى الخريطة",
     flowTitle: "كيف نعمل: الذكاء الاصطناعي + الناس",
     flow: [
@@ -341,11 +341,11 @@ export const PROJECT_COPY: Record<Locale, ProjectCopy> = {
     tools: "موقع ثابت على GitHub Pages، وخريطة OpenStreetMap، وصوت الجهاز للتسجيلات، وتباين عالٍ ونص كبير لسهولة الوصول.",
     qrTitle: "شارك الدليل",
     qrText: "امسح الرمز بهاتفك لفتح الدليل.",
-    credit: "CPIA Catania 2 – جاري وباتيرنو · EPALE Edu Hack 2026",
+    credit: "CPIA Catania 2 · EPALE Edu Hack 2026",
   },
   ro: {
     title: "Între flori de portocal și gustări",
-    lead: "Un ghid digital plurilingv al locurilor din Giarre, Paternò și de pe Etna, realizat de cursanții CPIA Catania 2 pentru cei care tocmai au sosit și vorbesc încă puțin italiană. Trei teme: sport, artă și bunăstare.",
+    lead: "Un ghid digital plurilingv al locurilor din Catania, din provincia sa și de pe Etna, realizat de cursanții CPIA Catania 2 pentru cei care tocmai au sosit și vorbesc încă puțin italiană. Trei teme: sport, artă și bunăstare.",
     back: "Înapoi la hartă",
     flowTitle: "Cum lucrăm: IA + oameni",
     flow: [
@@ -366,6 +366,6 @@ export const PROJECT_COPY: Record<Locale, ProjectCopy> = {
     tools: "Site static pe GitHub Pages, hartă OpenStreetMap, vocea dispozitivului pentru sunet, contrast ridicat și text mare pentru accesibilitate.",
     qrTitle: "Distribuie ghidul",
     qrText: "Scanează codul cu telefonul pentru a deschide ghidul.",
-    credit: "CPIA Catania 2 – Giarre și Paternò · EPALE Edu Hack 2026",
+    credit: "CPIA Catania 2 · EPALE Edu Hack 2026",
   },
 };
