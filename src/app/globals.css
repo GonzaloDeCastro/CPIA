@@ -160,6 +160,9 @@ html.guida-hc {
 html.guida-hc body {
   background: #000;
 }
+html.guida-hc [class*="border-green-950"] {
+  border-color: #fff !important;
+}
 html.guida-hc .bg-green-950,
 html.guida-hc .bg-green-900,
 html.guida-hc .bg-green-800 {

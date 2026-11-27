@@ -6,6 +6,8 @@ import { useEffect, useRef, useState } from "react";
 import { HOME_COPY, SPORT_TEAMS } from "@/lib/guida/home-copy";
 import { useLocale } from "@/lib/i18n/locale";
 
+import { A11yButtons } from "./A11yButtons";
+
 const STORAGE_KEY = "guida-sport-signups";
 
 type Signup = { id: string; name: string; contact: string; sport: string; at: string };
@@ -81,9 +83,12 @@ export function SportView() {
 
   return (
     <div className="mx-auto max-w-4xl px-4 pb-28 pt-6 sm:px-6">
-      <Link href="/guida" className="inline-flex min-h-11 items-center text-sm font-bold text-heading underline">
-        ← {copy.back}
-      </Link>
+      <div className="flex items-center justify-between gap-2">
+        <Link href="/guida" className="inline-flex min-h-11 items-center text-sm font-bold text-heading underline">
+          ← {copy.back}
+        </Link>
+        <A11yButtons />
+      </div>
       <h1 className="mt-2 font-display text-3xl font-extrabold text-heading sm:text-4xl">{s.title}</h1>
       <div aria-hidden className="azulejo-strip mt-3" />
       <p className="mt-3 text-lg text-foreground">{s.intro}</p>

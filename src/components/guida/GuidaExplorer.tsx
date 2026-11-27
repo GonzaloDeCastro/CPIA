@@ -14,6 +14,7 @@ import { HOME_COPY } from "@/lib/guida/home-copy";
 import { useLocale, type Locale } from "@/lib/i18n/locale";
 import { withBasePath } from "@/lib/routing/base-path";
 
+import { A11yButtons } from "./A11yButtons";
 import { GuidaGallery } from "./GuidaGallery";
 import { HymnPlayer } from "./HymnPlayer";
 import { Picto } from "./Pictos";
@@ -38,8 +39,6 @@ export function GuidaExplorer() {
   const [speakingKey, setSpeakingKey] = useState<string | null>(null);
   const speaking = speakingKey === "place";
   const [routeId, setRouteId] = useState<string | null>(null);
-  const [bigText, setBigText] = useState(false);
-  const [contrast, setContrast] = useState(false);
   const extras = EXTRAS_COPY[locale];
 
   const mapEl = useRef<HTMLDivElement>(null);
@@ -133,34 +132,6 @@ export function GuidaExplorer() {
   }, [selectedId, tab, locale]);
   useEffect(() => setSpeakingKey(null), [selectedId, tab, locale]);
 
-  // Accesibilidad: preferencias guardadas en el navegador (si hay storage).
-  useEffect(() => {
-    try {
-      setBigText(window.localStorage.getItem("guida-big") === "1");
-      setContrast(window.localStorage.getItem("guida-hc") === "1");
-    } catch {
-      /* sin storage */
-    }
-  }, []);
-  useEffect(() => {
-    const root = document.documentElement;
-    root.style.fontSize = bigText ? "125%" : "";
-    root.classList.toggle("guida-hc", contrast);
-    return () => {
-      root.style.fontSize = "";
-      root.classList.remove("guida-hc");
-    };
-  }, [bigText, contrast]);
-  function toggleA11y(kind: "big" | "hc") {
-    const next = kind === "big" ? !bigText : !contrast;
-    if (kind === "big") setBigText(next);
-    else setContrast(next);
-    try {
-      window.localStorage.setItem(kind === "big" ? "guida-big" : "guida-hc", next ? "1" : "0");
-    } catch {
-      /* ignorar */
-    }
-  }
   useEffect(() => setTab(null), [locale]);
 
   // Viene de la home con #sport, #arte o #benessere: arranca ya filtrado.
@@ -224,31 +195,12 @@ export function GuidaExplorer() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 pb-28 pt-3 sm:px-6 sm:pt-4">
-      <div className="mb-2 flex items-center justify-end gap-2" role="group" aria-label={extras.a11y.label}>
+      <div className="mb-2 flex flex-wrap items-center justify-end gap-2">
         <Link href="/guida" className={`${util} me-auto border-green-950/30 text-heading hover:border-green-950`}>
           ← {HOME_COPY[locale].back}
         </Link>
 
-        <button
-          type="button"
-          className={`${util} ${bigText ? "border-green-950 bg-green-950 text-lime-300" : "border-green-950/30 text-heading hover:border-green-950"}`}
-          aria-pressed={bigText}
-          aria-label={extras.a11y.bigText}
-          title={extras.a11y.bigText}
-          onClick={() => toggleA11y("big")}
-        >
-          Aa
-        </button>
-        <button
-          type="button"
-          className={`${util} ${contrast ? "border-green-950 bg-green-950 text-lime-300" : "border-green-950/30 text-heading hover:border-green-950"}`}
-          aria-pressed={contrast}
-          aria-label={extras.a11y.contrast}
-          title={extras.a11y.contrast}
-          onClick={() => toggleA11y("hc")}
-        >
-          ◐
-        </button>
+        <A11yButtons />
         <Link href="/guida/progetto" className={`${util} border-green-950 bg-green-950 text-lime-300 hover:brightness-125`}>
           {extras.projectLink} →
         </Link>

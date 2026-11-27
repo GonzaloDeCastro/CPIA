@@ -8,6 +8,8 @@ import { PROJECT_COPY } from "@/lib/guida/extras";
 import { withBasePath } from "@/lib/routing/base-path";
 import { useLocale } from "@/lib/i18n/locale";
 
+import { A11yButtons } from "./A11yButtons";
+
 export function ProgettoView() {
   const { locale } = useLocale();
   const c = PROJECT_COPY[locale];
@@ -23,9 +25,12 @@ export function ProgettoView() {
 
   return (
     <div className="mx-auto max-w-4xl px-4 pb-28 pt-6 sm:px-6">
-      <Link href="/guida" className="inline-flex min-h-11 items-center text-sm font-bold text-heading underline">
-        ← {c.back}
-      </Link>
+      <div className="flex items-center justify-between gap-2">
+        <Link href="/guida" className="inline-flex min-h-11 items-center text-sm font-bold text-heading underline">
+          ← {c.back}
+        </Link>
+        <A11yButtons />
+      </div>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={withBasePath("/guida/brand/logo.webp")}

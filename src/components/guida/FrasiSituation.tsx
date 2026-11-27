@@ -8,6 +8,7 @@ import { GROUP_SCENE, PHRASE_PICTOS, PHRASES_UI } from "@/lib/guida/phrases-ui";
 import { recordingFor, useSpeech } from "@/lib/guida/use-speech";
 import { LOCALES, useLocale, type Locale } from "@/lib/i18n/locale";
 
+import { A11yButtons } from "./A11yButtons";
 import { Picto, Scene } from "./Pictos";
 
 function Speaker({ on }: { on: boolean }) {
@@ -50,9 +51,12 @@ export function FrasiSituation({ id }: { id: string }) {
 
   return (
     <div className="mx-auto max-w-4xl px-4 pb-28 pt-6 sm:px-6">
-      <Link href="/guida/frasi" className="inline-flex min-h-11 items-center text-sm font-bold text-heading underline">
-        ← {ui.allSituations}
-      </Link>
+      <div className="flex items-center justify-between gap-2">
+        <Link href="/guida/frasi" className="inline-flex min-h-11 items-center text-sm font-bold text-heading underline">
+          ← {ui.allSituations}
+        </Link>
+        <A11yButtons />
+      </div>
 
       <header className="mt-2 flex items-center gap-4">
         <Scene id={GROUP_SCENE[id]} size={96} />
