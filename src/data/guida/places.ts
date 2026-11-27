@@ -10,7 +10,7 @@ export type GuidaPlace = {
   id: string;
   name: string;
   category: GuidaCategory;
-  town: "Giarre" | "Paternò" | "Etna";
+  town: "Catania" | "Giarre" | "Paternò" | "Etna";
   lat: number;
   lng: number;
   /** Ejemplo de prueba: coordenadas aproximadas, texto a revisar con los estudiantes. */
@@ -23,6 +23,84 @@ export type GuidaPlace = {
 };
 
 export const GUIDA_PLACES: GuidaPlace[] = [
+  {
+    id: "G-008",
+    name: "Piazza Duomo e Cattedrale di Sant'Agata",
+    category: "arte",
+    town: "Catania",
+    lat: 37.5025,
+    lng: 15.0873,
+    isExample: true,
+    status: "approvato",
+    text: {
+      it: "È la piazza più famosa di Catania. Al centro c'è l'Elefante di pietra lavica, il simbolo della città. Accanto c'è la Cattedrale di Sant'Agata, la santa protettrice di Catania.",
+      es: "Es la plaza más famosa de Catania. En el centro está el Elefante de piedra de lava, el símbolo de la ciudad. Al lado está la Catedral de Santa Ágata, la santa patrona de Catania.",
+      en: "It is the most famous square in Catania. In the middle is the Elephant made of lava stone, the symbol of the city. Next to it is the Cathedral of Saint Agatha, the patron saint of Catania.",
+      fr: "C'est la place la plus célèbre de Catane. Au centre se trouve l'Éléphant en pierre de lave, le symbole de la ville. À côté, il y a la cathédrale Sainte-Agathe, la sainte patronne de Catane.",
+      ar: "إنها أشهر ساحة في كاتانيا. في وسطها الفيل المصنوع من حجر الحمم، رمز المدينة. وبجانبها كاتدرائية القديسة أغاتا، شفيعة كاتانيا.",
+      ro: "Este cea mai cunoscută piață din Catania. În mijloc se află Elefantul din piatră de lavă, simbolul orașului. Alături este Catedrala Sfânta Agata, sfânta ocrotitoare a Cataniei.",
+    },
+    practical: {
+      it: "In pieno centro. Si arriva a piedi o con la metropolitana (fermata Giovanni XXIII o Stesicoro). Vicino c'è il mercato del pesce, la Pescheria.",
+      es: "En pleno centro. Se llega a pie o en metro (parada Giovanni XXIII o Stesicoro). Cerca está el mercado de pescado, la Pescheria.",
+      en: "Right in the centre. Walk there or take the metro (Giovanni XXIII or Stesicoro stop). The fish market, the Pescheria, is nearby.",
+      fr: "En plein centre. On y va à pied ou en métro (arrêt Giovanni XXIII ou Stesicoro). Tout près, il y a le marché aux poissons, la Pescheria.",
+      ar: "في قلب المدينة. يمكن الوصول سيرًا على الأقدام أو بالمترو (محطة Giovanni XXIII أو Stesicoro). بالقرب منها سوق السمك «بيسكيريا».",
+      ro: "Chiar în centru. Se ajunge pe jos sau cu metroul (stația Giovanni XXIII sau Stesicoro). Aproape este piața de pește, Pescheria.",
+    },
+  },
+  {
+    id: "G-009",
+    name: "Villa Bellini",
+    category: "benessere",
+    town: "Catania",
+    lat: 37.5104,
+    lng: 15.0838,
+    isExample: true,
+    status: "approvato",
+    text: {
+      it: "È il grande giardino pubblico di Catania. Ci sono alberi, fiori, fontane e panchine. Le famiglie vengono qui per passeggiare e riposare all'ombra.",
+      es: "Es el gran jardín público de Catania. Hay árboles, flores, fuentes y bancos. Las familias vienen aquí a pasear y descansar a la sombra.",
+      en: "It is the big public garden of Catania. There are trees, flowers, fountains and benches. Families come here to walk and rest in the shade.",
+      fr: "C'est le grand jardin public de Catane. Il y a des arbres, des fleurs, des fontaines et des bancs. Les familles viennent ici pour se promener et se reposer à l'ombre.",
+      ar: "إنها الحديقة العامة الكبيرة في كاتانيا. فيها أشجار وزهور ونوافير ومقاعد. تأتي العائلات إلى هنا للتنزه والاستراحة في الظل.",
+      ro: "Este marea grădină publică a Cataniei. Sunt copaci, flori, fântâni și bănci. Familiile vin aici să se plimbe și să se odihnească la umbră.",
+    },
+    practical: {
+      it: "Su via Etnea, in centro. L'ingresso è gratis. È aperta tutti i giorni, di giorno.",
+      es: "Sobre via Etnea, en el centro. La entrada es gratis. Abre todos los días, de día.",
+      en: "On Via Etnea, in the centre. Entry is free. Open every day during daytime.",
+      fr: "Sur la via Etnea, au centre. L'entrée est gratuite. Ouvert tous les jours, en journée.",
+      ar: "في شارع إتنيا، وسط المدينة. الدخول مجاني. مفتوحة كل يوم خلال النهار.",
+      ro: "Pe Via Etnea, în centru. Intrarea este gratuită. Este deschisă în fiecare zi, pe timpul zilei.",
+    },
+  },
+  {
+    id: "G-010",
+    name: "Lungomare di Catania",
+    category: "sport",
+    town: "Catania",
+    lat: 37.5175,
+    lng: 15.1105,
+    isExample: true,
+    status: "approvato",
+    text: {
+      it: "Il lungomare è una lunga strada sul mare, tra rocce nere di lava. Si può camminare, correre o andare in bicicletta. La domenica molte persone fanno sport qui.",
+      es: "La costanera es una larga calle junto al mar, entre rocas negras de lava. Se puede caminar, correr o andar en bicicleta. Los domingos mucha gente hace deporte acá.",
+      en: "The seafront is a long road by the sea, among black lava rocks. You can walk, run or cycle. On Sundays many people do sport here.",
+      fr: "Le bord de mer est une longue route le long de la mer, entre des rochers noirs de lave. On peut marcher, courir ou faire du vélo. Le dimanche, beaucoup de gens font du sport ici.",
+      ar: "الكورنيش طريق طويل على البحر بين صخور الحمم السوداء. يمكنك المشي أو الجري أو ركوب الدراجة. يوم الأحد يمارس كثير من الناس الرياضة هنا.",
+      ro: "Faleza este un drum lung lângă mare, printre stânci negre de lavă. Poți merge pe jos, alerga sau pedala. Duminica, mulți oameni fac sport aici.",
+    },
+    practical: {
+      it: "Si arriva in autobus dal centro. Porta acqua e un cappello d'estate. Attenzione agli scogli: possono essere scivolosi.",
+      es: "Se llega en colectivo desde el centro. En verano llevá agua y sombrero. Cuidado con las rocas: pueden ser resbaladizas.",
+      en: "Take the bus from the centre. In summer bring water and a hat. Be careful on the rocks: they can be slippery.",
+      fr: "On y arrive en bus depuis le centre. En été, prenez de l'eau et un chapeau. Attention aux rochers : ils peuvent être glissants.",
+      ar: "يمكن الوصول بالحافلة من وسط المدينة. في الصيف خذ ماءً وقبعة. انتبه للصخور: قد تكون زلقة.",
+      ro: "Se ajunge cu autobuzul din centru. Vara, ia apă și o pălărie. Atenție la stânci: pot fi alunecoase.",
+    },
+  },
   {
     id: "G-001",
     name: "Castello Normanno",

@@ -9,6 +9,9 @@ export const INFO_LINKS = [
 
 export const SCHOOL_URL = "https://www.cpiacatania2.edu.it";
 
+/** Ente di formazione che supporta il CPIA: dopo la licenza media si prosegue con SE.F.O.R. */
+export const SEFOR_URL = "https://sefor.org";
+
 /**
  * Equipos de la sección Sport. `url: null` = enlace de EJEMPLO (todavía no hay equipo real):
  * el botón muestra un aviso en lugar de abrir algo. Cuando tengan el enlace real, se completa acá.
@@ -44,7 +47,7 @@ export type HomeCopy = {
     restart: string;
   };
   wheel: { title: string; info: string; sport: string; art: string };
-  school: { title: string; text: string; provisional: string; site: string };
+  school: { title: string; text: string; provisional: string; site: string; next: { question: string; text: string; cta: string } };
   info: {
     title: string;
     intro: string;
@@ -92,9 +95,10 @@ export const HOME_COPY: Record<Locale, HomeCopy> = {
     wheel: { title: "Scegli una categoria", info: "Info utili", sport: "Sport e benessere", art: "Arte e natura" },
     school: {
       title: "Il nostro CPIA",
-      text: "Il CPIA Catania 2 è la scuola per gli adulti di Giarre e Paternò: si impara l'italiano, si prende il diploma e si incontrano persone da tutto il mondo.",
+      text: "Il CPIA Catania 2 è la scuola pubblica per gli adulti della provincia di Catania: si impara l'italiano, si prende il diploma e si incontrano persone da tutto il mondo.",
       provisional: "Testo provvisorio: lo scriveranno i docenti.",
       site: "Sito della scuola",
+      next: { question: "E una volta conseguita la licenza media?", text: "Prosegui la tua formazione con SE.F.O.R.", cta: "Vai al sito di SE.F.O.R." },
     },
     info: {
       title: "Info utili",
@@ -150,9 +154,10 @@ export const HOME_COPY: Record<Locale, HomeCopy> = {
     wheel: { title: "Elegí una categoría", info: "Info útil", sport: "Deporte y bienestar", art: "Arte y naturaleza" },
     school: {
       title: "Nuestro CPIA",
-      text: "El CPIA Catania 2 es la escuela para adultos de Giarre y Paternò: se aprende italiano, se obtiene el diploma y se conoce gente de todo el mundo.",
+      text: "El CPIA Catania 2 es la escuela pública para adultos de la provincia de Catania: se aprende italiano, se obtiene el diploma y se conoce gente de todo el mundo.",
       provisional: "Texto provisorio: lo escribirán los docentes.",
       site: "Sitio de la escuela",
+      next: { question: "¿Y una vez que obtengas la licenza media?", text: "Seguí tu formación con SE.F.O.R.", cta: "Ir al sitio de SE.F.O.R." },
     },
     info: {
       title: "Info útil",
@@ -208,9 +213,10 @@ export const HOME_COPY: Record<Locale, HomeCopy> = {
     wheel: { title: "Choose a category", info: "Useful info", sport: "Sport and wellbeing", art: "Art and nature" },
     school: {
       title: "Our CPIA",
-      text: "CPIA Catania 2 is the adult school of Giarre and Paternò: you learn Italian, get your diploma and meet people from all over the world.",
+      text: "CPIA Catania 2 is the public school for adults in the province of Catania: you learn Italian, get your diploma and meet people from all over the world.",
       provisional: "Provisional text: the teachers will write it.",
       site: "School website",
+      next: { question: "And once you have your middle school diploma (licenza media)?", text: "Continue your training with SE.F.O.R.", cta: "Go to the SE.F.O.R. website" },
     },
     info: {
       title: "Useful info",
@@ -266,9 +272,10 @@ export const HOME_COPY: Record<Locale, HomeCopy> = {
     wheel: { title: "Choisis une catégorie", info: "Infos utiles", sport: "Sport et bien-être", art: "Art et nature" },
     school: {
       title: "Notre CPIA",
-      text: "Le CPIA Catania 2 est l'école pour adultes de Giarre et Paternò : on apprend l'italien, on passe le diplôme et on rencontre des personnes du monde entier.",
+      text: "Le CPIA Catania 2 est l'école publique pour adultes de la province de Catane : on apprend l'italien, on passe le diplôme et on rencontre des personnes du monde entier.",
       provisional: "Texte provisoire : les enseignants l'écriront.",
       site: "Site de l'école",
+      next: { question: "Et une fois la licenza media obtenue ?", text: "Poursuivez votre formation avec SE.F.O.R.", cta: "Aller sur le site de SE.F.O.R." },
     },
     info: {
       title: "Infos utiles",
@@ -324,9 +331,10 @@ export const HOME_COPY: Record<Locale, HomeCopy> = {
     wheel: { title: "اختر فئة", info: "معلومات مفيدة", sport: "الرياضة والعافية", art: "الفن والطبيعة" },
     school: {
       title: "مدرستنا CPIA",
-      text: "CPIA Catania 2 هي مدرسة الكبار في جاري وباتيرنو: نتعلم الإيطالية ونحصل على الشهادة ونلتقي بأشخاص من كل العالم.",
+      text: "CPIA Catania 2 هي المدرسة العامة للكبار في مقاطعة كاتانيا: نتعلم الإيطالية ونحصل على الشهادة ونلتقي بأشخاص من كل العالم.",
       provisional: "نص مؤقت: سيكتبه المعلمون.",
       site: "موقع المدرسة",
+      next: { question: "وبعد الحصول على شهادة الإعدادية (licenza media)؟", text: "تابع تكوينك مع SE.F.O.R.", cta: "اذهب إلى موقع SE.F.O.R." },
     },
     info: {
       title: "معلومات مفيدة",
@@ -382,9 +390,10 @@ export const HOME_COPY: Record<Locale, HomeCopy> = {
     wheel: { title: "Alege o categorie", info: "Info utile", sport: "Sport și bunăstare", art: "Artă și natură" },
     school: {
       title: "CPIA-ul nostru",
-      text: "CPIA Catania 2 este școala pentru adulți din Giarre și Paternò: înveți italiana, iei diploma și cunoști oameni din toată lumea.",
+      text: "CPIA Catania 2 este școala publică pentru adulți din provincia Catania: înveți italiana, iei diploma și cunoști oameni din toată lumea.",
       provisional: "Text provizoriu: îl vor scrie profesorii.",
       site: "Site-ul școlii",
+      next: { question: "Și după ce obții diploma de gimnaziu (licenza media)?", text: "Continuă-ți formarea cu SE.F.O.R.", cta: "Mergi la site-ul SE.F.O.R." },
     },
     info: {
       title: "Info utile",

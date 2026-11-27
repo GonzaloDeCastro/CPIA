@@ -19,7 +19,7 @@ export type GuidaCopy = {
 export const GUIDA_COPY: Record<Locale, GuidaCopy> = {
   it: {
     title: "Tra zagare e merendine",
-    subtitle: "Un viaggio mediterraneo tra luoghi, lingue e benessere: Giarre, Paternò e l'Etna.",
+    subtitle: "Un viaggio mediterraneo tra luoghi, lingue e benessere: Catania e l'Etna.",
     all: "Tutti",
     categories: { sport: "Sport", arte: "Arte", benessere: "Benessere" },
     tabs: { simple: "Italiano facile", mine: "La mia lingua", info: "Info pratiche" },
@@ -33,7 +33,7 @@ export const GUIDA_COPY: Record<Locale, GuidaCopy> = {
   },
   es: {
     title: "Entre azahares y meriendas",
-    subtitle: "Un viaje mediterráneo entre lugares, lenguas y bienestar: Giarre, Paternò y el Etna.",
+    subtitle: "Un viaje mediterráneo entre lugares, lenguas y bienestar: Catania y el Etna.",
     all: "Todos",
     categories: { sport: "Deporte", arte: "Arte", benessere: "Bienestar" },
     tabs: { simple: "Italiano fácil", mine: "Mi idioma", info: "Info práctica" },
@@ -47,7 +47,7 @@ export const GUIDA_COPY: Record<Locale, GuidaCopy> = {
   },
   en: {
     title: "Between orange blossoms and snacks",
-    subtitle: "A Mediterranean journey through places, languages and wellbeing: Giarre, Paternò and Etna.",
+    subtitle: "A Mediterranean journey through places, languages and wellbeing: Catania and Etna.",
     all: "All",
     categories: { sport: "Sport", arte: "Art", benessere: "Wellbeing" },
     tabs: { simple: "Easy Italian", mine: "My language", info: "Practical info" },
@@ -61,7 +61,7 @@ export const GUIDA_COPY: Record<Locale, GuidaCopy> = {
   },
   fr: {
     title: "Entre fleurs d'oranger et goûters",
-    subtitle: "Un voyage méditerranéen entre lieux, langues et bien-être : Giarre, Paternò et l'Etna.",
+    subtitle: "Un voyage méditerranéen entre lieux, langues et bien-être : Catane et l'Etna.",
     all: "Tous",
     categories: { sport: "Sport", arte: "Art", benessere: "Bien-être" },
     tabs: { simple: "Italien facile", mine: "Ma langue", info: "Infos pratiques" },
@@ -89,7 +89,7 @@ export const GUIDA_COPY: Record<Locale, GuidaCopy> = {
   },
   ro: {
     title: "Între flori de portocal și gustări",
-    subtitle: "O călătorie mediteraneană între locuri, limbi și bunăstare: Giarre, Paternò și Etna.",
+    subtitle: "O călătorie mediteraneană între locuri, limbi și bunăstare: Catania și Etna.",
     all: "Toate",
     categories: { sport: "Sport", arte: "Artă", benessere: "Bunăstare" },
     tabs: { simple: "Italiană simplă", mine: "Limba mea", info: "Informații practice" },

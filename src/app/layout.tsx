@@ -90,7 +90,7 @@ export const metadata: Metadata = {
     template: "%s | Tra Zagare e Merendine",
   },
   description:
-    "Guida digitale plurilingue ai luoghi di Giarre, Paternò e dell'Etna: sport, arte e benessere. CPIA Catania 2 – EPALE Edu Hack 2026.",
+    "Guida digitale plurilingue ai luoghi di Catania e dell'Etna: sport, arte e benessere. CPIA Catania 2 – EPALE Edu Hack 2026.",
   applicationName: "Tra Zagare e Merendine",
   openGraph: {
     type: "website",
@@ -98,7 +98,7 @@ export const metadata: Metadata = {
     siteName: "Tra Zagare e Merendine",
     title: "Tra Zagare e Merendine – Un viaggio mediterraneo tra luoghi, lingue e benessere",
     description:
-      "Guida digitale plurilingue ai luoghi di Giarre, Paternò e dell'Etna: sport, arte e benessere. CPIA Catania 2 – EPALE Edu Hack 2026.",
+      "Guida digitale plurilingue ai luoghi di Catania e dell'Etna: sport, arte e benessere. CPIA Catania 2 – EPALE Edu Hack 2026.",
     // Logo para la vista previa al compartir (WhatsApp, Facebook…). Ruta relativa a metadataBase (incluye /CPIA/).
     images: [{ url: "guida/brand/og.jpg", width: 1200, height: 630, alt: "Tra Zagare e Merendine" }],
   },

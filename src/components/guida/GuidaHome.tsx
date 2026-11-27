@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 import { EXTRAS_COPY } from "@/lib/guida/extras";
-import { HOME_COPY, NEED_ORDER, SCHOOL_URL, type NeedId } from "@/lib/guida/home-copy";
+import { HOME_COPY, NEED_ORDER, SCHOOL_URL, SEFOR_URL, type NeedId } from "@/lib/guida/home-copy";
 import { useLocale } from "@/lib/i18n/locale";
 import { withBasePath } from "@/lib/routing/base-path";
 
@@ -142,6 +142,20 @@ export function GuidaHome() {
             {extras.projectLink} →
           </Link>
           <HymnPlayer copy={extras.hymn} className="flex [&>button]:w-full [&>button]:justify-center" />
+        </div>
+        <div className="mt-5 rounded-xl border-2 border-lime-300/60 bg-green-900 p-4 sm:flex sm:items-center sm:gap-4">
+          <p className="flex-1 text-base leading-relaxed text-green-50 sm:text-lg">
+            <span aria-hidden className="me-1">🎓</span>
+            <strong className="text-lime-300">{copy.school.next.question}</strong> {copy.school.next.text}
+          </p>
+          <a
+            href={SEFOR_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 inline-flex min-h-12 w-full items-center justify-center rounded-lg bg-lime-300 px-4 text-center text-base font-extrabold text-green-950 hover:brightness-110 sm:mt-0 sm:w-auto"
+          >
+            {copy.school.next.cta} ↗
+          </a>
         </div>
       </section>
 
