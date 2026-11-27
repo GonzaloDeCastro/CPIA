@@ -74,3 +74,29 @@ export const SPORT_PHOTOS: GalleryPhoto[] = [
   { file: "15", caption: "Allenamento con le luci accese" },
   { file: "16", caption: "I giocatori in fila sul campo" },
 ];
+
+/**
+ * Fotos de la sección "Arte" (Catania, su provincia y el Castello Normanno de Paternò), enviadas el 25/11/2026.
+ * Archivos en `public/guida/arte/NN.webp` y `NN-sm.webp` (lado mayor 1280 / 560 px), sin EXIF.
+ * Leyendas en italiano fácil: revisarlas con el equipo si algún lugar es otro.
+ */
+export const ARTE_PHOTOS: GalleryPhoto[] = [
+  { file: "01", caption: "Il Duomo di Catania durante la festa di Sant'Agata", wide: true },
+  { file: "02", caption: "La processione di Sant'Agata" },
+  { file: "03", caption: "Il Teatro Massimo Bellini" },
+  { file: "04", caption: "Il Palazzo dell'Università" },
+  { file: "05", caption: "La facciata di un palazzo barocco" },
+  { file: "06", caption: "Una grande cupola" },
+  { file: "07", caption: "La cupola dietro gli alberi" },
+  { file: "08", caption: "Una chiesa e la sua piazza di sera" },
+  { file: "09", caption: "Una chiesa con il campanile e la cupola" },
+  { file: "10", caption: "Il Castello Normanno di Paternò" },
+  { file: "11", caption: "Il castello sulla collina" },
+  { file: "12", caption: "Il castello e le rocce di lava" },
+  { file: "13", caption: "Le finestre del castello" },
+  { file: "14", caption: "La torre di pietra" },
+  { file: "15", caption: "La strada verso il castello" },
+  { file: "16", caption: "La scala per salire al castello" },
+  { file: "17", caption: "Il cartello del Castello Normanno" },
+  { file: "18", caption: "Una sala con una vetrata colorata e i pianeti" },
+];

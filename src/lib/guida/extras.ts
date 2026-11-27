@@ -56,6 +56,7 @@ export type ExtrasCopy = {
   phrasesNote: string;
   gallery: { title: string; hint: string; close: string; prev: string; next: string };
   sportGallery: { title: string; hint: string };
+  artGallery: { title: string; hint: string };
   hymn: { play: string; stop: string; label: string };
 };
 
@@ -81,6 +82,10 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
       title: "Sport a Catania",
       hint: "Il calcio, le squadre e gli allenamenti. Tocca una foto per ingrandirla.",
     },
+    artGallery: {
+      title: "Arte a Catania e provincia",
+      hint: "Chiese, palazzi, teatri e castelli. Tocca una foto per ingrandirla.",
+    },
     hymn: { play: "Inno della scuola", stop: "Ferma l'inno", label: "Ascolta l'inno del CPIA" },
   },
   es: {
@@ -103,6 +108,10 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     sportGallery: {
       title: "Deporte en Catania",
       hint: "El fútbol, los equipos y los entrenamientos. Tocá una foto para agrandarla.",
+    },
+    artGallery: {
+      title: "Arte en Catania y su provincia",
+      hint: "Iglesias, palacios, teatros y castillos. Tocá una foto para agrandarla.",
     },
     hymn: { play: "Himno de la escuela", stop: "Parar el himno", label: "Escuchar el himno de la escuela" },
   },
@@ -127,6 +136,10 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
       title: "Sport in Catania",
       hint: "Football, teams and training. Tap a photo to enlarge it.",
     },
+    artGallery: {
+      title: "Art in Catania and its province",
+      hint: "Churches, palaces, theatres and castles. Tap a photo to enlarge it.",
+    },
     hymn: { play: "School anthem", stop: "Stop the anthem", label: "Listen to the school anthem" },
   },
   fr: {
@@ -149,6 +162,10 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     sportGallery: {
       title: "Sport à Catane",
       hint: "Le football, les équipes et les entraînements. Touchez une photo pour l'agrandir.",
+    },
+    artGallery: {
+      title: "Art à Catane et dans sa province",
+      hint: "Églises, palais, théâtres et châteaux. Touchez une photo pour l'agrandir.",
     },
     hymn: { play: "Hymne de l'école", stop: "Arrêter l'hymne", label: "Écouter l'hymne de l'école" },
   },
@@ -173,6 +190,10 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
       title: "الرياضة في كاتانيا",
       hint: "كرة القدم والفرق والتدريبات. اضغط على صورة لتكبيرها.",
     },
+    artGallery: {
+      title: "الفن في كاتانيا ومقاطعتها",
+      hint: "كنائس وقصور ومسارح وقلاع. اضغط على صورة لتكبيرها.",
+    },
     hymn: { play: "نشيد المدرسة", stop: "إيقاف النشيد", label: "استمع إلى نشيد المدرسة" },
   },
   ro: {
@@ -195,6 +216,10 @@ export const EXTRAS_COPY: Record<Locale, ExtrasCopy> = {
     sportGallery: {
       title: "Sport la Catania",
       hint: "Fotbal, echipe și antrenamente. Atinge o fotografie pentru a o mări.",
+    },
+    artGallery: {
+      title: "Artă la Catania și în provincie",
+      hint: "Biserici, palate, teatre și castele. Atinge o fotografie pentru a o mări.",
     },
     hymn: { play: "Imnul școlii", stop: "Oprește imnul", label: "Ascultă imnul școlii" },
   },

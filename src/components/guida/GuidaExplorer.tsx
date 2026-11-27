@@ -6,7 +6,7 @@ import type { Map as LeafletMap, LayerGroup } from "leaflet";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 
-import { BENESSERE_PHOTOS, SPORT_PHOTOS } from "@/data/guida/benessere-gallery";
+import { ARTE_PHOTOS, BENESSERE_PHOTOS, SPORT_PHOTOS } from "@/data/guida/benessere-gallery";
 import { approvedPlaces, type GuidaCategory, type GuidaPlace } from "@/data/guida/places";
 import { GUIDA_COPY, SPEECH_LANG } from "@/lib/guida/copy";
 import { EXTRAS_COPY, GUIDA_ROUTES } from "@/lib/guida/extras";
@@ -435,6 +435,15 @@ export function GuidaExplorer() {
         </section>
       </div>
 
+      {filter === "all" || filter === "arte" ? (
+        <GuidaGallery
+          copy={extras.gallery}
+          photos={ARTE_PHOTOS}
+          folder="arte"
+          title={extras.artGallery.title}
+          hint={extras.artGallery.hint}
+        />
+      ) : null}
       {filter === "all" || filter === "sport" ? (
         <GuidaGallery
           copy={extras.gallery}

@@ -31,12 +31,8 @@ const FR_RECORDINGS = ES_RECORDINGS;
 const EN_RECORDINGS = ES_RECORDINGS;
 const RO_RECORDINGS = ES_RECORDINGS;
 
-/** Grabaciones reales en italiano (`.m4a`): faltan las de banca y casa, que usan la voz del dispositivo. */
-const IT_RECORDINGS = new Set([
-  "questura-1", "questura-2", "questura-3", "questura-4",
-  "entrate-1", "entrate-2", "entrate-3", "entrate-4",
-  "asp-1", "asp-2", "asp-3",
-]);
+/** Grabaciones reales en italiano (`.m4a`): están las 17 frases. */
+const IT_RECORDINGS = ES_RECORDINGS;
 
 /** Ruta de la grabación real de una frase (n empieza en 1), o undefined si no hay. */
 export function recordingFor(groupId: string, n: number, lang: Locale): string | undefined {

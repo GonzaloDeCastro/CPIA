@@ -9,7 +9,7 @@ import { withBasePath } from "@/lib/routing/base-path";
 type Props = {
   copy: ExtrasCopy["gallery"];
   photos: GalleryPhoto[];
-  /** Carpeta dentro de `public/guida/` (benessere, deporte). */
+  /** Carpeta dentro de `public/guida/` (arte, benessere, deporte). */
   folder: string;
   title: string;
   hint: string;
